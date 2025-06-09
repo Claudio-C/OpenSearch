@@ -182,6 +182,9 @@ def create_index_if_not_exists(opensearch_url, index_name, username=None, passwo
     if username and password:
         auth = (username, password)
     
+    # Get field limit from environment or use a much higher default
+    field_limit = int(os.getenv("OPENSEARCH_FIELD_LIMIT", "30000"))
+    
     try:
         # Check if index exists
         response = requests.head(
@@ -195,9 +198,9 @@ def create_index_if_not_exists(opensearch_url, index_name, username=None, passwo
                 "settings": {
                     "number_of_shards": 5,
                     "number_of_replicas": 1,
-                    "index.mapping.total_fields.limit": 10000,  # Increased from default 1000
-                    "index.mapping.nested_fields.limit": 1000,  # Also increase nested fields limit
-                    "index.mapping.nested_objects.limit": 10000  # Maximum number of nested JSON objects 
+                    "index.mapping.total_fields.limit": field_limit,  # Increased from 10000
+                    "index.mapping.nested_fields.limit": 2000,  # Also increase nested fields limit
+                    "index.mapping.nested_objects.limit": 20000  # Maximum number of nested JSON objects 
                 },
                 "mappings": {
                     "dynamic": True  # Allow all fields to be indexed dynamically
@@ -212,7 +215,7 @@ def create_index_if_not_exists(opensearch_url, index_name, username=None, passwo
             )
             
             if create_response.status_code >= 200 and create_response.status_code < 300:
-                logger.info(f"Created index {index_name} with increased field limits")
+                logger.info(f"Created index {index_name} with field limit {field_limit}")
             else:
                 logger.error(f"Failed to create index {index_name}: {create_response.text}")
         elif response.status_code == 200:
@@ -225,21 +228,48 @@ def create_index_if_not_exists(opensearch_url, index_name, username=None, passwo
             if settings_response.status_code >= 200 and settings_response.status_code < 300:
                 settings_data = settings_response.json()
                 try:
+                    # Try to get current field limit
                     current_limit = settings_data.get(index_name, {}).get("settings", {}).get("index", {}).get("mapping", {}).get("total_fields", {}).get("limit")
-                    if not current_limit or int(current_limit) < 10000:
-                        # Update the field limit
-                        update_response = requests.put(
-                            f"{opensearch_url}/{index_name}/_settings",
-                            json={
-                                "index.mapping.total_fields.limit": 10000
-                            },
-                            auth=auth,
-                            headers={"Content-Type": "application/json"}
+                    
+                    if not current_limit or int(current_limit) < field_limit:
+                        # Close the index before updating settings
+                        close_response = requests.post(
+                            f"{opensearch_url}/{index_name}/_close",
+                            auth=auth
                         )
-                        if update_response.status_code >= 200 and update_response.status_code < 300:
-                            logger.info(f"Updated index {index_name} to increase field limit to 10000")
+                        
+                        if close_response.status_code >= 200 and close_response.status_code < 300:
+                            logger.info(f"Closed index {index_name} to update settings")
+                            
+                            # Update the field limit
+                            update_response = requests.put(
+                                f"{opensearch_url}/{index_name}/_settings",
+                                json={
+                                    "index.mapping.total_fields.limit": field_limit,
+                                    "index.mapping.nested_fields.limit": 2000,
+                                    "index.mapping.nested_objects.limit": 20000
+                                },
+                                auth=auth,
+                                headers={"Content-Type": "application/json"}
+                            )
+                            
+                            if update_response.status_code >= 200 and update_response.status_code < 300:
+                                logger.info(f"Updated index {index_name} to increase field limit to {field_limit}")
+                            else:
+                                logger.warning(f"Could not update field limit for existing index: {update_response.text}")
+                            
+                            # Reopen the index
+                            open_response = requests.post(
+                                f"{opensearch_url}/{index_name}/_open",
+                                auth=auth
+                            )
+                            
+                            if open_response.status_code >= 200 and open_response.status_code < 300:
+                                logger.info(f"Reopened index {index_name}")
+                            else:
+                                logger.error(f"Failed to reopen index {index_name}: {open_response.text}")
                         else:
-                            logger.warning(f"Could not update field limit for existing index: {update_response.text}")
+                            logger.error(f"Failed to close index {index_name} for updates: {close_response.text}")
                 except Exception as e:
                     logger.warning(f"Error checking field limits: {e}")
             
