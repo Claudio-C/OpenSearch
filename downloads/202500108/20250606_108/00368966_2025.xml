@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cn:ContractNotice xmlns:cn="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:brin="http://data.europa.eu/p27/eforms-business-registration-information-notice/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:can="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:pin="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>www.puchheim.de</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="DEU">Stadt Puchheim</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Boschstr. 1</cbc:StreetName>
+                  <cbc:CityName>Puchheim</cbc:CityName>
+                  <cbc:PostalZone>82178</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">DE21C</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>09179145-179145-21</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>089 800 98 555</cbc:Telephone>
+                  <cbc:Telefax>089 800 98 570</cbc:Telefax>
+                  <cbc:ElectronicMail>vergabestelle.bau@puchheim.de</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="DEU">Regierung von Oberbayern - Vergabekammer Südbayern</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Maximilianstr. 39</cbc:StreetName>
+                  <cbc:CityName>München</cbc:CityName>
+                  <cbc:PostalZone>80538</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">DE21C</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>09-0318006-60</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+498921762411</cbc:Telephone>
+                  <cbc:Telefax>+498921762847</cbc:Telefax>
+                  <cbc:ElectronicMail>vergabekammer.suedbayern@reg-ob.bayern.de</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368966-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">2b1b5e26-183a-499a-a02b-aa6c3dd4e92e</cbc:ID>
+  <cbc:ContractFolderID>a4fe1e68-54bd-461c-b451-707627e89618</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+  <cbc:IssueTime>11:28:39+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cbc:BuyerProfileURI>https://plattform.aumass.de/Veroeffentlichung/av24d898-eu</cbc:BuyerProfileURI>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID>ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>vob-a-eu</cbc:ID>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>CrossBorderLaw</cbc:ID>
+      <cbc:DocumentDescription languageID="DEU">entfällt</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Ausschlussgründe gemäß §§ 6e, 16 - 16d EU VOB/A</cbc:Description>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>621/04.2.3_2316a</cbc:ID>
+    <cbc:Name languageID="DEU">Metalltüren BA 1</cbc:Name>
+    <cbc:Description languageID="DEU">Die Mittelschule Puchheim wird aufgrund verschiedener brandschutztechnischer Mängel umfassend saniert. Das Gewerk VE2316a Metalltüren BA1 beinhaltet Arbeiten zur Lieferung und Einbau von Stahltüren mit Stahlumfassungszarge und Aluminium Rohrrahmen Element. Die einzubringenden Elemente befinden sich in diesem Objekt in fünf Etagen: UG, EG, OG1-OG3.
+
+Metalltüren
+-	Stahltüren mit Stahlumfassungszarge
+•	Die Türen werden in den verschiedenen Etagen in Wandflächen aus Stb., GK und MW eingesetzt.
+•	16 Stück
+•	Eigenschaften der einzubauenden Elemente in Auszug:
+o	Alle Oberflächen sind Endbehandelt
+o	Gleitschienenobentürschließer
+o	In Teilen T30 mit Ausstattung RS
+o	Drückergarnitur D/D_DOM
+-	Aluminium Rohrrahmen Element
+•	Die Türen werden in den verschiedenen Etagen in Wandflächen aus Stb., GK und MW eingesetzt.
+•	12 Stück
+•	Eigenschaften der einzubauenden Elemente in Auszug:
+o	Alle Oberflächen sind Endbehandelt
+o	Gleitschienenobentürschließer mit elektrischer Feststellfunktion+ integrierter RMZ
+o	T30 mit Ausstattung RS
+o	Glasausschnitte im Türblatt
+o	Oberlichter und/oder Seitenteile aus Glas
+o	Ein und zweiflügelige Elemente
+o	Drückergarnitur D/D_DOM
+o	automatisch absenkbare Bodenabdichtung
+•	Durchblickfenster Feuerschutzverglasung
+•	1 Stück
+•	Eigenschaften des einzubauenden Elementes in Auszug:
+o	Brandschutzanforderung: F30
+o	Schallschutzanforderung: Rw,P = 42 dB
+o	Oberfläche ist Endbehandelt
+-Türstopper
+•	Boden
+o	Edelstahl-Optik, gebürstet.
+o	Mit breitem Gummiring.
+o	Höhe 41 mm, Ø 30 mm
+o	Wand
+o	Edelstahl
+o	Höhe ca. 6,5 cm,
+o	Breite/Tiefe ca. 5,1 cm
+</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+    <cbc:Note languageID="DEU">(1) Unternehmen geben mit dem Angebot die Erklärung Bezug Russland ab (Formblatt 127 ausgefüllt; gilt für Bieter, Mitglieder einer Bietergemeinschaft). (2) Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben mit dem Angebot Eigenerklärungen zu - Eintragungen in die Handwerksrolle/Industrie und Handwerkskammer (wenn Verpflichtung besteht) - Ausschlussgründen - Insolvenzverfahren und Liquidation - zur Zahlung von Steuern, Abgaben und Beiträgen zur Sozialversicherung - zur Mitgliedschaft bei der Berufsgenossenschaft ab (Formblatt 124 ausgefüllt; gilt für Bieter, Mitglieder einer Bietergemeinschaft; für Unterauftragnehmer und eignungsverleihende Unternehmen erst auf gesondertes Verlangen). (3) Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen der engeren Wahl haben  auf gesonderdes Verlangen innnehalb der gesetzten Frist folgende Nachweise vorzulegen: Eigenerklärung zur Zahl der in den letzten 3 Jahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen, mit extra ausgewiesenem Leitungspersonal -Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie-und Handelskammer -Rechtskräftig bestätigter Insolvenzplan (falls eine Erklärung über das Vorliegen eines solchen Insolvenzplans abgegeben wurde) -Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, falls das Unternehmen beitragspflichtig ist- Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen, falls das Finanzamt eine solche Bescheinigung ausstellt -Freistellungsbescheinigung nach § 48b Einkommensteuergesetz -qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des zuständigen Versicherungsträgers mit Angabe der Lohnsummen- Nachweise hinsichtlich einer eventuell durchgeführten Selbstreinigung (gilt für Bieter, Mitglieder einer Bietergemeinschaft, Unterauftragnehmer und eignungsverleihende Unternehmen) (4) Die gesamte Kommunikation während des Vergabeverfahrens wird ausschließlich über die Vergabeplattform geführt. Um Bieterfragen stellen, Bieterinformationen erhalten und ein elektronisches Angebot abgeben zu können, ist eine Registrierung auf der Vergabeplattform erforderlich. Es ist zu beachten, dass die Kommunikation auch nach Ablauf der Angebotsfrist z.B. zum Zwecke der Nachforderung von Unterlagen, der Aufklärung etc. ausschließlich über die Vergabeplattform geführt wird. Da in diesem Zusammenhang Fristen gesetzt werden können, die im Falle der Nichteinhaltung den Ausschluss bedingen, obliegt es dem Bieter, sich stets tagesaktuell darüber zu informieren, ob entsprechende Mitteilungen auf der Plattform hinterlegt sind. Dies umfasst auch die Prüfung von SPAM-Mail-Ordnern. Die Versäumung derart bekanntgegebener Fristen geht zu Lasten des Bieters.</cbc:Note>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">45421130</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">45421100</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">44221220</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:StreetName>Lagerstr. 26</cbc:StreetName>
+        <cbc:CityName>Puchheim </cbc:CityName>
+        <cbc:PostalZone>82178</cbc:PostalZone>
+        <cbc:CountrySubentityCode listName="nuts">DE21C</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Unternehmen, die für die ausgeschriebenen Leistungen präqualifiziert sind, führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu im Angebot (Formblatt 213) die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft; für Unterauftragnehmer und eignungsverleihende Unternehmen erst auf gesondertes Verlangen). Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben mit dem Angebot eine Eigenerklärung über die Eintragung in das Berufs- oder Handelsregister ab (Formblatt 124 ausgefüllt; gilt für Bieter, Mitglieder einer Bietergemeinschaft; für Unterauftragnehmer und eignungsverleihende Unternehmen erst auf gesondertes Verlangen).</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Für die ausgeschriebenen Leistungen präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu im Angebot (Formblatt 213) die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft; für Unterauftragnehmer und eignungsverleihende Unternehmen erst auf gesondertes Verlangen). Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben mit dem Angebot eine Eigenerklärung zum Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen ab (Formblatt 124 ausgefüllt; gilt für Bieter, Mitglieder einer Bietergemeinschaft; für Unterauftragnehmer und  eignungsverleihende Unternehmen erst auf gesondertes Verlangen). </cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-work</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Für die ausgeschriebenen Leistungen präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu im Angebot (Formblatt 213) die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft; für Unterauftragnehmer und eignungsverleihende Unternehmen erst auf gesondertes Verlangen). Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben mit dem Angebot folgende Eigenerklärung ab: - Eigenerklärung im Formblatt 124 zur Ausführung vergleichbarer Leistungen in den letzten fünf Kalenderjahren (gilt für Bieter, Mitglieder einer Bietergemeinschaft; für Unterauftragnehmer und eignungsverleihende Unternehmen erst auf gesondertes Verlangen).
+Auftragsspezifische Einzelnachweise (von präqualifizierten und nicht präqualifizierten Unternehmen vorzulegen): 
+- Mit dem Angebot: (1) Eigenerklärung zu 3 Referenzen aus den letzten 5 Kalenderjahren über nach Art und Umfang vergleichbare Leistungen unter Verwendung des Formblatts 444 (Referenzbescheinigung), Seiten 1 und 2 mit den darin geforderten Angaben
+https://www.stmb.bayern.de/assets/stmi/buw/bauthemen/vergabeundvertragswesen/vhb/z5_vergabe_bauauftraege_formblatt_444_referenz.pdf
+- Auf gesondertes Verlangen innerhalb der gesetzten Frist: (1) Für die vorgelegten Referenzen Bestätigung des Auftraggebers über die vertragsgemäße Ausführung der Leistung unter Verwendung des Formblatts 444 (Referenzbescheinigung) Seite 3. (2) für Unterauftragnehmer und eignungsverleihende Unternehmen: Eigenerklärung zur 3 Referenzen aus den letzten 5 Kalenderjahren über nach Art und Umfang vergleichbare Leistungen bezogen auf die betreffenden Teilleistungen unter Verwendung des Formblatts 444 Seiten 1-3.
+
+</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Für die ausgeschriebenen Leistungen präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu im Angebot (Formblatt 213) die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft; für Unterauftragnehmer und eignungsverleihende Unternehmen erst auf gesondertes Verlangen). Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben mit dem Angebot folgende Eigenerklärung ab: - Eigenerklärung, dass die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen (Formblatt 124; gilt für Bieter, Mitglieder einer Bietergemeinschaft; für Unterauftragnehmer und eignungsverleihende Unternehmen erst auf gesondertes Verlangen).</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Auftragsspezifische Einzelnachweise (von präqualifizierten und nicht präqualifizierten Unternehmen vorzulegen): - Mit dem Angebot sind die Teile des Auftrags, die als Unteraufträge an andere Unternehmen vergeben werden sollen, zu benennen.</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>DEU</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>av24d898</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://plattform.aumass.de/Veroeffentlichung/av24d898-eu</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+          <cbc:Description languageID="DEU">Nachforderung gemäß § 16a EU-VOB/A</cbc:Description>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-fixed">fix-tot</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="DEU">Preis einziges Kriterium </cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://plattform.aumass.de/Veroeffentlichung/av24d898-eu</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="DAY">60</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="DEU">Ein Nachprüfungsantrag ist unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind (§ 160 Abs. 3 Satz 1 Nr. 4 GWB). Ein Nachprüfungsantrag ist zudem unzulässig, wenn der Zuschlag erfolgt ist, bevor die Vergabekammer den Auftraggeber über den Antrag auf Nachprüfung informiert hat (§§ 168 Abs. 2 Satz 1, 169 Abs. 1 GWB). Die Zuschlagserteilung ist möglich 15 Kalendertage nach Absendung der Bieterinformation nach § 134 Abs. 1 GWB. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf zehn Kalendertage (§ 134 Abs. 2 GWB). Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an. Die Zulässigkeit eines Nachprüfungsantrags setzt ferner voraus, dass die geltend gemachten Vergabeverstöße 10 Kalendertage nach Kenntnis gerügt wurden (§ 160 Abs. 3 Satz 1 Nr. 1 GWB). Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, müssen spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden (§ 160 Abs. 3 Satz 1 Nr. 2 GWB). Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, müssen spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden (§ 160 Abs. 3 Satz 1 Nr. 3 GWB).
+
+</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID>ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>DEU</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cbc:AccessToolsURI>https://plattform.aumass.de/Veroeffentlichung/av24d898-eu</cbc:AccessToolsURI>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-07-10+02:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2025-07-10+02:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+        <cbc:Description languageID="DEU">Bieter und ihre Bevollmächtigten sind nicht zugelassen</cbc:Description>
+        <cac:OccurenceLocation>
+          <cbc:Description languageID="DEU">Vergabeplattform - elektronische Öffnung</cbc:Description>
+        </cac:OccurenceLocation>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <cac:SubsequentProcessTenderRequirement>
+          <cbc:Name>buyer-categories</cbc:Name>
+        </cac:SubsequentProcessTenderRequirement>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>621/04.2.3_2316a</cbc:ID>
+      <cbc:Name languageID="DEU">Metalltüren BA 1</cbc:Name>
+      <cbc:Description languageID="DEU">Die Mittelschule Puchheim wird aufgrund verschiedener brandschutztechnischer Mängel umfassend saniert. Das Gewerk VE2316a Metalltüren BA1 beinhaltet Arbeiten zur Lieferung und Einbau von Stahltüren mit Stahlumfassungszarge und Aluminium Rohrrahmen Element. Die einzubringenden Elemente befinden sich in diesem Objekt in fünf Etagen: UG, EG, OG1-OG3.
+
+
+Metalltüren
+-	Stahltüren mit Stahlumfassungszarge
+•	Die Türen werden in den verschiedenen Etagen in Wandflächen aus Stb., GK und MW eingesetzt.
+•	16 Stück
+•	Eigenschaften der einzubauenden Elemente in Auszug:
+o	Alle Oberflächen sind Endbehandelt
+o	Gleitschienenobentürschließer
+o	In Teilen T30 mit Ausstattung RS
+o	Drückergarnitur D/D_DOM
+-	Aluminium Rohrrahmen Element
+•	Die Türen werden in den verschiedenen Etagen in Wandflächen aus Stb., GK und MW eingesetzt.
+•	12 Stück
+•	Eigenschaften der einzubauenden Elemente in Auszug:
+o	Alle Oberflächen sind Endbehandelt
+o	Gleitschienenobentürschließer mit elektrischer Feststellfunktion+ integrierter RMZ
+o	T30 mit Ausstattung RS
+o	Glasausschnitte im Türblatt
+o	Oberlichter und/oder Seitenteile aus Glas
+o	Ein und zweiflügelige Elemente
+o	Drückergarnitur D/D_DOM
+o	automatisch absenkbare Bodenabdichtung
+•	Durchblickfenster Feuerschutzverglasung
+•	1 Stück
+•	Eigenschaften des einzubauenden Elementes in Auszug:
+o	Brandschutzanforderung: F30
+o	Schallschutzanforderung: Rw,P = 42 dB
+o	Oberfläche ist Endbehandelt
+-Türstopper
+•	Boden
+o	Edelstahl-Optik, gebürstet.
+o	Mit breitem Gummiring.
+o	Höhe 41 mm, Ø 30 mm
+o	Wand
+o	Edelstahl
+o	Höhe ca. 6,5 cm,
+o	Breite/Tiefe ca. 5,1 cm
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">45421130</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">45421100</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">44221220</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:StreetName>Lagerstr. 26</cbc:StreetName>
+          <cbc:CityName>Puchheim </cbc:CityName>
+          <cbc:PostalZone>82178 </cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">DE21C</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="DAY">257</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</cn:ContractNotice>

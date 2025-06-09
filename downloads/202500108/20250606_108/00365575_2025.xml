@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><PriorInformationNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hilma="urn:hanselHilma:NationalNoticeExtension">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">E1</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.poliisi.fi/poliisihallitus</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Poliisihallitus</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Vuorimiehentie 3, PL 1000</cbc:StreetName>
+                  <cbc:CityName>Espoo</cbc:CityName>
+                  <cbc:PostalZone>02151</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>2288666-6</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Poliisin informaatioteknologiakeskus</cbc:Name>
+                  <cbc:Telephone>+358 295480181</cbc:Telephone>
+                  <cbc:ElectronicMail>hankinnat.informaatioteknologiakeskus.poliisihallitus@poliisi.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.hankintailmoitukset.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Hansel Oy (Hilma)</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Mannerheiminaukio 1 A</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts-lvl3">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>FI09880841</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358 295563630</cbc:Telephone>
+                  <cbc:ElectronicMail>tekninen@hankintailmoitukset.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365575-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">d24380be-8323-4649-b35b-8d4f80ad30f2</cbc:ID>
+  <cbc:IssueDate>2025-06-05+03:00</cbc:IssueDate>
+  <cbc:IssueTime>10:21:30+03:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>other</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="consultation">pmc</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode listName="eu-official-language">FIN</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">pub-os</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>LocalLegalBasis</cbc:ID>
+      <cbc:DocumentDescription languageID="FIN">Tämä ilmoitus on markkinakartoitus ja tietopyyntö, johon ei vielä sovelleta hankintalainsäädäntöä. Poliisihallitus tekee päätöksen mahdollisen tarjouskilpailun järjestämisestä markkinakartoituksen jälkeen.</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+  </cac:TenderingTerms>
+  <cac:ProcurementProject>
+    <cbc:ID>POL-2025-79309</cbc:ID>
+    <cbc:Name languageID="FIN">Poliisin lomakejärjestelmä ja siihen liittyvät tuki- ja ylläpitopalvelut</cbc:Name>
+    <cbc:Description languageID="FIN">Tämä ilmoitus on markkinakartoitus ja tietopyyntö, eikä hankintailmoitus tai tarjouspyyntö.
+
+Tietopyynnön tarkoituksena on kartoittaa Microsoft Office -muotoisten tai vastaavien toimistosovellusten lomakkeiden ja asiakirjapohjien hallintaan ja käyttöön liittyvän työkalun hankintaan liittyviä kysymyksiä potentiaalisilta toimittajilta ja palveluntarjoajilta. Työkalusta käytetään tässä tietopyynnössä nimeä ”lomakejärjestelmä”. Tällä hetkellä käytössä on Microsoft Word, Excel ja PowerPoint -muotoisia lomakkeita ja asiakirjapohjia. 
+
+Tietopyyntöön vastaamatta jättäminen ei estä mahdolliseen tarjouskilpailuun osallistumista. Tietopyyntö ei velvoita Poliisihallitusta toteuttamaan hankintaa tietopyynnössä ja sen liitteissä kuvatulla tavalla ja tarjouskilpailu voidaan myös jättää toteuttamatta.
+
+Tietopyynnön kohde on tarkemmin kuvattu tietopyynnön liitteessä 1 ja potentiaalisille toimittajille esitetyt kysymykset liitteessä 2. Poliisihallitus toivoo, että potentiaaliset toimittajat vastaisivat kysymyksiin mahdollisimman kattavasti.
+
+Tietopyynnön tavoitteena on lisätä Poliisihallituksen markkinatuntemusta, kartoittaa markkinoilla olevia toimittajia ja heidän tuote- ja palveluvalikoimaansa sekä saada kattavasti niitä koskevia tietoja. Poliisihallitus voi hyödyntää annettuja vastauksia, mikäli se päättää järjestää hankinnasta tarjouskilpailun. Poliisihallitus voi pyytää tietopyyntöön vastanneilta lisätietoja heidän tuote- ja palveluvalikoimastaan.
+
+Tietopyyntöä koskevia kysymyksiä voi esittää torstaihin 19.6.2025 15:00 asti. Huomioikaa, että kysymänne kysymys tulee julkiseksi, kun vastaamme siihen. Kysyjän tiedot eivät tule julkiseksi.
+
+Pyydämme markkinavuoropuheluun osallistumisesta kiinnostuneita toimittajia vastaamaan tietopyyntöön maanantaihin 4.8.2025 klo 15.00 mennessä.
+
+Tietopyyntöön annetut vastaukset tulevat julkisiksi, kun asiaa koskevassa mahdollisesti suoritettavassa hankinnassa tehdään päätös ja sopimus (JulkL 6 §). Mikäli kartoituksen perusteella päätetään, että sopimusta ei tehdä lainkaan, tulevat asiakirjat julkisiksi ao. päätöksen allekirjoituksesta. Mikäli vastaajan vastaukset sisältävät liike- ja ammattisalaisuuksia tai muuta salassa pidettävää tietoa, kyseiset osat vastauksesta tulee yksilöidä ja toimittaa ne erillisessä liitteessä SALASSA PIDETTÄVÄKSI merkittynä. Tietopyyntö ei sido kumpaakaan osapuolta.
+
+Poliisihallitus tekee päätöksen mahdollisen tarjouskilpailun järjestämisestä markkinakartoituksen jälkeen.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:ProcurementAdditionalType>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    </cac:ProcurementAdditionalType>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      <cbc:Description languageID="FIN">Poliisihallitus on alustavasti ilmoittanut suorituspaikaksi "Missä tahansa Euroopan talousalueella". Mikäli Poliisihallitus tekee päätöksen mahdollisesta tarjouskilpailun järjestämisestä markkinakartoituksen jälkeen, Poliisihallitus arvioi suorituspaikan ennen kilpailutuksen käynnistymistä, jolloin se voi muuttua tässä ilmoitetusta. </cbc:Description>
+      <cac:Address>
+        <cbc:Region>anyw-eea</cbc:Region>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://www.hankintailmoitukset.fi/fi/tendering/procedure/17101/call-for-tenders</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:Language>
+        <cbc:ID>FIN</cbc:ID>
+      </cac:Language>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:AnswerReceptionPeriod>
+                <cbc:EndDate>2025-08-04+03:00</cbc:EndDate>
+                <cbc:EndTime>15:00:00+03:00</cbc:EndTime>
+              </efac:AnswerReceptionPeriod>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-19+03:00</cbc:EndDate>
+        <cbc:EndTime>15:00:00+03:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">2025-025394-LOT-0001</cbc:ID>
+      <cbc:Name languageID="FIN">Poliisin lomakejärjestelmä ja siihen liittyvät tuki- ja ylläpitopalvelut</cbc:Name>
+      <cbc:Description languageID="FIN">Tämä ilmoitus on markkinakartoitus ja tietopyyntö, eikä hankintailmoitus tai tarjouspyyntö.
+
+Tietopyynnön tarkoituksena on kartoittaa Microsoft Office -muotoisten tai vastaavien toimistosovellusten lomakkeiden ja asiakirjapohjien hallintaan ja käyttöön liittyvän työkalun hankintaan liittyviä kysymyksiä potentiaalisilta toimittajilta ja palveluntarjoajilta. Työkalusta käytetään tässä tietopyynnössä nimeä ”lomakejärjestelmä”. Tällä hetkellä käytössä on Microsoft Word, Excel ja PowerPoint -muotoisia lomakkeita ja asiakirjapohjia. 
+
+Tietopyyntöön vastaamatta jättäminen ei estä mahdolliseen tarjouskilpailuun osallistumista. Tietopyyntö ei velvoita Poliisihallitusta toteuttamaan hankintaa tietopyynnössä ja sen liitteissä kuvatulla tavalla ja tarjouskilpailu voidaan myös jättää toteuttamatta.
+
+Tietopyynnön kohde on tarkemmin kuvattu tietopyynnön liitteessä 1 ja potentiaalisille toimittajille esitetyt kysymykset liitteessä 2. Poliisihallitus toivoo, että potentiaaliset toimittajat vastaisivat kysymyksiin mahdollisimman kattavasti.
+
+Tietopyynnön tavoitteena on lisätä Poliisihallituksen markkinatuntemusta, kartoittaa markkinoilla olevia toimittajia ja heidän tuote- ja palveluvalikoimaansa sekä saada kattavasti niitä koskevia tietoja. Poliisihallitus voi hyödyntää annettuja vastauksia, mikäli se päättää järjestää hankinnasta tarjouskilpailun. Poliisihallitus voi pyytää tietopyyntöön vastanneilta lisätietoja heidän tuote- ja palveluvalikoimastaan.
+
+Tietopyyntöä koskevia kysymyksiä voi esittää torstaihin 19.6.2025 15:00 asti. Huomioikaa, että kysymänne kysymys tulee julkiseksi, kun vastaamme siihen. Kysyjän tiedot eivät tule julkiseksi.
+
+Pyydämme markkinavuoropuheluun osallistumisesta kiinnostuneita toimittajia vastaamaan tietopyyntöön maanantaihin 4.8.2025 klo 15.00 mennessä.
+
+Tietopyyntöön annetut vastaukset tulevat julkisiksi, kun asiaa koskevassa mahdollisesti suoritettavassa hankinnassa tehdään päätös ja sopimus (JulkL 6 §). Mikäli kartoituksen perusteella päätetään, että sopimusta ei tehdä lainkaan, tulevat asiakirjat julkisiksi ao. päätöksen allekirjoituksesta. Mikäli vastaajan vastaukset sisältävät liike- ja ammattisalaisuuksia tai muuta salassa pidettävää tietoa, kyseiset osat vastauksesta tulee yksilöidä ja toimittaa ne erillisessä liitteessä SALASSA PIDETTÄVÄKSI merkittynä. Tietopyyntö ei sido kumpaakaan osapuolta.
+
+Poliisihallitus tekee päätöksen mahdollisen tarjouskilpailun järjestämisestä markkinakartoituksen jälkeen.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cbc:Description languageID="FIN">Poliisihallitus on alustavasti ilmoittanut suorituspaikaksi "Missä tahansa Euroopan talousalueella". Mikäli Poliisihallitus tekee päätöksen mahdollisesta tarjouskilpailun järjestämisestä markkinakartoituksen jälkeen, Poliisihallitus arvioi suorituspaikan ennen kilpailutuksen käynnistymistä, jolloin se voi muuttua tässä ilmoitetusta. </cbc:Description>
+        <cac:Address>
+          <cbc:Region>anyw-eea</cbc:Region>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DescriptionCode listName="duration">UNKNOWN</cbc:DescriptionCode>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</PriorInformationNotice>

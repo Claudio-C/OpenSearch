@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                            <efac:DecisionReason>
+<efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
+                            </efac:DecisionReason>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:TenderLot>
+<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+<cbc:WebsiteURI>http://www.iac.es</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Dirección del Instituto de Astrofísica de Canarias</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>La Laguna</cbc:CityName>
+    <cbc:PostalZone>38200</cbc:PostalZone>
+    <cbc:CountrySubentity>Canarias</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES709</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="ID_PLATAFORMA">10000430058381</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">Q3811001A</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Name>Dirección del Instituto de Astrofísica de Canarias</cbc:Name>
+    <cbc:Telephone>922605200</cbc:Telephone>
+    <cbc:Telefax>922605210</cbc:Telefax>
+    <cbc:ElectronicMail>contratacion@iac.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+<cbc:WebsiteURI>https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/TACRC/Paginas/Tribunal%20Administrativo%20Central%20de%20Recursos%20Contractuales.asp</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID>TPO-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Tribunal Administrativo Central de Recursos Contractuales</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28020</cbc:PostalZone>
+    <cbc:CountrySubentity>Madrid</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366127-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">81a3fe40-21a3-46a1-9e2d-7e61f8d4e5cf</cbc:ID>
+    <cbc:ContractFolderID>39dea556-523c-4a9d-b63f-5722ab56017b</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>09:38:08+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>SPA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=gGFSmw79u7A%3D</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:NoticeDocumentReference>
+            <cbc:ID schemeName="notice-id-ref">8de4012b-39de-4c14-bbfc-4f738470af83-01</cbc:ID>
+        </cac:NoticeDocumentReference>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID>LIC-25-002</cbc:ID>
+        <cbc:Name languageID="SPA">Servicio de limpieza, recepción y cafetería-comedor del Observatorio del Teide del Instituto de Astrofísica de Canarias</cbc:Name>
+        <cbc:Description languageID="SPA">El presente contrato tiene por objeto los siguientes servicios: limpieza de la Residencia de Astrónomos y Anexos R0 y Casa Solar, limpieza de los edificios e Instalaciones Telescópicas Españolas, recepción y servicios de cafetería-comedor de la Residencia de Astrónomos. Todos los servicios reseñados se realizarán en las instalaciones del Observatorio del Teide pertenecientes al Consorcio Instituto de Astrofísica de Canarias.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90910000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55330000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79992000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">ES709</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+        <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="YEAR">3</cbc:DurationMeasure>
+        </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Criterio 1 Precio del servicio ofertado. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Criterio 2 Precio del menú (almuerzo o cena). </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Criterio 3 Alimentación saludable. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Criterio 4 Plan de Trabajo. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Criterio 5 Compromiso de adscripción de un encargado. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Criterio 6 Detergente y suavizante de lavandería con etiqueta medioambiental EU Ecolabel, o equivalente. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="SPA">De acuerdo con lo previsto en el artículo 44 de la Ley de Contratos del Sector Público.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">LIC-25-002</cbc:ID>
+            <cbc:Name languageID="SPA">Servicio de limpieza, recepción y cafetería-comedor del Observatorio del Teide del Instituto de Astrofísica de Canarias</cbc:Name>
+            <cbc:Description languageID="SPA">El presente contrato tiene por objeto los siguientes servicios: limpieza de la Residencia de Astrónomos y Anexos R0 y Casa Solar, limpieza de los edificios e Instalaciones Telescópicas Españolas, recepción y servicios de cafetería-comedor de la Residencia de Astrónomos. Todos los servicios reseñados se realizarán en las instalaciones del Observatorio del Teide pertenecientes al Consorcio Instituto de Astrofísica de Canarias.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">90910000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">55330000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">79992000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES709</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2025-06-04+02:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

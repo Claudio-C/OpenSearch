@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.haibach.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Gemeinde Haibach</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Hauptstr. 6</cbc:StreetName>
+                           <cbc:CityName>Haibach</cbc:CityName>
+                           <cbc:PostalZone>63808</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE264</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt.-ID: DE 132114576</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6021 648-56</cbc:Telephone>
+                           <cbc:ElectronicMail>gemeinde@haibach.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Regierung von Mittelfranken</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Postfach 606</cbc:StreetName>
+                           <cbc:CityName>Ansbach</cbc:CityName>
+                           <cbc:PostalZone>91511</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE251</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>Umsatzsteuer-Identifikationsnummer: DE 811 335 517</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Vergabekammer Nordbayern</cbc:Name>
+                           <cbc:ElectronicMail>poststelle@reg-mfr.bayern.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368113-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">cb38f99a-4c83-478c-8e2c-047bba6e854a</cbc:ID>
+   <cbc:ContractFolderID>4460866a-7066-47a8-a4fc-d05566fe5a9e</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>08:39:20+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vob-a-eu</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misconduct</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <ext:UBLExtensions>
+         <ext:UBLExtension>
+            <ext:ExtensionContent>
+               <efext:EformsExtension>
+                  <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+               </efext:EformsExtension>
+            </ext:ExtensionContent>
+         </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:Name languageID="DEU">Sanierung/ Erweiterung Marien-Kindergarten</cbc:Name>
+      <cbc:Description languageID="DEU">G2: Abbrucharbeiten / Entkernungsarbeiten</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45111100</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="DEU">entfällt</cbc:Description>
+         <cac:Address>
+            <cbc:CityName>Haibach</cbc:CityName>
+            <cbc:PostalZone>63808</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE264</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>E33249937</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.subreport.de/E33249937</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Fehlende Unterlagen werden nachgefordert.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">not-known</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.subreport.de/E33249937</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">39</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>09:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>09:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">LOT-0001 002/25</cbc:ID>
+         <cbc:Name languageID="DEU">G2: Abbrucharbeiten/ Entkernungsarbeiten</cbc:Name>
+         <cbc:Description languageID="DEU">Abbruch und Entkernung:
+
+a) Bauwerk:
+60 Stk. Fenster-Elemente Aluminium: Breite bis 5000 mm, Höhe bis 1700 mm,
+16 Stk. Türen Aluminium/ Stahl: Breite bis 3000 mm, Höhe bis 3000 mm,
+38 Stk. Türen Holzwerkstoff: B/H = 1010/2010 mm,
+2 Stk Außenjalousien,
+1.100 m² Bodenbelag Linoleum,
+1.100 m² Bodenbelag Zementestrich,
+60 m² Bodenbelag Zementestrich mit Fliesen,
+1.160 m² EPS-Hartschaumdämmung 4cm,
+1.900 m² Beseitigung Tapezierung Rauhfaser,
+650 m² Abbruch Innenputz,
+50 m Abbruch Fensterbank-Abdeckung ohne Schadstoffbelastung,
+140 m Abbruch Fensterbank-Abdeckung TRGS 519,
+350 m² Abbruch Bekleidungsplatten Trennwände ein-/ zweilagig,
+350 m² Abbruch Einfachständerwerk Stahl incl. Mineralwolldämmung mit Schadstoffbelastung,
+1150 m² Abbruch Deckenbekleidung Rasterdecke Mineralplatten und Trageprofil,
+950 m² Abbruch Mineralwolldämmung Dämmung zw. Deckenbalken,
+
+b) Heizung/ Sanitär:
+650 m KMF haltiges Installationsmaterial TRGS 521 1-lagig DN 50 - DN 100 mit Blechmantel,
+80 m Demontage Abwasserleitung Guss, Kunststoff DN 40 - DN 125,
+140 m Demontage TW-Leitung DN 12 -DN 50 Edelstahl, Stahl verzinkt,
+30 Stk. Demontage Waschtische, WC-Anlagen, Ausgussbecken Sanitärporzellan,
+1 Stk. Demontage Hebeanlage,
+470 m Demontage Rohrleitung Heizung DN 10 - DN 50,
+48 Stk Demontage  Heizkörper mit Halterungen versch. Größen,
+1 Stk. Demontage Heizungsanlage (Heizkessel, Hauptverteilung, Pumpen, Speicher und Behälter),
+
+c) Elektroinstallation:
+220 Stk Demontage Geräte unter Putz/ über Putz,
+ca. 230 Stk Demontage Leuchten verschiedener Ausführung,
+1 Stk. Demontage BMA incl. Hupen und Melder,
+5 Stk. Demontage Elektroverteilung verschiedener Größen und Ausführung,
+200 m Demontage Kabelkanäle und Kabeltrassen,
+15.100 m Demontage Kabel und Leitungen verschiedener Ausführung,</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#, #Besonders auch geeignet für:startup#, #Besonders auch geeignet für:other-sme#, #Besonders auch geeignet für:selbst#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45111000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="DEU">entfällt</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE264</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DescriptionCode listName="timeperiod">UNKNOWN</cbc:DescriptionCode>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

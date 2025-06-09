@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.nek.si/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">NUKLEARNA ELEKTRARNA KRŠKO d.o.o.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Vrbina  12</cbc:StreetName>
+                  <cbc:CityName>Krško</cbc:CityName>
+                  <cbc:PostalZone>8270</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI036</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>5034345000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+386 7 48 02 000</cbc:Telephone>
+                  <cbc:ElectronicMail>nek@nek.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">NUKLEARNA ELEKTRARNA KRŠKO d.o.o.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Vrbina  12</cbc:StreetName>
+                  <cbc:CityName>Krško</cbc:CityName>
+                  <cbc:PostalZone>8270</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI036</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>nimat-500</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>074802000</cbc:Telephone>
+                  <cbc:ElectronicMail>nek@nek.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.dkom.si/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">DRŽAVNA REVIZIJSKA KOMISIJA ZA REVIZIJO POSTOPKOV ODDDAJE JAVNIH NAROČIL</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Slovenska cesta 54</cbc:StreetName>
+                  <cbc:CityName>Ljubljana</cbc:CityName>
+                  <cbc:PostalZone>1000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>1332716000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+38612342800</cbc:Telephone>
+                  <cbc:ElectronicMail>dkom@dkom.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366829-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">5f193982-0ccd-44d5-a63a-764a74f0e3dc</cbc:ID>
+  <cbc:ContractFolderID>a0309d1f-3ae5-49ec-a427-88b5b2a31962</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+  <cbc:IssueTime>13:14:33.7876032+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>SLV</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="entity-activity">electricity</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+    <cac:LotDistribution>
+      <cbc:MaximumLotsAwardedNumeric>4</cbc:MaximumLotsAwardedNumeric>
+      <cbc:MaximumLotsSubmittedNumeric>4</cbc:MaximumLotsSubmittedNumeric>
+    </cac:LotDistribution>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>Sklep 134/25</cbc:ID>
+    <cbc:Name languageID="SLV">Nabava cevnega materiala</cbc:Name>
+    <cbc:Description languageID="SLV">Nabava cevnega materiala</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">44164310</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">44164300</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">SI036</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:RequiredCurriculaCode listName="requirement-stag">not-requ</cbc:RequiredCurriculaCode>
+      <cac:RequiredFinancialGuarantee>
+        <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+      </cac:RequiredFinancialGuarantee>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>DocLot1</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://www.enarocanje.si/api/datoteka/get?id=Mzc5NTM3O0JpZGRpbmcgZG9jdW1lbnRhdGlvbi56aXA</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:PaymentTerms>
+        <cbc:Note languageID="SLV">Skladno z razpisno dokumentacijo</cbc:Note>
+      </cac:PaymentTerms>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+        <cbc:Description languageID="SLV">N/A</cbc:Description>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>70.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Najnižja cena</cbc:Name>
+            <cbc:Description languageID="SLV">Najnižja cena</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>30.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Dobavni rok</cbc:Name>
+            <cbc:Description languageID="SLV">Dobavni rok</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://tinyurl.com/2ybs3bvq</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="SLV">Zakon o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 43/11 s spremembami)</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>SLV</cbc:ID>
+      </cac:Language>
+      <cac:Language>
+        <cbc:ID>ENG</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:ParticipationRequestReceptionPeriod>
+        <cbc:EndDate>2025-06-18+02:00</cbc:EndDate>
+        <cbc:EndTime>13:00:00.0000000+02:00</cbc:EndTime>
+      </cac:ParticipationRequestReceptionPeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-10+02:00</cbc:EndDate>
+        <cbc:EndTime>13:00:00.0000000+02:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>295971</cbc:ID>
+      <cbc:Name languageID="SLV">Cevni varilni priključki</cbc:Name>
+      <cbc:Description languageID="SLV">Cevni varilni priključki</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">44164310</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">44164300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">SI036</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">7</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:RequiredCurriculaCode listName="requirement-stag">not-requ</cbc:RequiredCurriculaCode>
+      <cac:RequiredFinancialGuarantee>
+        <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+      </cac:RequiredFinancialGuarantee>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>DocLot2</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://www.enarocanje.si/api/datoteka/get?id=Mzc5NTM3O0JpZGRpbmcgZG9jdW1lbnRhdGlvbi56aXA</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:PaymentTerms>
+        <cbc:Note languageID="SLV">Skladno z razpisno dokumentacijo</cbc:Note>
+      </cac:PaymentTerms>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+        <cbc:Description languageID="SLV">N/A</cbc:Description>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>70.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Dobavni rok</cbc:Name>
+            <cbc:Description languageID="SLV">Najnižja cena</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>30.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Dobavni rok</cbc:Name>
+            <cbc:Description languageID="SLV">Dobavni rok</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://tinyurl.com/2ybs3bvq</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="SLV">Zakon o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 43/11 s spremembami)</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>SLV</cbc:ID>
+      </cac:Language>
+      <cac:Language>
+        <cbc:ID>ENG</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:ParticipationRequestReceptionPeriod>
+        <cbc:EndDate>2025-06-18+02:00</cbc:EndDate>
+        <cbc:EndTime>13:00:00.0000000+02:00</cbc:EndTime>
+      </cac:ParticipationRequestReceptionPeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-10+02:00</cbc:EndDate>
+        <cbc:EndTime>13:00:00.0000000+02:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>296280</cbc:ID>
+      <cbc:Name languageID="SLV">Cevi, varnostne klasifikacije NSR</cbc:Name>
+      <cbc:Description languageID="SLV">Cevi, varnostne klasifikacije NSR</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">44164310</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">SI036</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">7</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:RequiredCurriculaCode listName="requirement-stag">not-requ</cbc:RequiredCurriculaCode>
+      <cac:RequiredFinancialGuarantee>
+        <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+      </cac:RequiredFinancialGuarantee>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>DocLot3</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://www.enarocanje.si/api/datoteka/get?id=Mzc5NTM3O0JpZGRpbmcgZG9jdW1lbnRhdGlvbi56aXA</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:PaymentTerms>
+        <cbc:Note languageID="SLV">Skladno z razpisno dokumentacijo</cbc:Note>
+      </cac:PaymentTerms>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+        <cbc:Description languageID="SLV">N/A</cbc:Description>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>70.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Najnižja cena</cbc:Name>
+            <cbc:Description languageID="SLV">Najnižja cena</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>30.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Dobavni rok</cbc:Name>
+            <cbc:Description languageID="SLV">Dobavni rok</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://tinyurl.com/2ybs3bvq</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="SLV">Zakon o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 43/11 s spremembami)</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>SLV</cbc:ID>
+      </cac:Language>
+      <cac:Language>
+        <cbc:ID>ENG</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:ParticipationRequestReceptionPeriod>
+        <cbc:EndDate>2025-06-18+02:00</cbc:EndDate>
+        <cbc:EndTime>13:00:00.0000000+02:00</cbc:EndTime>
+      </cac:ParticipationRequestReceptionPeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-10+02:00</cbc:EndDate>
+        <cbc:EndTime>13:00:00.0000000+02:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>296284</cbc:ID>
+      <cbc:Name languageID="SLV">Cevi, varnostnega razreda SR</cbc:Name>
+      <cbc:Description languageID="SLV">Cevi, varnostnega razreda SR</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">44164310</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">44164300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">SI036</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">7</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:RequiredCurriculaCode listName="requirement-stag">not-requ</cbc:RequiredCurriculaCode>
+      <cac:RequiredFinancialGuarantee>
+        <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+      </cac:RequiredFinancialGuarantee>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>DocLot4</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://www.enarocanje.si/api/datoteka/get?id=Mzc5NTM3O0JpZGRpbmcgZG9jdW1lbnRhdGlvbi56aXA</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:PaymentTerms>
+        <cbc:Note languageID="SLV">Skladno z razpisno dokumentacijo</cbc:Note>
+      </cac:PaymentTerms>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+        <cbc:Description languageID="SLV">N/A</cbc:Description>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>70.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Najnižja cena</cbc:Name>
+            <cbc:Description languageID="SLV">Najnižja cena</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>30.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Dobavni rok</cbc:Name>
+            <cbc:Description languageID="SLV">Dobavni rok</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://tinyurl.com/2ybs3bvq</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="SLV">Zakon o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 43/11 s spremembami)</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>SLV</cbc:ID>
+      </cac:Language>
+      <cac:Language>
+        <cbc:ID>ENG</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:ParticipationRequestReceptionPeriod>
+        <cbc:EndDate>2025-06-18+02:00</cbc:EndDate>
+        <cbc:EndTime>13:00:00.0000000+02:00</cbc:EndTime>
+      </cac:ParticipationRequestReceptionPeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-10+02:00</cbc:EndDate>
+        <cbc:EndTime>13:00:00.0000000+02:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>296286</cbc:ID>
+      <cbc:Name languageID="SLV">Instrumentacijske cevi</cbc:Name>
+      <cbc:Description languageID="SLV">Instrumentacijske cevi</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">44164310</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">44164300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">SI036</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">7</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

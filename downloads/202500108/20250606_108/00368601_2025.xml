@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns8="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:ns9="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                            <efac:DecisionReason>
+                                <efbc:DecisionReasonCode listName="non-award-justification">other</efbc:DecisionReasonCode>
+                            </efac:DecisionReason>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0002</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                            <efac:DecisionReason>
+                                <efbc:DecisionReasonCode listName="non-award-justification">other</efbc:DecisionReasonCode>
+                            </efac:DecisionReason>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">30</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">SBB AG</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">CFF SA</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Hilfikerstrasse</cbc:StreetName>
+                                    <cbc:CityName>Bern</cbc:CityName>
+                                    <cbc:PostalZone>3000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH021</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>ac3c1a49-88ac-4913-89cd-60805e494544</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+00000000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>einkauf.oberbau@sbb.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.bvger.ch</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Bundesverwaltungsgericht</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif fédéral</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postfach</cbc:StreetName>
+                                    <cbc:CityName>St. Gallen</cbc:CityName>
+                                    <cbc:PostalZone>9023</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH055</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>BVGER</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41584652626</cbc:Telephone>
+                                    <cbc:ElectronicMail>info@bvger.admin.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.simap.ch</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Simap.ch</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Simap.ch</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Holzikofenweg 36</cbc:StreetName>
+                                    <cbc:CityName>Bern</cbc:CityName>
+                                    <cbc:PostalZone>3003</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH021</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>CH001</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41584646388</cbc:Telephone>
+                                    <cbc:ElectronicMail>support@simap.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368601-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">b694a9f3-46c5-492e-a89d-40f550239158</cbc:ID>
+    <cbc:ContractFolderID>1689b278-f9e9-4412-9f86-b743dcf80954</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>02:25:54+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
+    <cac:AdditionalNoticeLanguage>
+        <cbc:ID>FRA</cbc:ID>
+    </cac:AdditionalNoticeLanguage>
+    <cac:ContractingParty>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="entity-activity">rail</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:ServiceProviderParty>
+                <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+                <cac:Party>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:Party>
+            </cac:ServiceProviderParty>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="DEU">Bedienung und Instandhaltung Baudienstwagen (Xans74, WTW, Silad)</cbc:Name>
+        <cbc:Name languageID="FRA">Utilisation et maintenance des wagons du service des travaux (Xans 74, WTW, SILAD)</cbc:Name>
+        <cbc:Description languageID="DEU">«Die Ausschreibung beinhaltet Leistungen im Personalverleih für Bedienung/Betrieb von Baudienstwagen der SBB AG (Xans74, WTW, Silad-Ladeeinheit). Das Personal wird in der ganzen Schweiz in Schichtarbeit zum Einsatz kommen.
+
+Weiter beinhaltet die Ausschreibung die Leistungen für den Unterhalt und Wartung der Wagen WTW und Silad-Ladeeinheit.»</cbc:Description>
+        <cbc:Description languageID="FRA">«L’appel d’offres porte sur des prestations de location de services pour la desserte/l’exploitation de wagons du service des travaux de CFF SA (Xans 74, WTW, unité de chargement SILAD). Le personnel interviendra dans le cadre du travail par équipe dans toute la Suisse.
+
+En outre, l’appel d’offres comprend les prestations relatives à l’entretien et à la maintenance des wagons WTW et de l’unité de chargement SILAD.»</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="DEU">Begründung des Abbruchs
+Das Projekt hat Fehler in der Wahl des Staatsvertragsbereich und in den Titel des Loses enthalten. Es wurde ein neues Projekt mit dem gleichen Titel und dem Zusatz V2 eröffnet.
+
+Bemerkungen zum Abbruch
+Das Projekt hat Fehler in der Wahl des Staatsvertragsbereich und in den Titel des Loses enthalten. Es wurde ein neues Projekt mit dem gleichen Titel und dem Zusatz V2 eröffnet.</cbc:Note>
+        <cbc:Note languageID="FRA">Justification de l’interruption
+Le projet comportait des erreurs dans le choix du domaine du contrat d'Etat et dans le titre du lot. Un nouveau projet a été ouvert avec le même titre et l'ajout V2.
+
+Remarques au sujet de l’interruption
+Le projet comportait des erreurs dans le choix du domaine du contrat d'Etat et dans le titre du lot. Un nouveau projet a été ouvert avec le même titre et l'ajout V2.</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cbc:CalculationExpression languageID="DEU">Die Zuschlagskriterien sind in den Dokumenten definiert.</cbc:CalculationExpression>
+                    <cbc:CalculationExpression languageID="FRA">Les critères d’adjudication sont définis dans les documents.</cbc:CalculationExpression>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Zuschlagskriterien</cbc:Description>
+                        <cbc:Description languageID="FRA">Critères d’adjudication</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Rechtsmittelbelehrung
+Gegen diese Verfügung kann gemäss Art. 56 Abs. 1 des Bundesgesetzes über das öffentliche Beschaffungswesen (BöB) innert 20 Tagen seit Eröffnung schriftlich Beschwerde beim Bundesverwaltungsgericht, Postfach, 9023 St. Gallen, erhoben werden. Die Beschwerde ist im Doppel einzureichen und hat die Begehren, deren Begründung mit Angabe der Beweismittel sowie die Unterschrift der beschwerdeführenden Person oder ihrer Vertretung zu enthalten. Eine Kopie der vorliegenden Verfügung und vorhandene Beweismittel sind beizulegen.
+Die Bestimmungen des Verwaltungsverfahrensgesetzes (VwVG) über den Fristenstillstand finden gemäss Art. 56 Abs. 2 BöB keine Anwendung.</cbc:Description>
+                    <cbc:Description languageID="FRA">Voies de droit
+Conformément à l'art. 56, al. 1, de la loi fédérale sur les marchés publics (LMP), la présente décision peut être attaquée, dans un délai de 20 jours à compter de sa notification, auprès du Tribunal administratif fédéral, case postale, 9023 Saint-Gall. Présenté en deux exemplaires, le mémoire de recours doit indiquer les conclusions, les motifs et les moyens de preuve et porter la signature de la partie recourante ou de son représentant ; y seront jointes une copie de la présente décision et les pièces invoquées comme moyens de preuve, lorsqu'elles sont disponibles.
+Conformément à l'art. 56, al. 2, LMP, les dispositions de la Loi fédérale sur la procédure administrative (PA) relatives à la suspension des délais ne s'appliquent pas.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:Name languageID="DEU">Bedienung Baudienstwagen (Xans74, WTW, Silad-Ladeeinheit)</cbc:Name>
+            <cbc:Name languageID="FRA">Chariot de chantier (Xans74, WTW, Unité de chargement Silad)</cbc:Name>
+            <cbc:Description languageID="DEU">«Die Ausschreibung beinhaltet Leistungen im Personalverleih für Bedienung/Betrieb von Baudienstwagen der SBB AG (Xans74, WTW, Silad-Ladeeinheit). Das Personal wird in der ganzen Schweiz in Schichtarbeit zum Einsatz kommen.</cbc:Description>
+            <cbc:Description languageID="FRA">«L’appel d’offres porte sur des prestations de location de services pour la desserte/l’exploitation de wagons du service des travaux de CFF SA (Xans 74, WTW, unité de chargement SILAD). Le personnel interviendra dans le cadre du travail par équipe dans toute la Suisse.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="DEU">Ganze Schweiz</cbc:Description>
+                <cbc:Description languageID="FRA">L’ensemble de la Suisse</cbc:Description>
+                <cac:Address>
+                    <cbc:Region>anyw-cou</cbc:Region>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2026-01-01+01:00</cbc:StartDate>
+                <cbc:EndDate>2028-12-31+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="DEU">Der Vertrag beinhaltet eine Zeitoption um weitere 2 Jahre bis 31.12.2030</cbc:Description>
+                        <cbc:Description languageID="FRA">Le contrat comprend une option de prolongation de deux années supplémentaires, jusqu’au 31.12.2030.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+        <cac:TenderingTerms>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cbc:CalculationExpression languageID="DEU">Die Zuschlagskriterien sind in den Dokumenten definiert.</cbc:CalculationExpression>
+                    <cbc:CalculationExpression languageID="FRA">Les critères d’adjudication sont définis dans les documents.</cbc:CalculationExpression>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Zuschlagskriterien</cbc:Description>
+                        <cbc:Description languageID="FRA">Critères d’adjudication</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Rechtsmittelbelehrung
+Gegen diese Verfügung kann gemäss Art. 56 Abs. 1 des Bundesgesetzes über das öffentliche Beschaffungswesen (BöB) innert 20 Tagen seit Eröffnung schriftlich Beschwerde beim Bundesverwaltungsgericht, Postfach, 9023 St. Gallen, erhoben werden. Die Beschwerde ist im Doppel einzureichen und hat die Begehren, deren Begründung mit Angabe der Beweismittel sowie die Unterschrift der beschwerdeführenden Person oder ihrer Vertretung zu enthalten. Eine Kopie der vorliegenden Verfügung und vorhandene Beweismittel sind beizulegen.
+Die Bestimmungen des Verwaltungsverfahrensgesetzes (VwVG) über den Fristenstillstand finden gemäss Art. 56 Abs. 2 BöB keine Anwendung.</cbc:Description>
+                    <cbc:Description languageID="FRA">Voies de droit
+Conformément à l'art. 56, al. 1, de la loi fédérale sur les marchés publics (LMP), la présente décision peut être attaquée, dans un délai de 20 jours à compter de sa notification, auprès du Tribunal administratif fédéral, case postale, 9023 Saint-Gall. Présenté en deux exemplaires, le mémoire de recours doit indiquer les conclusions, les motifs et les moyens de preuve et porter la signature de la partie recourante ou de son représentant ; y seront jointes une copie de la présente décision et les pièces invoquées comme moyens de preuve, lorsqu'elles sont disponibles.
+Conformément à l'art. 56, al. 2, LMP, les dispositions de la Loi fédérale sur la procédure administrative (PA) relatives à la suspension des délais ne s'appliquent pas.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:Name languageID="DEU">Unterhalt Baudienstwagen SBB AG (WTW, Silad)</cbc:Name>
+            <cbc:Name languageID="FRA">Entretien des wagons du service des travaux CFF SA (WTW, SILAD)</cbc:Name>
+            <cbc:Description languageID="DEU">Die Ausschreibung Los2 beinhaltet die Leistungen für den Unterhalt und Wartung der Baudienstwagen der SBB AG Xans74, WTW und Silad-Ladeeinheit.</cbc:Description>
+            <cbc:Description languageID="FRA">L’appel d’offres du lot 2 porte sur les prestations relatives à l’entretien et à la maintenance des wagons du service des travaux de CFF SA Xans 74, des WTW et de l’unité de chargement SILAD.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">50224000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="DEU">Ganze Schweiz</cbc:Description>
+                <cbc:Description languageID="FRA">L’ensemble de la Suisse</cbc:Description>
+                <cac:Address>
+                    <cbc:Region>anyw-cou</cbc:Region>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2026-01-01+01:00</cbc:StartDate>
+                <cbc:EndDate>2028-12-31+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="DEU">Der Vertrag beinhaltet eine Zeitoption um weitere 2 Jahre bis 31.12.2030</cbc:Description>
+                        <cbc:Description languageID="FRA">Le contrat comprend une option de prolongation de deux années supplémentaires, jusqu’au 31.12.2030.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

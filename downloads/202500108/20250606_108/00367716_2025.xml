@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">15400000</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">15400000</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermPercent>28.3</efbc:TermPercent>
+                        <efbc:TermCode listName="applicability">yes</efbc:TermCode>
+                        <efbc:PercentageKnownIndicator>true</efbc:PercentageKnownIndicator>
+                        <efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>422518</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-02-06+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-20+03:00</cbc:IssueDate>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>2671</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                     <efac:SubContractor>
+                        <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        <efac:MainContractor>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </efac:MainContractor>
+                     </efac:SubContractor>
+                     <efac:SubContractor>
+                        <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        <efac:MainContractor>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </efac:MainContractor>
+                     </efac:SubContractor>
+                     <efac:SubContractor>
+                        <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        <efac:MainContractor>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </efac:MainContractor>
+                     </efac:SubContractor>
+                     <efac:SubContractor>
+                        <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                        <efac:MainContractor>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </efac:MainContractor>
+                     </efac:SubContractor>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.ktpae.gr</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ELL">ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ (ΚτΠ Μ.Α.Ε)</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Λεωφόρος Συγγρού 194</cbc:StreetName>
+                           <cbc:CityName>Καλλιθέα</cbc:CityName>
+                           <cbc:PostalZone>17671 </cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">EL304</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>1053.E00553.00005</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+30 21313 00 813</cbc:Telephone>
+                           <cbc:Telefax>+30 2131300801</cbc:Telefax>
+                           <cbc:ElectronicMail>mdrakou@ktpae.gr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.aepp-procurement.gr/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ELL">ΕΝΙΑΙΑ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΣΥΜΒΑΣΕΩΝ (Ε.Α.ΔΗ.ΣΥ)</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ΔΩΡΟΥ 7-9</cbc:StreetName>
+                           <cbc:CityName>ΑΘΗΝΑ</cbc:CityName>
+                           <cbc:PostalZone>10432</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">EL303</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>1000.E00961.0001</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+302132141227</cbc:Telephone>
+                           <cbc:Telefax>+302132141227</cbc:Telefax>
+                           <cbc:ElectronicMail>grafeioproedrou@aepp-procurement.gr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ELL">NOVA INFORMATION AND COMMUNICATION TECHNOLOGIES ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ΛΕΩΦΟΡΟΣ ΑΘΗΝΩΝ 106</cbc:StreetName>
+                           <cbc:CityName>ΑΘΗΝΑ</cbc:CityName>
+                           <cbc:PostalZone>10442</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">EL303</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>802134000</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ELL">NOVA TELECOMMUNICATIONS &amp; MEDIA ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ΛΕΩΦΟΡΟΣ ΑΘΗΝΩΝ 106</cbc:StreetName>
+                           <cbc:CityName>ΑΘΗΝΑ</cbc:CityName>
+                           <cbc:PostalZone>10442</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">EL303</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>099936189</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ELL">ΜΑΣΤΕΡ ΚΕΝΤΡΟ ΚΑΤΑΡΤΙΣΗΣ ΚΑΙ ΣΥΜΒΟΥΛΕΥΤΙΚΗΣ ΑΝΩΝΥΜΟΣ ΕΤΑΙΡΙΑ</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Λ. Κύπρου αρ. 4</cbc:StreetName>
+                           <cbc:CityName>ΑΡΓΥΡΟΥΠΟΛΗ</cbc:CityName>
+                           <cbc:PostalZone>16452</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">EL304</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>094431832</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ELL">DIGITECH HIGH TECHNOLOGY SOLUTIONS ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Παπανικολή αριθ. 24</cbc:StreetName>
+                           <cbc:CityName>ΧΑΛΑΝΔΡΙ</cbc:CityName>
+                           <cbc:PostalZone>15232</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">EL301</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>095556024</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ELL">SmartRep IKE</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Αριστείδου αριθ. 3-5</cbc:StreetName>
+                           <cbc:CityName>ΧΟΛΑΡΓΟΣ</cbc:CityName>
+                           <cbc:PostalZone>15562</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">EL301</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>801224787</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ELL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367716-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">b19724ed-6711-4b4b-9e1b-83c4ce7b6c15</cbc:ID>
+   <cbc:ContractFolderID>0c3c724f-3439-439b-bc1c-99163bffc622</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04Z</cbc:IssueDate>
+   <cbc:IssueTime>14:08:18Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">ELL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>Ν. 4412/2016 Δημόσιες Συμβάσεις Έργων Προμηθειών και Υπηρεσιών (προσαρμογή στις Οδηγίες 2014/24/ΕΕ και 2014/25/ΕΕ) όπως έχει τροποποιηθεί και ισχύει</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">543600-2024</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">ΥΠ1: «Ψηφιακή Πλατφόρμα Εκπαίδευσης Προσωπικού Εθνικού Μηχανισμού Διαχείρισης Κρίσεων και Αντιμετώπισης Κινδύνων (ΕΜΔΚΑΚ) και Πληθυσμού»</cbc:ID>
+      <cbc:Name languageID="ELL">ΥΠ1: «Ψηφιακή Πλατφόρμα Εκπαίδευσης Προσωπικού Εθνικού Μηχανισμού Διαχείρισης Κρίσεων και Αντιμετώπισης Κινδύνων (ΕΜΔΚΑΚ) και Πληθυσμού» </cbc:Name>
+      <cbc:Description languageID="ELL">Πρόκειται για Ανοικτό (Διεθνή) Άνω των Ορίων Διαγωνισμό. 
+Στο πλαίσιο της αναδιάρθρωσης του Εθνικού μηχανισμού διαχείρισης κρίσεων και αντιμετώπισης κινδύνων και σύμφωνα με τα όσα ορίζονται από τη κείμενη νομοθεσία Ν. 4662/2020 (άρθρο 5) και τα όσα ορίζονται από το ΕΣΠΑ 2021 - 2027, οι αυξημένοι κίνδυνοι και η απουσία ενός αξιόπιστου και ορθώς συντονισμένου μηχανισμού διαχείρισης κρίσεων, καθιστούν αναγκαία την υλοποίηση δράσεων, στοχεύοντας στην βέλτιστη ανταπόκριση της Γ.Γ.Π.Π. και των εμπλεκόμενων φορέων σε όλες τις φάσεις διαχείρισης καταστροφών. Πέραν των δράσεων που επαφίονται στην αναβάθμιση και στον εκσυγχρονισμό του μηχανολογικού εξοπλισμού της Γ.Γ.Π.Π. (συμπεριλαμβανομένων και των ευφυών συστημάτων) και των συνδεόμενων φορέων, ιδιαίτερη βαρύτητα δίνεται και σε δράσεις που άπτονται στην αναβάθμιση των δεξιοτήτων του ανθρώπινου δυναμικού καθώς επίσης και σε σχετιζόμενες δράσεις ευαισθητοποίησης των πολιτών της χώρας. 
+Παράλληλα, σύμφωνα με τα όσα ορίζονται από τη κείμενη νομοθεσία Ν. 4662/2020 (Άρθρο 39) καθώς και σύμφωνα με το πρόγραμμα ΕΣΠΑ 2021 – 2027, κρίνεται σκόπιμη η αναβάθμιση του γνωστικού υποβάθρου των επιτελικών δομών, μέσα από δράσεις θεωρητικής και πρακτικής εκπαίδευσης, μετεκπαίδευσης και κατάρτισης στις νέες εξελίξεις στους τομείς της Πολιτικής Προστασίας και της διαχείρισης κρίσεων. Συγκεκριμένα τον ρόλο του παρόχου δράσεων βελτίωσης δεξιοτήτων δύναται να επιτελέσει η υπό ίδρυση Εθνική Σχολή Διαχείρισης Κρίσεων και Αντιμετώπισης Κινδύνων μέσα από τη λειτουργία της Α.ΠΟ.Π. και της Πυροσβεστικής Ακαδημίας. 
+Ειδικότερα, τα επιτελικά στελέχη της Γ.Γ.Π.Π. όσο και οι φορείς της τοπικής αυτοδιοίκησης και των εθελοντικών οργανώσεων θα πρέπει να είναι πλήρως καταρτισμένα αναφορικά με τεχνικές γνώσεις που αφορούν σε εργασίες και ενέργειες που σχετίζονται με την εκπαίδευση Προσωπικού Υποστήριξης Επιχειρήσεων Εθνικού Μηχανισμού Διαχείρισης Κρίσεων και Αντιμετώπισης Κινδύνων, με τη διαχείριση της ηλεκτρονικής πλατφόρμας e-civil protection platform ή με ενέργειες που αφορούν στη διαχείριση και στην ανταλλαγή διεθνών πρακτικών αντιμετώπισης κρίσεων από διεθνείς φορείς (όπως FEMA, ENSOSP). Επιπρόσθετα, θα πρέπει να υπάρχει πλήρης γνώση σχετικά με την ενημέρωση και την πληροφόρηση των πολιτών σε θέματα που συνδέονται σε δράσεις διαχείρισης και πρόληψης κινδύνων από την νεαρή ηλικία και την εισαγωγή σχετικών δράσεων στην πρωτοβάθμια και δευτεροβάθμια εκπαίδευση. 
+Συνεπώς, κρίνεται αναγκαία η δημιουργία ενός μηχανισμού αναβάθμισης των τεχνικών δεξιοτήτων του προσωπικού των εμπλεκόμενων φορέων.
+Το αντικείμενο της προτεινόμενης πράξης είναι η αναβάθμιση του γνωστικού υποβάθρου των επιτελικών δομών, μέσα από την ανάπτυξη και εγκατάσταση μιας ηλεκτρονικής πλατφόρμας κατάρτισης καθώς και την ανάπτυξη και ενσωμάτωση σε αυτό του κατάλληλου εκπαιδευτικού περιεχομένου που θα αφορά στις  εξελίξεις στους τομείς της Πολιτικής Προστασίας και της διαχείρισης κρίσεων. Το αντικείμενο της παρούσας σύμβασης δεν υποδιαιρείται σε τμήματα, λόγω λόγω της αρχιτεκτονικής του έργου και της συμπληρωματικότητας και των αλληλεξαρτήσεων, ήτοι των υψηλών απαιτήσεων διαλειτουργικότητας που είναι αναγκαίο να εξασφαλίζονται  αφενός μεταξύ των λειτουργικών ενοτήτων (υποσυστημάτων) που θα αναπτυχθούν στο πλαίσιο του παρόντος έργου και αφετέρου  με τρίτα συστήματα άλλων φορέων (βλ. Παράρτημα Ι, παρ. ‎2.3). Προσφορές γίνονται αποδεκτές για το σύνολο των υπηρεσιών που περιγράφονται.
+[παρ. 1.3 της Διακήρυξης]
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="ELL">Για την έγκυρη συμμετοχή στη διαδικασία σύναψης της παρούσας σύμβασης, κατατίθεται από τους συμμετέχοντες οικονομικούς φορείς (προσφέροντες), εγγυητική επιστολή συμμετοχής, ποσού τριακοσίων οχτώ χιλιάδων οχτακοσίων ενενήντα εννιά ευρώ και ογδόντα δύο λεπτών (308.899,82 €), ποσό που αντιστοιχεί στο 2% του προϋπολογισμού του Έργου, μη συμπεριλαμβανομένου ΦΠΑ και μη συμπεριλαμβανομένου του δικαιώματος προαίρεσης, σύμφωνα με το αντίστοιχο υπόδειγμα στο ΠΑΡΑΡΤΗΜΑ VIII – Υποδείγματα Εγγυητικών Επιστολών Στην περίπτωση ένωσης οικονομικών φορέων, η εγγύηση συμμετοχής περιλαμβάνει και τον όρο ότι η εγγύηση καλύπτει τις υποχρεώσεις όλων των οικονομικών φορέων που συμμετέχουν στην ένωση [παρ. 2.2.2.1 της Διακήρυξης].</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">18842889.18</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72212190</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72262000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="ELL">Ο Ανάδοχος θα πρέπει να εγκαταστήσει το Σύστημα στον κόμβο Government Cloud (G-Cloud) και να παραδώσει σε πλήρη λειτουργία το σύνολο του ζητούμενου λογισμικού στον Φορέα Λειτουργίας. Τόπος υποβολής των παραδοτέων είναι η έδρα της ΚτΠ Μ.Α.Ε. [παρ. 46. της Διακήρυξης]</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">EL301</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="ELL">Κατανόηση αντικειμένου της Σύμβασης και ειδικών απαιτήσεων</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>50</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="ELL">Κατανόηση και πληρότητα των προσφερόμενων ειδών και υπηρεσιών του Έργου και των απαιτήσεων των επιμέρους συστημάτων και η ποιότητα των προσφερόμενων υπηρεσιών</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="ELL">Χρονοδιάγραμμα και αλληλουχία φάσεων/ σταδίων, εφικτότητα υλοποίησης - Ποιότητα – Οργάνωση Παραδοτέων</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="ELL">Οργανωτική Αποτελεσματικότητα του Σχήματος Διοίκησης και Υλοποίησης Έργου</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-fixed">fix-tot</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>1</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="ELL">Κριτήριο ανάθεσης της Σύμβασης είναι η πλέον συμφέρουσα από οικονομική άποψη προσφορά βάσει τιμής. Πλέον συμφέρουσα από οικονομική άποψη προσφορά είναι εκείνη που παρουσιάζει το μεγαλύτερο Λi ο οποίος υπολογίζεται με βάση τον παρακάτω τύπο: Λi = 80 * ( Βi / Βmax ) + 20 * (Kmin/Ki)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="ELL">Σε περίπτωση προσβολής κατά πράξης της αναθέτουσας αρχής, η προθεσμία για την άσκηση της προδικαστικής προσφυγής είναι: (α) δέκα (10) ημέρες από την κοινοποίηση της προσβαλλόμενης πράξης στον ενδιαφερόμενο οικονομικό φορέα αν η πράξη κοινοποιήθηκε με ηλεκτρονικά μέσα ή τηλεομοιοτυπία ή (β) δεκαπέντε (15) ημέρες από την κοινοποίηση της προσβαλλόμενης πράξης σε αυτόν αν χρησιμοποιήθηκαν άλλα μέσα επικοινωνίας, άλλως (γ) δέκα (10) ημέρες από την πλήρη, πραγματική ή τεκμαιρόμενη, γνώση της πράξης που βλάπτει τα συμφέροντα του ενδιαφερόμενου οικονομικού φορέα. Ειδικά για την άσκηση προσφυγής κατά προκήρυξης, η πλήρης γνώση αυτής τεκμαίρεται μετά την πάροδο δεκαπέντε (15) ημερών από τη δημοσίευση στο ΚΗΜΔΗΣ. Σε περίπτωση παράλειψης που αποδίδεται στην αναθέτουσα αρχή, η προθεσμία για την άσκηση της προδικαστικής προσφυγής είναι δεκαπέντε (15) ημέρες από την επομένη της συντέλεσης της προσβαλλόμενης παράλειψης. 
+[παρ. 3.4 της Διακήρυξης]
+</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">ΥΠ1: «Ψηφιακή Πλατφόρμα Εκπαίδευσης Προσωπικού Εθνικού Μηχανισμού Διαχείρισης Κρίσεων και Αντιμετώπισης Κινδύνων (ΕΜΔΚΑΚ) και Πληθυσμού»</cbc:ID>
+         <cbc:Name languageID="ELL">ΥΠ1: «Ψηφιακή Πλατφόρμα Εκπαίδευσης Προσωπικού Εθνικού Μηχανισμού Διαχείρισης Κρίσεων και Αντιμετώπισης Κινδύνων (ΕΜΔΚΑΚ) και Πληθυσμού»</cbc:Name>
+         <cbc:Description languageID="ELL">Πρόκειται για Ανοικτό (Διεθνή) Άνω των Ορίων Διαγωνισμό. 
+Στο πλαίσιο της αναδιάρθρωσης του Εθνικού μηχανισμού διαχείρισης κρίσεων και αντιμετώπισης κινδύνων και σύμφωνα με τα όσα ορίζονται από τη κείμενη νομοθεσία Ν. 4662/2020 (άρθρο 5) και τα όσα ορίζονται από το ΕΣΠΑ 2021 - 2027, οι αυξημένοι κίνδυνοι και η απουσία ενός αξιόπιστου και ορθώς συντονισμένου μηχανισμού διαχείρισης κρίσεων, καθιστούν αναγκαία την υλοποίηση δράσεων, στοχεύοντας στην βέλτιστη ανταπόκριση της Γ.Γ.Π.Π. και των εμπλεκόμενων φορέων σε όλες τις φάσεις διαχείρισης καταστροφών. Πέραν των δράσεων που επαφίονται στην αναβάθμιση και στον εκσυγχρονισμό του μηχανολογικού εξοπλισμού της Γ.Γ.Π.Π. (συμπεριλαμβανομένων και των ευφυών συστημάτων) και των συνδεόμενων φορέων, ιδιαίτερη βαρύτητα δίνεται και σε δράσεις που άπτονται στην αναβάθμιση των δεξιοτήτων του ανθρώπινου δυναμικού καθώς επίσης και σε σχετιζόμενες δράσεις ευαισθητοποίησης των πολιτών της χώρας. 
+Παράλληλα, σύμφωνα με τα όσα ορίζονται από τη κείμενη νομοθεσία Ν. 4662/2020 (Άρθρο 39) καθώς και σύμφωνα με το πρόγραμμα ΕΣΠΑ 2021 – 2027, κρίνεται σκόπιμη η αναβάθμιση του γνωστικού υποβάθρου των επιτελικών δομών, μέσα από δράσεις θεωρητικής και πρακτικής εκπαίδευσης, μετεκπαίδευσης και κατάρτισης στις νέες εξελίξεις στους τομείς της Πολιτικής Προστασίας και της διαχείρισης κρίσεων. Συγκεκριμένα τον ρόλο του παρόχου δράσεων βελτίωσης δεξιοτήτων δύναται να επιτελέσει η υπό ίδρυση Εθνική Σχολή Διαχείρισης Κρίσεων και Αντιμετώπισης Κινδύνων μέσα από τη λειτουργία της Α.ΠΟ.Π. και της Πυροσβεστικής Ακαδημίας. 
+Ειδικότερα, τα επιτελικά στελέχη της Γ.Γ.Π.Π. όσο και οι φορείς της τοπικής αυτοδιοίκησης και των εθελοντικών οργανώσεων θα πρέπει να είναι πλήρως καταρτισμένα αναφορικά με τεχνικές γνώσεις που αφορούν σε εργασίες και ενέργειες που σχετίζονται με την εκπαίδευση Προσωπικού Υποστήριξης Επιχειρήσεων Εθνικού Μηχανισμού Διαχείρισης Κρίσεων και Αντιμετώπισης Κινδύνων, με τη διαχείριση της ηλεκτρονικής πλατφόρμας e-civil protection platform ή με ενέργειες που αφορούν στη διαχείριση και στην ανταλλαγή διεθνών πρακτικών αντιμετώπισης κρίσεων από διεθνείς φορείς (όπως FEMA, ENSOSP). Επιπρόσθετα, θα πρέπει να υπάρχει πλήρης γνώση σχετικά με την ενημέρωση και την πληροφόρηση των πολιτών σε θέματα που συνδέονται σε δράσεις διαχείρισης και πρόληψης κινδύνων από την νεαρή ηλικία και την εισαγωγή σχετικών δράσεων στην πρωτοβάθμια και δευτεροβάθμια εκπαίδευση. 
+Συνεπώς, κρίνεται αναγκαία η δημιουργία ενός μηχανισμού αναβάθμισης των τεχνικών δεξιοτήτων του προσωπικού των εμπλεκόμενων φορέων.
+Το αντικείμενο της προτεινόμενης πράξης είναι η αναβάθμιση του γνωστικού υποβάθρου των επιτελικών δομών, μέσα από την ανάπτυξη και εγκατάσταση μιας ηλεκτρονικής πλατφόρμας κατάρτισης καθώς και την ανάπτυξη και ενσωμάτωση σε αυτό του κατάλληλου εκπαιδευτικού περιεχομένου που θα αφορά στις  εξελίξεις στους τομείς της Πολιτικής Προστασίας και της διαχείρισης κρίσεων. Το αντικείμενο της παρούσας σύμβασης δεν υποδιαιρείται σε τμήματα, λόγω λόγω της αρχιτεκτονικής του έργου και της συμπληρωματικότητας και των αλληλεξαρτήσεων, ήτοι των υψηλών απαιτήσεων διαλειτουργικότητας που είναι αναγκαίο να εξασφαλίζονται  αφενός μεταξύ των λειτουργικών ενοτήτων (υποσυστημάτων) που θα αναπτυχθούν στο πλαίσιο του παρόντος έργου και αφετέρου  με τρίτα συστήματα άλλων φορέων (βλ. Παράρτημα Ι, παρ. ‎2.3). Προσφορές γίνονται αποδεκτές για το σύνολο των υπηρεσιών που περιγράφονται.
+[παρ. 1.3 της Διακήρυξης]
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">15444991.13</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72212190</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72262000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="ELL">Ο Ανάδοχος θα πρέπει να εγκαταστήσει το Σύστημα στον κόμβο Government Cloud (G-Cloud) και να παραδώσει σε πλήρη λειτουργία το σύνολο του ζητούμενου λογισμικού στον Φορέα Λειτουργίας. Τόπος υποβολής των παραδοτέων είναι η έδρα της ΚτΠ Μ.Α.Ε. [παρ. 46. της Διακήρυξης]
+</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">EL301</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

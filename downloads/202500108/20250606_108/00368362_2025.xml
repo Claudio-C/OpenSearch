@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                     <efac:DecisionReason>
+                        <efbc:DecisionReasonCode listName="non-award-justification">all-rej</efbc:DecisionReasonCode>
+                     </efac:DecisionReason>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0002</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                     <efac:DecisionReason>
+                        <efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
+                     </efac:DecisionReason>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0003</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">open-nw</cbc:TenderResultCode>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0004</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">open-nw</cbc:TenderResultCode>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.stadt-oebisfelde-weferlingen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Stadt Oebisfelde-Weferlingen</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Oebisfelde, Theodor-Müller-Straße 16a</cbc:StreetName>
+                           <cbc:CityName>Oebisfelde-Weferlingen</cbc:CityName>
+                           <cbc:PostalZone>39646</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEE07</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>00003868</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 39002480541</cbc:Telephone>
+                           <cbc:Telefax>+49 3900248010</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabe@stadt-oebisfelde-weferlingen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Landesverwaltungsamt Sachsen-Anhalt 1., 2. und 3. Vergabekammer</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Ernst - Kamieth - Straße 2</cbc:StreetName>
+                           <cbc:CityName>Halle(Saale)</cbc:CityName>
+                           <cbc:PostalZone>06112</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEE02</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:03455141536</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 345 514 1529</cbc:Telephone>
+                           <cbc:Telefax>+49 345 514 1115</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@lvwa.sachsen-anhalt.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368362-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">d4cb22ce-4c56-4e95-bf43-762691d304a5</cbc:ID>
+   <cbc:ContractFolderID>6e274030-396e-442a-995f-4ee0d4ff3a72</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>15:57:21+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cbc:TerminatedIndicator>false</cbc:TerminatedIndicator>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>2025-Oeb-003</cbc:ID>
+      <cbc:Name languageID="DEU">Planungsleistungen Sanierung Rathaus (Fachplanung TGA HLS, Fachplanung TGA ELT, Bauphysik Bauakustik, Bauphysik Wämeschutz und Energiebilanzierung)</cbc:Name>
+      <cbc:Description languageID="DEU">Die Stadt Oebisfelde-Weferlingen plant die Sanierung des historischen und teilweise unter Denkmal-schutz stehenden Rathauses der Stadt.
+Bestandssituation
+Das historische Rathaus der Stadt Oebisfelde besteht aus zwei Baukörpern. Der südliche Teil des zwei-geschossigen Gebäudes ist spätmittelalterlich (vor 1500) und weist auf der Ostseite einen Renais-sancegiebel auf. Auf der Westseite befindet sich auf diesem Gebäudeteil ein Dachtürmchen mit einer Glocke (1784). Im Inneren dieses Teils ist die spätgotische Ratsstube mit Kreuzgratgewölbe auf einem Mittelpfeiler und einem jetzt innen liegenden Portal erhalten. Der Giebel auf der Westseite wurde wahrscheinlich in der Zeit des Umbaus Ende des 19. Jahrhunderts verändert. Das Dachgeschoss ist nicht ausgebaut, unter diesem Gebäudeteil befindet sich ein Gewölbekeller.
+Östlich des älteren Gebäudeteils wurde Anfang der neunziger Jahre des 20. Jahrhunderts ein Erweite-rungsbau als Flachbau errichtet. Dieser wird von einer Bruchsteinmauer, die auch den weiter östlich gelegenen Hof einschließt, umschlossen.
+Der ebenfalls zweigeschossige nördliche Gebäudeteil stammt aus dem 18. Jahrhundert und weist im Obergeschoss eine Fachwerkkonstruktion auf. Darüber befindet sich ein Mansarddach mit Krüppel-walm auf der Ostseite, die Westseite zeigt einen geraden Dachabschluss mit einem Staffelgiebel aus dem Ende des 19. Jahrhunderts. Das Dachgeschoss ist im Moment nicht ausgebaut. Der Gebäudeteil weist eine Teilunterkellerung (Heizungskeller) auf.
+Die Erschließung des Obergeschosses erfolgt durch eine zwischen beiden Gebäudeteilen liegende Freitreppe. Die Geschossebenen des Erd- und Obergeschosses sind in den beiden Gebäudeteilen unterschiedlich.
+Das gesamte Rathaus ist ein Einzeldenkmal.
+Schadens- und Problemsituation
+Im Zuge der Sanierung des Westgiebels 2013/14 wurden diverse Schäden an der Decken- und Dach-konstruktion über dem OG und im Bereich der Fachwerksfassaden entdeckt. Diese wurden durch ein Holzschutzgutachten detailliert untersucht und dokumentiert. Dabei zeigte sich, dass auch die De-ckenbalken der Decke über dem EG schwerwiegende Holzschäden aufweisen.
+Auf Grund der Nutzungssituation konnten diese bisher nur im Bereich der Balkenköpfe erfasst wer-den. D.h. über den Schadensumfang der Decke über dem EG können i. M. keine verlässlichen Aussa-gen getroffen werden. Dazu ist eine Freilegung erforderlich.
+Darüber hinaus sind weitere Probleme und Mängel im Bereich der funktionalen Organisation, dem Brandschutz, dem Wärmeschutz, der Haustechnik offensichtlich.
+Sanierunqsaufgaben
+Auf Grund der entdeckten Schäden ergibt sich folgendes Minimalprogramm der Sanierung:
+Südtrakt
+	Rückbau der gesamten Dacheindeckung/Neueindeckung
+	Demontage und Sanierung des Glockenturms
+	Sanierung der Decken- und Dachkonstruktion
+Nordtrakt
+	Rückbau der Dacheindeckung/Neueindeckung
+	Rückbau der Dachkonstruktion und Neubau
+	Rückbau/Sanierung der Deckenkonstruktion
+	Freilegung der Gefache des Fachwerks, Instandsetzung des Fachwerks und Neuausmauerung der Gefache
+	Freilegung der Decke über dem EG und Sanierung.
+Es ist absehbar, dass das Rathaus während der Sanierung nicht nutzbar ist. Auf Grund des Schadens-umfangs werden alle Büroräume in Mitleidenschaft gezogen und es wird eine umfassende Renovie-rung und Teilerneuerungen (Fußböden, Wände, Decken, Haustechnik) erforderlich.
+Daher würde es sich in diesem Zusammenhang anbieten, weitere organisatorische und bautechnische Probleme und Mängel zu beheben.
+Diese ergeben sich aus:
+	den aktuellen Nutzungsanforderungen
+	der Brandschutz- und Fluchtwegesituation
+	dem Wärmeschutz
+	dem Stand der Haustechnik (Heizung, Elektro, EDV)
+Gegenstand dieser Ausschreibung ist die losweise Vergabe von Grund- und Besondere Leistungen der Leistungsbilder 
+	Fachplanung Technische Ausrüstung HLS nach § 55 Abs. 1 und Abs. 3 iVm Anlage 15.1 HOAI 2021, LPH 1-9 mit allen Grundleistungen (Los 1)
+	Fachplanung Technische Ausrüstung ELT nach § 55 Abs. 1 und Abs. 3 iVm Anlage 15.1 HOAI 2021, LPH 1-9 mit allen Grundleistungen (Los 2)
+	Fachplanung Bauphysik (Bauakustik) nach Anlage 1.2 iVm 1.2.2 HOAI 2021, LPH 1-7 mit allen Grund-leistungen (Los 3)
+	Fachplanung Bauphysik (Wärmeschutz und Energiebilanzierung) nach Anlage 1.2 iVm 1.2.2 HOAI 2021, LPH 1-7 mit allen Grundleistungen (Los 4)
+Die Leistungen werden stufenweise sowie teilweise optional vergeben. Einzelheiten sind der Leis-tungsbeschreibung zu entnehmen.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Es gelten die Ergänzenden Vertragsbedingungen des Landes Sachsen-Anhalt zur Sicherung von Tariftreue, Sozialstandards und Wettbewerb bei der Vergabe öffentlicher Aufträge (Tariftreue- und Vergabegesetz Sachsen-Anhalt - TVergG
+LSA).
+
+Eignungsanforderungen - Allgemeines
+Die folgenden Erläuterungen gelten für alle Erklärungen und Nachweise zu rechtlichen, wirtschaftli-chen, finanziellen und technischen Angaben. Soweit Erklärungen losbezogen - d.h. je Los - einzu-reichen sind, ist dies nachfolgend vermerkt. Fehlt ein solcher Vermerk, reicht die einmalige Beibrin-gung auch bei einer Beteiligung auf mehrere Lose. 
+Der AG lässt neben Eigenerklärungen auch Nachweise als Beleg für die Eignung zu, die innerhalb einer Präqualifizierung im Unternehmer- und Lieferantenverzeichnis (ULV), im amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und im PQ VOL er-worben wurden. Es gelten nur die Kriterien als erfüllt, auf die sich die Prüfung der Präqualifizierungs-stelle bezieht. Die Erläuterungen zur Präqualifikation gelten für alle geforderten Erklärungen und Nachweise. 
+Bieter können sich zu Bietergemeinschaften zusammenschließen. Siehe hierzu auch Anlage 2. Hierbei ist mit dem Angebot beizubringen: 
+-Bietergemeinschaftserklärung 
+Bieter können sich zum Nachweis der Eignung der Kapazitäten anderer Unternehmen bedienen (Eig-nungsleihe). Diesbezüglich ist mit dem Angebot einzureichen: 
+-Eigenerklärung Kapazitäten anderer Unternehmen (Eignungsleihe) 
+Auf gesondertes Verlangen der Vergabestelle sind im Falle einer Eignungsleihe einzureichen: 
+-Eignungsnachweise des/der anderen Unternehmen sowie dessen Erklärung zu §§ 123 ff. GWB  
+-Verpflichtungserklärung bei Eignungsleihe 
+Der AG behält sich vor, einen Auszug aus dem Wettbewerbsregister für das Unternehmen, das den Zuschlag erhalten soll, bei der zuständigen Stelle abzufordern. Nicht in Deutschland ansässige Unter-nehmen haben auf Verlangen eine gleichwertige Urkunde Ihres Herkunftslandes oder, falls diese nicht verfügbar ist, eine sonstige Erklärung entsprechend den Anforderungen einzureichen.
+Innerhalb der Vergabeunterlagen finden sich vom Bieter auszufüllende Musterformulare, die zu ver-wenden sind. Geforderte Erklärungen, die sich nicht anhand dieser abgeben lassen, sind grundsätzlich als Eigenerklärung abzugeben.
+Zudem reichen - soweit nichts anderes ausgeführt ist - Eigenerklärungen aus. 
+Folgende Eignungskriterien wurden durch den Auftraggeber aufgestellt. Bitte beachten Sie, dass so-weit diese als Mindestanforderungen formuliert sind, diese von den Bietern/der Bietergemeinschaft erfüllt werden müssen. Soweit also im Nachfolgenden Anforderungen als Mindestanforderungen ausgewiesen sind, müssen diese Anforderungen von den Bietern erfüllt werden. Ist dies nicht der Fall, erfolgt der Ausschluss nach § 57 Abs. 1 VgV. 
+
+Eignungsanforderung - Abfrage des Wettbewerbsregisters
+Der Auftraggeber wird einen Auszug aus dem Wettbewerbsregister für das Unternehmen, das den Zuschlag erhalten soll, bei der zuständigen Stelle abfordern. Nicht in Deutschland ansässige Unter-nehmen haben auf Verlangen eine gleichwertige Urkunde Ihres Herkunftslandes oder, falls diese nicht verfügbar ist, eine sonstige Erklärung entsprechend den Anforderungen einzureichen.
+Innerhalb der Vergabeunterlagen finden sich vom Bieter auszufüllende Musterformulare, die zu ver-wenden sind. Geforderte Erklärungen, die sich nicht anhand dieser abgeben lassen, sind grundsätzlich als Eigenerklärung abzugeben.
+
+Eignungsanforderungen - Sonstige einzureichende Erklärungen
+Die folgende Erklärung ist einzureichen:
+-Eigenerklärung entsprechend dem BMWK-Rundschreiben vom 14.04.2022 über die Einhal-tung der Sanktionen gegen die Russische Föderation (sog. "Russlanderklärung").
+-Eigenerklärung zu Tariftreue, Mindeststundenentgelt und Entgeltgleichheit (§ 11 TVergG LSA) Ergänzende Vertragsbedingungen (Unterlage 07-VgV-ANG)
+
+Eignungsanforderungen - Eignungsleihe
+Bieter können sich zum Nachweis der Eignung der Kapazitäten anderer Unternehmen bedienen (Eig-nungsleihe). Diesbezüglich ist mit dem Angebot einzureichen: 
+-Eigenerklärung Kapazitäten anderer Unternehmen (Eignungsleihe) 
+Auf gesondertes Verlangen der Vergabestelle sind im Falle einer Eignungsleihe einzureichen: 
+-Eignungsnachweise des anderen Unternehmens sowie dessen Erklärung zu §§ 42 VgV i.V.m. 123 ff. GWB  
+-Verpflichtungserklärung bei Eignungsleihe</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Oebisfelde-Weferlingen</cbc:CityName>
+            <cbc:PostalZone>39646</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEE07</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>70.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Persönliche Referenzen der vorgesehenen Person des verantwortlichen Planers im Bereich Fachplanung Technische Ausrüstung HLS</cbc:Name>
+                  <cbc:Description languageID="DEU">Bewertet werden die persönliche
+Referenzen der vorgesehenen
+Person des verantwortlichen
+Planers. Einzelheiten (auch zu den
+jeweiligen Anforderungen)
+ergeben sich aus den
+Vergabeunterlagen (hier:
+3-VgV-Informationsunterlage
+sowie und 4.1-Bewertungsmatix
+Los 1).</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Einzelheiten ergeben sich aus den Vergabeunterlagen (hier:
+3-VgV-nformationsunterlage sowie 4.1-Bewertungsmatix
+Los 1).</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Nach § 160 Abs. 3 GWB gilt: (3)
+Der Antrag ist unzulässig, soweit:
+1) der Antragsteller den geltend gemachten Verstoß gegen
+Vergabevorschriften vor Einreichen des Nachprüfungsantrags
+erkannt und gegenüber dem Auftraggeber nicht innerhalb einer
+Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist
+nach
+§ 134 Absatz 2 bleibt unberührt,
+2) Verstöße gegen Vergabevorschriften, die aufgrund der
+Bekanntmachung erkennbar sind, nicht spätestens bis zum
+Ablauf der in der Bekanntmachung benannten Frist zur
+Bewerbung oder zur Angebotsabgabe gegenüber dem
+Auftraggeber gerügt werden,
+3) Verstöße gegen Vergabevorschriften, die erst in den
+Vergabeunterlagen erkennbar sind, nicht spätestens bis zum
+Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe
+gegenüber dem Auftraggeber gerügt werden,
+4) mehr als 15 Kalendertage nach Eingang der Mitteilung des
+Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen
+sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Los 1 - Fachplanung TGA HLS</cbc:Name>
+         <cbc:Description languageID="DEU">Die Stadt Oebisfelde-Weferlingen plant die Sanierung des historischen und teilweise unter Denkmal-schutz stehenden Rathauses der Stadt.
+
+Bestandssituation:
+Das historische Rathaus der Stadt Oebisfelde besteht aus zwei Baukörpern. Der südliche Teil des zwei-geschossigen Gebäudes ist spätmittelalterlich (vor 1500) und weist auf der Ostseite einen Renais-sancegiebel auf. Auf der Westseite befindet sich auf diesem Gebäudeteil ein Dachtürmchen mit einer Glocke (1784). Im Inneren dieses Teils ist die spätgotische Ratsstube mit Kreuzgratgewölbe auf einem Mittelpfeiler und einem jetzt innen liegenden Portal erhalten. Der Giebel auf der Westseite wurde wahrscheinlich in der Zeit des Umbaus Ende des 19. Jahrhunderts verändert. Das Dachgeschoss ist nicht ausgebaut, unter diesem Gebäudeteil befindet sich ein Gewölbekeller.
+Östlich des älteren Gebäudeteils wurde Anfang der neunziger Jahre des 20. Jahrhunderts ein Erweite-rungsbau als Flachbau errichtet. Dieser wird von einer Bruchsteinmauer, die auch den weiter östlich gelegenen Hof einschließt, umschlossen.
+Der ebenfalls zweigeschossige nördliche Gebäudeteil stammt aus dem 18. Jahrhundert und weist im Obergeschoss eine Fachwerkkonstruktion auf. Darüber befindet sich ein Mansarddach mit Krüppel-walm auf der Ostseite, die Westseite zeigt einen geraden Dachabschluss mit einem Staffelgiebel aus dem Ende des 19. Jahrhunderts. Das Dachgeschoss ist im Moment nicht ausgebaut. Der Gebäudeteil weist eine Teilunterkellerung (Heizungskeller) auf.
+Die Erschließung des Obergeschosses erfolgt durch eine zwischen beiden Gebäudeteilen liegende Freitreppe. Die Geschossebenen des Erd- und Obergeschosses sind in den beiden Gebäudeteilen unterschiedlich.
+Das gesamte Rathaus ist ein Einzeldenkmal.
+
+Schadens- und Problemsituation:
+Im Zuge der Sanierung des Westgiebels 2013/14 wurden diverse Schäden an der Decken- und Dach-konstruktion über dem OG und im Bereich der Fachwerksfassaden entdeckt. Diese wurden durch ein Holzschutzgutachten detailliert untersucht und dokumentiert. Dabei zeigte sich, dass auch die De-ckenbalken der Decke über dem EG schwerwiegende Holzschäden aufweisen.
+Auf Grund der Nutzungssituation konnten diese bisher nur im Bereich der Balkenköpfe erfasst wer-den. D.h. über den Schadensumfang der Decke über dem EG können i. M. keine verlässlichen Aussa-gen getroffen werden. Dazu ist eine Freilegung erforderlich.
+Darüber hinaus sind weitere Probleme und Mängel im Bereich der funktionalen Organisation, dem Brandschutz, dem Wärmeschutz, der Haustechnik offensichtlich.
+
+Sanierunqsaufgaben:
+Auf Grund der entdeckten Schäden ergibt sich folgendes Minimalprogramm der Sanierung:
+Südtrakt
+ Rückbau der gesamten Dacheindeckung/Neueindeckung
+ Demontage und Sanierung des Glockenturms
+ Sanierung der Decken- und Dachkonstruktion
+Nordtrakt
+ Rückbau der Dacheindeckung/Neueindeckung
+ Rückbau der Dachkonstruktion und Neubau
+ Rückbau/Sanierung der Deckenkonstruktion
+ Freilegung der Gefache des Fachwerks, Instandsetzung des Fachwerks und Neuausmauerung der Gefache
+ Freilegung der Decke über dem EG und Sanierung.
+Es ist absehbar, dass das Rathaus während der Sanierung nicht nutzbar ist. Auf Grund des Schadens-umfangs werden alle Büroräume in Mitleidenschaft gezogen und es wird eine umfassende Renovie-rung und Teilerneuerungen (Fußböden, Wände, Decken, Haustechnik) erforderlich.
+Daher würde es sich in diesem Zusammenhang anbieten, weitere organisatorische und bautechnische Probleme und Mängel zu beheben.
+Diese ergeben sich aus:
+ den aktuellen Nutzungsanforderungen
+ der Brandschutz- und Fluchtwegesituation
+ dem Wärmeschutz
+ dem Stand der Haustechnik (Heizung, Elektro, EDV)
+
+Gegenstand dieser Ausschreibung ist die losweise Vergabe von Grund- und Besondere Leistungen der Leistungsbilder 
+ Fachplanung Technische Ausrüstung HLS nach § 55 Abs. 1 und Abs. 3 iVm Anlage 15.1 HOAI 2021, LPH 1-9 mit allen Grundleistungen (Los 1)
+ Fachplanung Technische Ausrüstung ELT nach § 55 Abs. 1 und Abs. 3 iVm Anlage 15.1 HOAI 2021, LPH 1-9 mit allen Grundleistungen (Los 2)
+ Fachplanung Bauphysik (Bauakustik) nach Anlage 1.2 iVm 1.2.2 HOAI 2021, LPH 1-7 mit allen Grund-leistungen (Los 3)
+ Fachplanung Bauphysik (Wärmeschutz und Energiebilanzierung) nach Anlage 1.2 iVm 1.2.2 HOAI 2021, LPH 1-7 mit allen Grundleistungen (Los 4)
+Die Leistungen werden stufenweise sowie teilweise optional vergeben. Einzelheiten sind der Leis-tungsbeschreibung zu entnehmen.
+
+Im Los 1 werden die Leistungsphasen 1-9 Fachplanung Technische Ausrüstung HLS nach § 55 Abs. 1 und Abs. 3 iVm Anlage 15.1 HOAI 2021 mit allen Grundleistungen stufenweise vergeben.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Oebisfelde-Weferlingen</cbc:CityName>
+               <cbc:PostalZone>39646</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEE07</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-16+02:00</cbc:StartDate>
+            <cbc:EndDate>2027-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Die Leistungen werden stufenweise sowie teilweise optional wie
+folgt vergeben:
+- Stufe 1: LPH 1-4 (Grundleistungen fest beauftragt)
+- Stufe 2: LPH 5-7 (Grundleistungen Leistungen optional
+beauftragt)
+- Stufe 3: LPH 8 und 9 (Grundleistungen Leistungen optional
+beauftragt)
+Die Übertragung weiterer Stufen erfolgt einseitig durch den AG
+und schriftlich. Auf die Übertragung hat der AN keinen
+Rechtsanspruch.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>70.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Persönliche Referenzen der vorgesehenen Person des verantwortlichen Planers im Bereich Fachplanung Technische Ausrüstung ELT</cbc:Name>
+                  <cbc:Description languageID="DEU">Bewertet werden die persönliche
+Referenzen der vorgesehenen
+Person des verantwortlichen
+Planers. Einzelheiten (auch zu den
+jeweiligen Unterkriterien) ergeben
+sich aus den Vergabeunterlagen
+(hier: 3-VgV-Informationsunterlage
+sowie und 4.2-Bewertungsmatix
+Los 2)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Einzelheiten ergeben sich aus den Vergabeunterlagen (hier: 3-VgV-Informationsunterlage sowie und 4.2-Bewertungsmatix Los 2).</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Nach § 160 Abs. 3 GWB gilt: (3)
+Der Antrag ist unzulässig, soweit:
+1) der Antragsteller den geltend gemachten Verstoß gegen
+Vergabevorschriften vor Einreichen des Nachprüfungsantrags
+erkannt und gegenüber dem Auftraggeber nicht innerhalb einer
+Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist
+nach
+§ 134 Absatz 2 bleibt unberührt,
+2) Verstöße gegen Vergabevorschriften, die aufgrund der
+Bekanntmachung erkennbar sind, nicht spätestens bis zum
+Ablauf der in der Bekanntmachung benannten Frist zur
+Bewerbung oder zur Angebotsabgabe gegenüber dem
+Auftraggeber gerügt werden,
+3) Verstöße gegen Vergabevorschriften, die erst in den
+Vergabeunterlagen erkennbar sind, nicht spätestens bis zum
+Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe
+gegenüber dem Auftraggeber gerügt werden,
+4) mehr als 15 Kalendertage nach Eingang der Mitteilung des
+Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen
+sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Los 2 - Fachplanung TGA ELT</cbc:Name>
+         <cbc:Description languageID="DEU">Zur allgemeinen Beschreibung der Maßnahme wird auf die allgemeinen Ausführungen zu Los 1 verwiesen.
+
+Im Los 2 werden die Leistungsphasen 1-9 der Fachplanung Technische Ausrüstung ELT nach § 55 Abs. 1 und Abs. 3 iVm Anlage 15.1 HOAI 2021 in den Anlagengruppen 1-3 mit allen Grundleistungen stufenweise vergeben.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Oebisfelde-Weferlingen</cbc:CityName>
+               <cbc:PostalZone>39646</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEE07</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-16+02:00</cbc:StartDate>
+            <cbc:EndDate>2027-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Die Leistungen werden stufenweise sowie teilweise optional wie folgt vergeben:
+- Stufe 1: LPH 1-4 (Grundleistungen fest beauftragt)
+- Stufe 2: LPH 5-7 (Grundleistungen Leistungen optional beauftragt)
+- Stufe 3: LPH 8 und 9 (Grundleistungen Leistungen optional beauftragt)
+Die Übertragung weiterer Stufen erfolgt einseitig durch den AG und schriftlich. Auf die Übertragung hat der AN keinen Rechtsanspruch.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>70.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Persönliche Referenzen der vorgesehenen Person des verantwortlichen Planers im Bereich Fachplanung Bauphysik (Bauakustik)</cbc:Name>
+                  <cbc:Description languageID="DEU">Bewertet werden die persönliche
+Referenzen der vorgesehenen
+Person des verantwortlichen
+Planers. Einzelheiten (auch zu den
+jeweiligen Unterkriterien) ergeben
+sich aus den Vergabeunterlagen
+(hier: 3-VgV-Informationsunterlage
+sowie und 4.3-Bewertungsmatix
+Los 3).</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Einzelheiten ergeben sich aus den Vergabeunterlagen (hier: 3-VgV-Informationsunterlage sowie und 4.3-Bewertungsmatix Los 3).</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Nach § 160 Abs. 3 GWB gilt: (3)
+Der Antrag ist unzulässig, soweit:
+1) der Antragsteller den geltend gemachten Verstoß gegen
+Vergabevorschriften vor Einreichen des Nachprüfungsantrags
+erkannt und gegenüber dem Auftraggeber nicht innerhalb einer
+Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist
+nach
+§ 134 Absatz 2 bleibt unberührt,
+2) Verstöße gegen Vergabevorschriften, die aufgrund der
+Bekanntmachung erkennbar sind, nicht spätestens bis zum
+Ablauf der in der Bekanntmachung benannten Frist zur
+Bewerbung oder zur Angebotsabgabe gegenüber dem
+Auftraggeber gerügt werden,
+3) Verstöße gegen Vergabevorschriften, die erst in den
+Vergabeunterlagen erkennbar sind, nicht spätestens bis zum
+Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe
+gegenüber dem Auftraggeber gerügt werden,
+4) mehr als 15 Kalendertage nach Eingang der Mitteilung des
+Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen
+sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0003</cbc:ID>
+         <cbc:Name languageID="DEU">Los 3 - Fachplanung Bauphysik Bauakustik</cbc:Name>
+         <cbc:Description languageID="DEU">Zur allgemeinen Beschreibung der Maßnahme wird auf die allgemeinen Ausführungen zu Los 1 verwiesen.
+
+Im Los 3werden die Leistungsphasen 1-7 der Fachplanung
+Bauphysik (Bauakustik) nach Anlage 1.2 iVm 1.2.2 HOAI 2021
+mit allen Grundleistungen stufenweise vergeben.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Oebisfelde-Weferlingen</cbc:CityName>
+               <cbc:PostalZone>39646</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEE07</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-16+02:00</cbc:StartDate>
+            <cbc:EndDate>2025-10-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Die Leistungen werden stufenweise sowie teilweise optional wie
+folgt vergeben:
+- Stufe 1: LPH 1-4 (Grundleistungen fest beauftragt)
+- Stufe 2: LPH 5-7 (Grundleistungen Leistungen optional
+beauftragt)
+Die Übertragung weiterer Stufen erfolgt einseitig durch den AG
+und schriftlich. Auf die Übertragung hat der AN keinen
+Rechtsanspruch.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>70.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Persönliche Referenzen der vorgesehenen Person des verantwortlichen Planers im Bereich Fachplanung Bauphysik (Wärmeschutz und Energiebilanzierung)</cbc:Name>
+                  <cbc:Description languageID="DEU">Bewertet werden die persönliche
+Referenzen der vorgesehenen
+Person des verantwortlichen
+Planers. Einzelheiten (auch zu den
+jeweiligen Unterkriterien) ergeben
+sich aus den Vergabeunterlagen
+(hier: 3-VgV-Informationsunterlage
+sowie und 4.4-Bewertungsmatix
+Los 4).</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Einzelheiten ergeben sich aus den Vergabeunterlagen (hier: 3-VgV-Informationsunterlage sowie und 4.4-Bewertungsmatix Los 4).</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Nach § 160 Abs. 3 GWB gilt: (3)
+Der Antrag ist unzulässig, soweit:
+1) der Antragsteller den geltend gemachten Verstoß gegen
+Vergabevorschriften vor Einreichen des Nachprüfungsantrags
+erkannt und gegenüber dem Auftraggeber nicht innerhalb einer
+Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist
+nach
+§ 134 Absatz 2 bleibt unberührt,
+2) Verstöße gegen Vergabevorschriften, die aufgrund der
+Bekanntmachung erkennbar sind, nicht spätestens bis zum
+Ablauf der in der Bekanntmachung benannten Frist zur
+Bewerbung oder zur Angebotsabgabe gegenüber dem
+Auftraggeber gerügt werden,
+3) Verstöße gegen Vergabevorschriften, die erst in den
+Vergabeunterlagen erkennbar sind, nicht spätestens bis zum
+Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe
+gegenüber dem Auftraggeber gerügt werden,
+4) mehr als 15 Kalendertage nach Eingang der Mitteilung des
+Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen
+sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0004</cbc:ID>
+         <cbc:Name languageID="DEU">Los 4 - Fachplanung Bauphysik Wärmeschutz und Energiebilanzierung</cbc:Name>
+         <cbc:Description languageID="DEU">Zur allgemeinen Beschreibung der Maßnahme wird auf die
+allgemeinen Ausführungen zu Los 1 verwiesen.
+Im Los 4 werden die Leistungsphasen 1-7 der Fachplanung
+Bauphysik ((Wärmeschutz und Energiebilanzierung) nach
+Anlage 1.2 iVm 1.2.2 HOAI 2021 mit allen Grundleistungen
+stufenweise vergeben.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Oebisfelde-Weferlingen</cbc:CityName>
+               <cbc:PostalZone>39646</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEE07</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-16+02:00</cbc:StartDate>
+            <cbc:EndDate>2025-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Die Leistungen werden stufenweise sowie teilweise optional wie
+folgt vergeben:
+- Stufe 1: LPH 1-4 (Grundleistungen fest beauftragt)
+- Stufe 2: LPH 5-7 (Grundleistungen Leistungen optional
+beauftragt)
+Die Übertragung weiterer Stufen erfolgt einseitig durch den AG
+und schriftlich. Auf die Übertragung hat der AN keinen
+Rechtsanspruch.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

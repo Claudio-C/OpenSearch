@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.sncf.com</cbc:WebsiteURI>
+                                <cbc:EndpointID>https://sncf.bravosolution.com/web/login.html</cbc:EndpointID>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">SNCF</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>15 RUE JEAN PHILIPPE RAMEAU</cbc:StreetName>
+                                    <cbc:CityName>SAINT-DENIS</cbc:CityName>
+                                    <cbc:PostalZone>93200</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>412 280 737 20375</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Anaïs SPITALE</cbc:Name>
+                                    <cbc:Telephone>00000000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>ext.anais.spitale@reseau.sncf.fr</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://montreuil.tribunal-administratif.fr/</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Montreuil</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>7 RUE CATHERINE PUIG</cbc:StreetName>
+                                    <cbc:CityName>MONTREUIL</cbc:CityName>
+                                    <cbc:PostalZone>93100</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>13000686900015</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>0149202000</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-montreuil@juradm.fr</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366245-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">84eecd8e-bbd2-437a-a15c-7bd0d5fb3d45</cbc:ID>
+    <cbc:ContractFolderID>847cda23-d964-48e4-a8cc-0030902554fc</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+    <cbc:IssueTime>10:07:54Z</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>https://sncf.bravosolution.com/web/login.html</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="entity-activity">rail</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">2025DOS0365907 - BEB-MES EOLE- Mantes-la-Jolie (78) - Marché de rehaussement de quais</cbc:ID>
+        <cbc:Name languageID="FRA">EOLE- Mantes-la-Jolie (78) - Marché de rehaussement de quais</cbc:Name>
+        <cbc:Description languageID="FRA">Dans le cadre de la mise en service du RER E à Mantes-la-Jolie début 2027, le quai 3 de la gare de Mantes-la-Jolie sera desservi en phase provisoire par divers matériels roulants à plancher haut et plancher bas. Pour ce faire il est prévu dans le cadre de ce marché la mise en place d’un rehaussement provisoire du quai de 55 à 76cm à l’aide d’une structure modulaire en composite sur l’ensemble de la surface du quai.
+
+Le marché ne comprend pas la dépose du dispositif de rehaussement provisoire, prévu dans le cadre d’un marché ultérieur.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="FRA">La société SNCF Réseau, émet cet avis de marché en son nom et pour son propre compte.
+
+Dans le cadre de la présente consultation, les candidatures sont obligatoirement envoyées par voie électronique sur le portail Achat e@si. Aucun envoi par e-mail n'est autorisé. Le candidat doit être en mesure de justifier des pouvoirs de son représentant sur requête de l’entité adjudicatrice.
+
+L’entité adjudicatrice utilise une plateforme collectant des documents génériques de capacité et des attestations légales génériques : Plateforme Provigis. Une invitation d’accès à Provigis est envoyée au candidat lors de sa manifestation d’intérêt sur la plateforme d’achats. En cas de non-réception de l’invitation, le candidat est invité à se rapprocher de l’acheteur dont les coordonnées sont précisées dans cet avis.
+
+Toute candidature électronique ne respectant pas le formalisme pré cité est rejetée sans être analysée.
+Pour toute difficulté d’ordre technique, le candidat peut se rapprocher du support fournisseurs de la plateforme achats (accessible à partir de l’adresse URL indiquée sur le Portail Achat du Groupe SNCF). Pour toute autre question, le candidat doit contacter l'acheteur dont les coordonnées sont reprises dans le présent avis.
+
+Rappel sur les motifs d’exclusions
+
+Concernant les motifs d’exclusions, il est rappelé que le candidat, ou chaque membre du groupement, doit compléter la case « F1 – Exclusions de la procédure » du formulaire DC1 afin d’attester qu’il n’entre dans aucun des cas d’exclusions. Lorsqu’un candidat, ou chaque membre du groupement, se trouve dans l’un des cas d’exclusion d’accès à la commande publique, il doit transmettre spontanément ses observations à la Société prouvant qu’il a pris des mesures correctrices susceptibles de démontrer le rétablissement de sa fiabilité.
+Par ailleurs, par le dépôt de sa candidature le candidat, ou chaque membre du groupement, déclare sur l’honneur respecter l’ensemble des mesures restrictives (sanctions internationales) applicables, ainsi que leurs éventuelles mesures de transposition ou d’application en droit français.</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45241100</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">44112000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">FR103</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+            <cac:RequiredFinancialGuarantee>
+                <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+                <cbc:Description languageID="FRA">Voir CPS</cbc:Description>
+            </cac:RequiredFinancialGuarantee>
+            <cac:CallForTendersDocumentReference>
+                <ext:UBLExtensions>
+                    <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                            <efext:EformsExtension>
+                                <efac:OfficialLanguages>
+                                    <cac:Language>
+                                        <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                </efac:OfficialLanguages>
+                            </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                    </ext:UBLExtension>
+                </ext:UBLExtensions>
+                <cbc:ID>2025RFI065493</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://sncf.bravosolution.com/web/login.html</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:PaymentTerms>
+                <cbc:Note languageID="FRA">Les offres doivent être exprimées en Euros. Les prix sont fermes. 
+Paiement à 60 jours à compter de la réception de la demande de paiement.
+Paiement par virement selon les modalités prévues par les documents contractuels.</cbc:Note>
+            </cac:PaymentTerms>
+            <cac:TendererQualificationRequest>
+                <cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+                <cbc:CompanyLegalForm languageID="FRA">Le groupement doit désigner un des cotraitants comme mandataire, qui devra être obligatoirement solidaire de chacun des membres du groupement pour chacune de leurs obligations contractuelles. 
+
+Groupement conjoint avec mandataire solidaire</cbc:CompanyLegalForm>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                <cbc:Description languageID="FRA">INSERTION
+Le soumissionnaire s’engagera à réserver un nombre d’heures d’insertion, dans le cadre de l’exécution du futur contrat, à des personnes éloignées de l’emploi et qui sont dans un cursus d’insertion par l’activité économique, et ce, selon les modalités définies à l’article « Insertion par l’activité économique » du cahier des prescriptions spéciales.
+Ces heures représentent 7% des heures de travail</cbc:Description>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="FRA">Montant total issu de l'annexe financière</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>45</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="FRA">Critères techniques :
+Qualité (dont SOPAQ) 25%
+Mémoire technique (méthodologie, moyens humains, moyens techniques) 50%
+Planning + Interfaces 25%</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>15</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="FRA">RSE 
+Sous-pondération : 50% Sécurité, 50% SOPAE</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:DocumentProviderParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:DocumentProviderParty>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://sncf.bravosolution.com/web/login.html</cbc:EndpointID>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:TenderRecipientParty>
+            <cac:TenderEvaluationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:TenderEvaluationParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="FRA">Les procédures de recours applicables sont :
+- Le référé précontractuel (CJA, art L.551-5 et s) qui peut être exercé jusqu’à la signature du marché ;
+- Le référé contractuel (CJA, art L.551-13 et s) qui peut être exercé dans un délai de :
+o	31 jours à compter de la publication d’un avis d’attribution au JOUE ou, pour les marchés fondés sur un accord cadre, à compter de la notification de la conclusion du contrat ;
+o	6 mois à compter du lendemain du jour de la conclusion du contrat si aucun avis d’attribution n’a été publié ou si aucune notification de la conclusion du contrat n’a été effectuée ;
+- Le recours en contestation de validité du contrat ou de certaines de ses clauses (dans un délai de 2 mois à compter de l’accomplissement des mesures de publicité appropriées).</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>FRA</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efbc:AccessToolName>PORTAIL ACHATS DU GROUPE SNCF via l’URL suivante : https://sncf.bravosolution.com/web/login.html</efbc:AccessToolName>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cbc:AccessToolsURI>https://sncf.bravosolution.com/web/login.html</cbc:AccessToolsURI>
+            <cac:ParticipationRequestReceptionPeriod>
+                <cbc:EndDate>2025-07-09+02:00</cbc:EndDate>
+                <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+            </cac:ParticipationRequestReceptionPeriod>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">EOLE- Mantes-la-Jolie (78) - Marché de rehaussement provisoire du quai 3</cbc:ID>
+            <cbc:Name languageID="FRA">EOLE- Mantes-la-Jolie (78) - Marché de rehaussement provisoire du quai 3</cbc:Name>
+            <cbc:Description languageID="FRA">Dans le cadre de la mise en service du RER E à Mantes-la-Jolie début 2027, le quai 3 de la gare de Mantes-la-Jolie sera desservi en phase provisoire par divers matériels roulants à plancher haut et plancher bas. Pour ce faire il est prévu dans le cadre de ce marché la mise en place d’un rehaussement provisoire du quai de 55 à 76cm à l’aide d’une structure modulaire en composite sur l’ensemble de la surface du quai.
+
+Le marché ne comprend pas la dépose du dispositif de rehaussement provisoire, prévu dans le cadre d’un marché ultérieur. Etudes janvier 2026 puis travaux à compter de juin 2026.
+
+Visites obligatoires, travaux sous PGC et NRE, insertion</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+            <cbc:Note languageID="FRA">En phase candidature, les documents et les renseignements demandés doivent être fournis par les candidats (en cas de candidature d’un groupement, chacune des pièces exigées ci-après doit être transmise par chacun des membres du groupement). Les informations doivent être remises soit par les formulaires DC1 (qui peut être commun à tous les lots) et DC2 (un par lot) soit par un Document Unique de Marché Européen électronique (DUME).
+
+Chiffre d'affaires minimal requis sur les 3 derniers exercices : 4 000 000€
+Références et expériences sur les 5 dernières années
+Obligatoire pour le titulaire ou groupement - ou équivalent :
+FNTP2321 : Travaux de terrassement courant en milieu urbain
+FNTP1131 : Ouvrages de technicité courante
+
+Si le candidat s’appuie sur les capacités d’un autre opérateur économique, il doit compléter la rubrique H du formulaire DC2 et fournir la preuve des moyens et compétences de l’entreprise tierce dont il se prévaut. Cette preuve doit prendre la forme d’une obligation juridiquement contraignante.
+
+Si l’opérateur économique doit intervenir en tant que sous-traitant, il est possible de remettre à titre de preuve une déclaration de sous-traitance (Modèle disponible en suivant ce lien) en complétant les seules parties utiles à cette fin.</cbc:Note>
+            <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">45241100</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">44112000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">FR103</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2026-01-05+02:00</cbc:StartDate>
+                <cbc:DurationMeasure unitCode="DAY">326</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ContractNotice>

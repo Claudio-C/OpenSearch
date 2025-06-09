@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <efbc:OverallApproximateFrameworkContractsAmount currencyID="EUR">1</efbc:OverallApproximateFrameworkContractsAmount>
+                        <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">1</efbc:OverallMaximumFrameworkContractsAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                            </efac:LotTender>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+                            </efac:LotTender>
+                            <efac:FrameworkAgreementValues>
+                                <cbc:MaximumValueAmount currencyID="EUR">1</cbc:MaximumValueAmount>
+                                <efbc:ReestimatedValueAmount currencyID="EUR">1</efbc:ReestimatedValueAmount>
+                            </efac:FrameworkAgreementValues>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0003</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:StrategicProcurement>
+                                <efac:StrategicProcurementInformation>
+                                    <efbc:ProcurementCategoryCode listName="cvd-contract-type">veh-acq</efbc:ProcurementCategoryCode>
+                                    <efac:ProcurementDetails>
+                                        <efbc:AssetCategoryCode listName="vehicle-category">n3</efbc:AssetCategoryCode>
+                                        <efac:StrategicProcurementStatistics>
+                                            <efbc:StatisticsCode listName="vehicles">vehicles</efbc:StatisticsCode>
+                                            <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                                        </efac:StrategicProcurementStatistics>
+                                        <efac:StrategicProcurementStatistics>
+                                            <efbc:StatisticsCode listName="vehicles">vehicles-clean</efbc:StatisticsCode>
+                                            <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                                        </efac:StrategicProcurementStatistics>
+                                        <efac:StrategicProcurementStatistics>
+                                            <efbc:StatisticsCode listName="vehicles">vehicles-zero-emission</efbc:StatisticsCode>
+                                            <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                                        </efac:StrategicProcurementStatistics>
+                                    </efac:ProcurementDetails>
+                                </efac:StrategicProcurementInformation>
+                            </efac:StrategicProcurement>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0003</cbc:ID>
+                            <cbc:AwardDate>2025-04-22+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2025-05-20+02:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Inhuur inzamelvoertuigen</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0003</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+                            <cbc:AwardDate>2025-04-22+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2025-05-19+02:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Inhuur inzamelvoertuigen</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0002</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2025-04-22+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2025-05-20+02:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Inhuur inzamelvoertuigen</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0001</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.avri.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Avri</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Meersteeg 15</cbc:StreetName>
+                                    <cbc:CityName>Geldermalsen</cbc:CityName>
+                                    <cbc:PostalZone>4191 NK</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL224</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>52683150</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Sander de Jong</cbc:Name>
+                                    <cbc:Telephone>+31 0653286409</cbc:Telephone>
+                                    <cbc:ElectronicMail>inkoop@avri.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Gelderland</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Gelderland</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>Arnhem</cbc:CityName>
+                                    <cbc:PostalZone>6811 CD</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL224</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:ElectronicMail>communicatie.rb-gel@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.cleanmat.eu</cbc:WebsiteURI>
+                                <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Clean Mat Truckverhuur</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Wageningsestraat 17</cbc:StreetName>
+                                    <cbc:CityName>Andelst</cbc:CityName>
+                                    <cbc:PostalZone>6673DB</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL226</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>10142999</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 488712600</cbc:Telephone>
+                                    <cbc:Telefax>+31 488712601</cbc:Telefax>
+                                    <cbc:ElectronicMail>roos@cleanmat.eu</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.awmaterieel.nl</cbc:WebsiteURI>
+                                <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">A.W. Materieel B.V.</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Ecopark 28</cbc:StreetName>
+                                    <cbc:CityName>Emmeloord</cbc:CityName>
+                                    <cbc:PostalZone>8305BK</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL230</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>39091408</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.tendersupport.nl</cbc:WebsiteURI>
+                                <efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Tender Support</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Veerstraat 36</cbc:StreetName>
+                                    <cbc:CityName>OUDE WETERING</cbc:CityName>
+                                    <cbc:PostalZone>2377AP</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL363</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>59215453</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:ElectronicMail>arnold@tendersupport.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368944-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">e8be3db5-278f-466e-bdc5-65dc30676c2d</cbc:ID>
+    <cbc:ContractFolderID>8e1eda22-958b-4abd-8fda-71aa7acde354</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>14:52:08.280258746+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">2024-BB</cbc:ID>
+        <cbc:Name languageID="NLD">Inhuur Inzamelvoertuigen</cbc:Name>
+        <cbc:Description languageID="NLD">Inhuren van diverse Inzamelvoertuigen 0,00</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">34144511</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="NLD">Geldermalsen</cbc:Description>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">NL224</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">true</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Inschrijfsom</cbc:Name>
+                        <cbc:Description languageID="NLD">Inschrijfsom</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-w-rc</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Inhuur inzamelvoertuigen</cbc:Name>
+            <cbc:Description languageID="NLD">Het inhuren van inzamelvoertuigen. Nader beschreven in leidraad en PVE. Nader te bepalen. Hangt af van verscheidene factoren zoals uitval binnen het wagenpark inzake de inhuurbehoefte.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">1</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">34144511</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="NLD">Geldermalsen</cbc:Description>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">NL224</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="NLD">Het contract kan één maal met 2 jaar worden verlengd. Totale looptijd initiële contract met verlengingsoptie is 4 jaar.</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="NLD">Het contract kan één maal met 2 jaar worden verlengd. Totale looptijd initiële contract met verlengingsoptie is 4 jaar.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

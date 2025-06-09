@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="EUR">270982.0000</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0000</cbc:ID>
+              <cbc:HigherTenderAmount currencyID="EUR">290624.7900</cbc:HigherTenderAmount>
+              <cbc:LowerTenderAmount currencyID="EUR">270982.0000</cbc:LowerTenderAmount>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+                <cac:LegalMonetaryTotal>
+                  <cbc:PayableAmount currencyID="EUR">270982.0000</cbc:PayableAmount>
+                </cac:LegalMonetaryTotal>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="tenders">tenders</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-esubm">t-esubm</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-sme">t-sme</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-no-verif">t-no-verif</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-verif-inad">t-verif-inad</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-verif-inad-low">t-verif-inad-low</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-oth-eea">t-oth-eea</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-no-eea">t-no-eea</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+              <cbc:RankCode>1</cbc:RankCode>
+              <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+              <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="EUR">270982.0000</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0000</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+              <cbc:IssueDate>2025-06-03+02:00</cbc:IssueDate>
+              <cbc:Title languageID="SLV">Pogodba za nakup in dobavo blaga</cbc:Title>
+              <efac:ContractReference>
+                <cbc:ID>382/2025/P</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0000</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.komunalaskofjaloka.si/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">Javno podjetje Komunala Škofja Loka d.o.o.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Kidričeva cesta  43A</cbc:StreetName>
+                  <cbc:CityName>Škofja Loka</cbc:CityName>
+                  <cbc:PostalZone>4220</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI042</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>8569061000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+38645023500</cbc:Telephone>
+                  <cbc:ElectronicMail>info@komunalaskofjaloka.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.dkom.si/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">DRŽAVNA REVIZIJSKA KOMISIJA ZA REVIZIJO POSTOPKOV ODDDAJE JAVNIH NAROČIL</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Slovenska cesta 54</cbc:StreetName>
+                  <cbc:CityName>Ljubljana</cbc:CityName>
+                  <cbc:PostalZone>1000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>1332716000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+38612342800</cbc:Telephone>
+                  <cbc:ElectronicMail>dkom@dkom.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">LOGO BENCINSKI SERVISI, maloprodaja in druge storitve d.o.o.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Ljubljanska cesta  66</cbc:StreetName>
+                  <cbc:CityName>Grosuplje</cbc:CityName>
+                  <cbc:PostalZone>1290</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>6394914000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00369069-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">752f5a61-51b0-4cee-b177-17fc95c1fc39</cbc:ID>
+  <cbc:ContractFolderID>25928f54-c99b-4d0b-98d8-fb8e8978f048</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+  <cbc:IssueTime>13:09:21.1793457+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>SLV</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>JN 03/2025</cbc:ID>
+    <cbc:Name languageID="SLV">NAKUP IN DOBAVA GORIVA</cbc:Name>
+    <cbc:Description languageID="SLV">Predmet javnega naročila je NAKUP IN DOBAVA GORIVA, in sicer nakup goriva na bencinskih servisih ponudnika s plačilnimi karticami ponudnika, vključno z bencinskimi servisi ob avtocestnem križu in hitrih cestah (kartično poslovanje).</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <cbc:EstimatedOverallContractAmount currencyID="EUR">335700.0000</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">09100000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">SI042</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cbc:CalculationExpression languageID="SLV">Merila za izbor, kot so navedena v razpisni dokumentaciji.</cbc:CalculationExpression>
+          <cac:SubordinateAwardingCriterion>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="SLV">Merila za izbor, kot so navedena v razpisni dokumentaciji.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="SLV">Zakon o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 43/11 s spremembami)</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:NoticeDocumentReference>
+        <cbc:ID>bd430445-fd8d-4e79-bfe8-8e10f0836ced-01</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>293261</cbc:ID>
+      <cbc:Name languageID="SLV">NAKUP IN DOBAVA GORIVA</cbc:Name>
+      <cbc:Description languageID="SLV">Predmet javnega naročila je NAKUP IN DOBAVA GORIVA, in sicer nakup goriva na bencinskih servisih ponudnika s plačilnimi karticami ponudnika, vključno z bencinskimi servisi ob avtocestnem križu in hitrih cestah (kartično poslovanje).</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">335700.0000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">09100000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">SI042</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

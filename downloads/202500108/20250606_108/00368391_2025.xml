@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.mwio.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://platformazakupowa.pl/pn/mwio_grudziadz</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Miejskie Wodociągi i Oczyszczalnia sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Mickiewicza 28/30</cbc:StreetName>
+                           <cbc:CityName>Grudziądz</cbc:CityName>
+                           <cbc:PostalZone>86-300</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL616</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>876-18-72-491</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Miejskie Wodociągi i Oczyszczalnia sp. z o.o.</cbc:Name>
+                           <cbc:Telephone>564504901</cbc:Telephone>
+                           <cbc:ElectronicMail>mwio@mwio.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Postępu 17A</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368391-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">8d7620eb-72d2-4af6-9080-910647634c96</cbc:ID>
+   <cbc:ContractFolderID>350da167-a953-4ace-a3dd-e59366643b6d</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>09:47:47Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://platformazakupowa.pl/pn/mwio_grudziadz</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>Ustawa z dnia 11 września 2019 roku - Prawo zamówień publicznych</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">art. 138</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <ext:UBLExtensions>
+         <ext:UBLExtension>
+            <ext:ExtensionContent>
+               <efext:EformsExtension>
+                  <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+               </efext:EformsExtension>
+            </ext:ExtensionContent>
+         </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">ZP4/2025/OZ/BLZ</cbc:ID>
+      <cbc:Name languageID="POL">Dostawa wolnoobrotowego mobilnego rozdrabniacza dwuwałowego do biomasy do Zakładu Gospodarki Odpadami w Zakurzewie koło Grudziądza</cbc:Name>
+      <cbc:Description languageID="POL">Maszyna służąca do rozdrabniania odpadów zielonych np. gałęzi, pni i korzeni  drzew oraz przygotowania biodegradowalnego materiału wsadowego  do procesu kompostowania o różnych frakcjach w zależności od zastosowanych sit lub belek klasyfikacyjnych.
+1)	Wymagania podstawowe: 
+a)	fabrycznie nowy, wyprodukowany z fabrycznie nowych części, nie wcześniej niż w 2025 roku;
+b)	rozdrabniacz z seryjnej produkcji nie będący rozwiązaniem prototypowym;
+c)	spełniający wymagania określone w obowiązujących przepisach prawnych, w tym w szczególności Rozporządzeniu Ministra Gospodarki z dnia 21 października 2008 r. w sprawie zasadniczych wymagań dla maszyn (Dz. U. z 2008 r. Nr 199, poz. 1228 ze zm.) oraz Dyrektywie 2006/42/WE Parlamentu Europejskiego i Rady z dnia 17 maja 2006 r. w sprawie maszyn;
+d)	całkowita masa własna w granicach 15 - 28 t;
+e)	wymiary transportowe:
+-	szerokość transportowa max 2 550 mm,
+-	wysokość transportowa max 3 400 mm,
+-	długość transportowa max 9 080 mm;
+f)	regulacja rozmiaru rozdrobnionej frakcji przy zastosowaniu odpowiednich sit (wkładów) klasyfikacyjnych lub belek łamiących umożliwiających rozdrobnienie materiału w granicach minimalnych od 60 mm do 300 mm - wymagane dostarczenie wkładów do uzyskania frakcji 60 mm, 150 mm, 300 mm;
+g)	zbiornik paliwa o pojemności min. 400 l;
+h)	automatyczne centralne smarowanie wszystkich punktów smarnych;
+i)	automatyczne programy pracy maszyny oraz automatyczne ustawienia parametrów pracy;
+2)	Napęd główny:
+a)	silnik wysokoprężny o mocy min. 280 kW z elektronicznym systemem zabezpieczeń, spełniający aktualnie obowiązujące normy emisji spalin – min. EU Stage V,
+b)	napęd na wały rozdrabniające hydrauliczny, składający się z min. dwóch nastawnych pomp i dwóch silników hydraulicznych;
+3)	Komora rozdrabniająca:
+a)	minimum 2 (dwa) wolnoobrotowe wały rozdrabniające posiadające specjalne szybkowymienne ostrza (zęby) mocowane na połączenia śrubowe lub noże niewymienne, regenerowane przez napawanie;
+b)	przy wymiennych nożach - szybka wymiana noży bez konieczności wchodzenia do komory rozdrabniającej;
+c)	zasyp materiału od góry za pomocą ładowarki kołowej bądź chwytaka;
+d)	wały rozdrabniające opancerzone;
+e)	liczba zębów min. 80 sztuk wykonanych z materiałów o przedłużonej trwałości;
+f)	wały rozdrabniające o długości min. 2 030 mm;
+g)	średnica wałów rozdrabniających min. 600 mm;
+h)	płynna regulacja prędkości obrotowej wałów w zakresie min. 0 - 30 obr./min;
+i)	automatyczny rewers wałów (również pod obciążeniem);
+j)	grzebień przeciwtnący umieszczony pomiędzy wałami rozdrabniającymi;
+k)	liczba zębów grzebienia min. 15 sztuk;
+l)	maszyna wyposażona w szybkowymienne klasyfikacyjne kosze sitowe (sita), 
+w celu uzyskania odpowiedniej wielkości rozdrobnionej frakcji:
+-	kosz wymienny o średnicy oczka 60 mm - 1 sztuka,
+-	kosz wymienny o średnicy oczka 150 mm - 1 sztuka,
+-	kosz wymienny o średnicy oczka 300 mm - 1 sztuka.
+Mocowanie bezśrubowe w wysuwanej hydraulicznie kasecie pod wałami rozdrabniającymi.
+4)	Zasobnik:
+a)	długość zasypowa min. 4 500 mm;
+b)	szerokość zasypowa min. 3 200 mm;
+c)	wysokość załadunku max 2 500 mm;
+d)	tylna oraz obie boczne burty zasobnika dodatkowo podwyższone o min. 400 mm;
+e)	burty zasobnika składane hydraulicznie;
+f)	hydrauliczne sterowanie klapy zasobnika powiększające jego objętość oraz dające możliwość docisku materiału do wałów rozdrabniających.
+5)	Przenośnik wyrzutowy frakcji po rozdrobnieniu:
+a)	przenośnik składany i rozkładany hydraulicznie;
+b)	przenośnik wyrzutowy o długości min. 5 400 mm;
+c)	przenośnik wyrzutowy o szerokości min. 1 000 mm;
+d)	maksymalna wysokość zrzutu min. 3 500 mm;
+e)	przenośnik wyposażony w nadtaśmowy separator magnetyczny napędzany hydraulicznie.
+6)	Pozostałe wymagania:
+a)	maszyna zabudowana na ramie pod urządzenie hakowe, pozwalające na transport za pomocą samochodu z urządzeniem hakowym – zabudowa na ramie wykonanej zgodnie z normą DIN 30722, wyposażonej w dwie rolki podporowe oraz zaczep hakowy na wysokości 1 570 mm;
+b)	hydraulicznie wysuwane podwozie transportowe umożliwiające przemieszczanie maszyny po placu przy użyciu ładowarki kołowej – hydraulicznie opuszczane koła i rozkładany dyszel przystosowany do użytkowania z ramieniem ładowarki kołowej;
+c)	powierzchnie metalowe zabezpieczone antykorozyjnie i powłokami malarskimi 
+w kolorystyce standardowej producenta;
+d)	nadtaśmowy separator magnetyczny z płynną regulacją wysokości roboczej, do celów transportowych składany;
+e)	pulpit sterowniczy umożliwiający sterowanie – czytelny, kolorowy wyświetlacz wskazujący min.: wybrany program sterowania, stan paliwa, liczbę przepracowanych godzin od początku eksploatacji, liczbę przepracowanych godzin dziennie, zadaną prędkość obrotową wałów, informacji o aktywnych i archiwalnych błędach oraz usterkach;
+f)	pilot zdalnego sterowania, umożliwiający sterowanie maszyną;
+g)	taśmociąg dolny odprowadzający z możliwością rewersu taśmy;
+h)	pokrywy i osłony – urządzenie wyposażone w pokrywy i osłony boczne w formie paneli wykonanych z blach tłoczonych;
+i)	rozdrabniacz wraz z przenośnikiem wyrzutowym stanowi układ niezależny od zewnętrznych źródeł zasilania;
+j)	wyposażenie urządzenia w wyłączniki awaryjne zainstalowane w łatwo dostępnych, newralgicznych pod względem bezpieczeństwa punktach maszyny zgodnie z wiedzą i doświadczeniem producenta;
+k)	wyposażenie w niezbędny zestaw narzędzi i oprogramowania do codziennej oraz serwisowej obsługi maszyny.
+7)	Dokumentacja maszyny i osprzętu w j. polskim:
+a)	instrukcja obsługi maszyny - DTR;
+b)	dokument gwarancyjny - karta lub książka gwarancyjna;
+c)	katalog części zamiennych maszyny;
+d)	deklaracja/certyfikat CE zgodności maszyny;  
+e)	atesty i inne niezbędne dokumenty dopuszczające maszynę do uruchomienia 
+i użytkowania. 
+W przypadku przedłożenia wskazanych powyżej dokumentów sporządzonych w języku obcym, Wykonawca zobowiązany jest przedłożyć ich tłumaczenie na język polski.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">42996100</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>ul. Mickiewicza 28/30</cbc:StreetName>
+            <cbc:CityName>Grudziądz</cbc:CityName>
+            <cbc:PostalZone>86-300</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL616</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>https://platformazakupowa.pl/pn/mwio_grudziadz</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://platformazakupowa.pl/pn/mwio_grudziadz</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="POL">Zamawiający zastosował jedno kryterium oceny ofert: cena – waga 100%. </cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://platformazakupowa.pl/pn/mwio_grudziadz</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Odwołanie wnosi się:
+1)	 w przypadku zamówień, których wartość jest równa albo przekracza progi unijne, w terminie:
+a)	 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej,</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:AccessToolName>platformazakupowa.pl </efbc:AccessToolName>
+                     <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://platformazakupowa.pl/pn/mwio_grudziadz</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:30:00+02:00</cbc:OccurrenceTime>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://platformazakupowa.pl/pn/mwio_grudziadz</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Zp4/2025/OZ/BLZ</cbc:ID>
+         <cbc:Name languageID="POL">Dostawa wolnoobrotowego mobilnego rozdrabniacza dwuwałowego do biomasy do Zakładu Gospodarki Odpadami w Zakurzewie koło Grudziądza</cbc:Name>
+         <cbc:Description languageID="POL">Przedmiotem zamówienia jest sprzedaż i dostawa fabrycznie nowego mobilnego rozdrabniacza do biomasy o wydajności min. 50 Mg/h, rok produkcji 2025. 
+Maszyna służąca do rozdrabniania odpadów zielonych np. gałęzi, pni i korzeni  drzew oraz przygotowania biodegradowalnego materiału wsadowego  do procesu kompostowania o różnych frakcjach w zależności od zastosowanych sit lub belek klasyfikacyjnych.
+1)	Wymagania podstawowe: 
+a)	fabrycznie nowy, wyprodukowany z fabrycznie nowych części, nie wcześniej niż w 2025 roku;
+b)	rozdrabniacz z seryjnej produkcji nie będący rozwiązaniem prototypowym;
+c)	spełniający wymagania określone w obowiązujących przepisach prawnych, w tym w szczególności Rozporządzeniu Ministra Gospodarki z dnia 21 października 2008 r. w sprawie zasadniczych wymagań dla maszyn (Dz. U. z 2008 r. Nr 199, poz. 1228 ze zm.) oraz Dyrektywie 2006/42/WE Parlamentu Europejskiego i Rady z dnia 17 maja 2006 r. w sprawie maszyn;
+d)	całkowita masa własna w granicach 15 - 28 t;
+e)	wymiary transportowe:
+-	szerokość transportowa max 2 550 mm,
+-	wysokość transportowa max 3 400 mm,
+-	długość transportowa max 9 080 mm;
+f)	regulacja rozmiaru rozdrobnionej frakcji przy zastosowaniu odpowiednich sit (wkładów) klasyfikacyjnych lub belek łamiących umożliwiających rozdrobnienie materiału w granicach minimalnych od 60 mm do 300 mm - wymagane dostarczenie wkładów do uzyskania frakcji 60 mm, 150 mm, 300 mm;
+g)	zbiornik paliwa o pojemności min. 400 l;
+h)	automatyczne centralne smarowanie wszystkich punktów smarnych;
+i)	automatyczne programy pracy maszyny oraz automatyczne ustawienia parametrów pracy;
+2)	Napęd główny:
+a)	silnik wysokoprężny o mocy min. 280 kW z elektronicznym systemem zabezpieczeń, spełniający aktualnie obowiązujące normy emisji spalin – min. EU Stage V,
+b)	napęd na wały rozdrabniające hydrauliczny, składający się z min. dwóch nastawnych pomp i dwóch silników hydraulicznych;
+3)	Komora rozdrabniająca:
+a)	minimum 2 (dwa) wolnoobrotowe wały rozdrabniające posiadające specjalne szybkowymienne ostrza (zęby) mocowane na połączenia śrubowe lub noże niewymienne, regenerowane przez napawanie;
+b)	przy wymiennych nożach - szybka wymiana noży bez konieczności wchodzenia do komory rozdrabniającej;
+c)	zasyp materiału od góry za pomocą ładowarki kołowej bądź chwytaka;
+d)	wały rozdrabniające opancerzone;
+e)	liczba zębów min. 80 sztuk wykonanych z materiałów o przedłużonej trwałości;
+f)	wały rozdrabniające o długości min. 2 030 mm;
+g)	średnica wałów rozdrabniających min. 600 mm;
+h)	płynna regulacja prędkości obrotowej wałów w zakresie min. 0 - 30 obr./min;
+i)	automatyczny rewers wałów (również pod obciążeniem);
+j)	grzebień przeciwtnący umieszczony pomiędzy wałami rozdrabniającymi;
+k)	liczba zębów grzebienia min. 15 sztuk;
+l)	maszyna wyposażona w szybkowymienne klasyfikacyjne kosze sitowe (sita), 
+w celu uzyskania odpowiedniej wielkości rozdrobnionej frakcji:
+-	kosz wymienny o średnicy oczka 60 mm - 1 sztuka,
+-	kosz wymienny o średnicy oczka 150 mm - 1 sztuka,
+-	kosz wymienny o średnicy oczka 300 mm - 1 sztuka.
+Mocowanie bezśrubowe w wysuwanej hydraulicznie kasecie pod wałami rozdrabniającymi.
+4)	Zasobnik:
+a)	długość zasypowa min. 4 500 mm;
+b)	szerokość zasypowa min. 3 200 mm;
+c)	wysokość załadunku max 2 500 mm;
+d)	tylna oraz obie boczne burty zasobnika dodatkowo podwyższone o min. 400 mm;
+e)	burty zasobnika składane hydraulicznie;
+f)	hydrauliczne sterowanie klapy zasobnika powiększające jego objętość oraz dające możliwość docisku materiału do wałów rozdrabniających.
+5)	Przenośnik wyrzutowy frakcji po rozdrobnieniu:
+a)	przenośnik składany i rozkładany hydraulicznie;
+b)	przenośnik wyrzutowy o długości min. 5 400 mm;
+c)	przenośnik wyrzutowy o szerokości min. 1 000 mm;
+d)	maksymalna wysokość zrzutu min. 3 500 mm;
+e)	przenośnik wyposażony w nadtaśmowy separator magnetyczny napędzany hydraulicznie.
+6)	Pozostałe wymagania:
+a)	maszyna zabudowana na ramie pod urządzenie hakowe, pozwalające na transport za pomocą samochodu z urządzeniem hakowym – zabudowa na ramie wykonanej zgodnie z normą DIN 30722, wyposażonej w dwie rolki podporowe oraz zaczep hakowy na wysokości 1 570 mm;
+b)	hydraulicznie wysuwane podwozie transportowe umożliwiające przemieszczanie maszyny po placu przy użyciu ładowarki kołowej – hydraulicznie opuszczane koła i rozkładany dyszel przystosowany do użytkowania z ramieniem ładowarki kołowej;
+c)	powierzchnie metalowe zabezpieczone antykorozyjnie i powłokami malarskimi 
+w kolorystyce standardowej producenta;
+d)	nadtaśmowy separator magnetyczny z płynną regulacją wysokości roboczej, do celów transportowych składany;
+e)	pulpit sterowniczy umożliwiający sterowanie – czytelny, kolorowy wyświetlacz wskazujący min.: wybrany program sterowania, stan paliwa, liczbę przepracowanych godzin od początku eksploatacji, liczbę przepracowanych godzin dziennie, zadaną prędkość obrotową wałów, informacji o aktywnych i archiwalnych błędach oraz usterkach;
+f)	pilot zdalnego sterowania, umożliwiający sterowanie maszyną;
+g)	taśmociąg dolny odprowadzający z możliwością rewersu taśmy;
+h)	pokrywy i osłony – urządzenie wyposażone w pokrywy i osłony boczne w formie paneli wykonanych z blach tłoczonych;
+i)	rozdrabniacz wraz z przenośnikiem wyrzutowym stanowi układ niezależny od zewnętrznych źródeł zasilania;
+j)	wyposażenie urządzenia w wyłączniki awaryjne zainstalowane w łatwo dostępnych, newralgicznych pod względem bezpieczeństwa punktach maszyny zgodnie z wiedzą i doświadczeniem producenta;
+k)	wyposażenie w niezbędny zestaw narzędzi i oprogramowania do codziennej oraz serwisowej obsługi maszyny.
+7)	Dokumentacja maszyny i osprzętu w j. polskim:
+a)	instrukcja obsługi maszyny - DTR;
+b)	dokument gwarancyjny - karta lub książka gwarancyjna;
+c)	katalog części zamiennych maszyny;
+d)	deklaracja/certyfikat CE zgodności maszyny;  
+e)	atesty i inne niezbędne dokumenty dopuszczające maszynę do uruchomienia 
+i użytkowania. 
+W przypadku przedłożenia wskazanych powyżej dokumentów sporządzonych w języku obcym, Wykonawca zobowiązany jest przedłoży</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">42996100</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Zakład Gospodarki Odpadami w Zakurzewie</cbc:Description>
+            <cac:Address>
+               <cbc:CityName>Grudziądz</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL616</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">8</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

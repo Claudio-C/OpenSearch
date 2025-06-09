@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">1289499.00</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>6</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">1289499.00</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>06</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-05-16+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-30+02:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>Abbrucharbeiten</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.bgbau.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">BG BAU - Berufsgenossenschaft der Bauwirtschaft</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Bundesallee 210</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10719</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>993-8001610400-54</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 3085781-548</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@bgbau.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.bundeskartellamt.bund.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kaiser-Friedrich-Str. 16</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53113</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>991-02380-92</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 228 9499-0</cbc:Telephone>
+                           <cbc:Telefax>+49 228 9499-163</cbc:Telefax>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">SDL-Citybaumanagement GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Großbeerenstraße 194/196</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>12277</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE275905540</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>info@sdl-bau.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     <cbc:FamilyName>SDL-Citybaumanagement GmbH</cbc:FamilyName>
+                     <cac:Contact>
+                        <cbc:ElectronicMail>info@sdl-bau.de</cbc:ElectronicMail>
+                     </cac:Contact>
+                     <cac:ResidenceAddress>
+                        <cbc:CityName>Berlin</cbc:CityName>
+                        <cbc:PostalZone>12277</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:ResidenceAddress>
+                     <efac:Nationality>
+                        <cbc:NationalityID>DEU</cbc:NationalityID>
+                     </efac:Nationality>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368292-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">9498a676-2321-462b-be74-21ce4a61da82</cbc:ID>
+   <cbc:ContractFolderID>5a273ab2-168d-4699-ac76-4de3c83577ba</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>13:41:18+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">soc-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vob-a-eu</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">154-2024</cbc:ID>
+      <cbc:Name languageID="DEU">Berlin / Abbrucharbeiten</cbc:Name>
+      <cbc:Description languageID="DEU">Die Hauptverwaltung der BG BAU soll umgebaut und modernisiert werden. Vorbereitend zu den nachfolgenden Umbauarbeiten sollen in einem ersten Bauabschnitt schadstoffhaltige Bauteile, ELT-/TGA-Anlagen und sowohl konstruktive als auch nicht konstruktive Bauteile abgebrochen werden. Im Innenhof befinden sich im Erdreich außerdem eine alte Tankanlage, welche ebenfalls abgebrochen werden soll. Die Bauphase umfasst den Altbau und Neubau entlang der Hildegardstraße sowie ein im Innenhof befindliches Gartenhaus und eine unterirdische Tankanlage.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45111000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90520000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Hildegardstraße 28 und 29/30</cbc:StreetName>
+            <cbc:CityName>Berlin</cbc:CityName>
+            <cbc:PostalZone>10715</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">.</cbc:Name>
+                  <cbc:Description languageID="DEU">100 %</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Nachprüfungsantrag ist unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind (§ 160 Abs. 3 Satz 1 Nr. 4 GWB). Ein Nachprüfungsantrag ist zudem unzulässig, wenn der Zuschlag erfolgt ist, bevor die Vergabekammer den Auftraggeber über den Antrag auf Nachprüfung informiert hat (§§ 168 Abs. 2 Satz 1, 169 Abs. 1 GWB). Die Zuschlagserteilung ist möglich 15 Kalendertage nach Absendung der Bieterinformation nach § 134 Abs. 1 GWB. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf 10 Kalendertage (§ 134 Abs. 2 GWB). Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an. Die Zulässigkeit eines Nachprüfungsantrags setzt ferner voraus, dass die geltend gemachten Vergabeverstöße 10 Kalendertage nach Kenntnis gegenüber dem Auftraggeber gerügt wurden (§ 160 Abs. 3 Satz 1 Nr. 1 GWB). Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, müssen spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden (§ 160 Abs. 3 Satz 1 Nr. 2 GWB). Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, müssen spätestens bis zum Ablauf der Frist zur
+Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden (§ 160 Abs. 3 Satz 1 Nr. 3 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">154-2024</cbc:ID>
+         <cbc:Name languageID="DEU">Abbrucharbeiten</cbc:Name>
+         <cbc:Description languageID="DEU">Die Hauptverwaltung der BG BAU soll umgebaut und modernisiert werden. Vorbereitend zu den nachfolgenden Umbauarbeiten sollen in einem ersten Bauabschnitt schadstoffhaltige Bauteile, ELT-/TGA-Anlagen und sowohl konstruktive als auch nicht konstruktive Bauteile abgebrochen werden. Im Innenhof befinden sich im Erdreich außerdem eine alte Tankanlage, welche ebenfalls abgebrochen werden soll. Die Bauphase umfasst den Altbau und Neubau entlang der Hildegardstraße sowie ein im Innenhof befindliches Gartenhaus und eine unterirdische Tankanlage.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45111100</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90520000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hildegardstraße 28 und 29/30</cbc:StreetName>
+               <cbc:CityName>Berlin</cbc:CityName>
+               <cbc:PostalZone>10715</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-02-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

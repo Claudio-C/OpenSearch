@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <efac:FieldsPrivacy>
+                     <efbc:FieldIdentifierCode listName="non-publication-identifier">not-val</efbc:FieldIdentifierCode>
+                     <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                  </efac:FieldsPrivacy>
+                  <cbc:TotalAmount currencyID="EUR">-1</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <efac:FieldsPrivacy>
+                        <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                        <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                     </efac:FieldsPrivacy>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">-1</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-05-27+02:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>CON-0001</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Entwicklungsgesellschaft Industriegebiet Halle-Saalkreis mbH &amp; Co. KG</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Marktplatz 1</cbc:StreetName>
+                           <cbc:CityName>Halle (Saale)</cbc:CityName>
+                           <cbc:PostalZone>06108</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEE02</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>HRA 32533</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0049 000</cbc:Telephone>
+                           <cbc:ElectronicMail>info@halle-investvision.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer beim Landesverwaltungsamt Sachsen-Anhalt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Ernst-Kamieth-Straße 2</cbc:StreetName>
+                           <cbc:CityName>Halle (Saale)</cbc:CityName>
+                           <cbc:PostalZone>06112</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEE02</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>N.N.</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0049-345-5140</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer@lvwa.sachsen-anhalt.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer beim Landesverwaltungsamt Sachsen-Anhalt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Halle (Saale)</cbc:CityName>
+                           <cbc:PostalZone>06112</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEE02</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>N.N.</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>vergabekammer@lvwa.sachsen-anhalt.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">PROJECTUM Steuerungsgesellschaft mbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Rudolf-Breitscheid-Straße 10</cbc:StreetName>
+                           <cbc:CityName>Halle (Saale)</cbc:CityName>
+                           <cbc:PostalZone>06110</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEE02</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE294448405</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>kontakt@projectum-steuerungsgesellschaft.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366115-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">db0f07d2-ee73-47f5-b82d-63b369908eaa</cbc:ID>
+   <cbc:ContractFolderID>a33d4f03-3b5f-4fc7-aed9-69e280021b81</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>10:30:16+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cbc:TerminatedIndicator>false</cbc:TerminatedIndicator>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>RAW PS</cbc:ID>
+      <cbc:Name languageID="DEU">Planung und Erschließung des RAW Areal Halle (Saale)</cbc:Name>
+      <cbc:Description languageID="DEU">Entwicklungsgesellschaft Industriegebiet Halle-Saalkreis mbH &amp; Co. KG - 
+Planung und Erschließung des RAW Areal Halle (Saale) - 
+Projektsteuerungsleistungen in Anlehnung an §§ 2 und 3 AHO Heft 9 (März 2020 oder entspr. ältere Fassung)</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71541000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Marktplatz 1</cbc:StreetName>
+            <cbc:CityName>Halle (Saale)</cbc:CityName>
+            <cbc:PostalZone>06108</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEE02</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">ZK 1</cbc:Name>
+                  <cbc:Description languageID="DEU">Darstellung der projektbezogenen Anwendung / Verwertung der vorhandenen Erfahrungshintergründe für Projektsteuerungsleistungen nach § 2 
+AHO Heft 9 der Schriftenreihe des AHO-Ausschusses der Ingenieurverbände und Ingenieurkammern für die Honorarordnung e.V., 5. Vollständig 
+überarbeitete Auflage; März 2020 oder entspr. ältere Fassung für:
+"Projektsteuerungsleistung: Verfahrens- und Durchführungsbegleitung 
+verbindlicher Bauleitplanung zur Entwicklung von vorwiegend gewerblich 
+genutztem Bauland einschließlich der Umwelt- und Fachplanungen mit Fertigstellung ab 2020"</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">ZK 2</cbc:Name>
+                  <cbc:Description languageID="DEU">Darstellung des Vergabe-, Kosten- und Qualitätsmanagements</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">ZK 3</cbc:Name>
+                  <cbc:Description languageID="DEU">Darstellung der projektbezogenen Umsetzung des Fördermittelmanagements (Beantragung, Änderungsanträge, Bewirtschaftung / Abrechnung 
+einschließlich Erstellung Endverwendungsnachweis) inklusive Darstellung der Kenntnisse über Fördermittelstrukturen in 
+Sachsen-Anhalt</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">ZK 4</cbc:Name>
+                  <cbc:Description languageID="DEU">Darstellung der internen Organisation/ des Planungsablaufs / 
+Zusammenarbeit mit AG
+(Personalplanung für die einzelnen Projektstufen/ Terminplanung)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>15.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">ZK 5</cbc:Name>
+                  <cbc:Description languageID="DEU">Darstellung der projektspezifischen Vorgehensweise in Bezug auf Standortanalyse/ Standortprognose/ Risikoabwägungsprozess zur Erreichung 
+der grundsätzlichen Voraussetzungen für die Umsetzung des Vorhabens</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Kostenangebot</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">-</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Planung und Erschließung des RAW Areal Halle (Saale)</cbc:Name>
+         <cbc:Description languageID="DEU">Die Entwicklungsgesellschaft Industriegebiet Halle-Saalkreis mbH &amp; Co KG (EgIG) ist ein Tochterunternehmen der Entwicklungs- und Verwaltungsgesellschaft Halle-Saalkreis mbH, deren Geschäftsanteile vollständig von der Stadt Halle (Saale) gehalten werden und beabsichtigt die Planung und Erschließung des RAW Areal Halle (Saale).Das Reichsbahnausbesserungswerk (RAW) in Halle (Saale) wurde in den 1860er Jahren erbaut und bis in die frühen 1990er Jahre genutzt. Das Areal liegt südöstlich des Hauptbahnhofs Halle (Saale) und umfasst eine Gesamtfläche von etwa 20 Hektar, von denen rund 30.000 Quadratmeter (drei Hektar) mit denkmalgeschützten Industriehallen überbaut sind. Die Lage des Geländes ist aufgrund der kompletten Umfassung durch DB-Gleisanlagen inselartig isoliert. Seit der Stilllegung liegt das Areal brach. Trotz der schwierigen Ausgangssituation besteht aufgrund der Größe und der zentralen Lage sowie der unmittelbaren Nähe zur ICE-Schnellstrecke ein erhebliches Entwicklungspotenzial für das RAW-Areal. Mit Fördermitteln aus dem Programm "Sachsen-Anhalt Revier 2038" soll nun eine umfangreiche Revitalisierung ermöglicht werden. Ziel ist die Entwicklung eines urbanen, dichten und durchmischten Stadtquartiers im Sinne der europäischen Stadt. Der Schwerpunkt der zukünftigen Nutzung liegt auf der Entwicklung des Areals als Ort zum Forschen, Gründen und Arbeiten für rund 1.500 Menschen , insbesondere mit Fokus auf die IT-Branche und deren spezifische Infrastrukturanforderungen. Des Weiteren besteht die Überlegung einen kleinen Teil der Fläche zur Schaffung von innerstädtischem Wohnen auszuweisen (Grundsatzbeschluss der Stadt Halle/ Saale, Beschluss Nr. VII/2021/02818). Im Rahmen des Projektes soll das Areal baureif erschlossen werden. Dies bedeutet, dass Ansiedlungsflächen für spätere Investoren geschaffen werden sollen. Dazu soll das Gelände vollständig von Altlasten bereinigt werden. Zudem sollen die vorhandenen Gebäude auf dem Areal möglichst abgerissen werden, sofern dies denkmalschutzrechtlich möglich ist. Andernfalls sollen die zwingend zu erhaltenen Gebäude rudimentär gesichert werden. Um die Insellage des Geländes zu überwinden, soll das RAW-Areal im Rahmen des Projektes verkehrstechnisch über mehrere Brückenbauwerke und ein Tunnelbauwerk für Fußgänger, Radfahrer und den motorisierten Verkehr erschlossen werden. Auch soll auf dem Gelände eine Haupterschließungsstraße inklusive Rad- und Fußwegeanlagen errichtet werden. Zudem soll die Oberflächenentwässerung und die Abwasserentsorgung auf dem Areal im Rahmen des Projektes umgesetzt werden. Die weitere medientechnische Erschließung (Strom, Fernwärme, Trinkwasser) wird von den Versorgern in Eigenregie geplant und errichtet, ist allerdings im Rahmen des Planungs- und Bauablaufs umfangreich zu berücksichtigen. Die geplante Neuentwicklung des Geländes ist von hoher Komplexität und Langwierigkeit geprägt, da dem Planungs- und Bauprozess zahlreiche planungsrechtliche Verfahren vorangestellt werden müssen. Dazu gehört die Freistellung des Areals von eisenbahnbetrieblichen Zwecken nach § 23 AEG inklusive der dafür notwendigen Umverlegungen von bahnseitigen Anlagen und Leitungen, die Schaffung der planungsrechtlichen Voraussetzungen (Planungswettbewerb, Bebauungsplanverfahren einschließlich Umweltprüfung und Artenschutzmaßnahmen) sowie die Aufstellung eines Sanierungsplanes nach § 13 Bundesbodenschutzgesetz. Der gesamte Planungsprozess muss in enger Abstimmung mit der Stadt Halle (Saale) erfolgen. Zudem sollen die Flächen auf dem Gelände von der Entwicklungsgesellschaft im Rahmen des Vorhabens erworben werden. Gegenstand dieser Ausschreibung sind Projektsteuerungs- und Projektleitungsleistungen für die Planung und die Erschließung von Gewerbe- und Wohnbauflächen auf dem ehemaligen RAW-Areal in Anlehnung an AHO Heft 9 der Projektstufen 1 bis 5 in den Handlungsbereichen A bis E und darüber hinausgehende besondere Leistungen mit zeitlichen Überschneidungen in der Realisierung. Das Vorhaben soll im Zeitraum von 2025 bis 2033 realisiert werden.
+Für die Umsetzung stehen insgesamt 133 Mio. € netto (KG 100-700 DIN 276) zur Verfügung. Dieser Budgetrahmen gilt als Kostenobergrenze.Die Beauftragung der Projektmanagementleistungen erfolgt stufenweise und in Summe an einen Vertragspartner.
+Das für die Projketumsetzung erforderliche Fördermittelmanagement (Beschaffung, Bewirtschaftung, Abrechnung sowie Endverwendungsnachweiserstellung) ist durch den Auftragnehmer vollumfänglich zu übernehmen.
+Für das Gesamtvorhaben sollen die Unterlagen der ZBau beim Zuwendungsgeber, der Investitionsbank Sachsen-Anhalt für die zu steuerenden Leistungbilder nach HOAI bis Juni 2028 eingereicht werden (Erstellung Z-Bau Unterlagen und Einreichung IB und BLSA: Juni 2027 bis Juni 2028).
+Unmittelbar nach Auftragserteilung sind in Abstimmung mit dem Auftraggeber die notwendigen Leistungen in den vorläufigen Zeitplan zu integrieren. 
+Hierbei sind mögliche Risiken zu bewerten, Abhängigkeiten zu berücksichtigen und Meilensteine zu definieren. Grundsätzlich ist davon auszugehen, dass zunächst die zusätzlichen besonderen Leistungen:
+1. Begleitung Wettbewerbsverfahren
+2. Begleitung Bauleitplanung/ Umweltplanung 
+3. Begleitung Freistellungsverfahren nach § 23 AEG
+4. Begleitung Sanierungsplan nach § 13 Bundesbodenschutzgesetz
+beauftragt werden. (Fortsetzung Beschreibung der Beschaffung siehe Link: 02_Ergaenzende_verbindliche_Inhalte-zum_Bekanntmachungstext  https://www.evergabe.de/unterlagen/54321-Tender-193d47a2260-3a38abd71ba5a68f)</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Aus Gründen der einfacheren Lesbarkeit wurde im Bekanntmachungstext auf die geschlechtsspezifische Differenzierung verzichtet. Betreffende Bezeichnungen gelten im Sinne der Gleichbehandlung grundsätzlich für alle Geschlechter.
+Rückfragen während der Teilnahmeantragsphase sind ausschließlich über das eVergabeportal einzureichen. Redaktionsschluss für die Annahme von Rückfragen ist der 15.01.2025 - 11:00 Uhr. Eingehende Rückfragen und deren Beantwortung werden gesammelt und in anonymisierter Form über das eVergabeportal am 10.01.2025 und 17.01.2025 zur Verfügung gestellt. Zur Gewährleistung der Gleichbehandlung und Transparenz, behält sich der Auftraggeber vor, Rückfragen welche nach Fristablauf der Rückfragenfrist (15.01.2025 - 11:00 Uhr) eingehen, nicht mehr zu beantworten.
+Schlusstermin für die Annahme/ den Eingang der Teilnahmeantragsunterlagen im eVergabeportal ist der  24.01.2025 - 11:00 Uhr. Die Teilnahmeanträge sind ausschließlich über das eVergabeportal als EIN elektronisches Textdokument (pdf) zu senden. Eine fristgerechte Einreichung ist gegeben, wenn alle zwingend einzureichenden Unterlagen bis zur Bewerbungsfrist/ Angebotsfrist auf der eVergabeplattform eingegangen sind. Eingereichte Teilnahmeantragsunterlagen werden nicht zurückgesandt. Kosten für die Erstellung von Teilnahmeantragsunterlagen werden nicht erstattet.
+Die Aufforderung zur Abgabe eines Angebotes, einschl. Versendung der zugehörigen Unterlagen der Verhandlungsphase erfolgt ausschließlich via eVergabe und ist für den 28.02.2025 vorgesehen. Als Abgabefrist der Angebotsunterlagen (Leistungs- und Kostenteil) ist der  31.03.2025 vorgesehen.
+Die Verhandlungsgespräche mit bis zu 3 ausgewählten Bietern sind voraussichtlich für den 02.04.205 in Halle/ Saale geplant. 
+Bestandteile der verbindlichen Vergabe-/ Beschaffungsunterlagen der Teilnahmeantragsphase sind:
+- 01 Bekanntmachung,
+- 02 ergänzende verbindliche Inhalte zum Bekanntmachungstext,
+- 03 Bewerbungsbogen,
+- 04 Entwurf Formblatt Kosten Preise
+- 05 Vertragsentwurf,
+- 06 Präsentation Projektvorstellung Revitalisierung RAW-Gelände Halle (Saale),
+- 07 Gesamtzeitplan.
+
+Hinweise:
+•Geplante Anzahl der Bewerber, welche zur Angebotsabgabe aufgefordert werden sollen:   3.
+•Objektive Kriterien für die Auswahl der begrenzten Zahl von Bewerbern: 
+-Gewichtung der Kriterien gemäß Punkt 5.1.9: zusammen 100 % Gewichtung, davon anteilig gemäß der angegebenen Kriteriengewichtung und Wertungsschwellen.
+-Erfüllen Bewerber alle veröffentlichten Auswahlkriterien derart, dass eine objektive Abgrenzung der einzuladenden Teilnehmergruppe nicht möglich ist, dann behält sich die Vergabestelle das Recht vor, die Auswahl unter den betreffenden Bewerbern in Anwendung von § 75 (6) VgV durch Los vorzunehmen.
+•Die den Bewerbern/ Bietern im Verlauf des Verfahres erteilten Informationen in Form von Antworten des Auftraggebers auf Fragen des Bewerber/ Bieters sowie sonstige Hinweise, sind bei der Erstellung des Angebotes ebenso wie die Ausschreibungsunterlagen zugrunde zu legen. Soweit diese Antworten, Hinweise oder Sonstiges dieser Ausschreibungsunterlagen ergänzen, präzisieren oder abändern, gehen die später übersandten Antworten, Hinweise oder Verfahrensbriefe diesen Ausschreibungsunterlagen vor.
+•Änderungsbedürftige Punkte des zur Verfügung gestellten Vertragsentwurfs sind als Bieterfrage bis zur Angebotsfrist zu formulieren. Das eingereichte Angebot muss auf den Bedingungen des Vertragsentwurfs basieren. Sollte dies nicht der Fall sein, wird das Angebot ausgeschlossen, da dies dann nicht den Vergabebedingungen entspricht. Eine Änderung des Vertrages nach Angebotsabgabe ist grundsätzlich nicht vorgesehen.
+•Der Auftraggeber behält sich vor, den Zeitplan im Verlauf des Verfahrens abzuändern, insbesondere die vorgesehenen Fristen zu verlängern, soweit es sich für einen ordnungsgemäßen Verfahrensablauf als notwendig erweist.
+•Als alleinige Projektsprache während des gesamten Bauvorhabens gilt ausschließlich Deutsch (in Wort und Schrift).
+Datenschutzhinweis:
+Die Verarbeitung Ihrer personenbezogenen Daten erfolgt ausschließlich auf Grundlage der gesetzlichen Bestimmungen nach Art.6 Abs.1b EU-DSGVO zur Durchführung von vorvertraglichen Maßnahmen und / oder zur Erfüllung des Vertrages (Projektaufgabe). Gemäß Art. 13 EU-DSGVO erheben wir zu diesem Zweck personengebundene Daten, die auf Sie persönlich beziehbar sind (z.B. Name, Geburtsdatum, Anschrift, Telefonnummer, E-Mail-Adresse, Berufsstandsnachweis, Qualifikationsabschlüsse, Weiterbildungsnachweise, ...).
+Jeder Teilnehmer erklärt mit seiner Unterschrift, dass er zur Weitergabe der personenbezogenen Beschäftigtendaten berechtigt ist bzw. die betroffenen Personen in die Verarbeitung ihrer personenbezogenen Daten eingewilligt haben.
+Jeder Teilnehmer willigt durch seine Unterschrift ein, dass seine personenbezogenen Daten im Zusammenhang mit diesem Vorhaben in Form einer automatisierten Datei geführt werden. Eine Datenübermittlung an Dritte erfolgt unter Einhaltung der gesetzlichen Bestimmungen nur im Rahmen der Erfüllung der Projektaufgabe / des Vertrages. Eine Benutzung der Daten über den Rahmen des Projektes / Vertrages hinaus erfolgt nicht. Nach Entfallen des jeweiligen Verarbeitungs- bzw. Nutzungszweckes sowie der Abgeltung gegenseitiger Ansprüche gelten einschlägige Aufbewahrungs- und Haftungsfristen. Nach Ablauf dieser gesetzlichen Fristen erfolgt die Löschung bzw. Vernichtung der Daten. 
+Sie können jederzeit gemäß Art. 21 der EU-DSGVO Widerspruch gegen die Verarbeitung Ihrer betreffenden personenbezogenen Daten einlegen.</cbc:Note>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71541000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-05-27+02:00</cbc:StartDate>
+            <cbc:EndDate>2033-12-30+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Zeitpunkt für die Beauftragung von Stufen 1 und 2 der Projektsteuerung und Projektleitung wird nach Vorlage des Zeitplanes und der Abwägung der sich daraus ergebenden Risiken und zeitlichen Abhängigkeiten festgelegt. Ein Anspruch des Bieters auf die gesamte Beauftragung aller Leistungsstufen 1-5 besteht nicht. Sollte sich im Ergebnis der weiteren Untersuchungen/ Abstimmungen und notwendigen Genehmigungsverfahren ergeben, dass das Projekt nicht realisiert werden kann, hat der AG jederzeit das Recht, die bereits beauftragten Leistungen zu stoppen und keine weiteren Leistungen zu beauftragen. Darüber hinaus ist davon auszugehen, dass die Maßnahmen, die im Projekt betreut werden, voraussichtlich nicht parallel erfolgen. So werden die Altlastensanierung und die Umverlegungen/ Rückbau von Medien und Bahnanlagen als vorgelagerte Maßnahmen erfolgen. Ebenso wird die Baufeldfreimachung einschließlich der Rückbaumaßnahmen der Gebäude vor der Realisierung der Erschließungsmaßnahmen mit den Medien und der Straßen und Brücken durchgeführt.</cbc:OptionsDescription>
+            <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Die Beauftragung soll stufenweise für Projektsteuerungsleistungen in Anlehnung an § 2 AHO (Heft 9 der Schriftenreihe des AHO-Ausschusses der Ingenieurverbände und Ingenieurkammern für die Honorarordnung e. V., 5. vollständig überarbeitete Auflage; März 2020) sowie für Leistungen/ Teilleistungen nach § 3 AHO (Heft 9/ Fassung März 2020) erfolgen.
+
+Geplante Stufen/ Optionen für die Beauftragung:
+Geplante Stufe 0 der Beauftragung
+1.	Begleitung Wettbewerbsverfahren
+2.	Bauleitplanung/ Umweltplanung 
+3.	Begleitung Freistellungsverfahren nach § 23 AEG
+4.	Begleitung Sanierungsplan nach § 13 Bundesbodenschutzgesetz
+
+Geplante 1. Stufe der Beauftragung: 
+- Projektstufe 1 und 2, Handlungsbereiche A, B, C, D, E, 
+
+Geplante 2. Stufe der Beauftragung: 
+- Projektstufe 3 bis 5, Handlungsbereiche A, B, C, D, E, 
+
+Die Beauftragung von Leistungen/ Teilleistungen nach § 3 AHO erfolgt grundsätzlich für die einzelnen Projektstufen bei Bedarf und in Abstimmung mit dem AG.
+Der AG behält sich weiter vor, die Beauftragung auf Teilleistungen einzelner Projektstufen oder auf einzelne Abschnitte der Baumaßnahme.
+Der Auftraggeber behält sich das Recht vor, in Anwendung von § 132 (2), (3) GWB den nach diesem Verfahren beauftragten Bieter, ggf. weitere/ ergänzende Leistungen, die im Zusammenhang mit dem beschriebenen Vorhaben stehen, zu übertragen. Die Beauftragung weiterer Leistungen besteht als Option ohne Anspruch darauf.
+Der Auftraggeber behält sich vor, die Steuerungsaufgabe und den Steuerungsumfang jederzeit räumlich, baulich oder zeitlich zu modifizieren (vergrößern/verkleinern). Die Beauftragung der beschriebenen Projektstufen bzw. einzelner Leistungen, Teilleistungen oder Handlungsbereichen daraus bleibt dem AG als freie Option vorbehalten.  
+Die Beauftragung der einzelnen beschriebenen Stufen/ Optionen erfolgt grundsätzlich in Abhängigkeit von der Verfügbarkeit der in Aussicht gestellten erforderlichen Finanzmittel (Fördermittel).</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

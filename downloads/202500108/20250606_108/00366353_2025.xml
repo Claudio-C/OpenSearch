@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:ContractModification>
+						<efbc:ChangedNoticeIdentifier>5791-2016</efbc:ChangedNoticeIdentifier>
+						<efbc:ModifiedContractIdentifier>CON-0001</efbc:ModifiedContractIdentifier>
+						<efac:Change>
+							<efbc:ChangeDescription languageID="CES">Rozšíření rozsahu plnění Díla o vícepráce ve výši 2 083 200,- Kč bez DPH.</efbc:ChangeDescription>
+						</efac:Change>
+						<efac:ChangeReason>
+							<cbc:ReasonCode listName="modification-justification">mod-cir</cbc:ReasonCode>
+							<efbc:ReasonDescription languageID="CES">Rozšíření rozsahu plnění Díla o vícepráce ve výši 2 083 200,- Kč bez DPH.</efbc:ReasonDescription>
+						</efac:ChangeReason>
+					</efac:ContractModification>
+					<efac:NoticeResult>
+						<cbc:TotalAmount currencyID="CZK">78938300</cbc:TotalAmount>
+						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
+							<efac:AppealRequestsStatistics>
+								<efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:AppealRequestsStatistics>
+							<efac:LotTender>
+								<cbc:ID>TEN-0001</cbc:ID>
+							</efac:LotTender>
+							<efac:SettledContract>
+								<cbc:ID>CON-0001</cbc:ID>
+							</efac:SettledContract>
+							<efac:TenderLot>
+								<cbc:ID>LOT-0001</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotTender>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<cbc:RankCode>1</cbc:RankCode>
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="CZK">81021500</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
+							<efac:SubcontractingTerm>
+								<efbc:TermDescription languageID="CES">Životní prostředí, geotechnický průzkum.</efbc:TermDescription>
+								<efbc:TermPercent>4</efbc:TermPercent>
+								<efbc:TermCode listName="applicability">yes</efbc:TermCode>
+								<efbc:PercentageKnownIndicator>true</efbc:PercentageKnownIndicator>
+								<efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID>TPA-0002</cbc:ID>
+							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID>LOT-0001</cbc:ID>
+							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>TEN-0001</cbc:ID>
+							</efac:TenderReference>
+						</efac:LotTender>
+						<efac:SettledContract>
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							<cbc:IssueDate>2016-11-29+01:00</cbc:IssueDate>
+							<efac:ContractReference>
+								<cbc:ID>E618-S-13039/2016</cbc:ID>
+							</efac:ContractReference>
+							<efac:LotTender>
+								<cbc:ID>TEN-0001</cbc:ID>
+							</efac:LotTender>
+						</efac:SettledContract>
+						<efac:TenderingParty>
+							<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0003</cbc:ID>
+								<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0004</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+						</efac:TenderingParty>
+					</efac:NoticeResult>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">39</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+							<efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">Správa železnic, státní organizace</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Dlážděná 1003</cbc:StreetName>
+									<cbc:CityName>Praha</cbc:CityName>
+									<cbc:PostalZone>11000</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ010</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>70994234</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Ing. Jana Šedová</cbc:Name>
+									<cbc:Telephone>+420 727966017</cbc:Telephone>
+									<cbc:ElectronicMail>sedova@spravazeleznic.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://uohs.gov.cz</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">Úřad pro ochranu hospodářské soutěže</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>třída Kpt. Jaroše 1926/7</cbc:StreetName>
+									<cbc:CityName>Brno</cbc:CityName>
+									<cbc:PostalZone>60200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ064</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>65349423</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 542167111</cbc:Telephone>
+									<cbc:ElectronicMail>posta@uohs.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">METROPROJEKT Praha a.s.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Argentinská 1621/36</cbc:StreetName>
+									<cbc:CityName>Praha - Holešovice</cbc:CityName>
+									<cbc:PostalZone>17000</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ010</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>45271895</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 296154105</cbc:Telephone>
+									<cbc:ElectronicMail>metroprojekt@metroprojekt.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">SUDOP PRAHA a.s.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Olšanská 2643/1a</cbc:StreetName>
+									<cbc:CityName>Praha - Žižkov</cbc:CityName>
+									<cbc:PostalZone>13000</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ010</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>25793349</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 605229020</cbc:Telephone>
+									<cbc:ElectronicMail>PRAHA@SUDOP.CZ</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366353-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">043fdd43-d1a5-4816-958b-27978aa4f671</cbc:ID>
+	<cbc:ContractFolderID>562b4ab7-c0af-40a9-b537-22907dec341f</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+	<cbc:IssueTime>13:21:43+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="cont-modif">can-modif</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode>CES</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>134/2016 Sb.</cbc:ID>
+			<cbc:DocumentDescription languageID="CES">Zákon o zadávání veřejných zakázek</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>32014L0025</cbc:ID>
+			<cbc:DocumentDescription languageID="CES">Směrnice Evropského parlamentu a Rady 2014/25/EU ze dne 26. února 2014 o zadávání zakázek subjekty působícími v odvětví vodního hospodářství, energetiky, dopravy a poštovních služeb a o zrušení směrnice 2004/17/ES</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+	</cac:TenderingTerms>
+	<cac:ProcurementProject>
+		<cbc:Name languageID="CES">Modernizace a novostavba trati Praha-Veleslavín (včetně) - Praha-Letiště Václava Havla (včetně) - Dodatek 9 k SOD</cbc:Name>
+		<cbc:Description languageID="CES">Předmětem díla je vypracování Záměru projektu („ZP“) a Přípravné dokumentace („PD“) na stavbu „Modernizace a novostavba trati Praha-Veleslavín (včetně) - Praha-Letiště Václava Havla (včetně)“ v souladu se zadávací dokumentací včetně notifikace autorizovanou osobou.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71311230</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">CZ010</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:DocumentProviderParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:DocumentProviderParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="CES">Podmínkou pro podání návrhu k ÚOHS je podání námitek k Zadavateli, které je nutné doručit do 15 dnů ode dne, kdy se stěžovatel dozvěděl o domnělém porušení zákona Zadavatelem, nejpozději však do uzavření smlouvy nebo do chvíle, kdy se soutěž o návrh považuje po výběru návrhu za ukončenou.
+
+Námitky proti úkonům oznamovaným v dokumentech, které je Zadavatel povinen podle zákona uveřejnit či odeslat stěžovateli, musí být doručeny Zadavateli do 15 dnů od jejich uveřejnění či doručení stěžovateli.
+Pokud je v zadávacím řízení stanovena lhůta pro podání žádostí o účast, musí být námitky proti podmínkám vztahujícím se ke kvalifikaci dodavatele doručeny Zadavateli nejpozději do skončení této lhůty.
+Pokud je v zadávacím řízení stanovena lhůta pro podání nabídek, musí být námitky proti zadávacím podmínkám doručeny Zadavateli nejpozději do skončení této lhůty. Námitky proti obsahu výzvy k podání nabídek v dynamickém nákupním systému nebo při zadávání veřejné zakázky na základě rámcové dohody musí být zadavateli doručeny nejpozději do konce lhůty pro podání nabídek. V soutěži o návrh musí být námitky proti soutěžním podmínkám doručeny nejpozději do konce lhůty pro podání návrhů. Zadavatel může v zadávací dokumentaci nebo soutěžních podmínkách stanovit, že námitky podle § 242 odst. 3 nebo 4 zákona lze podat nejpozději 72 hodin před skončením lhůt podle § 242 odst. 3 nebo 4 zákona.
+
+Námitky proti dobrovolnému oznámení o záměru uzavřít smlouvu podle § 212 odst. 2 zákona musí být doručeny Zadavateli do 30 dnů od uveřejnění tohoto oznámení.
+
+Zadavatel je povinen námitky vyřídit do 15 dnů. Návrh je nutné doručit ÚOHS i Zadavateli do 10 dnů ode dne, v němž stěžovatel obdržel rozhodnutí, kterým Zadavatel námitky odmítnul nebo do 25 dnů od odeslání námitek, pokud Zadavatel o námitkách nerozhodl.
+
+Po uzavření smlouvy na veřejnou zakázku či rámcové dohody lze podat pouze návrh na uložení zákazu plnění smlouvy, a to i bez předchozího podání námitek. Návrh na uložení zákazu plnění smlouvy doručí navrhovatel ÚOHS a ve stejnopisu Zadavateli do 30 dnů ode dne, kdy Zadavatel uveřejnil oznámení o uzavření smlouvy způsobem podle § 212 odst. 2 zákona s uvedením důvodu pro zadání veřejné zakázky bez uveřejnění oznámení o zahájení zadávacího řízení, předběžného oznámení nebo výzvy k podání nabídek ve zjednodušeném podlimitním řízení, nejpozději však do 6 měsíců od uzavření této smlouvy. Návrh na uložení zákazu plnění smlouvy podle § 254 odstavce 1 písm. d) zákona doručí navrhovatel ÚOHS a ve stejnopisu Zadavateli do 30 dnů ode dne, kdy Zadavatel uveřejnil oznámení o uzavření smlouvy na základě rámcové dohody podle § 137 zákona nebo oznámení o uzavření smlouvy v dynamickém nákupním systému podle § 142 zákona, nejpozději však do 6 měsíců od uzavření této smlouvy.
+
+Ve lhůtě pro doručení návrhu je navrhovatel povinen složit na účet ÚOHS kauci ve výši 1 % z nabídkové ceny navrhovatele za celou dobu plnění veřejné zakázky nebo za dobu prvních čtyř let plnění v případě smluv na dobu neurčitou, nejméně však ve výši 50 000 Kč, nejvýše ve výši 10 000 000 Kč. V případě, že navrhovatel nemůže stanovit celkovou nabídkovou cenu, je povinen složit kauci ve výši 100 000 Kč. V případě návrhu na uložení zákazu plnění smlouvy je navrhovatel povinen složit kauci ve výši 200 000 Kč. Jde-li o řízení o přezkoumání postupu pro zadávání koncesí, je navrhovatel povinen ve lhůtě pro doručení návrhu složit na účet ÚOHS kauci ve výši 1 % z předpokládané hodnoty koncese uveřejněné ve Věstníku veřejných zakázek nebo na profilu Zadavatele, nejméně však ve výši 50 000 Kč, nejvýše ve výši 10 000 000 Kč. V případě, že Zadavatel neuveřejní ve Věstníku veřejných zakázek nebo na profilu Zadavatele předpokládanou hodnotu koncese, je navrhovatel povinen složit kauci ve výši 100 000 Kč. V případě návrhu na uložení zákazu plnění koncesní smlouvy je navrhovatel povinen složit kauci ve výši 200 000 Kč.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID>ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID>ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID>LOT-0001</cbc:ID>
+			<cbc:Name languageID="CES">Modernizace a novostavba trati Praha-Veleslavín (včetně) - Praha-Letiště Václava Havla (včetně) - Dodatek 9 k SOD</cbc:Name>
+			<cbc:Description languageID="CES">Předmětem díla je vypracování Záměru projektu („ZP“) a Přípravné dokumentace („PD“) na stavbu „Modernizace a novostavba trati Praha-Veleslavín (včetně) - Praha-Letiště Václava Havla (včetně)“ v souladu se zadávací dokumentací včetně notifikace autorizovanou osobou.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="social-objective">other</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71311230</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">CZ010</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2016-11-29+01:00</cbc:StartDate>
+				<cbc:DurationMeasure unitCode="MONTH">25</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:TenderResult>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+	</cac:TenderResult>
+</ContractAwardNotice>

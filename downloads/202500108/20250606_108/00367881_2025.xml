@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>true</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">spectrumK GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Otto-Ostrowski-Straße 5</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10249</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>591103701</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Vergabestelle spectrumK</cbc:Name>
+                           <cbc:Telephone>+49 305869450</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabe@spectrumk.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bundeskartellamt.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Villemombler Straße 76</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53123</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>0</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">SIDA Service GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Schwerin</cbc:CityName>
+                           <cbc:PostalZone>19063</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE804</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>591103701</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 305869450</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabe@spectrumk.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-8002</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367881-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">6adcab8f-208b-4ea3-8b59-3e0e0796d41d</cbc:ID>
+   <cbc:ContractFolderID>8efa05fe-7219-49e9-8f83-cea88cccd706</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>16:08:06+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-8002</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>spectrumK-2025-0021</cbc:ID>
+      <cbc:Name languageID="DEU">Unterstützungsleistung bei der Weiterentwicklung der daewy Plattform zur Verarbeitung von GKV Daten für Abrechnungsprozesse</cbc:Name>
+      <cbc:Description languageID="DEU">Vergabe eines Rahmenvertrages für Unterstützungsleistungen bei der Weiterentwicklung der daewy Plattform zur Verarbeitung von GKV Daten
+für Abrechnungsprozesse</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:FrameworkMaximumAmount currencyID="EUR">2500000.00</efbc:FrameworkMaximumAmount>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72200000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Berlin</cbc:CityName>
+            <cbc:PostalZone>10249</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">1) Der Bieter hat einen aktuellen Handelsregisterauszug (nicht älter als drei Monate - bezogen auf das Ende der Angebotsfrist) bzw. bei ausländischen Bietern einen gleichwertigen Nachweis des Herkunftslandes in Kopie einzureichen.
+
+2.) Im Falle eines Einsatzes von Nachunternehmern hat der
+Bieter in dem Formblatt Erklärung_Nachunternehmerleistungen
+die Teilleistungen zu benennen, welche durch Nachunternehmer erbracht werden sollen.
+
+3.) Im Falle einer Eignungsleihe ist die Erklärung_Eignungsleihe auszufüllen, einschließlich der Verpflichtungserklärung des Dritten, dass dem Bieter im Fall der Auftragserteilung die für die Leistungserbringung erforderlichen Mittel zur Verfügung
+stehen.
+
+4.) Im Falle einer Bietergemeinschaft ist die Erklärung_Bietergemeinschaft auszufüllen
+
+5.) Der Bieter hat eine Erklärung zu Verbindungen mit Russland gemäß der "Verordnung (EU) 2022/576 des Rates vom 8. April 2022 zur Änderung der Verordnung (EU) Nr. 833/2014 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren" mittels des bereitgestellten Formblattes abzugeben.
+
+6.) Nichtvorliegen von Ausschlussgründen, auch im Hinblick auf die Einhaltung des Lieferkettensorgfaltspflichtengesetzes</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Zum Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit hat der Bieter unter Verwendung von Formblatt 07_Erklärung Eignung folgende Angaben und Erklärungen zu machen bzw. abzugeben und folgende Unterlagen vorzulegen:
+
+• Eigenerklärung zum Gesamtumsatz in den letzten drei abgeschlossenen Geschäftsjahren vor Ablauf der Angebotsfrist
+
+• Eigenerklärung zum Umsatz des Bieters bezogen auf den Gegenstand der Ausschreibung aus den letzten drei abgelaufenen Geschäftsjahren
+
+•Nachweis über den Abschluss einer Betriebshaftpflichtversicherung des Bieters mit einer Deckungssumme, welche ausreichend ist, im Rahmen der Leistungserbringung von ihm verursachte Schäden und Folgeschäden zu tragen bzw. eine Verpflichtungserklärung des Bieters über den Abschluss einer Betriebshaftpflichtversicherung mit entsprechenden Deckungssummen innerhalb von zwei Wochen ab Vertragsschluss abzuschließen und der Auftraggeberin vorzulegen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Zum Nachweis der technischen Leistungsfähigkeit hat der Bieter, unter Verwendung von 08_Erklärung_Referenzen folgende Angaben und Erklärungen zu machen:
+
+• Nennung von drei Referenzprojekten über die in den letzten drei Jahren erbrachte Leistungen, welche nach Art und Dauer der Leistungserbringung dem Gegenstand der ausgeschriebenen Leistung entspricht. Kann kein im Umfang vergleichbares Referenzprojekt angegeben werden, besteht die Möglichkeit mehrere Referenzprojekte, welche jeweils nach Art und Dauer der Leistungserbringung dem Gegenstand der ausgeschriebenen Leistung und zusammengenommen dem Umfang entsprechen, zu benennen. Die durchgeführten Aufträge sind zu beschreiben (insbesondere Inhalte, Branche, Dauer, Umfang).
+
+• Nennung des Ansprechpartners und eines Vertreters, welcher für die notwendigen Abstimmungen zuständig ist unter Verwendung von 06_Ansprechpartner.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabeplattform.smaby.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1973aafed48-243b56b8d95677d0</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualtität</cbc:Name>
+                  <cbc:Description languageID="DEU">siehe Bewerbungsbedingungen</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.smaby.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann ein Nachprüfverfahren bei der Vergabekammer beantragt werden (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-09+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-09+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:01:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Unterstützungsleistung bei der Weiterentwicklung der daewy Plattform zur Verarbeitung von GKV Daten für Abrechnungsprozesse</cbc:Name>
+         <cbc:Description languageID="DEU">Der Gegenstand der zu erbringenden Leistungen durch den Auftragnehmer ist die Unterstützung bei der Weiterentwicklung der daewy Plattform mit ihren verschiedenen Anwendungen und dem technischen Grundaufbau.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">2500000.00</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72200000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Berlin</cbc:CityName>
+               <cbc:PostalZone>10249</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag tritt mit Zuschlagserteilung in Kraft und wird für die Laufzeit von einem Jahr geschlossen. Er verlängert sich automatisch um jeweils ein weiteres Jahr, sofern die Auftraggeberin nicht spätestens innerhalb von 4 Wochen zum Vertragsende beim Auftragnehmer in Textform den Vertrag kündigt. Die Verlängerung findet höchstens dreimal statt. Der Vertrag endet spätestens nach 4 Jahren ab Zuschlagserteilung, ohne dass es einer Kündigung bedarf.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

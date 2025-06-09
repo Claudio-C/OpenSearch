@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <cbc:TotalAmount currencyID="EUR">631028.78</cbc:TotalAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                            <cbc:HigherTenderAmount currencyID="EUR">654452.64</cbc:HigherTenderAmount>
+                            <cbc:LowerTenderAmount currencyID="EUR">555407.18</cbc:LowerTenderAmount>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:AppealRequestsStatistics>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:AppealRequestsStatistics>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <cac:LegalMonetaryTotal>
+<cbc:PayableAmount currencyID="EUR">631028.78</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+<efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+<cbc:ID>LOT-0001</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+<cbc:ID>REF TEN-0001/LOT-0001</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2025-04-30+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2025-05-30+02:00</cbc:IssueDate>
+                            <efac:ContractReference>
+<cbc:ID>LOT63/24 LOTE 1</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+<cbc:WebsiteURI>http://www.csic.es</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P.</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28006</cbc:PostalZone>
+    <cbc:CountrySubentity>Madrid</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="ID_PLATAFORMA">10000430096221</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">Q2818002D</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Name>Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P.</cbc:Name>
+    <cbc:Telephone>915681781</cbc:Telephone>
+    <cbc:Telefax>915681813</cbc:Telefax>
+    <cbc:ElectronicMail>soia@csic.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+<cbc:WebsiteURI>https://rec.redsara.es/registro/action/are/acceso.do</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID>TPO-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Tribunal Administrativo Central de Recursos Contractuales</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28020</cbc:PostalZone>
+    <cbc:CountrySubentity>Madrid</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:Contact>
+    <cbc:Telephone>913491441</cbc:Telephone>
+    <cbc:Telefax>913491319</cbc:Telefax>
+    <cbc:ElectronicMail>tribunal_recursos.contratos@hacienda.gob.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:UltimateBeneficialOwner>
+<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                            </efac:UltimateBeneficialOwner>
+                            <efac:Company>
+<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">OHL SERVICIOS-INGESAN, S.A.</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28046</cbc:PostalZone>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">A27178789</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Telephone>+34 917747000</cbc:Telephone>
+    <cbc:ElectronicMail>contratacion@ingesan.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:UltimateBeneficialOwner>
+                            <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                            <efac:Nationality>
+<cbc:NationalityID>ESP</cbc:NationalityID>
+                            </efac:Nationality>
+                        </efac:UltimateBeneficialOwner>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366893-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">cdee0e1f-7125-437d-903d-99e895fcce7d</cbc:ID>
+    <cbc:ContractFolderID>5f58a75c-e546-45db-a951-ff8483627b7d</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>11:21:43+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>SPA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=XLXk9EyEnmY%3D</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:NoticeDocumentReference>
+            <cbc:ID schemeName="notice-id-ref">35d9edf4-c4a4-4563-9fd8-a377faaf85bb-01</cbc:ID>
+        </cac:NoticeDocumentReference>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID>LOT63/24</cbc:ID>
+        <cbc:Name languageID="SPA">Servicio de mantenimiento de edificio e instalaciones, de equipos elevadores y de sistemas de protección contra incendios de varios centros e institutos de la Agencia Estatal Consejo Superior de Investigaciones Científicas. </cbc:Name>
+        <cbc:Description languageID="SPA">Según se indica en la memoria justificativa de la insuficiencia de medios y de la necesidad de contratar, y en el pliego de prescripciones técnicas. </cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">50800000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">50413200</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">50750000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+        <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">12</cbc:DurationMeasure>
+        </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>8</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Mejoras y/o aportaciones adicionales evaluables mediante fórmula.. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>89</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Oferta económica.. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Sistemas de control y seguimiento que utilizará para garantizar la correcta ejecución del contrato.. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="SPA">Por tratarse de un contrato susceptible a recurso en materia de contratación, y de acuerdo con lo establecido en el artículo 153.3 de la LCSP, la formalización del contrato no podrá efectuarse antes de que transcurran quince días hábiles desde que se remita la notificación de la adjudicación a los licitadores y candidatos.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">1</cbc:ID>
+            <cbc:Name languageID="SPA">Servicio de mantenimiento de edificio e instalaciones del Centro Nacional de Biotecnología, Centro de Biología Molecular Severo Ochoa, Centro de Física Teórica y Matemática, Instituto de Investigaciones en Biomédicas Sols-Morreale, Instituto de Ciencia de Materiales de Madrid e Instituto de Investigación en Ciencias de la Alimentación..</cbc:Name>
+            <cbc:Description languageID="SPA">Según se indica en la memoria justificativa de la insuficiencia de medios y de la necesidad de contratar, y en el pliego de prescripciones técnicas referido a este lote.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">2767800</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">50800000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2025-04-30+02:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

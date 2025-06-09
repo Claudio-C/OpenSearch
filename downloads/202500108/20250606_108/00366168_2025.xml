@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">4641491.1</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0008</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">4641491.1</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">yes</efbc:TermCode>
+                        <efbc:PercentageKnownIndicator>false</efbc:PercentageKnownIndicator>
+                        <efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0008</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Oferta Yunex Sp. z o.o.</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-05-26+02:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>DZ.RITS.344.88.2025</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                     <efac:SubContractor>
+                        <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        <efac:MainContractor>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </efac:MainContractor>
+                     </efac:SubContractor>
+                     <efac:SubContractor>
+                        <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        <efac:MainContractor>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </efac:MainContractor>
+                     </efac:SubContractor>
+                     <efac:SubContractor>
+                        <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        <efac:MainContractor>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </efac:MainContractor>
+                     </efac:SubContractor>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://zdm.poznan.pl/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Zarząd Dróg Miejskich w Poznaniu</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Wilczak 17</cbc:StreetName>
+                           <cbc:CityName>Poznań</cbc:CityName>
+                           <cbc:PostalZone>61-623 </cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL415</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP 2090001440</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 616477200</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia.publiczne@zdm.poznan.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>(22) 458 78 40</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">YUNEX Sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Żupnicza 11</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>03-821</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 1133029658</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Atos Poland Sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Puławska 180</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-670</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 5210082366</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Vertiv Poland Sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Karkowiaków 44</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-255</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 5213066818</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Zakład Usługowy Instaltech Hubert Perz</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Wawrzyniaka 5 </cbc:StreetName>
+                           <cbc:CityName>Zaniemyśl</cbc:CityName>
+                           <cbc:PostalZone>63-020</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL418</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 7861496236</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366168-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">6d2ad035-8203-44c3-86e9-6491990355f0</cbc:ID>
+   <cbc:ContractFolderID>296b37ab-ea00-491f-9968-92ea811af18b</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>09:18:27Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">ustawa z dnia 11 września 2019 r. Prawo zamówień publicznych</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="POL">Postępowanie o udzielenie zamówienia publicznego prowadzone jest w trybie przetargu nieograniczonego na podstawie ustawy z dnia 11 września 2019 r. Prawo zamówień publicznych. Komunikacja między Zamawiającym a Wykonawcami prowadzona jest przy użyciu środków komunikacji elektronicznej w rozumieniu ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną, za pośrednictwem Platformy eZamówienia, która jest dostępna pod adresem: https://ezamowienia.gov.pl. Szczegółowe informacje dotyczące środków komunikacji elektronicznej, przy użyciu których Zamawiający będzie komunikował się z Wykonawcami oraz wymagania techniczne dla dokumentów elektronicznych oraz środków komunikacji elektronicznej zostały określone w SWZ. Wykonawca zamierzający wziąć udział w postępowaniu o udzielenie zamówienia publicznego musi posiadać konto podmiotu „Wykonawca” na Platformie e-Zamówienia. Szczegółowe informacje na temat zakładania kont podmiotów oraz zasady i warunki korzystania z Platformy e-Zamówienia określa „Regulamin Platformy e-Zamówienia”, dostępny na stronie internetowej https://ezamowienia.gov.pl oraz informacje zamieszczone w zakładce „Centrum Pomocy”. Szczegółowe regulacje dotyczące korespondencji elektronicznej zostały zawarte w SWZ. Ofertę należy złożyć za pośrednictwem Platformy e-Zamówienia (https://ezamowienia.gov.pl). 
+Warunki udziału w postępowaniu: O udzielenie zamówienia mogą ubiegać się Wykonawcy, którzy nie podlegają wykluczeniu na podstawie art. 108 ust. 1 oraz art. 109 ust. 1 pkt 4, 8, 9 i 10 Ustawy, art. 5k Rozporządzenia Rady UE 833/2014 oraz art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego. Zamawiający zastosuje procedurę określoną w art. 139 ust. 1 ustawy Pzp. 
+Wykonawca składa wraz z ofertą (tj. z interaktywnym „Formularzem ofertowym”) dokumenty podpisane zgodnie z wymogami pkt 11.B SWZ:
+1)	wypełniony formularz JEDZ - wzór: załącznik nr 4a do SWZ;
+2)	wypełnione oświadczenie Wykonawcy dotyczące przesłanek wykluczenia z art. 5k Rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (wzór: załącznik nr 4b do SWZ);
+3)	wypełnione zobowiązanie do udostępnienia zasobów (wzór: załącznik nr 6 do SWZ) lub inny podmiotowy środek dowodowy potwierdzający, że Wykonawca realizując zamówienie, będzie dysponował niezbędnymi zasobami podmiotów je udostępniających (jeżeli dotyczy);
+4)	wypełnione oświadczenie podmiotu udostępniającego zasoby dotyczące przesłanek wykluczenia z art. 5k Rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (wzór: załącznik nr 4c do SWZ) – jeżeli dotyczy;
+5)	wypełnione oświadczenie dot. podziału prac realizowanych przez podmioty występujące wspólnie- wzór: załącznik nr 5 do SWZ (jeżeli dotyczy); 
+6)	wypełniony formularz cenowy oraz cennik materiałów, sporządzone w oparciu o załączniki nr 1a i 1b do SWZ. Wycena polega na każdorazowym wpisaniu przez Wykonawcę cen jednostkowych usług obejmujących koszty wykonania wszelkich czynności określonych w pkt 16 SWZ, do kolumny pn. „Cena” / „Koszt jedn.” oraz wartości iloczynu ilości i ceny jednostkowej do kolumny pn. „Wartość”/ „Razem netto” formularza cenowego/cennika materiałów wycenianego przez Wykonawcę. Ceny jednostkowe i wartość należy podawać w zaokrągleniu do pełnych groszy, czyli do dwóch miejsc po przecinku, przy czym końcówki poniżej 0,5 grosza pomija się, a końcówki 0,5 grosza i wyższe zaokrągla się do 1 grosza.
+Zamawiający wymaga podania cen jednostkowych jako wartości dodatnich i informuje, że w przypadku braku wyceny danej pozycji lub podania wartości 0 zł oferta podlegała będzie odrzuceniu z zastrzeżeniem postanowień art. 223 ust. 2 Ustawy;
+7)	pełnomocnictwo do reprezentowania w postępowaniu o udzielenie zamówienia albo reprezentowania w postępowaniu i zawarcia umowy w sprawie zamówienia publicznego – dotyczy Wykonawców wspólnie ubiegających się o udzielenie zamówienia.
+Termin związania ofertą: do dnia 22 lipca 2025 r.</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">189439-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">DZ.RITS.341.17.2025</cbc:ID>
+      <cbc:Name languageID="POL">Utrzymanie ITS</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest usługa polegająca na wykonaniu prac utrzymaniowych i konserwacyjnych urządzeń Siemens/Yunex związanych z systemem zarządzania ruchem, tj. systemów oraz urządzeń zlokalizowanych w centrum sterowania ruchem, sterowników sygnalizacji Siemens/Yunex, urządzeń ITS Poznań związanych z kamerami ANPR (model ruchu), stacjami pomiarowymi Stella i TEU oraz Systemem Automatycznej Identyfikacji Zdarzeń (AID) zlokalizowanych na terenie miasta Poznania.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">Zamawiający przed wyborem najkorzystniejszej oferty wezwie Wykonawcę, którego oferta została najwyżej oceniona, do złożenia w wyznaczonym terminie, nie krótszym niż 10 dni, aktualnych na dzień złożenia następujących podmiotowych środków dowodowych: 
+1)	informacji z Krajowego Rejestru Karnego w zakresie określonym w art. 108 ust. 1 pkt 1, 2 i 4 Ustawy, sporządzonej nie wcześniej niż 6 miesięcy przed jej złożeniem;
+2)	oświadczenia Wykonawcy, w zakresie art. 108 ust. 1 pkt 5 Ustawy, o braku przynależności do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów, z innym wykonawcą, który złożył odrębną ofertę lub ofertę częściową, albo oświadczenia o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty lub oferty częściowej niezależnie od innego wykonawcy należącego do tej samej grupy kapitałowej (wzór – załącznik nr 11 do SWZ);
+3)	odpisu lub informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 Ustawy, sporządzonych nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji (w przypadku wskazania przez Wykonawcę w JEDZ danych umożliwiających bezpłatny i ogólnodostępny dostęp do przedmiotowego dokumentu, Zamawiający samodzielnie pobierze go z bazy danych);
+4)	oświadczenia Wykonawcy o aktualności informacji zawartych w oświadczeniu JEDZ (wg wzoru stanowiącego 
+zał. nr 12 do SWZ), w zakresie podstaw wykluczenia z postępowania, o których mowa w:
+a)	art. 108 ust. 1 pkt 3 Ustawy, 
+b)	art. 108 ust. 1 pkt 4 Ustawy, dotyczących orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka zapobiegawczego, 
+c)	art. 108 ust. 1 pkt 5 Ustawy, dotyczących zawarcia z innymi wykonawcami porozumienia mającego na celu za-kłócenie konkurencji, 
+d)	art. 108 ust. 1 pkt 6 Ustawy, 
+e)	art. 109 ust. 1 pkt 8–10 Ustawy,  
+f)	art. 5k Rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego;
+5)	w przypadku Wykonawcy, który polega na zdolnościach technicznych lub zawodowych lub sytuacji finansowej lub ekonomicznej podmiotów udostępniających zasoby na zasadach określonych w art. 118 Ustawy – podmiotowych środków dowodowych, o których mowa w ppkt 1, 3 i 4, dotyczących tych podmiotów, potwierdzających, że nie zachodzą wobec tych podmiotów podstawy wykluczenia z postępowania. 
+6)	wykazu usług w zakresie określonym w pkt 9.1.2 lit. a) SWZ, wykonanych, a w przypadku świadczeń powtarzających się lub ciągłych również wykonywanych, w okresie ostatnich 5 lat (okres liczonych wstecz od dnia, w którym upływa termin składania ofert), a jeżeli okres prowadzenia działalności jest krótszy – w tym okresie, wraz z podaniem ich przedmiotu, dat wykonania i podmiotów, na rzecz których usługi zostały wykonane lub są wykonywane, oraz załączeniem dowodów określających, czy te usługi zostały wykonane lub są wykonywane należycie, przy czym dowodami, o których mowa, są referencje bądź inne dokumenty sporządzone przez podmiot, na rzecz którego usługi zostały wykonane, a w przypadku świadczeń powtarzających się lub ciągłych są wykonywane, a jeżeli Wykonawca z przyczyn niezależnych od niego nie jest w stanie uzyskać tych dokumentów – oświadczenie Wykonawcy; w przypadku świadczeń powtarzających się lub ciągłych nadal wykonywanych referencje bądź inne dokumenty potwierdzające ich należyte wykonywanie powinny być wystawione w okresie ostatnich 3 miesięcy (wzór wykazu: załącznik nr 13 do SWZ).
+Uwaga! Jeżeli Wykonawca powołuje się na doświadczenie w realizacji usług wykonywanych wspólnie z innymi Wykonawcami, ww. wykaz musi dotyczyć usług, w których wykonaniu Wykonawca ten bezpośrednio uczestniczył, a w przypadku świadczeń powtarzających się lub ciągłych, w których wykonywaniu bezpośrednio uczestniczył lub uczestniczy.
+7)	wykazu osób skierowanych przez Wykonawcę do realizacji zamówienia publicznego wraz z informacją na temat ich uprawnień, kwalifikacji i doświadczenia niezbędnych do wykonania zamówienia publicznego, a także zakresu wykonywanych przez nie czynności oraz informacją o podstawie do dysponowania tymi osobami (wzór: załącznik nr 14 do SWZ).
+Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania poza granicami Rzeczypospolitej Polskiej, zamiast:
+a)	informacji z Krajowego Rejestru Karnego, o której mowa w pkt 10.4 ppkt 1 SWZ – składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja, albo dokument, w zakresie, o którym mowa w pkt 10.4 ppkt 1 SWZ – wystawione nie wcześniej niż 6 miesięcy przed złożeniem informacji lub dokumentu równoważnego;
+b)	odpisu albo informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, o których mowa w pkt 10.4 ppkt 3 SWZ – składa dokument lub dokumenty wystawione w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające, że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury – wystawione nie wcześniej niż 3 miesiące przed złożeniem dokumentu lub dokumentów. 
+Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy, nie wydaje się dokumentów, o których mowa w pkt 10.5.1 SWZ, lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w pkt 10.4 ppkt 1 SWZ, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy, nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania wykonawcy lub miejsce zamieszkania osoby, której dokument dotyczy.
+Do podmiotów udostępniających zasoby na zasadach określonych w art. 118 ustawy oraz podwykonawców niebędących podmiotami udostępniającymi zasoby na tych zasadach, mających siedzibę lub miejsce zamieszkania poza terytorium Rzeczypospolitej Polskiej, postanowienia pkt 10.5.1 i 10.5.2 SWZ stosuje się odpowiednio.
+</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72250000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72260000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">50232200</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71314100</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Poznań</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">PL415</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0008</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Kryterium cena „Cena” będzie rozpatrywane na podstawie ceny brutto za wykonanie przedmiotu zamówienia, z uwzględnieniem pełnego zakresu opcji, podanej przez Wykonawcę w formularzu ofertowym.
+Zamawiający ofercie o najniższej cenie przyzna 60 punktów (wartość punktowa obliczona z dokładnością do dwóch miejsc po przecinku), a każdej następnej zostanie przyporządkowana liczba punktów proporcjonalnie mniejsza, według wzoru:
+Cena= najniższa oferowana cena brutto (zł) / cena badanej oferty brutto (zł) ∙ 60 pkt
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Kryterium „Okres rękojmi za wady i gwarancji jakości” będzie rozpatrywane na podstawie zadeklarowanego przez Wykonawcę w formularzu ofertowym okresu rękojmi za wady i gwarancji jakości na wszystkie usługi wykonane w ramach zadania oraz urządzenia i podzespoły. Najkrótszy możliwy okres rękojmi za wady i gwarancji jakości wymagany przez Zamawiającego wynosi 24 miesiące, najdłuższy możliwy okres rękojmi za wady i gwarancji jakości uwzględniony do oceny ofert wynosi 48 miesięcy. 
+Wykonawca może zaproponować okres rękojmi w następujących okresach miesięcznych: 24 miesięcy lub 36 miesięcy lub 48 miesięcy. 
+Wartość punktowa dla przedmiotowego kryterium (w kryterium okres rękojmi za wady i gwarancji jakości można uzyskać maksymalnie 40 punktów) zostanie obliczona w następujący sposób:
+- okres rękojmi za wady i gwarancji jakości 24 miesiące: 0 punktów,
+- okres rękojmi za wady i gwarancji jakości 36 miesięcy: 20 punktów,
+- okres rękojmi za wady i gwarancji jakości 48 miesięcy: 40 punktów.
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Zgodnie z ustawą Prawo zamówień publicznych</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="POL">Utrzymanie ITS</cbc:Name>
+         <cbc:Description languageID="POL">Utrzymanie ITS</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72250000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72260000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">50232200</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71314100</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Poznań</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL415</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">Zamawiający przewiduje zastosowanie prawa opcji. Przedmiotem zamówienia objętego prawem opcji jest:
+a)	zakup maksymalnie 6 szt. kompletnych sterowników sygnalizacji spełniających wymagania wskazane w załączniku nr 2 do SWZ; 
+b)	Wykonawca winien wycenić kompletne sterowniki z zaprogramowaniem, konfiguracją sieciową i montażem dla sześciu różnych konfiguracji sprzętowych.
+c)	Wykonawca musi zintegrować sterowniki z systemem zarządzania ruchem Siemens/Yunex
+d)	Wykonawca zobowiązany jest podać ceny jednostkowe kompletnych sterowników sygnalizacji z zaprogramowaniem, konfiguracją sieciową i montażem.
+e)	Zamawiający zastrzega sobie prawo do zamówienia większej liczby sterowników w jednej z sześciu konfiguracji, jednak maksymalna sumaryczna liczba wszystkich nie przekroczy maksymalnej, tj. 6 szt.   
+Możliwość skorzystania z prawa opcji jest jednostronnym uprawnieniem, a nie zobowiązaniem Zamawiającego, dlatego też nieskorzystanie przez Zamawiającego z prawa opcji nie stanowi podstawy dla Wykonawcy do dochodzenia jakichkolwiek roszczeń w stosunku do Zamawiającego.
+Zamówienie objęte prawem opcji Wykonawca będzie zobowiązany wykonać po uprzednim otrzymaniu zlecenia (drogą elektroniczną) od Zamawiającego, że zamierza z prawa opcji skorzystać w całości lub w części.
+Termin wykonania zamówienia objętego prawem opcji, o którym mowa w punkcie 3.10.1.1 lit. a), nie może być dłuższy niż 60 dni od dnia przesłania zawiadomienia do Wykonawcy.
+Zamawiający jest uprawniony do skorzystania z prawa opcji:
+•	w zakresie opisanym w punkcie 3.10.1.1 lit. a) –  w okresie obowiązywania umowy podstawowej. 
+•	Zamawiający ma prawo wielokrotnie korzystać z prawa opcji w zakresie zakupu sterowników po zrealizowaniu zakresu podstawowego zamówienia – jednak łączny czas usługi realizowanej w ramach prawa opcji nie przekroczy 3 miesięcy od zakończenia zamówienia podstawowego.
+•	Zamawiający uzależnia możliwość skorzystania z prawa opcji od pozyskania środków finansowych na ten cel. 
+Skorzystanie z prawa opcji nie wymaga aneksowania umowy. W przypadku skorzystania przez Zamawiającego z prawa opcji Wykonawca jest zobowiązany do jego realizacji na warunkach określonych w umowie, co Wykonawca akceptuje przez podpisanie umowy.
+W przypadku nieskorzystania przez Zamawiającego z przysługującego mu prawa opcji albo skorzystania z prawa opcji w niepełnym zakresie, niewykorzystującym maksymalnego poziomu prawa opcji, Wykonawcy nie przysługują żadne roszczenia.
+Rozliczanie dostaw i usług zrealizowanych w ramach prawa opcji będzie następować na zasadach ogólnych określonych w umowie, z uwzględnieniem cen wskazanych w załączniku nr 1a do SWZ.
+</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

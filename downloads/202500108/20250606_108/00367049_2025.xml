@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <!--BT-02-notice-->
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <!--OPP-070-notice-->
+            <cbc:SubTypeCode listName="notice-subtype_cn-standard.gc">19</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <!--BT-505-Organization-Company-->
+                <cbc:WebsiteURI>http://www.comune.adrano.ct.it</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <!--OPT-200-Organization-Company-->
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <!--BT-500-Organization-Company-->
+                  <cbc:Name languageID="ITA">Comune di Adrano</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <!--BT-510(a)-Organization-Company-->
+                  <cbc:StreetName>Via Aurelio Spampinato, 28</cbc:StreetName>
+                  <cbc:CityName>Adrano</cbc:CityName>
+                  <cbc:PostalZone>95031</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts-lvl3">ITG17</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <!--BT-514-Organization-Company-->
+                    <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <!--BT-501-Organization-Company-->
+                  <cbc:CompanyID>80001490871</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <!--BT-506-Organization-Company-->
+                  <cbc:Telephone>0957606111</cbc:Telephone>
+                  <cbc:ElectronicMail>protocollo@pec.comune.adrano.ct.it</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <!--OPT-200-Organization-Company-->
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <!--BT-500-Organization-Company-->
+                  <cbc:Name languageID="ITA">TAR CATANIA</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <!--BT-513-Organization-Company-->
+                  <cbc:CityName>CATANIA</cbc:CityName>
+                  <cbc:PostalZone>95100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts-lvl3">ITG17</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <!--BT-514-Organization-Company-->
+                    <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <!--BT-501-Organization-Company-->
+                  <cbc:CompanyID>93159470876</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367049-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">f5386a0a-88bf-454c-8ddb-cff3103c54b3</cbc:ID>
+  <cbc:ContractFolderID>f5386a0a-88bf-454c-8ddb-cff3103c54b3</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+  <cbc:IssueTime>17:01:35+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0023</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ITA</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <!--BT-11-Procedure-Buyer-->
+      <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingPartyType>
+      <!--BT-740-Procedure-Buyer-->
+      <cbc:PartyTypeCode listName="buyer-contracting-type">cont-ent</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <!--BT-10-Procedure-Buyer-->
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <!--OPT-300-Procedure-Buyer-->
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <!--BT-09(b)-Procedure-->
+      <cbc:ID>CrossBorderLaw</cbc:ID>
+      <cbc:DocumentDescription languageID="ITA">applicabile</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <!--BT-806-Procedure-->
+        <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:ProcurementProject>
+    <!--BT-22-Procedure-->
+    <cbc:ID>43689f00-fc84-4056-99bf-9531f3022464@78-G-5</cbc:ID>
+    <cbc:Name languageID="ITA">Procedura aperta art.71 d.lgs 36/2023 criterio offerta economicamente piu vantaggiosa, art. 108, 182 d.lgs 36/2023, concessione tramite Finanza di Progetto art. 193 d.lgs 36/2023, del servizio di progettazione, realizzazione, gestione Infrastruttura Tecnologica delle Entrate e Sicurezza, dei Rapporti con i cittadini di Apparati Hardware e Sistemi Informativi, progetto AD&amp;#178; -ADVANCED Adrano</cbc:Name>
+    <cbc:Description languageID="ITA">Procedura aperta per affidamento in concessione della riscossione entrate tributarie ed extratributarie</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <!--BT-27-Procedure-->
+      <cbc:EstimatedOverallContractAmount currencyID="EUR">11846815.00</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <!--BT-262-Procedure-->
+      <cbc:ItemClassificationCode listName="cpv">79940000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <!--BT-728-Procedure-->
+      <cbc:Description languageID="ITA">Adrano</cbc:Description>
+      <cac:Address>
+        <!--BT-5071-Procedure-->
+        <cbc:CountrySubentityCode listName="nuts-lvl3">ITG17</cbc:CountrySubentityCode>
+        <cac:Country>
+          <!--BT-5141-Procedure-->
+          <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <!--BT-137-Lot-->
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <!--BT-60-Lot-->
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:CallForTendersDocumentReference>
+        <!--BT-14-Lot-->
+        <cbc:ID>5</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <!--BT-15-Lot-->
+            <cbc:URI>https://appalti.adrano.lavoripubblici.sicilia.it/gare/dettaglio.php?codice=5</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <!--BT-821-Lot-->
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <!--BT-71-Lot-->
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <!--BT-736-Lot-->
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <!--BT-539-Lot-->
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="ITA">dei servizi offerti</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <!--BT-539-Lot-->
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="ITA">a ribasso</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <!--OPT-301-Lot-AddInfo-->
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <!--BT-99-Lot-->
+          <cbc:Description languageID="ITA">TAR CATANIA</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <!--OPT-301-Lot-ReviewOrg-->
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <!--BT-97-Lot-->
+        <cbc:ID>ITA</cbc:ID>
+      </cac:Language>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <!--BT-131(d)-Lot-->
+        <cbc:EndDate>2025-07-21+02:00</cbc:EndDate>
+        <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <!--BT-22-Lot-->
+      <cbc:ID>43689f00-fc84-4056-99bf-9531f3022464@78-G-5/LOT-0001</cbc:ID>
+      <cbc:Name languageID="ITA">Procedura aperta art.71 d.lgs 36/2023 criterio offerta economicamente piu vantaggiosa, art. 108, 182 d.lgs 36/2023, concessione tramite Finanza di Progetto art. 193 d.lgs 36/2023, del servizio di progettazione, realizzazione, gestione Infrastruttura Tecnologica delle Entrate e Sicurezza, dei Rapporti con i cittadini di Apparati Hardware e Sistemi Informativi, progetto AD&amp;#178; -ADVANCED Adrano</cbc:Name>
+      <cbc:Description languageID="ITA">1.	Progettazione, Realizzazione e gestione di una Infrastruttura materiale e immateriale;2.	Fornitura dei &amp;#8220;servizi di gestione&amp;#8221; consistenti nelle seguenti attivit&amp;#224;: &amp;#8226;	Gestione in supporto/concessione delle attivit&amp;#224; tipiche della gestione delle entrate:-Supporto all&amp;#8217;Ente per servizi di gestione e riscossione ordinaria, ricerca e recupero dell&amp;#8217;evasione e dell&amp;#8217;elusione di IMU, TARI e Canone Unico Patrimoniale.-Riscossione coattiva in regime di concessione di tutte le entrate tributarie e non tributarie;Sono comprese tra le entrate anche quelle di nuova istituzione.&amp;#8226;	Gestione del ciclo sanzionatorio dei verbali di accertamento delle infrazioni al Codice della Strada:-Gestione del data entry; Gestione stampa e notifica (per l&amp;#8217;estero);Gestione dell&amp;#8217;attivit&amp;#224; di rendicontazione; Riscossione coattiva e recupero stragiudiziale estero.3.	La manutenzione, gestione e conduzione operativa dell&amp;#8217;infrastruttura tecnologica nelle sue componenti hardware e software.4.	Rientreranno nel servizio proposto anche una serie di attivit&amp;#224; che possiamo definire &amp;#8220;trasversali&amp;#8221; alla gestione dei servizi:&amp;#8226;	La gestione del contenzioso (a supporto o in concessione in base al tipo di atto su cui si &amp;#232; ricevuta l&amp;#8217;opposizione, ad esclusione dei ricorsi relativi ai verbali);&amp;#8226;	I servizi di front-office e assistenza ai cittadini;&amp;#8226;	I servizi di stampa e spedizione degli atti emessi in relazione alle attivit&amp;#224; di gestione delle entrate (escluse le sanzioni amministrative C.d.S. ed extra-C.d.S. da notificare in Italia);&amp;#8226;	L&amp;#8217;erogazione in modalit&amp;#224; S.a.a.S. (Software as a Service) del Sistema della Conoscenza e di tutte le piattaforme informatiche oggetto della Proposta.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <!--BT-06-Lot-->
+        <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <!--BT-27-Lot-->
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">11846815.00</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <!--BT-262-Lot-->
+        <cbc:ItemClassificationCode listName="cpv">79940000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <!--BT-5071-Lot-->
+          <cbc:CountrySubentityCode listName="nuts-lvl3">ITG17</cbc:CountrySubentityCode>
+          <cac:Country>
+            <!--BT-5141-Lot-->
+            <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <!--BT-36-Lot-->
+        <cbc:DurationMeasure unitCode="YEAR">13</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

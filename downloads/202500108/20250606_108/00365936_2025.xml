@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">2700000</efbc:OverallMaximumFrameworkContractsAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:FrameworkAgreementValues>
+                        <cbc:MaximumValueAmount currencyID="EUR">2700000</cbc:MaximumValueAmount>
+                     </efac:FrameworkAgreementValues>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>6</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0002</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     </efac:LotTender>
+                     <efac:FrameworkAgreementValues>
+                        <cbc:MaximumValueAmount currencyID="EUR">2700000</cbc:MaximumValueAmount>
+                     </efac:FrameworkAgreementValues>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>6</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0003</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+                     </efac:LotTender>
+                     <efac:FrameworkAgreementValues>
+                        <cbc:MaximumValueAmount currencyID="EUR">2700000</cbc:MaximumValueAmount>
+                     </efac:FrameworkAgreementValues>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>6</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">520000</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">1120000</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0002</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">1060000</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0003</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-06-03+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="FRA">242139/Vv/Dcamg/ Mapa - Anx3 - Prestation D'Agents De Securite Et De Maitres Chiens</cbc:Title>
+                     <efbc:ContractFrameworkIndicator>false</efbc:ContractFrameworkIndicator>
+                     <efac:ContractReference>
+                        <cbc:ID>242139</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     </efac:LotTender>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Avenue-Web Systèmes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Seyssinet-Pariset</cbc:CityName>
+                           <cbc:PostalZone>38170</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK24</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">4F6A2358-F5C3-91E4-CB222B918D3B59DF</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+33480041260</cbc:Telephone>
+                           <cbc:ElectronicMail>publications-joue@aws-france.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.valenceromansagglo.fr/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Ville de Valence</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:Postbox>2119</cbc:Postbox>
+                           <cbc:StreetName>Mairie</cbc:StreetName>
+                           <cbc:AdditionalStreetName>Place de la Liberté</cbc:AdditionalStreetName>
+                           <cbc:CityName>Valence</cbc:CityName>
+                           <cbc:PostalZone>26021</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK23</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">44925</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>DARAGON Nicolas</cbc:Name>
+                           <cbc:JobTitle>Maire</cbc:JobTitle>
+                           <cbc:Telephone>0475813030</cbc:Telephone>
+                           <cbc:ElectronicMail>achats@valenceromansagglo.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Valence Romans Agglo</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>1 place Jacques Brel</cbc:StreetName>
+                           <cbc:CityName>Valence</cbc:CityName>
+                           <cbc:PostalZone>26000</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK23</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">4F6A237A-0FD3-1708-55CC16CB861CC76E</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0475792376</cbc:Telephone>
+                           <cbc:ElectronicMail>correspondre@aws-france.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Ville de Valence - Mairie</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>1 place de la Liberté</cbc:StreetName>
+                           <cbc:CityName>Valence</cbc:CityName>
+                           <cbc:PostalZone>26000</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK23</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">1899461</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Alexandra CAZAL</cbc:Name>
+                           <cbc:Telephone>0475792376</cbc:Telephone>
+                           <cbc:ElectronicMail>correspondre@aws-france.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal administratif de Grenoble</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:Postbox>1135</cbc:Postbox>
+                           <cbc:StreetName>2 Place de Verdun</cbc:StreetName>
+                           <cbc:CityName>Grenoble</cbc:CityName>
+                           <cbc:PostalZone>38022</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK24</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">4F6A23AD-FB7C-D4A8-A05F5EF7163BE9C0</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0476429000</cbc:Telephone>
+                           <cbc:Telefax>0476422269</cbc:Telefax>
+                           <cbc:ElectronicMail>greffe.ta-grenoble@juradm.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal administratif de Grenoble</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:Postbox>1135</cbc:Postbox>
+                           <cbc:StreetName>2 Place de Verdun</cbc:StreetName>
+                           <cbc:CityName>Grenoble</cbc:CityName>
+                           <cbc:PostalZone>38022</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK24</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">4F6A23C0-09A0-1008-16C817D50A82F8E0</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0476429000</cbc:Telephone>
+                           <cbc:Telefax>0476422269</cbc:Telefax>
+                           <cbc:ElectronicMail>greffe.ta-grenoble@juradm.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0007</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">CABSEC</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>2 Rue Stalingrad</cbc:StreetName>
+                           <cbc:CityName>Vaulx En Velin</cbc:CityName>
+                           <cbc:PostalZone>69120</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK26</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">1607825-1-1-1</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>contactcabsec@gmail.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0008</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">CABSEC</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>2 Rue Stalingrad</cbc:StreetName>
+                           <cbc:CityName>Vaulx En Velin</cbc:CityName>
+                           <cbc:PostalZone>69120</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK26</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">1607825-1-2-1</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>contactcabsec@gmail.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0009</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">CABSEC</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>2 Rue Stalingrad</cbc:StreetName>
+                           <cbc:CityName>Vaulx En Velin</cbc:CityName>
+                           <cbc:PostalZone>69120</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK26</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">1607825-1-3-1</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>contactcabsec@gmail.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0007</cbc:ID>
+                     <efac:Nationality>
+                        <cbc:NationalityID>FRA</cbc:NationalityID>
+                     </efac:Nationality>
+                  </efac:UltimateBeneficialOwner>
+                  <efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0008</cbc:ID>
+                     <efac:Nationality>
+                        <cbc:NationalityID>FRA</cbc:NationalityID>
+                     </efac:Nationality>
+                  </efac:UltimateBeneficialOwner>
+                  <efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0009</cbc:ID>
+                     <efac:Nationality>
+                        <cbc:NationalityID>FRA</cbc:NationalityID>
+                     </efac:Nationality>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365936-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">4f3d3acf-5ccc-4c74-94b2-f907b8f67090</cbc:ID>
+   <cbc:ContractFolderID>5f56a74d-6cc5-43c3-aea4-05cb12c225e3</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>15:31:58+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>http://marches-publics.valenceromansagglo.fr</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>http://marches-publics.valenceromansagglo.fr</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode languageID="FRA" listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>242139</cbc:ID>
+      <cbc:Name languageID="FRA">242139/VV/DCAMG/ MAPA - ANX3 - PRESTATION D'AGENTS DE SECURITE ET DE MAITRES CHIENS</cbc:Name>
+      <cbc:Description languageID="FRA">La présente consultation concerne les conditions d'exécution des prestations de surveillance et de sécurisation destinées à l'organisation et au bon déroulement de manifestations sportives et culturelles sur tout le territoire de la communauté de Valence Romans Agglo et de la Ville de Valence ,ainsi que des interventions temporaires ou permanentes sur les piscines, la patinoire ou d'autres bâtiments et de renforcer la sécurité des usagers, du personnel, des animateurs, lors d'organisation des manifestations sur le domaine public extérieur à des bâtiments</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="FRA">Marché de 12 mois reconductible 3 fois douze mois
+Montant mini/maxi en  euro(s)  Ht :
+Lot 1 :
+Ville de Valence : mini : 20 000  euro(s)   - maxi 100 000  euro(s)Agglo : mini : 5 000  euro(s)  - maxi 30 000  euro(s)Lot 2 :
+Ville de Valence : mini : 20 000  euro(s)   - maxi 80 000  euro(s)Agglo : mini : 45 000  euro(s)  - maxi 200 000  euro(s)Lot 3 :
+Ville de Valence : sans mini  - maxi 15 000  euro(s)Agglo : sans mini  - maxi 250 000  euro(s)</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">2700000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">79713000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">79714000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">79710000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Valeur technique de l'offre appréciée à l'aide d'un Crt</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Prix</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="touchpoint">ORG-0004</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:NoticeDocumentReference>
+            <cbc:ID>145621-2025</cbc:ID>
+         </cac:NoticeDocumentReference>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">1</cbc:ID>
+         <cbc:Name languageID="FRA">Lot n°1 : Prestation d'agents de sécurité</cbc:Name>
+         <cbc:Description languageID="FRA">Les prestations de sécurisation et de surveillance doivent permettre de prévenir, détecter, et réagir aux risques liés aux intrusions, effractions, actes de vandalisme, vols, incendies, ou tout autre incident mettant en péril la sécurité des biens, des usagers, et du personnel</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79713000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79713000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79714000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79710000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="FRA">Durée du marché : 12 mois, éventuellement reconductible 3 fois 12 mois</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Valeur technique de l'offre appréciée à l'aide d'un Crt</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Prix</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="touchpoint">ORG-0004</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:NoticeDocumentReference>
+            <cbc:ID>145621-2025</cbc:ID>
+         </cac:NoticeDocumentReference>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">2</cbc:ID>
+         <cbc:Name languageID="FRA">Lot n°2 : Prestation de gardiennage statique</cbc:Name>
+         <cbc:Description languageID="FRA">La prestation de gardiennage statique a pour objectif d'assurer une présence dissuasive et de sécuriser les sites stratégiques de la Ville de Valence et de Valence Romans Agglo. Elle repose sur une surveillance continue depuis un poste fixe, sans rondes régulières, et s'articule autour de deux missions principales :
+1. Sécurité des lieux :
+- Surveillance des accès et contrôle des entrées/sorties.
+- Prévention des intrusions et des comportements à risque.
+- Signalement immédiat des incidents aux autorités compétentes.
+2. Gestion des flux et des foules :
+- Régulation des entrées et sorties sur les sites accueillant du public.
+- Veille au respect des consignes et des règlements intérieurs.
+- Intervention en cas d'attroupement, d'incivilités ou de troubles.
+Ces missions concernent principalement les piscines communautaires, la patinoire, et certains bâtiments sensibles, où une présence fixe et dissuasive est essentielle pour assurer la sécurité des usagers et du personnel</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79713000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79713000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79714000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79710000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="FRA">Durée du marché : 12 mois, éventuellement reconductible 3 fois 12 mois</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Valeur technique de l'offre appréciée à l'aide d'un Crt</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Prix</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="touchpoint">ORG-0004</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:NoticeDocumentReference>
+            <cbc:ID>145621-2025</cbc:ID>
+         </cac:NoticeDocumentReference>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">3</cbc:ID>
+         <cbc:Name languageID="FRA">Lot n°3 : Prestation de gardiennage mobile</cbc:Name>
+         <cbc:Description languageID="FRA">La prestation de gardiennage mobile a pour objectif de garantir la sécurité des sites sensibles et stratégiques gérés par la Ville de Valence et Valence Romans Agglo. Elle repose sur une présence dynamique, avec des agents effectuant des rondes régulières pour prévenir toute intrusion ou incident.
+Ces missions s'appliquent principalement aux aires d'accueil des gens du voyage (en période de fermeture), au parc public et aux chantiers publics, où une surveillance active et réactive est nécessaire pour assurer la protection des biens et des usagers</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79713000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79713000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79714000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79710000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="FRA">Durée du marché : 12 mois, éventuellement reconductible 3 fois 12 mois</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

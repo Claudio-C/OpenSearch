@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeResult>
+						<efac:LotResult>
+							<cbc:ID>RES-0001</cbc:ID>
+							<cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+							<efac:DecisionReason>
+								<efbc:DecisionReasonCode listName="non-award-justification">other</efbc:DecisionReasonCode>
+							</efac:DecisionReason>
+							<efac:ReceivedSubmissionsStatistics>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-cou</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="DEU">Aufgrund der Haushaltslage wird das Projekt insgesamt nochmals geprüft. Daher kommen die ausgeschriebenen Leistungen nicht zur Ausführung.</efbc:ReasonDescription>
+								</efac:FieldsPrivacy>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-typ</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="DEU">Aufgrund der Haushaltslage wird das Projekt insgesamt nochmals geprüft. Daher kommen die ausgeschriebenen Leistungen nicht zur Ausführung.</efbc:ReasonDescription>
+								</efac:FieldsPrivacy>
+								<efbc:StatisticsCode listName="review-decision-type">unpublished</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>-1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+					</efac:NoticeResult>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.tuebingen.de/</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Universitätsstadt Tübingen - Zentrale Vergabestelle</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Postfach 2540</cbc:StreetName>
+									<cbc:CityName>Tübingen</cbc:CityName>
+									<cbc:PostalZone>72015</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE142</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>08416041-A2361-15</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 70712042646</cbc:Telephone>
+									<cbc:Telefax>+49 707120442646</cbc:Telefax>
+									<cbc:ElectronicMail>zvs@tuebingen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.rp-karlsruhe.de/servlet/PB/menu/1159131/index.html</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer Baden-Württemberg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Durlacher Allee 100</cbc:StreetName>
+									<cbc:CityName>Karlsruhe</cbc:CityName>
+									<cbc:PostalZone>76137</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE122</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>08-A9866-40</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 7219268730</cbc:Telephone>
+									<cbc:Telefax>+49 7219263985</cbc:Telefax>
+									<cbc:ElectronicMail>poststelle@rpk.bwl.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00369002-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">35e7500e-2e05-4a02-8fa4-15eab82876ba</cbc:ID>
+	<cbc:ContractFolderID>1b6f80cc-66af-49c5-a607-0acb2bb2b67b</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+	<cbc:IssueTime>07:08:32+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cbc:BuyerProfileURI>https://www.tuebingen.de/ausschreibungen</cbc:BuyerProfileURI>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vob-a-eu</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Verstöße gegen Vergabevorschriften, die aufgrund der  Bekanntmachung  oder  in  den  Vergabeunterlagen   erkennbar   sind,   sind   spätestens   bis   zum Ablauf  der  Frist  zur  Bewerbung  oder  zur  Angebotsabgabe  gegenüber  dem  Auftraggeber  zu  rügen. Im  Übrigen sind  Verstöße gegen Vergabevorschriften  innerhalb  einer  Frist  von zehn  Kalendertagen nach Kenntnis gegenüber dem Auftraggeber zu rügen. Ein Nachprüfungsantrag ist innerhalb von 15 Kalendertagen  nach  Eingang  der  Mitteilung  des Auftraggebers,  einer  Rüge  nicht  abhelfen  zu  wollen, bei  der  zuständigen  Vergabekammer zu  stellen(§ 160 Gesetz gegen Wettbewerbsbeschränkungen (GWB)).Die o.a. Fristengelten  nicht,  wenn  der  Auftraggeber gemäß  §  135  Absatz  1  Nr.  2  GWB den  Auftrag ohne  vorherige  Veröffentlichung  einer  Bekanntmachung  im  Amtsblatt  der  Europäischen  Union vergeben  hat,  ohne  dass  dies  aufgrund  Gesetzes gestattet ist. Setzt sich ein Auftraggeber über die Unwirksamkeit eines geschlossenen Vertrages hinweg, indem er die Informations- und Wartepflicht missachtet (§ 134 GWB) oder ohne vorherige Veröffentlichung einer Bekanntmachung im Amtsblatt der Europäi-schen Union vergeben hat, ohne dass dies aufgrund Gesetzes gestattet ist, kann die Unwirksamkeit nur festgestellt werden, wenn sie im Nachprüfungsverfahren innerhalb von 30 Kalendertagen nach der Information der betroffenen Bieter und Bewerber durch den öffentlichen Auftraggeber über den Abschluss des Vertrags, jedoch nicht später als sechs Monate nach Vertragsschluss geltend gemacht worden ist. Hat der Auftraggeber die Auftragsvergabe im Amtsblatt der Europäi-schen Union bekanntgemacht, endet die Frist 30 Kalendertage nach Veröffentlichung der Bekanntmachung der Auftragsvergabe im Amtsblatt der Europäischen Union (§ 135 GWB).</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">023-25-096</cbc:ID>
+		<cbc:Name languageID="DEU">LB084 Abbrucharbeiten  "Lerncube" und Speicherbehälter | Walter-Erbe-Schule, 1. BA, Austockung + Sanierung</cbc:Name>
+		<cbc:Description languageID="DEU">Abbruch Lerncube und Wärmespeicher</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXW1YYDYTCBLHT6Y
+
+
+Für den Fall, dass der Ausschreibungsgewinner vor vollständiger Leistungserbringung wegen Kündigung, Insolvenz oder aufgrund einer einvernehmlichen Einigung endgültig ausfällt, behält sich der Auftraggeber vor, die verbleibenden Arbeiten den übrigen Bietern in der Reihenfolge des Ausschreibungsergebnisses bis Platz 5 auf der Grundlage ihrer Angebote anzutragen.</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45110000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45111000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45111100</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CityName>Tübingen</cbc:CityName>
+				<cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>100.00000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+						<cbc:Description languageID="DEU">Preis</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Verstöße gegen Vergabevorschriften, die aufgrund der  Bekanntmachung  oder  in  den  Vergabeunterlagen   erkennbar   sind,   sind   spätestens   bis   zum Ablauf  der  Frist  zur  Bewerbung  oder  zur  Angebotsabgabe  gegenüber  dem  Auftraggeber  zu  rügen. Im  Übrigen sind  Verstöße gegen Vergabevorschriften  innerhalb  einer  Frist  von zehn  Kalendertagen nach Kenntnis gegenüber dem Auftraggeber zu rügen. Ein Nachprüfungsantrag ist innerhalb von 15 Kalendertagen  nach  Eingang  der  Mitteilung  des Auftraggebers,  einer  Rüge  nicht  abhelfen  zu  wollen, bei  der  zuständigen  Vergabekammer zu  stellen(§ 160 Gesetz gegen Wettbewerbsbeschränkungen (GWB)).Die o.a. Fristengelten  nicht,  wenn  der  Auftraggeber gemäß  §  135  Absatz  1  Nr.  2  GWB den  Auftrag ohne  vorherige  Veröffentlichung  einer  Bekanntmachung  im  Amtsblatt  der  Europäischen  Union vergeben  hat,  ohne  dass  dies  aufgrund  Gesetzes gestattet ist. Setzt sich ein Auftraggeber über die Unwirksamkeit eines geschlossenen Vertrages hinweg, indem er die Informations- und Wartepflicht missachtet (§ 134 GWB) oder ohne vorherige Veröffentlichung einer Bekanntmachung im Amtsblatt der Europäi-schen Union vergeben hat, ohne dass dies aufgrund Gesetzes gestattet ist, kann die Unwirksamkeit nur festgestellt werden, wenn sie im Nachprüfungsverfahren innerhalb von 30 Kalendertagen nach der Information der betroffenen Bieter und Bewerber durch den öffentlichen Auftraggeber über den Abschluss des Vertrags, jedoch nicht später als sechs Monate nach Vertragsschluss geltend gemacht worden ist. Hat der Auftraggeber die Auftragsvergabe im Amtsblatt der Europäi-schen Union bekanntgemacht, endet die Frist 30 Kalendertage nach Veröffentlichung der Bekanntmachung der Auftragsvergabe im Amtsblatt der Europäischen Union (§ 135 GWB).</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">023-25-096</cbc:ID>
+			<cbc:Name languageID="DEU">LB084 Abbrucharbeiten  "Lerncube" und Speicherbehälter | Walter-Erbe-Schule, 1. BA, Austockung + Sanierung</cbc:Name>
+			<cbc:Description languageID="DEU">Baustelleneinrichtungsarbeiten.
+1 psch. Komplettabbruch Schulgebäude ""Lerncube"", nicht unterkellert (Maße ca. 23,00 x 12,10 x 7,20m).
+1 psch Abbruch Fluchtreppe (Stahlkonstruktion mit Gitterroststufen).
+ca. 25 m2 Abbruch Oberflächenbefestigung Asphalt.
+ca. 25 m2 Abbruch Betonplatten im Außenbereich.
+1 psch. Abtrennen Medienleitungen.
+ca. 20 t Abfuhr und Entsorgung Altholz, AII/ AIII.
+ca. 70 t Abfuhr und Entsorgung Altholz, AIV.
+ca. 10 t Abfuhr und Entsorgung von gipshaltigen Materialien.
+ca. 70 t Abfuhr und Entsorgung von Baustellenmischabfällen.
+ca. 15 t Abfuhr und Entsorgung von KMF/ Dämmmaterial.
+ca. 100 Stck. Abfuhr und Entsorgung von Leuchtstoffröhren.
+ca. 5 t Abfuhr und Entsorgung von Dachpappe/ Bitumengemische.
+ca. 130 t Abfuhr und Entsorgung von mineralischem Bauschutt EBV RC-1.
+ca. 5 t Abfuhr und Entsorgung von mineralischem Bauschutt EBV RC-2.
+ca. 10 t Abfuhr und Entsorgung von mineralischem Bauschutt EBV RC-3.
+ca. 10 t Abfuhr und Entsorgung von mineralischem Bauschutt DK 0.
+ca. 10 t Abfuhr und Entsorgung von mineralischem Bauschutt DK 1.
+ca. 120 m3 Herstellen von Lagerflächen und Arbeitsebene
+als kombinierte Frostschutz-Tragschicht.
+1 psch. Gehwegabdeckung/ Wurzelschutz (bis ca. 90m Länge/ ca. 3m Breite).
+1 psch. Abdeckung Leitungstrasse (bis ca. 20m Länge/ ca. 1,5-2,0m Breite).
+8 Stck. Baumschutz (Stammschutz).
+ca. 70 m Bauzan.
+1 psch. Abbruch und Entsorgung Wärmespeicher, verfüllt (Volumen 100m3).
+1 psch. Abbruch und Entsorgung Wärmespeicher, nicht verfüllt (Volumen 100m3).
+1 psch. Abbruch und Entsorgung Druckgefäß, verfüllt (Volumen 16m3).
+ca. 90 m  Abbruch und Entsorgung Drainage DN 150.
+ca. 25 m3 Baugrubenaushub laden, abfahren und entsorgen.
+ca. 45 m3 Auffüllungen Behältergruben mit RC-Material.
+ca. 175 m3 Verfüllung Behältergruben mit KFT.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="DEU">Einsatz von RC-Material</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">circ-econ</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45110000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45111000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45111100</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:CityName>Tübingen</cbc:CityName>
+					<cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-08-04+02:00</cbc:StartDate>
+				<cbc:EndDate>2025-09-05+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Für den Fall, dass der Ausschreibungsgewinner vor vollständiger Leistungserbringung wegen Kündigung, Insolvenz oder aufgrund einer einvernehmlichen Einigung endgültig ausfällt, behält sich der Auftraggeber vor, die verbleibenden Arbeiten den übrigen Bietern in der Reihenfolge des Ausschreibungsergebnisses bis Platz 5 auf der Grundlage ihrer Angebote anzutragen.</cbc:OptionsDescription>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:TenderResult>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+	</cac:TenderResult>
+</ContractAwardNotice>

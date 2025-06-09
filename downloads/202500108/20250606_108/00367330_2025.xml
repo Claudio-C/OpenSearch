@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.rckik.bialystok.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. M. Skłodowskiej-Curie 23</cbc:StreetName>
+                           <cbc:Department>Zamówienia Publiczne</cbc:Department>
+                           <cbc:CityName>Białystok</cbc:CityName>
+                           <cbc:PostalZone>15-950</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP 5422584428</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Sekretariat</cbc:Name>
+                           <cbc:Telephone>+48 857447002</cbc:Telephone>
+                           <cbc:ElectronicMail>sekretariat@rckik.bialystok.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://epuap.gov.pl/wps/portal/strefa-klienta/katalog-spraw/opis-uslugi/odwolanie-do-krajowej-izby-odwolawczej/UZP</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza </cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP 5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Sekretariat Biura Odwołań</cbc:Name>
+                           <cbc:Telephone>+48 224587801</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367330-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">500da920-2648-4b41-a294-f24916cb4376</cbc:ID>
+   <cbc:ContractFolderID>fe1e29d5-c3dd-4b2f-81f8-6bb757c12cfb</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04Z</cbc:IssueDate>
+   <cbc:IssueTime>10:21:11Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06Z</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://ezamowienia.gov.pl</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">Art. 132 ustawy z dnia 11 września 2019 r. Prawo zamówień publicznych.</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>8</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>8</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">ZP/PN-8/25</cbc:ID>
+      <cbc:Name languageID="POL">Dostawa pojemników do poboru krwi pełnej i pojemników transferowych, zestawów do plazmaferezy terapeutycznej oraz filtrów antyleukocytarnych do KKP - ZP/PN-8/25</cbc:Name>
+      <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest:
+1.1 Część 1 – dostawa pojemników poczwórnych góra-dół RW 450 ml/2 x 400 ml do 600 ml z dodatkowym pojemnikiem na osocze w ilości 3 000 szt.
+1.2 Część 2 – dostawa pojemników poczwórnych góra-dół RW 450 ml/2 x 400 ml do 600 ml z filtrem in line do KKCz w ilości 25 000 szt.
+1.3 Część 3 – dostawa pojemników potrójnych góra – dół RW 450 ml/2 x 400 ml do 600 ml w ilości 150 000 szt.
+1.4 Część 4 – dostawa zestawów jednorazowego użytku do plazmaferezy terapeutycznej w ilości 400 szt.
+1.5 Część 5 – dostawa laboratoryjnych grawitacyjnych filtrów antyleukocytarnych do filtrowania KKP w ilości 2 000 szt.
+1.6 Część 6 – dostawa pojemników transferowych pustych á 150 ml w ilości 200 szt. oraz á 4x150 ml w ilości 600 szt.
+1.7 Część 7 – dostawa pojemników transferowych pustych á 300-400 ml w ilości 600 szt. oraz á 600 ml w ilości 400 szt.
+1.8 Część 8 – dostawa pojemników pustych oddychających („płytkowych”) á 600 ml lub á 1000 ml lub á 1300 ml w ilości 500 szt.
+na potrzeby Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku.
+2. Szczegółowy opis przedmiotu zamówienia zawarty został w Załączniku nr 1 do SWZ. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych postanowieniach umowy, stanowiących Załącznik nr 9 do SWZ.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="PLN">4573272</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33141613</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33141620</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33141630</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Białystok</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>SWZ-ZP.PN-8.25</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena - 60%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin ważności przedmiotu zamówienia – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin realizacji dostaw sukcesywnych – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 2. Odwołanie wnosi się w terminie: 2.1 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 2.2 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w ppkt 2.1. 3. Odwołanie wobec czynności innych niż określone w pkt 1 i pkt 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Platforma e-Zamówienia dostępna pod adresem: https://ezamowienia.gov.pl</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://ezamowienia.gov.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Cz. 1</cbc:ID>
+         <cbc:Name languageID="POL">Część 1 – dostawa pojemników poczwórnych góra-dół RW 450 ml/2 x 400 ml do 600 ml z dodatkowym pojemnikiem na osocze</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa pojemników poczwórnych góra-dół RW 450 ml/2 x 400 ml do 600 ml z dodatkowym pojemnikiem na osocze w ilości 3 000 szt. na potrzeby Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku.
+2. Szczegółowy opis przedmiotu zamówienia zawarty został w Załączniku nr 1 do SWZ. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych postanowieniach umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">158400</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33141613</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Białystok</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-09-01+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1. Zamawiający przewiduje możliwość skorzystania z prawa opcji, o którym mowa w art. 441 ust. 1 ustawy Pzp w zakresie zwiększenia ilości sztuk przedmiotu zamówienia na zasadach i w trybie opisanym poniżej:
+1.1. Zamawiający może skorzystać z prawa opcji w przypadku wykorzystania całości przedmiotu zamówienia podstawowego (całkowitego wykorzystania przedmiotu zamówienia) przed upływem terminu obowiązywania umowy, spowodowanego zwiększonym zapotrzebowaniem związanym z bieżącą działalnością Zamawiającego.
+1.2 Zamawiający może skorzystać z prawa opcji w zakresie przedmiotu zamówienia w wysokości do 20% ilości zamówienia podstawowego, tj. do 600 szt.
+1.3 Zakupiony w ramach prawa opcji przedmiot zamówienia musi spełniać wszystkie wymogi określone dla zamówienia podstawowego.
+1.4 Przedmiot zamówienia realizowany w ramach prawa opcji musi być wykonany na warunkach określonych dla zamówienia podstawowego.
+1.5 Skorzystanie z opcji jest uprawnieniem Zamawiającego, z którego może, ale nie musi skorzystać. W przypadku nieskorzystania przez Zamawiającego z przysługującego mu prawa opcji albo skorzystania z prawa opcji w niepełnym zakresie, niewykorzystującym maksymalnego poziomu prawa opcji, Wykonawcy nie przysługują żadne roszczenia w stosunku do Zamawiającego.
+1.6 Zastosowanie prawa opcji nie skutkuje zmianą cen jednostkowych netto przedmiotu zamówienia, które są wartością stałą, niezależną od wielkości przedmiotu zamówienia, z zastrzeżeniem przypadków wskazanych w § 8 ust. 3 i ust. 4 Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ. Oznacza to, że ceny jednostkowe netto wskazane przez Wykonawcę za przedmiot zamówienia, muszą być identyczne zarówno dla liczby sztuk zamawianego przedmiotu zamówienia w zamówieniu podstawowym, jak i dla liczby sztuk zamawianego przedmiotu zamówienia w ramach opcji.
+1.7 W przypadku skorzystania z prawa opcji, Wykonawcy przysługiwać będzie wynagrodzenie w wysokości określonej na zasadach przewidzianych dla zamówienia podstawowego wg cen jednostkowych wskazanych dla zamówienia podstawowego.
+1.8 Zamawiający może z prawa opcji korzystać wielokrotnie, do wyczerpania określonej w pkt 1.2 wysokości opcji.
+1.9 Warunkiem uruchomienia prawa opcji jest złożenie przez Zamawiającego do Wykonawcy oświadczenia woli (w terminie nie później niż 1 /jeden/ miesiąc przed upływem terminu obowiązywania umowy) o skorzystaniu z prawa opcji oraz o jego zakresie. Skorzystanie z prawa opcji nie wymaga sporządzenia aneksu do umowy.
+1.10 Pozostałe postanowienia dotyczące prawa opcji zawarte są w Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>SWZ-ZP.PN-8.25</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena - 60%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin ważności przedmiotu zamówienia – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin realizacji dostaw sukcesywnych – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 2. Odwołanie wnosi się w terminie: 2.1 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 2.2 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w ppkt 2.1. 3. Odwołanie wobec czynności innych niż określone w pkt 1 i pkt 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Platforma e-Zamówienia dostępna pod adresem: https://ezamowienia.gov.pl</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://ezamowienia.gov.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Cz. 2</cbc:ID>
+         <cbc:Name languageID="POL">Część 2 – dostawa pojemników poczwórnych góra-dół RW 450 ml/2 x 400 ml do 600 ml z filtrem in line do KKCz</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa pojemników poczwórnych góra-dół RW 450 ml/2 x 400 ml do 600 ml z filtrem in line do KKCz w ilości 25 000 szt. na potrzeby Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku.
+2. Szczegółowy opis przedmiotu zamówienia zawarty został w Załączniku nr 1 do SWZ. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych postanowieniach umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">1095000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33141613</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Białystok</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-09-01+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1. Zamawiający przewiduje możliwość skorzystania z prawa opcji, o którym mowa w art. 441 ust. 1 ustawy Pzp w zakresie zwiększenia ilości sztuk przedmiotu zamówienia na zasadach i w trybie opisanym poniżej:
+1.1. Zamawiający może skorzystać z prawa opcji w przypadku wykorzystania całości przedmiotu zamówienia podstawowego (całkowitego wykorzystania przedmiotu zamówienia) przed upływem terminu obowiązywania umowy, spowodowanego zwiększonym zapotrzebowaniem związanym z bieżącą działalnością Zamawiającego.
+1.2 Zamawiający może skorzystać z prawa opcji w zakresie przedmiotu zamówienia w wysokości do 20% ilości zamówienia podstawowego, tj. do 5 000 szt.
+1.3 Zakupiony w ramach prawa opcji przedmiot zamówienia musi spełniać wszystkie wymogi określone dla zamówienia podstawowego.
+1.4 Przedmiot zamówienia realizowany w ramach prawa opcji musi być wykonany na warunkach określonych dla zamówienia podstawowego.
+1.5 Skorzystanie z opcji jest uprawnieniem Zamawiającego, z którego może, ale nie musi skorzystać. W przypadku nieskorzystania przez Zamawiającego z przysługującego mu prawa opcji albo skorzystania z prawa opcji w niepełnym zakresie, niewykorzystującym maksymalnego poziomu prawa opcji, Wykonawcy nie przysługują żadne roszczenia w stosunku do Zamawiającego.
+1.6 Zastosowanie prawa opcji nie skutkuje zmianą cen jednostkowych netto przedmiotu zamówienia, które są wartością stałą, niezależną od wielkości przedmiotu zamówienia, z zastrzeżeniem przypadków wskazanych w § 8 ust. 3 i ust. 4 Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ. Oznacza to, że ceny jednostkowe netto wskazane przez Wykonawcę za przedmiot zamówienia, muszą być identyczne zarówno dla liczby sztuk zamawianego przedmiotu zamówienia w zamówieniu podstawowym, jak i dla liczby sztuk zamawianego przedmiotu zamówienia w ramach opcji.
+1.7 W przypadku skorzystania z prawa opcji, Wykonawcy przysługiwać będzie wynagrodzenie w wysokości określonej na zasadach przewidzianych dla zamówienia podstawowego wg cen jednostkowych wskazanych dla zamówienia podstawowego.
+1.8 Zamawiający może z prawa opcji korzystać wielokrotnie, do wyczerpania określonej w pkt 1.2 wysokości opcji.
+1.9 Warunkiem uruchomienia prawa opcji jest złożenie przez Zamawiającego do Wykonawcy oświadczenia woli (w terminie nie później niż 1 /jeden/ miesiąc przed upływem terminu obowiązywania umowy) o skorzystaniu z prawa opcji oraz o jego zakresie. Skorzystanie z prawa opcji nie wymaga sporządzenia aneksu do umowy.
+1.10 Pozostałe postanowienia dotyczące prawa opcji zawarte są w Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>SWZ-ZP.PN-8.25</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena - 60%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin ważności przedmiotu zamówienia – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin realizacji dostaw sukcesywnych – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 2. Odwołanie wnosi się w terminie: 2.1 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 2.2 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w ppkt 2.1. 3. Odwołanie wobec czynności innych niż określone w pkt 1 i pkt 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Platforma e-Zamówienia dostępna pod adresem: https://ezamowienia.gov.pl</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://ezamowienia.gov.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Cz. 3</cbc:ID>
+         <cbc:Name languageID="POL">Część 3 – dostawa pojemników potrójnych góra – dół RW 450 ml/2 x 400 ml do 600 ml</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa pojemników potrójnych góra – dół RW 450 ml/2 x 400 ml do 600 ml w ilości 150 000 szt. na potrzeby Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku.
+2. Szczegółowy opis przedmiotu zamówienia zawarty został w Załączniku nr 1 do SWZ. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych postanowieniach umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">3052800</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33141613</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Białystok</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-09-01+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1. Zamawiający przewiduje możliwość skorzystania z prawa opcji, o którym mowa w art. 441 ust. 1 ustawy Pzp w zakresie zwiększenia ilości sztuk przedmiotu zamówienia na zasadach i w trybie opisanym poniżej:
+1.1. Zamawiający może skorzystać z prawa opcji w przypadku wykorzystania całości przedmiotu zamówienia podstawowego (całkowitego wykorzystania przedmiotu zamówienia) przed upływem terminu obowiązywania umowy, spowodowanego zwiększonym zapotrzebowaniem związanym z bieżącą działalnością Zamawiającego.
+1.2 Zamawiający może skorzystać z prawa opcji w zakresie przedmiotu zamówienia w wysokości do 20% ilości zamówienia podstawowego, tj. do 30 000 szt.
+1.3 Zakupiony w ramach prawa opcji przedmiot zamówienia musi spełniać wszystkie wymogi określone dla zamówienia podstawowego.
+1.4 Przedmiot zamówienia realizowany w ramach prawa opcji musi być wykonany na warunkach określonych dla zamówienia podstawowego.
+1.5 Skorzystanie z opcji jest uprawnieniem Zamawiającego, z którego może, ale nie musi skorzystać. W przypadku nieskorzystania przez Zamawiającego z przysługującego mu prawa opcji albo skorzystania z prawa opcji w niepełnym zakresie, niewykorzystującym maksymalnego poziomu prawa opcji, Wykonawcy nie przysługują żadne roszczenia w stosunku do Zamawiającego.
+1.6 Zastosowanie prawa opcji nie skutkuje zmianą cen jednostkowych netto przedmiotu zamówienia, które są wartością stałą, niezależną od wielkości przedmiotu zamówienia, z zastrzeżeniem przypadków wskazanych w § 8 ust. 3 i ust. 4 Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ. Oznacza to, że ceny jednostkowe netto wskazane przez Wykonawcę za przedmiot zamówienia, muszą być identyczne zarówno dla liczby sztuk zamawianego przedmiotu zamówienia w zamówieniu podstawowym, jak i dla liczby sztuk zamawianego przedmiotu zamówienia w ramach opcji.
+1.7 W przypadku skorzystania z prawa opcji, Wykonawcy przysługiwać będzie wynagrodzenie w wysokości określonej na zasadach przewidzianych dla zamówienia podstawowego wg cen jednostkowych wskazanych dla zamówienia podstawowego.
+1.8 Zamawiający może z prawa opcji korzystać wielokrotnie, do wyczerpania określonej w pkt 1.2 wysokości opcji.
+1.9 Warunkiem uruchomienia prawa opcji jest złożenie przez Zamawiającego do Wykonawcy oświadczenia woli (w terminie nie później niż 1 /jeden/ miesiąc przed upływem terminu obowiązywania umowy) o skorzystaniu z prawa opcji oraz o jego zakresie. Skorzystanie z prawa opcji nie wymaga sporządzenia aneksu do umowy.
+1.10 Pozostałe postanowienia dotyczące prawa opcji zawarte są w Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>SWZ-ZP.PN-8.25</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena - 60%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin ważności przedmiotu zamówienia – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin realizacji dostaw sukcesywnych – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 2. Odwołanie wnosi się w terminie: 2.1 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 2.2 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w ppkt 2.1. 3. Odwołanie wobec czynności innych niż określone w pkt 1 i pkt 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Platforma e-Zamówienia dostępna pod adresem: https://ezamowienia.gov.pl</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://ezamowienia.gov.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Cz. 4</cbc:ID>
+         <cbc:Name languageID="POL">Część 4 – dostawa zestawów jednorazowego użytku do plazmaferezy terapeutycznej</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa zestawów jednorazowego użytku do plazmaferezy terapeutycznej w ilości 400 szt. na potrzeby Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku.
+2. Szczegółowy opis przedmiotu zamówienia zawarty został w Załączniku nr 1 do SWZ. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych postanowieniach umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">30240</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33141620</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Białystok</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-09-01+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1. Zamawiający przewiduje możliwość skorzystania z prawa opcji, o którym mowa w art. 441 ust. 1 ustawy Pzp w zakresie zwiększenia ilości sztuk przedmiotu zamówienia na zasadach i w trybie opisanym poniżej:
+1.1. Zamawiający może skorzystać z prawa opcji w przypadku wykorzystania całości przedmiotu zamówienia podstawowego (całkowitego wykorzystania przedmiotu zamówienia) przed upływem terminu obowiązywania umowy, spowodowanego zwiększonym zapotrzebowaniem związanym z bieżącą działalnością Zamawiającego.
+1.2 Zamawiający może skorzystać z prawa opcji w zakresie przedmiotu zamówienia w wysokości do 20% ilości zamówienia podstawowego, tj. do 80 szt.
+1.3 Zakupiony w ramach prawa opcji przedmiot zamówienia musi spełniać wszystkie wymogi określone dla zamówienia podstawowego.
+1.4 Przedmiot zamówienia realizowany w ramach prawa opcji musi być wykonany na warunkach określonych dla zamówienia podstawowego.
+1.5 Skorzystanie z opcji jest uprawnieniem Zamawiającego, z którego może, ale nie musi skorzystać. W przypadku nieskorzystania przez Zamawiającego z przysługującego mu prawa opcji albo skorzystania z prawa opcji w niepełnym zakresie, niewykorzystującym maksymalnego poziomu prawa opcji, Wykonawcy nie przysługują żadne roszczenia w stosunku do Zamawiającego.
+1.6 Zastosowanie prawa opcji nie skutkuje zmianą cen jednostkowych netto przedmiotu zamówienia, które są wartością stałą, niezależną od wielkości przedmiotu zamówienia, z zastrzeżeniem przypadków wskazanych w § 8 ust. 3 i ust. 4 Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ. Oznacza to, że ceny jednostkowe netto wskazane przez Wykonawcę za przedmiot zamówienia, muszą być identyczne zarówno dla liczby sztuk zamawianego przedmiotu zamówienia w zamówieniu podstawowym, jak i dla liczby sztuk zamawianego przedmiotu zamówienia w ramach opcji.
+1.7 W przypadku skorzystania z prawa opcji, Wykonawcy przysługiwać będzie wynagrodzenie w wysokości określonej na zasadach przewidzianych dla zamówienia podstawowego wg cen jednostkowych wskazanych dla zamówienia podstawowego.
+1.8 Zamawiający może z prawa opcji korzystać wielokrotnie, do wyczerpania określonej w pkt 1.2 wysokości opcji.
+1.9 Warunkiem uruchomienia prawa opcji jest złożenie przez Zamawiającego do Wykonawcy oświadczenia woli (w terminie nie później niż 1 /jeden/ miesiąc przed upływem terminu obowiązywania umowy) o skorzystaniu z prawa opcji oraz o jego zakresie. Skorzystanie z prawa opcji nie wymaga sporządzenia aneksu do umowy.
+1.10 Pozostałe postanowienia dotyczące prawa opcji zawarte są w Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0005</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>SWZ-ZP.PN-8.25</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena - 60%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin ważności przedmiotu zamówienia – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin realizacji dostaw sukcesywnych – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 2. Odwołanie wnosi się w terminie: 2.1 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 2.2 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w ppkt 2.1. 3. Odwołanie wobec czynności innych niż określone w pkt 1 i pkt 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Platforma e-Zamówienia dostępna pod adresem: https://ezamowienia.gov.pl</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://ezamowienia.gov.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Cz. 5</cbc:ID>
+         <cbc:Name languageID="POL">Część 5 – dostawa laboratoryjnych grawitacyjnych filtrów antyleukocytarnych do filtrowania KKP</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa laboratoryjnych grawitacyjnych filtrów antyleukocytarnych do filtrowania KKP w ilości 2 000 szt. na potrzeby Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku.
+2. Szczegółowy opis przedmiotu zamówienia zawarty został w Załączniku nr 1 do SWZ. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych postanowieniach umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">198000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33141630</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Białystok</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-09-01+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1. Zamawiający przewiduje możliwość skorzystania z prawa opcji, o którym mowa w art. 441 ust. 1 ustawy Pzp w zakresie zwiększenia ilości sztuk przedmiotu zamówienia na zasadach i w trybie opisanym poniżej:
+1.1. Zamawiający może skorzystać z prawa opcji w przypadku wykorzystania całości przedmiotu zamówienia podstawowego (całkowitego wykorzystania przedmiotu zamówienia) przed upływem terminu obowiązywania umowy, spowodowanego zwiększonym zapotrzebowaniem związanym z bieżącą działalnością Zamawiającego.
+1.2 Zamawiający może skorzystać z prawa opcji w zakresie przedmiotu zamówienia w wysokości do 20% ilości zamówienia podstawowego, tj. do 400 szt.
+1.3 Zakupiony w ramach prawa opcji przedmiot zamówienia musi spełniać wszystkie wymogi określone dla zamówienia podstawowego.
+1.4 Przedmiot zamówienia realizowany w ramach prawa opcji musi być wykonany na warunkach określonych dla zamówienia podstawowego.
+1.5 Skorzystanie z opcji jest uprawnieniem Zamawiającego, z którego może, ale nie musi skorzystać. W przypadku nieskorzystania przez Zamawiającego z przysługującego mu prawa opcji albo skorzystania z prawa opcji w niepełnym zakresie, niewykorzystującym maksymalnego poziomu prawa opcji, Wykonawcy nie przysługują żadne roszczenia w stosunku do Zamawiającego.
+1.6 Zastosowanie prawa opcji nie skutkuje zmianą cen jednostkowych netto przedmiotu zamówienia, które są wartością stałą, niezależną od wielkości przedmiotu zamówienia, z zastrzeżeniem przypadków wskazanych w § 8 ust. 3 i ust. 4 Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ. Oznacza to, że ceny jednostkowe netto wskazane przez Wykonawcę za przedmiot zamówienia, muszą być identyczne zarówno dla liczby sztuk zamawianego przedmiotu zamówienia w zamówieniu podstawowym, jak i dla liczby sztuk zamawianego przedmiotu zamówienia w ramach opcji.
+1.7 W przypadku skorzystania z prawa opcji, Wykonawcy przysługiwać będzie wynagrodzenie w wysokości określonej na zasadach przewidzianych dla zamówienia podstawowego wg cen jednostkowych wskazanych dla zamówienia podstawowego.
+1.8 Zamawiający może z prawa opcji korzystać wielokrotnie, do wyczerpania określonej w pkt 1.2 wysokości opcji.
+1.9 Warunkiem uruchomienia prawa opcji jest złożenie przez Zamawiającego do Wykonawcy oświadczenia woli (w terminie nie później niż 1 /jeden/ miesiąc przed upływem terminu obowiązywania umowy) o skorzystaniu z prawa opcji oraz o jego zakresie. Skorzystanie z prawa opcji nie wymaga sporządzenia aneksu do umowy.
+1.10 Pozostałe postanowienia dotyczące prawa opcji zawarte są w Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0006</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>SWZ-ZP.PN-8.25</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena - 60%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin ważności przedmiotu zamówienia – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin realizacji dostaw sukcesywnych – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 2. Odwołanie wnosi się w terminie: 2.1 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 2.2 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w ppkt 2.1. 3. Odwołanie wobec czynności innych niż określone w pkt 1 i pkt 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Platforma e-Zamówienia dostępna pod adresem: https://ezamowienia.gov.pl</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://ezamowienia.gov.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Cz. 6</cbc:ID>
+         <cbc:Name languageID="POL">Część 6 – dostawa pojemników transferowych pustych á 150 ml oraz á 4x150 ml</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa pojemników transferowych pustych á 150 ml w ilości 200 szt. oraz á 4x150 ml w ilości 600 szt. na potrzeby Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku.
+2. Szczegółowy opis przedmiotu zamówienia zawarty został w Załączniku nr 1 do SWZ. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych postanowieniach umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">22320</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33141613</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Białystok</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-09-01+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1. Zamawiający przewiduje możliwość skorzystania z prawa opcji, o którym mowa w art. 441 ust. 1 ustawy Pzp w zakresie zwiększenia ilości sztuk przedmiotu zamówienia na zasadach i w trybie opisanym poniżej:
+1.1. Zamawiający może skorzystać z prawa opcji w przypadku wykorzystania całości przedmiotu zamówienia podstawowego (całkowitego wykorzystania przedmiotu zamówienia) przed upływem terminu obowiązywania umowy, spowodowanego zwiększonym zapotrzebowaniem związanym z bieżącą działalnością Zamawiającego.
+1.2 Zamawiający może skorzystać z prawa opcji w zakresie przedmiotu zamówienia w wysokości do 20% ilości zamówienia podstawowego, tj. do 160 szt. (w tym do 40 szt. á 150 ml oraz do 120 szt. á 4x150 ml).
+1.3 Zakupiony w ramach prawa opcji przedmiot zamówienia musi spełniać wszystkie wymogi określone dla zamówienia podstawowego.
+1.4 Przedmiot zamówienia realizowany w ramach prawa opcji musi być wykonany na warunkach określonych dla zamówienia podstawowego.
+1.5 Skorzystanie z opcji jest uprawnieniem Zamawiającego, z którego może, ale nie musi skorzystać. W przypadku nieskorzystania przez Zamawiającego z przysługującego mu prawa opcji albo skorzystania z prawa opcji w niepełnym zakresie, niewykorzystującym maksymalnego poziomu prawa opcji, Wykonawcy nie przysługują żadne roszczenia w stosunku do Zamawiającego.
+1.6 Zastosowanie prawa opcji nie skutkuje zmianą cen jednostkowych netto przedmiotu zamówienia, które są wartością stałą, niezależną od wielkości przedmiotu zamówienia, z zastrzeżeniem przypadków wskazanych w § 8 ust. 3 i ust. 4 Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ. Oznacza to, że ceny jednostkowe netto wskazane przez Wykonawcę za przedmiot zamówienia, muszą być identyczne zarówno dla liczby sztuk zamawianego przedmiotu zamówienia w zamówieniu podstawowym, jak i dla liczby sztuk zamawianego przedmiotu zamówienia w ramach opcji.
+1.7 W przypadku skorzystania z prawa opcji, Wykonawcy przysługiwać będzie wynagrodzenie w wysokości określonej na zasadach przewidzianych dla zamówienia podstawowego wg cen jednostkowych wskazanych dla zamówienia podstawowego.
+1.8 Zamawiający może z prawa opcji korzystać wielokrotnie, do wyczerpania określonej w pkt 1.2 wysokości opcji.
+1.9 Warunkiem uruchomienia prawa opcji jest złożenie przez Zamawiającego do Wykonawcy oświadczenia woli (w terminie nie później niż 1 /jeden/ miesiąc przed upływem terminu obowiązywania umowy) o skorzystaniu z prawa opcji oraz o jego zakresie. Skorzystanie z prawa opcji nie wymaga sporządzenia aneksu do umowy.
+1.10 Pozostałe postanowienia dotyczące prawa opcji zawarte są w Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0007</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>SWZ-ZP.PN-8.25</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena - 60%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin ważności przedmiotu zamówienia – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin realizacji dostaw sukcesywnych – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 2. Odwołanie wnosi się w terminie: 2.1 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 2.2 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w ppkt 2.1. 3. Odwołanie wobec czynności innych niż określone w pkt 1 i pkt 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Platforma e-Zamówienia dostępna pod adresem: https://ezamowienia.gov.pl</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://ezamowienia.gov.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Cz. 7</cbc:ID>
+         <cbc:Name languageID="POL">Część 7 – dostawa pojemników transferowych pustych á 300-400 ml oraz á 600 ml</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa pojemników transferowych pustych á 300-400 ml w ilości 600 szt. oraz á 600 ml w ilości 400 szt. na potrzeby Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku.
+2. Szczegółowy opis przedmiotu zamówienia zawarty został w Załączniku nr 1 do SWZ. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych postanowieniach umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">5160</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33141613</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Białystok</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-09-01+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1. Zamawiający przewiduje możliwość skorzystania z prawa opcji, o którym mowa w art. 441 ust. 1 ustawy Pzp w zakresie zwiększenia ilości sztuk przedmiotu zamówienia na zasadach i w trybie opisanym poniżej:
+1.1. Zamawiający może skorzystać z prawa opcji w przypadku wykorzystania całości przedmiotu zamówienia podstawowego (całkowitego wykorzystania przedmiotu zamówienia) przed upływem terminu obowiązywania umowy, spowodowanego zwiększonym zapotrzebowaniem związanym z bieżącą działalnością Zamawiającego.
+1.2 Zamawiający może skorzystać z prawa opcji w zakresie przedmiotu zamówienia w wysokości do 20% ilości zamówienia podstawowego, tj. do 200 szt. (w tym do 120 szt. á 300-400 ml oraz do 80 szt. á 600 ml).
+1.3 Zakupiony w ramach prawa opcji przedmiot zamówienia musi spełniać wszystkie wymogi określone dla zamówienia podstawowego.
+1.4 Przedmiot zamówienia realizowany w ramach prawa opcji musi być wykonany na warunkach określonych dla zamówienia podstawowego.
+1.5 Skorzystanie z opcji jest uprawnieniem Zamawiającego, z którego może, ale nie musi skorzystać. W przypadku nieskorzystania przez Zamawiającego z przysługującego mu prawa opcji albo skorzystania z prawa opcji w niepełnym zakresie, niewykorzystującym maksymalnego poziomu prawa opcji, Wykonawcy nie przysługują żadne roszczenia w stosunku do Zamawiającego.
+1.6 Zastosowanie prawa opcji nie skutkuje zmianą cen jednostkowych netto przedmiotu zamówienia, które są wartością stałą, niezależną od wielkości przedmiotu zamówienia, z zastrzeżeniem przypadków wskazanych w § 8 ust. 3 i ust. 4 Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ. Oznacza to, że ceny jednostkowe netto wskazane przez Wykonawcę za przedmiot zamówienia, muszą być identyczne zarówno dla liczby sztuk zamawianego przedmiotu zamówienia w zamówieniu podstawowym, jak i dla liczby sztuk zamawianego przedmiotu zamówienia w ramach opcji.
+1.7 W przypadku skorzystania z prawa opcji, Wykonawcy przysługiwać będzie wynagrodzenie w wysokości określonej na zasadach przewidzianych dla zamówienia podstawowego wg cen jednostkowych wskazanych dla zamówienia podstawowego.
+1.8 Zamawiający może z prawa opcji korzystać wielokrotnie, do wyczerpania określonej w pkt 1.2 wysokości opcji.
+1.9 Warunkiem uruchomienia prawa opcji jest złożenie przez Zamawiającego do Wykonawcy oświadczenia woli (w terminie nie później niż 1 /jeden/ miesiąc przed upływem terminu obowiązywania umowy) o skorzystaniu z prawa opcji oraz o jego zakresie. Skorzystanie z prawa opcji nie wymaga sporządzenia aneksu do umowy.
+1.10 Pozostałe postanowienia dotyczące prawa opcji zawarte są w Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0008</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>SWZ-ZP.PN-8.25</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena - 60%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin ważności przedmiotu zamówienia – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Termin realizacji dostaw sukcesywnych – 20%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-575fc8bf-62b0-40ce-97ff-c8d431de8a0b</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 2. Odwołanie wnosi się w terminie: 2.1 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 2.2 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w ppkt 2.1. 3. Odwołanie wobec czynności innych niż określone w pkt 1 i pkt 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Platforma e-Zamówienia dostępna pod adresem: https://ezamowienia.gov.pl</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://ezamowienia.gov.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Cz. 8</cbc:ID>
+         <cbc:Name languageID="POL">Część 8 – dostawa pojemników pustych oddychających („płytkowych”) á 600 ml lub á 1000 ml lub á 1300 ml</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa pojemników pustych oddychających („płytkowych”) á 600 ml lub á 1000 ml lub á 1300 ml w ilości 500 szt. na potrzeby Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku.
+2. Szczegółowy opis przedmiotu zamówienia zawarty został w Załączniku nr 1 do SWZ. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych postanowieniach umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">11352</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33141613</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Białystok</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">PL841</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-09-01+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1. Zamawiający przewiduje możliwość skorzystania z prawa opcji, o którym mowa w art. 441 ust. 1 ustawy Pzp w zakresie zwiększenia ilości sztuk przedmiotu zamówienia na zasadach i w trybie opisanym poniżej:
+1.1. Zamawiający może skorzystać z prawa opcji w przypadku wykorzystania całości przedmiotu zamówienia podstawowego (całkowitego wykorzystania przedmiotu zamówienia) przed upływem terminu obowiązywania umowy, spowodowanego zwiększonym zapotrzebowaniem związanym z bieżącą działalnością Zamawiającego.
+1.2 Zamawiający może skorzystać z prawa opcji w zakresie przedmiotu zamówienia w wysokości do 20% ilości zamówienia podstawowego, tj. do 100 szt.
+1.3 Zakupiony w ramach prawa opcji przedmiot zamówienia musi spełniać wszystkie wymogi określone dla zamówienia podstawowego.
+1.4 Przedmiot zamówienia realizowany w ramach prawa opcji musi być wykonany na warunkach określonych dla zamówienia podstawowego.
+1.5 Skorzystanie z opcji jest uprawnieniem Zamawiającego, z którego może, ale nie musi skorzystać. W przypadku nieskorzystania przez Zamawiającego z przysługującego mu prawa opcji albo skorzystania z prawa opcji w niepełnym zakresie, niewykorzystującym maksymalnego poziomu prawa opcji, Wykonawcy nie przysługują żadne roszczenia w stosunku do Zamawiającego.
+1.6 Zastosowanie prawa opcji nie skutkuje zmianą cen jednostkowych netto przedmiotu zamówienia, które są wartością stałą, niezależną od wielkości przedmiotu zamówienia, z zastrzeżeniem przypadków wskazanych w § 8 ust. 3 i ust. 4 Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ. Oznacza to, że ceny jednostkowe netto wskazane przez Wykonawcę za przedmiot zamówienia, muszą być identyczne zarówno dla liczby sztuk zamawianego przedmiotu zamówienia w zamówieniu podstawowym, jak i dla liczby sztuk zamawianego przedmiotu zamówienia w ramach opcji.
+1.7 W przypadku skorzystania z prawa opcji, Wykonawcy przysługiwać będzie wynagrodzenie w wysokości określonej na zasadach przewidzianych dla zamówienia podstawowego wg cen jednostkowych wskazanych dla zamówienia podstawowego.
+1.8 Zamawiający może z prawa opcji korzystać wielokrotnie, do wyczerpania określonej w pkt 1.2 wysokości opcji.
+1.9 Warunkiem uruchomienia prawa opcji jest złożenie przez Zamawiającego do Wykonawcy oświadczenia woli (w terminie nie później niż 1 /jeden/ miesiąc przed upływem terminu obowiązywania umowy) o skorzystaniu z prawa opcji oraz o jego zakresie. Skorzystanie z prawa opcji nie wymaga sporządzenia aneksu do umowy.
+1.10 Pozostałe postanowienia dotyczące prawa opcji zawarte są w Projektowanych postanowień umowy, stanowiących Załącznik nr 9 do SWZ.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

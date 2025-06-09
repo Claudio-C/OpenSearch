@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><BusinessRegistrationInformationNotice xmlns="http://data.europa.eu/p27/eforms-business-registration-information-notice/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns="http://data.europa.eu/p27/eforms-business-registration-information-notice/1">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">X02</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368078-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">78071bd4-c757-497a-8a28-33504173c4c4</cbc:ID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>10:21:05Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32001R2157</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="bri">brin-ecs</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:SenderParty>
+      <cac:Contact>
+         <cbc:ElectronicMail>poststelle@ag-duesseldorf.nrw.de</cbc:ElectronicMail>
+      </cac:Contact>
+   </cac:SenderParty>
+   <cac:BusinessParty>
+      <cbc:WebsiteURI>www.ag-duesseldorf.nrw.de</cbc:WebsiteURI>
+      <cac:PostalAddress>
+         <cbc:StreetName>6, Rue Dicks</cbc:StreetName>
+         <cbc:AdditionalStreetName>6, Rue Dicks</cbc:AdditionalStreetName>
+         <cbc:CityName>Luxembourg</cbc:CityName>
+         <cbc:PostalZone>1417</cbc:PostalZone>
+         <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+         <cac:Country>
+            <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+         </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+         <cbc:RegistrationName>SIERA SE</cbc:RegistrationName>
+         <cbc:CompanyID schemeName="national">Amtsgericht Düsseldorf</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:PartyLegalEntity>
+         <cbc:CompanyID schemeName="EU">HRB 97001</cbc:CompanyID>
+         <cbc:RegistrationDate>2022-03-31+02:00</cbc:RegistrationDate>
+         <cac:CorporateRegistrationScheme>
+            <cac:JurisdictionRegionAddress>
+               <cbc:CityName>Düsseldorf</cbc:CityName>
+               <cbc:PostalZone>40227</cbc:PostalZone>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:JurisdictionRegionAddress>
+         </cac:CorporateRegistrationScheme>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+         <cbc:Name>Amtsgericht Düsseldorf</cbc:Name>
+         <cbc:Telephone>021183060</cbc:Telephone>
+         <cbc:Telefax>0211875651160</cbc:Telefax>
+         <cbc:ElectronicMail>poststelle@ag-duesseldorf.nrw.de</cbc:ElectronicMail>
+      </cac:Contact>
+   </cac:BusinessParty>
+   <cac:AdditionalDocumentReference>
+      <cbc:ID>elektronischer Bundesanzeiger</cbc:ID>
+      <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+      <cbc:ReferencedDocumentInternalAddress>Löschung der Eintragung</cbc:ReferencedDocumentInternalAddress>
+      <cbc:DocumentDescription>Justizportal des Bundes und der Länder</cbc:DocumentDescription>
+      <cac:Attachment>
+         <cac:ExternalReference>
+            <cbc:URI>www.handelsregisterbekanntmachungen.de</cbc:URI>
+         </cac:ExternalReference>
+      </cac:Attachment>
+   </cac:AdditionalDocumentReference>
+   <cac:BusinessCapability>
+      <cbc:CapabilityTypeCode listName="main-activity">econ-aff</cbc:CapabilityTypeCode>
+   </cac:BusinessCapability>
+   <efac:NoticePurpose>
+      <cbc:PurposeCode listName="notice-purpose">reg</cbc:PurposeCode>
+   </efac:NoticePurpose>
+</BusinessRegistrationInformationNotice>

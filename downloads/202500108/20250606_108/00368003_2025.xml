@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">18</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.evergabe-online.de/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundesamt für Ausrüstung, Informationstechnik und Nutzung der Bundeswehr</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Ferdinand-Sauerbruch-Str. 1</cbc:StreetName>
+                           <cbc:CityName>Koblenz</cbc:CityName>
+                           <cbc:PostalZone>56073</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEB11</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>991-19518-88</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>BAAINBw S2.1</cbc:Name>
+                           <cbc:Telephone>+49 261 400 0</cbc:Telephone>
+                           <cbc:ElectronicMail>baainbws2.1@bundeswehr.org</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundeskartellamt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kaiser-Friedrich-Straße 16</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53113</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>991-02380-92</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 2289499-0</cbc:Telephone>
+                           <cbc:Telefax>+49 2289499-163</cbc:Telefax>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368003-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">f6d7520f-0f48-4dd3-b465-9dc9cf745daf</cbc:ID>
+   <cbc:ContractFolderID>6e26e2f4-2725-46a6-a569-d4b6d8815962</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>15:24:21+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32009L0081</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vsvgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Die Ausschlussgründe ergeben sich aus den gesetzlichen Bestimmungen, insb. §§ 123 ff. GWB. Der Bewerber muss mit seinem Teilnahmeantrag die unterzeichnete Erklärung zum Nichtvorliegen von Ausschlussgründen (BAAINBw-B-V 034) und die RUS-Erklärung abgeben.
+Der Auftraggeber behält sich vor, die Angaben durch Einsichtnahme des Gewerbezentralregisters bzw. des Wettbewerbsregisters zu überprüfen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">true</cbc:ProcessReasonCode>
+         <cbc:ProcessReason languageID="DEU">Die in dieser Vergabe notwendigen Leistungen beschränken sich auf die Schließung der Fähigkeitslücke von Link 22 und JREAP C für die Fregatten HAMBURG, SACHSEN und HESSEN nach Wegfall von Link 11.
+
+Die in diesem Vergabeverfahren auszuschreibenden Leistungen erfordern die Beschaffung von über der NATO vorgegebener Informationstechnik, Beistellungen des Bundes und die Integration der Hardware durch den künftigen Auftragnehmer (AN) unterstützt durch die NCIA. 
+
+Bei dem Projekt "LINK 22 und JREAP C auf den Fregatten F124" handelt es sich um Liefer- und Integrationsleistungen die der Herstellung des Betriebes und der notwendigen Versorgungsreife durch einen nationalen Fach- und Sachkompetenten Auftragnehmer dient. Hierzu sind umfassende Kenntnisse für den maritimen taktischen Datenlink einschließlich der zugehörigen Prozesse und organisatorischen Maßnahmen, notwendig.
+
+Die besondere Dringlichkeit dieser Maßnahme ergibt sich mit Blick auf den vorstehend dargestellten Leistungsumfang aus der zwingenden operativen Notwendigkeit heraus. Die Fregatten der Klasse 124 sind aufgrund der geopolitischen Bedrohungslage und der sich verschlechternden sicherheitspolitischen Entwicklungen aktuell in diversen Einsätzen und einsatzgleichen Verpflichtungen (beginnend ab mitte Dezember 2025) eingeplant.</cbc:ProcessReason>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>4538872871</cbc:ID>
+      <cbc:Name languageID="DEU">Übergangslösung Link 22/ JREAP-C auf F124</cbc:Name>
+      <cbc:Description languageID="DEU">Es soll eine Übergangslösung zur Befähigung Link 22 und JREAP C auf den Fregatten der Klasse F124 integriert werden, die ohne Anpassung des Führungs- und Waffeneinsatzsystems (FüWES)/Combat Direction System (CDS) F124 auskommt und eine TDL-Mindestbefähigung für die Einsatzverpflichtungen der F124 herstellt.  Die Übergangslösung ist der Ship Shore Ship Buffer on Ship (SoS) der NATO Communication and Information Agency (NCIA).</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Die zur Nutzung der e-Vergabe-Plattform einzusetzenden elektronischen Mittel sind die Clients der e-Vergabe-Plattform und die elektronischen Werkzeuge der e-Vergabe-Plattform. Diese werden über die mit "Anwendungen" bezeichneten Menüpunkte auf www.evergabe-online.de zur Verfügung gestellt. Hierzu gehören für Unternehmen der Angebots-Assistenten (AnA) und der Signatur-Client für Bieter (Sig-Client) für elektronische Signaturen sowie das LV-Cockpit (www.lv-cockpit.de).
+
+Die technischen Parameter zur Einreichung von Teilnahmeanträgen, Angeboten und Interessensbestätigungen verwendeten elektronischen Mittel sind durch die Clients der e-Vergabe-Plattform und die elektronischen Werkzeuge der e-Vergabe-Plattform bestimmt. Verwendete Verschlüsselungs- und Zeiterfassungsverfahren sind Bestandteil der Clients der e-Vergabe-Plattform sowie der Plattform selber und der elektronischen Werkzeuge der e-Vergabe-Plattform.
+
+Weitergehende Informationen stehen auf https://www.evergabe-online.info bereit.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">35712000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wilhelmshaven</cbc:CityName>
+            <cbc:PostalZone>26384</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE945</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                     <efac:TenderSubcontractingRequirements>
+                        <efbc:TenderSubcontractingRequirementsCode listName="subcontracting-indication">shar-subc</efbc:TenderSubcontractingRequirementsCode>
+                     </efac:TenderSubcontractingRequirements>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentTypeCode listName="communication-justification">sen-info</cbc:DocumentTypeCode>
+            <cbc:DocumentType>restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdetails.html?id=778100</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="DEU">Gemäß Bewerbungsbedingungen (Abschlags- und Schlusszahlungen im Rahmen der Verdingungsordnung für Leistungen Teil B (VOL/B))</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">keine</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:AllowedSubcontractTerms>
+            <cbc:SubcontractingConditionsCode listName="subcontracting-obligation">subc-chng</cbc:SubcontractingConditionsCode>
+         </cac:AllowedSubcontractTerms>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Bedingungen ergeben sich aus den Vergabeunterlagen. Die Vergabeunterlagen werden nach positiver Bewertung des Teilnahmeantrags im Rahmen der Angebotsaufforderung bereitgestellt.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.evergabe-online.de/tenderdetails.html?id=778100</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">§ 160 GWB Einleitung, Antrag
+(1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein.
+(2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 GWB durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht.
+(3) Der Antrag ist unzulässig, soweit
+1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 GWB bleibt unberührt,
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.
+Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2 GWB. § 134 Absatz 1 Satz 2 GWB bleibt unberührt.
+§ 134 GWB Informations- und Wartepflicht
+ https://www.gesetze-im-internet.de/gwb/__134.html
+§ 135 Unwirksamkeit
+https://www.gesetze-im-internet.de/gwb/__135.html</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2025-06-16+02:00</cbc:EndDate>
+            <cbc:EndTime>13:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Übergangslösung Link 22/ JREAP-C auf F124</cbc:Name>
+         <cbc:Description languageID="DEU">Es soll eine Übergangslösung zur Befähigung Link 22 und JREAP C auf den Fregatten der Klasse F124 integriert werden, die ohne Anpassung des Führungs- und Waffeneinsatzsystems (FüWES)/Combat Direction System (CDS) F124 auskommt und eine TDL-Mindestbefähigung für die Einsatzverpflichtungen der F124 herstellt.  Bei der Übergangslösung handelt es sich um ein Produkt der NATO Communication and Information Agency (NCIA).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">35712000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-09-12+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-08-31+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

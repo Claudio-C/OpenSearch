@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">4051651.43</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>OE 2024/006575 - Lote 1</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-04-01+02:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>2024/006575 (CON 001)</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>ÒPTIMA FACILITY SERVICES, SLU</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">E4</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.olesademontserrat.cat/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="SPA">Ayuntamiento de Olesa de Montserrat</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Plaza Félix Figueras y Aragay s/n</cbc:StreetName>
+                           <cbc:CityName>Olesa de Montserrat</cbc:CityName>
+                           <cbc:PostalZone>08640</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>P0814600C</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+937780050</cbc:Telephone>
+                           <cbc:ElectronicMail>contractacio@olesademontserrat.cat</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="SPA">Tribunal Català de Contractes del Sector Públic</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Carrer del Foc, 57</cbc:StreetName>
+                           <cbc:CityName>Barcelona</cbc:CityName>
+                           <cbc:PostalZone>08038</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>S0811001G</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+34 934024600</cbc:Telephone>
+                           <cbc:Telefax>+34 935676346</cbc:Telefax>
+                           <cbc:ElectronicMail>tccsp@gencat.cat</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="SPA">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368210-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">cb606c35-cd06-4698-b324-75724134e2f4</cbc:ID>
+   <cbc:ContractFolderID>d0bf4bd2-5681-4c73-b3be-08857e04a260</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>10:43:18Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>other</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">SPA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://contractaciopublica.cat/es/perfils-contractant/detall/3607644?categoria=0&amp;tipus=104&amp;page=0</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">663170-2024</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:Name languageID="SPA">Contrato de servicios de limpieza de edificios municipales</cbc:Name>
+      <cbc:Description languageID="SPA">Contrato de servicios de limpieza de edificios municipales</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">4824725.38</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90910000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="SPA">El acto pone fin a la vía administrativa y es  susceptible de recurso  especial en materia de contratación , el cual  es potestativo, y se tiene que presentar ante el registro general municipal o del órgano competente de su  resolución, en el plazo de quince  días habilidosos, contados:
+a) Cuando se interponga contra el contenido de los pliegues y otros  documentos contractuales, desde el día siguiente al día en el cual hayan sido recibidos o ademanes   a disposición de los licitadores o candidatos  para su  conocimiento, conforme a la legislación de contratos del sector público.
+b) Cuando se interponga contra el anuncio de licitación , desde el día siguiente al día en que se haya publicado.
+c) En todos los otros casos, el plazo empieza a   contar desde el día siguiente de la notificación efectuada en conformidad con   el que dispone la disposición  adicional quincena.
+El órgano competente para el  conocimiento y la resolución  del recurso es el Órgano Administrativo de Recursos Contractuales de Cataluña (Tribunal Catalán de Contratos del Sector Público de Cataluña).
+La interposición  del recurso tendrá que ser anunciada previamente mediante escrito dirigido al órgano de contratación, el cual  indicará el acto que se quiere impugnar, dentro del   plazo de interposición del recurso.
+Alternativamente, el acto puede ser impugnado por medio de    recurso contencioso administrativo ante los  juzgados contenciosos administrativos de Barcelona en el plazo de dos meses.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="SPA">Contrato de servicios de limpieza de edificios municipales</cbc:Name>
+         <cbc:Description languageID="SPA">Contrato de servicios de limpieza de edificios municipales</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">4051651.43</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90910000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DescriptionCode listName="timeperiod">UNLIMITED</cbc:DescriptionCode>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

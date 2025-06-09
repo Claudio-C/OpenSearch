@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Avenue-Web Systèmes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Seyssinet-Pariset</cbc:CityName>
+                           <cbc:PostalZone>38170</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK24</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">5590499D-AC0B-360B-06286A57AB565DB0</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+33480041260</cbc:Telephone>
+                           <cbc:ElectronicMail>publications-joue@aws-france.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.centre-valdeloire.fr/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">REGION CENTRE VAL DE LOIRE</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Direction des Achats et des Services Juridiques</cbc:StreetName>
+                           <cbc:AdditionalStreetName>Cs 94117, 9 rue Saint Pierre Lentin</cbc:AdditionalStreetName>
+                           <cbc:CityName>Orleans</cbc:CityName>
+                           <cbc:PostalZone>45041</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">49013</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>BONNEAU François</cbc:Name>
+                           <cbc:JobTitle>Président</cbc:JobTitle>
+                           <cbc:Telephone>0238703030</cbc:Telephone>
+                           <cbc:ElectronicMail>dasj-marchespublics@centrevaldeloire.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">REGION CENTRE VAL DE LOIRE</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>9 rue Saint Pierre Lentin</cbc:StreetName>
+                           <cbc:CityName>Orleans</cbc:CityName>
+                           <cbc:PostalZone>45041</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">559049BB-AFF0-BE56-E7FB827CF817AFF3</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>DASJ</cbc:Name>
+                           <cbc:Telephone>0238703030</cbc:Telephone>
+                           <cbc:ElectronicMail>dasj-marchespublics@centrevaldeloire.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal administratif d'Orléans</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>28, rue de la Bretonnerie</cbc:StreetName>
+                           <cbc:CityName>Orléans</cbc:CityName>
+                           <cbc:PostalZone>45057</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">559049CA-B14D-D880-BF4893D0789CB43B</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0238775900</cbc:Telephone>
+                           <cbc:Telefax>0238538516</cbc:Telefax>
+                           <cbc:ElectronicMail>greffe.ta-orleans@juradm.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Comité Consultatif Interrégional de Règlement Amiables des Litiges</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:Postbox>24209</cbc:Postbox>
+                           <cbc:StreetName>Dreets - Immeuble Skyline</cbc:StreetName>
+                           <cbc:AdditionalStreetName>22 Mail Pablo Picasso</cbc:AdditionalStreetName>
+                           <cbc:CityName>Nantes</cbc:CityName>
+                           <cbc:PostalZone>44042</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRG01</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">559049D9-F523-CDF7-41180C61CB529C8D</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0253467983</cbc:Telephone>
+                           <cbc:ElectronicMail>Paysdl.ccira@direccte.gouv.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal administratif d'Orléans</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>28, rue de la Bretonnerie</cbc:StreetName>
+                           <cbc:CityName>Orleans</cbc:CityName>
+                           <cbc:PostalZone>45057</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">559049E8-046E-0A96-4B54736E04FF6284</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0238775900</cbc:Telephone>
+                           <cbc:ElectronicMail>greffe.ta-orleans@juradm.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367752-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">3a794b0a-cc1a-46a2-ae1f-b5f8c15a5a08</cbc:ID>
+   <cbc:ContractFolderID>325f29ea-77f6-4ac1-b314-9b6a68f23345</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>18:23:54+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>http://achats.regioncentre-valdeloire.fr</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>1</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode languageID="FRA" listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>25KC04S</cbc:ID>
+      <cbc:Name languageID="FRA">Avantages sociaux : Fourniture de cartes cadeaux, chéquiers CESU, titres restaurants</cbc:Name>
+      <cbc:Description languageID="FRA">&amp;amp;lt;br/&amp;amp;gt;L'accord-cadre sera exécuté par l'émission de bons de commande.&amp;amp;lt;br/&amp;amp;gt;Chaque lot fera l'objet d'une attribution séparée.&amp;amp;lt;br/&amp;amp;gt;Les prestations sont réglées par des prix unitaires.&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">66133000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">66133000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>9 rue Saint Pierre Lentin</cbc:StreetName>
+            <cbc:CityName>Orleans</cbc:CityName>
+            <cbc:PostalZone>45041</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-auth-mbrshp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Une déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-5 et L.2141-7 à L.2141-11 du code de la commande publique, notamment qu'il satisfait aux obligations concernant l'emploi des travailleurs handicapés définies aux articles L.5212-1 à L.5212-11 du code du travail
+Le cas échéant, justificatif démontrant qu'un candidat en redressement judiciaire est habilité à poursuivre son activité pendant la durée prévisible d'exécution du marché public (copie du ou des jugements prononcés)</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat
+Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années
+Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat
+Description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise
+Indication des mesures de gestion environnementale que le candidat pourra appliquer lors de l'exécution du contrat</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>1658853</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>FRA</cbc:LanguageID>
+            <cbc:DocumentStatusCode listName="linguistic-status">official</cbc:DocumentStatusCode>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1658853</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">L'exécution des prestations débute à compter de la date fixée par le contrat.&lt;br/&gt;Aucune clause de garantie financière prévue.&lt;br/&gt;Le contrat prévoit le versement d'une avance, avec obligation de constituer une garantie à première demande en contrepartie.&lt;br/&gt;Les prix sont révisables.&lt;br/&gt;Le paiement des prestations se fera dans le respect du délai global de paiement applicable à l'acheteur.&lt;br/&gt;Financement sur le budget de la Région Centre - Val de Loire</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="touchpoint">ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1658853</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:AccessToolName>AW Solutions</efbc:AccessToolName>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>08:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>09:00:00+02:00</cbc:OccurrenceTime>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="FRA">Région Centre Val de Loire</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">01</cbc:ID>
+         <cbc:Name languageID="FRA">Cartes cadeaux</cbc:Name>
+         <cbc:Description languageID="FRA">Cartes cadeaux</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">66133000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">18530000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>9 rue Saint Pierre Lentin</cbc:StreetName>
+               <cbc:CityName>Orleans</cbc:CityName>
+               <cbc:PostalZone>45041</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-auth-mbrshp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Une déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-5 et L.2141-7 à L.2141-11 du code de la commande publique, notamment qu'il satisfait aux obligations concernant l'emploi des travailleurs handicapés définies aux articles L.5212-1 à L.5212-11 du code du travail
+Le cas échéant, justificatif démontrant qu'un candidat en redressement judiciaire est habilité à poursuivre son activité pendant la durée prévisible d'exécution du marché public (copie du ou des jugements prononcés)</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat
+Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années
+Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat
+Description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise
+Indication des mesures de gestion environnementale que le candidat pourra appliquer lors de l'exécution du contrat</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>1658853</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>FRA</cbc:LanguageID>
+            <cbc:DocumentStatusCode listName="linguistic-status">official</cbc:DocumentStatusCode>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1658853</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">L'exécution des prestations débute à compter de la date fixée par le contrat.&lt;br/&gt;Aucune clause de garantie financière prévue.&lt;br/&gt;Le contrat prévoit le versement d'une avance, avec obligation de constituer une garantie à première demande en contrepartie.&lt;br/&gt;Les prix sont révisables.&lt;br/&gt;Le paiement des prestations se fera dans le respect du délai global de paiement applicable à l'acheteur.&lt;br/&gt;Financement sur le budget de la Région Centre - Val de Loire</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="touchpoint">ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1658853</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:AccessToolName>AW Solutions</efbc:AccessToolName>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>08:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>09:00:00+02:00</cbc:OccurrenceTime>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="FRA">Région Centre Val de Loire</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">02</cbc:ID>
+         <cbc:Name languageID="FRA">CESU - handicap</cbc:Name>
+         <cbc:Description languageID="FRA">CESU - handicap</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">66133000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85311200</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>9 rue Saint Pierre Lentin</cbc:StreetName>
+               <cbc:CityName>Orleans</cbc:CityName>
+               <cbc:PostalZone>45041</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-auth-mbrshp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Une déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-5 et L.2141-7 à L.2141-11 du code de la commande publique, notamment qu'il satisfait aux obligations concernant l'emploi des travailleurs handicapés définies aux articles L.5212-1 à L.5212-11 du code du travail
+Le cas échéant, justificatif démontrant qu'un candidat en redressement judiciaire est habilité à poursuivre son activité pendant la durée prévisible d'exécution du marché public (copie du ou des jugements prononcés)</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat
+Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années
+Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat
+Description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise
+Indication des mesures de gestion environnementale que le candidat pourra appliquer lors de l'exécution du contrat</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>1658853</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>FRA</cbc:LanguageID>
+            <cbc:DocumentStatusCode listName="linguistic-status">official</cbc:DocumentStatusCode>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1658853</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">L'exécution des prestations débute à compter de la date fixée par le contrat.&lt;br/&gt;Aucune clause de garantie financière prévue.&lt;br/&gt;Le contrat prévoit le versement d'une avance, avec obligation de constituer une garantie à première demande en contrepartie.&lt;br/&gt;Les prix sont révisables.&lt;br/&gt;Le paiement des prestations se fera dans le respect du délai global de paiement applicable à l'acheteur.&lt;br/&gt;Financement sur le budget de la Région Centre - Val de Loire</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="touchpoint">ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1658853</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:AccessToolName>AW Solutions</efbc:AccessToolName>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>08:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>09:00:00+02:00</cbc:OccurrenceTime>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="FRA">Région Centre Val de Loire</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">03</cbc:ID>
+         <cbc:Name languageID="FRA">Titres restaurants</cbc:Name>
+         <cbc:Description languageID="FRA">Titres restaurants</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">66133000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">66133000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>9 rue Saint Pierre Lentin</cbc:StreetName>
+               <cbc:CityName>Orleans</cbc:CityName>
+               <cbc:PostalZone>45041</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

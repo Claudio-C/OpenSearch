@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">2853600</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">2853600</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Atmoterm S.A.</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-05-22+02:00</cbc:IssueDate>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>CRU WSL 1657/OE/25</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Atmoterm S.A.</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.slaskie.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://slaskie.ezamawiajacy.pl</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Województwo Śląskie</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Ligonia 46</cbc:StreetName>
+                           <cbc:CityName>Katowice</cbc:CityName>
+                           <cbc:PostalZone>40-037</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>9542770064</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Województwo Śląskie</cbc:Name>
+                           <cbc:Telephone>+48 (32) 77 40 354</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia@slaskie.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.uzp.gov.pl/kio</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 224587801</cbc:Telephone>
+                           <cbc:Telefax>+48 224587800</cbc:Telefax>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://oneplace.marketplanet.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Otwarty Rynek Elektroniczny S.A.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Domaniewska 49</cbc:StreetName>
+                           <cbc:AdditionalStreetName>Trinity Park III</cbc:AdditionalStreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262535153</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 222572223 </cbc:Telephone>
+                           <cbc:ElectronicMail>oneplace@marketplanet.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Atmoterm S.A.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Łangowskiego 4</cbc:StreetName>
+                           <cbc:CityName>Opole</cbc:CityName>
+                           <cbc:PostalZone>45-031</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL524</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>530600238</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>774426666</cbc:Telephone>
+                           <cbc:ElectronicMail>Office@atmoterm.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366313-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">2a57e862-3632-4b41-8e5e-2a3f4d2b061a</cbc:ID>
+   <cbc:ContractFolderID>a5b7cc3a-6529-42e0-a994-41a74b6ac4f3</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>09:54:10Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://bip.slaskie.pl</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">art. 132 ustawy Pzp</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <ext:UBLExtensions>
+         <ext:UBLExtension>
+            <ext:ExtensionContent>
+               <efext:EformsExtension>
+                  <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+               </efext:EformsExtension>
+            </ext:ExtensionContent>
+         </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:Description languageID="POL">1. Zamawiający przewiduje odwróconą kolejność oceny ofert zgodnie z art. 139 ust. 1 ustawy z dnia 11 września 2019 r. Prawo zamówień publicznych (tekst jednolity: Dz. U. z 2024 r. poz. 1320) zwanej dalej ustawą Pzp.
+2. Ofertę należy sporządzić dokładnie według załączonego do Specyfikacji Warunków Zamówienia (w skrócie: SWZ) formularza ofertowego stanowiącego Załącznik nr 1 do SWZ lub na nim. Formularz ofertowy nie podlega uzupełnieniu po upływie terminu składania ofert. 
+3. Oferta oraz wszystkie wymagane dokumenty składane przez Wykonawcę w toku postępowania winny być podpisane przez osobę upoważnioną do reprezentowania Wykonawcy, zgodnie z formą reprezentacji Wykonawcy wynikającą z właściwego rejestru lub centralnej ewidencji i informacji o działalności gospodarczej, właściwym dla danej formy organizacyjnej Wykonawcy lub prawidłowo sporządzonego pełnomocnictwa.
+4. W przypadku Wykonawców wspólnie ubiegających się o zamówienie (np. konsorcja, spółki cywilne) – winni oni ustanowić pełnomocnika do reprezentowania ich w postępowaniu o udzielenie zamówienia albo do reprezentowania ich w postępowaniu i zawarcia umowy w sprawie zamówienia publicznego.
+5. Ofertę należy złożyć pod rygorem nieważności w formie elektronicznej (postać elektroniczna opatrzona kwalifikowanym podpisem elektronicznym), w języku polskim, zgodnie z przepisami prawa oraz dokumentami zamówienia. Nie dopuszcza się składania oferty w innym języku. Wszelkie dokumenty sporządzone w języku obcym winny być przetłumaczone na język polski.
+6. Wraz z ofertą należy złożyć:
+a) oświadczenie, o którym mowa w art. 125 ust. 1 ustawy Pzp (JEDZ), które stanowi dowód potwierdzający brak podstaw wykluczenia w postępowaniu na dzień składania ofert, tymczasowo zastępujący wymagane przez Zamawiającego podmiotowe środki dowodowe, wskazane w pkt 2.1.6 oraz pkt 5.1.9 niniejszego ogłoszenia, 
+b) oświadczenie dotyczące przesłanek wykluczenia z art. 5k rozporządzenia Rady (UE) 833/2014 w brzmieniu nadanym rozporządzeniem Rady (UE) 2023/2878 składane na podstawie art. 125 ust. 1 ustawy Pzp,
+c) odpis lub informację z Krajowego Rejestru Sądowego, Centralnej Ewidencji i Informacji o Działalności Gospodarczej lub innego właściwego rejestru,
+d) pełnomocnictwa - jeśli dotyczy,
+e) zobowiązanie podmiotu udostępniającego zasoby, o którym mowa w art. 118 ust. 3 ustawy Pzp ­- jeśli dotyczy,
+f) oryginał gwarancji lub poręczenia w postaci elektronicznej, zgodnie z zapisami rozdziału X SWZ - w przypadku wniesienia wadium w postaci niepieniężnej.
+g) oświadczenie, o którym mowa w art. 117 ust. 4 ustawy Pzp - jeśli dotyczy
+7. Szczegółowy opis sposobu przygotowywania oferty znajduje się w rozdziale IX SWZ.
+8. Strona internetowa prowadzonego postępowania oraz na której będą zamieszczane zmiany i wyjaśnienia treści SWZ oraz inne dokumenty zamówienia bezpośrednio związane z postępowaniem:
+https://bip.slaskie.pl/ogloszenia_i_aktualnosci/zamowienia_publiczne/zamowienia_wszczete_od_dnia_01012021_r/zamowienia_powyzej_kwot_unijnych/?p=2025%5EPrzetarg+nieograniczony%5Eaktualne  </cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">202603-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">BZ-ZP.272.8.11.2025.ED</cbc:ID>
+      <cbc:Name languageID="POL">Zakup nowych wersji systemu ewidencyjno-opłatowego na okres kolejnych dwóch lat</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest zakup nowych wersji systemu ewidencyjno-opłatowego na okres kolejnych dwóch lat do tworzenia i modyfikacji baz danych zawierających informację o podmiotach korzystających ze środowiska wraz z księgowaniem i rozliczaniem wpływów redystrybucją oraz windykacją zebranych opłat środowiskowych</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">1. Ustala się obowiązek wniesienia przez Wykonawcę wadium w wysokości: 28 000 zł . Wadium należy wnieść przed upływem terminu składania ofert i utrzymywać nieprzerwanie do dnia upływu terminu związania ofertą, z wyjątkiem przypadków, o których mowa w X rozdziale SWZ.
+2. Oferta musi obejmować całość zamówienia, Zamawiający nie dopuszcza możliwości składania ofert częściowych. Oferta częściowa stanowić będzie ofertę o treści niezgodnej z warunkami zamówienia i zostanie odrzucona, zgodnie z art. 226 ust. 1 pkt 5 ustawy Pzp.
+3. Zamawiający nie przeprowadził wstępnych konsultacji rynkowych przed wszczęciem postępowania.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">48600000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">48517000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72260000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72250000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Łączna cena zamówienia brutto 	</cbc:Name>
+                  <cbc:Description languageID="POL">Punkty za kryterium „Łączna cena zamówienia brutto” zostaną przyznane w skali    punktowej od 0 do 60 punktów według poniższego wzoru:
+najniższa łączna cena zamówienia brutto spośród wszystkich złożonych ofert niepodlegających odrzuceniu	x 60 = liczba punktów
+łączna cena zamówienia brutto oferty badanej (przeliczanej)	
+W powyższym kryterium Wykonawca może uzyskać maksymalnie 60 punktów.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Termin dostawy</cbc:Name>
+                  <cbc:Description languageID="POL">Punkty za kryterium „Termin dostawy” zostaną przyznane w skali punktowej od 0 do 10 punktów na podstawie informacji zadeklarowanych przez wykonawcę w pkt. 4 formularza ofertowego( załącznik nr 1 do SWZ) w sposób następujący:
+- Za dostawę systemu wynoszącą 7 dni roboczych od dnia zawarcia umowy- Wykonawca otrzyma – 0 pkt
+- Za dostawę systemu wynoszącą 5 dni roboczych od dnia zawarcia umowy- Wykonawca otrzyma – 5 pkt
+- Za dostawę systemu wynoszącą 3 dni roboczych od dnia zawarcia umowy- Wykonawca otrzyma – 10 pkt
+W powyższym kryterium Wykonawca może uzyskać maksymalnie 10 punktów
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Czas reakcji na usunięcie błędów</cbc:Name>
+                  <cbc:Description languageID="POL">Punkty za kryterium „Czas reakcji na usunięcie błędów” zostaną przyznane w skali punktowej od 0 do 30 punktów na podstawie zadeklarowanej przez Wykonawcę w pkt 5 formularza ofertowego ( Załącznik nr 1 do SWZ) w sposób następujący:
+Błąd znaczący:
+•	Czas reakcji na usunięcie błędów „znaczących” wynoszący 3 dni robocze – Wykonawca otrzyma – 0 pkt,
+•	Czas reakcji na usunięcie błędów „znaczących” wynoszący 2 dni robocze – Wykonawca otrzyma – 10 pkt,
+•	Czas reakcji na usunięcie błędów „znaczących” wynoszący 1 dzień roboczy – Wykonawca otrzyma – 20 pkt,
+   Błąd drobny:
+•	Czas reakcji na usunięcie błędów „drobnych” wynoszący 7 dni roboczych – Wykonawca otrzyma – 0 pkt,
+•	Czas reakcji na usunięcie błędów „drobnych” wynoszący 6 dni roboczych – Wykonawca otrzyma – 5 pkt,
+•	Czas reakcji na usunięcie błędów „drobnych” wynoszący 5 dni roboczych lub krócej – Wykonawca otrzyma – 10 pkt.
+Błąd znaczący, oznacza błędne działanie jednej z funkcji Systemu lub błąd który można ominąć   poprzez użycie innych funkcji (nie wpływające istotnie na pracę systemu), w terminie nie przekraczającym 3 dni roboczych (zgodnie ze złożoną ofertą).
+Błąd drobny, oznacza każdy inny błąd nie będący błędem blokującym, krytycznym lub znaczącym, utrudniający wprowadzenie danych do Systemu, bądź ich pozyskiwanie z Systemu, w terminie nie przekraczającym 7 dni roboczych (zgodnie ze złożoną ofertą).
+W powyższym kryterium Wykonawca może uzyskać maksymalnie 30 punktów.
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Środki ochrony prawnej przysługują Wykonawcy oraz innemu podmiotowi, jeżeli ma lub miał interes w uzyskaniu zamówienia oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez Zamawiającego przepisów ustawy Pzp.
+2. Środki ochrony prawnej wobec ogłoszenia wszczynającego postępowanie o udzielenie zamówienia oraz dokumentów zamówienia przysługują również organizacjom wpisanym na listę, o której mowa w art. 469 pkt 15 ustawy Pzp, oraz Rzecznikowi Małych i Średnich Przedsiębiorców.
+3. Odwołanie przysługuje na:
+3.1. niezgodną z przepisami ustawy Pzp czynność Zamawiającego, podjętą w postępowaniu o udzielenie zamówienia, w tym na projektowane postanowienia umowy;
+3.2. zaniechanie czynności w postępowaniu o udzielenie zamówienia, do której Zamawiający był obowiązany na podstawie ustawy Pzp.
+3.3. zaniechanie przeprowadzenia postępowania o udzielenie zamówienia, mimo że Zamawiający był do tego obowiązany.
+4. Odwołanie wnosi się do Prezesa Izby.
+5. Pisma w postępowaniu odwoławczym wnosi się w formie pisemnej albo w formie elektronicznej albo w postaci elektronicznej, z tym że odwołanie i przystąpienie do postępowania odwoławczego, wniesione w postaci elektronicznej, wymagają opatrzenia podpisem zaufanym.
+6. Terminy składania odwołań wskazane zostały w art. 515 dział IX Środki ochrony prawnej ustawy Pzp.
+7. Na orzeczenie Izby oraz postanowienie Prezesa Izby, o którym mowa w art. 519 ust. 1 ustawy Pzp, stronom oraz uczestnikom postępowania odwoławczego przysługuje skarga do sądu. Skargę wnosi się do Sądu Okręgowego w Warszawie za pośrednictwem Prezesa Izby.
+8. Szczegółowe informacje dotyczące środków ochrony prawnej określa Dział XV ustawy Pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">BZ-ZP.272.8.11.2025.ED</cbc:ID>
+         <cbc:Name languageID="POL">Zakup nowych wersji systemu ewidencyjno-opłatowego na okres kolejnych dwóch lat</cbc:Name>
+         <cbc:Description languageID="POL">1.Przedmiotem zamówienia jest zakup nowych wersji systemu ewidencyjno-opłatowego na okres kolejnych dwóch lat do tworzenia i modyfikacji baz danych zawierających informację o podmiotach korzystających ze środowiska wraz z księgowaniem i rozliczaniem wpływów redystrybucją oraz windykacją zebranych opłat środowiskowych
+2.System winien umożliwiać obsługę danych dotyczących ochrony środowiska określonych w obowiązujących przepisach prawa, w tym m.in.: opłat za korzystanie ze środowiska, opłat produktowych, publicznej kampanii edukacyjnej za opakowania, opłat wynikających z ustawy o bateriach i akumulatorach, opłat i zabezpieczeń finansowych wynikających z ustawy o zużytym sprzęcie elektrycznym i elektronicznym, opłat wynikających z ustawy o odpadach, recyklingu pojazdów, opłacie recyklingowej za torby na zakupy z tworzywa sztucznego, opłat i kar za usunięcie drzew i krzewów, zarządzanie informacjami środowiskowymi, księgowanie i rozliczanie wpływów wraz z ich redystrybucją oraz windykacją opłat.
+3.Opis przedmiotu zamówienia (w skrócie: OPZ) stanowi Załącznik nr 3 do SWZ/Załącznik nr 1 do 
+projektowanych postanowień umowy.
+4.Projektowane postanowienia umowy (w skrócie: PPU) w sprawie powyższego zamówienia publicznego, które zostaną wprowadzone do treści umowy znajdują się w Załączniku nr 2 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">Dotyczy pkt. 5.1.3 Szacowany okres obowiązywania:
+Zamawiający przewiduje podzielenie procesu realizacji przedmiotu zamówienia na dwa działania: 
+• Działanie 1- dostarczenie systemu- w terminie do 7 dni roboczych od dnia zawarcia umowy (zgodnie ze złożona ofertą), 
+• Działanie 2- usługa asysty technicznej na okres 24 miesięcy od dnia uruchomienia systemu w wersji produkcyjnej (od dnia podpisu protokołu odbioru)
+Zamawiający  przewiduje wymagania, w zakresie zatrudnienia na podstawie stosunku pracy, o których mowa w art. 95 ust. 1 ustawy Pzp – czynności niezbędne do realizacji zamówienia, których dotyczą wymagania zostały uwzględnione w § 15 projektowanych postanowień umownych stanowiących załącznik nr 2 do SWZ
+</cbc:Note>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">48600000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">48517000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72260000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72250000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">Zamawiający nie przewiduje opcji</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

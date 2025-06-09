@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">20</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.saintdenis.fr/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Ville de Saint-Denis Commune nouvelle</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>2 place victor hugo BP 269</cbc:StreetName>
+                           <cbc:Department>Seine-Saint-Denis</cbc:Department>
+                           <cbc:CityName>Saint-denis cédex 01</cbc:CityName>
+                           <cbc:PostalZone>93205</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>92993941100013</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Service commande publique</cbc:Name>
+                           <cbc:Telephone>0149336879</cbc:Telephone>
+                           <cbc:ElectronicMail>mp_achats@saintdenis.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal Administratif de Montreuil</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>7 Rue Catherine Puig</cbc:StreetName>
+                           <cbc:Department>Seine-Saint-Denis</cbc:Department>
+                           <cbc:CityName>Montreuil</cbc:CityName>
+                           <cbc:PostalZone>93100 </cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>130006869</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Tribunal administratif de Montreuil </cbc:Name>
+                           <cbc:Telephone>01 49 20 20 00</cbc:Telephone>
+                           <cbc:ElectronicMail>greffe.ta-montreuil@tribunal-administratif.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367747-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">16ee77cb-81fd-4403-9014-365a10037e5b</cbc:ID>
+   <cbc:ContractFolderID>cfb2a214-1d36-4418-8108-f533a2c7d5d5</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>11:51:26+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-social</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID>ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>R2123-1 3</cbc:ID>
+         <cbc:DocumentDescription languageID="FRA">"L'acheteur peut recourir à une procédure adaptée pour passer : (...) 3- Un marché ayant pour objet des services sociaux et autres services spécifiques, dont la liste figure dans un avis annexé au présent code, quelle que soit la valeur estimée du besoin ;"</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CCAG Prestations intellectuelles</cbc:ID>
+         <cbc:DocumentDescription languageID="FRA">CCAG Prestations intellectuelles du 30 mars 2021 </cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="FRA">Procédure adaptée de type 5 (services sociaux et autres services spécifiques)</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>202503180913</cbc:ID>
+      <cbc:Name languageID="FRA">Permanences d'accès aux droits du travail et du logement pour les usagers de la MJD de la Commune nouvelle de Saint-Denis et la Direction de l'Habitat Durable</cbc:Name>
+      <cbc:Description languageID="FRA">Cet accord-cadre sera conclu pour une durée d'un 1 an, renouvelable trois fois, par période d'un an.
+Il s'agit d'un accord-cadre mono attributaire à prix mixtes, avec une partie forfaitaire relative aux permanences habituelles et avec une partie à bons de commande relative aux permanences exceptionnelles. Cet accord-cadre est alloti en trois lots. Le premier "Permanences de proximité d'accès au droit au logement, de copropriété et mobilier pour des questions relatives aux conflits affrétant qui peuvent en découler et à l'habitat indigne".
+Il n'est pas prévu de variante, ni d'option.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">223000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">79140000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Sur le territoire de Saint-Denis Commune nouvelle</cbc:StreetName>
+            <cbc:CityName>Saint-Denis</cbc:CityName>
+            <cbc:PostalZone>93200</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Garanties techniques et professionnelles</cbc:Name>
+                        <cbc:Description languageID="FRA">Garanties techniques et professionnelles des candidats</cbc:Description>
+                        <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Garanties financières</cbc:Name>
+                        <cbc:Description languageID="FRA">Garanties financières du candidat</cbc:Description>
+                        <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>25</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Qualité de l'équipe dédiée à la prestation et l'expérience professionnelle (composition de l'équipe, diplômes et expérience professionnelle des personnes dédiées à l'exécution du marché, qualification, CV des ou de l'intervenant(s), connaissance du public visé et qualité d'écoute, formation/mise à jour juridique, capacité à réaliser des recherches juridiques (proactivité))</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Méthodologie et organisation de la prestation : qui comprend notamment : la méthode de travail, la disponibilité du ou des interlocuteurs (pour des temps de sensibilisation), la nature des modalités des échanges avec la MDJ ainsi que les services de la Ville et les alternatives mises en oeuvre en cas d'absence de l'interlocuteur dédiée, aide à l'accomplissement des démarches administratives (délai et modalités d'accompagnement (dossier à remplir, AJ...) liens avec les autres professionnels)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Prix au regard du DQE</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Critère environnemental : Politique environnementale de l'entreprise en lien avec l'exécution du marché, notamment moyen de transport des intervenants, etc. </cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.maximilien.fr</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Les recours contentieux ouverts aux candidats sont les suivants : 
+- Référé précontractuel avant la signature du contrat (articles L.551-1 à 12 du Code de Justice Administrative) ;
+- Référé contractuel après la signature du contrat, dans les 31 jours qui suivent la publication de l'avis d'attribution du contrat, ou, à défaut d'un tel avis, dans les six mois qui suivent la date de conclusion de celui-ci (dans les conditions décrites aux articles L.551-13 à 23 du même code) ;
+- soit d'un recours en contestation de la validité du contrat, conformément à la décision du Conseil d'Etat du 4 avril 2014 n°358994 "Tarn et Garonne", dans un délai de 2 mois à compter de la publication de l'avis d'attribution ou à défaut de toute autre mesure de publicité concernant la conclusion du contrat.
+
+Les recours peuvent être déposés sur https://www.telerecours.fr/ ou adressés par courrier à : 
+
+Tribunal Administratif de Montreuil
+7 Rue Catherine Puig
+93100 Montreuil
+
+Téléphone : 01 49 20 20 00
+Courriel : greffe.ta-montreuil@tribunal-administratif.fr 
+Site internet : montreuil.tribunal-administratif.fr 
+</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-04+02:00</cbc:EndDate>
+            <cbc:EndTime>17:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="FRA">Lot n°1 : Permanences de proximité d'accès au droit au logement, de copropriété et mobilier pour des questions relatives aux conflits affrétant qui peuvent en découler et à l'habitat indigne  
+
+</cbc:Name>
+         <cbc:Description languageID="FRA">Cet accord-cadre sera conclu pour une durée d'un 1 an, renouvelable trois fois, par période d'un an à compter du 1er novembre 2025 pour les permanences tenues aux locaux de la mairie déléguée de Pierrefitte-sur-Seine ; du 2 mars 2026 pour les permanences tenues aux locaux de la Direction de l'Habitat Durable ; ou de la notification des contrats si postérieures à ces dates.
+Il s'agit d'un accord-cadre mono attributaire à prix mixtes, avec une partie forfaitaire relative aux permanences habituelles et avec une partie à bons de commande relative aux permanences exceptionnelles. Il n'est pas prévu de variante, ni d'option. Avec un montant minimum correspondant à la partie forfaitaire et un maximum de 40 000 Euros HT par an</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="FRA">Pour les permanences de la Direction de l'Habitat durable : dans les locaux de la commune déléguée de Pierrefitte (2 place de la Libération 93380) et à l'immeuble Saint-Jean, 6 rue de Strasbourg.
+Pour les permanences de la Direction de la Prévention de la délinquance : Maison de Justice et du Droit de Saint-Denis situé au 16 rue des Boucheries.
+
+</cbc:Description>
+            <cac:Address>
+               <cbc:StreetName>Sur le territoire de Saint-Denis Commune nouvelle</cbc:StreetName>
+               <cbc:CityName>Saint-Denis</cbc:CityName>
+               <cbc:PostalZone>93200</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="YEAR">1</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Garanties techniques et professionnelles</cbc:Name>
+                        <cbc:Description languageID="FRA">Garanties techniques et professionnelles des candidats</cbc:Description>
+                        <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Garanties financières</cbc:Name>
+                        <cbc:Description languageID="FRA">Garanties financières du candidat</cbc:Description>
+                        <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>25</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Qualité de l'équipe dédiée à la prestation et l'expérience professionnelle (composition de l'équipe, diplômes et expérience professionnelle des personnes dédiées à l'exécution du marché, qualification, CV des ou de l'intervenant(s), connaissance du public visé et qualité d'écoute, formation/mise à jour juridique, capacité à réaliser des recherches juridiques (proactivité))</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Méthodologie et organisation de la prestation : qui comprend notamment : la méthode de travail, la disponibilité du ou des interlocuteurs (pour des temps de sensibilisation), la nature des modalités des échanges avec la MDJ ainsi que les services de la Ville et les alternatives mises en oeuvre en cas d'absence de l'interlocuteur dédiée, aide à l'accomplissement des démarches administratives (délai et modalités d'accompagnement (dossier à remplir, AJ...) liens avec les autres professionnels)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Prix au regard du DQE</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Critère environnemental : Politique environnementale de l'entreprise en lien avec l'exécution du marché, notamment moyen de transport des intervenants, etc. </cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.maximilien.fr</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Les recours contentieux ouverts aux candidats sont les suivants : 
+
+- Référé précontractuel avant la signature du contrat (articles L.551-1 à 12 du Code de Justice Administrative) ;
+- Référé contractuel après la signature du contrat, dans les 31 jours qui suivent la publication de l'avis d'attribution du contrat, ou, à défaut d'un tel avis, dans les six mois qui suivent la date de conclusion de celui-ci (dans les conditions décrites aux articles L.551-13 à 23 du même code) ;
+- soit d'un recours en contestation de la validité du contrat, conformément à la décision du Conseil d'Etat du 4 avril 2014 n°358994 "Tarn et Garonne", dans un délai de 2 mois à compter de la publication de l'avis d'attribution ou à défaut de toute autre mesure de publicité concernant la conclusion du contrat.
+
+Les recours peuvent être déposés sur https://www.telerecours.fr/ ou adressés par courrier à : 
+
+Tribunal Administratif de Montreuil
+7 Rue Catherine Puig
+93100 Montreuil
+
+Téléphone : 01 49 20 20 00
+Courriel : greffe.ta-montreuil@tribunal-administratif.fr 
+Site internet : montreuil.tribunal-administratif.fr 
+</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-04+02:00</cbc:EndDate>
+            <cbc:EndTime>17:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="FRA">Lot 2 : Permanences de proximité d'accès au droit au logement pour les questions d'ordre général en la matière, au sein de la MJD </cbc:Name>
+         <cbc:Description languageID="FRA">Cet accord-cadre sera conclu pour une durée d'un 1 an, renouvelable trois fois, par période d'un an, à compter du 1er novembre 2025 ou de la notification des contrats si postérieures à ces dates.
+Il s'agit d'un accord-cadre mono attributaire à prix mixtes, avec une partie forfaitaire relative aux permanences habituelles et avec une partie à bons de commande relative aux permanences exceptionnelles. Avec un minimum correspondant à la partie forfaitaire et un maximum de 40 000 Euros HT par an.
+Il n'est pas prévu de variante, ni d'option.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Sur le territoire de Saint-Denis Commune nouvelle </cbc:StreetName>
+               <cbc:CityName>Saint-Denis</cbc:CityName>
+               <cbc:PostalZone>93200</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Garanties techniques et professionnelles</cbc:Name>
+                        <cbc:Description languageID="FRA">Garanties techniques et professionnelles du candidat</cbc:Description>
+                        <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Garanties financières</cbc:Name>
+                        <cbc:Description languageID="FRA">Garanties financières du candidat</cbc:Description>
+                        <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>25</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Qualité de l'équipe dédiée à la prestation et l'expérience professionnelle (composition de l'équipe, diplômes et expérience professionnelle des personnes dédiées à l'exécution du marché, qualification, CV des ou de l'intervenant(s), connaissance du public visé et qualité d'écoute, formation/mise à jour juridique, capacité à réaliser des recherches juridiques (proactivité))</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Méthodologie et organisation de la prestation qui comprend notamment : la méthode de travail, la disponibilité du ou des interlocuteurs (pour des temps de sensibilisation), la nature des modalités des échanges avec la MDJ ainsi que les services de la Ville et les alternatives mises en oeuvre en cas d'absence de l'interlocuteur dédiée, aide à l'accomplissement des démarches administratives (délai et modalités d'accompagnement (dossier à remplir, AJ...) liens avec les autres professionnels)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Prix au regard du DQE</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Critère environnemental : Politique environnementale de l'entreprise en lien avec l'exécution du marché, notamment moyen de transport des intervenants, etc. </cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.maximilien.fr</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Les recours contentieux ouverts aux candidats sont les suivants : 
+
+- Référé précontractuel avant la signature du contrat (articles L.551-1 à 12 du Code de Justice Administrative) ;
+- Référé contractuel après la signature du contrat, dans les 31 jours qui suivent la publication de l'avis d'attribution du contrat, ou, à défaut d'un tel avis, dans les six mois qui suivent la date de conclusion de celui-ci (dans les conditions décrites aux articles L.551-13 à 23 du même code) ;
+- soit d'un recours en contestation de la validité du contrat, conformément à la décision du Conseil d'Etat du 4 avril 2014 n°358994 "Tarn et Garonne", dans un délai de 2 mois à compter de la publication de l'avis d'attribution ou à défaut de toute autre mesure de publicité concernant la conclusion du contrat.
+
+Les recours peuvent être déposés sur https://www.telerecours.fr/ ou adressés par courrier à : 
+
+Tribunal Administratif de Montreuil
+7 Rue Catherine Puig
+93100 Montreuil
+
+Téléphone : 01 49 20 20 00
+Courriel : greffe.ta-montreuil@tribunal-administratif.fr 
+Site internet : montreuil.tribunal-administratif.fr 
+</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-04+02:00</cbc:EndDate>
+            <cbc:EndTime>17:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="FRA">Lot 3 :Permanences de proximité d'accès au droit du travail</cbc:Name>
+         <cbc:Description languageID="FRA">Cet accord-cadre sera conclu pour une durée d'un 1 an, renouvelable trois fois, par période d'un an, à compter du 1er novembre 2025 ou de la date de notification si postérieure.
+Il s'agit d'un accord-cadre mono attributaire à prix mixtes, avec une partie forfaitaire relative aux permanences habituelles et avec une partie à bons de commande relative aux permanences exceptionnelles. Avec un minimum correspondant à la partie forfaitaire et un maximum de 40 000 Euros HT par an.
+Il n'est pas prévu de variante, ni d'option.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Sur le territoire de Saint-Denis Commune nouvelle</cbc:StreetName>
+               <cbc:CityName>Saint-Denis</cbc:CityName>
+               <cbc:PostalZone>93200</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

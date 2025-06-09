@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                     <efac:DecisionReason>
+                        <efbc:DecisionReasonCode listName="non-award-justification">all-rej</efbc:DecisionReasonCode>
+                     </efac:DecisionReason>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.bgk.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://bgk.eb2b.com.pl/</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Bank Gospodarstwa Krajowego</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Al. Jerozolimskie 7</cbc:StreetName>
+                           <cbc:AdditionalStreetName>Tymczasowy adres do korespondencji: ul. Chmielna 73, 00-801 Warszawa</cbc:AdditionalStreetName>
+                           <cbc:Department>Departament Zarządzania Zakupami i Kontraktami</cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>00-955</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>000017319</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>https://bgk.eb2b.com.pl/</cbc:Name>
+                           <cbc:Telephone>+48224758048</cbc:Telephone>
+                           <cbc:ElectronicMail>sekretariatDZZK@bgk.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza
+</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17A</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366454-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">f586b605-b67b-4214-94ce-6faf6f749250</cbc:ID>
+   <cbc:ContractFolderID>0e122064-4844-4942-9f48-940edb3d6a75</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04Z</cbc:IssueDate>
+   <cbc:IssueTime>13:48:39Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://bgk.eb2b.com.pl/</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">art. 132 ustawy z dnia 11 września 2019 r. Prawo Zamówień Publicznych </cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">783816-2024</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">DZZK/93/DIF/2024</cbc:ID>
+      <cbc:Name languageID="POL">Wybór Partnerów Finansujących w celu wdrażania Instrumentu Finansowego Pożyczka na OZE dla podmiotów innych niż MŚP w ramach Funduszu Powierniczego Województwa Podkarpackiego</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia są zlecone przez BGK usługi polegające na wdrożeniu i zarządzaniu Instrumentem Finansowym Pożyczka na Odnawialne Źródła Energii (OZE) dla podmiotów innych niż MSP. Szczegóły dotyczące projektów, które mogą być finansowane zawarte zostały w Metryce Instrumentu Finansowego (Metryka) stanowiącej załącznik nr 2 do Projektowanych Postanowień Umowy (PPU)</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">1.	W celu realizacji przedmiotu zamówienia, Zamawiający dokonał jego podziału na 5 części  odpowiadających wartości wkładów finansowych planowanych do wniesienia z Funduszu Powierniczego do Funduszy Szczegółowych utworzonych przez Wykonawców. Jeden Wykonawca w niniejszym postępowaniu może ubiegać się o realizację maksymalnie  dwóch Części Zamówienia, niezależnie czy występuje samodzielnie czy w ramach konsorcjum. Wykonawca w odniesieniu  do każdej Części, o którą się ubiega, składa odrębną ofertę
+2.	Zamawiający nie dopuszcza składania ofert wariantowych. 
+3.	Wkład finansowy ze środków Funduszu Powierniczego udostępniany przez Zamawiającego na realizację zamówienia podstawowego wynosi łącznie 140 000 000,00 zł.
+4.	Zamawiający przewiduje możliwość udzielenia:
+1)	Prawa opcji, na zasadach określonych w PPU, stanowiącym Załącznik nr 2 do SWZ
+2)	Zamówienia, o którym mowa w art. 214 ust. 1 pkt 7) ustawy Pzp.
+5.	W przypadku skorzystania przez Zamawiającego z Prawa opcji kwota wniesiona przez Zamawiającego do Funduszu Szczegółowego może ulec zwiększeniu do 150% w stosunku do kwoty przewidzianej w ramach zamówienia podstawowego dla każdej z Części   . W przypadku skorzystania przez Zamawiającego z zamówienia, o którym mowa w art. 214 ust. 1 pkt 7) ustawy Pzp, kwota wniesiona przez Zamawiającego do Funduszu Szczegółowego może wynosić do 100% w stosunku do kwoty przewidzianej w ramach zamówienia podstawowego dla każdej z Części. 
+6.	W przypadku skorzystania przez Zamawiającego z Prawa opcji oraz zamówienia, o którym mowa w art. 214 ust. 1 pkt 7) ustawy Pzp, wkład finansowy ze środków Funduszu Powierniczego udostępnianych przez Zamawiającego na realizację zamówienia wyniesie dla wszystkich części  maksymalnie 490 000 000,00 zł. 
+7.	Wskazane w pkt. 3 i 6  kwoty nie stanowią szacunkowej wartości zamówienia. 
+8. Zamawiający żąda od Wykonawców wniesienia wadium w wysokości:
+Część I: 8 000,00 PLN
+Część II: 12 000,00 PLN
+Część III: 13 000,00 PLN
+Część IV: 17 000,00 PLN
+Część V: 20 000,00 PLN  
+9. Wykluczeniu z postępowania podlegają Wykonawcy wobec których:
+1)	zachodzą okoliczności określone w art. 108 ust. 1 oraz art. 109 ust 1 pkt 1, 4, 5, 7, 8, 9 i 10 ustawy Pzp.
+2)	zachodzi, co najmniej jedna z przesłanek określonych w art. 7 ust. 1 pkt 1-3 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego lub w  art. 5 k rozporządzenia (UE) 2022/576 z dnia 8 kwietnia 2022 w sprawie zmiany rozporządzenia (UE) nr 833/2014 dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie
+10. Zamawiający zastosuje procedurę odwróconą badania i oceny ofert, o której mowa w art. 139 ustawy Pzp.
+11. Kryteria oceny ofert zostały szczegółowo opisane w części XV SWZ. 
+12. Komunikacja między Zamawiającym, a Wykonawcami odbywa się wyłącznie przy użyciu środków komunikacji elektronicznej zgodnie z art. 61 ustawy Pzp, za pośrednictwem elektronicznej platformy zakupowej (dalej: „Platforma”) pod adresem: https://bgk.eb2b.com.pl/, która spełnia wymagania opisane w art. 64 ustawy Pzp
+ Informacja o przetwarzaniu danych osobowych: 
+1.	Zamawiający, zgodnie z przepisami RODO, informuje, że: 
+1)	administratorem danych osobowych jest Bank Gospodarstwa Krajowego („BGK”), z siedziba przy Al. Jerozolimskich 7, 00-955 Warszawa, adres do doręczeń: VARSO 2, ul. Chmielna 73, 00-801 Warszawa,
+2)	kontakt z Inspektorem Ochrony Danych możliwy jest pod adresem e-mail: iod@bgk.pl lub korespondencyjnie pod adresem: VARSO 2, ul. Chmielna 73, 00-801 Warszawa,
+3)	dane osobowe przetwarzane są na podstawie czynności zmierzających do zawarcia umowy (art. 6 ust. 1 lit. b RODO) w celu weryfikacji możliwości nawiązania współpracy oraz wypełnienia obowiązków prawnych ciążących na administratorze (art. 6 ust. 1 lit. c RODO) w celu przeprowadzenia postępowania,
+4)	odbiorcami danych osobowych będą osoby lub podmioty, którym udostępniona zostanie dokumentacja postępowania w oparciu o przepisy ustawy Pzp oraz podmioty wspierające administratora w szczególności w zakresie usług teleinformatycznych,
+5)	dane osobowe będą przechowywane w okresie istniejącego po stronie administratora obowiązku związanego z przechowywaniem dokumentacji dla celów kontroli, lub przez okres wynikający z powszechnie obowiązujących przepisów prawa, w tym w przypadku – zamówienia finansowanego lub współfinasowanego ze środków Unii Europejskiej (UE) – z przepisów i/lub wytycznych dotyczących okresu przechowywania dokumentów dla projektów finansowanych lub współfinansowanych ze środków UE,
+6)	każdej osobie przysługuje prawo dostępu do swoich danych osobowych oraz prawo do żądania ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia, a także prawo do wniesienia sprzeciwu wobec przetwarzania opartego na prawnie uzasadnionym interesie administratora. Każdej osobie przysługuje prawo wycofania zgody na przetwarzanie danych, jeśli stanowi ona podstawę przetwarzania oraz prawo wniesienia skargi do organu nadzorczego – Prezesa Urzędu Ochrony Danych Osobowych. Powyższe ma zastosowanie z zastrzeżeniem, że:
+a)	skorzystanie przez osobę, której dane dotyczą, z uprawnienia do sprostowania lub uzupełnienia danych, o którym mowa w art. 16 RODO, nie może skutkować zmianą wyniku postępowania o udzielenie zamówienia ani zmianą postanowień umowy w sprawie zamówienia publicznego w zakresie niezgodnym z ustawą Pzp;
+b)	w postępowaniu o udzielenie zamówienia zgłoszenie żądania ograniczenia przetwarzania, o którym mowa w art. 18 ust. 1 RODO, nie ogranicza przetwarzania danych osobowych do czasu zakończenia tego postępowania;
+c)	zamawiający udostępnia dane osobowe, o których mowa w art. 10 RODO, w celu umożliwienia korzystania ze środków ochrony prawnej, o których mowa w dziale IX, do upływu terminu na ich wniesienie.
+2.	Wyjaśnienie: prawo do ograniczenia przetwarzania nie ma zastosowania w odniesieniu 
+do przechowywania, w celu zapewnienia korzystania ze środków ochrony prawnej lub w celu ochrony praw innej osoby fizycznej lub prawnej, lub z uwagi na ważne względy interesu publicznego Unii Europejskiej lub państwa członkowskiego.
+POZOSTAŁE SZCZEGÓŁOWE INFORMACJE DOTYCZĄCE PRZEDMIOTU ZAMÓWIENIA I WARUNKÓW REALIZACJI ZOSTAŁY ZAWARTE DOKUMENTACJI POSTĘPOWANIA (SWZ WRAZ Z ZAŁĄCZNIKAMI) UDOSTĘPNIONEJ NA PLATFORMIE ZAKUPOWEJ ZAMAWIAJĄCEGO POD ADRESEM: ..................
+</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">66000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">województwo podkarpackie</cbc:Description>
+         <cac:Address>
+            <cbc:Region>anyw-cou</cbc:Region>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>50</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena oferty – „C”.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>6</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Wkład własny Partnera Finansującego (zdolność do pozyskania dodatkowego Wkładu Własnego Partnera Finansującego)
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Kontrole na miejscu u Ostatecznych Odbiorców. 
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>4</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Skierowanie do realizacji zamówienia osoby z niepełnosprawnością. 
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Długość Okresu Budowy Portfela
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Skierowanie do realizacji zamówienia specjalisty ds. OZE
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">W toku postępowania o udzielenie zamówienia Wykonawcom przysługują środki ochrony prawnej przewidziane w przepisach Działu IX ustawy Prawo zamówień publicznych – odwołanie do Krajowej Izby Odwoławczej i skarga do sądu okręgowego wnoszone w sposób i w terminach określonych w ustawie Pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">DZZK/93/DIF/2024 cz. IV</cbc:ID>
+         <cbc:Name languageID="POL">Wybór Partnerów Finansujących w celu wdrażania Instrumentu Finansowego Pożyczka na OZE dla podmiotów innych niż MŚP w ramach Funduszu Powierniczego Województwa Podkarpackiego</cbc:Name>
+         <cbc:Description languageID="POL">Wkład finansowy ze środków Funduszu Funduszy (bez Prawa opcji) przypisany do każdej z 5 części stanowi odrębną część zamówienia, tj.: 
+•	Część 4 – obejmuje świadczenie usług polegających na wdrożeniu i zarządzaniu Instrumentem Finansowym Pożyczka na OZE dla podmiotów innych niż MŚP oraz udzieleniu Jednostkowych Pożyczek o parametrach określonych w „Metryce Instrumentu Finansowego Pożyczka na OZE dla podmiotów innych niż MŚP ”, z wkładu finansowego Funduszu Powierniczego wniesionego przez Zamawiającego do Funduszu Szczegółowego w łącznej wysokości 34 000 000,00 PLN uzupełnionego o wkład własny Wykonawcy w wysokości zadeklarowanej przez Wykonawcę na etapie postępowania przetargowego (nie niższej niż 3%). Udzielenie Jednostkowych Pożyczek ma skutkować wspieraniu energii odnawialnej, poprzez realizację następujących wskaźników: Dodatkowa zdolność wytwarzania energii ze źródeł OZE (w tym: energii elektrycznej, energii cieplnej) wartość do osiągnięcia: 6,80 MW; Ilość wytworzonej energii ze źródeł OZE (w tym: energii elektrycznej, energii cieplnej) wartość do osiągnięcia: 6800 MWh/rok; Liczba udzielonych Jednostkowych Pożyczek wartość do osiągnięcia: 37 szt. Jedna Inwestycja końcowa może jednocześnie przyczynić się do osiągnięcia każdego ze wskaźników określonych powyżej.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">Zamawiający w dniu 06.05.2025 r. zawiadomił za pośrednictwem platformy zakupowej o unieważnieniu ww. postępowanie o udzielenie zamówienia publicznego w Części IV na podstawie art. 255 pkt 2) ustawy Pzp. 
+1.	Uzasadnienie prawne: 
+Zamawiający unieważnia postępowanie na podstawie art. 255 pkt 2) ustawy Pzp, zgodnie z którym: Zamawiający unieważnia postępowanie o udzielenie zamówienia, jeżeli: (…) 2)
+wszystkie złożone wnioski o dopuszczenie do udziału w postępowaniu albo oferty podlegały odrzuceniu; (…). 
+2.	Uzasadnienie faktyczne unieważnienia postępowania: 
+2.1.	W Części IV przedmiotowego postępowania wpłynęły dwie oferty, złożone przez Wykonawców:
+a)	Alior Bank S.A.  adres: ul. Łopuszańska 38 D, 02-232 Warszawa, 
+b)	Bank Ochrony Środowiska S.A. adres: ul. Żelazna 32, 00-832 Warszawa. 
+2.2.	Zamawiający odrzucił oferty złożone przez ww. Wykonawców. 
+</cbc:Note>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">66000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">województwo podkarpackie </cbc:Description>
+            <cac:Address>
+               <cbc:Region>anyw-cou</cbc:Region>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">278</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1. Zamawiający przewiduje możliwość udzielenia:
+1)	Prawa opcji, na zasadach określonych w PPU, stanowiącym Załącznik nr 2 do SWZ
+2)	Zamówienia, o którym mowa w art. 214 ust. 1 pkt 7) ustawy Pzp.
+2. W przypadku skorzystania przez Zamawiającego z Prawa Opcji, kwota wniesiona przez Zamawiającego do Funduszu Szczegółowego może ulec zwiększeniu do 150% w stosunku do kwoty przewidzianej w ramach zamówienia podstawowego dla każdej Części zamówienia.  W przypadku skorzystania przez Zamawiającego z zamówienia, o którym mowa w art. 214 ust. 1 pkt 7) ustawy Pzp kwota wniesiona przez Zamawiającego do Funduszu Szczegółowego może wynosić do 100% w stosunku do kwoty przewidzianej w ramach zamówienia podstawowego dla każdej z Części zamówienia. </cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">AREA APPALTI E CONTRATTI</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Via Verdi, 8</cbc:StreetName>
+                           <cbc:CityName>Torino</cbc:CityName>
+                           <cbc:PostalZone>10124</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>80088230018</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0116704291</cbc:Telephone>
+                           <cbc:ElectronicMail>appalti@unito.it</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">TAR PIEMONTE</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Via Confienza 10</cbc:StreetName>
+                           <cbc:CityName>Torino</cbc:CityName>
+                           <cbc:PostalZone>10121</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>96574140016</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0115576411</cbc:Telephone>
+                           <cbc:ElectronicMail>urp.to@giustizia-amministrativa.it</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367191-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">fc6c78c4-dd78-4bca-9834-62135cc5c3e0</cbc:ID>
+   <cbc:ContractFolderID>e07ea471-f5d5-4502-9930-e0fee1aaf3c0</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>11:37:07.314+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>ITA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://unito.ubuy.cineca.it/PortaleAppalti</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>7</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>7</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:Name languageID="ITA">Gara europea a procedura telematica aperta, suddivisa in 7 lotti, per la conclusione di un Accordo Quadro con un solo Operatore economico, per la fornitura di monografie presso l'Area dei Servizi Bibliotecari del Polo Campus Luigi Einaudi e presso i Dipartimenti di Giurisprudenza, Economia e Statistica Cognetti De Martiis, Culture Politica e Società dell'Università per un periodo di 36 mesi</cbc:Name>
+      <cbc:Description languageID="ITA">Gara europea a procedura telematica aperta, suddivisa in 7 lotti, per la conclusione di un Accordo Quadro con un solo Operatore economico, ai sensi dell'art. 59, co. 3, del D.lgs. n. 36/2023 e s.m.i., per la fornitura di materiale bibliografico monografico presso l'Area dei Servizi Bibliotecari del Polo Campus Luigi Einaudi e presso i Dipartimenti di Giurisprudenza, Economia e Statistica Cognetti De Martiis, Culture Politica e Società dell'Università per un periodo di 36 mesi</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">774900</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">22113000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>TORINO (TO)</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>G08504L001</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="ITA">Entro 30 giorni dalla data di pubblicazione del Bando</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>ITA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-24+02:00</cbc:EndDate>
+            <cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-30+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:30:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="ITA">Fornitura di monografie italiane e straniere e standing orders_ Sezione Patetta della Biblioteca Norberto Bobbio</cbc:Name>
+         <cbc:Description languageID="ITA">Fornitura di monografie italiane e straniere e standing orders_ Sezione Patetta della Biblioteca Norberto Bobbio</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">41000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">22113000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="ITA">Opzioni ai sensi dell'art. 120, comma 9 e 10 del D.Lgs. n. 36/2023</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>G08504L002</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="ITA">Entro 30 giorni dalla data di pubblicazione del Bando</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>ITA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-24+02:00</cbc:EndDate>
+            <cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-30+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:30:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="ITA">Fornitura di monografie italiane e straniere e standing orders_ Sezione Ruffini della Biblioteca Norberto Bobbio</cbc:Name>
+         <cbc:Description languageID="ITA">Fornitura di monografie italiane e straniere e standing orders_ Sezione Ruffini della Biblioteca Norberto Bobbio</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">287000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">22113000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="ITA">Opzioni ai sensi dell'art. 120, comma 9 e 10 del D.Lgs. n. 36/2023</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>G08504L003</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="ITA">Entro 30 giorni dalla data di pubblicazione del Bando</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>ITA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-24+02:00</cbc:EndDate>
+            <cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-30+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:30:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="ITA">Fornitura di monografie italiane e straniere_Sezione Solari della Biblioteca Norberto Bobbio</cbc:Name>
+         <cbc:Description languageID="ITA">Fornitura di monografie italiane e straniere_Sezione Solari della Biblioteca Norberto Bobbio</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">217300</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">22113000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="ITA">Opzioni ai sensi dell'art. 120, comma 9 e 10 del D.Lgs. n. 36/2023</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>G08504L004</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="ITA">Entro 30 giorni dalla data di pubblicazione del Bando</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>ITA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-24+02:00</cbc:EndDate>
+            <cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-30+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:30:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="ITA">Fornitura di monografie italiane e straniere_ Sezione Cognetti de Martiis della Biblioteca Norberto Bobbio</cbc:Name>
+         <cbc:Description languageID="ITA">Fornitura di monografie italiane e straniere_ Sezione Cognetti de Martiis della Biblioteca Norberto Bobbio</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">69700</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">22113000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="ITA">Opzioni ai sensi dell'art. 120, comma 9 e 10 del D.Lgs. n. 36/2023</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0005</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>G08504L005</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="ITA">Entro 30 giorni dalla data di pubblicazione del Bando</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>ITA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-24+02:00</cbc:EndDate>
+            <cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-30+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:30:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="ITA">Fornitura di monografie italiane e straniere_Sezione Merlini della Biblioteca Norberto Bobbio</cbc:Name>
+         <cbc:Description languageID="ITA">Fornitura di monografie italiane e straniere_Sezione Merlini della Biblioteca Norberto Bobbio</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">20500</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">22113000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="ITA">Opzioni ai sensi dell'art. 120, comma 9 e 10 del D.Lgs. n. 36/2023</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0006</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>G08504L006</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="ITA">Entro 30 giorni dalla data di pubblicazione del Bando</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>ITA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-24+02:00</cbc:EndDate>
+            <cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-30+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:30:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="ITA">Fornitura di monografie italiane e straniere, per il Dipartimento di Giurisprudenza e per la Biblioteca Universitaria Cuneese, sede di Cuneo</cbc:Name>
+         <cbc:Description languageID="ITA">Fornitura di monografie italiane e straniere, per il Dipartimento di Giurisprudenza e per la Biblioteca Universitaria Cuneese, sede di Cuneo</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">61500</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">22113000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="ITA">Opzioni ai sensi dell'art. 120, comma 9 e 10 del D.Lgs. n. 36/2023</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0007</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>G08504L007</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://unito.ubuy.cineca.it/PortaleAppalti/it/procedure/codice/G08504</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="ITA">Entro 30 giorni dalla data di pubblicazione del Bando</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>ITA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-24+02:00</cbc:EndDate>
+            <cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-30+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:30:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="ITA">Fornitura di monografie italiane e straniere per il Dipartimento di Culture, Politica e Società e per il Dipartimento di Economia e Statistica Cognetti de Martiis</cbc:Name>
+         <cbc:Description languageID="ITA">Fornitura di monografie italiane e straniere per il Dipartimento di Culture, Politica e Società e per il Dipartimento di Economia e Statistica Cognetti de Martiis</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">77900</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">22113000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">ITC11</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="ITA">Opzioni ai sensi dell'art. 120, comma 9 e 10 del D.Lgs. n. 36/2023 </cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

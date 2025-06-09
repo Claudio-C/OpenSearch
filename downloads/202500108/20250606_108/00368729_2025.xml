@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">68850</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">63750</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Usługi Przewozowe JAGER Jacek Germel</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-05-26+02:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>SE.271.3.2025, ZP.rp.23.2025</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Usługi Przewozowe JAGER Jacek Germel</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.siemianowice.pl/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Gmina Siemianowice Śląskie – Urząd Miasta Siemianowice Śląskie</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul.Jana Pawła II 10</cbc:StreetName>
+                           <cbc:CityName>Siemianowice Śląskie</cbc:CityName>
+                           <cbc:PostalZone>41-100</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>276255453</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Gmina Siemianowice Śląskie – Urząd Miasta Siemianowice Śląskie</cbc:Name>
+                           <cbc:Telephone>32 760 54 84</cbc:Telephone>
+                           <cbc:ElectronicMail>pz_wr_przewozy2025@um.siemianowice.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.uzp.gov.pl/kio</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 224587801</cbc:Telephone>
+                           <cbc:Telefax>+48 224587800</cbc:Telefax>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Usługi Przewozowe JAGER Jacek Germel</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Józefowska 6</cbc:StreetName>
+                           <cbc:CityName>Katowice</cbc:CityName>
+                           <cbc:PostalZone>40-144</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>6431030960</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>504278771</cbc:Telephone>
+                           <cbc:ElectronicMail>jacekgermel@gmail.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368729-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">8693181d-63b2-48d3-a124-49782c1215f8</cbc:ID>
+   <cbc:ContractFolderID>44b366ee-7cac-4b63-a963-03f8235206db</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>07:09:16Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06Z</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>http://www.siemianowice.pl/</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">305421-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="direct-award-justification">repetition</cbc:ProcessReasonCode>
+         <cbc:ProcessReason languageID="POL">Uzasadnienie faktyczne:
+Zgodnie z art. 214 ust. 1 pkt 7) ustawy Pzp, Zamawiający może udzielić zamówienia z wolnej ręki, jeżeli zachodzi co najmniej jedna z następujących okoliczności:
+„ 7) w przypadku udzielenia, w okresie 3 lat od dnia udzielenia zamówienia podstawowego, dotychczasowemu wykonawcy usług lub robót budowlanych, zamówienia polegającego na powtórzeniu podobnych usług lub robót budowlanych, jeżeli takie zamówienie było przewidziane w ogłoszeniu o zamówieniu dla zamówienia podstawowego i jest zgodne z jego przedmiotem oraz całkowita wartość tego zamówienia została uwzględniona przy obliczaniu jego wartości”.
+Niniejsze zamówienie spełnia ustawowe przesłanki zastosowania trybu zamówienia z wolnej ręki. Zamówienie będzie polegać na powtórzeniu podobnych usług co zamówienie podstawowe, wynikające z umowy nr SE.272.3.2024, ZP.ru.41.2024, zawartej w dniu 12.08.2024 roku w wyniku przeprowadzonego postępowania i jest zgodne z przedmiotem zamówienia podstawowego. 
+Zamówienie zostanie udzielone dotychczasowemu Wykonawcy umowy podstawowej tj.: Usługi Przewozowe JAGER Jacek Germel z/s 40-144 Katowice, ul. Józefowska 6.
+Całkowita wartość zamówień podobnych została uwzględniona przy obliczaniu wartości szacunkowej zamówienia podstawowego i wynosi 232 650,00 zł netto. Wartość szacunkowa netto niniejszego zamówienia wynosi 63 750,00 zł. 
+W ogłoszeniu o zamówieniu dla zamówienia podstawowego przewidziano możliwość udzielenia zamówień podobnych tj. polegających na dowozie i odwozie uczniów 
+z orzeczeniem o potrzebie kształcenia specjalnego zgodnie z przepisami ustawy z dnia 14 grudnia 2016 Prawo oświatowe do/z placówek oświatowych.
+Realizacja zadania polegającego na zapewnieniu przewozu dzieciom niepełnosprawnym wymagającym transportu do jednostek oświatowych jest zadaniem własnym Gminy Siemianowice Śląskie.  W związku z wyczerpaniem kwoty o której mowa w §5 ust. 1 zawartej umowy w terminie jej obowiązywania koniecznym jest udzielenie niniejszego zamówienia dotychczasowemu Wykonawcy umowy podstawowej celem zrealizowania dowozu do placówek oświatowych do 30.06.2025 roku.
+</cbc:ProcessReason>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">SE.271.3.2025, ZP.rp.23.2025</cbc:ID>
+      <cbc:Name languageID="POL">„Dowóz i odwóz uczniów posiadających orzeczenie o potrzebie kształcenia specjalnego z terenu Siemianowic Śląskich do/z placówek oświatowych wraz z zapewnieniem opiekuna podczas przejazdu – część 1” - zamówienie podobne”</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest przewóz uczniów z terenu Siemianowic Śląskich do/z placówek oświatowych wraz z zapewnieniem opiekuna:
+a) Trasa 1:
+do/z Zespołu Szkół Specjalnych w Siemianowicach Śląskich, ul. Myśliwiecka 6; Szkoły Podstawowej Nr 13 w Siemianowicach Śląskich, ul. Barlickiego 2,
+b) Trasa 2:
+do/z Szkoły Podstawowej nr 20 z Oddziałami Integracyjnymi w Siemianowicach Śląskich, 
+ul. Lipowa 3; Szkoły Podstawowej nr 8 w Zespole Szkół Sportowych w Siemianowicach Śląskich, ul. Mikołaja 3; Szkoły Podstawowej Nr 1 w Siemianowicach Śląskich, ul. Niepodległości 47; Przedszkola Nr 19 w Siemianowicach Śląskich, ul. Grabowa 2.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">60130000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>ul. Jana Pawła II 10</cbc:StreetName>
+            <cbc:CityName>Siemianowice Śląskie</cbc:CityName>
+            <cbc:PostalZone>40-100</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="POL">Przedmiotem negocjacji będzie cena zaoferowana przez Wykonawcę oraz warunki wykonania przedmiotowego zamówienia.</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Przedmiotem negocjacji będzie cena zaoferowana przez Wykonawcę oraz warunki wykonania przedmiotowego zamówienia.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Informacje o terminach odwołania: Wykonawcy przysługują środki ochrony prawnej opisane w
+Dziale 9 Ustawy Pzp, w tym skarga do sądu.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">SE.271.3.2025, ZP.rp.23.2025</cbc:ID>
+         <cbc:Name languageID="POL">„Dowóz i odwóz uczniów posiadających orzeczenie o potrzebie kształcenia specjalnego z terenu Siemianowic Śląskich do/z placówek oświatowych wraz z zapewnieniem opiekuna podczas przejazdu – część 1” - zamówienie podobne.</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest przewóz uczniów z terenu Siemianowic Śląskich do/z placówek oświatowych wraz z zapewnieniem opiekuna:
+a) Trasa 1:
+do/z Zespołu Szkół Specjalnych w Siemianowicach Śląskich, ul. Myśliwiecka 6; Szkoły Podstawowej Nr 13 w Siemianowicach Śląskich, ul. Barlickiego 2,
+b) Trasa 2:
+do/z Szkoły Podstawowej nr 20 z Oddziałami Integracyjnymi w Siemianowicach Śląskich, 
+ul. Lipowa 3; Szkoły Podstawowej nr 8 w Zespole Szkół Sportowych w Siemianowicach Śląskich, ul. Mikołaja 3; Szkoły Podstawowej Nr 1 w Siemianowicach Śląskich, ul. Niepodległości 47; Przedszkola Nr 19 w Siemianowicach Śląskich, ul. Grabowa 2.
+2 Szczegółowy opis przedmiotu zamówienia został zawarty w Dodatku nr 4 do INDPP oraz w projektowanych postanowieniach umowy (Dodatku nr 5 do INDPP).
+3 Wykonawca zobowiązany jest zrealizować zamówienie na zasadach i warunkach opisanych w projektowanych postanowieniach umowy (Dodatku nr 5 do INDPP).
+4 Zamawiający nie zastrzega możliwości ubiegania się o udzielenie zamówienia wyłącznie przez Wykonawców, o których mowa w art. 94 ustawy Pzp, tj. mających status zakładu pracy chronionej, spółdzielnie socjalne oraz innych wykonawców, których głównym celem lub głównym celem działalności ich wyodrębnionych organizacyjnie jednostek, które będą realizowały zamówienie, jest społeczna i zawodowa integracja osób społecznie marginalizowanych.
+5. Zamawiający w opisie przedmiotu zamówienia uwzględnił wymagania w zakresie dostępności dla osób niepełnosprawnych oraz projektowania z przeznaczeniem dla wszystkich użytkowników, o których mowa art. 100 ust. 1 Pzp.
+6. Zamawiający w opisie przedmiotu zamówienia nie określił  wymagań dotyczących wydajności lub funkcjonalności, o których mowa w art. 101 ust. 1 pkt 1 Pzp.
+7. Zamawiający nie żąda od Wykonawcy etykiety oraz nie wskazuje mających zastosowanie wymagań określonej etykiety, o których mowa w  art. 104 Pzp.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60130000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Siemianowice Śląskie</cbc:Description>
+            <cac:Address>
+               <cbc:Region>anyw</cbc:Region>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

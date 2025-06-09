@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-05+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>06:09:22+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+              <efac:AppealRequestsStatistics>
+                <efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:AppealRequestsStatistics>
+              <efac:DecisionReason>
+                <efbc:DecisionReasonCode listName="non-award-justification">chan-need</efbc:DecisionReasonCode>
+              </efac:DecisionReason>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">part-req</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>13</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Sandnes kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Rådhusgata 1</cbc:StreetName>
+                  <cbc:CityName>Sandnes</cbc:CityName>
+                  <cbc:PostalZone>4306</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">964965137</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Bård Krane Alander</cbc:Name>
+                  <cbc:Telephone>+47 40900860</cbc:Telephone>
+                  <cbc:ElectronicMail>bard.krane.alander@sandnes.kommune.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Rogaland Brann og Redning IKS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Sandnes</cbc:CityName>
+                  <cbc:PostalZone>4312</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">886884702</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>51502200</cbc:Telephone>
+                  <cbc:ElectronicMail>postmottak@rogbr.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Rogaland Fylkeskommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Stavanger</cbc:CityName>
+                  <cbc:PostalZone>4001</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">971 045 698</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>51516600</cbc:Telephone>
+                  <cbc:ElectronicMail>firmapost@rogfk.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Randaberg kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Randaberg</cbc:CityName>
+                  <cbc:PostalZone>4070</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">934945514</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>51414100</cbc:Telephone>
+                  <cbc:ElectronicMail>post@randaberg.kommune.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Tannhelse Rogaland FKF</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Stavanger</cbc:CityName>
+                  <cbc:PostalZone>4001</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">986 382 496</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>51516996</cbc:Telephone>
+                  <cbc:ElectronicMail>firmapost@throg.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Kolumbus AS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Stavanger</cbc:CityName>
+                  <cbc:PostalZone>4005</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">914749360</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>51199900</cbc:Telephone>
+                  <cbc:ElectronicMail>jan.rune.fredvang@kolumbus.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Strand kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Jørpeland</cbc:CityName>
+                  <cbc:PostalZone>4100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">964 978 751</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>51743000</cbc:Telephone>
+                  <cbc:ElectronicMail>postmottak@strand.kommune.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Hjelmeland kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Hjelmeland</cbc:CityName>
+                  <cbc:PostalZone>4130</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">864979092</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>51750000</cbc:Telephone>
+                  <cbc:ElectronicMail>postmottak@hjelmeland.kommune.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Sauda kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Sauda</cbc:CityName>
+                  <cbc:PostalZone>4201</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">964979367</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>52786200</cbc:Telephone>
+                  <cbc:ElectronicMail>post@sauda.kommune.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Suldal kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Sand</cbc:CityName>
+                  <cbc:PostalZone>4230</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">964979189</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>52792200</cbc:Telephone>
+                  <cbc:ElectronicMail>postmottak@suldal.kommune.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0011</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Bysykkelen AS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Stavanger</cbc:CityName>
+                  <cbc:PostalZone>4005</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">914000475</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>51199900</cbc:Telephone>
+                  <cbc:ElectronicMail>jan.rune.fredvang@kolumbus.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0012</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Sør-Rogaland Tingrett</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Sandnes</cbc:CityName>
+                  <cbc:PostalZone>4306</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">926723448</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>52004600</cbc:Telephone>
+                  <cbc:ElectronicMail>sor-rogaland.tingrett@domstol.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366506-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">9c644a89-c77d-4f28-bdbb-b045554723bc</cbc:ID>
+  <cbc:ContractFolderID>ac6501d8-2801-43c7-b900-78fe5bc7cb0b</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+00:00</cbc:IssueDate>
+  <cbc:IssueTime>05:55:53+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+  
+  <cac:ContractingParty>
+    <cbc:BuyerProfileURI>https://eu.eu-supply.com/ctm/company/companyinformation/index/306369</cbc:BuyerProfileURI>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0011</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    
+    <cbc:Description languageID="ENG">The competition will be held as an open tender contest, cf. the procurement regulations § 13-1(1).
+The procurement will be made in accordance with the Public Procurement Act dated 17 June 2016 no. 73 (LOA) and the Public Procurement Regulations (FOA) dated 19 February 2020 no. 974 parts I and part III, as well as provisions included in the tender documentation.</cbc:Description>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cbc:TerminatedIndicator>true</cbc:TerminatedIndicator>
+    <cac:NoticeDocumentReference>
+      <cbc:ID schemeName="notice-id-ref">8e68be73-0ee5-4849-8244-66d4ac2c64f3-01</cbc:ID>
+    </cac:NoticeDocumentReference>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">25/02927</cbc:ID>
+    
+    <cbc:Name languageID="ENG">Procurement of client equipment (1) (1)</cbc:Name>
+    
+    <cbc:Description languageID="ENG">This competition is for the procurement of a framework agreement for the procurement of client equipment, tablets and accompanying equipment: This includes, among other things, the procurement of stationary and portable client equipment with the accompanying equipment, monitors, as well as tablets, physical servers and backup products.
+
+Sandnes municipality, Rogaland Fylkeskommune (RFK), Randaberg municipality, Dental health Rogaland, Kolumbus AS (including Bysykkelen AS), Rogaland Brann og Redning IKS (RBR), and RitS (IT cooperation consisting of Strand municipality, Hjelmeland municipality, Sauda municipality and Suldal municipality) hereby invites tenderers to a competition. Sandnes municipality functions as a secretary for the cooperation. The contracting authority/customer will be used as the collective term for the cooperation.
+
+Each of the contracting authority ́s participants in the cooperation on the procurement shall enter into separate contracts with the tenderer(s) when the competition has been completed. Nb that a joint contract will be signed for RitS and for Kolumbus AS and Bysykkelen AS.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efbc:FrameworkMaximumAmount currencyID="NOK">227000000</efbc:FrameworkMaximumAmount>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:EstimatedOverallContractAmount currencyID="NOK">184000000</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30200000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30210000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30213000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30213100</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30213300</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">48800000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      
+      <cbc:Description languageID="ENG">The address provided is Sandnes kommune's main address for delivery. For an overview of the main address for delivery for all participants in the procurement, see the SSA-K Annex, Annex 4.</cbc:Description>
+      <cac:Address>
+        <cbc:StreetName>Rådhusgata 1</cbc:StreetName>
+        <cbc:CityName>Sandnes</cbc:CityName>
+        <cbc:PostalZone>4306</cbc:PostalZone>
+        <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="indicator">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            
+            <cbc:Name languageID="ENG">Price</cbc:Name>
+            
+            <cbc:Description languageID="ENG">Price
+• Under this criteria:
+- The tender ́s total price.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          
+          <cbc:Description languageID="ENG">The waiting period is 10 days from the day after notification of the award has been sent to the tenderers.</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0012</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">25/02927</cbc:ID>
+      
+      <cbc:Name languageID="ENG">Procurement of client equipment (1) (1)</cbc:Name>
+      
+      <cbc:Description languageID="ENG">This competition is for the procurement of a framework agreement for the procurement of client equipment, tablets and accompanying equipment: This includes, among other things, the procurement of stationary and portable client equipment with the accompanying equipment, monitors, as well as tablets, physical servers and backup products.
+
+Sandnes municipality, Rogaland Fylkeskommune (RFK), Randaberg municipality, Dental health Rogaland, Kolumbus AS (including Bysykkelen AS), Rogaland Brann og Redning IKS (RBR), and RitS (IT cooperation consisting of Strand municipality, Hjelmeland municipality, Sauda municipality and Suldal municipality) hereby invites tenderers to a competition. Sandnes municipality functions as a secretary for the cooperation. The contracting authority/customer will be used as the collective term for the cooperation.
+
+Each of the contracting authority ́s participants in the cooperation on the procurement shall enter into separate contracts with the tenderer(s) when the competition has been completed. Nb that a joint contract will be signed for RitS and for Kolumbus AS and Bysykkelen AS.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efbc:FrameworkMaximumAmount currencyID="NOK">227000000</efbc:FrameworkMaximumAmount>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:EstimatedOverallContractAmount currencyID="NOK">184000000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">30000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">30200000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">30210000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">30213000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">30213100</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">30213300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">48800000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        
+        <cbc:Description languageID="ENG">The address provided is Sandnes kommune's main address for delivery. For an overview of the main address for delivery for all participants in the procurement, see the SSA-K Annex, Annex 4.</cbc:Description>
+        <cac:Address>
+          <cbc:StreetName>Rådhusgata 1</cbc:StreetName>
+          <cbc:CityName>Sandnes</cbc:CityName>
+          <cbc:PostalZone>4306</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        
+        <cbc:OptionsDescription languageID="ENG">The agreement period for each of the contracts is 2 years, with an option for an extension for 1+1 year. 
+
+Strand municipality, Hjelmeland municipality, Sauda municipality and Suldal municipality are included in the RITS IT cooperation. These municipalities currently have active contracts for the products covered by this procurement and shall therefore have an option to enter into a contract in accordance with the procurement with the winning supplier. This option must be released in writing by the municipalities in 2025 in order to be valid.</cbc:OptionsDescription>
+        <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+        <cac:Renewal>
+          <cac:Period>
+            
+            <cbc:Description languageID="ENG">The agreement period for each of the contracts is 2 years, with an option for an extension for 1+1 year.</cbc:Description>
+          </cac:Period>
+        </cac:Renewal>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

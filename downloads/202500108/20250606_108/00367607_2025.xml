@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns8="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:ns9="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <cbc:TotalAmount currencyID="CHF">947183.01</cbc:TotalAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:HigherTenderAmount currencyID="CHF">947183.01</cbc:HigherTenderAmount>
+                            <cbc:LowerTenderAmount currencyID="CHF">947183.01</cbc:LowerTenderAmount>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+                            </efac:LotTender>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="CHF">947183.01</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0010</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>f1f9e81c-4e42-4713-816c-5e6753f4018c</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+                            <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+                            <efac:ContractReference>
+                                <cbc:ID>N/A</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0010</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">EBP Schweiz AG</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Mühlebachstrasse 11</cbc:StreetName>
+                                    <cbc:CityName>Zürich</cbc:CityName>
+                                    <cbc:PostalZone>8032 </cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH040</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>ee800f02-3deb-4b53-b668-d65adfaa802c</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41443951178</cbc:Telephone>
+                                    <cbc:ElectronicMail>ivo.foelmli@ebp.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.bvger.ch</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Bundesverwaltungsgericht</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postfach</cbc:StreetName>
+                                    <cbc:CityName>St. Gallen</cbc:CityName>
+                                    <cbc:PostalZone>9023</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH055</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>BVGER</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41584652626</cbc:Telephone>
+                                    <cbc:ElectronicMail>info@bvger.admin.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.simap.ch</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Simap.ch</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Holzikofenweg 36</cbc:StreetName>
+                                    <cbc:CityName>Bern</cbc:CityName>
+                                    <cbc:PostalZone>3003</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH021</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>CH001</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41584646388</cbc:Telephone>
+                                    <cbc:ElectronicMail>support@simap.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                            <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                            <efac:Company>
+                                <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">DE_HOLINGER AG</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Kasthoferstrasse 23</cbc:StreetName>
+                                    <cbc:CityName>Bern</cbc:CityName>
+                                    <cbc:PostalZone>3006</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH021</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>bf858b8e-1036-4894-951e-85df62b8c72d</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367607-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">b8ecf217-59db-4d0e-a5a1-ad84ebd0a2e2</cbc:ID>
+    <cbc:ContractFolderID>40600b92-30b8-414c-a411-45f8de60d468</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>02:25:51+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:ServiceProviderParty>
+                <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+                <cac:Party>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:Party>
+            </cac:ServiceProviderParty>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="DEU">Sanierung mechanische Reinigung ARA Thunersee</cbc:Name>
+        <cbc:Description languageID="DEU">Gegenstand dieser Ausschreibung ist die Generalplanung für die Sanierung der mechanischen Reinigungsstufe der ARA Thunersee anhand der bestehenden Projektgrundlagen. Der Auftrag umfasst die Leistungen gemäss SIA-Teilphase 32 (Bauprojekt) bis 53 (Inbetriebnahme). Detaillierte Angaben zu Inhalt und Umfang der zu erbringenden Leistungen sind dem Projekt- und Leistungsbeschrieb (Teil 2 der Ausschreibungsunterlagen) zu entnehmen.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="DEU">Begründung des Zuschlagentscheides
+Die Angebote wurden entsprechend den in den Ausschreibungsunterlagen bekannt gegebenen Kriterien beurteilt. Das Angebot der HOLINGER AG hat bei der Bewertung der Zuschlagskriterien mit 452 von 500 möglichen Punkten die höchste Punktzahl erreicht.
+Ausschlaggebend waren die Kriterien „Qualität und Plausibilität des Angebots“ sowie "Preis des Honorarangebots". Entsprechend ist das Angebot der HOLINGER AG das vorteilhafteste Angebot.</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90400000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cbc:CalculationExpression languageID="DEU">Die Zuschlagskriterien wurden den Anbietern mit der Ausschreibung zugestellt.</cbc:CalculationExpression>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Zuschlagskriterien</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Rechtsmittelbelehrung
+Diese Verfügung kann innert 20 Tagen seit Publikation mittels Beschwerde beim Regierungsstatthalteramtes Thun, Scheibenstrasse 3, 3600 Thun, schriftlich angefochten werden. Die Beschwerde ist im Doppel einzureichen, sie muss einen Antrag, die Angabe von Tatsachen und Beweismitteln, eine Begründung sowie eine Unterschrift enthalten; die angefochtene Verfügung und andere greifbare Beweismittel sind beizulegen.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:Name languageID="DEU">Sanierung mechanische Reinigung ARA Thunersee</cbc:Name>
+            <cbc:Description languageID="DEU">Gegenstand dieser Ausschreibung ist die Generalplanung für die Sanierung der mechanischen Reinigungsstufe der ARA Thunersee anhand der bestehenden Projektgrundlagen. Der Auftrag umfasst die Leistungen gemäss SIA-Teilphase 32 (Bauprojekt) bis 53 (Inbetriebnahme). Detaillierte Angaben zu Inhalt und Umfang der zu erbringenden Leistungen sind dem Projekt- und Leistungsbeschrieb (Teil 2 der Ausschreibungsunterlagen) zu entnehmen.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">90400000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="DEU">ARA Thunersee</cbc:Description>
+                <cac:Address>
+                    <cbc:CityName>Uetendorf</cbc:CityName>
+                    <cbc:PostalZone>3661</cbc:PostalZone>
+                    <cbc:CountrySubentityCode listName="nuts">CH021</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2025-08-01+02:00</cbc:StartDate>
+                <cbc:EndDate>2030-12-31+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

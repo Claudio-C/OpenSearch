@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                            <efac:DecisionReason>
+<efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
+                            </efac:DecisionReason>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:TenderLot>
+<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0002</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                            <efac:DecisionReason>
+<efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
+                            </efac:DecisionReason>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:TenderLot>
+<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+<cbc:WebsiteURI>http://www.suma.es</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Dirección de Suma Gestión Tributaria. Diputación de Alicante</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Alicante</cbc:CityName>
+    <cbc:PostalZone>03002</cbc:PostalZone>
+    <cbc:CountrySubentity>Alicante</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES521</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="ID_PLATAFORMA">30531630093202</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">P5300003J</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Name>Dirección de Suma Gestión Tributaria. Diputación de Alicante</cbc:Name>
+    <cbc:Telephone>965148526</cbc:Telephone>
+    <cbc:Telefax>965148520</cbc:Telefax>
+    <cbc:ElectronicMail>contratacion.pliegos@suma.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+<cbc:WebsiteURI>https://sedeminhap.gob.es/es-ES/Sedes/TACRC/paginas/default.aspx</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID>TPO-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Tribunal Administrativo Central de Recursos Contractuales</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28020</cbc:PostalZone>
+    <cbc:CountrySubentity>Extra-Regio NUTS 3</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ESZZZ</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:Contact>
+    <cbc:ElectronicMail>Tribunal_recursos.contratos@minhap.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366675-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">8b14f346-073c-4d29-b90a-edf8549808c3</cbc:ID>
+    <cbc:ContractFolderID>14cc5a51-a16e-49dd-9077-a09cf868df2d</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>09:47:20+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>SPA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=15wAat3mKysQK2TEfXGy%2BA%3D%3D</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:NoticeDocumentReference>
+            <cbc:ID schemeName="notice-id-ref">69c79702-7e9b-4501-a88a-310c2fa9b2d0-01</cbc:ID>
+        </cac:NoticeDocumentReference>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID>42/pa/su/25</cbc:ID>
+        <cbc:Name languageID="SPA">Renovación tecnológica, soporte  y mantenimiento del Sistema Informático de Gestión de RRHH E-MIND, Portal del Empleado y Control de presencia de Cegid en modalidad SaaS a la Aplicación Cegid Peoplenet para Administración Pública y Aplicación de gestión de dietas y kilometraje para SUMA. Gestión Tributaria.&#13;
+</cbc:Name>
+        <cbc:Description languageID="SPA">La contratación que se propone tiene como finalidad una gestión integral del personal y los recursos humanos del Organismo Suma mediante la solución informática Cegid Peplenet para la Administración Pública gestionada en la nube de las denominadas “SaaS” (Software as a Service), en un entorno de alta seguridad y disponibilidad para todas las personas usuarias, así como una aplicación vía web para la gestión de las dietas y kilometraje del personal de Suma en la nube, que se integre con la solución de nómina y RRHH propuesta.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">48450000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72267000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72267100</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">ES521</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+        <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="YEAR">1</cbc:DurationMeasure>
+        </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.1 Oferta Económica. Subcriterio 1 Trabajos del proceso de implantación, parametrización, migración e integración de datos Lote 1. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.1 Oferta Económica. Subcriterio 2 Formación Lote 1. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.1 Oferta Económica. Subcriterio 3 Acceso infraestructura SaaS y soporte técnico Lote 1. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.2 Experiencia del personal técnico ofertado que intervenga en implantación de las funcionalidades propuestas en AA.PP. Lote 1. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.3 Cualificación técnica del personal que intervenga en el proyecto Lote 1. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.4 Conectividad e Integración con otros sistemas/ERP, Integración con LDAP y Active Directory, Integración WebServices Lote 1. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.5 Gestión de usuarios/as del portal del empleado y registro de jornada y gestión de tiempo integrado en el Gestor de identidades propios de Suma Lote 1. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">A.1 Características técnicas / Valor técnico de la oferta Lote 1. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">A.2 Proyecto, metodología, planificación y proceso de los trabajos y gestión del proyecto Lote 1. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="SPA">15 días hábiles desde publicación.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">1</cbc:ID>
+            <cbc:Name languageID="SPA">Aplicación de Recursos Humanos, Nómina, Portal del Empleado y Registro de Jornada-Control de Presencia.&#13;
+&#13;
+</cbc:Name>
+            <cbc:Description languageID="SPA">Implantación de la actualización aplicación de RRHH, nómina y portal del empleado Cegid Peoplenet para Administración Pública de los módulos implantados en el sistema actual en el Área de Personal de Suma. Gestión Tributaria.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="innovative-acquisition">proc-innov</cbc:ProcurementTypeCode>
+                <cbc:ProcurementType languageID="SPA">Las obras, los suministros o los servicios contratados implican la innovación de procesos.</cbc:ProcurementType>
+            </cac:ProcurementAdditionalType>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="innovative-acquisition">prod-innov</cbc:ProcurementTypeCode>
+                <cbc:ProcurementType languageID="SPA">Las obras, los suministros o los servicios contratados implican la innovación de productos.</cbc:ProcurementType>
+            </cac:ProcurementAdditionalType>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">284811.6</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">48450000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">72267000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">72267100</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES521</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.1 Oferta Económica. Subcriterio 1 Trabajos del proceso de implantación, parametrización e integración de datos Lote 2. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.1 Oferta Económica. Subcriterio 2 Formación Lote 2. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>15</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.1 Oferta Económica. Subcriterio 3 Acceso infraestructura SaaS y soporte técnico Lote 2. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.2 Conectividad con la nómina de Peoplenet Lote 2. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.3 Conectividad e Integración con otros sistemas/ERP, Integración con LDAP y Active Directory, Integración WebServices Lote 2. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">B.4 Gestión de usuarios/as de la aplicación de gestión de Dietas y Kilometraje integrado en el Gestor de identidades propios de Suma. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">A.1 Características técnicas / Valor técnico de la oferta Lote 2. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">A.2 Proyecto, metodología, planificación y proceso de los trabajos y gestión del proyecto Lote 2. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="SPA">15 días hábiles desde publicación.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">2</cbc:ID>
+            <cbc:Name languageID="SPA">Aplicación de Gestión de Dietas y Kilometraje.&#13;
+</cbc:Name>
+            <cbc:Description languageID="SPA">Implantación de la Aplicación vía web para la gestión de las dietas y kilometraje del personal de Suma en modalidad SaaS, el cual deberá estar completamente integrado con la solución de nómina y recursos humanos de la solución propuesta.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="innovative-acquisition">proc-innov</cbc:ProcurementTypeCode>
+                <cbc:ProcurementType languageID="SPA">Las obras, los suministros o los servicios contratados implican la innovación de procesos.</cbc:ProcurementType>
+            </cac:ProcurementAdditionalType>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="innovative-acquisition">prod-innov</cbc:ProcurementTypeCode>
+                <cbc:ProcurementType languageID="SPA">Las obras, los suministros o los servicios contratados implican la innovación de productos.</cbc:ProcurementType>
+            </cac:ProcurementAdditionalType>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">131211.58</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">48450000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">72267000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">72267100</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES521</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2025-06-04+02:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

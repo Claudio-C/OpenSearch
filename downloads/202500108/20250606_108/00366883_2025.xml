@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">280318.78</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">280318.78</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>44-97/25</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-06-03+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-06-03+02:00</cbc:IssueDate>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>44-97/25</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0101</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.goerlitz.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Stadtverwaltung Görlitz</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Untermarkt 6-8</cbc:StreetName>
+                           <cbc:CityName>Görlitz</cbc:CityName>
+                           <cbc:PostalZone>02826</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DED2D</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt-ID. DE140513837</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Stadtverwaltung Görlitz, Dezernat I, Hauptverwaltung, Zentrale Vergabestelle</cbc:Name>
+                           <cbc:Telephone>03581-671688</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@goerlitz.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">1. Vergabekammer des Freistaates Sachsen bei der Landesdirektion Leipzig</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Braustraße 2, 04107 Leipzig</cbc:StreetName>
+                           <cbc:CityName> Leipzig</cbc:CityName>
+                           <cbc:PostalZone>04107 </cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DED51</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>keine Angabe</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0341 977 - 3800</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer@lds.sachsen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0101</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Schmitt + Sohn Aufzüge GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Washingtonstr. 16 / 16a</cbc:StreetName>
+                           <cbc:CityName>Dresden</cbc:CityName>
+                           <cbc:PostalZone>01139</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DED21</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt-ID. DE140806332</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0351-21760900</cbc:Telephone>
+                           <cbc:ElectronicMail>neuanlagen-dresden@schmitt-aufzuege.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0102</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366883-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">01973f4b-6f85-4231-b798-890b2e0b686b</cbc:ID>
+   <cbc:ContractFolderID>01954719-1022-47e2-af28-8bb6b483155e</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>11:05:24+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://www.goerlitz.de/Ausschreibungen-1.html</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0102</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vob-a-eu</cbc:ID>
+         <cbc:DocumentDescription languageID="DEU">Offenes Verfahren gem. § 3 VOB/A EU</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+         <cbc:DocumentDescription languageID="DEU">VOB/A EU</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>44-97/25</cbc:ID>
+      <cbc:Name languageID="DEU">Gesamtsanierung Stadthalle Görlitz | Los 63 - Aufzugsanlagen | Offenes Verfahren gemäß § 3 Nr. 1 VOB/A EU</cbc:Name>
+      <cbc:Description languageID="DEU">Gesamtsanierung Stadthalle Görlitz | Los 63 - Aufzugsanlagen | Offenes Verfahren gemäß § 3 Nr. 1 VOB/A EU</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45313100</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Stadthalle Görlitz, Am Stadtpark 1, 02826 Görlitz</cbc:StreetName>
+            <cbc:CityName>Görlitz</cbc:CityName>
+            <cbc:PostalZone>02826</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DED2D</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Der Preis wird aus der Wertungssummen des Angebotes ermittelt. Die Wertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesondere unter Berücksichtigung von Nachlässen sowie den Instandhaltungskosten gemäß Vertragsmuster 44-97_25 Instandhaltung Aufzug Service AZ4 und 44-97_25 Instandhaltung Aufzug Service AZ1, ASE; AZ3- für die gesamte Vertragslaufzeit von 4 Jahren. Die Koste</cbc:Name>
+                  <cbc:Description languageID="DEU">Der Preis wird aus der Wertungssummen des Angebotes ermittelt. Die Wertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesondere unter Berücksichtigung von Nachlässen sowie den Instandhaltungskosten gemäß Vertragsmuster 44-97_25 Instandhaltung Aufzug Service AZ4 und 44-97_25 Instandhaltung Aufzug Service AZ1, ASE; AZ3- für die gesamte Vertragslaufzeit von 4 Jahren. Die Kosten für die Instandhaltung sind in den Vertägen für Instandhaltung sowie andere Leistungen für Aufzugsanlagen in der jeweiligen Anlage 1 "Liste der Aufzugsanlagen" einzutragen. Auf der Seite 2 der Anlage 1, sprich Seite 20 der Instandhaltungsverträge, ist die Gesamtsumme der monatlichen Vergütung für den jeweiligen Vertrag einzutragen. Die beiden monatlichen Gesamtsummen der Instandhaltung werden summiert und auf die 48 Monate (4 Jahre
+Vertragslaufzeit) hochgerechnet</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Es gelten die Fristen gemäß § 134 GWB bzw. entsprechend § 155 ff. GWB Verstöße gegen Vergabevorschriften, die aufgrund der
+Bekanntmachung oder in den Vergabeunterlagen erkennbar sind, sind spätestens bis zum Ablauf der Frist zur Angebotsabgabe gegenüber
+dem Auftraggeber zu rügen. Im Übrigen sind Verstöße gegen Vergabevorschriften innerhalb einer Frist von 10 Kalendertagen nach Kenntnis gegenüber dem Auftraggeber zu rügen. Ein Nachprüfungsantrag ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, bei der zuständigen Vergabekammer zu stellen (§ 160 Gesetz gegen Wettbewerbsbeschränkungen (GWB)).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Gesamtsanierung Stadthalle Görlitz, Am Stadtpark 1 in 02826 Görlitz | Los 63 - Aufzugsanlagen</cbc:Name>
+         <cbc:Description languageID="DEU">Aufzugstechnik: 2 Stück Personen- / Lastenaufzug mit behindertengerechter Ausführung und 1 Stück Kleingüteraufzug
+
+1 Stück Personen- / Lastenaufzug 1500 kg: Lieferung, Montage und Inbetriebnahme eines Personen- / Lastenaufzuges, maschinenraumlos, für den Transport von Personen und Lasten nach EN 81-20 / EN 81-70;
+- Treibscheibenantrieb mit Gegenlastausgleich,
+- Nutzlast Kabine 1500 kg,
+- Kabinenfläche 2,80 m x 1,20 m, Kabinenhöhe 2,20 m i. L.;
+- Fahrkorb mit zwei Zugängen;
+- 5 Schachtschiebetüren 2,10 m x 1,10 m; einseitig öffnend;
+- 5 Haltestellen (wechselseitig gegenüber)
+- Förderhöhe 8,15 m
+
+1 Stück Personenaufzug 630 kg: Lieferung, Montage und Inbetriebnahme eines Personenaufzuges, maschinenraumlos, für den Transport von Personen nach EN 81-20 / EN 81-70;
+- Treibscheibenantrieb mit Gegenlastausgleich,
+- Nutzlast Kabine 630 kg,
+- Kabinenfläche 1,40 m x 1,10 m, Kabinenhöhe 2,20 m i. L.;
+- Fahrkorb mit einem Zugang ;
+- 2 Schachtschiebetüren 2,10 m x 0,90 m; einseitig öffnend;
+- 2 Haltestellen (übereinander)
+- Förderhöhe 4,68 m
+
+1 Stück Kleingüteraufzug 300 kg: Lieferung, Montage und Inbetriebnahme eines Kleingüteraufzuges für den Transport von Gütern nach EN 81-3;
+- Elektrischer Seil- oder Kettenantrieb
+- Nutzlast Kabine 300 kg,
+- Kabinenfläche 1,20 m x 0,80 m, Kabinenhöhe 1,20 m i. L.;
+- Fahrkorb mit zwei Zugängen;
+- 4 Schachtdrehtüren 1,20 m x 0,80 m; bodenebener Einbau;
+- 2 Haltestellen (Durchladung)
+- Förderhöhe 4,68 m</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45313100</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Am Stadtpark 1
+02826 Görlitz</cbc:StreetName>
+               <cbc:CityName>Görlitz</cbc:CityName>
+               <cbc:PostalZone>02826</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DED2D</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-30+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-06-02+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

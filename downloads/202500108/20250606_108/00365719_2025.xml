@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hilma="urn:hanselHilma:NationalNoticeExtension">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-05+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>11:44:32+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="EUR">647000</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0002</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+              <efac:DecisionReason>
+                <efbc:DecisionReasonCode listName="non-award-justification">other</efbc:DecisionReasonCode>
+              </efac:DecisionReason>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0003</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+              <efac:DecisionReason>
+                <efbc:DecisionReasonCode listName="non-award-justification">other</efbc:DecisionReasonCode>
+              </efac:DecisionReason>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0004</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>523526 TP30/24EU Ortopediset laitteet ja niiden tarvikkeet (008B)</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>TP30/24EU Ortopediset laitteet ja niiden tarvikkeet (008B) 3888342</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              <cbc:IssueDate>2025-05-21Z</cbc:IssueDate>
+              <efac:ContractReference>
+                <cbc:ID>Ortopediset laitteet ja niiden tarvikkeet/ Kudospesuri</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+              <cbc:IssueDate>2025-05-22Z</cbc:IssueDate>
+              <efac:ContractReference>
+                <cbc:ID>Ortopediset laitteet ja niiden tarvikkeet/ Vaporisaattori</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.oikeus.fi/markkinaoikeus</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Markkinaoikeus</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Radanrakentajantie 5</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3006157-6</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358 295643300</cbc:Telephone>
+                  <cbc:ElectronicMail>markkinaoikeus@oikeus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.varha.fi/fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Varsinais-Suomen hyvinvointialue</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Kiinamyllynkatu 4-8</cbc:StreetName>
+                  <cbc:CityName>Turku</cbc:CityName>
+                  <cbc:PostalZone>20520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3221065-1</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Hankintapalvelu</cbc:Name>
+                  <cbc:Telephone>+358 23130000</cbc:Telephone>
+                  <cbc:ElectronicMail>tavarahankinnat@varha.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Pohjanmaan hyvinvointialue</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Vaasa</cbc:CityName>
+                  <cbc:PostalZone>65101</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI195</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3221324-6</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Vaasa</cbc:Name>
+                  <cbc:Telephone>+358 62181111</cbc:Telephone>
+                  <cbc:ElectronicMail>hankinnat@ovph.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Satakunnan hyvinvointialue</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Pori</cbc:CityName>
+                  <cbc:PostalZone>28500</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI196</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3221304-3</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Satakunta</cbc:Name>
+                  <cbc:Telephone>+358 1002244</cbc:Telephone>
+                  <cbc:ElectronicMail>hankintapalvelut@sata.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Mölnlycke Health Care Oy</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00380</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">0207465-2</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>0408404615</cbc:Telephone>
+                  <cbc:ElectronicMail>TenderandcontractFI@molnlycke.com</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Stryker AB Finland - sivuliike Suomessa</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Vantaa</cbc:CityName>
+                  <cbc:PostalZone>01510</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">1504837-3</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+35897744680</cbc:Telephone>
+                  <cbc:ElectronicMail>finland_tender_pricing@stryker.com</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://hankintailmoitukset.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Hansel Oy (Hilma)</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Mannerheiminaukio 1a</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">FI09880841</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>eSender</cbc:Name>
+                  <cbc:Telephone>029 55 636 30</cbc:Telephone>
+                  <cbc:ElectronicMail>tekninen@hankintailmoitukset.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365719-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">1ed22690-fff2-4d6b-a999-e551a53f0012</cbc:ID>
+  <cbc:ContractFolderID>b919c806-10af-41c9-8b76-2597bd53ffed</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+00:00</cbc:IssueDate>
+  <cbc:IssueTime>11:42:44+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>FIN</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:NoticeDocumentReference>
+      <cbc:ID schemeName="notice-id-ref">c397dab5-5d67-4512-8798-c766cb854376-01</cbc:ID>
+    </cac:NoticeDocumentReference>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">523526</cbc:ID>
+    <cbc:Name languageID="FIN">TP30/24EU Ortopediset laitteet ja niiden tarvikkeet (008B)</cbc:Name>
+    <cbc:Description languageID="FIN">Hankinnan kohteena on tarjouspyynnössä ja sen liitteissä mainitut laitteet, niihin liittyvä huolto ja tarvikkeet liitteissä määritetyllä tavalla.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">FI196</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">FI195</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>70</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Hinta 70 p</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Laatu 30 p</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">123842</cbc:ID>
+      <cbc:Name languageID="FIN">A01 Kudospesuri verkkovirtakäyttöinen sis. 2 kärkeä</cbc:Name>
+      <cbc:Description languageID="FIN">Hankinnan kohteena on tarjouspyynnössä ja sen liitteissä mainittu laite, siihen liittyvä huolto ja mahdolliset käytön vaatimat tarvikkeet tarjouspyynnössä ja sen liitteissä määritetyllä tavalla.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI196</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI195</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Hinta 100 p</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">Tuotesarja A02A Artroskopiapumppu ja letkustot</cbc:ID>
+      <cbc:Name languageID="FIN">A02 Artroskopiapumppu</cbc:Name>
+      <cbc:Description languageID="FIN">Hankinnan kohteena on tarjouspyynnössä ja sen liitteissä mainittu laite, siihen liittyvä huolto ja mahdolliset käytön vaatimat tarvikkeet tarjouspyynnössä ja sen liitteissä määritetyllä tavalla.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI196</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI195</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>70</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Hinta 70 p</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Laatu 30 p</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">Tuotesarja A03A Shaver ja terät</cbc:ID>
+      <cbc:Name languageID="FIN">A03 Shaver</cbc:Name>
+      <cbc:Description languageID="FIN">Hankinnan kohteena on tarjouspyynnössä ja sen liitteissä mainittu laite, siihen liittyvä huolto ja mahdolliset käytön vaatimat tarvikkeet tarjouspyynnössä ja sen liitteissä määritetyllä tavalla.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI196</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI195</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Hinta 100 p</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">Tuotesarja A04A Vaporisaattori ja tarvikkeet</cbc:ID>
+      <cbc:Name languageID="FIN">A04 Vaporisaattori</cbc:Name>
+      <cbc:Description languageID="FIN">Hankinnan kohteena on tarjouspyynnössä ja sen liitteissä mainittu laite, siihen liittyvä huolto ja mahdolliset käytön vaatimat tarvikkeet tarjouspyynnössä ja sen liitteissä määritetyllä tavalla.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI196</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI195</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

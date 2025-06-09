@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">ALLIADE HABITAT</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>173 Avenue Jean Jaurès</cbc:StreetName>
+                           <cbc:CityName>Lyon</cbc:CityName>
+                           <cbc:PostalZone>69007</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK26</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>96050615200276</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0610738220</cbc:Telephone>
+                           <cbc:ElectronicMail>c.lebrun@alliade.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">TRIBUNAL JUDICIAIRE DE LYON</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>67 Rue Servient</cbc:StreetName>
+                           <cbc:CityName>LYON</cbc:CityName>
+                           <cbc:PostalZone>69003</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK26</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>17690005800015</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0472607012</cbc:Telephone>
+                           <cbc:ElectronicMail>tj-lyon@justice.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366188-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">a2e1cb0a-1a0f-490b-9d5c-6b355f359fad</cbc:ID>
+   <cbc:ContractFolderID>148baab2-b6d3-46a5-82fc-0f2beec5fb55</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>10:29:15+02:00</cbc:IssueTime>
+   <cbc:VersionID>02</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">org-sub</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID>ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-bankr</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>69-QUINCIEUX-PLENITUDE-HP8331-CR</cbc:ID>
+      <cbc:Name languageID="FRA">69-QUINCIEUX-PLENITUDE-HP8331-CR</cbc:Name>
+      <cbc:Description languageID="FRA">Le présent marché a pour objet la Construction de 22 logements réparties en 2 collectifs (4 et 8 logements) et 10 maisons, en conception realisation suite à un rachat de permis.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45210000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName> 14 chemin Saint Laurent Quincieux 
+</cbc:StreetName>
+            <cbc:CityName>QUINCIEUX</cbc:CityName>
+            <cbc:PostalZone>69950</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">FRK26</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Document Unique de Candidature (mise à disposition dans le DAC) dûment complété, par l'opérateur économique, le cas échéant par l'ensemble des membres du groupement . Chaque membre du groupement indiquera l'adresse mail à laquelle il peut être contacté pendant le déroulement de la consultation, puis au cours de l'exécution du marché ; ou « Lettre de candidature - habilitation du mandataire par ses cotraitants et Déclaration du candidat individuel ou du membre du groupement » imprimés DC1 et DC2 (téléchargeables sur le site de la DAJ), ou engagement d'effet équivalent.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                        <efac:CriterionParameter>
+                           <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                           <efbc:ParameterNumeric>50</efbc:ParameterNumeric>
+                        </efac:CriterionParameter>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-work</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Annexe 3 - Synthèse candidature Cadre de réponse complétée par l'opérateur économique, le cas échéant par l'ensemble des membres du groupement</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                        <efac:CriterionParameter>
+                           <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                           <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                        </efac:CriterionParameter>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-mgmt-qual</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Note d'intention : 
+Motivation relative aux objectifs de l'opération (label, certification)
+</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                        <efac:CriterionParameter>
+                           <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                           <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                        </efac:CriterionParameter>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>FRA</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>DCE</cbc:ID>
+            <cbc:DocumentType>restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2025_GR_DkrMnlk</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Pour information en phase offre la Valeur technique sera appréciée au regard du mémoire technique notée sur 60% (pondération)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Pour information en phase offre la valeur Prix sera appréciée au regard de la DPGF notée sur 40 % (pondération)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2025_GR_DkrMnlk</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Article R2182-1 du Code de la Commande Publique : « Pour les marchés passés selon une procédure formalisée, un délai minimal de onze jours est respecté entre la date d'envoi de la notification prévue aux articles R2181-1 et R2181-3 et la date de signature du marché par l'Acheteur ».</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-27+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:EconomicOperatorShortList>
+            <cbc:LimitationDescription>true</cbc:LimitationDescription>
+            <cbc:MaximumQuantity>3</cbc:MaximumQuantity>
+            <cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+         </cac:EconomicOperatorShortList>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>Conception / Réalisation</cbc:ID>
+         <cbc:Name languageID="FRA">Conception / Réalisation</cbc:Name>
+         <cbc:Description languageID="FRA">Dans le cadre d'un rachat de permis de construire, Alliade Habitat développe un projet de construction neuve sur la commune de QUINCIEUX (69650) et souhaite confier à un opérateur économique un marché de conception-réalisation pour la construction de 22 logements réparties en 2 collectifs (4 et 8 logements) et 10 maisons</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="FRA">Conditions de participation ainsi que moyens de preuve acceptables : les niveaux minimaux de capacités exigés des candidats sont détaillés dans l'annexe 1-Liste des pièces, du Dossier d'Appel à Candidature.
+Les candidatures seront appréciées au regard de l'aptitude à exercer l'activité professionnelle, des capacités économiques, financières, techniques et professionnelles du candidat.</cbc:Note>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="social-objective">opp</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45210000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName> 14 chemin Saint Laurent Quincieux 
+</cbc:StreetName>
+               <cbc:CityName>QUINCIEUX</cbc:CityName>
+               <cbc:PostalZone>69650</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRK26</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">27</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

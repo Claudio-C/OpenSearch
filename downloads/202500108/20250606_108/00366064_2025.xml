@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.kyritz.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Kyritz</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Marktplatz 1</cbc:StreetName>
+									<cbc:CityName>Kyritz</cbc:CityName>
+									<cbc:PostalZone>16866</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE40D</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:03397185225</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Vergabestelle</cbc:Name>
+									<cbc:Telephone>+49 33971-85225</cbc:Telephone>
+									<cbc:Telefax>+49 3397185245</cbc:Telefax>
+									<cbc:ElectronicMail>vergabe@kyritz.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://mwaek.brandenburg.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer des Landes Brandenburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Heinrich-Mann-Allee 107</cbc:StreetName>
+									<cbc:CityName>Potsdam</cbc:CityName>
+									<cbc:PostalZone>14473</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE404</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:00493318661719</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 3318661719</cbc:Telephone>
+									<cbc:Telefax>+49 3318661652</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@mwaek.brandenburg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366064-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">86b77dfe-152f-4b82-b78f-df3b30ee4e49</cbc:ID>
+	<cbc:ContractFolderID>3130d2bd-c573-4169-9d4a-71ee3de69543</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+	<cbc:IssueTime>15:00:59+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+			<cbc:Description languageID="DEU">Gewährleistungsbürgschaft in Höhe von 3% der Abrechnungssumme einschl. Nachträge (brutto)</cbc:Description>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vob-a-eu</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 21 des Arbeitnehmer-Entsendegesetzes, § 98c des Aufenthaltsgesetzes, § 19 des Mindestlohngesetzes, § 21 des Schwarzarbeitsbekämpfungsgesetzes und § 22 des Lieferkettensorgfaltspflichtengesetzes vom 16. Juli 2021 (BGBl. I S. 2959)</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 123 Abs. 1 Nr. 1 GWB (Bildung terroristischer Vereinigungen)</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 123 Abs. 1 Nr. 1 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des
+Ausschlussgrundes nach § 123 Abs. 1 Nr. 3 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 123 Abs. 1
+Nr. 4 sowie Nr. 5 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 123 Abs. 1 Nr. 6 sowie
+Nr. 7 sowie Nr. 8 sowie Nr. 9 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des
+Ausschlussgrundes nach § 123 Abs. 1 Nr. 10 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des  Ausschlussgrundes nach § 123 Abs. 4 S. 1 Nr. 1 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-ssc</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 123 Abs. 4 S. 1 Nr. 1 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-env-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des
+Ausschlussgrundes nach § 124 Abs. 1 Nr. 1 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-soc-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des
+Ausschlussgrundes nach § 124 Abs. 1 Nr. 1 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-lab-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des
+Ausschlussgrundes nach § 124 Abs. 1 Nr. 1 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Der Zahlungsunfähigkeit vergleichbare Lage gemäß nationaler Rechtsvorschriften: Eigenerklärung
+zum Nichtvorliegen des Ausschlussgrundes nach § 124 Abs. 1 Nr. 2 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 124 Abs. 1 Nr. 2 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-as-susp</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 124 Abs. 1 Nr. 2 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-other</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Der Zahlungsunfähigkeit vergleichbare Lage gemäß nationaler Rechtsvorschriften: Eigenerklärung
+zum Nichtvorliegen des Ausschlussgrundes nach § 124 Abs. 1 Nr. 2 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des
+Ausschlussgrundes nach § 124 Abs. 1 Nr. 3 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-distortion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 124 Abs. 1 Nr. 4 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">siehe "Fakultative Ausschlussgründe" § 124 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 124 Abs. 1 Nr. 6 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 124 Abs. 1 Nr. 7 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zum Nichtvorliegen des Ausschlussgrundes nach § 124 Abs. 1 Nr. 9 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen: Die Vergabekammer leitet gemäß § 160 Abs. 1 GWB ein Nachprüfungsverfahren nur auf Antrag ein. Nach § 160 Abs. 3 GWB gilt: (3) Der Antrag ist unzulässig, soweit 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXS0Y5WYTCBS55SG</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">62-KiKu314/2025</cbc:ID>
+		<cbc:Name languageID="DEU">Kita Kunterbunt und Nachbarschaftshaus Kyritz - Los 314 Innentüren</cbc:Name>
+		<cbc:Description languageID="DEU">Los VE 314 Einbau der Innentüren und Zargen samt Anschlüsse und Details sowie Überarbeitung des Bestands</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXS0Y5WYTCBS55SG
+
+
+Für den Vertrag gelten ausschließlich unsere Bedingungen des Vergabeverfahrens. Andere Bedingungen (z.B. beigefügte AGB des Bieters) werden nicht Vertragsinhalt, auch wenn wir ihnen nicht ausdrücklich widersprechen. Dem Bieter wird empfohlen, sich vor Abgabe des Angebotes mit den örtlichen Bedingungen im Rahmen einer Besichtigung vertraut zu machen. Termine können mit dem Auftraggeber, Stadt Kyritz, Frau Scheurell Tel. +49 33971 85-220, abgestimmt werden. Hinweis zur Abgabe der Angebote in Textform und den vorgesehenen Unterschriftsfeldern auf den Formularen: Bei der Textform kann die Unterschrift durch einfache Namensnennung (z.B. per Schreibmaschinen-Werkzeug in Adobe) des Erklärenden im jeweiligen Unterschriftenfeld ersetzt werden, auch wenn auf dem Formular etwas anderes gefordert ist. Ausnahmen sind Erklärungen Dritter, wie z.B. Bietergemeinschaften/andere Unternehmen. Hier können auf gesonderte Anforderung der Vergabestelle Unterschriften der Drittunternehmen gefordert werden. Die Nennung der Person des Erklärenden erfordert die Angabe der Identität desjenigen, dem die Erklärung zugerechnet werden soll. Bei natürlichen Personen ist der Name zu nennen (§ 12 BGB), bei juristischen Personen und Handelsgesellschaften jedenfalls der Firmenname ("Firma", § 17 HGB) Hinweis auf Geheimnisse durch den Bieter: Bitte kennzeichnen Sie Ihre Unterlagen entsprechend, sofern diese Geschäftsgeheimnisse enthalten. Erfolgt dies nicht, gehen wir von Ihrer Zustimmung auf Einsicht in die Unterlagen im Falle eines Nachprüfungsverfahrens aus. Sprachniveau C1 Deutsch nach dem Europäischen Referenzrahmen für jeweils einen anwesenden verantwortlichen Mitarbeiter auf der Baustelle Geben Sie bitte ihr Angebot ausschließlich über die Vergabeplattform ab. Es sind keine Angebote per eMail oder Post zugelassen! Die verwendeten Personenbezeichnungen beziehen sich auf alle Geschlechter, auch wenn zur besseren Lesbarkeit das generische Maskulin verwendet wird.</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45421131</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45420000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45421000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45421111</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Werner Str. 1</cbc:StreetName>
+				<cbc:CityName>Kyritz</cbc:CityName>
+				<cbc:PostalZone>16866</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE40D</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">5.3 Vereinbarungen Mindestanforderungen (VHB-Bbg) (Mit dem Angebot; Keine oder anderweitige Formerfordernis): Eigenerklärung zur Einhaltung des Brandenburger Vergabegesetzes. Verpflichtung zur Zahlung des Mindestlohnes von 13 Euro brutto, ggf. Überprüfung zur Einhaltung der Verpflichtungserklärung, Verstöße können zur Meldung auf einer Sperrliste oder zu Vertragsstrafen führen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Betriebshaftpflichtversicherung (Nachweis der Versicherung  gem. den geforderten Summen oder Eigenerklärung, dass diese nach Zuschlag mit den geforderten Versicherungssummen abgeschlossen oder erhöht wird) (Auf Anforderung der Vergabestelle; Mittels Eigenerklärung): Betriebshaftpflichtversicherung als Nachweis der Versicherung oder Eigenerklärung vor Zuschlag, dass diese nach Zuschlag mit den geforderten Versicherungssummen abgeschlossen oder erhöht wird mit folgenden Versicherungssummen: 500.000 Euro pro Versicherungsjahr für Sach- oder sonstige Schäden, 3 Mio Euro für Personenschäden (2-fach maximiert im Versicherungsjahr). Der Nachweis ist 3 Werktage nach Zuschlag, zwingend vor Leistungsbeginn zu erbringen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Urkalkulation (Auf Anforderung der Vergabestelle; Keine oder anderweitige Formerfordernis): Die Urkalkulation ist eine Unterlage über die Ermittlung der Preise und Kosten. Bei einem entsprechenden Anlass darf die Urkalkulation im Vergabeverfahren zur Aufklärung verlangt werden (§ 16d EU VOB/A). Diese kann per Datei über den Vergabemarktplatz eingereicht werden.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">wenn zutreffend_5.4 ggf. Vereinbarung Mindestanforderungen Nachunternehmer (Auf Anforderung der Vergabestelle; Mittels Dritterklärung): Eigenerklärung zur Einhaltung des Brandenburger Vergabegesetzes. Verpflichtung zur Zahlung des Mindestlohnes von 13 Euro brutto, ggf. Überprüfung zur Einhaltung der Verpflichtungserklärung, Verstöße können zur Meldung auf einer Sperrliste oder zu Vertragsstrafen führen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">wenn zutreffend: 234 Bieter-/Arbeitsgemeinschaft (VOB) (Mit dem Angebot; Keine oder anderweitige Formerfordernis): Werden Leistungen von einer Bietergemeinschaft angeboten, ist das den Vergabeunterlagen beigefügte Formular 234 (Erklärung Bieter-/Arbeitsgemeinschaft) aus dem sich die Mitglieder der Bietergemeinschaft,
+die Absicht ihres Zusammenschlusses zu einer gesamtschuldnerisch haftenden Arbeitsgemeinschaft im Auftragsfall und der bevollmächtigte Vertreter (federführend) ergeben, auszufüllen. Bei Bietergemeinschaften sind die Eignungsnachweise von jedem Mitglied der Bietergemeinschaft bei Angebotsabgabe einzeln zu erbringen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">wenn zutreffend: 235 Verzeichnis der Leistungen (VOB) (Mit dem Angebot; Keine oder anderweitige Formerfordernis): Verzeichnis über Art und Umfang der Leistungen, für die sich der Bieter der Kapazitäten anderer Unternehmen bedienen wird.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">wenn zutreffend: 236 Verpflichtungserkl. and. Untern. (VOB) (Auf Anforderung der Vergabestelle; Mittels Dritterklärung): Erklärung gegenüber dem Auftraggeber, im Falle der Auftragsvergabe an den Bieter diesem mit den erforderlichen Kapazitäten des anderen Unternehmens für den/die benannten Leistungsbereich(e) zur Verfügung zu stehen. Ergänzend, falls zutreffend, die Bestätigung zur Eignungsleihe und gesamtschuldnerischen Haftung.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">124 Eigenerklärung zur Eignung - angepasst durch die Stadt Kyritz (verpflichtend für nicht präqualifizierte Unternehmen, sonst PQ Nachweis im Angebotsschreiben) (Mit dem Angebot; Mittels Eigenerklärung): Als vorläufiger Nachweis der Eignung für die zu vergebene Leistung kann mit dem Angebot eine Einheitlich Europäische Eigenerklärung (EEE) abgeben werden. Mittels dem Formblatt 124-Bauleistungen (Eigenerklärung zur Eignung) in den Vergabeunterlagen werden folgende Angaben gefordert:  Mittels dem Formblatt werden folgende Angaben gefordert: - Erklärung zur Register-Eintragung - Erklärung zu Ausschlussgründen gemäß § 6e EU VOB/A - Erklärung zu Ausschlussgründen gem. § 21 des Arbeitnehmer-Entsendegesetzes, nach § 98c des Aufenthaltsgesetzes, nach § 19 des Mindestlohngesetzes, nach § 21 des Schwarzarbeitsbekämpfungsgesetzes oder nach § 22 des Lieferkettensorgfaltspflichtengesetzes vom 16. Juli 2021 (BGBl. I S.2959)
+- Erklärung über den Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren
+- Erklärung zu Insolvenzverfahren oder Liquidation
+- Erklärung, zur Zahlung von Steuern und Abgaben sowie der Beiträge zur Sozialversicherung - Erklärung zur Mitgliedschaft in der Berufsgenossenschaft
+
+Folgende Unterlagen/Nachweise sind zur Bestätigung der Eigenerklärung (auf Verlangen der Vergabestelle) vorzulegen:
+- Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie und Handelskammer
+- Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, falls das Unternehmenbeitragspflichtig ist oder Nachweis einer Verbandsmitgliedschaft, ggf. Negativbescheinigung
+- Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen, falls das Finanzamt eine solche Bescheinigung ausstellt
+- Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des zuständigen Versicherungsträgers</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-work</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">mind. 3 Unternehmensreferenzen gem. Anlage (Vordruck) (Auf Anforderung der Vergabestelle; Keine oder anderweitige Formerfordernis): Referenzen, die mit der ausgeschriebenen Leistung vergleichbar sind, mit mindestens folgenden Angaben: Referenzgeber, Auftragssumme; Ausführungszeitraum; Beschreibung der Baumaßnahme, Angabe zur vertraglichen Bindung (Hauptauftragnehmer, ARGE-Partner, Nachunternehmer), mit Angabe des Ansprechpartner des Referenzgebers, inkl. eMail und/oder Telefonnummer</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis Eintragung Handwerksrolle/IHK (Auf Anforderung der Vergabestelle; Mittels Dritterklärung):</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">SOKA Bau Bescheinigung, bzw. Mitgliedschaftsnachweis, bzw. Erklärung/Negativbescheinigung (Auf Anforderung der Vergabestelle; Mittels Dritterklärung):</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Sonderformular EU-Sanktionen VO 2022_576 (Auf Anforderung der Vergabestelle; Keine oder anderweitige Formerfordernis): Nach der Verordnung (EU) 2022/576 dürfen öffentliche Aufträge und Konzessionen seit dem
+9. April 2022 nicht an Personen oder Unternehmen vergeben werden, die einen Bezug zu Russland im Sinne der Vorschrift aufweisen. Dies umfasst Personen oder Unternehmen, die unmittelbar als Bewerber, Bieter oder Auftragnehmer auftreten oder mittelbar, mit mehr als 10% gemessen am Auftragswert, als Unterauftragnehmer, Lieferanten oder im Zusammenhang mit der Erbringung des Eignungsnachweises an dem in Rede stehenden Auftrag beteiligt sind.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Unbedenklichlichkeitsbescheinigung Berufsgenossenschaft (Auf Anforderung der Vergabestelle; Mittels Dritterklärung):</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Unbedenklichkeitsbescheinigung Finanzamt (Auf Anforderung der Vergabestelle; Mittels Dritterklärung):</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-mgmt-qual</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">- Unbedenklichkeitsbescheinigungen wie SOKA, Berufsgenossenschaft, Finanzamt - Versicherungsbestätigung oder Eigenerklärung zu den geforderten Versicherungssummen - wenn zutreffend Erklärungen zu Bietergemeinschaften oder Unteraufträgen - Bestätigung Einhaltung Brandenburger Vergabegesetz - Eigenerklärung zu Russland Sanktionen - Unterlagen gem. VVB 216 - Verzeichnis vorzulegender Unterlagen</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+				<cbc:Description languageID="DEU">Gewährleistungsbürgschaft in Höhe von 3% der Abrechnungssumme einschl. Nachträge (brutto)</cbc:Description>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXS0Y5WYTCBS55SG/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Vergabe- und Vertragsordnung für Bauleistungen (VOB) in der aktuellen Fassung, Brandenburger Vergabegesetz</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalForm languageID="DEU">Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Gem. §16a EU VOB/A Info für PQ zertifizierte Bieter: Prüfen Sie, ob die im Präqualifikationsverzeichnis hinterlegten Nachweise die geforderten Eignungsangaben und Nachweise dieses Vergabeverfahrens abdecken. Soweit die im Präqualifikationsverzeichnis für den einschlägigen Leistungsbereich hinterlegten Nachweise inhaltlich unzureichend sind, ist regelmäßig keine Nachforderung eines den Eignungsanforderungen genügenden Nachweises zulässig.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Kann ein Bieter aus einem berechtigten Grund die geforderten Unterlagen nicht beibringen, so kann er seine wirtschaftliche und finanzielle Leistungsfähigkeit durch Vorlage anderer, vom öffentlichen Auftraggeber als geeignet angesehener Unterlagen belegen. - Bei der Auftragsbearbeitung sind für die Verarbeitung personenbezogener Daten die einschlägigen Bestimmungen zum Datenschutz, insbesondere diejenigen der EU-Datenschutzgrundverordnung, einzuhalten. - Sprachniveau C1 Deutsch nach dem Europäischen Referenzrahmen für jeweils einen anwesenden verantwortlichen Mitarbeiter auf der Baustelle - Jegliche Kommunikation und alle Unterlagen in diesem Vergabeverfahren sind in deutscher Sprache bzw. mit Übersetzung einzureichen.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+						<cbc:Description languageID="DEU">Preiskriterium für "Niedrigster Preis (ohne Kriterien)"</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXS0Y5WYTCBS55SG</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAY">23</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen: Die Vergabekammer leitet gemäß § 160 Abs. 1 GWB ein Nachprüfungsverfahren nur auf Antrag ein. Nach § 160 Abs. 3 GWB gilt: (3) Der Antrag ist unzulässig, soweit 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXS0Y5WYTCBS55SG</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">62-KiKu314/2025</cbc:ID>
+			<cbc:Name languageID="DEU">Kita Kunterbunt und Nachbarschaftshaus Kyritz - Los 314 Innentüren</cbc:Name>
+			<cbc:Description languageID="DEU">Leistungsumfang Innentüren: 
+Innentüren und Zargen: 12 Stück  Blechtüren Keller, 82 Stück  Holztüren mit HPL-Beschichtung, 02 Stück  Holztüren mit HPL-Beschichtung, Oberlicht, 13 Stück Holztüren mit HPL-Beschichtung und Seitenlicht, 01 Stück Glastrennwand Mensa mit 2-flg Tür, Holzblockzarge, 07 Stück  Flurtüren 2-flg mit Oberlicht, Holzblockzarge, 02 Stück Flurtüren 2-flg mit Oberlicht und Seitenlicht, Holzblockzarge, 01 Stück Schiebetür Krabbelraum Nachbarschaftshaus (120 Stück  Türen gesamt);  
+Anschlüsse und Details
+Überarbeitung Bestand:
+04 Stück  Überarbeitung Türen Bestand (Alu), 02 Stück Erweiterung Rauchabzugsanlage und zwei weitere Motoren für Kippflügel, 42 Stück Überarbeitung Bestandsfenster (Kunststoff);
+
+Die Stadt Kyritz liegt im Landkreis Ostprignitz-Ruppin, im Nordwesten des Landes Brandenburg. - Die Gesamtgröße des Grundstücks beträgt ca. 10.050 qm. Umfang Baumaßnahme - Die Planung umfasst den Abriss, Um- und Neubau der Kita Kunterbunt mit Nachbarschaftshaus, sowie die dazugehörigen Außenanlagen. Bestandsgebäude - Das 2-geschossige, straßenseitige Bestandsgebäude für den Hort wird in Teilbereichen umgebaut, akustisch und energetisch ertüchtigt inkl. neuer Haustechnik. - Zusätzlich erhält das Gebäude einen Aufzug über alle Geschosse für eine barrierefreie Zugänglichkeit. Verbinder Bestand - Der eingeschossige Bestands-Verbinder wird oberhalb der Kellerdecke abgerissen. - Die Bodenplatte wird für einen eingeschossigen Verbinder-Neubau für Mensa und Küche erweitert. Anbau - Der eingeschossige Bestandsriegel wird komplett abgerissen und durch einen Neubauriegel für die Krippe ersetzt. - Im südlichen Bereich schließt sich der Neubau für Personaltrakt und Kita an. - Das gesamte Ensemble der Kita Kunterbunt wird durch einen Spielflur miteinander verbunden. - Unterschiedlich gestaltete Spielhöfe werden den einzelnen Bereichen zugeordnet. - Das eingeschossige Nachbarschaftshaus entlang der Werner Straße bildet mit dem zweigeschossigen Bestandsgebäude den neuen Zugang, wodurch das historische "Mosaik" an der Ostfassade des 2-geschossigen Bestandsbaus wieder seine besondere Lage erhält. Nachbarschaftshaus - Das neue Nachbarschaftshaus wird als Kommunikationsort und Begegnungsstätte für Bewohner des Stadtteils zur Verfügung stehen. - Die maximale Besucherzahl beläuft sich im Nachbarschaftshaus auf 50 Personen. Überdachungen - Alle Gebäudeteile werden durch Überdachungen miteinander verbunden.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders auch geeignet für:selbst#</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">soc-obj</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="DEU">Einhaltung Brandenburger Vergabegesetz</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="social-objective">other</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45421131</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45420000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45421000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45421111</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Werner Str. 1</cbc:StreetName>
+					<cbc:CityName>Kyritz</cbc:CityName>
+					<cbc:PostalZone>16866</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE40D</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-10-06+02:00</cbc:StartDate>
+				<cbc:EndDate>2026-01-09+01:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

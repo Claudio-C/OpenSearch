@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:ContractModification>
+                        <efbc:ChangedNoticeIdentifier schemeName="notice-id-ref">807ed2af-f301-43a4-ae65-44d0c7231945-01</efbc:ChangedNoticeIdentifier>
+                        <efbc:ModifiedContractIdentifier schemeName="contract">CON-0001</efbc:ModifiedContractIdentifier>
+                        <efac:Change>
+                            <efbc:ChangeDescription languageID="SPA">Debido a la necesidad de cubrir nuevas necesidades surgidas en el transcurso de los trabajos con nuevas partidas no contratadas inicialmente, se hace necesario incrementar el importe del contrato en un 0,38% del total adjudicado, lo que implica un incremento del importe del contrato de TRESCIENTOS NOVENTA Y TRES MIL TRESCIENTOS TREINTAY CINCO CÉNTIMOS (393.335,00€), IVA no incluido </efbc:ChangeDescription>
+                            <efac:ChangedSection>
+<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
+                            </efac:ChangedSection>
+                        </efac:Change>
+                        <efac:ChangeReason>
+                            <cbc:ReasonCode listName="modification-justification">mod-cir</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="SPA">Debido a la necesidad de cubrir nuevas necesidades surgidas en el transcurso de los trabajos con nuevas partidas no contratadas inicialmente, se hace necesario incrementar el importe del contrato en un 0,38% del total adjudicado, lo que implica un incremento del importe del contrato de TRESCIENTOS NOVENTA Y TRES MIL TRESCIENTOS TREINTAY CINCO CÉNTIMOS (393.335,00€), IVA no incluido </efbc:ReasonDescription>
+                        </efac:ChangeReason>
+                    </efac:ContractModification>
+                    <efac:NoticeResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:SettledContract>
+<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+<cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <cac:LegalMonetaryTotal>
+<cbc:PayableAmount currencyID="EUR">878048.71</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+<efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+<cbc:ID>LOT-0003</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+<cbc:ID>REF TEN-0001/LOT-0003</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2024-06-07+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2024-06-24+02:00</cbc:IssueDate>
+                            <efac:ContractReference>
+<cbc:ID>671.752</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">38</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+<cbc:WebsiteURI>http://www.tragsa.es</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28006</cbc:PostalZone>
+    <cbc:CountrySubentity>Madrid</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="ID_PLATAFORMA">50011840002187</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">A28476208</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Name>Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)</cbc:Name>
+    <cbc:Telephone>+34 913963667</cbc:Telephone>
+    <cbc:Telefax>+34 913969172</cbc:Telefax>
+    <cbc:ElectronicMail>contratacion@tragsa.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+<cbc:WebsiteURI>https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/TACRC/Paginas/Directorio.aspx</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID>TPO-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Tribunal Administrativo Central de Recursos Contractuales - Secretaría</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28020</cbc:PostalZone>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:Contact>
+    <cbc:Telephone>+34 913491319</cbc:Telephone>
+    <cbc:Telefax>+34 913491441</cbc:Telefax>
+    <cbc:ElectronicMail>tribunal_recursos.contratacion@hacienda.gob.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Nord Jiatel</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:CityName>Fornells de la Selva</cbc:CityName>
+    <cbc:PostalZone>17458</cbc:PostalZone>
+    <cbc:CountrySubentityCode listName="nuts">ES512</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">B55202857</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Telephone>+34 636480924</cbc:Telephone>
+    <cbc:ElectronicMail>info@nordjiatel.com</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368710-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">fbf16e6f-a1c6-4b49-91ab-8b11b3ff0b34</cbc:ID>
+    <cbc:ContractFolderID>a919a8cc-89de-4096-92c0-2016980258be</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>12:53:33+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="cont-modif">can-modif</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>SPA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:ProcurementProject>
+        <cbc:ID>TSA0076944</cbc:ID>
+        <cbc:Name languageID="SPA">Trabajos de canalización e instalación de fibra óptica para la actuación "Redacción de Proyectos y Ejecución de las Obras de Conexión a la Red Pública de Fibra Óptica en Determinados Centros de Referencia de Cataluña" en el Marco del "Programa Único - Servicios Públicos" del Plan de Recuperación, Transformación y Resiliencia Financiado por la Unión Europea - NEXTGENERATIONEU.</cbc:Name>
+        <cbc:Description languageID="SPA">Trabajos de canalización e instalación de fibra óptica para la actuación "Redacción de Proyectos y Ejecución de las Obras de Conexión a la Red Pública de Fibra Óptica en Determinados Centros de Referencia de Cataluña" en el Marco del "Programa Único - Servicios Públicos" del Plan de Recuperación, Transformación y Resiliencia Financiado por la Unión Europea - NEXTGENERATIONEU.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45314300</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:PlannedPeriod>
+            <cbc:StartDate>2024-06-18+02:00</cbc:StartDate>
+            <cbc:EndDate>2024-12-31+01:00</cbc:EndDate>
+        </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+        <cac:TenderingTerms>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">3</cbc:ID>
+            <cbc:Name languageID="SPA">Lote 3.-  Obra Civil</cbc:Name>
+            <cbc:Description languageID="SPA">Lote 3.-  Obra Civil</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">45314300</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES512</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES513</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES514</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2024-06-07+02:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

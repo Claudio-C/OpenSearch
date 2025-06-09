@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabe und Beschaffungszentrum Dortmund</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Viktoriastraße 15</cbc:StreetName>
+									<cbc:CityName>Dortmund</cbc:CityName>
+									<cbc:PostalZone>44135</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA52</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>05913-31001-34</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>02315024552</cbc:Telephone>
+									<cbc:ElectronicMail>fschild@stadtdo.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer bei der Bezirksregierung</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Münster</cbc:CityName>
+									<cbc:PostalZone>48147</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA33</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE164242157</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 2514111691</cbc:Telephone>
+									<cbc:Telefax>+49 2514112165</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@bezreg-muenster.nrw.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer der Bezirksregierung</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Münster</cbc:CityName>
+									<cbc:PostalZone>48147</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA33</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 164 242 157</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 2514111691</cbc:Telephone>
+									<cbc:Telefax>+49 2514112165</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@bezreg-muenster.nrw.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365633-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">bb12053a-f70e-470b-9fe8-e11ff5e12ef7</cbc:ID>
+	<cbc:ContractFolderID>c47b6770-07b7-4aa9-9e84-663119603603</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+	<cbc:IssueTime>15:35:55+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Gemäß § 160 Abs. 3 Satz 1 Nr. 4 Gesetz gegen Wettbewerbsbeschränkungen (GWB) muss ein Nachprüfungsantrag spätestens 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, bei der angegebenen Vergabekammer eingereicht werden. Ein Nachprüfungsantrag ist zudem unzulässig, wenn der Antrag erst nach Zuschlagserteilung zugestellt wird (§168 GWB).  Die Zuschlagserteilung ist möglich zehn Kalendertage nach Absendung der Information über die Vergabeentscheidung per Fax oder E-Mail und 15 Kalendertage nach Absendung der Information über die Vergabeentscheidung per Post, wobei die Frist jeweils unabhängig vom Zugang der Information beim betroffenen Bewerber oder Bieter am Tag nach Absendung der Information beginnt (§ 134 GWB).  Die Zulässigkeit eines Nachprüfungsverfahrens setzt ferner voraus, dass erkannte Vergabeverstöße innerhalb der in § 160 Abs. 3 Nr. 1 GWB genannten Fristen gegenüber dem Auftraggeber gerügt wurden.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:Description languageID="DEU">Es handelt sich um ein zweistufiges Vergabeverfahren, bestehend aus Teilnahme- und Angebotsphase (Verhandlungsverfahren).  Im Rahmen der Teilnahmephase werden Mindestkriterien abgefragt.  Von den Bewerber*innen, die die gestellten Mindestkriterien erfüllen, werden maximal 5 zum Verhandlungsverfahren eingeladen. Hierzu wird auf Grundlage der erreichten Punkte aus den zusätzlichen Bewertungskriterien eine Rangfolge erstellt. Bei Punktegleichheit entscheidet das Losverfahren.</cbc:Description>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.vergabe.metropoleruhr.de/VMPSatellite/notice/CXPSYYFDX4A</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">F119/25</cbc:ID>
+		<cbc:Name languageID="DEU">Objektplanung Nordstadtbibliothek</cbc:Name>
+		<cbc:Description languageID="DEU">Auftragsgegenstand ist die Objektplanung der Lph. 1-9 zum Umbau und Nutzungsänderung der Nordstadtbibliothek.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXPSYYFDX4A
+
+
+Der Auftraggeber ist an die Bestimmungen des Runderlasses des Innenministeriums Nordrhein-Westfalen "Verhütung und Bekämpfung von Korruption in der öffentlichen Verwaltung (Anti-Korruptionserlass)" in der jeweils geltenden Fassung (aktuell vom 09.12.2022) gebunden.  Mit Angebotsabgabe sind Eigenerklärungen über das Nichtvorliegen der Ausschlussgründe nach §§ 123 und 124 GWB abzugeben.  Der Auftraggeber wird ab einer Auftragssumme von 30.000 EUR für den Bieter, der den Zuschlag erhalten soll, den Nachunternehmer und den Verleiher von Arbeitskräften einen Auszug aus dem Wettbewerbsregister beim Bundeskartellamt anfordern.  Subunternehmer: Bei der Beauftragung von Subunternehmen oder der sonstigen Einschaltung Dritter können sich die Bieter zum Nachweis Ihrer Leistungsfähigkeit und Fachkunde auch dieser Unternehmen bedienen. Bei Angebotsabgabe in Verbindung mit einem Subunternehmer ist eine Verpflichtungserklärung über das Bereitstellen entsprechender Mittel zur Auftragserfüllung einzureichen. Darüber hinaus ist von den Bietern anzugeben, in welcher Höhe sie beabsichtigen, Leistungen an Subunternehmen zu vergeben. (s. Teilnahmeantrag)  Bietergemeinschaften: Die Anforderungen an Bietergemeinschaften sind den Vergabeunterlagen zu entnehmen.  Für die Auftragsvergabe gelten die Bedingungen des Tariftreue- und Vergabegesetzes NRW (TVgG-NRW).  Bereitstellung der Unterlagen: Es erfolgt eine elektronische Bereitstellung auf dem Vergabemarktplatz Metropole Ruhr (zu den unter http://www.evergabe.nrw.de/VMPCenter/ genannten Nutzungsbedingungen können die Vergabeunterlagen kostenlos angefordert und heruntergeladen und Nachrichten der Vergabestelle eingesehen werden.)</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eintragung in das Handelsregister.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eintragung in ein relevantes Berufsregister.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Berufs- oder Betriebshaftpflichtversicherung: 1,5 Mio. EUR für Personen - und Sachschäden, sowie 0,5 Mio. EUR für sonstige Schäden</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Mind. 300.000 EUR netto Honorarumsatz für die Fachdisziplin Objektplanungsleistungen im Mittel der letzten drei Jahre.  Zusätzliche Bewertungskriterien:  - Umsatz im Mittel der letzten drei Jahre in Bezug auf Objektplanungsleistungen 300.000 EUR - 500.000 EUR: 5 Punkte  - Umsatz im Mittel der letzten drei Jahre in Bezug auf Objektplanungsleistungen 500.000 EUR - 1.000.000 EUR: 10 Punkte  - Umsatz im Mittel der letzten drei Jahre in Bezug auf Objektplanungsleistungen über 1.000.000 EUR: 15 Punkte</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>15.0</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Mindestens 8 Mitarbeitende im Mittel der letzten drei Jahre in den folgenden Fachdisziplinen:  - Geschäftsführer Partner: 1 MA - weitere Führungskräfte: 1 MA - Mitarbeiter in den Leistungsphasen 1-5 (Entwurf, Genehmigung, Ausführungsplanung): 3 MA - Mitarbeiter in den Leistungsphasen 6, 8 - 9 (Ausschreibung, Objektüberwachung, Dokumentation): 3 MA</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Zwei Referenzen über die in den letzten fünf Kalenderjahren erbrachten Leistungen im Bereich Objektplanungsleistungen im Bereich Umbau öffentlicher Gebäude. Die Referenzen müssen jeweils die folgenden Mindestkriterien erfüllen: - Investitionssumme mind. 5 Mio. EUR brutto im Bereich Umbau öffentlicher Gebäude - Art der Objektplanungsleistung: Lph. 1-6 und 8-9 - Objektplanungsleistung muss abgeschlossen sein.  Zusätzliche Bewertungskriterien je Referenz:  - Das Referenzprojekt besitzt Baukosten von mindestens 10,0 Mio. EUR brutto im Bereich öffentlicher Gebäude: 5 Punkte - Das Referenzprojekt besitzt Baukosten von mindestens 15,0 Mio. EUR brutto im Bereich öffentlicher Gebäude: 10 Punkte - Umbau und Erneuerung von öffentlichen Gebäuden mit dem Fokus auf Bibliotheken: 20 Punkte - Barrierefreier Umbau: 10 Punkte - Erfahrungen nachhaltiger und energieeffizienter Bauweisen: 10 Punkte - Nachweis der termingerechten Umsetzung des geplanten Bauablaufs im Rahmen der Objektüberwachung (Lph.8): 10 Punkte - Erfahrungen in Projekten im Bereich von Bauen im Bestand: 20 Punkte</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>85.0</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.vergabe.metropoleruhr.de/VMPSatellite/notice/CXPSYYFDX4A/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Nachforderungen gemäß § 56 VgV</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Die Vergabestelle behält sich vor, die abgegebenen Angaben und Erklärungen hinsichtlich der Eignung zu überprüfen. Hierzu verlangt sie vom Bieter die Vorlage entsprechender Bescheinigungen (z.B. von Handwerkskammer, Industrie- und Handelskammer, Finanzamt, Krankenkasse). Kopien der verlangten Bescheinigungen sind zugelassen. Dieses gilt auch, wenn das Original den Vermerk "Nur im Original oder als beglaubigte Kopie" trägt.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>30.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+						<cbc:Description languageID="DEU">Preis</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Nachhaltigkeit und ökologische Innovationen</cbc:Name>
+						<cbc:Description languageID="DEU">Nachhaltigkeit und ökologische Innovationen</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>30.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Konzept, Projekt- und Ressourcenplan</cbc:Name>
+						<cbc:Description languageID="DEU">Konzept, Projekt- und Ressourcenplan</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Organisation, Qualifikation und Erfahrung des mit der Ausführung des Auftrags betrauten Personals</cbc:Name>
+						<cbc:Description languageID="DEU">Organisation, Qualifikation und Erfahrung des mit der Ausführung des Auftrags betrauten Personals</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.vergabe.metropoleruhr.de/VMPSatellite/notice/CXPSYYFDX4A</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Gemäß § 160 Abs. 3 Satz 1 Nr. 4 Gesetz gegen Wettbewerbsbeschränkungen (GWB) muss ein Nachprüfungsantrag spätestens 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, bei der angegebenen Vergabekammer eingereicht werden. Ein Nachprüfungsantrag ist zudem unzulässig, wenn der Antrag erst nach Zuschlagserteilung zugestellt wird (§168 GWB).  Die Zuschlagserteilung ist möglich zehn Kalendertage nach Absendung der Information über die Vergabeentscheidung per Fax oder E-Mail und 15 Kalendertage nach Absendung der Information über die Vergabeentscheidung per Post, wobei die Frist jeweils unabhängig vom Zugang der Information beim betroffenen Bewerber oder Bieter am Tag nach Absendung der Information beginnt (§ 134 GWB).  Die Zulässigkeit eines Nachprüfungsverfahrens setzt ferner voraus, dass erkannte Vergabeverstöße innerhalb der in § 160 Abs. 3 Nr. 1 GWB genannten Fristen gegenüber dem Auftraggeber gerügt wurden.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.vergabe.metropoleruhr.de/VMPSatellite/notice/CXPSYYFDX4A</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-08-06+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+				<cbc:EndTime>20:00:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>5</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">F119/25</cbc:ID>
+			<cbc:Name languageID="DEU">Objektplanung Nordstadtbibliothek</cbc:Name>
+			<cbc:Description languageID="DEU">Die erforderlichen Umbau- und Erweiterungsmaßnahmen erstrecken sich auf das gesamte Gebäude. Ein besonderes Augenmerk wird auf die Neugestaltung des Gebäudes, die Erweiterung der Nutzflächen und die Barrierefreiheit gelegt.   Es handelt sich um ein öffentlich nutzbares Gebäude.  Aufgrund der Umbaumaßnahmen ist eine Nutzung während der Bauphase nicht möglich.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#
+
+
+Die Kommunikation im Verfahren,d.h. die Beantwortung von Bieterfragen, Nachsendung von Unterlagen, Änderungen, Fristverlängerungen und weiteren Informationen erfolgt über den Vergabemarktplatz Metropole Ruhr. Zur Teilnahme am Verfahren ist es zwingend erforderlich, dass Einsicht in die dortigen Unterlagen genommen wird. Im Vergabemarktplatz wird die Möglichkeit angeboten, am Verfahren teilzunehmen.</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DescriptionCode listName="duration">UNKNOWN</cbc:DescriptionCode>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:EndpointID>https://www.marches-securises.fr</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Ville de Petit Bourg (971)</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Hôtel de Ville
+Rue Schoelcher</cbc:StreetName>
+                           <cbc:CityName>Petit Bourg</cbc:CityName>
+                           <cbc:PostalZone>97170</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRY10</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>21971118100012</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+33 590953852</cbc:Telephone>
+                           <cbc:Telefax>+33 590956943</cbc:Telefax>
+                           <cbc:ElectronicMail>arielle.mathieu@ville-petitbourg.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal Administratif de Basse- Terre</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>BASSE-TERRE</cbc:CityName>
+                           <cbc:PostalZone>97100</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRY10</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>17971000900038</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+33 590384900</cbc:Telephone>
+                           <cbc:ElectronicMail>greffe.ta-basse-terre@juradm.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365803-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">9cc7ef74-45d5-490b-bee4-d0ee44850f90</cbc:ID>
+   <cbc:ContractFolderID>ba1258e9-d96c-49e4-8e8c-1f4cdc5bfdc0</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04Z</cbc:IssueDate>
+   <cbc:IssueTime>10:54:58Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID>ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cbc:PartPresentationCode listName="tenderlot-presentation">all</cbc:PartPresentationCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:Name languageID="FRA">Location de transports d'élèves réguliers avec chauffeurs pour enfants porteur ou non d'handicap et accompagnateurs de la ville de Petit-Bourg  dans le cadre scolaire, périscolaire et extra scolaire et divers</cbc:Name>
+      <cbc:Description languageID="FRA">Location de transports d'élèves réguliers avec chauffeurs pour enfants porteur ou non d'handicap et accompagnateurs de la ville de Petit-Bourg  dans le cadre scolaire, périscolaire et extra scolaire et divers</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">60100000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Hôtel de ville
+Rue Schoelcher</cbc:StreetName>
+            <cbc:CityName>Petit-Bourg</cbc:CityName>
+            <cbc:PostalZone>97170</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">FRY10</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Capacité économique et financière et capacité technique et professionnelle</cbc:Name>
+                        <cbc:Description languageID="FRA">La vérification de la capacité économique et financière et les capacités techniques et professionnelles des candidats se fera à partir des documents mentionnés au réglement de consultation</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:FiscalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:FiscalLegislationDocumentReference>
+         <cac:EnvironmentalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EnvironmentalLegislationDocumentReference>
+         <cac:EmploymentLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EmploymentLegislationDocumentReference>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://marches-securises.fr</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="FRA">L'offre économiquement la plus avantageuse est appréciée en fonction des critères énoncés dans le réglement de la consultation</cbc:CalculationExpression>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.marchés-securises.fr</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Référé pré contractuel : avant la conclusion du marché(article L551-1 du code de la justice administrative.
+Recours pour excès de pouvoir dans un délai de 2 mois à compter de la notification de la décision</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-30-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="FRA">Transports d'élèves réguliers  avec chauffeurs pour enfants porteurs ou non d'handicap et accompagnateurs par car pour les sorties sportives</cbc:Name>
+         <cbc:Description languageID="FRA">Transports d'élèves réguliers  avec chauffeurs pour enfants porteurs ou non d'handicap et accompagnateurs par car pour les sorties sportives.
+Le nombre annuel estimatif de rotation est de 458</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">115000</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">115000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60100000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hôtel de ville
+Rue Schoelcher</cbc:StreetName>
+               <cbc:CityName>Petit-Bourg</cbc:CityName>
+               <cbc:PostalZone>97 170</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRY10</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Capacité économique et financière et capacité technique et professionnelle</cbc:Name>
+                        <cbc:Description languageID="FRA">La vérification de la capacité économique et financière et les capacités techniques et professionnelles des candidats se fera à partir des documents mentionnés au réglement de consultation</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:FiscalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:FiscalLegislationDocumentReference>
+         <cac:EnvironmentalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EnvironmentalLegislationDocumentReference>
+         <cac:EmploymentLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EmploymentLegislationDocumentReference>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://marches-securises.fr</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="FRA">L'offre économiquement la plus avantageuse est appréciée en fonction des critères énoncés dans le réglement de la consultation</cbc:CalculationExpression>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.marchés-securises.fr</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Référé pré contractuel : avant la conclusion du marché(article L551-1 du code de la justice administrative.
+Recours pour excès de pouvoir dans un délai de 2 mois à compter de la notification de la décision</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-30-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="FRA">Transports d'élèves reguliers avec chauffeurs pour enfants porteurs ou non d'handicap  et accompagnateurs par car pour les sorties piscine</cbc:Name>
+         <cbc:Description languageID="FRA">Transports d'élèves avec chauffeurs pour enfants porteurs ou non d'handicap et accompagnateurs par car pour les sorties piscine.
+Le nombre annuel estimatif de rotations est 153</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">60000</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">60000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60100000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hôtel de ville
+Rue Schoelcher</cbc:StreetName>
+               <cbc:CityName>Petit-Bourg</cbc:CityName>
+               <cbc:PostalZone>97 170</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRY10</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Capacité économique et financière et capacité technique et professionnelle</cbc:Name>
+                        <cbc:Description languageID="FRA">La vérification de la capacité économique et financière et les capacités techniques et professionnelles des candidats se fera à partir des documents mentionnés au réglement de consultation</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:FiscalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:FiscalLegislationDocumentReference>
+         <cac:EnvironmentalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EnvironmentalLegislationDocumentReference>
+         <cac:EmploymentLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EmploymentLegislationDocumentReference>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://marches-securises.fr</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="FRA">L'offre économiquement la plus avantageuse est appréciée en fonction des critères énoncés dans le réglement de la consultation</cbc:CalculationExpression>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.marchés-securises.fr</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Référé pré contractuel : avant la conclusion du marché(article L551-1 du code de la justice administrative.
+Recours pour excès de pouvoir dans un délai de 2 mois à compter de la notification de la décision</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-30-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="FRA">Transports d'élèves reguliers avec chauffeurs pour enfants porteurs ou non d'handicap par car  pour les sorties pédagogiques</cbc:Name>
+         <cbc:Description languageID="FRA">Transports d'élèves avec chauffeurs pour enfants porteurs ou non d'handicap et accompagnateurs par car pour les sorties pédagogiques.
+Le nombre annuel estimatif de rotations est 230.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">180000</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">180000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60100000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hôtel de ville
+Rue Schoelcher</cbc:StreetName>
+               <cbc:CityName>Petit-Bourg</cbc:CityName>
+               <cbc:PostalZone>97 170</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRY10</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Capacité économique et financière et capacité technique et professionnelle</cbc:Name>
+                        <cbc:Description languageID="FRA">La vérification de la capacité économique et financière et les capacités techniques et professionnelles des candidats se fera à partir des documents mentionnés au réglement de consultation</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:FiscalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:FiscalLegislationDocumentReference>
+         <cac:EnvironmentalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EnvironmentalLegislationDocumentReference>
+         <cac:EmploymentLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EmploymentLegislationDocumentReference>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://marches-securises.fr</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="FRA">L'offre économiquement la plus avantageuse est appréciée en fonction des critères énoncés dans le réglement de la consultation</cbc:CalculationExpression>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.marchés-securises.fr</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Référé pré contractuel : avant la conclusion du marché(article L551-1 du code de la justice administrative.
+Recours pour excès de pouvoir dans un délai de 2 mois à compter de la notification de la décision</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-30-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="FRA">Transports d'élèves réguliers  avec chauffeurs pour enfants porteurs ou non d'handicap et accompagnateurs par car pour les sorties péri scolaires et  extrascolaires</cbc:Name>
+         <cbc:Description languageID="FRA">Transports d'élèves réguliers  avec chauffeurs pour enfants porteurs ou non d'handicap et accompagnateurs par car pour les sorties péri scolaires et  extrascolaires
+Le nombre annuel estimatif de rotation est de 140</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">90000</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">90000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60100000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hôtel de ville
+Rue Schoelcher</cbc:StreetName>
+               <cbc:CityName>Petit-Bourg</cbc:CityName>
+               <cbc:PostalZone>97 170</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRY10</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0005</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Capacité économique et financière et capacité technique et professionnelle</cbc:Name>
+                        <cbc:Description languageID="FRA">La vérification de la capacité économique et financière et les capacités techniques et professionnelles des candidats se fera à partir des documents mentionnés au réglement de consultation</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:FiscalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:FiscalLegislationDocumentReference>
+         <cac:EnvironmentalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EnvironmentalLegislationDocumentReference>
+         <cac:EmploymentLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EmploymentLegislationDocumentReference>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://marches-securises.fr</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="FRA">L'offre économiquement la plus avantageuse est appréciée en fonction des critères énoncés dans le réglement de la consultation</cbc:CalculationExpression>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.marchés-securises.fr</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Référé pré contractuel : avant la conclusion du marché(article L551-1 du code de la justice administrative.
+Recours pour excès de pouvoir dans un délai de 2 mois à compter de la notification de la décision</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-30-04:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00-04:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="FRA">Transports d'élèves reguliers avec chauffeurs pour enfants porteurs ou non d'handicap  accompagnateurs par car pour les sorties diverses</cbc:Name>
+         <cbc:Description languageID="FRA">Transports d'élèves réguliers  avec chauffeurs pour enfants porteurs ou non d'handicap et accompagnateurs par car pour les sorties diverses.
+Le nombre annuel estimatif de rotations est de 50</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">60000</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">60000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60100000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hôtel de ville
+Rue Schoelcher</cbc:StreetName>
+               <cbc:CityName>Petit-Bourg</cbc:CityName>
+               <cbc:PostalZone>97 170</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRY10</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

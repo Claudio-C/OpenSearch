@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.poczta-polska.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://portal.smartpzp.pl/poczta-polska</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Poczta Polska S.A.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Rodziny Hiszpańskich 8</cbc:StreetName>
+                           <cbc:Department>Biuro Zakupów</cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>00-940</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5250007313</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Biuro Zakupów</cbc:Name>
+                           <cbc:Telephone>+48226565804</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia.centrala@poczta-polska.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://epuap.gov.pl/wps/portal/strefa%20klienta/katalog%20spraw/opis%20uslugi/odwolaniedokrajowejizbyodwolawczej/UZP</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17A</cbc:StreetName>
+                           <cbc:Department>Biuro Odwołań</cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>010828091</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Sekretariat Biura Odwołań</cbc:Name>
+                           <cbc:Telephone>+48224587801</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368865-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">10611d4f-51be-467e-a78f-c4b12bd498c9</cbc:ID>
+   <cbc:ContractFolderID>40a59b6b-4293-487a-b7f8-8655104fc413</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04Z</cbc:IssueDate>
+   <cbc:IssueTime>13:32:56Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06Z</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://portal.smartpzp.pl/poczta-polska/</cbc:BuyerProfileURI>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="entity-activity">post</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-liq-admin</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 109 ust. 1 pkt 4 ustawy Pzp: Z postępowania o udzielenie zamówienia zamawiający może wykluczyć wykonawcę w stosunku do którego otwarto likwidację, ogłoszono upadłość, którego aktywami zarządza likwidator lub sąd, zawarł układ z wierzycielami, którego działalność gospodarcza jest zawieszona albo znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury.
+Na potwierdzenie braku podstawy wykluczenia: 
+1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 
+2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego odpis lub informację z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 ustawy Pzp, sporządzony nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji. 
+3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast:
+odpisu albo informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, składa dokument lub dokumenty wystawione w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające odpowiednio, że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 6 ustawy Pzp: Z postępowania o udzielenie zamówienia wyklucza się wykonawcę jeżeli, w przypadkach, o których mowa w art. 85 ust. 1, doszło do zakłócenia konkurencji wynikającego z wcześniejszego zaangażowania tego wykonawcy lub podmiotu, który należy z wykonawcą do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów, chyba że spowodowane tym zakłócenie konkurencji może być wyeliminowane w inny sposób niż przez wykluczenie wykonawcy z udziału w postępowaniu o udzielenie zamówienia. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego oświadczenie o aktualności informacji zawartych w JEDZ. 
+</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-as-susp</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 109 ust. 1 pkt 4 ustawy Pzp: Z postępowania o udzielenie zamówienia zamawiający może wykluczyć wykonawcę w stosunku do którego otwarto likwidację, ogłoszono upadłość, którego aktywami zarządza likwidator lub sąd, zawarł układ z wierzycielami, którego działalność gospodarcza jest zawieszona albo znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego odpis lub informację z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 ustawy Pzp, sporządzony nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: odpisu albo informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, składa dokument lub dokumenty wystawione w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające odpowiednio, że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury.
+</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-other</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 109 ust. 1 pkt 4 ustawy Pzp: Z postępowania o udzielenie zamówienia zamawiający może wykluczyć wykonawcę w stosunku do którego otwarto likwidację, ogłoszono upadłość, którego aktywami zarządza likwidator lub sąd, zawarł układ z wierzycielami, którego działalność gospodarcza jest zawieszona albo znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego odpis lub informację z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 ustawy Pzp, sporządzony nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: odpisu albo informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, składa dokument lub dokumenty wystawione w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające odpowiednio, że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 1 i 2 ustawy Pzp z postępowania o udzielenie zamówienia wyklucza się wykonawcę: 1) będącego osobą fizyczną, którego prawomocnie skazano za przestępstwo: a) udziału w zorganizowanej grupie przestępczej albo związku mającym na celu popełnienie przestępstwa lub przestępstwa skarbowego, o którym mowa w art. 258 Kodeksu karnego, b) handlu ludźmi, o którym mowa w art. 189a Kodeksu karnego, c) o którym mowa w art. 228–230a, art. 250a Kodeksu karnego, w art. 46–48 ustawy z dnia 25 czerwca 2010 r. o sporcie (Dz. U. z 2020 r. poz. 1133 oraz z 2021 r. poz. 2054 i 2142) lub w art. 54 ust. 1–4 ustawy z dnia 12 maja 2011 r. o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych (Dz. U. z 2022 r. poz. 463, 583 i 974), d) finansowania przestępstwa o charakterze terrorystycznym, o którym mowa w art. 165a Kodeksu karnego, lub przestępstwo udaremniania lub utrudniania stwierdzenia przestępnego pochodzenia pieniędzy lub ukrywania ich pochodzenia, o którym mowa w art. 299 Kodeksu karnego, e) o charakterze terrorystycznym, o którym mowa w art. 115 § 20 Kodeksu karnego, lub mające na celu popełnienie tego przestępstwa, f) powierzenia wykonywania pracy małoletniemu cudzoziemcowi, o którym mowa w art. 9 ust. 2 ustawy z dnia 15 czerwca 2012 r. o skutkach powierzania wykonywania pracy cudzoziemcom przebywającym wbrew przepisom na terytorium Rzeczypospolitej Polskiej (Dz. U. poz. 769 oraz z 2020 r. poz. 2023), g) przeciwko obrotowi gospodarczemu, o których mowa w art. 296– 307 Kodeksu karnego, przestępstwo oszustwa, o którym mowa w art. 286 Kodeksu karnego, przestępstwo przeciwko wiarygodności dokumentów, o których mowa w art. 270–277d Kodeksu karnego, lub przestępstwo skarbowe, h) o którym mowa w art. 9 ust. 1 i 3 lub art. 10 ustawy z dnia 15 czerwca 2012 r. o skutkach powierzania wykonywania pracy cudzoziemcom przebywającym wbrew przepisom na terytorium Rzeczypospolitej Polskiej – lub za odpowiedni czyn zabroniony określony w przepisach prawa obcego. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego informację z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt 1 ustawy Pzp, sporządzoną nie wcześniej niż 6 miesięcy przed jej złożeniem. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: - informacji z Krajowego Rejestru Karnego - składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja, 4) Dokument określony w pkt 3 powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. 5) Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy nie wydaje się dokumentów określonych w pkt 3 lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1 i 2 PZP, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie Wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania Wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 1 i 2 ustawy Pzp z postępowania o udzielenie zamówienia wyklucza się wykonawcę: 1) będącego osobą fizyczną, którego prawomocnie skazano za przestępstwo: a) udziału w zorganizowanej grupie przestępczej albo związku mającym na celu popełnienie przestępstwa lub przestępstwa skarbowego, o którym mowa w art. 258 Kodeksu karnego, b) handlu ludźmi, o którym mowa w art. 189a Kodeksu karnego, c) o którym mowa w art. 228–230a, art. 250a Kodeksu karnego, w art. 46–48 ustawy z dnia 25 czerwca 2010 r. o sporcie (Dz. U. z 2020 r. poz. 1133 oraz z 2021 r. poz. 2054 i 2142) lub w art. 54 ust. 1–4 ustawy z dnia 12 maja 2011 r. o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych (Dz. U. z 2022 r. poz. 463, 583 i 974), d) finansowania przestępstwa o charakterze terrorystycznym, o którym mowa w art. 165a Kodeksu karnego, lub przestępstwo udaremniania lub utrudniania stwierdzenia przestępnego pochodzenia pieniędzy lub ukrywania ich pochodzenia, o którym mowa w art. 299 Kodeksu karnego, e) o charakterze terrorystycznym, o którym mowa w art. 115 § 20 Kodeksu karnego, lub mające na celu popełnienie tego przestępstwa, f) powierzenia wykonywania pracy małoletniemu cudzoziemcowi, o którym mowa w art. 9 ust. 2 ustawy z dnia 15 czerwca 2012 r. o skutkach powierzania wykonywania pracy cudzoziemcom przebywającym wbrew przepisom na terytorium Rzeczypospolitej Polskiej (Dz. U. poz. 769 oraz z 2020 r. poz. 2023), g) przeciwko obrotowi gospodarczemu, o których mowa w art. 296– 307 Kodeksu karnego, przestępstwo oszustwa, o którym mowa w art. 286 Kodeksu karnego, przestępstwo przeciwko wiarygodności dokumentów, o których mowa w art. 270–277d Kodeksu karnego, lub przestępstwo skarbowe, h) o którym mowa w art. 9 ust. 1 i 3 lub art. 10 ustawy z dnia 15 czerwca 2012 r. o skutkach powierzania wykonywania pracy cudzoziemcom przebywającym wbrew przepisom na terytorium Rzeczypospolitej Polskiej – lub za odpowiedni czyn zabroniony określony w przepisach prawa obcego.
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego informację z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt 1 i 2 ustawy Pzp, sporządzoną nie wcześniej niż 6 miesięcy przed jej złożeniem. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: - informacji z Krajowego Rejestru Karnego - składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja, 4) Dokument określony w pkt 3 powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. 5) Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy nie wydaje się dokumentów określonych w pkt 3 lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1 i 2 PZP, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie Wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania Wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć.
+</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-lab-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 1 i 2 ustawy Pzp z postępowania o udzielenie zamówienia wyklucza się wykonawcę: 1) będącego osobą fizyczną, którego prawomocnie skazano za przestępstwo: a) udziału w zorganizowanej grupie przestępczej albo związku mającym na celu popełnienie przestępstwa lub przestępstwa skarbowego, o którym mowa w art. 258 Kodeksu karnego, b) handlu ludźmi, o którym mowa w art. 189a Kodeksu karnego, c) o którym mowa w art. 228–230a, art. 250a Kodeksu karnego, w art. 46–48 ustawy z dnia 25 czerwca 2010 r. o sporcie (Dz. U. z 2020 r. poz. 1133 oraz z 2021 r. poz. 2054 i 2142) lub w art. 54 ust. 1–4 ustawy z dnia 12 maja 2011 r. o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych (Dz. U. z 2022 r. poz. 463, 583 i 974), d) finansowania przestępstwa o charakterze terrorystycznym, o którym mowa w art. 165a Kodeksu karnego, lub przestępstwo udaremniania lub utrudniania stwierdzenia przestępnego pochodzenia pieniędzy lub ukrywania ich pochodzenia, o którym mowa w art. 299 Kodeksu karnego, e) o charakterze terrorystycznym, o którym mowa w art. 115 § 20 Kodeksu karnego, lub mające na celu popełnienie tego przestępstwa, f) powierzenia wykonywania pracy małoletniemu cudzoziemcowi, o którym mowa w art. 9 ust. 2 ustawy z dnia 15 czerwca 2012 r. o skutkach powierzania wykonywania pracy cudzoziemcom przebywającym wbrew przepisom na terytorium Rzeczypospolitej Polskiej (Dz. U. poz. 769 oraz z 2020 r. poz. 2023), g) przeciwko obrotowi gospodarczemu, o których mowa w art. 296–307 Kodeksu karnego, przestępstwo oszustwa, o którym mowa w art. 286 Kodeksu karnego, przestępstwo przeciwko wiarygodności dokumentów, o których mowa w art. 270–277d Kodeksu karnego, lub przestępstwo skarbowe, h) o którym mowa w art. 9 ust. 1 i 3 lub art. 10 ustawy z dnia 15 czerwca 2012 r. o skutkach powierzania wykonywania pracy cudzoziemcom przebywającym wbrew przepisom na terytorium Rzeczypospolitej Polskiej – lub za odpowiedni czyn zabroniony określony w przepisach prawa obcego. Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego informację z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt 1 i 2 ustawy Pzp, sporządzoną nie wcześniej niż 6 miesięcy przed jej złożeniem. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: - informacji z Krajowego Rejestru Karnego - składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja, 4) Dokument określony w pkt 3 powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. 5) Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy nie wydaje się dokumentów określonych w pkt 3 lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1 i 2 PZP, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie Wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania Wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 109 ust. 1 pkt 4 ustawy Pzp: Z postępowania o udzielenie zamówienia zamawiający może wykluczyć wykonawcę w stosunku do którego otwarto likwidację, ogłoszono upadłość, którego aktywami zarządza likwidator lub sąd, zawarł układ z wierzycielami, którego działalność gospodarcza jest zawieszona albo znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego odpis lub informację z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 ustawy Pzp, sporządzony nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: odpisu albo informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, składa dokument lub dokumenty wystawione w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające odpowiednio, że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-ssc</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 3 ustawy Pzp oraz art. 109 ust. 1 pkt 1 ustawy Pzp w zakresie w jakim dotyczą one opłat lub składek na ubezpieczenie społeczne lub zdrowotne. Z postępowanie o udzielenie zamówienia wyklucza się wykonawcę: 1) wobec którego wydano prawomocny wyrok sądu lub ostateczną decyzję administracyjną o zaleganiu z uiszczeniem podatków, opłat lub składek na ubezpieczenie społeczne lub zdrowotne, chyba że wykonawca odpowiednio przed upływem terminu do składania wniosków o dopuszczenie do udziału w postępowaniu albo przed upływem terminu składania ofert dokonał płatności należnych podatków, opłat lub składek na ubezpieczenie społeczne lub zdrowotne wraz z odsetkami lub grzywnami lub zawarł wiążące porozumienie w sprawie spłaty tych należności; 2) który naruszył obowiązki dotyczące płatności podatków, opłat lub składek na ubezpieczenia społeczne lub zdrowotne, z wyjątkiem przypadku, o którym mowa w art. 108 ust. 1 pkt 3, chyba że wykonawca odpowiednio przed upływem terminu do składania wniosków o dopuszczenie do udziału w postępowaniu albo przed upływem terminu składania ofert dokonał płatności należnych podatków, opłat lub składek na ubezpieczenia społeczne lub zdrowotne wraz z odsetkami lub grzywnami lub zawarł wiążące porozumienie w sprawie spłaty tych należności. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego: - zaświadczenie albo inny dokument właściwej terenowej jednostki organizacyjnej Zakładu Ubezpieczeń Społecznych lub właściwego oddziału regionalnego lub właściwej placówki terenowej Kasy Rolniczego Ubezpieczenia Społecznego potwierdzającego, że wykonawca nie zalega z opłacaniem składek na ubezpieczenia społeczne i zdrowotne, w zakresie art. art. 108 ust. 1 pkt 3 oraz art. 109 ust. 1 pkt 1 ustawy Pzp, wystawionego nie wcześniej niż 3 miesiące przed jego złożeniem, a w przypadku zalegania z opłacaniem składek na ubezpieczenia społeczne lub zdrowotne wraz z zaświadczeniem albo innym dokumentem zamawiający żąda złożenia dokumentów potwierdzających, że przed upływem terminu składania ofert Wykonawca dokonał płatności należnych składek na ubezpieczenia społeczne lub zdrowotne wraz z odsetkami lub grzywnami lub zawarł wiążące porozumienie w sprawie spłat tych należności.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 3 ustawy Pzp oraz art. 109 ust. 1 pkt 1 ustawy Pzp w zakresie w jakim dotyczą one podatków i opłat. Z postępowania o udzielenie zamówienia wyklucza się wykonawcę: 1) wobec którego wydano prawomocny wyrok sądu lub ostateczną decyzję administracyjną o zaleganiu z uiszczeniem podatków, opłat lub składek na ubezpieczenie społeczne lub zdrowotne, chyba że wykonawca odpowiednio przed upływem terminu do składania wniosków o dopuszczenie do udziału w postępowaniu albo przed upływem terminu składania ofert dokonał płatności należnych podatków, opłat lub składek na ubezpieczenie społeczne lub zdrowotne wraz z odsetkami lub grzywnami lub zawarł wiążące porozumienie w sprawie spłaty tych należności; 2) który naruszył obowiązki dotyczące płatności podatków, opłat lub składek na ubezpieczenia społeczne lub zdrowotne, z wyjątkiem przypadku, o którym mowa w art. 108 ust. 1 pkt 3, chyba że wykonawca odpowiednio przed upływem terminu do składania wniosków o dopuszczenie do udziału w postępowaniu albo przed upływem terminu składania ofert dokonał płatności należnych podatków, opłat lub składek na ubezpieczenia społeczne lub zdrowotne wraz z odsetkami lub grzywnami lub zawarł wiążące porozumienie w sprawie spłaty tych należności. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego: - zaświadczenie właściwego naczelnika urzędu skarbowego potwierdzające, że Wykonawca nie zalega z opłacaniem podatków i opłat, w zakresie art.108 ust. 1 pkt 3 ustawy Pzp oraz art. 109 ust. 1 pkt 1 ustawy Pzp, wystawionego nie wcześniej niż 3 miesiące przed jego złożeniem, a w przypadku zalegania z opłacaniem podatków lub opłat wraz z zaświadczeniem zamawiający żąda złożenia dokumentów potwierdzających, że przed upływem terminu składania ofert Wykonawca dokonał płatności należnych podatków lub opłat wraz z odsetkami lub grzywnami lub zawarł wiążące porozumienie w sprawie spłat tych należności. </cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie 1) art. 108 ust. 1 pkt 1 lit. c: z postępowania o udzielenie zamówienia wyklucza się wykonawcę będącego osobą fizyczną, którego prawomocnie skazano za przestępstwo, o którym mowa w art. 47 ustawy z dnia 25 czerwca 2010 r. o sporcie, lub za odpowiedni czyn zabroniony określony w przepisach prawa obcego; 2) art. 108 ust. 1 pkt 1 lit.g: - będącego osobą fizyczną, którego prawomocnie skazano za przestępstwo przeciwko obrotowi gospodarczemu, o których mowa w art. 296–307 Kodeksu karnego, przestępstwo oszustwa, o którym mowa w art. 286 Kodeksu karnego, przestępstwo przeciwko wiarygodności dokumentów, o których mowa w art. 270–277d Kodeksu karnego, lub przestępstwo skarbowe, 3) art. 108 ust. 1 pkt 2 w zw. z art. 108 ust. 1 pkt 1 lit. g - jeżeli urzędującego członka jego organu zarządzającego lub nadzorczego, wspólnika spółki w spółce jawnej lub partnerskiej albo komplementariusza w spółce komandytowej lub komandytowo-akcyjnej lub prokurenta prawomocnie skazano za przestępstwo, o którym mowa w pkt 1, 4) art. 108 ust. 1 pkt 4 - wobec którego prawomocnie orzeczono zakaz ubiegania się o zamówienia publiczne, 5) art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego - wykonawcę oraz uczestnika konkursu wymienionego w wykazach określonych w rozporządzeniu 765/2006 i rozporządzeniu 269/2014 albo wpisanego na listę na podstawie decyzji w sprawie wpisu na listę rozstrzygającej o zastosowaniu środka, o którym mowa w art. 1 pkt 3; wykonawcę oraz uczestnika konkursu, którego beneficjentem rzeczywistym w rozumieniu ustawy z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu (Dz. U. z 2022 r. poz. 593, z późn. zm.7) jest osoba wymieniona w wykazach określonych w rozporządzeniu 765/2006 i rozporządzeniu 269/2014 albo wpisana na listę lub będąca takim beneficjentem rzeczywistym od dnia 24 lutego 2022 r., o ile została wpisana na listę na podstawie decyzji w sprawie wpisu na listę rozstrzygającej o zastosowaniu środka, o którym mowa w art. 1 pkt 3; wykonawcę oraz uczestnika konkursu, którego jednostką dominującą w rozumieniu art. 3 ust. 1 pkt 37 ustawy z dnia 29 września 1994 r. o rachunkowości (Dz. U. z 2023 r. poz. 120 i 295) jest podmiot wymieniony w wykazach określonych w rozporządzeniu 765/2006. 
+Na potwierdzenie braku podstaw wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ, oświadczenie Wykonawcy /Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia, dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego: a) w zakresie określonym w ppkt 1), 2), 3), 4) powyżej – informację z Krajowego Rejestru Karnego, sporządzoną nie wcześniej niż 6 miesięcy przed jej złożeniem; b) w zakresie określonym w ppkt 5) – oświadczenie Wykonawcy o aktualności informacji zawartych w JEDZ, dotyczące orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka zapobiegawczego. </cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-distortion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 5 ustawy Pzp z postępowania o udzielenie zamówienia wyklucza się wykonawcę: 1) jeżeli zamawiający może stwierdzić, na podstawie wiarygodnych przesłanek, że wykonawca zawarł z innymi wykonawcami porozumienie mające na celu zakłócenie konkurencji, w szczególności jeżeli należąc do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów, złożyli odrębne oferty, oferty częściowe lub wnioski o dopuszczenie do udziału w postępowaniu, chyba że wykażą, że przygotowali te oferty lub wnioski niezależnie od siebie; 
+Na potwierdzenie braku podstaw wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego: a) oświadczenia wykonawcy, w zakresie art. 108 ust. 1 pkt 5 ustawy, o braku przynależności do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów, z innym wykonawcą, który złożył odrębną ofertę, ofertę częściową, albo oświadczenia o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty, oferty częściowej lub wniosku o dopuszczenie do udziału w postępowaniu niezależnie od innego wykonawcy należącego do tej samej grupy kapitałowej; b) oświadczenie Wykonawcy o aktualności informacji zawartych w JEDZ, dotyczące zawarcia z innymi wykonawcami porozumienia mającego na celu zakłócenie konkurencji. </cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 1 lit. b i lit. f i pkt 2 ustawy Pzp: Zamawiający wykluczy z postępowania o udzielenie zamówienia: 1) Wykonawcę będącego osobą fizyczną, którego prawomocnie skazano za przestępstwo handlu ludźmi, o którym mowa w art. 189a kodeksu karnego; 2) Wykonawcę będącego osobą fizyczną prawomocnie skazanego za przestępstwo, o którym mowa w art. 9 ust. 1 i 3 lub art. 10 ustawy z dnia 15 czerwca 2012 r. o skutkach powierzania wykonywania pracy cudzoziemcom przebywającym wbrew przepisom na terytorium Rzeczypospolitej Polskiej, lub za odpowiedni czyn zabroniony określony w przepisach prawa obcego; 3) jeżeli urzędującego członka jego organu zarządzającego lub nadzorczego, wspólnika spółki w spółce jawnej lub partnerskiej albo komplementariusza w spółce komandytowej lub komandytowo-akcyjnej lub prokurenta prawomocnie skazano za przestępstwo, o którym mowa w pkt 1 i 2. 
+Na potwierdzenie braku podstaw wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego informację z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt 1 lit. b i lit. f i pkt 2 ustawy Pzp, sporządzoną nie wcześniej niż 6 miesięcy przed jej złożeniem. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: - informacji z Krajowego Rejestru Karnego - składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja, 4) Dokument określony w pkt 3 powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. 5) Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy nie wydaje się dokumentów określonych w pkt 3 lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1 lit. b i lit. f i 2 PZP, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie Wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania Wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 1 lit. d, e i pkt 2 ustawy Pzp z postępowania o udzielenie zamówienia wyklucza się wykonawcę będącego osobą fizyczną, którego prawomocnie skazano za przestępstwo: 1) lit. d) finansowania przestępstwa o charakterze terrorystycznym, o którym mowa w art.165a Kodeksu karnego, lub przestępstwo udaremniania lub utrudniania stwierdzenia przestępnego pochodzenia pieniędzy lub ukrywania ich pochodzenia, o którym mowa w art. 299 Kodeksu karnego, lit. e) o charakterze terrorystycznym, o którym mowa w art. 115 § 20 Kodeksu karnego, lub mające na celu popełnienie tego przestępstwa, 2) jeżeli urzędującego członka jego organu zarządzającego lub nadzorczego, wspólnika spółki w spółce jawnej lub partnerskiej albo komplementariusza w spółce komandytowej lub komandytowo-akcyjnej lub prokurenta prawomocnie skazano za przestępstwo, o którym mowa w pkt 1. 
+Na potwierdzenie braku podstaw wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego informację z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt 1 lit. d i lit. e i pkt 2 ustawy Pzp, sporządzoną nie wcześniej niż 6 miesięcy przed jej złożeniem. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: - informacji z Krajowego Rejestru Karnego - składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja, 4) Dokument określony w pkt 3 powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. 5) Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy nie wydaje się dokumentów określonych w pkt 3 lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1 lit. d i lit. e i 2 PZP, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie Wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania Wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 1 lit. e i pkt 2 ustawy Pzp: Zamawiający wykluczy z postępowania o udzielenie zamówienia: 1) Wykonawcę będącego osobą fizyczną prawomocnie skazanego za przestępstwo o charakterze terrorystycznym, o którym mowa w art. 115 § 20 Kodeksu karnego, lub mające na celu popełnienie tego przestępstwa; 2) jeżeli urzędującego członka jego organu zarządzającego lub nadzorczego, wspólnika spółki w spółce jawnej lub partnerskiej albo komplementariusza w spółce komandytowej lub komandytowo-akcyjnej lub prokurenta prawomocnie skazano za przestępstwo, o którym mowa w pkt 1. 
+Na potwierdzenie braku podstaw wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego informację z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt 1 lit. e i pkt 2 ustawy Pzp, sporządzoną nie wcześniej niż 6 miesięcy przed jej złożeniem. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: - informacji z Krajowego Rejestru Karnego - składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja, 4) Dokument określony w pkt 3 powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. 5) Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy nie wydaje się dokumentów określonych w pkt 3 lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1 lit. e i 2 PZP, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie Wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania Wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć. </cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 108 ust. 1 pkt 1 lit. a i pkt 2 ustawy Pzp z postępowania o udzielenie zamówienia wyklucza się wykonawcę będącego osobą fizyczną, którego prawomocnie skazano za przestępstwo: 1) lit. a) udziału w zorganizowanej grupie przestępczej albo związku mającym na celu popełnienie przestępstwa lub przestępstwa skarbowego, o którym mowa w art. 258 Kodeksu karnego, 2) jeżeli urzędującego członka jego organu zarządzającego lub nadzorczego, wspólnika spółki w spółce jawnej lub partnerskiej albo komplementariusza w spółce komandytowej lub komandytowo-akcyjnej lub prokurenta prawomocnie skazano za przestępstwo, o którym mowa w pkt 1. Na potwierdzenie braku podstaw wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu JEDZ; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego informację z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt 1 lit. a i pkt 2 ustawy Pzp, sporządzoną nie wcześniej niż 6 miesięcy przed jej złożeniem. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: - informacji z Krajowego Rejestru Karnego - składa informację z odpowiedniego rejestru,  takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja, 4) Dokument określony w pkt 3 powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. 5) Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy nie wydaje się dokumentów określonych w pkt 3 lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1 lit. a i 2 PZP, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie Wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania Wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć. </cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-cred-arran</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 109 ust. 1 pkt 4 ustawy Pzp: Z postępowania o udzielenie zamówienia zamawiający może wykluczyć wykonawcę w stosunku do którego otwarto likwidację, ogłoszono upadłość, którego aktywami zarządza likwidator lub sąd, zawarł układ z wierzycielami, którego działalność gospodarcza jest zawieszona albo znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego odpis lub informację z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 ustawy Pzp, sporządzony nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: odpisu albo informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, składa dokument lub dokumenty wystawione w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające odpowiednio, że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-bankr</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 109 ust. 1 pkt 4 ustawy Pzp: Z postępowania o udzielenie zamówienia zamawiający może wykluczyć wykonawcę w stosunku do którego otwarto likwidację, ogłoszono upadłość, którego aktywami zarządza likwidator lub sąd, zawarł układ z wierzycielami, którego działalność gospodarcza jest zawieszona albo znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego odpis lub informację z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 ustawy Pzp, sporządzony nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji. 3) Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza granicami Rzeczypospolitej Polskiej, zamiast: odpisu albo informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, składa dokument lub dokumenty wystawione w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające odpowiednio, że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misconduct</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 109 ust. 1 pkt 5 ustawy Pzp zamawiający może wykluczyć wykonawcę, który w sposób zawiniony poważnie naruszył obowiązki zawodowe, co podważa jego uczciwość, w szczególności gdy wykonawca w wyniku zamierzonego działania lub rażącego niedbalstwa nie wykonał lub nienależycie wykonał zamówienie, co zamawiający jest w stanie wykazać za pomocą stosownych dowodów. 
+Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego oświadczenie o aktualności informacji zawartych w JEDZ.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="POL">na podstawie art. 109 ust. 1 pkt 8 ustawy Pzp zamawiający może wykluczyć wykonawcę który w wyniku zamierzonego działania lub rażącego niedbalstwa wprowadził zamawiającego w błąd przy przedstawianiu informacji, że nie podlega wykluczeniu, spełnia warunki udziału w postępowaniu lub kryteria selekcji, co mogło mieć istotny wpływ na decyzje podejmowane przez zamawiającego w postępowaniu o udzielenie zamówienia, lub który zataił te informacje lub nie jest w stanie przedstawić wymaganych podmiotowych środków dowodowych. Na potwierdzenie braku podstawy wykluczenia: 1) Wykonawca składa wraz z ofertą oświadczenie o niepodleganiu wykluczeniu oraz spełnianiu warunków udziału w postępowaniu, sporządzone na formularzu jednolitego europejskiego dokumentu zamówienia, zwanego dalej „JEDZ”; 2) Wykonawca, którego oferta została najwyżej oceniona składa na wezwanie Zamawiającego oświadczenie o aktualności informacji zawartych w JEDZ.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="POL">1. Niniejsze postępowanie, o wartości przekraczającej równowartość kwoty określonej na podstawie art. 2 ust. 1 pkt 2) ustawy z dnia 11 września 2019 r. Prawo zamówień publicznych - zwanej dalej „PZP”, prowadzone jest w trybie przetargu nieograniczonego na podstawie art. 376 ust. 1 pkt 1) PZP w związku z art. 5 ust. 4 pkt 6) PZP. 
+2. Postępowanie prowadzone jest w procedurze, o której mowa w art. 139 ust. 1 PZP. Zamawiający może najpierw dokonać badania i oceny ofert, a następnie dokonać kwalifikacji podmiotowej Wykonawcy, którego oferta zostanie najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełniania warunków udziału w postępowaniu. 
+3. Postępowanie prowadzone jest w języku polskim przy użyciu środka komunikacji elektronicznej - Platformy SmartPZP (zwanej dalej „Platformą”) pod adresem: https://portal.smartpzp.pl/poczta-polska.
+4. Zamawiający przewiduje możliwość unieważnienia postępowania na podstawie art. 257 PZP.
+5. W zakresie nieuregulowanym niniejszą SWZ, zastosowanie mają przepisy PZP. </cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">CZ.26.871.2024</cbc:ID>
+      <cbc:Name languageID="POL">Odtworzenie przełączników LAN w kluczowych lokalizacjach Poczty Polskiej</cbc:Name>
+      <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest:
+1) dostawa urządzeń i akcesoriów sieciowych, zwanych dalej „Sprzętem”, do lokalizacji Zamawiającego,
+2) dostawa systemu informatycznego do zarządzania urządzeniami sieciowymi Zamawiającego wraz z platformą sprzętową instalowaną w lokalizacjach Zamawiającego, zwanego dalej „Systemem”,
+3) udzielenie licencji do Systemu,
+4) wymiana urządzeń Zamawiającego na Sprzęt, uruchomienie i konfiguracja infrastruktury sieciowej po wymianie oraz przeprowadzenie testów akceptacyjnych Sprzętu,
+5) instalacja, uruchomienie i wdrożenie Systemu oraz przeprowadzenie testów akceptacyjnych Systemu,
+6) sporządzenie i przekazanie Zamawiającemu dokumentacji powykonawczej w zakresie Sprzętu oraz Systemu,
+7) przeniesienie autorskich praw majątkowych do dokumentacji powykonawczej,
+8) przeprowadzenie przez Wykonawcę warsztatów dla administratorów w zakresie Sprzętu oraz Systemu, dostarczenie materiałów szkoleniowych,
+9) przeniesienie autorskich praw majątkowych do materiałów szkoleniowych,
+10) dostarczenie voucherów na szkolenia specjalistyczne,
+11) świadczenie usługi wsparcia technicznego Sprzętu i Systemu w okresie od dnia odbioru ilościowo-jakościowego danego produktu do upływu 60 miesięcy od dnia odbioru końcowego, potwierdzonego protokołem odbioru wdrożenia.
+2. Szczegółowy zakres przedmiotu zamówienia oraz sposób jego realizacji został określony w Załączniku nr 1 do projektu umowy (stanowiącego załącznik nr 6 do SWZ).</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">31214100</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-supply</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="POL">Wykonawca spełni warunek, jeżeli wykaże, że w okresie ostatnich trzech lat przed upływem terminu składania ofert, a jeżeli okres prowadzenia działalności jest krótszy - w tym okresie, należycie zrealizował lub realizuje dostawy/dostawę i instalację urządzeń sieciowych o łącznej wartości minimum 2.000.000,00 zł (z podatkiem od towarów i usług), z zastrzeżeniem, że łączna wartość dostaw (wraz z instalacją urządzeń sieciowych) brutto została zrealizowana w ramach maksymalnie 2 umów/zamówień/zleceń. Przez urządzenia sieciowe rozumie się przełączniki sieciowe, routery i access pointy.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="POL">Wykonawca spełni warunek, jeżeli wykaże, że dysponuje lub będzie dysponował co najmniej dwiema osobami merytorycznymi zdolnymi do realizacji wdrożenia oraz świadczenia wsparcia technicznego. Każda ze wskazanych osób musi posiadać wiedzę na poziomie eksperckim potwierdzoną zdanym egzaminem certyfikowanym przez producenta rozwiązania zaoferowanego przez Wykonawcę w zakresie przełączników sieciowych.</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+            <cbc:Description languageID="POL">1. Wykonawca jest zobowiązany, przed upływem terminu składania ofert, wnieść wadium w wysokości 200.000,00 złotych.
+2. Wadium może być wniesione w:
+1) pieniądzu;
+2) gwarancjach bankowych;
+3) gwarancjach ubezpieczeniowych;
+4) poręczeniach udzielanych przez podmioty, o których mowa w art. 6b ust. 5 pkt 2) ustawy z dnia 9 listopada 2000 r. o utworzeniu Polskiej Agencji Rozwoju Przedsiębiorczości.
+3. Wadium wnoszone w pieniądzu należy wpłacić przelewem na rachunek bankowy Zamawiającego numer 85 1320 0019 0099 0718 2000 0025, w tytule przelewu powinno być wpisane: „Wadium – CZ.26.871.2024 – „Odtworzenie przełączników LAN w kluczowych lokalizacjach Poczty Polskiej”.
+4. Skuteczne wniesienie wadium w pieniądzu następuje z chwilą uznania środków pieniężnych na rachunku bankowym Zamawiającego, określonym w ust. 3 powyżej, przed upływem terminu składania ofert (tj. przed upływem dnia i godziny wyznaczonej jako ostateczny termin składania ofert).
+5. Zamawiający zaleca, aby w przypadku wniesienia wadium w pieniądzu dokument potwierdzający wpłacenie wadium został załączony do oferty.
+6. W przypadku wniesienia wadium w formie gwarancji lub poręczenia, o których mowa w ust. 2 pkt 2) - 4) powyżej, Wykonawca przekazuje Zamawiającemu oryginał gwarancji lub poręczenia, w formie elektronicznej.
+7. Z treści gwarancji winno wynikać nieodwołalne, bezwarunkowe, na pierwsze pisemne żądanie zgłoszone przez Zamawiającego, zobowiązanie gwaranta do wypłaty Zamawiającemu pełnej kwoty wadium w okolicznościach określonych w art. 98 ust. 6 PZP.
+8. Oferta Wykonawcy, który nie wniósł wadium, lub wniósł w sposób nieprawidłowy lub nie utrzymywał wadium nieprzerwanie do upływu terminu związania ofertą lub złożył wniosek o zwrot wadium w przypadku, o którym mowa w art. 98 ust. 2 pkt 3) PZP zostanie odrzucona.</cbc:Description>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>CZ.26.871.2024</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://portal.smartpzp.pl/pocztapolska/</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="POL">Należność zostanie uregulowana w terminie 30 dni kalendarzowych od daty otrzymania prawidłowo wystawionej faktury.</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+            <cbc:CompanyLegalForm languageID="POL">Umowa regulująca współpracę tych wykonawców.</cbc:CompanyLegalForm>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">Szczegółowe wymagania dotyczące realizacji zamówienia zawarte są w projekcie umowy stanowiącym załącznik nr 6 do SWZ.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">1. Kryterium oceny ofert o wadze 100 % jest cena.
+2. Ocenie podlega cena oferty brutto (z podatkiem od towarów i usług).
+3. Ocena ofert będzie dokonywana według wzoru: C = (Cena brutto najtańszej oferty/Cena brutto badanej oferty) x 100 pkt, w którym C oznacza liczbę punktów w kryterium oceny ofert.
+4. Liczba punktów zostanie obliczona z dokładnością do jednej setnej punktu.
+5. Za ofertę najkorzystniejszą zostanie uznana oferta, która uzyska najwyższą liczbę punktów.
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://portal.smartpzp.pl/pocztapolska/</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Odwołanie wnosi się: 1. w terminie 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej. 2. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia wnosi się w terminie: 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 3. Odwołanie w przypadkach innych niż określone w ust. 1 i 2 wnosi się w terminie:10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia. 4. Jeżeli zamawiający mimo takiego obowiązku nie przesłał wykonawcy zawiadomienia o wyborze najkorzystniejszej oferty, odwołanie wnosi się nie później niż w terminie: 1) 30 dni od dnia publikacji w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia 2) 6 miesięcy od dnia zawarcia umowy, jeżeli zamawiający nie opublikował w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:AccessToolName>https://portal.smartpzp.pl/pocztapolska/</efbc:AccessToolName>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://portal.smartpzp.pl/pocztapolska/</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>13:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>13:15:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">CZ.26.871.2024</cbc:ID>
+         <cbc:Name languageID="POL">Odtworzenie przełączników LAN w kluczowych lokalizacjach Poczty Polskiej</cbc:Name>
+         <cbc:Description languageID="POL">1.	Przedmiotem zamówienia jest:
+1) dostawa urządzeń i akcesoriów sieciowych, zwanych dalej „Sprzętem”, do lokalizacji Zamawiającego,
+2) dostawa systemu informatycznego do zarządzania urządzeniami sieciowymi Zamawiającego wraz z platformą sprzętową instalowaną w lokalizacjach Zamawiającego, zwanego dalej „Systemem”,
+3) udzielenie licencji do Systemu,
+4) wymiana urządzeń Zamawiającego na Sprzęt, uruchomienie i konfiguracja infrastruktury sieciowej po wymianie oraz przeprowadzenie testów akceptacyjnych Sprzętu,
+5) instalacja, uruchomienie i wdrożenie Systemu oraz przeprowadzenie testów akceptacyjnych Systemu,
+6) sporządzenie i przekazanie Zamawiającemu dokumentacji powykonawczej w zakresie Sprzętu oraz Systemu,
+7) przeniesienie autorskich praw majątkowych do dokumentacji powykonawczej,
+8) przeprowadzenie przez Wykonawcę warsztatów dla administratorów w zakresie Sprzętu oraz Systemu, dostarczenie materiałów szkoleniowych,
+9) przeniesienie autorskich praw majątkowych do materiałów szkoleniowych,
+10) dostarczenie voucherów na szkolenia specjalistyczne,
+11) świadczenie usługi wsparcia technicznego Sprzętu i Systemu w okresie od dnia odbioru ilościowo-jakościowego danego produktu do upływu 60 miesięcy od dnia odbioru końcowego, potwierdzonego protokołem odbioru wdrożenia.
+2. Szczegółowy zakres przedmiotu zamówienia oraz sposób jego realizacji został określony w Załączniku nr 1 do projektu umowy (stanowiącego załącznik nr 6 do SWZ).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">1. Oferta powinna być złożona w formie elektronicznej w sposób opisany w rozdziale XII ust. 16 SWZ.
+2. Wykonawca może złożyć tylko jedną ofertę.
+3. Składając ofertę Wykonawca musi dodać dokumenty elektroniczne (załączniki):
+1) JEDZ, o którym mowa w rozdz. IX ust. 1 SWZ, a jeżeli ofertę składają Wykonawcy wspólnie ubiegający się o udzielenie zamówienia - JEDZ wszystkich tych Wykonawców,
+2) jeżeli ofertę składają Wykonawcy wspólnie ubiegający się o udzielenie zamówienia, a zachodzi przypadek, o którym mowa w art. 117 ust. 3 PZP – oświadczenie, z którego wynika, które dostawy lub usługi wykonają poszczególni Wykonawcy,
+3) odpis lub informację z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej lub innego właściwego rejestru potwierdzający, że osoba działająca w imieniu Wykonawcy jest umocowana do jego reprezentowania, z wyłączeniem sytuacji określonej w rozdz. XI ust. 10 SWZ,
+4) jeżeli w imieniu Wykonawcy działa osoba, której umocowanie do jego reprezentowania nie wynika z dokumentów, o których mowa w pkt 3) - pełnomocnictwo lub inny dokument potwierdzający umocowanie do reprezentowania Wykonawcy,
+5) jeżeli Wykonawca zastrzegł, że nie mogą być udostępniane informacje stanowiące tajemnicę przedsiębiorstwa w rozumieniu przepisów ustawy z dnia 16 kwietnia 1993 r. o zwalczaniu nieuczciwej konkurencji - dokument zawierający wykazanie, że informacje te stanowią tajemnicę przedsiębiorstwa,
+6) w przypadku wniesienia wadium w formie gwarancji lub poręczenia – odpowiednio gwarancję albo poręczenie,
+7) zobowiązanie podmiotów udostępniających zasoby do oddania Wykonawcy do dyspozycji niezbędnych zasobów na potrzeby realizacji danego zamówienia lub inny podmiotowy środek dowodowy potwierdzający, że Wykonawca realizując zamówienie, będzie dysponował niezbędnymi zasobami tych podmiotów (jeżeli dotyczy),
+8) oświadczenia Wykonawcy/Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego, o którym mowa w rozdz. IX ust. 7 SWZ – wg wzoru stanowiącego Załącznik nr 8 do SWZ,
+9) oświadczenia podmiotu udostępniającego zasoby dotyczące przesłanek wykluczenia z art. 5k rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. oraz z art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego, o którym mowa w rozdz. IX ust. 7 SWZ, z uwzględnieniem wzoru stanowiącego Załącznik nr 9 do SWZ.
+4. Dokumenty elektroniczne określone w ust. 3 powyżej muszą być opatrzone kwalifikowanym(i) podpisem(ami) elektronicznym(i) przed dodaniem dokumentów do oferty z wyłączeniem dokumentów, o których mowa w ust. 3 pkt 3) składanych w postaci wydruków z systemów, odpowiednio ze stron: https://prod.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/Search.aspx, https://ekrs.ms.gov.pl/web/wyszukiwarka-krs/strona-glowna/index.html.</cbc:Note>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31214100</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">60</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

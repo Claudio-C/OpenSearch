@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cn:ContractNotice xmlns:cn="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:brin="http://data.europa.eu/p27/eforms-business-registration-information-notice/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:can="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:pin="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="DEU">Gemeinde Benediktbeuern</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Prälatenstr.  7</cbc:StreetName>
+                  <cbc:CityName>Benediktbeuern</cbc:CityName>
+                  <cbc:PostalZone>83671</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">DE216</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>00498857 6913-23</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>00498857 6913-23</cbc:Telephone>
+                  <cbc:Telefax>00498857 6913-13</cbc:Telefax>
+                  <cbc:ElectronicMail>info@benediktbeuern.de</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="DEU">Vergabekammer Südbayern (Regierung von Oberbayern)</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>München</cbc:CityName>
+                  <cbc:PostalZone>80538</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>08921762411</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>08921762411</cbc:Telephone>
+                  <cbc:ElectronicMail>vergabekammer.suedbayern@reg-ob.bayern.de</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368488-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+  <cbc:ID schemeName="notice-id">603e0710-e306-41e6-8f0c-396a614f0d3a</cbc:ID>
+  <cbc:ContractFolderID>2001c42f-dcdc-45b9-81c5-0dc59f7da4a6</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+  <cbc:IssueTime>15:36:11+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cbc:BuyerProfileURI>https://plattform.aumass.de/Veroeffentlichung/av258e02-eu</cbc:BuyerProfileURI>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID>ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>vgv</cbc:ID>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>CrossBorderLaw</cbc:ID>
+      <cbc:DocumentDescription languageID="DEU">Es gelten alle maßgeblichen grenzüberschreitenden Vorschriften im Zusammenhang mit dem Beschaffungsgegenstand</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber schließt ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme aus, wenn er Kenntnis davon hat, dass eine Person, deren Verhalten dem Unternehmen zuzurechnen ist, rechtskräftig verurteilt oder gegen das Unternehmen eine Geldbuße nach § 30 des Gesetzes über Ordnungswidrigkeiten rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 299 StGB (Bestechlichkeit und Bestechung im geschäftlichen Verkehr), §§ 299a und 299b StGB (Bestechlichkeit und Bestechung im Gesundheitswesen) oder nach § 108e StGB (Bestechlichkeit und Bestechung von Mandatsträgern) oder nach den §§ 333 und 334 StGB (Vorteilsgewährung und Bestechung), jeweils auch in Verbindung mit § 335a StGB (Ausländische und internationale Bedienstete), oder nach Artikel 2 § 2 des Gesetzes zur Bekämpfung internationaler Bestechung (Bestechung ausländischer Abgeordneter im Zusammenhang mit internationalem Geschäftsverkehr).</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber schließt ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme aus, wenn er Kenntnis davon hat, dass eine Person, deren Verhalten dem Unternehmen zuzurechnen ist, rechtskräftig verurteilt oder gegen das Unternehmen eine Geldbuße nach § 30 des Gesetzes über Ordnungswidrigkeiten rechtskräftig festgesetzt worden ist wegen einer Straftat nach §§ 263 (Betrug) oder 264 StGB (Subventionsbetrug).
+ 
+</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber schließt ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme aus, wenn er Kenntnis davon hat, dass eine Person, deren Verhalten dem Unternehmen zuzurechnen ist, rechtskräftig verurteilt oder gegen das Unternehmen eine Geldbuße nach § 30 des Gesetzes über Ordnungswidrigkeiten rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 129 StGB (Bildung krimineller Vereinigungen) oder § 129b StGB (kriminelle und terroristische Vereinigungen im Ausland).</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber schließt ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme aus, wenn er Kenntnis davon hat, dass eine Person, deren Verhalten dem Unternehmen zuzurechnen ist, rechtskräftig verurteilt oder gegen das Unternehmen eine Geldbuße nach § 30 des Gesetzes über Ordnungswidrigkeiten rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 129a StGB (Bildung krimineller Vereinigungen) oder § 129b StGB (kriminelle und terroristische Vereinigungen im Ausland).
+ 
+</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber schließt ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme aus, wenn er Kenntnis davon hat, dass eine Person, deren Verhalten dem Unternehmen zuzurechnen ist, rechtskräftig verurteilt oder gegen das Unternehmen eine Geldbuße nach § 30 des Gesetzes über Ordnungswidrigkeiten rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 261 StGB (Geldwäsche; Verschleierung unrechtmäßig erlangter Vermögenswerte) oder nach § 89c StGB (Terrorismusfinanzierung) oder wegen der Teilnahme an einer solchen Tat oder wegen der Bereitstellung oder Sammlung finanzieller Mittel in Kenntnis dessen, dass diese finanziellen Mittel ganz oder teilweise dazu verwendet werden oder verwendet werden sollen, eine Tat nach § 89a Absatz 2 Nummer 2 StGB zu begehen.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber schließt ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme aus, wenn er Kenntnis davon hat, dass eine Person, deren Verhalten dem Unternehmen zuzurechnen ist, rechtskräftig verurteilt oder gegen das Unternehmen eine Geldbuße nach § 30 des Gesetzes über Ordnungswidrigkeiten rechtskräftig festgesetzt worden ist wegen einer Straftat nach den §§ 232, 232a Absatz 1 bis 5, den §§ 232b bis 233a StGB (Menschenhandel, Zwangsprostitution, Zwangsarbeit, Ausbeutung der Arbeitskraft, Ausbeutung unter Ausnutzung einer Freiheitsberaubung).</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber schließt ein Unternehmen von der Teilnahme an einem Vergabeverfahren aus, wenn 
+1. das Unternehmen seinen Verpflichtungen zur Zahlung von Steuern, Abgaben und Beiträgen zur Sozialversicherung nicht nachgekommen ist und dies durch eine rechtskräftige Gerichts- oder bestandskräftige Verwaltungsentscheidung festgestellt wurde, oder 
+2. der öffentliche Auftraggeber auf sonstige geeignete Weise die Verletzung einer Verpflichtung nach Nummer 1 nachweisen kann.
+</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-liq-admin</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn das Unternehmen zahlungsunfähig ist, über das Vermögen des Unternehmens ein Insolvenzverfahren oder ein vergleichbares Verfahren beantragt oder eröffnet worden ist, die Eröffnung eines solchen Verfahrens mangels Masse abgelehnt worden ist, sich das Unternehmen im Verfahren der Liquidation befindet oder seine Tätigkeit eingestellt hat.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-partic-confl</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn ein Interessenkonflikt bei der Durchführung des Vergabeverfahrens besteht, der die Unparteilichkeit und Unabhängigkeit einer für den öffentlichen Auftraggeber tätigen Person bei der Durchführung des Vergabeverfahrens beeinträchtigen könnte und der durch andere, weniger einschneidende Maßnahmen nicht wirksam beseitigt werden kann.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-sanction</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn das Unternehmen eine wesentliche Anforderung bei der Ausführung eines früheren öffentlichen Auftrags erheblich oder fortdauernd mangelhaft erfüllt hat und dies zu einer vorzeitigen Beendigung, zu Schadensersatz oder zu einer vergleichbaren Rechtsfolge geführt hat.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misconduct</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn das Unternehmen im Rahmen der beruflichen Tätigkeit nachweislich eine schwere Verfehlung begangen hat, durch die die Integrität des Unternehmens infrage gestellt wird.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misrepresent</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn der öffentliche Auftraggeber über hinreichende Anhaltspunkte dafür verfügt, dass das Unternehmen mit anderen Unternehmen Vereinbarungen getroffen oder Verhaltensweisen aufeinander abgestimmt hat, die eine Verhinderung, Einschränkung oder Verfälschung des Wettbewerbs bezwecken oder bewirken.
+Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn das Unternehmen 
+1. versucht hat, die Entscheidungsfindung des öffentlichen Auftraggebers in unzulässiger Weise zu beeinflussen,
+2. versucht hat, vertrauliche Informationen zu erhalten, durch die es unzulässige Vorteile beim Vergabeverfahren erlangen könnte, oder
+3. fahrlässig oder vorsätzlich irreführende Informationen übermittelt hat, die die Vergabeentscheidung des öffentlichen Auftraggebers erheblich beeinflussen könnten oder versucht hat, solche Informationen zu übermitteln.
+</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-lab-law</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn das Unternehmen bei der Ausführung öffentlicher Aufträge nachweislich gegen geltende arbeitsrechtliche Verpflichtungen verstoßen hat.
+ 
+</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-soc-law</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn das Unternehmen bei der Ausführung öffentlicher Aufträge nachweislich gegen geltende sozialrechtliche Verpflichtungen verstoßen hat.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-env-law</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn das Unternehmen bei der Ausführung öffentlicher Aufträge nachweislich gegen geltende umweltrechtliche Verpflichtungen verstoßen hat.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-prep-confl</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">Der öffentliche Auftraggeber kann unter Berücksichtigung des Grundsatzes der Verhältnismäßigkeit ein Unternehmen zu jedem Zeitpunkt des Vergabeverfahrens von der Teilnahme an einem Vergabeverfahren ausschließen, wenn eine Wettbewerbsverzerrung daraus resultiert, dass das Unternehmen bereits in die Vorbereitung des Vergabeverfahrens einbezogen war, und diese Wettbewerbsverzerrung nicht durch andere, weniger einschneidende Maßnahmen beseitigt werden kann.
+ 
+</cbc:Description>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>80454-2024</cbc:ID>
+    <cbc:Name languageID="DEU">Vergabe von Objektplanungsleistungen für 
+Freianlagen gem. § 38 ff. HOAI 
+LPH 1 bis einschl. 9 gem. § 39 Abs. 3 HOAI 
+für den Neubau eines Kindergartens
+</cbc:Name>
+    <cbc:Description languageID="DEU">Vergabe von Objektplanungsleistungen für 
+Freianlagen gem. § 38 ff. HOAI 
+LPH 1 bis einschl. 9 gem. § 39 Abs. 3 HOAI 
+für den Neubau eines Kindergartens
+</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:StreetName>Prälatenstr. 7 </cbc:StreetName>
+        <cbc:CityName>Benediktbeuern</cbc:CityName>
+        <cbc:PostalZone>83671</cbc:PostalZone>
+        <cbc:CountrySubentityCode listName="nuts">DE216</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec-avg</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Mindestumsatz in netto (2022, 2023, 2024)
+
+Erklärung über den Umsatz (netto) des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre (2022, 2023 und 2024) in dem Tätigkeitsbereich des Auftrags unter Einschluss des Anteils von gemeinsam mit anderen Unternehmen ausgeführten Aufträgen. Sofern das Unternehmen noch keine drei Geschäftsjahre am Markt tätig ist, beschränkt sich die Verpflichtung zur Abgabe einer Erklärung über den Umsatz auf den Zeitraum der bestehenden Geschäftstätigkeit. Der durchschnittliche Jahresumsatz muss mindestens 200.000,00 Euro netto pro Geschäftsjahr betragen. 
+
+Wird das Mindestkriterium nicht erfüllt, hat dies den Angebotsausschluss zur Folge.</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Unternehmensreferenzen (2015 bis zum Ablauf der Angebotsfrist)
+
+Angabe von mindestens drei Unternehmensreferenzen im Referenzzeitraum seit 06/2015 bis zum Ablauf der Angebotsfrist im Tätigkeitsbereich des Auftrags. Die Unternehmensreferenzen müssen folgende Mindestkriterien erfüllen:
+
+- mindestens die HOAI-Leistungsphasen 3 bis einschließlich 8 gemäß § 39 Abs. 3 HOAI beauftragt und zusammenhängend erbracht und
+- die HOAI-Leistungsphasen 5 bis 8 gemäß § 39 Abs. 3 HOAI in dem Zeitraum vom 06/2015 bis zum Ablauf der Angebotsfrist abgeschlossen.
+
+Wenn diese Mindestkriterien einer Referenz nicht erfüllt sind, kann die gesamte Referenz nicht gewertet werden. 
+Es sind jeweils anzugeben: 
+- Auftraggeber einschl. Ansprechpartner, 
+- Gegenstand und Umfang der Leistungen einschließlich einer Erläuterung dazu, aus welchen Gründen die Anforderungen des Referenzprojekts mit den Anforderungen des zu vergebenden Auftrages vergleichbar sind, 
+- Auftragssumme, 
+- Ausführungszeit.
+
+</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Anzahl der Mitarbeiter (2022, 2023, 2024)
+
+Der Bewerber muss in den letzten drei Jahren (2022, 2023 und 2024) im Jahresdurchschnitt über mindestens 3 fest angestellten technische Mitarbeiter inkl. Führungskräfte im Tätigkeitsbereich des Auftrages verfügen (Mindestkriterium). Der Nachweis ist mittels Eigenerklärung im Bewerbungsformular zu führen. Wird das Mindestkriterium nicht erfüllt, hat dies den Ausschluss der Bewerbung zur Folge.
+</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Erklärung über das Bestehen einer Berufs- oder Betriebshaftpflichtversicherung
+
+Erklärung über das Bestehen einer Berufs- oder Betriebshaftpflichtversicherung bei einem in der Europäischen Union zugelassenen Haftpflichtversicherer, die für die Dauer des verfahrensgegenständlichen Auftrags aufrechterhalten wird, und Erklärung darüber, dass für den Auftrag Deckungssummen für Personenschäden in Höhe von EUR 1,5 Mio. und für Sach-/Vermögensschäden in Höhe von EUR 1,5 Mio. bestehen werden, wobei die Maximierung der Schadensregulierung im Jahr mindestens das 2-fache der geforderten Deckungssummen betragen muss.
+</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:NonOfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>DEU</cbc:ID>
+                  </cac:Language>
+                </efac:NonOfficialLanguages>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>DEU</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>80454-2024</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://plattform.aumass.de/Veroeffentlichung/av258e02-eu</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+          <cbc:Description languageID="DEU">Es wird auf § 56 VgV verwiesen.</cbc:Description>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="DEU">Schriftliches Konzept zu einzelnen Aspekten der ausgeschriebenen Leistungen 
+
+Der Bieter hat ein schriftliches Konzept als Teil seines Angebotes abzugeben und darin möglichst detailliert, strukturiert und aussagekräftig seine Vorstellungen und seine Herangehens-weise zur Erbringung der verfahrensgegenständlichen Leistungen im Hinblick auf die bezeichneten Zuschlags(unter)kriterien darzustellen. Die Ausführungen sollen hierbei 
+­- konkret sein, 
+­- sich auf das ausgeschriebene Projekt beziehen und 
+­- oberflächliche oder pauschale Aussagen vermeiden. 
+
+Der Auftraggeber soll einen Eindruck von der Arbeits- und Denkweise des Bieters im Hinblick auf das konkrete Projekt erhalten, um diese auf Grundlage der Unterkriterien bewerten zu können.
+
+Die schriftlichen Ausführungen zu den oben dargestellten Kriterien werden jeweils mit Punkten von 0 bis 3 bewertet und wie oben dargestellt faktoriert. Die einzelnen Punktwerte werden vom AG auf Basis der folgenden Matrix vergeben:
+(Zuschlags)Kriterium Nr. 1a) bis c) 
+- wird nicht behandelt: 0 Punkte
+- unterdurchschnittliche Ausführungen: 1 Punkt
+- durchschnittliche Ausführungen: 2 Punkte
+- überdurchschnittliche Ausführungen: 3 Punkte
+
+Erwartungshorizont zum Zuschlagskriterium Nr. 1 a) "die planungsspezifische Vorgehensweise bei der Bewältigung der Herausforderungen und Schwierigkeiten im Rahmen des Neubaus des Kindergartens" 
+
+Aus Sicht des Auftraggebers werden als Herausforderungen bei dem ausgeschriebenen Projekt insbesondere die folgenden Aspekte angesehen, welche jeder Bieter bei der Ausarbeitung seines Konzepts entsprechend zu berücksichtigen hat:
+­- Planungssicherheit,
+­- Ökologisches, nachhaltiges Bauen, 
+
+Es wird darauf hingewiesen, dass die o. g. Auflistung als nicht abschließend, sondern als „Mindestinhalt“ anzusehen ist. Die Bieter sollen mit ihren eigenen Analysen und Ausarbeitungen zu diesem Punkt nachweisen, dass sie sich mit dem verfahrensgegenständlichen Projekt in ausreichendem Maße beschäftigt haben und für den Auftraggeber damit eine Beurteilung dahingehend möglich ist, dass der Bieter den Auftraggeber bei der Umsetzung des Projekts auch tatsächlich erfolgreich unterstützen kann.
+
+Erwartungshorizont zum Zuschlagskriterium Nr. 1 b) "die Präsenz und Verfügbarkeit/Erreichbarkeit des Projektteams während der gesamten Projektdauer und der einzelnen Projektphasen"
+
+Für den Auftraggeber ist ein entscheidender Faktor für den Projekterfolg, dass eine stetige, umfassende Projektbetreuung durch den Bieter in seinem Planungsbereich sichergestellt ist, da aus Sicht des Auftraggebers nur so eine termin- und kostensichere sowie qualitativ-hochwertige Projektrealisierung möglich ist. 
+Vor diesem Hintergrund sind zu diesem Zuschlagskriterium entsprechende Ausführungen im Hinblick auf die geplante Präsenz und Verfügbarkeit/Erreichbarkeit des Projektteams während der gesamten Projektdauer bzw. den einzelnen Projektphasen anzufertigen. Dabei sind nicht nur organisatorische (z.B. Kapazitätsplanung, Urlaubs- und Krankheitsvertretung) und technische (z.B. Kommunikationswege) Aspekte in diesem Zusammenhang darzustellen, sondern auch, wie sich der Bieter in diesem Punkt besonders auszeichnet.
+
+Erwartungshorizont zum Zuschlagskriterium Nr. 1 c) "die konkrete Herangehensweise bei der Mitwirkung an der Planung und Verfolgung der Kosten und Termine"
+
+Aufgrund des engen Zeitplans und der nur begrenzt zur Verfügung stehenden Finanzmittel ist für den Auftraggeber ein wesentlicher Faktor, dass die entsprechend geplanten Kosten und Termine eingehalten werden. Der Auftraggeber erwartet daher von Auftragnehmer ein planvolles Mitwirken bei der Planung und Steuerung der Kosten und Termine.
+Zu diesem Zuschlagskriterium soll der Bieter daher seine konkrete Herangehensweise bei der Mitwirkung an der Planung und Verfolgung der Kosten und Termine darstellen, um den Auftraggeber davon zu überzeugen, dass er diesen wesentlichen Leistungsaspekt zu seiner Zufriedenheit erfüllen kann.
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="DEU">Honorarangebot
+
+Im Hinblick auf die gewünschten Angaben und der Wertung des Honorarangebotes wird auf Folgendes hingewiesen:
+­- Für die Bewertung des Honorars für die Grundleistungen der Objektplanung für Freianlagen wird von einer fiktiven Summe von anrechenbaren Kosten in Höhe EUR 500.000 (netto) ausgegangen.
+­- Ausgehend von der vorgenannten Summe von anrechenbaren Kosten wird anhand der im Vertrag vorgegebenen und im Honorarangebot angegebenen Honorarparameter das Honorar für die Grundleistungen als konkrete Zahl zu Wertungszwecken ermittelt; als Bezugsgröße für die Berechnung des konkreten Wertungsbetrages für die Nebenkosten wird das Netto-Grundleistungshonorar einschl. Zu- bzw. Abschlägen zzgl. ggf. Honorar für besondere Leistungen (ohne Wertungsbetrag für Stundensätze) zugrunde gelegt;
+­- Die für die Besonderen Leistungen anzubietenden Pauschalen sind hingegen verbindliche Vertragspreise, die in den Vertrag übernommen werden. Diese werden unverändert zur Wertung herangezogen;
+­- Die angegebenen Stundensätze werden zu Wertungszwecken jeweils mit 50 multipliziert. Der so ermittelte Eurobetrag fließt in die Wertung ein.
+
+Die so ermittelten, vorgenannten Honorarbestandteile, d.h.
+­- das Honorar für die Grundleistungen (einschl. Zu-/Abschlag), die Pauschalen für die Besonderen Leistungen, die Nebenkosten sowie
+­- die Wertungssumme für die angebotenen Stundensätze
+werden zu Wertungszwecken addiert. Diese Summe ist die Bewertungsgrundlage für das Honorarangebot.
+
+Das niedrigste Honorarangebot erhält 5 Punkte. Jedes weitere zu wertende Honorarangebot wird in der Weise interpoliert, dass das Verhältnis zwischen dem niedrigsten Honorar und dem zu wertenden Honorar mit der maximalen Punktzahl multipliziert wird. Es wird bis auf die 2. Nachkommastelle gerundet.
+
+Die so ermittelte Einzelpunktzahl wird – je Angebot – mit 75 multipliziert. Das niedrigste Honorarangebot erhält somit 375 Punkte.
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://plattform.aumass.de/Veroeffentlichung/av258e02-eu</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="DAY">84</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="DEU">Ein Nachprüfungsantrag ist unzulässig (§ 160 Abs. 3 GWB), soweit:
+
+1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen
+des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10
+Kalendertagen gerügt hat;  
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar
+sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur
+Angebotsabgabe gegenüber dem Auftraggeber gerügt werden; 
+3. Verstöße gegen Vergabevorschriften, die
+erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur
+Angebotsabgabe gegenüber dem Auftraggeber gerügt werden; 
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.
+</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID>ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>DEU</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cbc:AccessToolsURI>https://plattform.aumass.de/Veroeffentlichung/av258e02-eu</cbc:AccessToolsURI>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+        <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <cac:SubsequentProcessTenderRequirement>
+          <cbc:Name>buyer-categories</cbc:Name>
+        </cac:SubsequentProcessTenderRequirement>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>80454-2024</cbc:ID>
+      <cbc:Name languageID="DEU">Vergabe von Objektplanungsleistungen für 
+Freianlagen gem. § 38 ff. HOAI 
+LPH 1 bis einschl. 9 gem. § 39 Abs. 3 HOAI 
+für den Neubau eines Kindergartens
+</cbc:Name>
+      <cbc:Description languageID="DEU">Vergabe von Objektplanungsleistungen für 
+Freianlagen gem. § 38 ff. HOAI 
+LPH 1 bis einschl. 9 gem. § 39 Abs. 3 HOAI 
+für den Neubau eines Kindergartens
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:StreetName>Prälatenstr. 7 </cbc:StreetName>
+          <cbc:CityName>Benediktbeuern</cbc:CityName>
+          <cbc:PostalZone>83671</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">DE216</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+        <cbc:EndDate>2032-12-31+01:00</cbc:EndDate>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</cn:ContractNotice>

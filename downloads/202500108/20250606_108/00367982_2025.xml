@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">61748.46</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">61748.46</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Oferta do Części nr 2</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-05-08+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-30+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="POL">Umowa do Części nr 2</cbc:Title>
+                     <efac:ContractReference>
+                        <cbc:ID>Umowa do części 2</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:Funding>
+                        <efbc:FinancingIdentifier>NUMER UMOWY KPO/22/1/BCU/U/0061</efbc:FinancingIdentifier>
+                        <cbc:FundingProgramCode listName="eu-programme">EURI</cbc:FundingProgramCode>
+                        <cbc:Description languageID="POL">Zamówienie finansowane jest w ramach umowy o
+objęcie przedsięwzięcia wsparciem z Planu rozwojowego dotycząca realizacji przedsięwzięcia
+w ramach Konkursu pt. Utworzenie i wsparcie funkcjonowania 120 branżowych centrów
+umiejętności (BCU), realizujących koncepcję centrów doskonałości zawodowej (CoVEs).
+NUMER UMOWY KPO/22/1/BCU/U/0061. Projekt realizowany ze środków Unii Europejskiej w
+ramach Krajowego Planu Odbudowy i Zwiększania Odporności (KPO) finansowanego ze
+środków Next Generation EU w ramach programu Instrument na rzecz Odbudowy i
+Zwiększania Odporności (Recovery and Resilience Facility - RRF).</cbc:Description>
+                     </efac:Funding>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Przedsiębiorstwo Handlowe KOGEX Sp. z o.o.</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://powiat-mielecki.pl/</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://powiat-mielecki.logintrade.net/rejestracja/ustawowe.html</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Powiat Mielecki</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Wyspiańskiego 6</cbc:StreetName>
+                           <cbc:CityName>Mielec</cbc:CityName>
+                           <cbc:PostalZone>39-300</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL824</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>8171980506</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 177800400</cbc:Telephone>
+                           <cbc:Telefax>+48 177800530</cbc:Telefax>
+                           <cbc:ElectronicMail>przetargi@powiat-mielecki.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://epuap.gov.pl/wps/portal/strefa-klienta/katalog-spraw/opis-uslugi/korespondencja-do-krajowej-izby-odwolawczej-dotyczaca-spraw-odwolawczych/UZP</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 224587801</cbc:Telephone>
+                           <cbc:Telefax>+48 224587800</cbc:Telefax>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Przedsiębiorstwo Handlowe KOGEX Sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Myszkowska 16</cbc:StreetName>
+                           <cbc:CityName>Wrocław </cbc:CityName>
+                           <cbc:PostalZone>52-019 </cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL514</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 8992402029</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367982-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">8056966e-c9fc-4732-88aa-c23cd90e49a1</cbc:ID>
+   <cbc:ContractFolderID>2b3e8cbc-e521-47a6-b1d2-97f433f07906</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>08:15:13Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>Art. 132 ustawy z dnia 11 września 2019 r. Prawo zamówień publicznych (t. j. Dz. U. 2024 r. poz. 1320, zwaną w ogłoszeniu „ustawą”)</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">Postępowanie prowadzone jest w trybie przetargu nieograniczonego.</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="POL">Zamawiający udostępnia pełną dokumentację postępowania na stronie internetowej prowadzonego postępowania dostępnej pod adresem https://powiat-mielecki.logintrade.net/rejestracja/ustawowe.html bezpośredni link do postępowania:
+https://powiat-mielecki.logintrade.net/zapytania_email,189395,98a7ad320e38341c485fa9e8a68e83a2.html</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">82977-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">WA.272.1.6.2025</cbc:ID>
+      <cbc:Name languageID="POL">Dostawa wyposażenia do pracowni mechanicznych konstrukcji cienkościennych wraz z modelarnią i niezbędnymi dodatkami oraz z wstępną instalacją dostarczanych urządzeń dla Branżowego Centrum Umiejętności – kadry dla przemysłu lotniczego</cbc:Name>
+      <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa wyposażenia do pracowni mechanicznych konstrukcji cienkościennych wraz z modelarnią i niezbędnymi dodatkami oraz z wstępną instalacją dostarczanych urządzeń dla Branżowego Centrum Umiejętności – kadry dla przemysłu lotniczego - w asortymencie, ilościach i o minimalnych parametrach zgodnych z  Opisem przedmiotu zamówienia stanowiącym Załącznik nr 1 do SWZ. Przedmiot zamówienia podzielony został na dwie Części w zakresie których Zamawiający dopuszcza składanie ofert częściowych:
+1)	„Część nr 1 obróbka blach”.
+2)	„Część nr 2 modelarnia” .
+Wykonawca według swojego wyboru może złożyć ofertę na jedną wybraną cześć, lub obie części zamówienia. Zamawiający nie ogranicza liczby części zamówienia, które mogą być udzielone jednemu Wykonawcy. 
+2. Szczegółowy opis przedmiotu zamówienia w tym minimalne wymagania dotyczące przedmiotu zamówienia zawierają Załącznik nr 1 do SWZ oraz Projekt umowy stanowiący Załącznik Nr 5 do SWZ.
+3. Specyfikację Warunków Zamówienia wraz z załącznikami Zamawiający udostępnia na stronie internetowej prowadzonego postępowania pod adresem https://powiat-mielecki.logintrade.net/rejestracja/ustawowe.html
+4. Bezpośredni link do postępowania: https://powiat-mielecki.logintrade.net/zapytania_email,189395,98a7ad320e38341c485fa9e8a68e83a2.html</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">42000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">42900000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">30232140</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">44510000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">42600000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">Przedmiot zamówienia należy dostarczyć do siedziby Centrum Kształcenia Praktycznego i Doskonalenia Nauczycieli w Mielcu.</cbc:Description>
+         <cac:Address>
+            <cbc:StreetName>ul. Wojska Polskiego 2B</cbc:StreetName>
+            <cbc:CityName>Mielec</cbc:CityName>
+            <cbc:PostalZone>39-300</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL824</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Kryterium cena</cbc:Name>
+                  <cbc:Description languageID="POL">1.	Zamawiający może najpierw dokonać badania i oceny ofert, a następnie dokonać kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełniania warunków udziału w postępowaniu.
+2.	Ocena ofert, której poddawani są wszyscy Wykonawcy zostanie dokonana w każdej z Części zamówienia odrębnie w oparciu o informacje zawarte w ofercie wg. kryteriów określonych poniżej.
+3.	Ocena kwalifikacji podmiotowej Wykonawców:
+- w zakresie braku podstaw wykluczenia z postępowania zostanie dokonana na podstawie informacji zawartych w przedłożonym oświadczeniu o niepodleganiu wykluczeniu oraz informacji zawartych w złożonych na wezwanie dokumentach.
+- w zakresie spełnienia warunków udziału w postępowaniu zostanie dokonana na podstawie informacji zawartych w przedłożonym oświadczeniu o spełnieniu warunków udziału w postępowaniu oraz informacji zawartych w złożonych na wezwanie dokumentach. 
+4.	Celem wyboru najkorzystniejszej oferty w każdej z ustanowionych Części zamówienia Zamawiający zastosuje następujące kryteria oceny ofert i ich wagi: 
+4.1.	cena – znaczenie 60 pkt;
+4.2.	okres gwarancji – znaczenie 30 pkt;
+4.3.	termin dostawy – znaczenie 10 pkt.
+5.	Sposób wyboru najkorzystniejszej oferty. 
+5.1.	Kryterium „cena”. Przy obliczaniu punktacji w tym kryterium Zamawiający będzie brał pod uwagę łączną cenę ofertową brutto za wykonanie danej Części zamówienia wskazaną w ofercie Wykonawcy.
+Liczba punktów zdobyta w tym kryterium będzie obliczona wg wzoru: 
+Kc = (Cn/Co) x 60
+            gdzie:
+Kc- liczba punktów w kryterium cena,
+Cn – najniższa cena wśród złożonych ofert, 
+Co – cena w badanej ofercie,
+60 – wskaźnik stały.
+Oferta najkorzystniejsza, w tym kryterium, może otrzymać maksymalnie 60 punktów.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Kryterium okres gwarancji</cbc:Name>
+                  <cbc:Description languageID="POL">5.2.	Kryterium „okres gwarancji”: Przy obliczaniu punktacji w tym kryterium Zmawiający będzie brał pod uwagę deklarację Wykonawcy założoną w ofercie co do okresu gwarancji i rękojmi za wady udzielonej na Przedmiot zamówienia w danej Części zamówienia. Zamawiający przyzna punkty w tym kryterium zgodnie z poniższymi zasadami:
+a)	Wykonawca zobowiązany jest udzielić gwarancji i rękojmi za wady na przedmiot zamówienia na okres wynoszący minimum 24 miesiące.
+b)	Za okres udzielenia gwarancji na przedmiot zamówienia i wydłużenie okresu rękojmi za wady na okres wynoszący odpowiednio:
+- 24 miesiące - oferta Wykonawcy otrzyma 0 pkt (oferta otrzyma 0 pkt również w przypadku zaoferowania okresu dłuższego niż 24 miesiące i krótszego niż 36 miesięcy);
+- 36 miesięcy - oferta Wykonawcy otrzyma 10 pkt (oferta otrzyma 10 pkt również w przypadku zaoferowania okresu dłuższego niż 36 miesięcy i krótszego niż 48 miesięcy);
+- 48 miesięcy - oferta Wykonawcy otrzyma 20 pkt (oferta otrzyma 20 pkt również w przypadku zaoferowania okresu dłuższego niż 48 miesięcy i krótszego niż 60 miesięcy),
+- 60 miesięcy - oferta Wykonawcy otrzyma 30 pkt (oferta otrzyma 30 pkt również w przypadku zaoferowania okresu dłuższego niż 60 miesięcy).
+c)	W przypadku braku wypełnienia pola dotyczącego okresu gwarancji Zamawiający przyjmie, że Wykonawca zaoferował minimalny okres gwarancji tj. 24 miesiące.
+d)	Oferta najkorzystniejsza, w tym kryterium, może otrzymać maksymalnie 30 punktów.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Kryterium termin dostawy</cbc:Name>
+                  <cbc:Description languageID="POL">5.3.	Kryterium „termin dostawy”: Przy obliczaniu punktacji w tym kryterium Zamawiający będzie brał pod uwagę deklarację Wykonawcy założoną w ofercie co do terminu realizacji dostawy.
+Zamawiający przyzna punkty w tym kryterium zgodnie z poniższymi zasadami:
+a)	Wykonawca zobowiązany jest zrealizować zamówienie w maksymalnym terminie do 45 dni od dnia podpisania umowy.
+b)	Za zadeklarowany termin dostawy wynoszący odpowiednio:
+- do 45 dni - oferta Wykonawcy otrzyma 0 pkt;
+- do 30 dni - oferta Wykonawcy otrzyma 10 pkt.
+c)	W przypadku braku wypełnienia pola dotyczącego terminu dostawy Zamawiający przyjmie, że Wykonawca zaoferował maksymalny termin dostawy tj. 45 dni.
+d)	Oferta najkorzystniejsza, w tym kryterium, może otrzymać maksymalnie 10 punktów.
+6.	W prowadzonym postępowaniu zostanie wybrana oferta, która według formuły oceny ofert uzyska największą ilość punktów oraz spełni wszystkie wymagania SWZ. Ocena zostanie dokonana na podstawie wypełnionego formularza ofertowego (Załącznik nr 2 do SWZ).
+7.	W celu obliczenia punktów wyniki działań matematycznych będą zaokrąglane do dwóch miejsc po przecinku.
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1.	Zasady, terminy oraz sposób korzystania ze środków ochrony prawnej szczegółowo regulują przepisy Działu IX ustawy – Środki ochrony prawnej (art. 505 i nast. ustawy).
+2.	Środki ochrony prawnej przysługują Wykonawcy, a także innemu podmiotowi, jeżeli ma lub miał interes w uzyskaniu danego zamówienia oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez Zamawiającego przepisów ustawy.
+3.	Środki ochrony prawnej wobec ogłoszenia wszczynającego postępowanie o udzielenie zamówienia oraz dokumentów zamówienia, przysługują również organizacjom wpisanym na listę organizacji uprawnionych do wnoszenia środków ochrony prawnej, prowadzoną przez Prezesa Urzędu Zamówień Publicznych oraz Rzecznikowi Małych i Średnich Przedsiębiorców.
+4.	Terminy wnoszenia odwołania:
+4.1.	Odwołanie wnosi się w terminie 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej lub 15 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w inny sposób;
+4.2.	Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia, wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej;
+4.3.	Odwołanie wobec czynności innych niż określone powyżej wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.
+4.4.	Jeżeli Zamawiający nie przesłał Wykonawcy zawiadomienia o wyborze oferty najkorzystniejszej, odwołanie wnosi się w terminie:
+- 15 dni od dnia zamieszczenia w Biuletynie Zamówień Publicznych ogłoszenia o wyniku postępowania albo 30 dni od dnia publikacji w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia;
+- 6 miesięcy od dnia zawarcia umowy, jeżeli Zamawiający nie opublikował w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia;
+- miesiąca od dnia zawarcia umowy, jeżeli Zamawiający nie zamieścił w Biuletynie Zamówień Publicznych ogłoszenia o wyniku postępowania.
+5.	Terminy oblicza się według przepisów prawa cywilnego. Jeżeli koniec terminu do wykonania czynności przypada na sobotę lub dzień ustawowo wolny od pracy, termin upływa dnia następnego po dniu lub dniach wolnych od pracy.
+6.	Odwołanie przysługuje na:
+6.1.	niezgodną z przepisami ustawy czynność Zamawiającego, podjętą w postępowaniu o udzielenie zamówienia, w tym na projektowane postanowienie umowy;
+6.2.	zaniechanie czynności w postępowaniu o udzielenie zamówienia, do której Zamawiający był obowiązany na podstawie ustawy;
+6.3.	zaniechanie przeprowadzenia postępowania o udzielenie zamówienia na podstawie ustawy, mimo że Zamawiający był do tego obowiązany.
+7.	Odwołanie wnosi się do Prezesa Krajowej Izby Odwoławczej.
+8.	Odwołujący przekazuje Zamawiającemu odwołanie wniesione w formie elektronicznej albo postaci elektronicznej albo kopię tego odwołania, jeżeli zostało ono wniesione w formie pisemnej, przed upływem terminu do wniesienia odwołania w taki sposób, aby mógł on zapoznać się z jego treścią przed upływem tego terminu.
+9.	Pisma w postępowaniu odwoławczym wnosi się w formie pisemnej albo w formie elektronicznej albo w postaci elektronicznej, z tym że odwołanie i przystąpienie do postępowania odwoławczego, wniesione w postaci elektronicznej, wymagają opatrzenia podpisem zaufanym.
+10.	Pisma w formie pisemnej wnosi się za pośrednictwem operatora pocztowego, w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe, osobiście, za pośrednictwem posłańca, a pisma w postaci elektronicznej wnosi się przy użyciu środków komunikacji elektronicznej.
+11.	Na orzeczenie Krajowej Izby Odwoławczej oraz postanowienie Prezesa Krajowej Izby Odwoławczej, o którym mowa w art. 519 ust. 1 ustawy, stronom oraz uczestnikom postępowania odwoławczego przysługuje skarga do sądu. W postępowaniu toczącym się wskutek wniesienia skargi stosuje się odpowiednio przepisy ustawy z dnia 17 listopada 1964 r. - Kodeks postępowania cywilnego o apelacji, jeżeli przepisy ustawy nie stanowią inaczej.
+12.	Skargę wnosi się do Sądu Okręgowego w Warszawie - sądu zamówień publicznych, za pośrednictwem Prezesa Krajowej Izby Odwoławczej, w terminie 14 dni od dnia doręczenia orzeczenia Krajowej Izby Odwoławczej lub postanowienia Prezesa Krajowej Izby Odwoławczej, o którym mowa w art. 519 ust. 1 ustawy, przesyłając jednocześnie jej odpis przeciwnikowi skargi. Złożenie skargi w placówce pocztowej operatora wyznaczonego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe jest równoznaczne z jej wniesieniem. Prezes Krajowej Izby Odwoławczej przekazuje skargę wraz z aktami postępowania odwoławczego do sądu zamówień publicznych w terminie 7 dni od dnia jej otrzymania.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">WA.272.1.6.2025 Część 2</cbc:ID>
+         <cbc:Name languageID="POL">Dostawa wyposażenia do pracowni mechanicznych konstrukcji cienkościennych wraz z modelarnią i niezbędnymi dodatkami oraz z wstępną instalacją dostarczanych urządzeń -	„Część nr 2 modelarnia”</cbc:Name>
+         <cbc:Description languageID="POL">1.	Przedmiotem zamówienia jest dostawa wyposażenia do pracowni mechanicznych konstrukcji cienkościennych wraz z modelarnią i niezbędnymi dodatkami oraz z wstępną instalacją dostarczanych urządzeń dla Branżowego Centrum Umiejętności – kadry dla przemysłu lotniczego. 
+„Część nr 2 modelarnia” obejmuje dostawę m.in. ultradźwiękowego systemu do obróbki powierzchni, osełek ceramicznych, silnika uniwersalnego  bezszczotkowego i szczotkowego, szlifierek, pilników, frezów i pozostałych narzędzi i materiałów, w asortymencie i o parametrach technicznych i użytkowych zgodnych z minimalnymi wymaganiami Zamawiającego opisanymi w Załączniku  nr 1 do SWZ.
+2.	Szczegółowe warunki realizacji zamówienia określa Wzór umowy, stanowiący Załącznik nr 5 do SWZ.
+3.     Zamówienie należy zrealizować w maksymalnym terminie do 45 dni od dnia podpisania umowy. </cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">35000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">42000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">42900000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">44510000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">42600000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Przedmiot zamówienia należy dostarczyć do siedziby Centrum Kształcenia Praktycznego i Doskonalenia Nauczycieli w Mielcu.</cbc:Description>
+            <cac:Address>
+               <cbc:StreetName>ul. Wojska Polskiego 2B</cbc:StreetName>
+               <cbc:CityName>Mielec</cbc:CityName>
+               <cbc:PostalZone>39-300</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL824</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="DAY">45</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                     <efac:DecisionReason>
+                        <efbc:DecisionReasonCode listName="non-award-justification">all-rej</efbc:DecisionReasonCode>
+                     </efac:DecisionReason>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.su.krakow.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://platformazakupowa.pl/pn/su_krakow</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">SZPITAL UNIWERSYTECKI W KRAKOWIE</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Kopernika 36</cbc:StreetName>
+                           <cbc:CityName>Kraków</cbc:CityName>
+                           <cbc:PostalZone>31-531</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL213</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>Regon: 000288685</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Szpital Uniwersytecki w Krakowie, Dział Zamówień Publicznych, ul. Śniadeckich 2 (II piętro), 31-531 Kraków</cbc:Name>
+                           <cbc:Telephone>+48 12 424 78 06</cbc:Telephone>
+                           <cbc:ElectronicMail>eprokopiuk@su.krakow.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.uzp.gov.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 22 458 77 01</cbc:Telephone>
+                           <cbc:ElectronicMail>uzp@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.uzp.gov.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Urząd Zamówień Publicznych Departament Odwołań</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>Regon: 010828091</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 22 458 78 01</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367632-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">b64cf7b5-108e-4ce2-a3dc-946dce1602b3</cbc:ID>
+   <cbc:ContractFolderID>bff21dae-8726-4570-ae45-4910e4cc7d39</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>10:15:50Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06Z</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://platformazakupowa.pl/pn/su_krakow</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">290563-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">DFP.271.52.2025.EP</cbc:ID>
+      <cbc:Name languageID="POL">(DFP.271.52.2025.EP) Dostawa odczynników, materiałów zużywalnych wraz z dzierżawą urządzeń, osprzętów i oprogramowania  dla Zakładu Patomorfologii</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest dostawa odczynników, materiałów zużywalnych wraz z dzierżawą urządzeń, osprzętów i oprogramowania  dla Zakładu Patomorfologii.
+Szczegółowy opis przedmiotu zamówienia zawiera arkusz cenowy (zał. nr 1a i 1b do SWZ) oraz wzór umowy (zał. nr 3 do SWZ). Niniejszy szczegółowy opis przedmiotu zamówienia należy odczytywać wraz z ewentualnymi zmianami treści SWZ.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">Z postępowania o udzielenie zamówienia wyklucza się, z zastrzeżeniem art. 110 ust. 2 ustawy, Wykonawcę na podstawie art. 108 ust. 1 pkt. 1 – 6 ustawy oraz na podstawie art. 7 ust 1 Ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego. UWAGA! Zastosowanie ma ogólnounijny zakaz udziału rosyjskich wykonawców w zamówieniach publicznych i koncesjach udzielanych w państwach członkowskich Unii Europejskiej ustanowiony na mocy art. 1 pkt 23 rozporządzenia 2022/576 z dnia 8 kwietnia 2022 r. do rozporządzenia Rady (UE) 833/2014 dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie. Dodatkowo, z postępowania o udzielenie zamówienia Zamawiający wykluczy Wykonawcę na podstawie art. 109 ust. 1 pkt. 4 ustawy. 
+W przedmiotowym postępowaniu nie ma zastosowania podstawa wykluczenia, o której mowa w art. 108 ust. 2 ustawy, z uwagi na wartość poniżej 10 000 000 euro.
+Zamawiający nie przewiduje udzielenia zamówień, o których mowa w art. 214 ust. 1 pkt 7 i 8 ustawy. Zamawiający przewiduje możliwość uprzedniej oceny ofert, zgodnie z art. 139 ust. 1 ustawy. W takim przypadku Zamawiający najpierw dokona badania i oceny ofert, a następnie dokona kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełniania warunków udziału w postępowaniu. Zamawiający nie dopuszcza składania ofert wariantowych. W niniejszym postępowaniu Zamawiający nie wymaga wniesienia wadium.
+1. Wykaz oświadczeń lub dokumentów podmiotowych potwierdzających spełnianie warunków udziału w postępowaniu oraz brak podstaw do wykluczenia:
+1.1.  oświadczenie w zakresie wskazanym w załączniku nr 2 do SWZ (jednolity europejski dokument zamówienia). Oświadczenie należy sporządzić w języku polskim;
+1. 2. odpisu lub informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt. 4 ustawy, sporządzonych nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji;
+1.3. informacji z Krajowego Rejestru Karnego w zakresie określonym w art. 108 ust. 1 pkt. 1, 2 i 4 ustawy, wystawionej nie wcześniej niż 6 miesięcy przed jej złożeniem; 
+1.4. oświadczenia Wykonawcy, w zakresie art. 108 ust. 1 pkt 5 ustawy, o braku przynależności do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów, z innym wykonawcą, który złożył odrębną ofertę, ofertę częściową lub wniosek o dopuszczenie do udziału w postępowaniu, albo oświadczenia o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty, oferty częściowej lub wniosku o dopuszczenie do udziału w postępowaniu niezależnie od innego wykonawcy należącego do tej samej grupy kapitałowej. 
+1.5. oświadczenie Wykonawcy o aktualności informacji zawartych w oświadczeniu, o którym mowa w art. 125 ust. 1 ustawy, w zakresie odnoszącym się do podstaw wykluczenia wskazanych w art. 108 ust. 1 pkt 3 - 6 ustawy (w zakresie wskazanym w załączniku nr 2 do SWZ).
+2. Jeżeli wykonawca ma siedzibę lub miejsce zamieszkania poza granicami Rzeczypospolitej Polskiej, zamiast dokumentów, o których mowa w:
+2.1. 	punkcie 1.2. składa dokument lub dokumenty wystawione w kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury. 
+2.2. 	punkcie 1.3 składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania, lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument, w zakresie określonym w art. 108 ust. 1 pkt. 1, 2 i 4 ustawy. 
+2.3. Dokument, o którym mowa w punkcie 2.2., powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. Dokument, o którym mowa w punkcie 2.1.  powinien być wystawiony nie wcześniej niż 3 miesiące przed ich złożeniem.
+3. Jeżeli w kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy, nie wydaje się dokumentów, o których mowa w pkt. 2, lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1, 2 i 4 ustawy, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć, nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć. Przepis pkt. 2.3. stosuje się.
+3.Warunki udziału w postępowaniu: 
+3.1. Zdolność do występowania w obrocie gospodarczym: Zamawiający nie określił warunku w tym zakresie.
+3.2. Uprawnienia do prowadzenia określonej działalności gospodarczej lub zawodowej, o ile wynika to z odrębnych przepisów: Zamawiający nie określił warunku w tym zakresie. 
+3.3.Sytuacja ekonomiczna lub finansowa: Zamawiający nie określił warunku w tym zakresie. 
+3.4.Zdolność techniczna lub zawodowa: Zamawiający nie określił warunku w tym zakresie.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="PLN">4797772.54</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33696500</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71356300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">38434500</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">Szpital Uniwersytecki w Krakowie</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL213</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">Szpital Uniwersytecki w Krakowie</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL213</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Koszt</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie przysługuje na: a) niezgodną z przepisami ustawy czynność zamawiającego, podjętą w postępowaniu o udzielenie zamówienia, w tym na projektowane postanowienie umowy; b) zaniechanie czynności w postępowaniu o udzielenie zamówienia, do której zamawiający był obowiązany na podstawie ustawy; c) zaniechanie przeprowadzenia postępowania o udzielenie zamówienia na podstawie ustawy, mimo że zamawiający był do tego obowiązany. 2. Odwołanie wnosi się w terminie: a) 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, b) 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w lit a. 3. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 4. Odwołanie w przypadkach innych niż określone w pkt 3 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia. 5. Jeżeli zamawiający mimo takiego obowiązku nie przesłał wykonawcy zawiadomienia o wyborze najkorzystniejszej oferty odwołanie wnosi się nie później niż w terminie: a) 30 dni od dnia publikacji w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia; b) 6 miesięcy od dnia zawarcia umowy, jeżeli zamawiający nie opublikował w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="POL">Część 1</cbc:Name>
+         <cbc:Description languageID="POL">1. ACTH - 21	opakowań
+2. ALK1	- 1	opakowań
+3. Alfa-fetoproteina (AFP)	 - 1	opakowań
+4. anti-Kappa	- 91	opakowań
+5. anti-Lambda - 91	opakowań
+6. beta-Catenin -12	opakowań
+7. BOB.1 -1	opakowań
+8. C4d - 13	opakowań
+9. CA IX  - 20	opakowań
+10. Calcitonin - 13	opakowań
+11. CD1a	- 13	opakowań
+12. CD10	- 64	opakowań
+13. CD21	- 13	opakowań
+14. CD21	- 13	opakowań
+15. CD25	- 7	opakowań
+16. CD3	- 218	opakowań
+17. CD30	- 44	opakowań
+18. CD31	- 35	opakowań
+19. CD8	- 1	opakowań
+20. CD99  -1	opakowań
+21. CD163 - 1	opakowań
+22. CEA	- 2	opakowań
+23. CK14	- 1	opakowań
+24. CK20	- 84	opakowań
+25. CMV RUO	- 25	opakowań
+26. DOG-1 	- 13	opakowań
+27. E-cadherin	- 102	opakowań
+28. Epstein-Barr Virus 	- 13	opakowań
+29. ERG	- 9	opakowań
+30. Factor VIII Related Antigen 	- 1	opakowań
+31. FITC Anti-C3 Primary Antibody	- 64	opakowań
+32. FITC Anti-IGG Primary Antibody 	- 64	opakowań
+33. FITC C1q Primary Antibody	 - 52	opakowań
+34. FITC Fibrinogen Primary Antibody - 64	opakowań
+35. FITC IgA Primary Antibody	- 64	opakowań
+36. FITC IgM Primary Antibody	- 64	opakowań
+37. FOLR1	- 5	opakowań
+38. Gastrin 	- 2	opakowań
+39. GCDFP-15	- 14	opakowań
+41. GLUT1	- 5	opakowań
+42. Hemoglobin A	- 5	opakowań
+43. Hepatocyte Specific Antigen  	- 11	opakowań
+44. HHV-8 	- 11	opakowań
+45. Human Placental Lactogen (hPL)	- 1	opakowań
+46. IgA	- 1	opakowań
+47. IgG (Immunoglobulin G)	- 9	opakowań
+48. IgG4 	- 9	opakowań
+49. Inhibin, alpha  	- 11	opakowań
+50. INI-1	- 2	opakowań
+51. Kappa and Lambda Dual ISH mRNA Probe Cocktail	- 5	opakowań
+52. LMO2	- 8	opakowań
+53. Melanosome	- 53	opakowań
+54. Mesothelial Cell	- 2	opakowań
+55. MUC1	- 2	opakowań
+56. MUC2 	- 4	opakowań
+57. MUC5AC	- 4	opakowań
+58. MUC6 	- 2	opakowań
+59. MUM1	- 23	opakowań
+60. Myeloperoxidase MPO	- 84	opakowań
+62. MyoD1 	- 7	opakowań
+63. Napsin A  	- 9	opakowań
+64. Neurofilament	- 1	opakowań
+65. Neuron Specific Enolase 	- 2	opakowań
+66. NKX3.1	- 8	opakowań
+67. Oct-2	- 1	opakowań
+68. p53	- 133	opakowań
+69. Pan Keratin	- 171	opakowań
+70. PD-1 	- 4	opakowań
+71. PD-L1 	- 30	opakowań
+72. PGP 9,5 (Proteine Gene Product 9.5)	- 4	opakowań
+73. PHH3 	- 13	opakowań
+74. PLAP (Placental Alkaline Phosphatase)	- 1	opakowań
+75. PRAME	- 8	opakowań
+76. PSA	- 7	opakowań
+77. PSMA	- 1	opakowań
+78. PTEN	- 4	opakowań
+79. SALL4 	- 7	opakowań
+80. SATB2	- 7	opakowań
+81. SMH (Myosin, Smooth Muscle)	- 163	opakowań
+82. SOX-10 	- 44	opakowań
+83. SV40 Simian Virus-40 	- 13	opakowań
+84. TdT	- 20	opakowań
+85. TFE3 	- 7	opakowań
+86. Thyroglobulin	- 7	opakowań
+87. TTF1	- 5	opakowań
+88. Uroplakin III 	- 5	opakowań
+89. Dzierżawa urządzeń z osprzętem i oprogramowaniem (zgodnie z opisem wymagań granicznych) - 2 szt.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">Wadium nie jest wymagane. </cbc:Note>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">4797772.54</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33696500</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71356300</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">38434500</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Szpital Uniwersytecki w Krakowie</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL213</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">60</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.marches-securises.fr</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FRA">ARCADE VYV PROMOTION IDF</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>59 rue de Provence</cbc:StreetName>
+                  <cbc:CityName>Paris</cbc:CityName>
+                  <cbc:PostalZone>75009</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>90466871200014</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+33 149952797</cbc:Telephone>
+                  <cbc:ElectronicMail>saran.kaba@groupe-arcade.com</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>www.tribunal-de-paris.justice.fr/75</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FRA">TRIBUNAL DE PARIS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>PARIS</cbc:CityName>
+                  <cbc:PostalZone>75004</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>17750005500013</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+33 153605201</cbc:Telephone>
+                  <cbc:ElectronicMail>tribunal-de-paris.justice@gouv.fr</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365927-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">e175af1a-22d5-44e9-be37-ff11d49c16a5</cbc:ID>
+  <cbc:ContractFolderID>05909833-3e17-4c94-a455-dff9cc37d9ba</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+  <cbc:IssueTime>12:07:37Z</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cbc:BuyerProfileURI>https://www.marches-securises.fr</cbc:BuyerProfileURI>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID>ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>2025/DT/13</cbc:ID>
+    <cbc:Name languageID="FRA">CORBEIL-ESSONES (91100) - CURAGE DESAMIANTAGE DEPLOMBAGE DECONSTRUCTION DES BATIMENTS EXISTANTS SITUES 45 RUE DE PARIS</cbc:Name>
+    <cbc:Description languageID="FRA">CORBEIL-ESSONES (91100) - CURAGE DESAMIANTAGE DEPLOMBAGE DECONSTRUCTION DES BATIMENTS EXISTANTS SITUES 45 RUE DE PARIS</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">45110000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CityName>CORBEILLES ESSONNES</cbc:CityName>
+        <cbc:PostalZone>91100</cbc:PostalZone>
+        <cbc:CountrySubentityCode listName="nuts">FR104</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Description languageID="FRA">SE REFERER AU RC</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                <cbc:Description languageID="FRA">SE REFERER AU RC</cbc:Description>
+              </efac:SelectionCriteria>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://www.marches-securises.fr/pa/</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+        <cbc:CompanyLegalForm languageID="FRA">SE REFERER AU RC</cbc:CompanyLegalForm>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cbc:CalculationExpression languageID="FRA">SE REFERER AU RC</cbc:CalculationExpression>
+          <cac:SubordinateAwardingCriterion>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FRA">SE REFERER AU RC</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FRA">SE REFERER AU RC</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID>ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:DocumentProviderParty>
+        <cac:PartyIdentification>
+          <cbc:ID>ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:DocumentProviderParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://www.marches-securises.fr/</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="FRA">Introduction d'un référé précontractuel jusqu'à la 
+signature du marché dans les conditions posées aux articles 2 et suivants de l'ordonnance n° 2009-515 
+du7.5.2009 et les articles 1441-1 et 1441-2 du nouveau code de procédure civile. Introduction d'un 
+référé contractuel dans un délai de 31 jours à compter de la publication de l'avis d'attribution du marché 
+au Journal officiel de l'Union européenne dans les conditions posées aux articles 11et suivants de 
+l'ordonnance n° 2009-515 du 7.5.2009 et les articles 1441-1 et 1441-3 du nouveau code de procédure 
+civile, sauf à avoir préalablement introduit un référé précontractuel. Le délai de 31 jours est porté à 6 
+mois à compter de la conclusion du contrat en l'absence de publication d'un avis d'attribution</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealInformationParty>
+          <cac:PartyIdentification>
+            <cbc:ID>ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealInformationParty>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID>ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+        <cac:MediationParty>
+          <cac:PartyIdentification>
+            <cbc:ID>ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:MediationParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>FRA</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+        <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>2025/DT/13</cbc:ID>
+      <cbc:Name languageID="FRA">lot - Curage, désamiantage, déplombage et déconstruction</cbc:Name>
+      <cbc:Description languageID="FRA">Corbeil Essonne (91) - Curage, désamiantage, déplombage et déconstruction des existants pour intervention INRAP en vue de la construction de 34 hébergements en LLI et 21 logements collectifs dont 12 en LLS et 9 en LLI sur un niveau de sous-sol et un commerce en RDC</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">45110000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

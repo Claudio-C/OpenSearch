@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.marches-securises.fr</cbc:WebsiteURI>
+                        <cbc:EndpointID>http://www.beaucaire.fr/</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Ville de Beaucaire (30)</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Place Georges Clémenceau</cbc:StreetName>
+                           <cbc:CityName>Beaucaire</cbc:CityName>
+                           <cbc:PostalZone>30300</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRJ12</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>21300032600016</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+33 466591006</cbc:Telephone>
+                           <cbc:Telefax>+33 466593040</cbc:Telefax>
+                           <cbc:ElectronicMail>pierre.mariette.lopez@beaucaire.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://nimes.tribunal-administratif.fr</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal Administratif de Nimes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>16 Avenue Feuchères CS 88010</cbc:StreetName>
+                           <cbc:CityName>NIMES</cbc:CityName>
+                           <cbc:PostalZone>30941</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRJ12</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>13000192800014</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+33 466273700</cbc:Telephone>
+                           <cbc:ElectronicMail>greffe.ta-nimes@juradm.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00369039-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">69d6803e-15ed-46e9-95d1-85859b818121</cbc:ID>
+   <cbc:ContractFolderID>7f317449-1902-43fc-83e2-2075225783ca</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>14:43:20Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://www.marches-securises.fr</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID>ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">(Voir Réglement de la Consultation)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>2025-022</cbc:ID>
+      <cbc:Name languageID="FRA">Prestations de services d'organisation de manifestation et de déménagement de la Commune de Beaucaire</cbc:Name>
+      <cbc:Description languageID="FRA">Prestations de services d'organisation de manifestation et de déménagement de la Commune de Beaucaire</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="FRA">Retrait du dossier de consultation :
+Il est remis gratuitement à chaque candidat et disponible à l’adresse électronique suivante :
+https://www.marches-securises.fr
+Aucune demande d'envoi du DCE sur support physique électronique n'est autorisée.
+Le pouvoir adjudicateur se réserve le droit d'apporter des modifications de détail au dossier de consultation au plus tard 10 jours avant la date limite de réception des offres. Ce délai est décompté à partir de la date d'envoi par le pouvoir adjudicateur des modifications aux candidats ayant retiré le dossier initial. Les candidats devront alors répondre sur la base du dossier modifié sans pouvoir n'élever aucune réclamation à ce sujet.
+Si, pendant l'étude du dossier par les candidats, la date limite de réception des offres est reportée, la disposition précédente est applicable en fonction de cette nouvelle date.
+
+Remise des offres :
+La transmission des documents par voie électronique est effectuée sur le profil d'acheteur du pouvoir adjudicateur, à l'adresse URL suivante : https://marches-securises.fr
+
+Renseignements complémentaires :
+Pour tout renseignement complémentaire concernant cette consultation, les candidats transmettent impérativement leur demande par l'intermédiaire du profil d'acheteur du pouvoir adjudicateur, dont l'adresse URL est la suivante : 
+https://marches-securises.fr
+Cette demande doit intervenir au plus tard 10 jours avant la date limite de réception des offres.
+Une réponse sera alors adressée, à toutes les entreprises ayant retiré le dossier ou l'ayant téléchargé après identification, 6 jours au plus tard avant la date limite de réception des offres.
+Les documents de la consultation sont communiqués aux candidats dans les 6 jours qui suivent la réception de leur demande.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:FrameworkMaximumAmount currencyID="EUR">600000</efbc:FrameworkMaximumAmount>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">600000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">98392000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Sur le territoire de la Commune</cbc:StreetName>
+            <cbc:CityName>Beaucaire</cbc:CityName>
+            <cbc:PostalZone>30300</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">FRJ12</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Aptitude à exercer l'activité professionnelle</cbc:Name>
+                        <cbc:Description languageID="FRA">Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'exclusion de plein droit relatifs aux articles L.2141-1 à L.2141-6 du Code de la commande publique. (ne pas fournir par le candidat en cas de renseignement de la rubrique F1 du DC1 (dernière version) ou le DUME)
+Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail</cbc:Description>
+                        <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Capacité économique et financière</cbc:Name>
+                        <cbc:Description languageID="FRA">Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles (ne pas fournir par le candidat en cas de renseignement de la rubrique F1 du DC2 (dernière version) ou le DUME).</cbc:Description>
+                        <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Name languageID="FRA">Capacité technique et professionnelle</cbc:Name>
+                        <cbc:Description languageID="FRA">Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années
+Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat
+Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat</cbc:Description>
+                        <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+         <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+         <cbc:RecurringProcurementDescription languageID="FRA">Il s'agit d'un marché renouvelable en raison du caractère récurrent des prestations.
+La date prévisionnelle de mise en place d’une nouvelle procédure est en début d’année 2029.</cbc:RecurringProcurementDescription>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.marches-securises.fr</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="FRA">Aucune clause de garantie financière ne sera appliquée.
+Aucune avance ne sera versée. Sauf si lorsque le montant initiale du bon de commande est supérieur à 50000 euros HT et dans la mesure où le délai d'exécution est supérieur à 2 mois.
+
+Les prestations seront financées selon les modalités suivantes : Budget de la Ville de Beaucaire
+Les sommes dues au(x) titulaire(s) et au(x) sous-traitant(s) de premier rang éventuel(s) du marché seront payées dans un délai global de 30 jours à compter de la date de réception des factures ou des demandes de paiement équivalentes.</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+            <cbc:CompanyLegalForm languageID="FRA">Le pouvoir adjudicateur ne souhaite imposer aucune forme de groupement à l'attributaire du marché.
+En cas de groupement conjoint, le mandataire commun du groupement conjoint sera solidaire de chacun des membres du groupement pour ses obligations contractuelles à l'égard de la personne publique pour l'exécution du présent marché.
+
+Il est interdit aux candidats de présenter plusieurs offres en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements ou en qualité de membres de plusieurs groupements.</cbc:CompanyLegalForm>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="FRA">Prix des prestations</cbc:Name>
+                  <cbc:Description languageID="FRA">Prix des prestations
+(Le sous-détail est indiqué dans le réglement de la consultation)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="FRA">Valeur technique</cbc:Name>
+                  <cbc:Description languageID="FRA">Valeur technique
+(Le sous-détail est indiqué dans le réglement de la consultation)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.marches-securises.fr</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">150</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Les voies de recours ouvertes aux candidats sont les suivantes : 
+
+Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. 
+
+Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). 
+
+Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.
+
+Le tribunal administratif peut être saisi par l'application informatique "Télérecours Citoyens" accessible par le site internet www.telerecours.fr</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://www.marches-securises.fr</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>13:30:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="FRA">Elle se fera ultérieurement à la date limite de remise des offres, en présence de l'acheteur. L'ouverture des plis n'est pas publique et aucune personne extérieure à la Commune ne peut y participer.</cbc:Description>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>2025-022-01</cbc:ID>
+         <cbc:Name languageID="FRA">Prestations de services d'organisation de manifestation et déménagement de la Commune de Beaucaire</cbc:Name>
+         <cbc:Description languageID="FRA">Prestations de services d'organisation de manifestation et déménagement de la Commune de Beaucaire</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">600000</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">600000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">98392000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Sur le territoire de la Commune</cbc:StreetName>
+               <cbc:CityName>Beaucaire</cbc:CityName>
+               <cbc:PostalZone>30300</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRJ12</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">12</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="FRA">Le marché est reconduit tacitement jusqu'à son terme. Le nombre de périodes de reconduction est fixé à 3. La durée de chaque période de reconduction est de 1 an. La durée maximale du contrat, toutes périodes confondues, est de 4 ans.
+
+La reconduction est considérée comme acceptée si aucune décision écrite contraire n'est prise par le pouvoir adjudicateur au moins 3 mois avant la fin de la durée de validité du marché. Le titulaire ne peut pas refuser la reconduction.</cbc:OptionsDescription>
+            <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

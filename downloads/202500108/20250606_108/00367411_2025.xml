@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">1273107.92</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:HigherTenderAmount currencyID="PLN">2116093.46</cbc:HigherTenderAmount>
+                     <cbc:LowerTenderAmount currencyID="PLN">1553217.7</cbc:LowerTenderAmount>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <cac:FinancingParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:FinancingParty>
+                     <cac:PayerParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:PayerParty>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>12</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">1273107.92</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>1</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-05-16Z</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-28Z</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>3/OR13/2025/2610</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Clean Perfect Plus Sp. z o.o.</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.arimr.gov.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://PlatformaZakupowa.pl/pn/ARiMR</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Agencja Restrukturyzacji i Modernizacji Rolnictwa Świętokrzyski Oddział Regionalny</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Warszawska 430</cbc:StreetName>
+                           <cbc:CityName>Kielce</cbc:CityName>
+                           <cbc:PostalZone>25-414</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL721</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 5261933940</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>REGON: 010613083</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Agencja Restrukturyzacji i Modernizacji Rolnictwa
+Świętokrzyski Oddział Regionalny
+25-414 Kielce
+ul. Warszawska 430</cbc:Name>
+                           <cbc:Telephone>413490900</cbc:Telephone>
+                           <cbc:Telefax>413328402</cbc:Telefax>
+                           <cbc:ElectronicMail>swietokrzyski@arim.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://uzp.gov.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://uzp.gov.pl</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Urząd Zamówień Publicznych</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17A</cbc:StreetName>
+                           <cbc:Department>Krajowa Izba Odwoławcza</cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP 5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>REGON 010828091</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>22 4587801</cbc:Telephone>
+                           <cbc:Telefax>224587800</cbc:Telefax>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Luksemburg</cbc:StreetName>
+                           <cbc:CityName>Luksemburg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+35229291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.cleanperfectplus.pl/</cbc:WebsiteURI>
+                        <cbc:EndpointID>http://www.cleanperfectplus.pl</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Clean Perfect Plus Sp. z o. o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Ks. J. Chrościckiego 23</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-404</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 5223177637</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>REGON: 385482331</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>507230549</cbc:Telephone>
+                           <cbc:ElectronicMail>marketing@cleanperfectplus.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.roka.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>http://www.roka.pl</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">ROKA A.I. Kantorski Sp. Komandytowa</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Polna 14</cbc:StreetName>
+                           <cbc:CityName>Piotrków Trybunalski</cbc:CityName>
+                           <cbc:PostalZone>97-300</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL712</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP:7712563714</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>44 732-69-81</cbc:Telephone>
+                           <cbc:ElectronicMail>marketing@roka.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367411-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">399e9be9-6f6d-4d5d-92b9-ce16be99a437</cbc:ID>
+   <cbc:ContractFolderID>561526c0-7578-4467-92de-1e5ffe7fb5f8</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>15:08:08+02:00</cbc:IssueTime>
+   <cbc:VersionID>02</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>Prawo Zamówień Publicznych Dz. U. 2024 poz. 1320</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">Postępowanie o udzielenie zamówienia publicznego prowadzone jest w trybie przetargu nieograniczonego zgodnie z art. 132 – 139 ustawy z dnia 11 września 2019 r. - Prawo zamówień publicznych (t.j. Dz. U. z 2024 r. poz. 1320 ze zm.).</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">174483-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">BOR13.2610.01.2025</cbc:ID>
+      <cbc:Name languageID="POL">Usługa utrzymania porządku w lokalach Świętokrzyskiego Oddziału Regionalnego i podległych Biur Powiatowych oraz na zewnątrz budynków</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest wykonywanie usługi sprzątania na rzecz Zamawiającego, polegającej na:
+• utrzymaniu porządku i czystości biurowych powierzchni użytkowych placówek ARiMR w województwie świętokrzyskim;
+• utrzymaniu porządku i czystości na zewnątrz budynku na terenie placówek ARiMR w województwie świętokrzyskim;
+• utrzymaniu w czystości i pielęgnacji terenów zielonych wokół placówek ARiMR w województwie świętokrzyskim;
+• dostarczaniu do placówek ARiMR w województwie świętokrzyskim środków czyszczących, płynów myjących i innych środków higienicznych (takich jak mydła w płynie, płyny do mycia naczyń, gąbki, kostki toaletowe, odświeżacze powietrza, worki na śmieci, worki do niszczarek) oraz materiałów higieniczno-sanitarnych (ręczniki papierowe i papiery toaletowe) w ilościach w pełni zabezpieczających potrzeby prawidłowego funkcjonowania w obiektach Zamawiającego, oszacowanej na podstawie danych zawartych w załączniku nr 6 do SWZ
+Szczegółowy wykaz powierzchni i lokalizacji objętych usługą zawarty jest w Załączniku nr 1 do projektowanych postanowień umowy.
+Szczegółowy wykaz czynności i obowiązków Wykonawcy w ramach świadczonej usługi sprzątania określa Załącznik nr 2 do projektowanych postanowień umowy.
+Z przyczyn trudnych do przewidzenia powierzchnie objęte usługą mogą ulec zmianie. Zamawiający poinformuje pisemnie Wykonawcę o ewentualnych korektach nie później niż 15 dni przed dokonaniem zmiany, co skutkować będzie proporcjonalną zmianą wynagrodzenia przy zachowaniu stawek określonych w Załączniku nr 3 do projektowanych postanowień umowy – formularzu cenowym. Wykonawcy nie przysługują żadne roszczenia z tytułu rezygnacji przez Zamawiającego z wykonania części zamówionych usług.
+Sprzątanie pomieszczeń odbywać się będzie w dni robocze, w godzinach wskazanych w Załączniku nr 1 do projektowanych postanowień umowy.
+Wykonawca zobowiązany jest do sprzątania po bieżących remontach pomieszczeń (malowanie, przeróbki budowlane itp.) jako pracochłonność równoważną za okres trwania remontu i braku wykonywania usługi sprzątania w tym okresie.
+Wykonawca zobowiązany jest do wykonywania usług dodatkowych niewymienionych powyżej w sytuacjach awaryjnych (np. zalanie pomieszczeń), w ramach otrzymywanego miesięcznego wynagrodzenia.
+Wykonawca na podstawie art. 95 pzp wymaga by czynności codziennego utrzymania porządku były wykonywane przez osoby zatrudnione na umowę o pracę. Nie wymaga się zatrudnienia na umowę o pracę osób, które zostały zatrudnione na zastępstwo (np. za pracowników stale świadczących pracę podczas ich przebywania na urlopie lub zwolnieniu lekarskim).</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">O zamówienie mogą ubiegać się Wykonawcy, którzy:
+1.1. Nie podlegają wykluczeniu z postępowania;
+1.2. Spełniają warunki udziału w postępowaniu w zakresie zdolności technicznej lub zawodowej – Zamawiający uzna, że Wykonawca spełnia warunek udziału we wskazanym zakresie, jeżeli Wykonawca wykaże, że:
+1.2.1. posiada odpowiednią wiedzę i doświadczenie niezbędne do wykonania zamówienia: Zamawiający wymaga, aby wykonawcy w okresie trzech ostatnich lat przed upływem terminu składania ofert, a jeżeli okres prowadzenia działalności jest krótszy to w tym okresie, wykonywali należycie dla co najmniej 2 odbiorców usługę utrzymania porządku, na min. 2500 m2 powierzchni biurowych dla każdego odbiorcy – chodzi wyłącznie o powierzchnie sprzątane wewnątrz budynków;
+1.2.2. dysponuje potencjałem technicznym, umożliwiającym poprawne i terminowe wykonanie usługi a w szczególności zapewniają:
+a) co najmniej 15 szt. odkurzaczy przemysłowych do odkurzania na sucho (w tym do realizacji umowy niezbędne będzie posiadanie minimum 12 odkurzaczy kolumnowych ze szczotką walcową);
+b) co najmniej 1 odkurzacz z filtrem „HEPA” do odkurzania dokumentów,
+c) co najmniej 2 urządzenia typu np. FloorBoy lub równoważnymi do gruntownego czyszczenia wykładzin dywanowych,
+d) co najmniej 1 szorowarkę do czyszczenia posadzek twardych.
+2. Ocena spełniania ww. warunków dokonana zostanie w oparciu o informacje zawarte we właściwych dokumentach, wyszczególnionych w Rozdziale IX SWZ – z treści załączonych dokumentów musi wynikać jednoznacznie, iż ww. warunki Wykonawca spełnił.
+3. Wykonawca jest zobowiązany wykazać, że spełnia warunki udziału w postępowaniu i nie podlega wykluczeniu z postępowania – w przypadku wykonawców wspólnie ubiegających się o udzielenie zamówienia, brak podstaw wykluczenia musi wykazać każdy Wykonawca z osobna.
+4. Wykonawca może w celu potwierdzenia spełniania warunków udziału w postępowaniu, w stosownych sytuacjach oraz w odniesieniu do konkretnego zamówienia, lub jego części, polegać na zdolnościach technicznych lub zawodowych lub sytuacji finansowej lub ekonomicznej podmiotów udostępniających zasoby, niezależnie od charakteru prawnego łączących go z nim stosunków prawnych.
+5. Wykonawca, który polega na zdolnościach lub sytuacji podmiotów udostępniających zasoby, składa, wraz z ofertą, zobowiązanie podmiotu udostępniającego zasoby do oddania mu do dyspozycji niezbędnych zasobów na potrzeby realizacji danego zamówienia lub inny podmiotowy środek dowodowy potwierdzający, że wykonawca realizując zamówienie, będzie dysponował niezbędnymi zasobami tych podmiotów.
+6. Zobowiązanie podmiotu udostępniającego zasoby, potwierdza, że stosunek łączący wykonawcę z podmiotami udostępniającymi zasoby gwarantuje rzeczywisty dostęp do tych zasobów oraz określa w szczególności:
+1) zakres dostępnych wykonawcy zasobów podmiotu udostępniającego zasoby;
+2) sposób i okres udostępnienia wykonawcy i wykorzystania przez niego zasobów podmiotu udostępniającego te zasoby przy wykonywaniu zamówienia;
+3) czy i w jakim zakresie podmiot udostępniający zasoby, na zdolnościach którego wykonawca polega w odniesieniu do warunków udziału w postępowaniu dotyczących wykształcenia, kwalifikacji zawodowych lub doświadczenia, zrealizuje usługi, których wskazane zdolności dotyczą.
+7. W odniesieniu do warunków dotyczących wykształcenia, kwalifikacji zawodowych lub doświadczenia wykonawcy mogą polegać na zdolnościach podmiotów udostępniających zasoby, jeśli podmioty te wykonają usługi, do realizacji których te zdolności są wymagane.
+8. Zamawiający żąda od Wykonawcy, który polega na zdolnościach lub sytuacji innych podmiotów na zasadach określonych w art. 118 pzp przedstawienia w odniesieniu do tych podmiotów dokumentów wymienionych w Rozdziale IX SWZ.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="PLN">1273107.92</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90919200</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90911300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90611000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">39830000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">Szczegółowy wykaz powierzchni i lokalizacji objętych usługą zawarty jest w SWZ - załącznik nr 1 do projektowanych postanowień umowy.</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL721</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:FiscalLegislationDocumentReference>
+            <cbc:ID>generated_id</cbc:ID>
+         </cac:FiscalLegislationDocumentReference>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:Description languageID="POL">Nie dotyczy</cbc:Description>
+               <cbc:CalculationExpression languageID="POL">Cena-Szczegóły w SWZ</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">1. Przy wyborze oferty najkorzystniejszej Zamawiający będzie się kierował poniższymi kryteriami:
+1) kryterium „cena” (Pc) – 100%, wg poniższego wzoru:
+Pc = Cmin.Cb x 100 pkt,
+gdzie: Pc – oznacza ilość punktów oferty badanej w kryterium cena
+Cmin. – oznacza cenę najniższą spośród ważnych ofert
+Cb – oznacza ceną oferty badanej
+2. Za najkorzystniejszą zostanie uznana oferta, która uzyska największą liczbę punktów, obliczoną z dokładnością do dwóch miejsc po przecinku.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Wykonawcom, którzy mają lub mieli interes w uzyskaniu danego zamówienia oraz ponieśli lub mogą ponieść szkodę w wyniku naruszenia przez Zamawiającego przepisów pzp przysługują środki ochrony prawnej określone w dziale IX pzp.
+2. Odwołanie przysługuje na:
+1) niezgodną z przepisami pzp czynność zamawiającego, podjętą w postępowaniu o udzielenie zamówienia, w tym na projektowane postanowienie umowy;
+2) zaniechanie czynności w postępowaniu o udzielenie zamówienia, do której zamawiający był obowiązany na podstawie pzp.
+2. Odwołanie winno zawierać elementy wskazane w art. 516 ust. 1 pzp, w szczególności wskazanie czynności lub zaniechania czynności zamawiającego, której zarzuca się niezgodność z przepisami pzp.
+3. Odwołanie wnosi się do Prezesa Krajowej Izby Odwoławczej. Pisma w postępowaniu odwoławczym wnosi się w formie pisemnej albo w formie elektronicznej albo w postaci elektronicznej, z tym że odwołanie i przystąpienie do postępowania odwoławczego, wniesione w postaci elektronicznej, wymagają opatrzenia podpisem zaufanym.
+4. Odwołujący przekazuje Zamawiającemu odwołanie wniesione w formie elektronicznej albo postaci elektronicznej albo kopię tego odwołania, jeżeli zostało ono wniesione w formie pisemnej, przed upływem terminu do wniesienia odwołania w taki sposób, aby mógł on zapoznać się z jego treścią przed upływem tego terminu. Domniemywa się, że Zamawiający mógł zapoznać się z treścią odwołania przed upływem terminu do jego wniesienia, jeżeli przekazanie odpowiednio odwołania albo jego kopii nastąpiło przed upływem terminu do jego wniesienia przy użyciu środków komunikacji elektronicznej.
+6. Odwołanie wnosi się w terminie:
+1) 10 (dziesięciu) dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia – jeżeli zostały przesłane przy użyciu środków komunikacji elektronicznej;
+2) 15 (piętnastu) dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia – jeżeli zostały przekazana w inny sposób niż określony w pkt. 1);
+7. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie lub wobec treści dokumentów zamówienia wnosi się w terminie 10 (dziesięciu) dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej.
+8. Odwołanie w przypadkach innych niż określone w pkt. 6 i 7 wnosi się w terminie 10 (dziesięciu) dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.
+9. W pozostałym zakresie zastosowanie mają bezwzględnie obowiązujące przepisy działu IX pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">BOR13.2610.01.2025</cbc:ID>
+         <cbc:Name languageID="POL">Usługa utrzymania porządku w lokalach Świętokrzyskiego Oddziału Regionalnego i podległych Biur Powiatowych oraz na zewnątrz budynków</cbc:Name>
+         <cbc:Description languageID="POL">2. Przedmiotem zamówienia jest wykonywanie usługi sprzątania na rzecz Zamawiającego, polegającej na:
+• utrzymaniu porządku i czystości biurowych powierzchni użytkowych placówek ARiMR w województwie świętokrzyskim;
+• utrzymaniu porządku i czystości na zewnątrz budynku na terenie placówek ARiMR w województwie świętokrzyskim;
+• utrzymaniu w czystości i pielęgnacji terenów zielonych wokół placówek ARiMR w województwie świętokrzyskim;
+• dostarczaniu do placówek ARiMR w województwie świętokrzyskim środków czyszczących, płynów myjących i innych środków higienicznych (takich jak mydła w płynie, płyny do mycia naczyń, gąbki, kostki toaletowe, odświeżacze powietrza, worki na śmieci, worki do niszczarek) oraz materiałów higieniczno-sanitarnych (ręczniki papierowe i papiery toaletowe) w ilościach w pełni zabezpieczających potrzeby prawidłowego funkcjonowania w obiektach Zamawiającego, oszacowanej na podstawie danych zawartych w załączniku nr 6 do SWZ
+2.1 Szczegółowy wykaz powierzchni i lokalizacji objętych usługą zawarty jest w Załączniku nr 1 do projektowanych postanowień umowy.
+2.2 Szczegółowy wykaz czynności i obowiązków Wykonawcy w ramach świadczonej usługi sprzątania określa Załącznik nr 2 do projektowanych postanowień umowy.
+2.3 Z przyczyn trudnych do przewidzenia powierzchnie objęte usługą mogą ulec zmianie. Zamawiający poinformuje pisemnie Wykonawcę o ewentualnych korektach nie później niż 15 dni przed dokonaniem zmiany, co skutkować będzie proporcjonalną zmianą wynagrodzenia przy zachowaniu stawek określonych w Załączniku nr 3 do projektowanych postanowień umowy – formularzu cenowym. Wykonawcy nie przysługują żadne roszczenia z tytułu rezygnacji przez Zamawiającego z wykonania części zamówionych usług.
+2.4 Sprzątanie pomieszczeń odbywać się będzie w dni robocze, w godzinach wskazanych w Załączniku nr 1 do projektowanych postanowień umowy.
+2.5 Wykonawca zobowiązany jest do sprzątania po bieżących remontach pomieszczeń (malowanie, przeróbki budowlane itp.) jako pracochłonność równoważną za okres trwania remontu i braku wykonywania usługi sprzątania w tym okresie.
+2.6 Wykonawca zobowiązany jest do wykonywania usług dodatkowych niewymienionych powyżej w sytuacjach awaryjnych (np. zalanie pomieszczeń), w ramach otrzymywanego miesięcznego wynagrodzenia.
+2.7 Wykonawca na podstawie art. 95 pzp wymaga by czynności codziennego utrzymania porządku były wykonywane przez osoby zatrudnione na umowę o pracę. Nie wymaga się zatrudnienia na umowę o pracę osób, które zostały zatrudnione na zastępstwo (np. za pracowników stale świadczących pracę podczas ich przebywania na urlopie lub zwolnieniu lekarskim).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">1273107.92</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90910000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90911300</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90611000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">39830000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Biura ARiMR w miastach powiatowych woj. świętokrzyskiego</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-01Z</cbc:StartDate>
+            <cbc:EndDate>2026-12-31Z</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

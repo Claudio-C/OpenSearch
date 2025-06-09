@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns8="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:ns9="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <cbc:TotalAmount currencyID="CHF">3520736.45</cbc:TotalAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:HigherTenderAmount currencyID="CHF">3520736.45</cbc:HigherTenderAmount>
+                            <cbc:LowerTenderAmount currencyID="CHF">3520736.45</cbc:LowerTenderAmount>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+                            </efac:LotTender>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="CHF">3520736.45</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0010</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>6caffd0e-9f14-4f87-9915-5b968dc62376</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+                            <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+                            <efac:ContractReference>
+                                <cbc:ID>N/A</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0010</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">HBD - Amt für Hochbauten (AHB)</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Walchestrasse 33</cbc:StreetName>
+                                    <cbc:CityName>Zürich </cbc:CityName>
+                                    <cbc:PostalZone>8006</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH040</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>4b219e12-0787-4c18-9c98-d2b75f7f2df6</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41444122149</cbc:Telephone>
+                                    <cbc:ElectronicMail>AHB-Beschaffungswesen@zuerich.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.bvger.ch</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Bundesverwaltungsgericht</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postfach</cbc:StreetName>
+                                    <cbc:CityName>St. Gallen</cbc:CityName>
+                                    <cbc:PostalZone>9023</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH055</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>BVGER</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41584652626</cbc:Telephone>
+                                    <cbc:ElectronicMail>info@bvger.admin.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.simap.ch</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Simap.ch</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Holzikofenweg 36</cbc:StreetName>
+                                    <cbc:CityName>Bern</cbc:CityName>
+                                    <cbc:PostalZone>3003</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH021</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>CH001</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41584646388</cbc:Telephone>
+                                    <cbc:ElectronicMail>support@simap.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                            <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                            <efac:Company>
+                                <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">DE_Meier + Jäggi AG Zofingen</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Chorgasse 4</cbc:StreetName>
+                                    <cbc:CityName>Zofingen</cbc:CityName>
+                                    <cbc:PostalZone>4800</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH033</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>7058ad8d-11e6-44f3-966b-9a0ce7ce6c77</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366755-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">da0ac296-08b3-4d89-bf39-e8c1971f3056</cbc:ID>
+    <cbc:ContractFolderID>fd871ded-fc1d-4dfc-9fe9-ae77b41ac9d2</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>02:26:01+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:ServiceProviderParty>
+                <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+                <cac:Party>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:Party>
+            </cac:ServiceProviderParty>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="DEU">BAV 80720 Schulanlage Tüffenwies</cbc:Name>
+        <cbc:Description languageID="DEU">Neubau
+BKP 201.1 Baugrube / Erdarbeiten</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="DEU">Begründung des Zuschlagentscheides
+Die Zuschlagsempfängerin hat das zweitgünstigste Angebot eingereicht. Im Vergleich zum günstigsten Anbietenden wurden die Referenzen der Zuschlagsempfängerin besser bewertet. Zusammen mit dem geringfügig höheren Angebotspreis hat die Zuschlagsempfängerin in der Gesamtbeurteilung der Zuschlagskriterien deshalb die höchste Punktzahl erreicht.</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45210000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cbc:CalculationExpression languageID="DEU">Die Zuschlagskriterien wurden den Anbietern mit der Ausschreibung zugestellt.</cbc:CalculationExpression>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Zuschlagskriterien</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Rechtsmittelbelehrung
+Gegen diese Verfügung kann innert 20 Tagen beim Verwaltungsgericht des Kantons Zürich, Postfach, 8090 Zürich, schriftlich Beschwerde eingereicht werden. Der Fristenlauf beginnt mit der Publikation. Die Beschwerdeschrift ist im Doppel einzureichen, sie muss einen Antrag und dessen Begründung enthalten. Die angefochtene Verfügung ist beizulegen. Die angerufenen Beweismittel sind genau zu bezeichnen und soweit möglich beizulegen.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:Name languageID="DEU">BAV 80720 Schulanlage Tüffenwies</cbc:Name>
+            <cbc:Description languageID="DEU">Neubau
+BKP 201.1 Baugrube / Erdarbeiten</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">45210000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="DEU">Bernerstrasse Nord, 8064 Zürich</cbc:Description>
+                <cac:Address>
+                    <cbc:Region>anyw-cou</cbc:Region>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DurationMeasure unitCode="DAY">1</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

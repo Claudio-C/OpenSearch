@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://ukm.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Universitätsklinikum Münster</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Albert-Schweitzer-Campus 1, Geb. D5</cbc:StreetName>
+									<cbc:CityName>Münster</cbc:CityName>
+									<cbc:PostalZone>48149</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA33</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>05515-99003-03</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 0000000000</cbc:Telephone>
+									<cbc:Telefax>+49 2518346660</cbc:Telefax>
+									<cbc:ElectronicMail>vergabe.ukm.im@ukmuenster.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://ukm-im.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">UKM Infrastruktur Management GmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Himmelreichallee 40</cbc:StreetName>
+									<cbc:CityName>Münster</cbc:CityName>
+									<cbc:PostalZone>48149</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA33</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>_05515-39002-71</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 0000000000</cbc:Telephone>
+									<cbc:Telefax>+49 2518346660</cbc:Telefax>
+									<cbc:ElectronicMail>vergabe.ukm.im@ukmuenster.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://bezreg-muenster.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer Westfalen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Albrecht-Thaer-Straße 9</cbc:StreetName>
+									<cbc:CityName>Münster</cbc:CityName>
+									<cbc:PostalZone>48147</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA33</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>05515-03004-07</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 2514110</cbc:Telephone>
+									<cbc:Telefax>+49 2514112165</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@bezreg-muenster.nrw.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366340-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">bc29108b-93bd-4070-9d29-17fbca76d319</cbc:ID>
+	<cbc:ContractFolderID>e59f5d23-86c7-4878-9e4f-0ad16e1f63e8</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+	<cbc:IssueTime>08:43:35+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+			<cbc:Description languageID="DEU">Soweit die Auftragssumme mindestens 250.000 Euro ohneUmsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von fünf Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten. 
+
+Die Sicherheit für Mängelansprüche beträgt drei Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme).</cbc:Description>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vob-a-eu</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung, dass für das Unternehmen keine Ausschlussgründe gemäß § 6 EU VOB/A vorliegen. Die Eigenerklärung kann durch Eintragung in den PQ-Verein oder durch Vorlage der den Vergabeunterlagen beiliegenden Eigenerklärung zur Eignung (VHB 124) erbracht werden.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung, dass für das Unternehmen keine Ausschlussgründe gemäß § 6 EU VOB/A vorliegen. Die Eigenerklärung kann durch Eintragung in den PQ-Verein oder durch Vorlage der den Vergabeunterlagen beiliegenden Eigenerklärung zur Eignung (VHB 124) erbracht werden.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung, dass für das Unternehmen keine Ausschlussgründe gemäß § 6 EU VOB/A vorliegen. Die Eigenerklärung kann durch Eintragung in den PQ-Verein oder durch Vorlage der den Vergabeunterlagen beiliegenden Eigenerklärung zur Eignung (VHB 124) erbracht werden.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung, dass für das Unternehmen keine Ausschlussgründe gemäß § 6 EU VOB/A vorliegen. Die Eigenerklärung kann durch Eintragung in den PQ-Verein oder durch Vorlage der den Vergabeunterlagen beiliegenden Eigenerklärung zur Eignung (VHB 124) erbracht werden.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung, dass für das Unternehmen keine Ausschlussgründe gemäß § 6 EU VOB/A vorliegen. Die Eigenerklärung kann durch Eintragung in den PQ-Verein oder durch Vorlage der den Vergabeunterlagen beiliegenden Eigenerklärung zur Eignung (VHB 124) erbracht werden.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Eigenerklärung, dass für das Unternehmen keine Ausschlussgründe gemäß § 6 EU VOB/A vorliegen. Verweis PQ oder VHB 124</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Der Bewerber/Bieter hat zum Nachweis eine Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen sowie eine Freistellungsbescheinigung nach § 48b EStG einzureichen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-ssc</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Der Bieter/Bewerber hat zum Nachweis, soweit der Betrieb beitragspflichtig ist, eine Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse einzureichen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-env-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-soc-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Angaben zur Zahlung von Steuern, Abgaben und Beiträgen zur Sozialversicherung Ich/Wir erkläre(n), dass ich/wir meine/unsere Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt habe/haben. Falls mein/unser Angebot/Teilnahmeantrag in die engere Wahl kommt, werde ich/werden wir eine Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse2, eine Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen3 sowie eine Freistellungsbescheinigung nach § 48b EStG vorlegen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-lab-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Angabe zu Insolvenzverfahren und Liquidation: Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet. Die Eigenerklärung kann durch Eintragung in den PQ-Verein oder durch Vorlage der den Vergabeunterlagen beiliegenden Eigenerklärung zur Eignung (VHB 124) erbracht werden.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Angabe zu Insolvenzverfahren und Liquidation: Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet. Die Eigenerklärung kann durch Eintragung in den PQ-Verein oder durch Vorlage der den Vergabeunterlagen beiliegenden Eigenerklärung zur Eignung (VHB 124) erbracht werden.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-as-susp</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-other</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Angabe zu Insolvenzverfahren und Liquidation: Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet. Die Eigenerklärung kann durch Eintragung in den PQ-Verein oder durch Vorlage der den Vergabeunterlagen beiliegenden Eigenerklärung zur Eignung (VHB 124) erbracht werden.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Angabe, dass nachweislich keine schwere Verfehlung begangen wurde, die die Zuverlässigkeit als Bewerber oder Bieter in Frage stellt Eigenerklärung, dass für das Unternehmen keine Ausschlussgründe gemäß § 6e EU VOB/A vorliegen. Eigenerklärung, dass in den letzten zwei Jahren nicht aufgrund eines Verstoßes gegen Vorschriften, der zu einem Eintrag im Gewerbezentralregister geführt hat, mit einer Freiheitsstrafe von mehr als drei Monaten oder einer Geldstrafe von mehr als 90 Tagessätzen oder einer Geldbuße von mehr als 2.500 Euro belegt worden bin/sind. Eigenerklärung, dass für das Unternehmen ein Ausschlussgrund gemäß § 6e EU Absatz 6 VOB/A vorliegt. Eigenerklärung, dass zwar für das Unternehmen ein Ausschlussgrund gemäß § 6e EU Absatz 1 bis 4 VOB/A vorliegt, jedoch für das Unternehmen Maßnahmen zur Selbstreinigung ergriffen wurden, durch die die Zuverlässigkeit wieder hergestellt wurde. Ab einer Auftragssumme von 30.000 Euro wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Gewerbezentralregister gem. § 150a GewO beim Bundesamt für Justiz anfordern. Die Eigenerklärung kann durch Eintragung in den PQ-Verein oder durch Vorlage der den Vergabeunterlagen beiliegenden Eigenerklärung zur Eignung (VHB 124) erbracht werden</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-distortion</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-partic-confl</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-prep-confl</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-sanction</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misrepresent</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0002</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Die Vergabestelle weist nachfolgend auf die zulässigen Rechtsbehelfe und durch einen Bieter einzuhaltenden Fristen hin. Statthafte Rechtsbehelfe sind gem. §§ 160 ff. GWB die Rüge sowie der Antrag auf Einleitung eines Nachprüfungsverfahrens vor der zuständigen Vergabekammer.
+
+Eine Rüge ist an die in Ziffer I.1) genannte Vergabestelle zu richten.
+
+Die zuständige Stelle für ein Nachprüfungsverfahren ist in Ziffer VI.4.1) genannt. Statthafter Rechtsbehelf ist gem. § 160 GWB der Antrag auf Einleitung eines Nachprüfungsverfahrens vor der zuständigen Vergabekammer (Ziff. VI.4.1). Der Antrag ist unzulässig, soweit:
+
+1) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 GWB bleibt unberührt,
+
+2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+
+3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+
+4) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.
+
+Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 GWB Nummer 2. § 134 Absatz 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.evergabe.nrw.de/VMPSatellite/notice/CXS0Y6XYTCBA0ZBS</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">657-G137</cbc:ID>
+		<cbc:Name languageID="DEU">Universitätsklinikum Münster - 7610_16_657 Knochenmarktransplantationszentrum - G137 Sicherheitswerkbänke Ersteinrichtung</cbc:Name>
+		<cbc:Description languageID="DEU">Sicherheitswerkbänke Ersteinrichtung</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXS0Y6XYTCBA0ZBS
+
+
+Es werden folgende Zuschlagskriterien mit entsprechender Wertung festgelegt: 
+1. Preis 40 %
+2. Qualität 40 % 
+3. Wartung 20 %
+
+Weitere Details entnehmen Sie der beiliegenden Bewertungsmatrix.</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45215140</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">39151200</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Gebäude 7610 Knochenmarktransplantationszentrum
+Domagkstraße 9a
+48149 Münster</cbc:Description>
+			<cac:Address>
+				<cbc:StreetName>Albert-Schweitzer-Campus 1, Geb. D5</cbc:StreetName>
+				<cbc:CityName>Münster</cbc:CityName>
+				<cbc:PostalZone>48149</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEA33</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eignungsnachweise zur Berufsausübung (Mit dem Angebot; Mittels Eigenerklärung): Der Bewerber/Bieter hat zum Nachweis der Befähigung und Erlaubnis zur Berufsausübung vorzulegen:
+Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer,
+qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eignungsnachweise zur wirtschaftlichen und finanziellen leistungsfähigkeit (Mit dem Angebot; Mittels Eigenerklärung): Der Bewerber/Bieter hat eine Erklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträge im Formblatt - VVB 124 - Eigenerklärung zur Eignung - anzugeben.
+Auf Anforderung ist eine Bestätigung der Umsätze  eines vereidigten Wirtschaftsprüfers/Steuerberaters vorzulegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-work</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Technische und berufliche Leistungsfähigkeit (Mit dem Angebot; Mittels Eigenerklärung): Der Bewerber/Bieter hat Referenzen über die Ausführung von vergleichbaren Leistungen aus den letzten bis zu fünf abgeschlossenen Kalenderjahren nachzuweisen mit folgenden Angaben:
+Ansprechpartner; Art der ausgeführten Leistung; Auftragssumme; Ausführungszeitraum; stichwortartige Benennung des mit eigenem Personal ausgeführten maßgeblichen Leistungsumfanges einschl. Angabe der ausgeführten Mengen; Zahl der hierfür durchschnittlich eingesetzten Arbeitnehmer; stichwortartige Beschreibung der besonderen technischen und gerätespezifischen Anforderungen bzw. (bei Komplettleistung) Kurzbeschreibung der Baumaßnahme einschließlich eventueller Besonderheiten der Ausführung; Angabe zur Art der Baumaßnahme (Neubau, Umbau, Denkmal); Angabe zur vertraglichen Bindung (Hauptauftragnehmer, ARGE-Partner, Nachunternehmer); ggf. Angabe der Gewerke, die mit eigenem Leitungspersonal koordiniert wurden; Bestätigung des Auftraggebers über die vertragsgemäße Ausführung der Leistung.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Technische und berufliche Leistungsfähigkeit (Mit dem Angebot; Mittels Eigenerklärung): Der Bewerber/Bieter hat nachzuweisen, dass die für die Leistungserbringung erforderliche Arbeitskräfte zur Verfügung stehen.
+Als Nachweis sind Angaben zur Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischem Leitungspersonal anzugeben.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+				<cbc:Description languageID="DEU">Soweit die Auftragssumme mindestens 250.000 Euro ohneUmsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von fünf Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten. 
+
+Die Sicherheit für Mängelansprüche beträgt drei Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme).</cbc:Description>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.evergabe.nrw.de/VMPSatellite/notice/CXS0Y6XYTCBA0ZBS/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Fehlende Unterlagen, deren Vorlagen mit Teilnahmeantrag/Angebotsabgabe gefordert war, werden nachgefordert.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Es gilt das Tariftreue- und Vergabegesetz des Landes Nordrhein-Westfalen (TVgG NRW).
+Die "Besonderen Vertragsbedingungen des Landes Nordrhein-Westfalen zur Einhaltung des Tariftreue- und Vergabegesetzes Nordrhein-Westfalen"  liegen den Vergabeunterlagen bei und werden Vertragsbestandteil.
+
+Russland-Sanktionen im Bereich der Vergabe öffentlicher Aufträge vom 08.04.2022
+Bezug: 5. Sanktionspaket, Art. 5k der Verordnung (EU) 2022/576
+Den Vergabeunterlagen liegt eine Eigenerklärung bei, die ausgefüllt mit dem Angebot einzureichen ist.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.evergabe.nrw.de/VMPSatellite/notice/CXS0Y6XYTCBA0ZBS</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAY">59</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Die Vergabestelle weist nachfolgend auf die zulässigen Rechtsbehelfe und durch einen Bieter einzuhaltenden Fristen hin. Statthafte Rechtsbehelfe sind gem. §§ 160 ff. GWB die Rüge sowie der Antrag auf Einleitung eines Nachprüfungsverfahrens vor der zuständigen Vergabekammer.
+
+Eine Rüge ist an die in Ziffer I.1) genannte Vergabestelle zu richten.
+
+Die zuständige Stelle für ein Nachprüfungsverfahren ist in Ziffer VI.4.1) genannt. Statthafter Rechtsbehelf ist gem. § 160 GWB der Antrag auf Einleitung eines Nachprüfungsverfahrens vor der zuständigen Vergabekammer (Ziff. VI.4.1). Der Antrag ist unzulässig, soweit:
+
+1) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 GWB bleibt unberührt,
+
+2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+
+3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+
+4) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.
+
+Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 GWB Nummer 2. § 134 Absatz 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.evergabe.nrw.de/VMPSatellite/notice/CXS0Y6XYTCBA0ZBS</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+				<cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>11:00:00+02:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">657-G137</cbc:ID>
+			<cbc:Name languageID="DEU">Universitätsklinikum Münster - 7610_16_657 Knochenmarktransplantationszentrum - G137 Sicherheitswerkbänke Ersteinrichtung</cbc:Name>
+			<cbc:Description languageID="DEU">Bei den hier ausgeschriebenen Leistungen handelt es sich um eine Teilleistung für den Bau der Erweiterung des vorhandenen KMT-Gebäudes. Der neu zu errichtende Baukörper wird auf der Nordseite des vorhandenen Gebäudes als komplett vorgestellter Gebäudeteil errichtet. Im Anschluss werden die Übergänge zu dem vorhandenen Gebäude durch Durchbrüche hergestellt und die Anpassungen im Altbau vorgenommen. Die spätere Nutzung ist durch die KMT geprägt. In den Obergeschossen 1 und 3 befindet sich je eine Bettenstation für die entsprechend immunsupprimierten Patienten. Das Obergeschoss 2 ist ein ausschließliches Technikgeschoss.
+Im Erdgeschoss befindet sich die Ambulanz der KMT und die Zytostatikaherstellung. Hier wird unter GMP-Laborbedingungen eine Zytostatikaherstellung errichtet mit diesbezüglich extrem hohen Anforderungen. 
+Für die Zytostatika erfolgt die o.g. Ausschreibung der Sicherheitswerkbänke. 
+Im 1. Untergeschoss befinden sich weitere Technikräume, Umkleiden und Büros. Im 2. Untergeschoss wird im Wesentlichen eine Trasse für den automatischen Warentransport (AWT) ausgebildet.
+
+1 Stück Sicherheitswerkbank für orale CMR, 130 cm breit, inkl. Müllabwurf, 
+Ausführung gemäß Leitbeschreibung.
+
+1 Stück Sicherheitswerkbank gentechnische AM sowie biologische AM (Klasse 2A), 195 cm breit, 
+Ausführung gemäß Leitbeschreibung.
+
+2 Stück Sicherheitswerkbank für Zytostatika (Klasse 2A), 195 cm breit, 
+Ausführung gemäß Leitbeschreibung.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders auch geeignet für:selbst#</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45215140</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">39151200</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Gebäude 7610 Knochenmarktransplantationszentrum
+Domagkstraße 9a
+48149 Münster</cbc:Description>
+				<cac:Address>
+					<cbc:StreetName>Albert-Schweitzer-Campus 1, Geb. D5</cbc:StreetName>
+					<cbc:CityName>Münster</cbc:CityName>
+					<cbc:PostalZone>48149</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEA33</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

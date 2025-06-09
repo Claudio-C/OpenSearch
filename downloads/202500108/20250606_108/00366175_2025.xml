@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">269068.84</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efbc:DPSTerminationIndicator>false</efbc:DPSTerminationIndicator>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">269068.84</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>CON-0001</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.vermoegenundbau-bw.de/ueber-uns/standorte/amt-tuebingen</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vermögen und Bau Baden-Württemberg, Amt Tübingen</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Schnarrenbergstraße 1</cbc:StreetName>
+                           <cbc:CityName>Tübingen</cbc:CityName>
+                           <cbc:PostalZone>72076</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>08-A5418-95</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 7071 2979-012</cbc:Telephone>
+                           <cbc:Telefax>+49 7071-29-2911</cbc:Telefax>
+                           <cbc:ElectronicMail>Vergabestelle.amttue@vbv.bwl.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer Baden-Württemberg im Regierungspräsidium Karlsruhe</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Durlacher Allee 100</cbc:StreetName>
+                           <cbc:CityName>Karlsruhe</cbc:CityName>
+                           <cbc:PostalZone>76137</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE122</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>08-A9866-40</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 721926-0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer@rpk.bwl.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.vermoegenundbau-bw.de/ueber-uns/standorte/amt-tuebingen</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vermögen und Bau Baden-Württemberg Amt Tübingen</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Schnarrenbergstraße 1</cbc:StreetName>
+                           <cbc:CityName>Tübingen</cbc:CityName>
+                           <cbc:PostalZone>72076</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE111</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>---</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 7071 2979-012</cbc:Telephone>
+                           <cbc:Telefax>+49 7071-29-2911</cbc:Telefax>
+                           <cbc:ElectronicMail>Vergabestelle.amttue@vbv.bwl.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Stefan Fromm Landschaftsarchitekten</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Breitwasenring 2</cbc:StreetName>
+                           <cbc:CityName>Dettenhausen</cbc:CityName>
+                           <cbc:PostalZone>72135</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE313340751</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 71577219310</cbc:Telephone>
+                           <cbc:Telefax>+49 71577219310</cbc:Telefax>
+                           <cbc:ElectronicMail>info@fromm-landschaftsarchitekten.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366175-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">afedc017-c32d-4cb0-aee2-afb84e8d4217</cbc:ID>
+   <cbc:ContractFolderID>2cdf737a-9f6b-4b4a-97a0-ad29cd30372f</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>16:09:23+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cbc:TerminatedIndicator>false</cbc:TerminatedIndicator>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>24-86673</cbc:ID>
+      <cbc:Name languageID="DEU">Architektenleistungen nach Teil 3 Abschnitt 2 HOAI</cbc:Name>
+      <cbc:Description languageID="DEU">Campusplatz, 72074 Tübingen,  Tübingen, Uni, Tal, Campusplatz,  Architektenleistungen nach Teil 3 Abschnitt 2 HOAI.  Der Campusplatz Uni Tal soll den Raum zwischen der Hölderlinstraße, der Sigwartstraße, der Nauklerstraße und der Gmelinstraße umfassen, in dem sich die historische Alte Physik (Gmelinstr. 6) befindet. Die Gebäude neben der Alten Physik, die tba-Baracken, werden abgebrochen. Das Uniradio könnte umgenutzt oder rückgebaut werden. Der erhaltenswerte Baumbestand ist in die Planung einzubeziehen. Es soll ein Platz mit hoher Aufenthaltsqualität entstehen, der eine Anbindung an die umliegenden Gebäude und Aufenthaltsräume ermöglicht und mit diesen eine gemeinsame Formensprache bildet.  In einem Ideenteil werden die beiden angrenzenden öffentlichen Straßenbereiche der Sigwartstraße und Nauklerstraße bearbeitet.  Ausgeschrieben ist ein Verhandlungsverfahren mit Teilnahmewettbewerb und Lösungsvorschlag. Für die Kostengruppe 500 sind 2 Mio. € -brutto- vorgesehen. Der Campusplatz Uni Tal soll bis zum 550-jährigen Jubiläum der Universität im Jahr 2027 realisiert sein.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Die Teilnahmeanträge sind mit dem vom Auftraggeber vorgegebenen Teilnahmeantrag  (abrufbar unter der oben genannten Internetadresse) und den geforderten Erklärungen und Nachweisen zwingend innerhalb der Bewerbungsfrist in Textform über die Vergabeplattform einzureichen.
+
+Die den Vergabeunterlagen beiliegende Eigenerklärung bezüglich eventueller Verbindungen mit Russland ist zwingend auszufüllen und mit dem Teilnahmeantrag einzureichen. Liegt die Eigenerklärung nicht vor, kann dies zum Ausschluss aus dem Verfahren führen. 
+
+Bewerbungen in Papierform, per Telefon, Telefax oder E-Mail sind nicht zugelassen. 
+
+Fehlende Unterlagen werden nicht nachgefordert und führen zum Ausschluss aus dem Verfahren.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">260000.00</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71222000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Schnarrenbergstraße 1</cbc:StreetName>
+            <cbc:CityName>Tübingen</cbc:CityName>
+            <cbc:PostalZone>72076</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Tübingen</cbc:CityName>
+            <cbc:PostalZone>72074</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>50.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualifikation und Erfahrung des mit der Ausführung des Auftrags betrauten Personals sowie deren Auslastung und Verfügbarkeit</cbc:Name>
+                  <cbc:Description languageID="DEU">Berufserfahrung, Fachliche Qualifikation, Soziale Interaktion im Team, Auslastung und Verfügbarkeit</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Projektabwicklung</cbc:Name>
+                  <cbc:Description languageID="DEU">Herangehensweise an die gestellte Aufgabe anhand der Präsentation von maximal zwei Referenzobjekten 5																		 ,</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Honorar</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Architektenleistungen nach Teil 3 Abschnitt 2 HOAI</cbc:Name>
+         <cbc:Description languageID="DEU">Beauftragt werden Objektplanungsleistungen für Freianlagen nach Teil 3 Abschnitt 2 HOAI, Leistungsphasen 2 bis 8, sowie  Besondere Leistungen.
+
+Die Bewerbung hat mit dem vom Auftraggeber vorgegebenen Teilnahmeantrag zu erfolgen. Der Teilnahmeantrag ist abrufbar unter der oben genannten Internetadresse.
+
+Bieter sowie deren Nach- und Verleihunternehmer haben mit Angebotsabgabe die einschlägigen Verpflichtungserklärungen nach § 5 LTMG, einsehbar unter ''https://rp.baden-wuerttemberg.de/themen/wirtschaft/tariftreue/seiten/mustererklaerungen/'', abzugeben.
+
+Die Arbeitsmittel Dokumentation Pläne und Daten sind zu beachten. Sie stehen unter folgendem Link zur Verfügung: https://www.vbv-bw.de/service/planungshilfen
+
+Dieses Verfahren wird unter der Vergabenummer 24-86673 durchgeführt. (Bei Rückfragen bitte angeben).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Beschränkung der Zahl der Bewerber, die zur Angebotsabgabe bzw. Teilnahme aufgefordert werden: Geplante Mindestzahl: 3 , Höchstzahl: 5.</cbc:Note>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">269593.84</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71222000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Schnarrenbergstraße 1</cbc:StreetName>
+               <cbc:CityName>Tübingen</cbc:CityName>
+               <cbc:PostalZone>72076</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Tübingen</cbc:CityName>
+               <cbc:PostalZone>72074</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Die Leistungen werden stufenweise beauftragt.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-05+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>12:41:12+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="NOK">2500000</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Tilbud 1</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              
+              <cbc:Title languageID="ENG">Cabinets for fluids and active supply from scan module</cbc:Title>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <efac:ContractReference>
+                <cbc:ID>Avtale</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">25</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.sykehusinnkjop.no</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">SYKEHUSINNKJØP HF</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Postboks 40</cbc:StreetName>
+                  <cbc:CityName>VADSØ</cbc:CityName>
+                  <cbc:PostalZone>9811</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO073</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">916879067</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Postmottak Sykehusinnkjøp</cbc:Name>
+                  <cbc:Telephone>+47 78950700</cbc:Telephone>
+                  <cbc:ElectronicMail>post@sykehusinnkjop.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Scan Modul b.v</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Skive</cbc:CityName>
+                  <cbc:PostalZone>7800</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">DK041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">DNK</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">99 421 515</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Indre og Østre Finnmark tingrett</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Vadsø</cbc:CityName>
+                  <cbc:PostalZone>9811</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO073</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">926722840</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366000-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">4dbd6f3b-b079-412a-927f-daa657b651b4</cbc:ID>
+  <cbc:ContractFolderID>71f6638a-ecbf-4054-b5dd-a7c3921c2b52</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+00:00</cbc:IssueDate>
+  <cbc:IssueTime>12:29:12+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="dir-awa-pre">veat</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+  
+  <cac:ContractingParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>Anskaffelsesforskriften</cbc:ID>
+      
+      <cbc:DocumentDescription languageID="ENG">§13-4 b) 2</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="direct-award-justification">existing</cbc:ProcessReasonCode>
+      
+      <cbc:ProcessReason languageID="ENG">It must be the same supplier/same type of cabinets that have already been installed in the new building and where the cupboards shall function together with the existing framework agreement on consumables for this type of cabinet. This applies to products from the Scan Module that only have one supplier and where we deem that the procurement regulations § 13-4 b) 2 will be used.  
+In addition it is urgent to have the cabinets delivered and assembled and filled in, as it must be delivered and installed well before the start of the new hospital in Stavanger and at the latest by 26 September 2025.</cbc:ProcessReason>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">2025/50198</cbc:ID>
+    
+    <cbc:Name languageID="ENG">Intention notice: Cabinets for fluids and active supply to Helse Stavanger</cbc:Name>
+    
+    <cbc:Description languageID="ENG">Sykehusinnkjøp intends, on behalf of Helse Stavanger, to enter into an agreement with Scan Module for the procurement of cupboards for fluid and active supply.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">33100000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">33192300</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">2025/50198</cbc:ID>
+      
+      <cbc:Name languageID="ENG">Intention notice: Cabinets for fluids and active supply to Helse Stavanger</cbc:Name>
+      
+      <cbc:Description languageID="ENG">Sykehusinnkjøp intends, on behalf of Helse Stavanger, to enter into an agreement with Scan Module for the procurement of cupboards for fluid and active supply.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">33100000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">33192300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

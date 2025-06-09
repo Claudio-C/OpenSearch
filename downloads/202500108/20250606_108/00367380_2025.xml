@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">941521.19</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:HigherTenderAmount currencyID="PLN">1017622.32</cbc:HigherTenderAmount>
+                     <cbc:LowerTenderAmount currencyID="PLN">941521.19</cbc:LowerTenderAmount>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <cac:FinancingParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0014</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:FinancingParty>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">941521.19</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Oferta 1</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-04-28+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-12+02:00</cbc:IssueDate>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0014</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>ZP.272.06.2025</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>UNIMOT ENRGIA I GAZ SP. Z O.O.</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0015</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://enmedia.org.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Enmedia Aleksandra Adamska</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Hetmańska 26/3</cbc:StreetName>
+                           <cbc:CityName>Poznań</cbc:CityName>
+                           <cbc:PostalZone>60-252</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL415</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>7821016514</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>61 448 79 33</cbc:Telephone>
+                           <cbc:ElectronicMail>biuro@enmedia.org.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0013</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:Department>Sekretariat Biura Odwołań</cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-678</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48224587800</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.starostwo.czluchow.org.pl/</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://platformazakupowa.pl/transakcja/1077130</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0014</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">POWIAT CZŁUCHOWSKI</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>aleja Wojska Polskiego 1</cbc:StreetName>
+                           <cbc:Department>Starostwo Powiatowe w Człuchowie</cbc:Department>
+                           <cbc:CityName>Człuchów</cbc:CityName>
+                           <cbc:PostalZone>77-300</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL637</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>770979660</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Wydział Zamówień Publicznych</cbc:Name>
+                           <cbc:Telephone>+48 59 83 43461</cbc:Telephone>
+                           <cbc:ElectronicMail>przetargi@czluchow.org.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.unimot.pl/</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://www.unimot.pl/kontakt</cbc:EndpointID>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0015</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">UNIMOT Energia i Gaz Sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Aleje Jerozolimskie 142B</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-305</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 9730421440</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 77 461 65 48</cbc:Telephone>
+                           <cbc:ElectronicMail>up@unimot.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367380-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">ef4f476e-ddad-4064-ada7-96f93c487afb</cbc:ID>
+   <cbc:ContractFolderID>6ff5975f-ca5a-4531-a55d-20508e8fd51c</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>06:53:28Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06Z</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://platformazakupowa.pl/transakcja/1077130</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0014</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">165650-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">ZP.272.06.2025</cbc:ID>
+      <cbc:Name languageID="POL">,,Kompleksowa dostawa gazu ziemnego wysokometanowego (grupa E) dla Powiatu Człuchowskiego i jego jednostek organizacyjnych  na okres od 01.06.2025 do 31.05.2026"</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest kompleksowa dostawa gazu ziemnego wysokometanowego (grupa E) dla punktu/punków poboru gazu (PPG) wg załącznika nr 1 do SWZ - dostawa paliwa gazowego wraz z usługą dystrybucji do obiektów zamawiających,  o maksymalnej wielkości zapotrzebowania na paliwo 2 894 947 kWh (zamówienie podstawowe), w tym   paliwo gazowe rozliczane wg cen taryfowych w wysokości: 2 465 530 kWh i rozliczane wg cen konkurencyjnych w wysokości: 429 417 kWh.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">09123000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">65210000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">1. Zamawiający zgodnie z art. 139 Pzp, przewiduje tzw. „procedurę odwróconą”, tj. najpierw dokona badania i oceny ofert, a następnie dokona kwalifikacji podmiotowej wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełniania warunków udziału w postępowaniu. 
+2.Podstawy wykluczenia, o których mowa w art. 108 ust. 1 oraz w art. 7 ust. 1 ustawy z dnia z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego  i  w art.  5k   rozporządzenia (UE) nr 833/2014  z dnia 31 lipca 2014 r. dotyczące środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie.
+3. Informacja o wykonawcach, podwykonawcach, udostępnienie zasobów zawarta jest w Dziale 8 SWZ. 
+4. Informacja o podmiotowych środkach dowodowych zawarta jest w Dziale 9 SWZ. 
+5. Informacja o dokumentach składanych przez podmioty zagraniczne znajduje się w Dziale 9 ust. 9.9 SWZ. 
+6. Informacja o środkach komunikacji elektronicznej, przy użyciu których Zamawiający będzie komunikował się z wykonawcami oraz informacja o wymaganiach technicznych oraz organizacyjnych sporządzania, wysyłania i odbierania korespondencji elektronicznej –
+szczegółowy opis zawarty jest w Dziale 10 SWZ. 
+7. W przypadku złożenia przez wykonawców dokumentów zawierających dane w walutach innych niż PLN, dane finansowe zostaną przeliczone według średniego kursu Narodowego Banku Polskiego (NBP) z dnia opublikowania ogłoszenia o zamówieniu w Dz.Urz.UE. Te same zasady zamawiający przyjmie przy przeliczeniu wszelkich innych danych finansowych w walucie. 
+8. Wykonawca, dołącza do oferty oświadczenia, o których mowa w art. 125 ust. 1 Pzp, na formularzu JEDZ oraz oświadczenie w zakresie art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa
+narodowego i art. 5k rozporządzenia nr 833/2014 z dnia 31 lipca 2014 r. dotyczące środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie. Zaleca się, aby skorzystać ze wzoru stanowiącego załącznik nr 4, 4A i 4B do SWZ- szczegółowe
+informacje dotyczące dokumentów które należy złożyć wraz z formularzem ofertowym znajdują się w SWZ pkt 9.14. 
+9. Informacja o ochronie danych osobowych zawarta jest w Dziale 35 SWZ.</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL637</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">1. Przy wyborze najkorzystniejszej oferty zamawiający będzie się kierował kryterium ceny oferty brutto za realizację przedmiotu zamówienia obliczonej przez wykonawcę zgodnie zobowiązującymi przepisami prawa, zasadami określonymi w Rozdziale 16 SWZ i podanej w formularzu ofertowym (wzór – wg załącznika  nr 3 do SWZ). Łączna cena oferty brutto za realizację przedmiotu zamówienia – 100,00 %.
+2. Oferty oceniane będą punktowo. Maksymalna ilość punktów, jaką po uwzględnieniu wagi może osiągnąć oferta wynosi 100,00 pkt równa jest określonej wadze kryterium w %. Przyjmuje się, że 1,00% = 1,00 punkt i tak zostanie przeliczona liczba punktów w przyjętym kryterium. 
+3. Uzyskana liczba punktów w ramach kryterium zaokrąglana będzie do drugiego miejsca po przecinku - jeżeli trzecia cyfra po przecinku jest mniejsza od 5 wynik zostanie zaokrąglony w dół, a jeżeli cyfra jest równa lub większa od 5 wynik zostanie zaokrąglony w górę.  Przyznawanie ilości punktów poszczególnym ofertom odbywać się będzie wg następującej zasady: Zamawiający ofercie o najniższej łącznej cenie brutto spośród ofert ocenianych przyzna 100,00 punktów, a każdej następnej zostanie przyporządkowana liczba punktów proporcjonalnie mniejsza, według wzoru: Cena  = najniższa oferowana cena / cena badanej oferty x 100,00.
+4. Zamawiający za najkorzystniejszą uzna ofertę z najniższą ceną, wśród ofert nie odrzuconych i wykonawców, którzy nie zostali wykluczeni z postępowania o udzielenie zamówienia.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0002</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Pouczenie o środkach ochrony prawnej przysługujących wykonawcy 33.1. Środki ochrony prawnej określone w dziale IX ustawy Pzp przysługują wykonawcy, oraz innemu podmiotowi, jeżeli ma lub miał interes w uzyskaniu zamówienia oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez zamawiającego przepisów ustawy Pzp. 33.2. Środki ochrony prawnej wobec ogłoszenia wszczynającego postępowanie o udzielenie zamówienia oraz dokumentów zamówienia przysługują również organizacjom
+wpisanym na listę, o której mowa w art. 469 pkt 15 ustawy Pzp, oraz Rzecznikowi Małych i Średnich Przedsiębiorców. 33.3. Odwołanie wnosi się do Prezesa Izby. 33.3.1. odwołujący przekazuje zamawiającemu odwołanie wniesione w formie elektronicznej albo postaci elektronicznej albo kopię tego odwołania, jeżeli zostało ono wniesione w formie pisemnej, przed upływem terminu do wniesienia odwołania w taki sposób, aby mógł on zapoznać się z jego treścią przed upływem tego terminu, 33.3.2. domniemywa się, że zamawiający mógł zapoznać się z treścią odwołania przed upływem terminu do jego wniesienia, jeżeli przekazanie odpowiednio odwołania albo jego kopii nastąpiło przed upływem terminu do jego wniesienia przy użyciu środków komunikacji elektronicznej. 33.4. Odwołanie przysługuje na: 33.4.1. niezgodną z przepisami ustawy czynność zamawiającego, podjętą w postępowaniu o udzielenie zamówienia, o zawarcie umowy ramowej, dynamicznym systemie zakupów,
+systemie kwalifikowania wykonawców lub konkursie, w tym na projektowane postanowienie umowy, 33.4.2. zaniechanie czynności w postępowaniu o udzielenie zamówienia, o zawarcie umowy ramowej, dynamicznym systemie zakupów, systemie kwalifikowania wykonawców lub konkursie, do której zamawiający był obowiązany na podstawie ustawy, 33.4.3. zaniechanie przeprowadzenia postępowania o udzielenie zamówienia lub zorganizowania konkursu na podstawie ustawy, mimo że zamawiający był do tego obowiązany. 33.5. Odwołanie wnosi się w przypadku zamówień, których wartość jest równa albo przekracza progi unijne, w terminie:
+33.5.1. 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 33.5.2. 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w pkt 33.5.1. 33.6. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia wnosi się w terminie: 33.6.1. 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej, w przypadku zamówień, których wartość jest równa albo przekracza progi unijne. 33.7. Odwołanie w przypadkach innych niż określone w ust. 33.6. wnosi się w terminie: 33.7.1. 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia, w przypadku zamówień, których wartość jest równa albo przekracza progi unijne. 33.8. Jeżeli zamawiający mimo takiego obowiązku nie przesłał wykonawcy zawiadomienia o wyborze najkorzystniejszej oferty odwołanie wnosi się nie później niż w terminie: 33.8.1. 30 dni od dnia publikacji w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia albo 33.8.2. 6 miesięcy od dnia zawarcia umowy, jeżeli zamawiający: a) nie opublikował w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0013</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">ZP.272.06.2025</cbc:ID>
+         <cbc:Name languageID="POL">,,Kompleksowa dostawa gazu ziemnego wysokometanowego (grupa E) dla Powiatu Człuchowskiego i jego jednostek organizacyjnych  na okres od 01.06.2025 do 31.05.2026"</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest kompleksowa dostawa gazu ziemnego wysokometanowego (grupa E) dla punktu/punków poboru gazu (PPG) wg załącznika nr 1 do SWZ - dostawa paliwa gazowego wraz z usługą dystrybucji do obiektów zamawiających,  o maksymalnej wielkości zapotrzebowania na paliwo 2 894 947 kWh (zamówienie podstawowe), w tym   paliwo gazowe rozliczane wg cen taryfowych w wysokości: 2 465 530 kWh i rozliczane wg cen konkurencyjnych w wysokości: 429 417 kWh.
+2. Paliwo gazowe winno być dostarczane całodobowo do punktów zdawczo – odbiorczych, wymienionych w załączniku nr 1 do SWZ, którym jest zespół urządzeń gazowych służących do przyłączenia sieci wewnętrznej, będącą własnością Zamawiającego z siecią gazową operatora systemu.
+3. Informacja o przedmiocie zamówienia oraz obowiązkach Zamawiającego i Wykonawcy zawarte są w załączniku nr 2 do SWZ – Projektowane postanowienia umowy.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">09123000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">65210000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Zamówienie będzie realizowane:
+Powiat Człuchowski, 
+Miejscowość: Człuchów 
+(NUTS): PL637 Chojnicki 
+Kraj: Polska
+</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL417</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2026-05-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">W toku realizacji zamówienia zamawiający zastrzega sobie prawo do zmniejszenia lub zwiększenia wielkości zamówienia w zakresie do +/- 10% względem podstawowej ilości  paliwa gazowego dla zakupu gazu. Zwiększenie wielkości zamówienia nastąpi na zasadzie prawa opcji.  Zasady, zakres i sposób skorzystania przez Zamawiającego z powyższych opisane zostały w załączniku nr 2 do SWZ – Projektowane postanowienia umowy w  § 1 ust. 3 i 4.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

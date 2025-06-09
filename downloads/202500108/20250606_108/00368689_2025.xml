@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <cbc:TotalAmount currencyID="EUR">1.0</cbc:TotalAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="EUR">1</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2025-04-30+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2025-04-30+02:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Onderhoud en rentmeesterschap sportvelden en renovatie natuurgrasvelden</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0001</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.zaanstad.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Gemeente Zaanstad</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Stadhuisplein 100</cbc:StreetName>
+                                    <cbc:CityName>Zaandam</cbc:CityName>
+                                    <cbc:PostalZone>1506MZ</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL325</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>49675616</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Mirrel Gerver</cbc:Name>
+                                    <cbc:Telephone>+31 14075</cbc:Telephone>
+                                    <cbc:ElectronicMail>inkoop.contracten@zaanstad.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>http://www.rechtbankhaarlem.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Haarlem</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postbus 1621</cbc:StreetName>
+                                    <cbc:CityName>Haarlem</cbc:CityName>
+                                    <cbc:PostalZone>2003 BR</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL32A</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:ElectronicMail>kanton.rb-nho.haarlem@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>https://www.Zaanstad.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Niet van toepassing</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>Niet van toepassing</cbc:CityName>
+                                    <cbc:PostalZone>1506 MZ</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL325</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:ElectronicMail>inkoop.contracten@Zaanstad.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>http://WWW.Zaanstad.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Gemeente Zaanstad</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postbus 2000</cbc:StreetName>
+                                    <cbc:CityName>Zaandam</cbc:CityName>
+                                    <cbc:PostalZone>1500 GA</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL325</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:Name>Afd. JZ, Mevrouw L. Dasilva</cbc:Name>
+                                    <cbc:ElectronicMail>inkoop.contracten@zaanstad.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">G.W. Pols en Zn B.V.</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Rijnlanderweg 712</cbc:StreetName>
+                                    <cbc:CityName>HOOFDDORP</cbc:CityName>
+                                    <cbc:PostalZone>2132NK</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL32B</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>34064816</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 206533732</cbc:Telephone>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368689-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">8a084701-fac5-4b09-bd5e-840c7d221a00</cbc:ID>
+    <cbc:ContractFolderID>038f3d07-91e6-49ea-9a7d-9d7e796bba61</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>09:19:56.740086258+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">2025-420</cbc:ID>
+        <cbc:Name languageID="NLD">Onderhoud en rentmeesterschap sportvelden en renovatie natuurgrasvelden</cbc:Name>
+        <cbc:Description languageID="NLD">Deze Europese openbare aanbesteding ziet op het verlenen van een opdracht voor Onderhoud en rentmeesterschap sportvelden en renovatie natuurgrasvelden gemeente Zaanstad. De verwachte afname onder dit raamcontract bedraagt 3.6 miljoen euro, de maximale waarde van het raamcontract bedraagt 4 miljoen euro.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="NLD">Wij gunnen op basis van:
+De beste prijs-kwaliteitverhouding op basis van het model gunnen op waarde.</cbc:Note>
+        <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">4000000.0</cbc:EstimatedOverallContractAmount>
+        </cac:RequestedTenderTotal>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">77320000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45212290</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="NLD">Gemeente Zaanstad</cbc:Description>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">NL325</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">G-1 Communicatie</cbc:Name>
+                        <cbc:Description languageID="NLD">De gemeente verwacht een plan van aanpak waarin de inschrijver laat zien hoe zij als opdrachtnemer goed en actief communiceert met de verschillende betrokkenen van een vereniging over de uitvoering en planning van het werk. Sinds de jaren ‘90 doen de verenigingen zelf het onderhoud. Zij hebben veel kennis in huis. Het doel van de communicatie moet enerzijds gericht zijn op de goede relatie met de verenigingen en onderhoudsstichtingen te behouden, en anderzijds om de verenigingen goed te informeren over de planning en onderlinge verwachting. De gemeente wordt optimaal ontzorgd.
+Zie aanbestedingsdocumenten.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">G2 Kwaliteitsborging</cbc:Name>
+                        <cbc:Description languageID="NLD">De gemeente verwacht een proactieve houding van de opdrachtnemer, waarbij de voorgeschreven kwaliteit en ook de continuïteit van de uitvoering van de onderhoudswerkzaamheden aantoonbaar geborgd is, met name in de periodes dat er een piekbelasting is in de hoeveelheid werkzaamheden. De gebruiker dient hiervan minimale overlast te ervaren. Voor dit criterium dient u een plan van aanpak op te stellen dat in ieder geval de volgende elementen bevat: 
+Zie aanbesteidngsdocumenten.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">G3 Duurzaamheid</cbc:Name>
+                        <cbc:Description languageID="NLD">De gemeente vindt het van belang dat het klimaat zo min mogelijk belast wordt met de uitstoot van broeikasgassen als gevolg van het gebruik van milieubelastende brandstoffen en oliën, waaronder Co2-uitstoot. De gemeente heeft de wens dat de onderhoudswerkzaamheden op een zo duurzaam mogelijke wijze worden uitgevoerd. Voor dit criterium dient u een plan van aanpak op te stellen die in ieder geval de volgende elementen bevat:
+Zie aanbestedingsdocumenten.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">G-4 Prijs</cbc:Name>
+                        <cbc:Description languageID="NLD">Voor het afgeven van de prijs wordt gebruik gemaakt van de prijzentabel en het inschrijfformulier zoals opgenomen in de RAW overeenkomst. Uw prijs moet alle kosten voor de uitvoering van de opdracht bevatten. Het is de opdrachtnemer niet toegestaan om achteraf eventuele aanvullende kosten in rekening te brengen. De tarieven dienen te worden uitgedrukt in Euro’s, exclusief BTW, 
+Zie aanbestedingsdocumenten.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+                <cac:MediationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:MediationParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Onderhoud en rentmeesterschap sportvelden en renovatie natuurgrasvelden</cbc:Name>
+            <cbc:Description languageID="NLD">Onderhoud en rentmeesterschap sportvelden en renovatie natuurgrasvelden gemeente Zaanstad.
+Zie aanbestedingsdocumenten. De verwachte afname onder dit raamcontract bedraagt 3.6 miljoen euro, de maximale waarde van het raamcontract bedraagt 4 miljoen euro.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">77320000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">45212290</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="NLD">Gemeente Zaanstad</cbc:Description>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">NL325</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2025-05-21+02:00</cbc:StartDate>
+                <cbc:EndDate>2029-11-20+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="NLD">De overeenkomst die wordt aangegaan voor de uitvoering van de opdracht geldt voor de maximale duur van vier en een half jaar. De eerste looptijd bedraagt 2,5 jaar. De overeenkomst kan vervolgens eenzijdig voor twee keer door ons onder gelijkblijvende voorwaarden worden verlengd voor de duur van één jaar. De verwachting is dat de overeenkomst in mei 2025 in werking kan treden. De overeenkomst betreft een raamovereenkomst. Er is gekozen voor een langere duur dan vier jaar om de raamovereenkomst daarna gelijk met een heel kalenderjaar te laten lopen.</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="NLD">De overeenkomst kan vervolgens eenzijdig voor twee keer door ons onder gelijkblijvende voorwaarden worden verlengd voor de duur van één jaar.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

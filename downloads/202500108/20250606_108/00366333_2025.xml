@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns8="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:ns9="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0002</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                            <efac:DecisionReason>
+                                <efbc:DecisionReasonCode listName="non-award-justification">all-rej</efbc:DecisionReasonCode>
+                            </efac:DecisionReason>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">30</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.iwb.ch</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">IWB Industrielle Werke Basel</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Margarethenstrasse 40</cbc:StreetName>
+                                    <cbc:CityName>Basel</cbc:CityName>
+                                    <cbc:PostalZone>4002</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH031</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>bd4f1e43-a746-473a-9631-109571f57b1f</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41612755111</cbc:Telephone>
+                                    <cbc:ElectronicMail>submissionen@iwb.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.bvger.ch</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Bundesverwaltungsgericht</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postfach</cbc:StreetName>
+                                    <cbc:CityName>St. Gallen</cbc:CityName>
+                                    <cbc:PostalZone>9023</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH055</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>BVGER</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41584652626</cbc:Telephone>
+                                    <cbc:ElectronicMail>info@bvger.admin.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.simap.ch</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Simap.ch</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Holzikofenweg 36</cbc:StreetName>
+                                    <cbc:CityName>Bern</cbc:CityName>
+                                    <cbc:PostalZone>3003</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">CH021</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>CH001</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+41584646388</cbc:Telephone>
+                                    <cbc:ElectronicMail>support@simap.ch</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366333-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">49029b81-352d-40bf-92aa-8bcd10a071df</cbc:ID>
+    <cbc:ContractFolderID>1db9bb65-f6bf-41fb-88a7-d97353d70b96</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>02:25:51+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="entity-activity">electricity</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:ServiceProviderParty>
+                <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+                <cac:Party>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:Party>
+            </cac:ServiceProviderParty>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="DEU">Atlassian und Lucid-Suite Lizenz Management</cbc:Name>
+        <cbc:Description languageID="DEU">IWB sucht mit dieser Ausschreibung einen kompetenten Partner zum Erbringen von Dienstleistungen zum Zweck der Zurverfügungstellung bzw. Vermittlung von Atlassian- und/oder Lucid-Suite-Lizenzen. Ziel ist es, mit dem gewählten Anbieter einen Rahmenvertrag mit fünfjähriger Laufzeit abzuschliessen.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+        <cac:TenderingTerms>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>70</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="DEU">ZK 1 Angebotspreis   </cbc:Name>
+                        <cbc:Description languageID="DEU">Das Angebot mit dem tiefsten Gesamttotal erhält die Maximalpunktzahl. Angebote, deren Gesamtkosten um den Faktor 1.5 oder mehr höher sind, erhalten null Punkte. Für dazwischenliegende Angebote werden die Punkte linear abgestuft vergeben.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="DEU">ZK 2 Referenzen Anbieter</cbc:Name>
+                        <cbc:Description languageID="DEU">Unter den Eignungskriterien sind zwei Referenzen anzugeben. Diese werden bewertet hinsichtlich:
+• Kundenzufriedenheit 
+• Vergleichbarkeit mit dieser Ausschreibung.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="DEU">ZK 3 Kann-Kriterien</cbc:Name>
+                        <cbc:Description languageID="DEU">Der Erfüllungsgrad der Kann-Kriterien (Anhang C1) Anforderungen Reseller und Anforderungen Lucid werden bewertet. Je mehr Kriterien erfüllt werden, desto mehr Punkte können erzielt werden. Die Punkte werden linear vergeben.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="DEU">ZK 4 Nachhaltigkeit</cbc:Name>
+                        <cbc:Description languageID="DEU">Bewertet werden die vom Anbieter nachgewiesenen Massnahmen, die er zur Verbesserung des Klimaschutzes bzw. Reduktion der negativen Einflüsse in Bezug auf das Klima ergreift.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Rechtsmittelbelehrung
+Gegen diese Verfügung kann innert 20 Tagen seit der Eröffnung auf www.simap.ch beim Verwaltungsgericht Basel-Stadt, Bäumleingasse 1, 4051 Basel, schriftlich Beschwerde erhoben werden. Die Beschwerdeschrift muss einen Antrag, dessen Begründung sowie eine genaue Bezeichnung der Beweismittel enthalten. Die angefochtene Verfügung und, soweit möglich, die genannten Beweismittel sind beizulegen.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:Name languageID="DEU">Cloud-Lizenzen für die Lucid-Suite</cbc:Name>
+            <cbc:Description languageID="DEU">Los 2 beinhaltet die Cloud-Lizenzen für die Lucid-Suite bestehend aus Lucid Chart und Lucid Spark.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="DEU">Basel</cbc:Description>
+                <cac:Address>
+                    <cbc:Region>anyw-cou</cbc:Region>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">CHE</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2025-06-01+02:00</cbc:StartDate>
+                <cbc:EndDate>2030-06-01+02:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

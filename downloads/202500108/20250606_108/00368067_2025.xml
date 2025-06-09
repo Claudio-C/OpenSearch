@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0014</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0014</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0012</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Michał Ostrowski-Praktyka Lekarska</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-01-22+01:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-02-01+01:00</cbc:IssueDate>
+                     <cbc:Title languageID="POL">Udzielanie świadczeń zdrowotnych z zakresu ortopedii i traumatologii narządu ruchu w Szpitalnym Oddziale Ratunkowym, w trakcie dyżurów medycznych</cbc:Title>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0014</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0012</cbc:ID>
+                     <cbc:Name>Michał Ostrowski-Praktyka Lekarska</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">36</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.gcm.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Górnośląskie Centrum Medyczne im. prof. Leszka Gieca Śląskiego Uniwersytetu Medycznego w Katowicach</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul.Ziołowa 45-47</cbc:StreetName>
+                           <cbc:CityName>Katowice</cbc:CityName>
+                           <cbc:PostalZone>40-635</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>9542269625</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Dział Kadr</cbc:Name>
+                           <cbc:Telephone>323598000</cbc:Telephone>
+                           <cbc:ElectronicMail>kadry@gcm.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Michał Ostrowski-Praktyka Lekarska</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Zakole 12</cbc:StreetName>
+                           <cbc:CityName>Nowy Sącz</cbc:CityName>
+                           <cbc:PostalZone>33-300 </cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>7343592558</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Michał Ostrowski-Praktyka Lekarska</cbc:Name>
+                           <cbc:Telephone>660-733-306</cbc:Telephone>
+                           <cbc:ElectronicMail>ost7ry@gmail.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368067-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">0444f8c2-6709-4bfa-80bf-c8bcc3b9f2c3</cbc:ID>
+   <cbc:ContractFolderID>d6f0ba53-cd89-4547-b983-562c380ca722</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>06:56:07Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-desg</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">grp-p-aut</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <ext:UBLExtensions>
+         <ext:UBLExtension>
+            <ext:ExtensionContent>
+               <efext:EformsExtension>
+                  <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+               </efext:EformsExtension>
+            </ext:ExtensionContent>
+         </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">DK/016/2025</cbc:ID>
+      <cbc:Name languageID="POL">Udzielanie świadczeń zdrowotnych z zakresu ortopedii i traumatologii narządu ruchu w Szpitalnym Oddziale Ratunkowym, w trakcie dyżurów medycznych.
+</cbc:Name>
+      <cbc:Description languageID="POL">3.	PRZEDMIOT KONKURSU
+Przedmiotem konkursu jest wyłonienie podmiotu, któremu zostanie udzielone zamówienie na udzielanie świadczeń zdrowotnych dla osób ubezpieczonych i innych osób uprawnionych, objętych opieką Górnośląskiego Centrum Medycznego im. prof. Leszka Gieca Śląskiego Uniwersytetu Medycznego w Katowicach, ul. Ziołowa 45/47, 40-635 Katowice w następującym zakresie:
+Udzielanie świadczeń zdrowotnych z zakresu ortopedii i traumatologii narządu ruchu 
+w Szpitalnym Oddziale Ratunkowym, w trakcie dyżurów medycznych. 
+Świadczenia będą udzielane podczas dyżurów medycznych zwykłych oraz świątecznych.
+Ilekroć w SWKO lub w załącznikach do SWKO jest mowa o:
+Dyżurze zwykłym rozumie się przez to dyżur medyczny pełniony w godzinach popołudniowych                i nocnych w dni powszednie tj. od poniedziałku do piątku wynosi 16 h 25’ tj. od 1435 do 700 dnia następnego.
+Dyżurze świątecznym rozumie się przez to dyżur medyczny pełniony w soboty, niedziele oraz   w dni ustawowo wolne od pracy wynosi 24 h tj. od 700 do 700 dnia następnego.
+Udzielający zamówienia dopuszcza możliwość rozszerzenia lub zmniejszenia ilości jednostek/komórek, 
+w których udzielane będą świadczenia zdrowotne w przypadku utworzenia nowych jednostek/komórek lub innych zmian organizacyjnych u Udzielającego zamówienia lub/i w przypadku udzielania świadczeń zdrowotnych przez Udzielającego zamówienia na zlecenie innych podmiotów. 
+Nazwy i kody opisujące przedmiot zamówienia określone we Wspólnym Słowniku Zamówień:
+CPV 85111200-2 – Medyczne usługi szpitalne 
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">85111200</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">85141000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>ul. Ziołowa 45-47</cbc:StreetName>
+            <cbc:CityName>Katowice</cbc:CityName>
+            <cbc:PostalZone>40-635</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Staż w dziedzinie ortopedii i traumatologii narządu ruchu ogółem</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">11	     INFORMACJA O MOŻLIWOŚCI SKŁADANIA PROTESTÓW, ODWOŁAŃ
+11.1	     Oferentom, których interes prawny doznał uszczerbku w wyniku naruszenia przez Udzielającego zamówienia zasad przeprowadzenie postępowania w sprawie zawarcia umowy 
+o udzielanie świadczeń zdrowotnych, przysługują środki odwoławcze na zasadach określonych w SWKO.
+11.2	Środki odwoławcze nie przysługują na:
+1) wybór trybu postępowania,
+2) niedokonanie wyboru Oferenta,
+3) unieważnienie postępowania w sprawie zawarcia umowy o udzielanie świadczeń opieki zdrowotnej.
+11.3.	W toku postępowania konkursowego, do czasu zakończenia postępowania, świadczeniodawca może złożyć do komisji umotywowany protest w terminie 7 dni roboczych od dnia dokonania zaskarżonej czynności.
+11.4.	Do czasu rozpatrzenia protestu postępowanie konkursowe ulega zawieszeniu, chyba że z treści protestu wynika, że jest on oczywiście bezzasadny.
+11.5.	Komisja rozpatruje i rozstrzyga protest w ciągu 7 dni od dnia jego otrzymania i udziela pisemnej odpowiedzi składającemu protest. Nieuwzględnienie protestu wymaga uzasadnienia. 
+11.6.	Protest złożony po terminie nie podlega rozpatrzeniu.
+11.7.	Informację o wniesieniu protestu i jego rozstrzygnięciu niezwłocznie zamieszcza się na tablicy ogłoszeń oraz na stronie internetowej Udzielającego zamówienia.
+11.8.	W przypadku uwzględnienia protestu komisja konkursowa powtarza zaskarżoną czynność.
+11.9	Oferent może wnieść do Kierownika Udzielającego zamówienia, w terminie 7 dni od dnia ogłoszenia o rozstrzygnięciu postępowania konkursowego, odwołanie dotyczące rozstrzygnięcia postępowania konkursowego. Odwołanie wniesione po terminie nie podlega rozpatrzeniu.
+11.10.	Odwołanie rozpatrywane jest w terminie 7 dni od dnia jego otrzymania. Wniesienie odwołania wstrzymuje zawarcie umowy o udzielanie świadczeń opieki zdrowotnej do czasu jego rozpatrzenia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">DK/016/2025</cbc:ID>
+         <cbc:Name languageID="POL">Udzielanie świadczeń zdrowotnych z zakresu ortopedii i traumatologii narządu ruchu w Szpitalnym Oddziale Ratunkowym, w trakcie dyżurów medycznych.
+</cbc:Name>
+         <cbc:Description languageID="POL">3.	PRZEDMIOT KONKURSU
+Przedmiotem konkursu jest wyłonienie podmiotu, któremu zostanie udzielone zamówienie na udzielanie świadczeń zdrowotnych dla osób ubezpieczonych i innych osób uprawnionych, objętych opieką Górnośląskiego Centrum Medycznego im. prof. Leszka Gieca Śląskiego Uniwersytetu Medycznego w Katowicach, ul. Ziołowa 45/47, 40-635 Katowice w następującym zakresie:
+Udzielanie świadczeń zdrowotnych z zakresu ortopedii i traumatologii narządu ruchu 
+w Szpitalnym Oddziale Ratunkowym, w trakcie dyżurów medycznych. 
+Świadczenia będą udzielane podczas dyżurów medycznych zwykłych oraz świątecznych.
+Ilekroć w SWKO lub w załącznikach do SWKO jest mowa o:
+Dyżurze zwykłym rozumie się przez to dyżur medyczny pełniony w godzinach popołudniowych                i nocnych w dni powszednie tj. od poniedziałku do piątku wynosi 16 h 25’ tj. od 1435 do 700 dnia następnego.
+Dyżurze świątecznym rozumie się przez to dyżur medyczny pełniony w soboty, niedziele oraz   w dni ustawowo wolne od pracy wynosi 24 h tj. od 700 do 700 dnia następnego.
+Udzielający zamówienia dopuszcza możliwość rozszerzenia lub zmniejszenia ilości jednostek/komórek, 
+w których udzielane będą świadczenia zdrowotne w przypadku utworzenia nowych jednostek/komórek lub innych zmian organizacyjnych u Udzielającego zamówienia lub/i w przypadku udzielania świadczeń zdrowotnych przez Udzielającego zamówienia na zlecenie innych podmiotów. 
+Nazwy i kody opisujące przedmiot zamówienia określone we Wspólnym Słowniku Zamówień:
+CPV 85111200-2 – Medyczne usługi szpitalne 
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85121000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>ul. Ziołowa 45-47</cbc:StreetName>
+               <cbc:CityName>Katowice</cbc:CityName>
+               <cbc:PostalZone>40-635</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

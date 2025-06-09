@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">194465.60</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">194465.60</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermDescription languageID="DEU">optionales Kontingent von 20 Personentagen</efbc:TermDescription>
+                        <efbc:TermPercent>10</efbc:TermPercent>
+                        <efbc:TermCode listName="applicability">yes</efbc:TermCode>
+                        <efbc:PercentageKnownIndicator>true</efbc:PercentageKnownIndicator>
+                        <efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>CON-0001</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bnetza.de/beschaffung</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundesnetzagentur</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Canisiusstraße 21</cbc:StreetName>
+                           <cbc:CityName>Mainz</cbc:CityName>
+                           <cbc:PostalZone>55122</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEB35</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 811318584</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6131185430</cbc:Telephone>
+                           <cbc:Telefax>+49 6131185600</cbc:Telefax>
+                           <cbc:ElectronicMail>ausschreibung@bnetza.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.bundeskartellamt.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Villemombler Straße 76</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53123</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>-nicht bekannt-</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 228-94990</cbc:Telephone>
+                           <cbc:Telefax>+49 228-9499163</cbc:Telefax>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bnetza.de/beschaffung</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundesnetzagentur</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Canisiusstraße 21</cbc:StreetName>
+                           <cbc:CityName>Mainz</cbc:CityName>
+                           <cbc:PostalZone>55122</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEB35</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE811318584</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6131180</cbc:Telephone>
+                           <cbc:Telefax>+49 6131185600</cbc:Telefax>
+                           <cbc:ElectronicMail>ausschreibung@bnetza.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">GDV Gesellschaft für geografische Datenverarbeitung</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Neisser Straße 4</cbc:StreetName>
+                           <cbc:CityName>Ingelheim</cbc:CityName>
+                           <cbc:PostalZone>55218</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEB3J</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE204729585</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6132-71480</cbc:Telephone>
+                           <cbc:Telefax>+49 6132-71480</cbc:Telefax>
+                           <cbc:ElectronicMail>info@gdv.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     <efac:Nationality>
+                        <cbc:NationalityID>DEU</cbc:NationalityID>
+                     </efac:Nationality>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368442-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">a26f65dd-87c2-4353-8f41-41f55472bc61</cbc:ID>
+   <cbc:ContractFolderID>a47e16e6-98ff-46cf-8b97-5c24985f762a</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>06:34:53+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>http://www.bnetza.de/beschaffung</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+      <cbc:TerminatedIndicator>true</cbc:TerminatedIndicator>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="direct-award-justification">exclusive</cbc:ProcessReasonCode>
+         <cbc:ProcessReason languageID="DEU">Weiterhin ist die GDV
+alleiniger Rechteinhaber der eingesetzten Spatial-
+Commander-Software des Fachverfahrens ISA.;</cbc:ProcessReason>
+      </cac:ProcessJustification>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="direct-award-justification">technical</cbc:ProcessReasonCode>
+         <cbc:ProcessReason languageID="DEU">Es ist notwendig, die zu vergebende Leistungen möglichst
+zeitnah, spätestens aber zum 30.9.2025 zur Verfügung zu
+stellen, da die gesetzlichen Verpflichtungen aus § 78 (1) TKG
+bereits in Kraft getreten sind. Eine frühere Beschaffung der
+Leistung war den Fachreferaten 114 nicht möglich, da sich
+bisher aufgrund laufender Konzeptionen und Priorisierungen
+zum Gigabitgrundbuch noch nicht final absehen ließ, in welcher
+Art und die zu beschaffenden Leistungen implementiert werden
+sollten. Eine Beschaffung zu einem späteren Zeitpunkt hätte
+zur Folge, dass diese aufgrund von einer geplanten
+Neuausschreibung des Systems ISA zum Zwecke der
+Weiterentwicklung des ISA zur Planungsplattform des
+Gigabitgrundbuchs
+voraussichtlich erst in 2027 erfolgen könnte. Während dieser
+Zeit könnte die BNetzA die aus § 78 (1) und § 80 folgenden
+gesetzlichen Aufgaben im Hinblick auf die Analyseplattform
+nicht hinreichend erfüllen.
+Die Firma GDV hat das Projekt seit Beginn begleitet und alle
+zwingend notwendigen
+Anpassungen aufgrund höherer Datenmengen, größerer
+Gebiete, deutlich höherer Nutzerzahlen oder durch Änderung
+des gesetzlichen Rahmens erforderlichen Änderungen im
+Einvernehmen mit der Fachseite gelöst. Daher liegt bei dem
+Unternehmen die tiefgehende Kenntnis und damit einmaliges
+Fachwissen hinsichtlich der internen Strukturen und auch der
+fachlichen Prozesse
+vor.
+Die Firma GDV ist durch die langjährige und enge
+Zusammenarbeit bezüglich der Planung und der Entwicklung
+des Fachverfahrens beteiligt. Dadurch verfügt das
+Unternehmen überbesondere Kenntnisse, die in der Kürze der
+zur Verfügung stehenden Zeit nicht von einem anderen
+Anbieter erworben werden können, also eine besondere
+Erfahrung und Fachkunde.
+Somit liegen für die Ausschreibung technische
+Spezialkenntnisse vor, die bis zum Umsetzungszeitraum nicht
+mehr durch Dritte erworben werden können, insbesondere dann
+nicht, wenn im Vorfeld noch ein weiteres Vergabeverfahren
+durchzuführen wäre.</cbc:ProcessReason>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>Z25-2-2025-0007</cbc:ID>
+      <cbc:Name languageID="DEU">Erweiterungsanforderung RFC-11 für den Infrastrukturatlas</cbc:Name>
+      <cbc:Description languageID="DEU">Erweiterung des Infrastrukturatlas um das RFC-11 zur Integration der Registrierung, Authentifizierung und Benutzerverwaltung der Analyseplattform (APLF) des Gigabitgrundbuchs einschließlich anschließender Aufnahme in den EVB-IT Servicevertrag</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">72200000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Tulpenfeld 4</cbc:StreetName>
+            <cbc:CityName>Bonn</cbc:CityName>
+            <cbc:PostalZone>53113</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">100% Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Erweiterungsanforderung RFC-11 für den Infrastrukturatlas</cbc:Name>
+         <cbc:Description languageID="DEU">Erweiterung des Infrastrukturatlas um das RFC-11 zur Integration der Registrierung, Authentifizierung und Benutzerverwaltung der Analyseplattform (APLF) des Gigabitgrundbuchs einschließlich anschließender Aufnahme in den EVB-IT Servicevertrag + 20 optionale Personentage</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">72200000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-05+02:00</cbc:StartDate>
+            <cbc:EndDate>2025-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

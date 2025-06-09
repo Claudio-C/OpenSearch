@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <cbc:TotalAmount currencyID="EUR">189600</cbc:TotalAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                            <cbc:HigherTenderAmount currencyID="EUR">234800</cbc:HigherTenderAmount>
+                            <cbc:LowerTenderAmount currencyID="EUR">189600</cbc:LowerTenderAmount>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:AppealRequestsStatistics>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:AppealRequestsStatistics>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <cac:LegalMonetaryTotal>
+<cbc:PayableAmount currencyID="EUR">189600</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+<efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+<cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+<cbc:ID>REF TEN-0001/LOT-0000</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2025-05-09+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+                            <efac:ContractReference>
+<cbc:ID>757.471</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+<cbc:WebsiteURI>http://www.tragsa.es</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28006</cbc:PostalZone>
+    <cbc:CountrySubentity>Madrid</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="ID_PLATAFORMA">50011840002187</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">A28476208</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Name>Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)</cbc:Name>
+    <cbc:Telephone>+34 913963667</cbc:Telephone>
+    <cbc:Telefax>+34 913969172</cbc:Telefax>
+    <cbc:ElectronicMail>contratacion@tragsa.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+<cbc:WebsiteURI>http://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/TACRC/Paginas/Directorio.aspx</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID>TPO-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Tribunal Administrativo Central de Recursos Contractuales - Secretaria</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28020</cbc:PostalZone>
+    <cbc:CountrySubentity>Madrid</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:Contact>
+    <cbc:Telephone>+34 913491319</cbc:Telephone>
+    <cbc:Telefax>+34 913491441</cbc:Telefax>
+    <cbc:ElectronicMail>tribunal_recursos.contratos@hacienda.gob.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:UltimateBeneficialOwner>
+<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                            </efac:UltimateBeneficialOwner>
+                            <efac:Company>
+<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">ILUNION LAVANDERIA FRANCO SA</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:CityName>Zafra</cbc:CityName>
+    <cbc:PostalZone>06300</cbc:PostalZone>
+    <cbc:CountrySubentityCode listName="nuts">ES431</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">****3763*</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Telephone>+34 913031737</cbc:Telephone>
+    <cbc:ElectronicMail>licitaciones.lavanderias@ilunion.com</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:UltimateBeneficialOwner>
+                            <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                            <efac:Nationality>
+<cbc:NationalityID>ESP</cbc:NationalityID>
+                            </efac:Nationality>
+                        </efac:UltimateBeneficialOwner>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368453-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">ddb50b8c-d6ce-45a0-a519-3a2311517cbf</cbc:ID>
+    <cbc:ContractFolderID>2b4e1853-8ff4-401f-9576-49d9c93b8036</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>13:33:30+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>SPA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=4EFIKYrK%2FKY%3D</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-cga</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:NoticeDocumentReference>
+            <cbc:ID schemeName="notice-id-ref">b7c27689-3c79-4762-aa7f-ef90b01f59a0-01</cbc:ID>
+        </cac:NoticeDocumentReference>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID>TSA0079899</cbc:ID>
+        <cbc:Name languageID="SPA">Servicio de Lavandería para Servicios Relacionados con La Atención de Las Necesidades Básicas de Alojamiento, Manutención, Salubridad, Seguridad y Servicios de Mantenimiento Preventivo y Correctivo, Mérida (Badajoz)</cbc:Name>
+        <cbc:Description languageID="SPA">Servicio de Lavandería para Servicios Relacionados con La Atención de Las Necesidades Básicas de Alojamiento, Manutención, Salubridad, Seguridad y Servicios de Mantenimiento Preventivo y Correctivo, Mérida (Badajoz)</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">98311100</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">ES431</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+        <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">8</cbc:DurationMeasure>
+        </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">Precio. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="SPA">Contra la presente resolución podrá interponerse recurso especial en materia de contratación o recurso contencioso administrativo.&#13;
+El recurso especial en materia de contratación, que tiene carácter potestativo, se presentará ante el Tribunal Administrativo Central de Recursos Contractuales, adscrito al Ministerio de Hacienda, de conformidad con lo&#13;
+establecido en los artículos 44 y siguientes de la Ley 9/2017 de 8 de noviembre de Contratos del Sector Público,&#13;
+por la que se transponen al ordenamiento jurídico español las Directivas del Parlamento Europeo y del Consejo&#13;
+2014/23/UE y 2014/24/UE, de 26 de febrero de 2014.&#13;
+2&#13;
+El recurso especial en materia de contratación podrá presentarse en el registro del Tribunal Administrativo&#13;
+Central de Recursos Contractuales, o en el registro del Órgano de Contratación del Grupo TRAGSA en el plazo&#13;
+de 15 días hábiles, computándose dicho plazo de conformidad con lo establecido en el artículo 50.1 de la LCSP.&#13;
+El recurso contencioso administrativo se interpondrá ante los Juzgados Centrales de lo Contencioso&#13;
+Administrativo, en el plazo de dos meses a partir del día siguiente a la notificación o publicación del acto en la&#13;
+plataforma de contratación del sector público.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">TSA0079899</cbc:ID>
+            <cbc:Name languageID="SPA">Servicio de Lavandería para Servicios Relacionados con La Atención de Las Necesidades Básicas de Alojamiento, Manutención, Salubridad, Seguridad y Servicios de Mantenimiento Preventivo y Correctivo, Mérida (Badajoz)</cbc:Name>
+            <cbc:Description languageID="SPA">Servicio de Lavandería para Servicios Relacionados con La Atención de Las Necesidades Básicas de Alojamiento, Manutención, Salubridad, Seguridad y Servicios de Mantenimiento Preventivo y Correctivo, Mérida (Badajoz)</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">98311100</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES431</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="SPA">El plazo de vigencia del contrato será de OCHO MESES (8), contados a partir de la fecha de firma del contrato. El órgano de contratación podrá aumentar el plazo de ejecución siempre que se mantengan invariables las condiciones contractuales y no sea por culpa del contratista con objeto de terminar los trabajos contratados.</cbc:OptionsDescription>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2025-05-09+02:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

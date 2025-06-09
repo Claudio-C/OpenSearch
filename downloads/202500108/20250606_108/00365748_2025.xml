@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">180000</efbc:OverallMaximumFrameworkContractsAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     </efac:LotTender>
+                     <efac:FrameworkAgreementValues>
+                        <cbc:MaximumValueAmount currencyID="EUR">180000</cbc:MaximumValueAmount>
+                     </efac:FrameworkAgreementValues>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0002</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+                     </efac:LotTender>
+                     <efac:FrameworkAgreementValues>
+                        <cbc:MaximumValueAmount currencyID="EUR">180000</cbc:MaximumValueAmount>
+                     </efac:FrameworkAgreementValues>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">80000</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">80000</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0002</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">100000</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0003</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="FRA">Mission de contrôle technique et ordonnance, pilotage, coordination</cbc:Title>
+                     <efbc:ContractFrameworkIndicator>false</efbc:ContractFrameworkIndicator>
+                     <efac:ContractReference>
+                        <cbc:ID>2025m0071</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+                     <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="FRA">Mission d'Opc</cbc:Title>
+                     <efbc:ContractFrameworkIndicator>false</efbc:ContractFrameworkIndicator>
+                     <efac:ContractReference>
+                        <cbc:ID>2025m0072</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Avenue-Web Systèmes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Seyssinet-Pariset</cbc:CityName>
+                           <cbc:PostalZone>38170</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK24</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">80F61544-B7E9-C4C6-595895143A039589</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+33480041260</cbc:Telephone>
+                           <cbc:ElectronicMail>publications-joue@aws-france.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://cantal.fr</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Conseil départemental du Cantal</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>28 avenue Gambetta</cbc:StreetName>
+                           <cbc:CityName>Aurillac</cbc:CityName>
+                           <cbc:PostalZone>15000</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK12</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">63416</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>FAURE Bruno</cbc:Name>
+                           <cbc:JobTitle>Président</cbc:JobTitle>
+                           <cbc:Telephone>0471462020</cbc:Telephone>
+                           <cbc:ElectronicMail>correspondre@aws-france.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal administratif de Clermont-Ferrand</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>6 cours Sablon</cbc:StreetName>
+                           <cbc:CityName>Clermont-Ferrand</cbc:CityName>
+                           <cbc:PostalZone>63033</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK14</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">80F61565-FB68-F0C2-F12D089D4E4ED097</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0473146100</cbc:Telephone>
+                           <cbc:Telefax>0473146122</cbc:Telefax>
+                           <cbc:ElectronicMail>greffe.ta-clermont-ferrand@juradm.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Comité Consultatif Inter-régional de Règlement Amiable des litiges relatifs aux Marchés Publics de LYON</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>1 Boulevard Vivier Merle</cbc:StreetName>
+                           <cbc:CityName>Lyon</cbc:CityName>
+                           <cbc:PostalZone>69443</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK26</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">80F61576-D736-EE97-523FB4A944609528</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>DIRECCTE À l'attention du CCIRA de Lyon</cbc:Name>
+                           <cbc:Telephone>0472772130</cbc:Telephone>
+                           <cbc:ElectronicMail>ara.ccira@direccte.gouv.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0005</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">BUREAU ALPES CONTROLES</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>2 Av Michel Ange</cbc:StreetName>
+                           <cbc:CityName>Clermont-Ferrand</cbc:CityName>
+                           <cbc:PostalZone>63000</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK14</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">1612661-1-1-1</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0006</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">CO-PILOT</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>30 Bd Paul Painleve</cbc:StreetName>
+                           <cbc:CityName>Brive-La-Gaillarde</cbc:CityName>
+                           <cbc:PostalZone>19100</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRI21</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">1612661-1-2-1</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0007</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">SOCOTEC CONSTRUCTION</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>19 Av Leonard De Vinci</cbc:StreetName>
+                           <cbc:CityName>Clermont-Ferrand</cbc:CityName>
+                           <cbc:PostalZone>63000</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRK14</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID schemeName="eu">1612661-1-1-2</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0005</cbc:ID>
+                     <efac:Nationality>
+                        <cbc:NationalityID>FRA</cbc:NationalityID>
+                     </efac:Nationality>
+                  </efac:UltimateBeneficialOwner>
+                  <efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0006</cbc:ID>
+                     <efac:Nationality>
+                        <cbc:NationalityID>FRA</cbc:NationalityID>
+                     </efac:Nationality>
+                  </efac:UltimateBeneficialOwner>
+                  <efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0007</cbc:ID>
+                     <efac:Nationality>
+                        <cbc:NationalityID>FRA</cbc:NationalityID>
+                     </efac:Nationality>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365748-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">009a9c2f-53ef-408e-9ea6-75d0da1dd3a2</cbc:ID>
+   <cbc:ContractFolderID>7af2bf3b-51b5-4458-b7aa-dd68380fdb7e</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>14:37:24+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>http://agysoft.marches-publics.info</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode languageID="FRA" listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>2025CTSCR0048</cbc:ID>
+      <cbc:Name languageID="FRA">Mission de contrôle technique et ordonnance, pilotage, coordination</cbc:Name>
+      <cbc:Description languageID="FRA">L'accord-cadre sera exécuté par l'émission de bons de commande.
+Chaque lot fera l'objet d'une attribution séparée.
+Le détail du phasage de l'opération figure au cahier des charges</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">720000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71631300</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71631300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Valeur technique de l'offre</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Prix</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Les voies de recours ouvertes aux candidats sont les suivantes : Voies de recours :
+- Référé précontractuel prévu aux articles L. 551-1 à L. 551-12 du code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat.
+- Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA.
+- Recours de pleine juridiction ouvert aux concurrents évincés, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.
+- Recours contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme.
+Pour obtenir des renseignements relatifs à l'introduction des recours, les candidats devront s'adresser à :
+Tribunal Administratif de Clermont-Ferrand
+6 cours Sablon
+63000 CLERMONT FERRAND
+Le tribunal administratif peut être saisi par l'application informatique &amp;quot;Télérecours citoyens&amp;quot; accessible par le site Internet www.telerecours.fr
+En cas de difficultés survenant lors de la procédure de passation, l'organe chargé de jouer le rôle de médiateur est :
+Comité Consultatif Inter-régional de Règlement Amiable des différents relatifs aux Marchés Publics de LYON
+3 RUE DE LA CHARITE
+69268 LYON CEDEX 02
+Courriel : ccira.lyon.cijap@dgfip.finances.gouv.fr</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:NoticeDocumentReference>
+            <cbc:ID>165174-2025</cbc:ID>
+         </cac:NoticeDocumentReference>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-w-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">01</cbc:ID>
+         <cbc:Name languageID="FRA">Mission de contrôle technique</cbc:Name>
+         <cbc:Description languageID="FRA">Mission de contrôle technique</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71631300</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71356100</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="FRA">Le contrat  est susceptible d'être reconduit dans les conditions du cahier des charges</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Valeur technique de l'offre</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Prix</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Les voies de recours ouvertes aux candidats sont les suivantes : Voies de recours :
+- Référé précontractuel prévu aux articles L. 551-1 à L. 551-12 du code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat.
+- Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA.
+- Recours de pleine juridiction ouvert aux concurrents évincés, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.
+- Recours contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme.
+Pour obtenir des renseignements relatifs à l'introduction des recours, les candidats devront s'adresser à :
+Tribunal Administratif de Clermont-Ferrand
+6 cours Sablon
+63000 CLERMONT FERRAND
+Le tribunal administratif peut être saisi par l'application informatique &amp;quot;Télérecours citoyens&amp;quot; accessible par le site Internet www.telerecours.fr
+En cas de difficultés survenant lors de la procédure de passation, l'organe chargé de jouer le rôle de médiateur est :
+Comité Consultatif Inter-régional de Règlement Amiable des différents relatifs aux Marchés Publics de LYON
+3 RUE DE LA CHARITE
+69268 LYON CEDEX 02
+Courriel : ccira.lyon.cijap@dgfip.finances.gouv.fr</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:NoticeDocumentReference>
+            <cbc:ID>165174-2025</cbc:ID>
+         </cac:NoticeDocumentReference>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-w-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">02</cbc:ID>
+         <cbc:Name languageID="FRA">Mission d'OPC</cbc:Name>
+         <cbc:Description languageID="FRA">Mission d'OPC</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71631300</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71521000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="FRA">Le contrat  est susceptible d'être reconduit dans les conditions du cahier des charges</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

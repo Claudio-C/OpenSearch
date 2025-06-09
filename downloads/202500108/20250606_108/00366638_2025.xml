@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeResult>
+						<cbc:TotalAmount currencyID="CZK">599000</cbc:TotalAmount>
+						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
+							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+							<efac:AppealRequestsStatistics>
+								<efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:AppealRequestsStatistics>
+							<efac:LotTender>
+								<cbc:ID>TEN-0001</cbc:ID>
+							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-verif-inad-low</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-verif-inad</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">part-req</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<cbc:ID>CON-0001</cbc:ID>
+							</efac:SettledContract>
+							<efac:TenderLot>
+								<cbc:ID>LOT-0001</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotTender>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<cbc:RankCode>1</cbc:RankCode>
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="CZK">599000</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
+							<efac:SubcontractingTerm>
+								<efbc:TermCode listName="applicability">yes</efbc:TermCode>
+								<efbc:PercentageKnownIndicator>false</efbc:PercentageKnownIndicator>
+								<efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID>TPA-0001</cbc:ID>
+							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID>LOT-0001</cbc:ID>
+							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>Nabídka č. 1 Morava – RD PP pro provoz a údržbu PK 2022-B</cbc:ID>
+							</efac:TenderReference>
+						</efac:LotTender>
+						<efac:SettledContract>
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							<cbc:AwardDate>2025-05-09+02:00</cbc:AwardDate>
+							<cbc:IssueDate>2025-05-21+02:00</cbc:IssueDate>
+							<efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
+							<cac:NoticeDocumentReference>
+								<cbc:ID>6e9acb39-ee71-4323-a76b-3ded82cfd40a-01</cbc:ID>
+							</cac:NoticeDocumentReference>
+							<efac:ContractReference>
+								<cbc:ID>01PU-006007</cbc:ID>
+							</efac:ContractReference>
+							<efac:LotTender>
+								<cbc:ID>TEN-0001</cbc:ID>
+							</efac:LotTender>
+						</efac:SettledContract>
+						<efac:TenderingParty>
+							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0009</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0004</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0006</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0007</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0008</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0003</cbc:ID>
+								<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0010</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<cbc:ID>ORG-0005</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:SubContractor>
+								<cbc:ID>ORG-0011</cbc:ID>
+								<efac:MainContractor>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</efac:MainContractor>
+							</efac:SubContractor>
+							<efac:SubContractor>
+								<cbc:ID>ORG-0013</cbc:ID>
+								<efac:MainContractor>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</efac:MainContractor>
+							</efac:SubContractor>
+							<efac:SubContractor>
+								<cbc:ID>ORG-0014</cbc:ID>
+								<efac:MainContractor>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</efac:MainContractor>
+							</efac:SubContractor>
+							<efac:SubContractor>
+								<cbc:ID>ORG-0015</cbc:ID>
+								<efac:MainContractor>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</efac:MainContractor>
+							</efac:SubContractor>
+							<efac:SubContractor>
+								<cbc:ID>ORG-0016</cbc:ID>
+								<efac:MainContractor>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</efac:MainContractor>
+							</efac:SubContractor>
+							<efac:SubContractor>
+								<cbc:ID>ORG-0012</cbc:ID>
+								<efac:MainContractor>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</efac:MainContractor>
+							</efac:SubContractor>
+						</efac:TenderingParty>
+					</efac:NoticeResult>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+							<efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">Ředitelství silnic a dálnic s. p.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Čerčanská 2023</cbc:StreetName>
+									<cbc:CityName>Praha</cbc:CityName>
+									<cbc:PostalZone>14000</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ010</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>65993390</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 727938227</cbc:Telephone>
+									<cbc:ElectronicMail>ondrej.kosorin@rsd.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://uohs.gov.cz</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">Úřad pro ochranu hospodářské soutěže</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>třída Kpt. Jaroše 1926/7</cbc:StreetName>
+									<cbc:CityName>Brno</cbc:CityName>
+									<cbc:PostalZone>60200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ064</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>65349423</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 542167111</cbc:Telephone>
+									<cbc:ElectronicMail>posta@uohs.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">DOPRAVOPROJEKT Ostrava a.s.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Masarykovo náměstí 5/5</cbc:StreetName>
+									<cbc:CityName>Ostrava - Moravská Ostrava</cbc:CityName>
+									<cbc:PostalZone>70200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ080</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>42767377</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 595132011</cbc:Telephone>
+									<cbc:ElectronicMail>info@dpova.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">VIAPONT, s.r.o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Vodní 258/13</cbc:StreetName>
+									<cbc:CityName>Brno - Staré Brno</cbc:CityName>
+									<cbc:PostalZone>60200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ064</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>46995447</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 543217590</cbc:Telephone>
+									<cbc:ElectronicMail>viapont@viapont.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">Stráský, Hustý a partneři s.r.o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Bohunická 133/50</cbc:StreetName>
+									<cbc:CityName>Brno - Horní Heršpice</cbc:CityName>
+									<cbc:PostalZone>61900</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ064</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>18827527</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 547101811</cbc:Telephone>
+									<cbc:ElectronicMail>shp@shp.eu</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">SHB, akciová společnost</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Masná 1493/8</cbc:StreetName>
+									<cbc:CityName>Ostrava - Moravská Ostrava</cbc:CityName>
+									<cbc:PostalZone>70200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ080</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>25324365</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 595155211</cbc:Telephone>
+									<cbc:ElectronicMail>ostrava@shb.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">PK OSSENDORF s.r.o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Šumavská 416/15</cbc:StreetName>
+									<cbc:CityName>Brno - Ponava</cbc:CityName>
+									<cbc:PostalZone>60200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ064</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>25564901</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 543516526</cbc:Telephone>
+									<cbc:ElectronicMail>info@pk-ossendorf.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">G-Consult, spol. s r. o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Výstavní 367/109</cbc:StreetName>
+									<cbc:CityName>Ostrava - Vítkovice</cbc:CityName>
+									<cbc:PostalZone>70300</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ080</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>64616886</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 597430911</cbc:Telephone>
+									<cbc:ElectronicMail>info@g-consult.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">METROPROJEKT Praha a.s.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Argentinská 1621/36</cbc:StreetName>
+									<cbc:CityName>Praha - Holešovice</cbc:CityName>
+									<cbc:PostalZone>17000</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ010</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>45271895</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 296154105</cbc:Telephone>
+									<cbc:ElectronicMail>info@metroprojekt.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">Mott MacDonald CZ, spol. s r.o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Národní 984/15</cbc:StreetName>
+									<cbc:CityName>Praha - Staré Město</cbc:CityName>
+									<cbc:PostalZone>11000</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ010</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>48588733</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 221412800</cbc:Telephone>
+									<cbc:ElectronicMail>czech@mottmac.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0011</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">JGK advokáti s. r. o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>28. října 438/219</cbc:StreetName>
+									<cbc:CityName>Ostrava - Mariánské Hory</cbc:CityName>
+									<cbc:PostalZone>70900</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ080</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>07536941</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 595627217</cbc:Telephone>
+									<cbc:ElectronicMail>info@jgkadvokati.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0012</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">TECHNICKÉ SLUŽBY OCHRANY OVZDUŠÍ OSTRAVA spol. s r. o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Janáčkova 1020/7</cbc:StreetName>
+									<cbc:CityName>Ostrava - Moravská Ostrava</cbc:CityName>
+									<cbc:PostalZone>70200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ080</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>49606123</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 596124897</cbc:Telephone>
+									<cbc:ElectronicMail>teso@teso-ostrava.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0013</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">Puttner, s.r.o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Šumavská 416/15</cbc:StreetName>
+									<cbc:CityName>Brno - Ponava</cbc:CityName>
+									<cbc:PostalZone>60200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ064</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>25552953</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 603162420</cbc:Telephone>
+									<cbc:ElectronicMail>puttner@puttner.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0014</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">GB-geodezie, spol. s r.o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Tuřanka 1521/92b</cbc:StreetName>
+									<cbc:CityName>Brno - Slatina</cbc:CityName>
+									<cbc:PostalZone>62700</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ064</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>26271044</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 545241030</cbc:Telephone>
+									<cbc:ElectronicMail>gb@geodezie-brno.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0015</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">AQUATIS a.s.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Botanická 834/56</cbc:StreetName>
+									<cbc:CityName>Brno - Veveří</cbc:CityName>
+									<cbc:PostalZone>60200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ064</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>46347526</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 541554111</cbc:Telephone>
+									<cbc:ElectronicMail>info@aquatis.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0016</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="CES">DD plus - geodetická kancelář s.r.o.</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Pekárenská 330/12</cbc:StreetName>
+									<cbc:CityName>Brno - Veveří</cbc:CityName>
+									<cbc:PostalZone>60200</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">CZ064</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>46962808</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+420 541241958</cbc:Telephone>
+									<cbc:ElectronicMail>ddplus@ddplus.cz</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366638-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">6e9acb39-ee71-4323-a76b-3ded82cfd40a</cbc:ID>
+	<cbc:ContractFolderID>47189640-ba2b-4537-9c53-a7ac65bd2014</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+	<cbc:IssueTime>10:07:33+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode>CES</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cbc:BuyerProfileURI>https://www.tenderarena.cz/profily/RSD</cbc:BuyerProfileURI>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>CrossBorderLaw</cbc:ID>
+			<cbc:DocumentDescription languageID="CES">Zákon č. 134/2016 Sb., o zadávání veřejných zakázek</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>LocalLegalBasis</cbc:ID>
+			<cbc:DocumentDescription languageID="CES">Zákon č. 134/2016 Sb., o zadávání veřejných zakázek</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<ext:UBLExtensions>
+			<ext:UBLExtension>
+				<ext:ExtensionContent>
+					<efext:EformsExtension>
+						<efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+					</efext:EformsExtension>
+				</ext:ExtensionContent>
+			</ext:UBLExtension>
+		</ext:UBLExtensions>
+		<cbc:Description languageID="CES">Dílčí objednávka na základě Rámcové dohody</cbc:Description>
+		<cbc:ProcedureCode listName="procurement-procedure-type">oth-single</cbc:ProcedureCode>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID>01PU-006007</cbc:ID>
+		<cbc:Name languageID="CES">PDPS na instalaci zádržných systémů pro zajištění zabezpečení technologie tunelu Jihlava</cbc:Name>
+		<cbc:Description languageID="CES">Technické řešení bude odpovídat všem předepsaným normám a předpisům. Pro vypracování projektu, jež je prvním krokem této akce, budou osloveny firmy s příslušným oprávněním k podnikání (projektová činnost ve výstavbě), stejně tak budou požadována příslušná kritéria pro realizaci stavby.
+Na trase (silnice I/38) je potřeba zabezpečit technologii tunelu Jihlava pomocí instalace zádržných systémů, Prvním krokem je vypracování PDPS pro tuto akci, následně pak bude zahájeno zadávací řízení k zajištění zhotovitele realizace. </cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cac:RequestedTenderTotal>
+			<cbc:EstimatedOverallContractAmount currencyID="CZK">675000</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">CZ063</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="CES">Nabídková cena v Kč bez DPH</cbc:Name>
+						<cbc:Description languageID="CES">Hodnotícím kritériem pro zadání dílčí veřejné zakázky je nejnižší nabídková cena. Předmětem hodnocení bude celková nabídková cena v Kč bez DPH uvedená návrhu Smlouvy. Dodavatel nesmí nabídnout v nabídce na uzavření dílčí smlouvy méně výhodné cenové podmínky plnění, než nabídl v zadávacím řízení na uzavření Rámcové dohody.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="CES">Podmínkou pro podání návrhu k ÚOHS je podání námitek k Zadavateli, které je nutné doručit do 15 dnů ode dne, kdy se stěžovatel dozvěděl o domnělém porušení zákona Zadavatelem, nejpozději však do uzavření smlouvy nebo do chvíle, kdy se soutěž o návrh považuje po výběru návrhu za ukončenou.
+
+Námitky proti úkonům oznamovaným v dokumentech, které je Zadavatel povinen podle zákona uveřejnit či odeslat stěžovateli, musí být doručeny Zadavateli do 15 dnů od jejich uveřejnění či doručení stěžovateli.
+Pokud je v zadávacím řízení stanovena lhůta pro podání žádostí o účast, musí být námitky proti podmínkám vztahujícím se ke kvalifikaci dodavatele doručeny Zadavateli nejpozději do skončení této lhůty.
+Pokud je v zadávacím řízení stanovena lhůta pro podání nabídek, musí být námitky proti zadávacím podmínkám doručeny Zadavateli nejpozději do skončení této lhůty. Námitky proti obsahu výzvy k podání nabídek v dynamickém nákupním systému nebo při zadávání veřejné zakázky na základě rámcové dohody musí být zadavateli doručeny nejpozději do konce lhůty pro podání nabídek. V soutěži o návrh musí být námitky proti soutěžním podmínkám doručeny nejpozději do konce lhůty pro podání návrhů. Zadavatel může v zadávací dokumentaci nebo soutěžních podmínkách stanovit, že námitky podle § 242 odst. 3 nebo 4 zákona lze podat nejpozději 72 hodin před skončením lhůt podle § 242 odst. 3 nebo 4 zákona.
+
+Námitky proti dobrovolnému oznámení o záměru uzavřít smlouvu podle § 212 odst. 2 zákona musí být doručeny Zadavateli do 30 dnů od uveřejnění tohoto oznámení.
+
+Zadavatel je povinen námitky vyřídit do 15 dnů. Návrh je nutné doručit ÚOHS i Zadavateli do 10 dnů ode dne, v němž stěžovatel obdržel rozhodnutí, kterým Zadavatel námitky odmítnul nebo do 25 dnů od odeslání námitek, pokud Zadavatel o námitkách nerozhodl.
+
+Po uzavření smlouvy na veřejnou zakázku či rámcové dohody lze podat pouze návrh na uložení zákazu plnění smlouvy, a to i bez předchozího podání námitek. Návrh na uložení zákazu plnění smlouvy doručí navrhovatel ÚOHS a ve stejnopisu Zadavateli do 30 dnů ode dne, kdy Zadavatel uveřejnil oznámení o uzavření smlouvy způsobem podle § 212 odst. 2 zákona s uvedením důvodu pro zadání veřejné zakázky bez uveřejnění oznámení o zahájení zadávacího řízení, předběžného oznámení nebo výzvy k podání nabídek ve zjednodušeném podlimitním řízení, nejpozději však do 6 měsíců od uzavření této smlouvy. Návrh na uložení zákazu plnění smlouvy podle § 254 odstavce 1 písm. d) zákona doručí navrhovatel ÚOHS a ve stejnopisu Zadavateli do 30 dnů ode dne, kdy Zadavatel uveřejnil oznámení o uzavření smlouvy na základě rámcové dohody podle § 137 zákona nebo oznámení o uzavření smlouvy v dynamickém nákupním systému podle § 142 zákona, nejpozději však do 6 měsíců od uzavření této smlouvy.
+
+Ve lhůtě pro doručení návrhu je navrhovatel povinen složit na účet ÚOHS kauci ve výši 1 % z nabídkové ceny navrhovatele za celou dobu plnění veřejné zakázky nebo za dobu prvních čtyř let plnění v případě smluv na dobu neurčitou, nejméně však ve výši 50 000 Kč, nejvýše ve výši 10 000 000 Kč. V případě, že navrhovatel nemůže stanovit celkovou nabídkovou cenu, je povinen složit kauci ve výši 100 000 Kč. V případě návrhu na uložení zákazu plnění smlouvy je navrhovatel povinen složit kauci ve výši 200 000 Kč. Jde-li o řízení o přezkoumání postupu pro zadávání koncesí, je navrhovatel povinen ve lhůtě pro doručení návrhu složit na účet ÚOHS kauci ve výši 1 % z předpokládané hodnoty koncese uveřejněné ve Věstníku veřejných zakázek nebo na profilu Zadavatele, nejméně však ve výši 50 000 Kč, nejvýše ve výši 10 000 000 Kč. V případě, že Zadavatel neuveřejní ve Věstníku veřejných zakázek nebo na profilu Zadavatele předpokládanou hodnotu koncese, je navrhovatel povinen složit kauci ve výši 100 000 Kč. V případě návrhu na uložení zákazu plnění koncesní smlouvy je navrhovatel povinen složit kauci ve výši 200 000 Kč.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID>ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID>ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-w-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID>01PU-006007</cbc:ID>
+			<cbc:Name languageID="CES">PDPS na instalaci zádržných systémů pro zajištění zabezpečení technologie tunelu Jihlava</cbc:Name>
+			<cbc:Description languageID="CES">Technické řešení bude odpovídat všem předepsaným normám a předpisům. Pro vypracování projektu, jež je prvním krokem této akce, budou osloveny firmy s příslušným oprávněním k podnikání (projektová činnost ve výstavbě), stejně tak budou požadována příslušná kritéria pro realizaci stavby.
+Na trase (silnice I/38) je potřeba zabezpečit technologii tunelu Jihlava pomocí instalace zádržných systémů, Prvním krokem je vypracování PDPS pro tuto akci, následně pak bude zahájeno zadávací řízení k zajištění zhotovitele realizace. </cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="social-objective">work-cond</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">soc-obj</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="CES">Zadavatel uplatňuje zásady odpovědného zadávání veřejných zakázek</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:RequestedTenderTotal>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efbc:FrameworkMaximumAmount currencyID="CZK">490000000</efbc:FrameworkMaximumAmount>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:EstimatedOverallContractAmount currencyID="CZK">675000</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">CZ063</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">CZE</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-06-02+02:00</cbc:StartDate>
+				<cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:TenderResult>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+	</cac:TenderResult>
+</ContractAwardNotice>

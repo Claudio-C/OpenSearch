@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">461247.26</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">461247.26</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>COOPERATIVA SOCIALE SPAZIO 11 SCARL</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2024-11-26+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-01-27+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="ITA">Affidamento, con carattere di urgenza, del servizio di pulizia strade, vie e piazze comunali per il periodo di tre anni nel Comune di Valeggio sul Mincio (VR) a ridotto impatto ambientale D.M. n. 255 del 23/06/2022 – appalto riservato</cbc:Title>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>Rep. n. 5262</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>COOPERATIVA SOCIALE SPAZIO 11 SCARL</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.consorziocev.it</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://app.albofornitori.it/alboeproc/albo_cev?customEntryView=elencoBandiAlboByLinkEntryView&amp;idProcedura=1025</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">CONSORZIO CEV</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Via Antonio Pacinotti 4B</cbc:StreetName>
+                           <cbc:Department>Centrale di committenza per i consorziati</cbc:Department>
+                           <cbc:CityName>Verona</cbc:CityName>
+                           <cbc:PostalZone>37135</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ITH31</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>03274810237</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>dott.ssa Federica Casella</cbc:Name>
+                           <cbc:Telephone>+39 0458001530</cbc:Telephone>
+                           <cbc:ElectronicMail>rup@pec.consorziocev.it</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.giustizia-amministrativa.it/tribunale-amministrativo-regionaleperil-veneto</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">Tribunale amministrativo regionale (TAR) del Veneto</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Cannaregio 2277/2278</cbc:StreetName>
+                           <cbc:CityName>Venezia</cbc:CityName>
+                           <cbc:PostalZone>30121</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ITH35</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>80010140277</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+39 0412403911</cbc:Telephone>
+                           <cbc:ElectronicMail>seggen.ve@giustizia-amministrativa.it</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://comune.valeggiosulmincio.vr.it</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">COMUNE DI VALEGGIO SUL MINCIO</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Piazza Carlo Alberto, 48 </cbc:StreetName>
+                           <cbc:CityName>Valeggio sul Mincio</cbc:CityName>
+                           <cbc:PostalZone>37067</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ITH31</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>00346630239</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+39 0456339800</cbc:Telephone>
+                           <cbc:ElectronicMail>protocollo.comune.valeggiosulmincio.vr@pecveneto.it</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://spazio11.it</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">COOPERATIVA SOCIALE SPAZIO 11 SCARL</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>via Dell’Artigianato 28/30</cbc:StreetName>
+                           <cbc:CityName>Valeggio sul Mincio</cbc:CityName>
+                           <cbc:PostalZone>37067</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ITH31</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>01777640234</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+39 0456370123</cbc:Telephone>
+                           <cbc:ElectronicMail>cooperativa@pec.spazio11.it</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366865-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">ecbcb6b5-02b6-46b8-b7e9-4c6f8c506147</cbc:ID>
+   <cbc:ContractFolderID>bc109976-e5c9-4fb0-a289-48b8bf22fa42</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04Z</cbc:IssueDate>
+   <cbc:IssueTime>15:04:33Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>ITA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="ITA">D. Lgs. 36/2023</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+         <cbc:DocumentDescription languageID="ITA">Non applicabile</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">614851-2024</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">true</cbc:ProcessReasonCode>
+         <cbc:ProcessReason languageID="ITA">Riduzione dei termini per ragioni d'urgenza per necessità del Comune di Valeggio sul Mincio di addivenire in tempi rapidi all'aggiudicazione.</cbc:ProcessReason>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">ID 1025</cbc:ID>
+      <cbc:Name languageID="ITA">Affidamento, con carattere di urgenza, del servizio di pulizia strade, vie e piazze comunali per il periodo di tre anni nel Comune di Valeggio sul Mincio (VR) a ridotto impatto ambientale D.M. n. 255 del 23/06/2022 – appalto riservato</cbc:Name>
+      <cbc:Description languageID="ITA">PROCEDURA APERTA ACCELERATA EX ARTT. 71 E 61 D. LGS. 36/2023 PER L’AFFIDAMENTO DEL SERVIZIO DI “PULIZIA STRADE, VIE E PIAZZE COMUNALI” PER IL PERIODO DI TRE ANNI NEL COMUNE DI VALEGGIO SUL MINCIO (VR) A RIDOTTO IMPATTO AMBIENTALE D.M. 255 DEL 23/06/2022 - APPALTO RISERVATO - RIDUZIONE DEI TERMINI PER RAGIONI DI URGENZA</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="ITA">Il Consorzio CEV ha operato in qualità di Centrale Unica di Committenza su mandato del Comune di Valeggio sul Mincio, socio CEV, a fronte della qualifica delle Stazioni Appaltanti di cui all’art. 63 comma 2 lett. c) del D. Lgs. 36/2023. RUP dott.ssa Casella Federica. CIG B362319547. Appalto riservato ai sensi dell’art. 61 del D.Lgs. 36/2023.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">462166.94</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90610000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="ITA">Il luogo di svolgimento dei servizi è l’intero territorio del Comune di Valeggio sul Mincio (VR) (codice NUTS ITH31).</cbc:Description>
+         <cac:Address>
+            <cbc:CityName>Comune di Valeggio sul Mincio</cbc:CityName>
+            <cbc:PostalZone>37067</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">ITH31</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>70</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="ITA">Punteggio tecnico</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="ITA">Punteggio economico</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="ITA">30 giorni</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Lotto 1</cbc:ID>
+         <cbc:Name languageID="ITA">Affidamento, con carattere di urgenza, del servizio di pulizia strade, vie e piazze comunali per il periodo di tre anni nel Comune di Valeggio sul Mincio (VR) a ridotto impatto ambientale D.M. n. 255 del 23/06/2022 – appalto riservato</cbc:Name>
+         <cbc:Description languageID="ITA">PROCEDURA APERTA ACCELERATA EX ARTT. 71 E 61 D. LGS. 36/2023 PER L’AFFIDAMENTO DEL SERVIZIO DI “PULIZIA STRADE, VIE E PIAZZE COMUNALI” PER IL PERIODO DI TRE ANNI NEL COMUNE DI VALEGGIO SUL MINCIO (VR) A RIDOTTO IMPATTO AMBIENTALE D.M. 255 DEL 23/06/2022 - APPALTO RISERVATO - RIDUZIONE DEI TERMINI PER RAGIONI DI URGENZA</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="ITA">Si rimanda al disciplinare di gara, al capitolato speciale d'appalto e alla ulteriore documentazione di gara per i dettagli della procedura e le relative condizioni.</cbc:Note>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="gpp-criteria">national</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">462166.94</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90610000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="ITA">Il luogo di svolgimento dei servizi è l’intero territorio del Comune di Valeggio sul Mincio (VR) (codice NUTS ITH31).</cbc:Description>
+            <cac:Address>
+               <cbc:CityName>Comune di Valeggio sul Mincio</cbc:CityName>
+               <cbc:PostalZone>37067</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">ITH31</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="ITA">Proroga tecnica, come indicato nella documentazione di gara.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

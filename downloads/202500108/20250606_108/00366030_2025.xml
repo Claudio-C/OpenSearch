@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">7022063.70</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <cac:FinancingParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:FinancingParty>
+                     <cac:PayerParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:PayerParty>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">7022063.70</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>oferta nr1</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2024-11-22Z</cbc:AwardDate>
+                     <cbc:IssueDate>2024-11-28Z</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>ZP.272.16.2024</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Przedsiębiorstwo Komunalne wTucholi Sp. z o.o.</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">33</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://bip.miasto.tuchola.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Gmina Tuchola</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. plac Zamkowy 1</cbc:StreetName>
+                           <cbc:CityName>Tuchola</cbc:CityName>
+                           <cbc:PostalZone>89-500</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL618</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 5611487583</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>REGON: 092351156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>523363430</cbc:Telephone>
+                           <cbc:ElectronicMail>przetargi212@tuchola.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Przedsiębiorstwo Komunalne w Tucholi Sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Świecka 68</cbc:StreetName>
+                           <cbc:CityName>Tuchola</cbc:CityName>
+                           <cbc:PostalZone>89-500</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL613</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5611000463</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>523365730</cbc:Telephone>
+                           <cbc:ElectronicMail>pk@pk.tuchola.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL913</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>(22) 458 78 05</cbc:Telephone>
+                           <cbc:Telefax>(22) 458 78 00</cbc:Telefax>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366030-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">8e4b0590-e56a-4547-af4b-49b6d32feb61</cbc:ID>
+   <cbc:ContractFolderID>10c92a65-bcfd-4738-bddb-0846840225fd</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>14:14:51+02:00</cbc:IssueTime>
+   <cbc:VersionID>02</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-social</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>Ustawa Prawo zamówień publicznych, art.132 (j.t.Dz.U.z2024.1320ze zm.)</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">583671-2024</cbc:ID>
+      </cac:NoticeDocumentReference>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">ZP.271.2.24.2024.AS</cbc:ID>
+      <cbc:Name languageID="POL">Odbiór i zagospodarowanie odpadów komunalnych z terenu gminy Tuchola, z nieruchomości, na których  zamieszkują mieszkańcy</cbc:Name>
+      <cbc:Description languageID="POL">4.3.	Przedmiot zamówienia obejmuje odbiór i transport następujących rodzajów odpadów komunalnych od właścicieli nieruchomości:
+- segregowanych: papier, szkło, metale, tworzywa sztuczne i opakowania wielomateriałowe, odpady komunalne ulegające biodegradacji, ze szczególnym uwzględnieniem bioodpadów,
+- pozostałe odpady nie kwalifikujące się do innych frakcji - resztkowe stanowiące niesegregowane (zmieszane) odpady komunalne, 
+- odpadów wielkogabarytowych, 
+- zużytych urządzeń elektrycznych i elektronicznych, 
+- popiołów pochodzących z palenisk domowych, 
+- inne niewymienione frakcje zbierane w sposób selektywny – metale i tworzywa sztuczne, 
+- zużytych opon, 
+- przeterminowanych leków, 
+- mechaniczne wydzielone odrzuty z przeróbki makulatury i tektury. 
+4.4.	Przedmiot zamówienia obejmuje dostarczenie do właścicieli nieruchomości worków do selektywnej zbiórki odpadów, zgodnie z zadeklarowaną formą zbierania odpadów, dostarczenie pojemników zbiorczych i worków na popiół pochodzący z gospodarstw domowych /dotyczy okresu grzewczego, przygotowanie i dostarczenie właścicielom nieruchomości harmonogramów odbioru odpadów komunalnych.  Szczegółowy  opis przedmiotu zamówienia zawiera załącznik nr 1 -  Szczegółowy Opis Przedmiotu Zamówienia. Ilości odpadów podane przez Zamawiającego w załączniku nr 1 do SWZ są orientacyjne i zostały podane w celu sporządzenia oferty. Zamawiający zapłaci Wykonawcy za rzeczywiście zebrane i zagospodarowane odpady komunalne.
+4.5.	Przedmiot zamówienia obejmuje również odbiór i zagospodarowanie odpadów komunalnych zgromadzonych w Punkcie Selektywnej Zbiórki Odpadów Komunalnych (PSZOK) w Bladowie – załącznik nr 6, 6a, 6b - bez prowadzenia i obsługi PSZOK. 
+5.	Zakres obejmuje również prowadzenie szczegółowej dokumentacji związanej z realizacją przedmiotowego zamówienia oraz cykliczne dostarczanie worków do segregacji do wszystkich nieruchomości objętych gminnym systemem gospodarowania odpadami. 
+5.1.	Wykonawca w celu zaplanowania wywozu realizacji zamówienia przedłoży Zamawiającemu harmonogram odbioru odpadów.
+5.2.	Wykonawca zobowiązany jest wykonać usługę z należytą starannością, zgodnie z obowiązującymi przepisami, standardami, postanowieniami Umowy, z uwzględnieniem wymogów bhp, organizacją oraz realizacją umowy bez zakłóceń.
+5.3.	Zamawiający zastrzega, że wszędzie tam, gdzie w treści dokumentów składających się na opis przedmiotu zamówienia zostały wskazane znaki towarowe, patenty, pochodzenie, źródła lub szczególne procesy, który charakteryzuje produkty lub usługi dostarczane przez konkretnego Wykonawcę, Zamawiający dopuszcza rozwiązania równoważne do przedstawionych w opisie przedmiotu zamówienia. Dopuszcza się więc zaproponowanie 
+w ofercie odpowiedników równoważnych o właściwościach nie gorszych i gwarantujących osiągnięcie parametrów nie niższych od wymaganych przez Zamawiającego (...)
+Szczegółowy opis przedmiotu zamówienia zawarto w SWZ.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90500000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90500000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Gmina Tuchola</cbc:StreetName>
+            <cbc:CityName>MiastoTuchola i wszystkie miejscowości w Gminie Tuchola</cbc:CityName>
+            <cbc:PostalZone>89-500</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL613</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">cena</cbc:Name>
+                  <cbc:Description languageID="POL">60</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">termin płatności</cbc:Name>
+                  <cbc:Description languageID="POL">40</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">2.	Odwołanie przysługuje na: 
+1) niezgodną z przepisami ustawy czynność zamawiającego, podjętą w postępowaniu o udzielenie zamówienia, w tym na projektowane postanowienie umowy; 
+2) zaniechanie czynności w postępowaniu o udzielenie zamówienia, do której zamawiający był obowiązany na podstawie ustawy; 
+3) zaniechanie przeprowadzenia postępowania o udzielenie zamówienia na podstawie ustawy, mimo że zamawiający był do tego obowiązany. 
+3.	Odwołanie wnosi się do Prezesa Krajowej Izby Odwoławczej w formie pisemnej albo w formie elektronicznej albo w postaci elektronicznej opatrzone podpisem zaufanym. 
+4.	Odwołujący przekazuje zamawiającemu odwołanie wniesione w formie elektronicznej albo postaci elektronicznej albo kopię tego odwołania, jeżeli zostało ono wniesione w formie pisemnej, przed upływem terminu do wniesienia odwołania w taki sposób, aby mógł on zapoznać się z jego treścią przed upływem tego terminu. 
+5.	Odwołanie wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej oraz w terminie 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia. 
+6.	Na orzeczenie Krajowej Izby Odwoławczej oraz postanowienie Prezesa Krajowej Izby Odwoławczej, o którym mowa w art. 519 ust. 1 pzp, stronom oraz uczestnikom postępowania odwoławczego przysługuje skarga do sądu. Skargę wnosi się do Sądu Okręgowego w Warszawie za pośrednictwem Prezesa Krajowej Izby Odwoławczej. 
+7.	Szczegółowe informacje dotyczące środków ochrony prawnej określone są w Dziale IX „Środki ochrony prawnej” ustawy Pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">ZP.271.2.24.2024.AS</cbc:ID>
+         <cbc:Name languageID="POL">Odbiór i zagospodarowanie odpadów komunalnych z terenu gminy Tuchola, z nieruchomości, na których  zamieszkują mieszkańcy</cbc:Name>
+         <cbc:Description languageID="POL">Szczegółowy opis przedmiotu zamówienia zawarto w SWZ i załącznikach do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90500000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90513100</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90511000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90512000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Gmina Tuchola</cbc:StreetName>
+               <cbc:CityName>Tuchola</cbc:CityName>
+               <cbc:PostalZone>89-500</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL613</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-01-01Z</cbc:StartDate>
+            <cbc:EndDate>2026-03-31Z</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

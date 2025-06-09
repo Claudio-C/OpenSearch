@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">1276320</cbc:TotalAmount>
+                  <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">1200000</efbc:OverallMaximumFrameworkContractsAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:FrameworkAgreementValues>
+                        <cbc:MaximumValueAmount currencyID="EUR">1200000</cbc:MaximumValueAmount>
+                     </efac:FrameworkAgreementValues>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID>CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0002</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID>TEN-0002</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID>CON-0002</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">1200000</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID>TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>OFFRE CISION</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">76320</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID>TPA-0002</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>OFFRE SYNTHESE ET MEDIAS</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-04-28+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-27+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="FRA">Lot 1 : Dispositif global de veille médiatique permettant l'élaboration de revues de presse quotidiennes « Groupe »</cbc:Title>
+                     <efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
+                     <cac:NoticeDocumentReference>
+                        <cbc:ID>99841-2025</cbc:ID>
+                     </cac:NoticeDocumentReference>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>2024538401</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+                     <cbc:AwardDate>2025-04-11+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-27+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="FRA">Lot 2 : Synthèse quotidienne d'actualité sur la base de la revue de presse quotidienne « Groupe »</cbc:Title>
+                     <efbc:ContractFrameworkIndicator>false</efbc:ContractFrameworkIndicator>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>2024538402</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID>TEN-0002</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>CISION</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                     <cbc:Name>SYNTHESE ET MEDIAS</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID>ORG-0004</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">CAISSE DES DEPOTS</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Directions des Achats 56 RUE DE LILLE</cbc:StreetName>
+                           <cbc:CityName>Paris</cbc:CityName>
+                           <cbc:PostalZone>75007</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>18002002600019</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0158500000</cbc:Telephone>
+                           <cbc:ElectronicMail>sdpa-place@caissedesdepots.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">SYNTHESE ET MEDIAS</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>PARIS</cbc:CityName>
+                           <cbc:PostalZone>75011</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>39419972300039</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">CISION</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>SAINT DENIS</cbc:CityName>
+                           <cbc:PostalZone>93200</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>58206282400062</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal Administratif de Paris</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>4 rue de Jouy</cbc:StreetName>
+                           <cbc:CityName>Paris</cbc:CityName>
+                           <cbc:PostalZone>75004</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>177 500 055 00013</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0144594400 </cbc:Telephone>
+                           <cbc:ElectronicMail>greffe.ta-paris@juradm.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366701-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">919357ba-c853-43fb-b7a9-736483b6779e</cbc:ID>
+   <cbc:ContractFolderID>7f196cf8-f81c-4201-bea9-4edc7ceb838d</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>10:14:20+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID>ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+         <cbc:DocumentDescription languageID="FRA">Sans objet</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="FRA">La procédure de passation utilisée est l'appel d'offres ouvert. Elle est soumise aux dispositions des articles L. 2124-2, R. 2124-2 1° et R. 2161-2 à R. 2161-5 du Code de la commande publique. Elle allotie. L'accord-cadre est mono attributaire. Pour le lot n°1 : un accord-cadre mono-attributaire, traité à prix mixtes. Il comprend des prestations à prix forfaitaires indiqué dans la Décomposition globale et forfaitaire (DPGF), ainsi que des prestations exécutées par le biais de bons de commande en application du Bordereau des prix unitaires (BPU) émis au fur et à mesure des besoins au sens des articles R. 2162-2, R. 2162-13 et R. 2162-14 du code de la commande publique. Il est conclu sans montant minimum mais avec un montant maximum de 795 000 Euros HT. Le montant estimé du lot 1 s'élève 530 000 Euros HT. Pour le lot n°2 : un marché mono-attributaire, traité à prix forfaitaire. Il comprend des prestations à prix forfaitaires indiqué dans la Décomposition globale et forfaitaire (DPGF). Le montant estimé du lot 2 s'élève à 144 000 Euros HT. L'accord-cadre est conclu pour une durée ferme d'un (1) an à compter de sa date de notification. L'accord-cadre pourra être reconduit tacitement 3 fois pour une nouvelle durée d'un (1) an sans que la durée totale de l'accord-cadre ne puisse excéder 4 ans. A titre indicatif, la date prévisionnelle de notification de l'accord-cadre est mai 2025. La procédure ne comporte aucune Prestation Supplémentaire Éventuelle (PSE) ni Variante. Les critères retenus pour le jugement des offres sont définis dans le règlement de la consultation. Le dossier de consultation des entreprises (DCE) est dématérialisé et disponible gratuitement et téléchargeable uniquement à l'adresse électronique suivante : www.marches-publics.gouv.fr.</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID>99841-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>20245384</cbc:ID>
+      <cbc:Name languageID="FRA">Réalisation et mise à disposition, sur une plateforme d'une veille médias, d'une revue de presse, de revues de presse dédiées et de synthèses d'actualité pour le Groupe Caisse des Dépôts</cbc:Name>
+      <cbc:Description languageID="FRA">Réalisation et mise à disposition, sur une plateforme d'une veille médias, d'une revue de presse, de revues de presse dédiées et de synthèses d'actualité pour le Groupe Caisse des Dépôts</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">92400000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Paris</cbc:CityName>
+            <cbc:PostalZone>75007</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="FRA">voir RC</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">voir RC</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">voir RC</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">- dans un délai de 31 jours suivant la publication de l'avis d'attribution ou, en l'absence de publication d'avis d'attribution, dans les 6 mois à compter du lendemain du jour de la conclusion du contrat : référé contractuel contre le contrat (art. L.551- 13 à L.551-23 du Code de Justice Administrative) ;
+-  dans un délai de 2 mois à compter de la publicité de l'avis d'attribution du marché : recours de pleine juridiction en contestation de la validité du marché ou de certaines de ses clauses non règlementaires qui en sont divisibles assorti, le cas échéant, d'une demande tendant à la suspension de l'exécution du contrat (sur le fondement de l'article L. 521-1 du code de justice administrative).
+</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>2024538401</cbc:ID>
+         <cbc:Name languageID="FRA">Lot 1 : Dispositif global de veille médiatique permettant l'élaboration de revues de presse quotidiennes « Groupe »</cbc:Name>
+         <cbc:Description languageID="FRA">Lot 1 : Dispositif global de veille médiatique permettant l'élaboration de revues de presse quotidiennes « Groupe »</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">92400000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Paris</cbc:CityName>
+               <cbc:PostalZone>75007</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="FRA">voir RC</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">voir RC</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">voir RC</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">- dans un délai de 31 jours suivant la publication de l'avis d'attribution ou, en l'absence de publication d'avis d'attribution, dans les 6 mois à compter du lendemain du jour de la conclusion du contrat : référé contractuel contre le contrat (art. L.551- 13 à L.551-23 du Code de Justice Administrative) ;
+-  dans un délai de 2 mois à compter de la publicité de l'avis d'attribution du marché : recours de pleine juridiction en contestation de la validité du marché ou de certaines de ses clauses non règlementaires qui en sont divisibles assorti, le cas échéant, d'une demande tendant à la suspension de l'exécution du contrat (sur le fondement de l'article L. 521-1 du code de justice administrative).
+</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>2024538402</cbc:ID>
+         <cbc:Name languageID="FRA">Lot 2 : Synthèse quotidienne d'actualité sur la base de la revue de presse quotidienne « Groupe »</cbc:Name>
+         <cbc:Description languageID="FRA">Lot 2 : Synthèse quotidienne d'actualité sur la base de la revue de presse quotidienne « Groupe »</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">92400000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Paris</cbc:CityName>
+               <cbc:PostalZone>75007</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

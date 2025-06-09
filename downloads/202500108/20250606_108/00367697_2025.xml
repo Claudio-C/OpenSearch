@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">557960</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">557960</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Oferta nr 4</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-05-13+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-29+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="POL">Wyprodukowanie, dostawa i montaż metalowych regałów stacjonarnych i jezdnych do pomieszczeń archiwalnych na potrzeby Sądu Rejonowego w Legionowie,</cbc:Title>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>ZP.261.4.2025</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Przedsiębiorstwo Produkcyjno-Handlowe „ROL-MOT” Sp. z o.o.</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://waw.sa.gov.pl/</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://ezamowienia.gov.pl/pl/</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Sąd Apelacyjny w Warszawie</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Plac Krasińskich 2/4/6</cbc:StreetName>
+                           <cbc:Department>Sekcja Zamówień Publicznych </cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>00-207</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5261049717</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>222798528</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia@waw.sa.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.uzp.gov.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 224587840</cbc:Telephone>
+                           <cbc:Telefax>+48 224587800</cbc:Telefax>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Przedsiębiorstwo Produkcyjno-Handlowe „ROL-MOT” Sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Czachowskiego 29</cbc:StreetName>
+                           <cbc:CityName>Ciepielów</cbc:CityName>
+                           <cbc:PostalZone>27-310</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL912</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>670065638</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>48 3788336</cbc:Telephone>
+                           <cbc:ElectronicMail>marketing@rolmot.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367697-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">bb035303-b688-4fdd-a1fe-edf48477825d</cbc:ID>
+   <cbc:ContractFolderID>867932ab-3a18-4977-907f-4b175c99bcab</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>12:56:26Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06Z</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="POL">1. Postępowanie o udzielenie zamówienia publicznego prowadzone jest w trybie przetargu nieograniczonego na podstawie art. 132 ustawy Pzp.
+2. W postępowaniu Zamawiający przewiduje zastosowanie procedury odwróconej o której mowa w art. 139 ust. 1 ustawy Pzp. 
+3. Zamawiający nie wymaga wniesienia zabezpieczenia należytego wykonania umowy.
+4.Wadium ustala się w wysokości 30.000,00 zł (słownie: trzydzieści tysięcy złotych 00/100);
+Szczegółowe dane dot. wadium zawarte są w Rozdziale V SWZ.
+5. Informacje ogólne:
+1)Komunikacja między Zamawiającym a Wykonawcami, w tym wszelkie oświadczenia, wnioski, zawiadomienia oraz informacje, odbywa się przy użyciu Platformy e-Zamówienia, która jest dostępna pod adresem: https://ezamowienia.gov.pl.
+2)Korzystanie z Platformy e-Zamówienia jest bezpłatne.
+3)Wykonawca zamierzający wziąć udział w Postępowaniu o udzielenie zamówienia publicznego musi posiadać konto podmiotu „Wykonawca” na Platformie e-Zamówienia. Szczegółowe informacje na temat zakładania kont podmiotów oraz zasady i warunki korzystania z Platformy e-Zamówienia określa Regulamin Platformy e-Zamówienia, dostępny na stronie internetowej https://ezamowienia.gov.pl oraz informacje zamieszczone w zakładce „Centrum Pomocy”. 
+4)Przeglądanie i pobieranie publicznej treści dokumentacji Postępowania nie wymaga posiadania konta na Platformie e-Zamówienia ani logowania.
+5)Oferty,  oświadczenia, o których mowa w art. 125 ust. 1 Ustawy, podmiotowe środki dowodowe oraz zobowiązanie podmiotu udostępniającego zasoby, o którym mowa w art. 118 ust. 3 Ustawy, zwane dalej „zobowiązaniem podmiotu udostępniającego zasoby”, przedmiotowe środki dowodowe, pełnomocnictwo, dokumenty, o których mowa w art. 94 ust. 2 Ustawy, sporządza się w postaci elektronicznej, w formatach danych określonych w przepisach wydanych na podstawie art. 18 ustawy z dnia 17 lutego 2005r. o informatyzacji działalności podmiotów realizujących zadania publiczne (Dz. U. z 2024 r. poz. 1557 ze zm.).
+6)Komunikacja w Postępowaniu, z wyłączeniem składania ofert o dopuszczenie do udziału w Postępowaniu, odbywa się drogą elektroniczną za pośrednictwem formularzy do komunikacji dostępnych w zakładce „Formularze” („Formularze do komunikacji”). Za pośrednictwem „Formularzy do komunikacji” odbywa się w szczególności przekazywanie wezwań i zawiadomień, zadawanie pytań i udzielanie odpowiedzi. Formularze do komunikacji umożliwiają również dołączenie załącznika do przesyłanej wiadomości (przycisk „dodaj załącznik”).
+7)Możliwość korzystania w Postępowaniu z „Formularzy do komunikacji” w pełnym zakresie wymaga posiadania konta „Wykonawcy” na Platformie e-Zamówienia oraz zalogowania się na Platformie e-Zamówienia. Do korzystania z „Formularzy do komunikacji” służących do zadawania pytań dotyczących treści dokumentów zamówienia wystarczające jest posiadanie tzw. konta uproszczonego na Platformie e-Zamówienia.
+8)Wszystkie wysłane i odebrane w Postępowaniu przez Wykonawcę wiadomości widoczne są po zalogowaniu w podglądzie Postępowania w zakładce „Komunikacja”.
+9)Maksymalny rozmiar plików przesyłanych za pośrednictwem „Formularzy do komunikacji” wynosi 150 MB (wielkość ta dotyczy plików przesyłanych jako załączniki do jednego formularza). 
+10)Minimalne wymagania techniczne dotyczące sprzętu używanego w celu korzystania z usług Platformy e-Zamówienia oraz informacje dotyczące specyfikacji połączenia określa Regulamin Platformy e-Zamówienia. 
+11)W przypadku problemów technicznych i awarii związanych z funkcjonowaniem Platformy e-Zamówienia użytkownicy mogą skorzystać ze wsparcia technicznego dostępnego pod numerem telefonu (22) 458 77 99 lub drogą elektroniczną poprzez formularz udostępniony na stronie internetowej https://ezamowienia.gov.pl w zakładce „Zgłoś problem”.
+12)W szczególnie uzasadnionych przypadkach uniemożliwiających komunikację Wykonawcy i Zamawiającego za pośrednictwem Platformy e-Zamówienia, Zamawiający dopuszcza komunikację za pomocą poczty elektronicznej na adres e-mail: zamowienia@waw.sa.gov.pl (nie dotyczy składania ofert). 
+13)W sytuacji awarii lub błędów lub niedostępności Platformy e-Zamówienia uniemożliwiających komunikację Wykonawcy z Zamawiającym poprzez Platformę zakupową, Wykonawca zobowiązany jest niezwłocznie zgłosić ten fakt Zamawiającemu za pomocą poczty elektronicznej na adres: zamowienia@waw.sa.gov.pl, pod rygorem utraty prawa powoływania się na konsekwencje awarii lub błędów lub niedostępności Platformy zakupowej w toku niniejszego Postępowania.
+6. Zamawiające nie wymaga w niniejszym postępowaniu przedmiotowych środków dowodowych. 
+7. Szczegółowe informacje zawarto w SWZ zamieszczonej na platformie eZamówienia.
+</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">145918-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">ZP.261.4.2025</cbc:ID>
+      <cbc:Name languageID="POL">Wyprodukowanie, dostawa i montaż metalowych regałów stacjonarnych i jezdnych do pomieszczeń archiwalnych na potrzeby Sądu Rejonowego w Legionowie</cbc:Name>
+      <cbc:Description languageID="POL">Wyprodukowanie, dostawa i montaż metalowych regałów stacjonarnych i jezdnych do pomieszczeń archiwalnych na potrzeby Sądu Rejonowego w Legionowie w ramach zadania "Budowa budynku dla Sądu Rejonowego w Legionowie, ul. Jana III Sobieskiego 47 i 47A". Szczegółowy opis przedmiotu zamówienia stanowi Załącznik nr 1 do SWZ.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">1.Z Postępowania o udzielenie zamówienia wyklucza się Wykonawców, w stosunku do których zachodzi którakolwiek z okoliczności wskazanych:
+1)w art. 108 ust. 1 Ustawy Pzp;
+2)w art. 109 ust. 1 pkt 4, 5, 7 Ustawy Pzp, tj.:
+a)w stosunku do którego otwarto likwidację, ogłoszono upadłość, którego aktywami zarządza likwidator lub sąd, zawarł układ z wierzycielami, którego działalność gospodarcza jest zawieszona albo znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury;
+b)który w sposób zawiniony poważnie naruszył obowiązki zawodowe, co podważa jego uczciwość, w szczególności gdy Wykonawca w wyniku zamierzonego działania lub rażącego niedbalstwa nie wykonał lub nienależycie wykonał zamówienie, co Zamawiający jest w stanie wykazać za pomocą stosownych dowodów;
+c)który z przyczyn leżących po jego stronie, w znacznym stopniu lub zakresie nie wykonał lub nienależycie wykonał albo długotrwale nienależycie wykonywał istotne zobowiązanie wynikające z wcześniejszej umowy w sprawie zamówienia publicznego lub umowy koncesji, co doprowadziło do wypowiedzenia lub odstąpienia od umowy, odszkodowania, wykonania zastępczego lub realizacji uprawnień z tytułu rękojmi za wady;
+3)w art. 7 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (Dz. U. z 2024 r., poz. 507);
+4)w art. 5k Rozporządzenia 2022/576 w sprawie zmiany Rozporządzenia 833/2014.
+2.Wykluczenie Wykonawcy następuje zgodnie z art. 111 Ustawy Pzp oraz na podstawie ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (Dz. U. z 2024 r., poz. 507), a także na podstawie Rozporządzenia 2022/576 w sprawie zmiany Rozporządzenia 833/2014.
+3.Wykonawca nie podlega wykluczeniu w okolicznościach określonych w art. 108 ust. 1 pkt 1, 2 i 5 Ustawy Pzp lub art. 109 ust. 1 pkt 4, 5, 7 Ustawy Pzp, jeżeli udowodni Zamawiającemu, że spełnił łącznie przesłanki wskazane w art. 110 ust. 2 Ustawy Pzp.
+4.Zamawiający oceni, czy podjęte przez Wykonawcę czynności, o których mowa w art. 110 ust. 2 Ustawy Pzp, są wystarczające do wykazania jego rzetelności, uwzględniając wagę i szczególne okoliczności czynu Wykonawcy. Jeżeli podjęte przez Wykonawcę czynności nie są wystarczające do wykazania jego rzetelności, Zamawiający wyklucza Wykonawcę.
+5.Wykonawca zobowiązany jest składając ofertę załączyć do niej na Platformie zakupowej następujące oświadczenia i/lub dokumenty podpisane kwalifikowanym podpisem elektronicznym przez właściwy podmiot:
+a)wypełniony formularz ofertowy, którego wzór stanowi Załącznik Nr 2 do SWZ, zawierający wszelkie informacje zawarte w tym wzorze, w szczególności: cenę oferty brutto, oraz ceny jednostkowe netto i brutto oraz stawkę podatku VAT, zobowiązania dotyczące terminu realizacji zamówienia, okres gwarancji, oświadczenie o okresie związania ofertą oraz o akceptacji wszystkich postanowień SWZ i projektowanych postanowień Umowy bez zastrzeżeń -  składany w oryginale w postaci dokumentu elektronicznego;
+b)dokumenty potwierdzające, że ofertę podpisała osoba do tego umocowana (pełnomocnictwo – jeżeli podpisuje pełnomocnik oraz odpis z rejestru, z którego wynika kto jest upoważniony do reprezentacji, z zastrzeżeniem postanowień Rozdziału IV ust. 3 pkt 3.11 SWZ). Pełnomocnictwo należy złożyć w formie określonej zgodnie z zasadami zawartymi w Rozdziale III ust. 2 pkt 19-21;
+c)w przypadku Wykonawców składających wspólną ofertę, do oferty należy dołączyć pełnomocnictwo do reprezentowania wszystkich Wykonawców wspólnie ubiegających się o udzielenie zamówienia (wystawione zgodnie z art. 58 ust. 2 Ustawy). Treść pełnomocnictwa musi jednoznacznie wskazywać czynności, do wykonywania których pełnomocnik jest upoważniony (zakres umocowania). Pełnomocnictwo należy złożyć w formie określonej zgodnie z zasadami zawartymi w Rozdziale III ust. 2 pkt 19-21SWZ;
+d)zobowiązanie podmiotu trzeciego zgodnie z Rozdziałem IV ust. 5 pkt 2 SWZ (jeśli dotyczy), dokument należy złożyć w formie określonej zgodnie z zasadami zawartymi w Rozdziale III ust. 2 pkt 19-21 SWZ;
+e)w przypadku wniesienia wadium w formie gwarancji lub poręczenia – zgodnie z Rozdziałem V SWZ oryginał gwarancji lub poręczenia w postaci elektronicznej;
+f)oświadczenie w formie JEDZ zgodnie z Rozdziałem IV ust. 3 pkt 3.1 SWZ składane pod rygorem nieważności w formie elektronicznej;
+g)oświadczenie wstępne Wykonawcy składane na podstawie art. 5k Rozporządzenia 2022/576 w sprawie zmiany Rozporządzenia 833/2014, o którym mowa w Rozdziale IV ust. 3 pkt 3.2 SWZ, składane pod rygorem nieważności w formie elektronicznej,
+h)	oświadczenie wstępne podmiotu trzeciego udostępniającego zasoby składane na podstawie art. 5k Rozporządzenia 2022/576 w sprawie zmiany Rozporządzenia 833/2014, o którym mowa w Rozdziale IV ust. 3 pkt 3.2 SWZ, składane pod rygorem nieważności w formie elektronicznej.
+6.Zamawiający przed wyborem najkorzystniejszej oferty, działając na podstawie art. 126 ust. 1 Ustawy, wezwie Wykonawcę, którego oferta została najwyżej oceniona, do złożenia w wyznaczonym terminie, nie krótszym niż 10 dni, aktualnych na dzień złożenia podmiotowych środków dowodowych:
+1)oświadczenia Wykonawcy w zakresie art. 108 ust. 1 pkt 5 Ustawy o braku przynależności do tej samej grupy kapitałowej, w rozumieniu ustawy z dnia 16 lutego  2007 r. o ochronie konkurencji i konsumentów (tekst jednolity: Dz. U. z 2024 r. poz. 1616), z innym Wykonawcą, który złożył odrębną ofertę albo oświadczenie o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty niezależnie od innego Wykonawcy należącego do tej samej grupy kapitałowej – wzór oświadczenia stanowi Załącznik Nr 3 do SWZ;
+2)informacji z Krajowego Rejestru Karnego w zakresie dotyczącym podstaw wykluczenia wskazanych w art. 108 ust. 1 pkt 1, 2 i 4 Ustawy, sporządzonej nie wcześniej niż 6 miesięcy przed jej złożeniem;
+3)odpisu lub informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 Ustawy, sporządzonej nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji; z zastrzeżeniem Rozdziału IV ust. 3 pkt 3.11 SWZ;
+4)oświadczenia Wykonawcy o aktualności informacji zawartych w oświadczeniu JEDZ, o którym mowa w art. 125 ust. 1 Ustawy, w zakresie odnoszącym się do podstaw wykluczenia wskazanych w art. 108 ust. 1 pkt 3, 4, 5 i 6 Ustawy oraz w zakresie podstaw wykluczenia wskazanych w art. 109 ust. 1 pkt 5 i 7, a także w zakresie art. 7  ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służącym ochronie bezpieczeństwa narodowego (tekst jednolity: Dz. Urz. z 2024 r., poz. 507) - wzór oświadczenia stanowi Załącznik Nr 7 do SWZ;
+5)oświadczenia Wykonawcy o aktualności informacji zawartych w oświadczeniu wstępnym w zakresie odnoszącym się do podstaw wykluczenia wskazanych w art. 5k Rozporządzenia 2022/576 w sprawie zmiany Rozporządzenia 833/2014 – wzór oświadczenia stanowi Załącznik Nr 10 do SWZ;
+6)wykazu dostaw wykonanych, a w przypadku świadczeń powtarzających się lub ciągłych również wykonywanych, w okresie ostatnich trzech lat liczonych wstecz od dnia, w którym upływa termin składania ofert, a jeżeli okres prowadzenia działalności jest krótszy – w tym okresie, co najmniej dwóch dostaw (umów/zamówień) obejmujących realizację dostaw odpowiadających wymaganiom określonym w Rozdziale IV ust. 1 pkt 1.1 ppkt 4 SWZ  wraz z podaniem ich wartości, przedmiotu, dat wykonania i podmiotów, na rzecz których dostawy zostały wykonane lub są wykonywane, z załączeniem dowodów określających, czy zostały one wykonane lub są wykonywane należycie.
+Dowodami w powyższym zakresie są:
+a)referencje bądź inne dokumenty wystawione przez podmiot, na rzecz którego usługi były wykonywane, a w przypadku świadczeń powtarzających się lub ciągłych są wykonywane;
+b)oświadczenie Wykonawcy – jeżeli Wykonawca z przyczyn niezależnych od niego nie jest w stanie uzyskać tych dokumentów, o których mowa w lit. a.
+W przypadku świadczeń powtarzających się lub ciągłych nadal wykonywanych referencje bądź inne dokumenty potwierdzające ich należyte wykonywanie powinny być wystawione w okresie ostatnich 3 miesięcy; wzór wykazu dostaw stanowi Załącznik Nr 8 do SWZ.
+</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">39131100</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Cena</cbc:Name>
+                  <cbc:Description languageID="POL">Opis kryterium zawarto w Rozdziale VIII. - Kryteria i sposób oceny ofert SWZ</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Okres gwarancji jakość</cbc:Name>
+                  <cbc:Description languageID="POL">Opis kryterium zawarto w Rozdziale VIII. - Kryteria i sposób oceny ofert SWZ</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Czas dokonania naprawy regałów w okresie gwarancyjnym </cbc:Name>
+                  <cbc:Description languageID="POL">Opis kryterium zawarto w Rozdziale VIII. - Kryteria i sposób oceny ofert SWZ</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Wykonawcom oraz innym podmiotom przewidzianym Ustawą, jeżeli mają lub mieli interes w uzyskaniu zamówienia oraz ponieśli lub mogą ponieść szkodę w wyniku naruszenia przez Zamawiającego przepisów Ustawy, przysługują środki ochrony prawnej przewidziane w Dziale IX Ustawy na zasadach określonych do postępowań o wartości powyżej progu unijnego.
+</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Zamówienie</cbc:ID>
+         <cbc:Name languageID="POL">Wyprodukowanie, dostawa i montaż metalowych regałów stacjonarnych i jezdnych do pomieszczeń archiwalnych na potrzeby Sądu Rejonowego w Legionowie</cbc:Name>
+         <cbc:Description languageID="POL">1.Przedmiotem zamówienia jest wyprodukowanie, dostawa i montaż metalowych regałów stacjonarnych i jezdnych do pomieszczeń archiwalnych na potrzeby Sądu Rejonowego w Legionowie w ramach realizacji zadania ,,Budowa budynku dla Sądu Rejonowego w Legionowie, ul. Jana III Sobieskiego 47 i 47A"  .
+2.Termin realizacji – od dnia podpisania Umowy, z tym, że dostawa i montaż w obiekcie odbywać się będzie w okresie od 1 sierpnia 2025 r. do dnia 29 sierpnia 2025 r.
+3. Szczegółowy opis przedmiotu zamówienia stanowi załącznik nr 1 do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">39131100</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

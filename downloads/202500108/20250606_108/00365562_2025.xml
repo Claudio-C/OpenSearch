@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">5353731.04</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">5353731.04</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Lote 1</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-04-30+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-27+02:00</cbc:IssueDate>
+                     <efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
+                     <cac:NoticeDocumentReference>
+                        <cbc:ID>730823-2024</cbc:ID>
+                     </cac:NoticeDocumentReference>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>Lote 1</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>HOSPITAL CLÍNIC DE BARCELONA </cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.hospitalclinic.org/ca/professional/perfil-del-contractant</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/cap.pscp? keyword=hospital+clinic&amp;reqCode=viewDetail&amp;idCap=692108&amp;department=17000&amp;</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="SPA">CONSORCI HOSPITAL CLÍNIC DE BARCELONA (HCB)</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Calle Villarroel, 170</cbc:StreetName>
+                           <cbc:Department>Contratación</cbc:Department>
+                           <cbc:CityName>BARCELONA</cbc:CityName>
+                           <cbc:PostalZone>08036</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>Q0802070C</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>http://www.hospitalclinic.org/ca/professional/perfil-del-contractant</cbc:Name>
+                           <cbc:Telephone>932275460</cbc:Telephone>
+                           <cbc:ElectronicMail>sc@clinic.cat</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="SPA">Tribunal Catalán de Contratos del Sector Público</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Calle del Foc, 57</cbc:StreetName>
+                           <cbc:CityName>BARCELONA</cbc:CityName>
+                           <cbc:PostalZone>08038</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>A09021950</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>https://contractacio.gencat.cat/ca/contacte/tccsp/</cbc:Name>
+                           <cbc:Telephone>938842038</cbc:Telephone>
+                           <cbc:ElectronicMail>tccsp@gencat.cat</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="SPA">SERVEI D'APATS, S.L.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>SANT JUST DESVERN</cbc:CityName>
+                           <cbc:PostalZone>08960</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>B58703240</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>934194140</cbc:Telephone>
+                           <cbc:ElectronicMail>departamentcomercial@alimentart.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="SPA">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365562-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">e2a32fd1-9f57-408b-968e-5a492c559838</cbc:ID>
+   <cbc:ContractFolderID>87acd204-7ca3-48d3-ba90-d34775b27596</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>10:39:06Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">SPA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">730823-2024</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">2024-64</cbc:ID>
+      <cbc:Name languageID="SPA">2024-64 Servicio de alimentación de los pacientes de las sedes Maternidad y Platón, y servicio de alimentación en Comedores y Cafeterías y Autoservicio, del Hospital Clínic de Barcelona.</cbc:Name>
+      <cbc:Description languageID="SPA">Servicio de alimentación de los pacientes de las sedes Maternidad y Platón, y servicio de alimentación en Comedores y Cafeterías y Autoservicio, del Hospital Clínic de Barcelona.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">13026429.88</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">55330000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">55321000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">55510000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="SPA">Ver PCAP.</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="SPA">Varios criterios
+Criterios de valoración sometidos a juicio de valor.
+Puntuación total de este conjunto de criterios: 49,00
+Detalle:
+- Coherencia en la Cadencia de los Menús, Salud y Sostenibilidad (Puntuación: 7,00).
+- Propuesta por el cumplimiento de la instrucción 02/2023 del CatSalut, Criterios sobre disponibilidad de alimentos y bebidas envasados ​​en las máquinas expendedoras, en las cafeterías y los comedores y sobre el acceso al agua potable, en los centros y servicios sanitarios del sistema sanitario integral de utilización pública de Cataluña (SISCAT) (Puntuación: 6,00).
+- Servicio de cena en modalidad de autoservicio (Puntuación: 12,00).
+- Propuesta de Programa de Gestión de Dietas (Puntuación: 5,00).
+Propuesta de optimización del personal en la sede Villarroel aprovechando la reorganización que se pide con el cambio de modelo en la cena de sede Villarroel: se valorará que la empresa haga un planteamiento de su servicio de acuerdo a la nueva necesidad organizativa con este sistema (Puntuación: 14,00).
+- Propuesta de operativa y servicio por cierre del comedor (Puntuación: 5,00).</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="SPA">Puntuación total de este conjunto de criterios: 30,00.
+Detalle:
+- Precio (Puntuación: 30,00).
+Resto de criterios de valoración automática.
+Puntuación total de este conjunto de criterios: 21,00.
+Detalle:
+-Oferta económica venta en modalidad autoservicio (canon) (Puntuación: 6,00).
+-Estar en disposición de una cocina central propia y con capacidad de atender a urgencias en menos de 6 horas (Puntuación: 15,00).</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="SPA">Ver cláusula 26 y 57 del Pliego de Cláusulas Administrativas Particulares.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Lote 1</cbc:ID>
+         <cbc:Name languageID="SPA">Servicio de alimentación de los pacientes de las sedes Maternidad y Platón, y servicio de alimentación en Comedores y Cafeterías y Autoservicio, del Hospital Clínic de Barcelona.</cbc:Name>
+         <cbc:Description languageID="SPA">Servicio de alimentación de los pacientes de las sedes Maternidad y Platón, y servicio de alimentación en Comedores y Cafeterías y Autoservicio, del Hospital Clínic de Barcelona.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="SPA">Valor estimado del contrato: 13.026.429,88 €.
+Contrato armonizado: Sí.
+Presupuesto base de licitación: 5.374.663,02 €.
+Presupuesto base de licitación con IVA: 5.912.129,37 €.
+Garantía provisional: No.
+Garantía definitiva: Sí.
+Porcentaje de la garantía definitiva: 5,00%.
+Garantía complementaria: No.
+División en lotes: Sin lotes.
+Justificación de la no división en lotes:
+Ver apartado 1.A. Final del Cuadro de Características del Pliego de Cláusulas Administrativas Particulares y apartado 4 del informe de necesidad e idoneidad del contrato.
+CONDICIONES EJECUCIÓN DEL CONTRATO:
+Otras condiciones (Ver PCAP), Condiciones especiales tipo Social (Ver PCAP), Solvencia económica y financiera, solvencia técnica y profesional (Ver PCAP.).
+Solvencia económica y financiera.
+Criterio de solvencia:
+Seguro de responsabilidad civil por riesgos profesionales.
+Valor mínimo exigido:
+Importe de la póliza no inferior a 1.000.000 euros por siniestro.
+Medio de acreditación:
+Póliza o certificado de seguro por riesgos profesionales.
+Criterio de solvencia:
+Volumen anual de negocios. 
+Valor mínimo exigido:
+Importe igual o superior al importe de licitación del contrato.
+Medio de acreditación:
+Declaración responsable del volumen de negocios global de la empresa.
+Solvencia técnica y profesional.
+Criterio de solvencia:
+Relación servicios o trabajos efectuados de la misma naturaleza en el curso de como máximo en los últimos tres años.
+Valor mínimo exigido:
+Se deberá acreditar que el importe anual acumulado de los servicios en el año de mayor ejecución sea igual o superior al 70 por ciento de la anualidad media del contrato.
+Medio de acreditación:
+Certificados o declaraciones de buena ejecución.
+</cbc:Note>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">13026429.88</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55330000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55321000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55510000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>BARCELONA</cbc:CityName>
+               <cbc:PostalZone>08036</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">ES511</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-02+02:00</cbc:StartDate>
+            <cbc:DurationMeasure unitCode="YEAR">3</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="SPA">Se prevén prórrogas: Sí.
+Información complementaria de la prórroga:
+Se prevé 1 prórroga de 12 meses. Se prorrogará por los importes unitarios ofrecidos al 3r año, en caso de que ésta se lleve a cabo.
+Se prevén modificaciones: Sí.
+Información complementaria de la modificación:
+Hasta un 20% del precio inicial del contrato. Ver apartado 1.L. del Cuadro de Características del Pliego de Cláusulas Administrativas Particulares.</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

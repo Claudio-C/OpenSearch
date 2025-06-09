@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">5515566</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:HigherTenderAmount currencyID="PLN">5515566</cbc:HigherTenderAmount>
+                     <cbc:LowerTenderAmount currencyID="PLN">5515566</cbc:LowerTenderAmount>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <cac:FinancingParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:FinancingParty>
+                     <cac:PayerParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:PayerParty>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">5515566</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Koło Przewodników Malborskich</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-05-23+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-26+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="POL">Świadczenie usług przewodnickich dla grup turystów zorganizowanych oraz turystów indywidualnych na terenie Muzeum Zamkowego w Malborku</cbc:Title>
+                     <efac:ContractReference>
+                        <cbc:ID>ZP.2611.9.2025.da</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Koło Przewodników Malborskich</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://zamek.malbork.pl/</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://platformazakupowa.pl/pn/zamek_malbork</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Muzeum Zamkowe w Malborku</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Starościńska 1</cbc:StreetName>
+                           <cbc:CityName>Malbork</cbc:CityName>
+                           <cbc:PostalZone>82-200</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL638</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 579-10-02-043</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Dział Zamówień Publicznych</cbc:Name>
+                           <cbc:Telephone>+48556470802</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia@zamek.malbork.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17A</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Krajowa Izba Odwoławcza</cbc:Name>
+                           <cbc:Telephone>+48224587840</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Koło Przewodników Malborskich</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Starościńska 4</cbc:StreetName>
+                           <cbc:CityName>Malbork</cbc:CityName>
+                           <cbc:PostalZone>82-200</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL638</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5791034451</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>552720880</cbc:Telephone>
+                           <cbc:ElectronicMail>biuro@przewodnicy.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366269-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">550e8b08-42e5-4414-a0fd-f5c04d7a7105</cbc:ID>
+   <cbc:ContractFolderID>1d1f5ce9-3bcd-41bc-b42d-d0a9cb1cd2e1</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>06:55:06Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://platformazakupowa.pl/pn/zamek_malbork</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">grp-p-aut</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">rcr</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">241089-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">ZP.2611.9.2025.da</cbc:ID>
+      <cbc:Name languageID="POL">Świadczenie usług przewodnickich dla grup turystów zorganizowanych oraz turystów indywidualnych na terenie Muzeum Zamkowego w Malborku</cbc:Name>
+      <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest świadczenie na rzecz Zamawiającego usługi pn.: „Świadczenie usług przewodnickich dla grup turystów zorganizowanych oraz turystów indywidualnych na terenie Muzeum Zamkowego w Malborku”.
+2. Szczegółowy opis przedmiotu zamówienia oraz wymagania Zamawiającego względem przedmiotu zamówienia zostały określone w projekcie umowy, który stanowi załącznik nr 1 do SWZ i w opisie przedmiotu zamówienia, który stanowi załącznik nr 1 do umowy.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">O udzielenie zamówienia mogą ubiegać się Wykonawcy, którzy:
+1. nie podlegają wykluczeniu na podstawie art. 108 ust. 1-6 ustawy PZP,
+2. spełniają warunek udziału w postępowaniu w zakresie:
+2.1.	Zdolności technicznej lub zawodowej:
+Warunek udziału w postępowaniu zostanie uznany za spełniony jeżeli Wykonawca wykaże, że w okresie ostatnich trzech (3) lat przed upływem terminu składania ofert, a jeżeli okres prowadzenia działalności jest krótszy - w tym okresie, należycie wykonał, a w przypadku świadczeń powtarzających się lub ciągłych – wykonuje w sposób ciągły (nieprzerwanie) przez okres, co najmniej 12 miesięcy w ramach jednej umowy, usługi przewodnickie dla grup turystów zorganizowanych oraz indywidualnych, o wartości usług nie mniejszej niż 1 800 000,00 zł brutto (słownie: jeden milion osiemset tysięcy złotych).
+UWAGA:
+a) Wykonawca może wykazać zgodnie ze swoim wyborem, usługę wykonaną lub wykonywaną, przy czym pod pojęciem:
+• „usługi wykonanej” należy rozumieć usługę zrealizowaną (zakończoną) i która była realizowana nieprzerwanie przez okres co najmniej 12 miesięcy,
+• „usługi wykonywanej” należy rozumieć usługę będącą w trakcie realizacji (usługę aktualnie świadczoną) i należy wykazać, iż jej zrealizowana część była realizowana nieprzerwanie w okresie, co najmniej 12 miesięcy.
+3. DODATKOWO Zamawiający wykluczy z udziału w postępowaniu Wykonawcę wobec którego zachodzi co najmniej jedna z przesłanek określonych w:
+1) art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego,
+2) art. 5k rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L 229 z 31.7.2014 z późn. zm. str. 1), w brzmieniu nadanym rozporządzeniem Rady (UE) 2022/576 w sprawie zmiany rozporządzenia (UE) nr 833/2014 dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L z 8.4.2022 z późn. zm, str. 1).
+4. Szczegółowy opis podstaw wykluczenia przedstawiony został w dokumentach zamówienia, tj. w SWZ Dział V ust. 1.
+5. Pozostałe wymogi nieokreślone w niniejszym ogłoszeniu są ujęte w dokumentach zamówienia, tj. w SWZ, która jest dostępna pod adresem: https://platformazakupowa.pl/pn/zamek_malbork, w tym również w zakresie spełnienia warunków udziału w postępowaniu i wykluczenia z udziału w postępowaniu.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">63514000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>ul. Starościńska 1</cbc:StreetName>
+            <cbc:CityName>Malbork</cbc:CityName>
+            <cbc:PostalZone>82-200</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL638</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:FiscalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:FiscalLegislationDocumentReference>
+         <cac:EnvironmentalLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EnvironmentalLegislationDocumentReference>
+         <cac:EmploymentLegislationDocumentReference>
+            <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+            <cac:IssuerParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:IssuerParty>
+         </cac:EmploymentLegislationDocumentReference>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">W ramach kryterium „Cena” (C) oceniana będzie łączna cena brutto podana w Formularzu oferty stanowiącym załącznik nr 2 do SWZ.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">W ramach kryterium „Czas zmiany osoby przewodnika” (Cz) ocena zostanie dokonana na podstawie deklaracji Wykonawcy podanej w Formularzu Ofertowym, który stanowi Załącznik nr 2 do SWZ. Punktacja będzie przyznawana według następującego sposobu: Czas zmiany przewodnika: do 12 godzin - 40 pkt, od 13 godzin do 24 godzin - 30 pkt, od 25 godzin do 48 godzin - 20 pkt, od 49 godzin do 60 godzin - 10 pkt, od 61 godzin do 72 godzin - 5 pkt, od 73 godzin do 96 godzin - 0 pkt. </cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Środki ochrony prawnej przysługują Wykonawcy oraz innemu podmiotowi, jeżeli ma lub miał interes w uzyskaniu zamówienia oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez zamawiającego przepisów ustawy. Środki ochrony prawnej wobec ogłoszenia wszczynającego postępowanie o udzielenie zamówienia oraz dokumentów zamówienia przysługują również organizacjom wpisanym na listę, o której mowa w art. 469 pkt. 15) ustawy PZP oraz Rzecznikowi Małych i Średnich Przedsiębiorców.
+2. Odwołanie przysługuje na: 
+1) niezgodną z przepisami ustawy czynność Zamawiającego, podjętą w postępowaniu o udzielenie zamówienia, w tym na projektowane postanowienie
+umowy, 
+2) zaniechanie czynności w postępowaniu o udzielenie zamówienia, do której Zamawiający był obowiązany na podstawie ustawy. 
+3. Odwołanie wnosi się w terminie: 
+1) 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej, 
+2) 15 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w w/w pkt 1). 
+4. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 5. Odwołanie w przypadkach innych niż określone w w/w ust. 3 i 4 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">ZP.2611.9.2025.da</cbc:ID>
+         <cbc:Name languageID="POL">Świadczenie usług przewodnickich dla grup turystów zorganizowanych oraz turystów indywidualnych na terenie Muzeum Zamkowego w Malborku</cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest świadczenie na rzecz Zamawiającego usługi pn.: „Świadczenie usług przewodnickich dla grup turystów zorganizowanych oraz turystów indywidualnych na terenie Muzeum Zamkowego w Malborku”.
+2. Szczegółowy opis przedmiotu zamówienia oraz wymagania Zamawiającego względem przedmiotu zamówienia zostały określone w projekcie umowy, który stanowi załącznik nr 1 do SWZ i w opisie przedmiotu zamówienia, który stanowi załącznik nr 1 do umowy.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">1. Informacje nt. zatrudnienia na umowę o pracę zgodnie z art. 95 ust. 1 ustawy PZP zostały określone w Dziale III ust. 6 SWZ oraz w projekcie umowy. 
+2. Wspólne ubieganie się o udzielenie zamówienia: 
+1) Zgodnie z art. 58 ust. 1 ustawy PZP Wykonawcy mogą wspólnie ubiegać się o udzielenie zamówienia. W takim przypadku zgodnie z art. 58 ust. 2 ustawy PZP Wykonawcy ustanawiają pełnomocnika do reprezentowania ich w postępowaniu o udzielenie zamówienia albo do reprezentowania ich i zawarcia umowy w sprawie zamówienia publicznego 
+2) W przypadku spółki cywilnej Zamawiający przyjmuje, że Wykonawcami w rozumieniu art. 7 ust. 30 ustawy PZP, są wspólnicy spółki cywilnej, których udział w postępowaniu traktowany jest jako wspólne ubieganie się o udzielenie zamówienia w rozumieniu art. 58 ust. 1 ustawy PZP. 
+3) Oferta Wykonawców wspólnie ubiegających się o udzielenie zamówienia musi być podpisana w taki sposób, by prawnie zobowiązywała wszystkich Wykonawców występujących wspólnie. 
+3. Zamawiający wykluczy z udziału w postępowaniu Wykonawcę wobec którego zachodzi co najmniej jedna z przesłanek określonych w: 
+1) art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego, 
+2) art. 5k rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L 229 z 31.7.2014 z późn. zm. str. 1), w brzmieniu nadanym rozporządzeniem Rady (UE) 2022/576 w sprawie zmiany rozporządzenia (UE) nr 833/2014 dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L z 8.4.2022 z późn. zm, str. 1). 
+4. Udostępnienie zasobów: 
+1) Wykonawca może w celu potwierdzenia spełnienia warunków udziału w postępowaniu, w stosownych sytuacjach oraz w odniesieniu do konkretnego zamówienia lub jego części, polegać na zdolnościach technicznych lub zawodowych podmiotów udostępniających zasoby, niezależnie od charakteru prawnego łączących go z nimi
+stosunków prawnych. 
+2) W odniesieniu do warunków dotyczących doświadczenia Wykonawcy mogą polegać na zdolnościach podmiotów udostępniających zasoby, jeśli podmioty te wykonują usługi, do realizacji, których te zdolności są wymagane. 
+3) Wykonawca, który polega na zdolnościach podmiotów udostępniających zasoby, składa wraz z ofertą zobowiązanie podmiotu udostępniającego zasoby do oddania mu do dyspozycji niezbędnych zasobów na potrzeby realizacji danego zamówienia lub inny podmiotowy środek dowodowy potwierdzający, że Wykonawca realizując zamówienie, będzie dysponował niezbędnymi zasobami tych podmiotów. 
+4) Zobowiązanie podmiotu udostępniającego zasoby (wzór zobowiązania stanowi załącznik nr 7 do SWZ), o którym mowa powyżej w pkt. 3) potwierdza,
+że stosunek łączący Wykonawcę z podmiotami udostępniającymi zasoby gwarantuje rzeczywisty dostęp do tych zasobów oraz określa w szczególności: 
+a) zakres dostępnych Wykonawcy zasobów podmiotu udostępniającego zasoby, 
+b) sposób i okres udostępniania Wykonawcy i wykorzystania przez niego zasobów podmiotu udostępniającego te zasoby przy wykonywaniu zamówienia, c) czy i w jakim zakresie podmiot udostępniający zasoby, na zdolnościach którego Wykonawca polega w odniesieniu do warunków udziału w postępowaniu dotyczących doświadczenia, zrealizuje usługi, których wskazane zdolności dotyczą. 
+5) Zamawiający oceni, czy udostępnione Wykonawcy przez podmioty udostępniające zasoby zdolności techniczne lub zawodowe, pozwalają na wykazanie przez Wykonawcę spełnienia warunków udziału w postępowaniu i zbada czy nie zachodzą wobec podmiotu udostępniającego zasoby podstawy wykluczenia, które to zostały przewidziane względem Wykonawcy; 
+6) Jeżeli zdolności techniczne lub zawodowe podmiotu udostępniającego zasoby nie potwierdzają spełnienia przez Wykonawcę warunków udziału w postępowaniu lub
+zachodzą wobec tego podmiotu podstawy wykluczenia, Zamawiający żąda, aby Wykonawca w terminie określonym przez Zamawiającego zastąpił ten podmiot innym podmiotem lub podmiotami albo wykazał, że samodzielnie spełnia warunki udziału w postępowaniu. 7) Wykonawca nie może po upływie terminu składania ofert, powoływać się na zdolności podmiotów udostępniających zasoby, jeżeli na etapie składania ofert nie polegał on w danym zakresie na zdolnościach podmiotów udostępniających zasoby. 
+5. POZOSTAŁE INFORMACJE: 
+1) żądane od Wykonawcy/ów podmiotowe środki dowodowe ma potwierdzenie braku podstaw do wykluczenia oraz spełnieniu warunków udziału w postępowaniu zostały określone w Dziale VI SWZ. 
+2) Zamawiający przewiduje zmiany do umowy, które zostały wskazane w projekcie umowy. 
+3) Zamawiający przewiduje w postępowaniu zabezpieczenie należytego wykonania umowy, co zostało wskazane w Dziale XVII SWZ.
+4) Zamawiający przewiduje udzielenie zamówień, o których mowa w art. 214 ust. 1 pkt. 7) PZP na zasach określonych w Dziale III ust. 10 pkt. 4) SWZ.
+5) Zamawiający przed wyborem najkorzystniejszej oferty wezwie Wykonawcę, którego oferta zostanie najwyżej oceniona do złożenia w wyznaczonym terminie, nie krótszym niż 10 dni od dnia wezwania, podmiotowych środków dowodowych, aktualnych na dzień złożenia, tj.:
+a) informacji z Krajowego Rejestru Karnego w zakresie określonym w art. 108 ust. 1 pkt. 1, 2 i 4 ustawy PZP sporządzonej nie wcześniej niż 6 miesięcy przed jej złożeniem,
+b) oświadczenie Wykonawcy w zakresie art. 108 ust. 1 pkt. 5) ustawy PZP o braku przynależności do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów, z innym Wykonawcą, który złożył odrębną ofertę, albo oświadczenie o przynależności do tej samej krupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty niezależnie od innego Wykonawcy należącego do tej samej grupy kapitałowej -  wzór oświadczenia (pdf) stanowi załącznik nr 8 do SWZ, UWAGA: Edytowalny wzór oświadczenia będzie przekazany Wykonawcy wraz z wezwaniem, o którym mowa w niniejszym ustępie.
+c) oświadczenie Wykonawcy o aktualności informacji zawartych w oświadczeniach tj.
+*) oświadczeniu JEDZ składanym na podstawie art. 125 ust. 1 ustawy PZP, w zakresie podstaw wykluczenia z postępowania wskazanych przez Zamawiającego, o których mowa w art. 108 ust. 1 pkt 3) – 6) ustawy PZP oraz art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego, 
+*) oświadczeniu potwierdzającym brak podstaw do wykluczenia  na podstawie art. 5k rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L 229 z 31.7.2014 z późn. zm. str. 1), w brzmieniu nadanym rozporządzeniem Rady (UE) 2022/576 w sprawie zmiany rozporządzenia (UE) nr 833/2014 dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L z 8.4.2022 z późn. zm, str. 1) - wzór oświadczenia (pdf) stanowi załącznik nr 9 do SWZ.
+UWAGA: Edytowalny wzór oświadczenia będzie przekazany Wykonawcy wraz z wezwaniem, o którym mowa w niniejszym ustępie.
+d) wykaz usług wykonanych, a w przypadku świadczeń powtarzających się lub ciągłych również wykonywanych, w okresie ostatnich 3 lat, a jeżeli okres prowadzenia działalności jest krótszy – w tym okresie, wraz z podaniem ich wartości przedmiotu, dat wykonania i podmiotów, na rzecz których usługi zostały wykonane lub są wykonywane, oraz załączeniem dowodów określających, czy te usługi zostały wykonane lub są wykonywane należycie, przy czym dowodami, o których mowa, są referencje bądź inne dokumenty sporządzone przez podmiot, na rzecz którego usługi zostały wykonane, a w przypadku świadczeń powtarzających się lub ciągłych są wykonywane, a jeżeli Wykonawca z przyczyn niezależnych od niego nie jest w stanie uzyskać tych dokumentów – oświadczenie Wykonawcy, w przypadku świadczeń powtarzających się lub ciągłych nadal wykonywanych referencje bądź inne dokumenty potwierdzające ich należyte wykonywanie powinny być wystawione w okresie ostatnich 3 miesięcy - wzór wykazu usług (pdf) stanowi załącznik nr 10 do SWZ. UWAGA: Edytowalny wzór wykazu usług będzie przekazany Wykonawcy wraz 
+z wezwaniem, o którym mowa w niniejszym ustępie.</cbc:Note>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">63514000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>ul. Starościńska 1</cbc:StreetName>
+               <cbc:CityName>Malbork</cbc:CityName>
+               <cbc:PostalZone>82-200</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL638</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">12</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1) w zakresie zmniejszenia ilości zamawianych usług:
+a) Zamawiający zastrzega sobie możliwość w trakcie trwania umowy do zmniejszenia ilości zamawianych usług objętych przedmiotem umowy, w zależności od jego rzeczywistych potrzeb, przy czym zmniejszenie zapotrzebowania może ulec do 50% ilości usług zarówno w zakresie poszczególnych pozycji formularza cenowego, jak i całego przedmiotu umowy,
+b) Zamawiający zastrzega, że Wykonawca nie może mieć jakichkolwiek roszczeń finansowych w stosunku do Zamawiającego.
+</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

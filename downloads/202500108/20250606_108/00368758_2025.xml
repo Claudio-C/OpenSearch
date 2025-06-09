@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.mpgk.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>http://ezamowienia.gov.pl</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Miejskie Przedsiębiorstwo Gospodarki Komunalnej - Rzeszów Sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Al. gen. Władysława Sikorskiego 428</cbc:StreetName>
+                           <cbc:CityName>Rzeszów</cbc:CityName>
+                           <cbc:PostalZone>35-304</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL823</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP 8130009854, REGON 690260991</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>178613001</cbc:Telephone>
+                           <cbc:Telefax>178613003</cbc:Telefax>
+                           <cbc:ElectronicMail>mpgk@mpgk.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.uzp.gov.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17 a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL912</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP 5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>REGON 010828091</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>22 458 78 01</cbc:Telephone>
+                           <cbc:Telefax>22 458 78 00</cbc:Telefax>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368758-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">d8504f24-7681-4b3c-8acd-de91e6f27847</cbc:ID>
+   <cbc:ContractFolderID>580d6265-332a-438a-a334-cdb5b134d748</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>10:17:48Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>nie dotyczy</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">nie dotyczy</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">Ustawa prawo zamówień publicznych</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">NO-223/X/25</cbc:ID>
+      <cbc:Name languageID="POL">
+Zakup i dostawa 2 szt. fabrycznie nowych samochodów przeznaczonych do zbierania odpadów komunalnych z tylnym załadunkiem na podwoziu dwuosiowym, zasilanych gazem ziemnym CNG.
+</cbc:Name>
+      <cbc:Description languageID="POL">1.Przedmiotem zamówienia jest zakup i dostawa 2 szt. fabrycznie nowych wyprodukowanych w 2025 r. samochodów przeznaczonych do zbierania odpadów komunalnych z tylnym załadunkiem odpadów na podwoziu dwuosiowym o DMC min. 18 000 kg i pojemność skrzyni ładunkowej min.15 m3 .
+2.Parametry techniczne jakie muszą spełniać samochody będące przedmiotem zamówienia zawarte w SWZ.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">W celu potwierdzenia braku podstaw wykluczenia Wykonawcy z udziału w postępowaniu o udzielenie zamówienia o których mowa w art. 108 ust. 1 Pzp
+Wykonawca (którego oferta została najwyżej oceniona) składa następujące podmiotowe środki dowodowe: informację z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt 1 i 2 Pzp oraz art. 108 ust. 1 pkt 4 Pzp, odnośnie do orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka karnego – sporządzoną nie wcześniej niż 6 miesięcy przed jej złożeniem; oświadczenie wykonawcy, w zakresie art. 108 ust. 1 pkt 5 Pzp, o braku przynależności do tej samej grupy kapitałowej, w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów (Dz. U. z 2020 r. poz. 1076 i 1086), z innym wykonawcą,
+który złożył odrębną ofertę, ofertę częściową albo oświadczenie o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty, oferty częściowej niezależnie od innego wykonawcy należącego do tej samej grupy kapitałowej; oświadczenie wykonawcy o aktualności informacji zawartych w oświadczeniu, o którym mowa w art. 125 ust. 1 Pzp, w zakresie podstaw wykluczenia z postępowania określonych w: art. 108 ust. 1 pkt 3 Pzp, art. 108 ust. 1 pkt 4 Pzp dotyczących orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka zapobiegawczego, art. 108 ust. 1 pkt 5 Pzp dotyczących zawarcia z innymi wykonawcami porozumienia mającego na celu zakłócenie konkurencji, art. 108 ust. 1 pkt 6 Pzp. Natomiast w celu potwierdzenia braku podstaw wykluczenia Wykonawcy z udziału w postępowaniu o udzielenie zamówienia o których mowa w art. 108 ust. 1 Pzp Wykonawca składa oświadczenie wykonawcy o
+aktualności informacji zawartych w oświadczeniu, o którym mowa w art. 125 ust. 1 Pzp, w zakresie podstaw wykluczenia z postępowania wskazanych przez Zamawiającego, określonych w art. 109 ust. 1 pkt 8 i pkt 10 Pzp.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">34144511</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">1.Oferta musi zawierać:
+1)wypełniony formularz ofertowy
+2)wypełniony JEDZ dla Wykonawcy i podmiotu udostępniającego zasoby (jeśli dotyczy)
+3)dokument/y potwierdzający/e umocowanie do reprezentowania Wykonawcy i/lub podmiotu udostepniającego zasoby w celu potwierdzenia, że osoba działająca w imieniu Wykonawcy i/lub podmiotu udostepniającego zasoby jest umocowana do jego reprezentowania:
+a)odpis lub informacja z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej lub innego właściwego rejestru. Wykonawca nie jest zobowiązany do złożenia w/w dokumentów jeżeli Zamawiający może je uzyskać za pomocą bezpłatnych i ogólnodostępnych baz danych, o ile Wykonawca i/lub podmiot udostepniający zasoby wskazał dane umożliwiające dostęp do tych dokumentów (w formularzu ofertowym i/lub formularzu zobowiązania podmiotu udostępniającego zasoby) oraz z zastrzeżeniem ppkt. b)
+b)jeżeli w imieniu wykonawcy i/lub podmiotu udostepniającego zasoby działa osoba, której umocowanie do jego reprezentowania nie wynika z dokumentów, o których mowa w ppkt. a), Zamawiający żąda od Wykonawcy pełnomocnictwa lub innego dokumentu potwierdzającego umocowanie do reprezentowania wykonawcy i/lub podmiotu udostepniającego zasoby.
+c)pełnomocnictwo – jeśli wymagane do reprezentowania Wykonawcy/ów w przypadku, gdy: 
+- Wykonawcę reprezentuje pełnomocnik,
+- ofertę składają Wykonawcy ubiegający się wspólnie o udzielenie zamówienia publicznego o treści wymaganej w art. 58 ust. 2 Pzp (dotyczy również wspólników spółki cywilnej),
+- umocowanie nie wynika z ppkt. 4 a) i b), 
+4)wadium wniesione w innej formie niż pieniądz – zgodnie z Rozdziałem IX;
+5)oświadczenie w zakresie art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 pkt 1-3 Specustawy 
+2. W postępowaniu o udzielenie zamówienia publicznego komunikacja między Zamawiającym a wykonawcami odbywa się przy użyciu Platformy e-Zamówienia, która jest dostępna pod adresem https://ezamowienia.gov.pl.
+3. Szczegółowy opis sposobu przygotowania i złożenia oferty zawiera rozdz. X SWZ.</cbc:Description>
+         <cac:Address>
+            <cbc:StreetName>al. gen. Władysława Sikorskiego 428</cbc:StreetName>
+            <cbc:CityName>Rzeszów</cbc:CityName>
+            <cbc:PostalZone>35-330</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL823</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>NO-223/X/25</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-a5c109ea-3599-43ee-ba3e-f5547c1eef99</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="POL">Strony ustalają, że obowiązującą je formą wynagrodzenia zgodnie ze Specyfikacją Warunków Zamówienia oraz wybraną w trybie przetargu ofertą Wykonawcy jest wynagrodzenie w formie ryczałtu. Wynagrodzenie ryczałtowe stanowi całość wynagrodzenia za przedmiot niniejszej umowy, jest niezmienne i zawiera wszystkie koszty związane z wykonaniem przedmiotu umowy. 
+</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">1.Wykonawca uprzednio powiadomi Zamawiającego o terminie dostawy na co najmniej 2 dni przed planowanym dniem dostawy, na adres: slwomir.irzyk@mpgk.pl lub konrad.bialek@mpgk.pl 
+2.Z czynności odbioru spisany będzie protokół zawierający wszelkie ustalenia dokonane w toku, potwierdzający należyte, bezusterkowe wykonanie umowy. Protokół odbioru przedmiotu umowy zostanie sporządzony w 2 egzemplarzach, po 1 dla każdej ze stron i podpisany przez obie strony po uruchomieniu przez Wykonawcę samochodów, przeprowadzeniu przeszkolenia pracowników zamawiającego oraz dostarczeniu dokumentów, o których mowa w § 1 ust 3.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Cena</cbc:Name>
+                  <cbc:Description languageID="POL">Kryteria oceny ofert oraz znaczenie tych kryteriów i sposobu oceny ofert zawarte w rozdz. XVI SWZ.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-a5c109ea-3599-43ee-ba3e-f5547c1eef99</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">60</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1.Odwołanie – rozdział 2 dział IX Pzp – zgodnie z przepisami Pzp przysługuje wyłącznie od niezgodnej z przepisamiustawy czynności Zamawiającego, w tym na projektowane postanowienia umowy lub zaniechania czynności w postępowaniu o udzielenie zamówieniu do której Zamawiający był obowiązany na podstawie
+ustawy lub zaniechania przeprowadzenia postępowania o udzielenie zamówienia mimo że Zamawiający był do tego obowiązany na podstawie ustawy. 2. Odwołanie wnosi się do Prezesa Krajowej Izby Odwoławczej: 1)w terminie 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia; 2) wobec treści ogłoszenia wszczynającego postępowanie i treści dokumentów zamówienia w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej; 3)w terminie 10 dni od dnia w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia wobec czynności innych niż określone w ppkt. 1). i w ppkt. 2). Odwołanie wnosi się do Prezesa Krajowej Izby Odwoławczej w formie pisemnej albo formie elektronicznej albo w postaci elektronicznej, z tym że odwołanie
+wniesione w postaci elektronicznej musi być opatrzone podpisem zaufanym. Odwołujący przekazuje Zamawiającemu odwołanie wniesione w formie elektronicznej albo postaci elektronicznej albo kopię tego odwołania, jeżeli zostało ono wniesione w formie pisemnej, przed upływem terminu do wniesienia odwołania w taki sposób, aby mógł on zapoznać się z jego treścią przed upływem tego terminu.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:30:00+02:00</cbc:OccurrenceTime>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-a5c109ea-3599-43ee-ba3e-f5547c1eef99</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">NO-223/X/25</cbc:ID>
+         <cbc:Name languageID="POL">Zakup i dostawa 2 szt. fabrycznie nowych samochodów przeznaczonych do zbierania odpadów komunalnych z tylnym załadunkiem na podwoziu dwuosiowym, zasilanych gazem ziemnym CNG</cbc:Name>
+         <cbc:Description languageID="POL">1.Przedmiotem zamówienia jest zakup i dostawa 2 szt. fabrycznie nowych wyprodukowanych w 2025 r. samochodów przeznaczonych do zbierania odpadów komunalnych z tylnym załadunkiem odpadów na podwoziu dwuosiowym o DMC min. 18 000 kg i pojemność skrzyni ładunkowej min.15 m3 .
+2.Parametry techniczne jakie muszą spełniać samochody będące przedmiotem zamówienia zawarte w SWZ.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:EstimatedOverallContractQuantity unitCode="H87">2</cbc:EstimatedOverallContractQuantity>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">34144511</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">1. Przedmiot zamówienia należy wykonać w terminie do 90 dni od dnia podpisania umowy.
+2. Wykonawca zobowiązany jest wnieść wadium przed upływem terminu składania ofert w wysokości: 57 000,00 (słownie: pięćdziesiąt siedem tysięcy złotych). Szczegółowe zasady wnoszenia wadium zawarte w rozdz. IX SWZ.
+3. Wykonawca związany jest ofertą do dnia 05.09.2025 r.</cbc:Description>
+            <cac:Address>
+               <cbc:StreetName>Al. gen. Władysława Sikorskiego 428</cbc:StreetName>
+               <cbc:CityName>Rzeszów</cbc:CityName>
+               <cbc:PostalZone>35-304</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL823</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

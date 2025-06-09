@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:ContractModification>
+                        <efbc:ChangedNoticeIdentifier schemeName="ojs-notice-id">447893-2023</efbc:ChangedNoticeIdentifier>
+                        <efbc:ModifiedContractIdentifier schemeName="contract">CON-0001</efbc:ModifiedContractIdentifier>
+                        <efac:Change>
+                            <efbc:ChangeDescription languageID="SPA">Incidencia 1: prórroga nº 1.   </efbc:ChangeDescription>
+                            <efac:ChangedSection>
+<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
+                            </efac:ChangedSection>
+                        </efac:Change>
+                        <efac:ChangeReason>
+                            <cbc:ReasonCode listName="modification-justification">mod-cir</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="SPA">Prórroga prevista en el PCAP y contrato.&#13;
+</efbc:ReasonDescription>
+                        </efac:ChangeReason>
+                    </efac:ContractModification>
+                    <efac:NoticeResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:SettledContract>
+<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <cac:LegalMonetaryTotal>
+<cbc:PayableAmount currencyID="EUR">550938.64</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+<efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+<cbc:ID>LOT-0001</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+<cbc:ID>REF TEN-0001/LOT-0001</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2023-06-21+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2023-07-14+02:00</cbc:IssueDate>
+                            <efac:ContractReference>
+<cbc:ID>SER/23/0005.01</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">38</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+<cbc:WebsiteURI>http://www.zonafrancavigo.com</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Consorcio de la Zona Franca de Vigo</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Vigo</cbc:CityName>
+    <cbc:PostalZone>36201</cbc:PostalZone>
+    <cbc:CountrySubentity>Pontevedra</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES114</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="ID_PLATAFORMA">40004470000871</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">V36611580</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Name>Consorcio de la Zona Franca de Vigo</cbc:Name>
+    <cbc:Telephone>986269721</cbc:Telephone>
+    <cbc:Telefax>986269730</cbc:Telefax>
+    <cbc:ElectronicMail>contratacion@zonafrancavigo.com</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+<cac:PartyIdentification>
+    <cbc:ID>TPO-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Tribunal Administrativo Central de Recursos Contractuales</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28020</cbc:PostalZone>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">VEOLIA SERVICIOS NORTE SAU</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:CityName>Bergondo</cbc:CityName>
+    <cbc:PostalZone>15166</cbc:PostalZone>
+    <cbc:CountrySubentityCode listName="nuts">ES111</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">A15208408</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Telephone>+034 915153600</cbc:Telephone>
+    <cbc:ElectronicMail>veoliaserviciosnorte@veolia.com</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367066-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">556b25ce-7ba6-4882-b6c4-674cd4416282</cbc:ID>
+    <cbc:ContractFolderID>9bda146a-e4bc-43ca-a539-ef29c6089a03</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+    <cbc:IssueTime>15:55:04+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="cont-modif">can-modif</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>SPA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:ProcurementProject>
+        <cbc:ID>SER/23/0005.00</cbc:ID>
+        <cbc:Name languageID="SPA">Servicio de realización de los trabajos de mantenimiento preventivo, correctivo y técnico-legal de las instalaciones eléctricas y de climatización de los edificios e instalaciones del Consorcio de la Zona Franca de Vigo en las áreas de Vigo, Porriño, Nigrán y Baiona.</cbc:Name>
+        <cbc:Description languageID="SPA">Procedimiento abierto.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">50700000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="YEAR">2</cbc:DurationMeasure>
+        </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <cac:AppealTerms>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">1</cbc:ID>
+            <cbc:Name languageID="SPA">SER/23/0005.01 Servicio de realización de los trabajos de mantenimiento preventivo, correctivo y técnico-legal de las instalaciones eléctricas y de climatización de los edificios e instalaciones del Consorcio de la Zona Franca de Vigo en el área de Vigo.</cbc:Name>
+            <cbc:Description languageID="SPA">SER/23/0005.01 Servicio de realización de los trabajos de mantenimiento preventivo, correctivo y técnico-legal de las instalaciones eléctricas y de climatización de los edificios e instalaciones del Consorcio de la Zona Franca de Vigo en el área de Vigo.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">50700000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES114</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2023-06-21+02:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

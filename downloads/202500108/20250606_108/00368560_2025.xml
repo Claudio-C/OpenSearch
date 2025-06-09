@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">1719050</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:HigherTenderAmount currencyID="PLN">1719050</cbc:HigherTenderAmount>
+                     <cbc:LowerTenderAmount currencyID="PLN">1719050</cbc:LowerTenderAmount>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">1719050</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Oferta TMS CZ 1</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-05-06+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-05-15+02:00</cbc:IssueDate>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>80/ZP/2025</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:Funding>
+                        <efbc:FinancingIdentifier>Umowa nr FELU.07.08-IZ.00-0040/24 na dofinansowanie projektu pn. „Zwiększenie dostępności i poprawa jakości usług zdrowotnych poprzez modernizację i doposażenie poradni specjalistycznych SP ZOZ w Tomaszowie Lubelskim”</efbc:FinancingIdentifier>
+                        <cbc:FundingProgramCode listName="eu-programme">ERDF_2021</cbc:FundingProgramCode>
+                        <cbc:Description languageID="POL">Działanie 7.8 Infrastruktura ochrony zdrowia (typ projektu 2,3,4) 
+Priorytetu VII Lepsza dostępność do usług społecznych i zdrowotnych 
+Programu Fundusze Europejskie dla Lubelskiego 2021-2027
+</cbc:Description>
+                     </efac:Funding>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>TMS Sp. z o.o.</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.szpital-tomaszow.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://portal.smartpzp.pl/spzoztl</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Samodzielny Publiczny Zespół Opieki Zdrowotnej w Tomaszowie Lubelskim </cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Aleje Grunwaldzkie 1</cbc:StreetName>
+                           <cbc:Department>Sekcja Zaopatrzenia i Zamówień Publicznych  </cbc:Department>
+                           <cbc:CityName>Tomaszów Lubelski </cbc:CityName>
+                           <cbc:PostalZone>22-600</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL812</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>9211645721</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Sekcja Zaopatrzenia i Zamówień Publicznych  </cbc:Name>
+                           <cbc:Telephone>84 664 44 11</cbc:Telephone>
+                           <cbc:ElectronicMail>zampub@szpital-tomaszow.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP 5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.tms.com.pl</cbc:WebsiteURI>
+                        <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">TMS Sp. z o.o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Wiertnicza 84</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-952</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP 5211004948 REGON 0010765516</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368560-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">76ba6c7c-3384-4bd2-8f0b-39f361b43188</cbc:ID>
+   <cbc:ContractFolderID>bf7a2a03-f592-4db9-8822-079612a2624c</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>12:43:58Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>http://www.szpital-tomaszow.pl</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">Niniejsze postępowanie o udzielenie zamówienia publicznego prowadzone jest zgodnie z przepisami ustawy z dnia 11 września 2019 r. Prawo zamówień publicznych (t. j. Dz. U. z 2024 r., poz. 1320), w trybie przetargu nieograniczonego (art. 132 ustawy Pzp).</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="POL">1. Zamawiający informuje, iż na podstawie art. 139 ust. 1 ustawy Pzp może najpierw dokonać badania i oceny ofert, a następnie dokonać kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełniania warunków udziału w postępowaniu. 2. W postępowaniu o udzielenie zamówienia komunikacja pomiędzy Zamawiającym, a Wykonawcami odbywa się przy użyciu Platformy zakupowej: https://spzoztl.ezamawiajacy.pl. 1) Zamawiający określa niezbędne wymagania sprzętowo- aplikacyjne umożliwiające pracę na Platformie Zakupowej tj.: - podłączenie do Internetu: min 512 Kb/s na komputer (zalecane szerokopasmowe łącze internetowe); - komputer PC/MAC z aktualnym systemem operacyjnym wspieranym przez producenta; - wybrana przeglądarka wpierana przez producenta: MS Internet Explorer, Firefox, Google Chrome lub MS Edge; 2) Zamawiający określa niezbędne wymagania sprzętowo-aplikacyjne umożliwiające prawidłowe złożenie kwalifikowanego podpisu elektronicznego: - zainstalowaną bezpłatną wersję oprogramowania Oracle JAVA w wersji co najmniej 1.8.0_202 lub użycie JAVA w wersji oprogramowania OpenJDK wydanej na licencji GPL. Rekomendowaną wersją jest AdoptOpenJDK, dostępną na stronie https://adoptopenjdk.net; - podłączony lub wbudowany do komputera czytnik karty kryptograficznej wydanej przez wystawcę certyfikatu używanego przez Wykonawcę; - certyfikat kwalifikowany zainstalowany na komputerze, na którym Wykonawca będzie się logował do konta (certyfikat musi być widoczny w magazynie logicznym certyfikatów systemu Windows o nazwie „Osobisty”). 3) Zamawiający określa dopuszczalne formaty przesyłanych danych tj. plików o wielkości do 100 MB: .doc, .docx, .xls, .xlsx, .rar, .zip, .7zip, .pdf., .jpg, .jpeg, .png, .txt, .tiff, .xades, .cades, .pades, .sig, 4) Zamawiający określa informacje na temat kodowania i czasu odbioru danych tj.: - plik załączony przez Wykonawcę na Platformie Zakupowej i zapisany, widoczny jest w Systemie, jako zaszyfrowany – format kodowania UTF8. Możliwość otworzenia pliku dostępna jest dopiero po odszyfrowaniu przez Zamawiającego po upływie terminu otwarcia ofert. - znaczenie czasu odbioru danych przez Platformę stanowi datę oraz dokładny czas (hh:mm:ss) generowany wg. czasu lokalnego serwera synchronizowanego odpowiednim źródłem czasu. 3. Szczegółowe informacje o środkach komunikacji elektronicznej zawiera rozdział 11 SWZ. 4. Ofertę składa się, pod rygorem nieważności, w formie elektronicznej w formatach danych określonych w przepisach wydanych na podstawie art. 18 ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne (t. j. Dz. U. z 2024 r. poz. 1557 ze zm.), z zastrzeżeniem formatów, o których mowa w art. 66 ust. 1 ustawy Pzp, z uwzględnieniem rodzaju przekazywanych danych. 5. Przedmiotowe środki dowodowe. Zamawiający w celu potwierdzenia zgodności oferowanych produktów z wymaganiami Zamawiającego wymaga od Wykonawcy złożenia wraz z ofertą  uzupełnionych tabel zawartych w szczegółowym opisie przedmiotu zamówienia wg Załącznika Nr 1 do SWZ zawierających parametry techniczne oferowanego wyposażenia podpisanych przez Wykonawcę oraz potwierdzających wartości przyjęte w kryteriach oceny ofert. Zamawiający akceptuje równoważne przedmiotowe środki dowodowe, jeśli potwierdzają, że oferowane dostawy spełniają określone przez zamawiającego wymagania, cechy i kryteria.
+1) Zamawiający informuje, że działając na podstawie art. 107 ust. 2 ustawy Pzp przewiduje, że w sytuacji, w której Wykonawca nie złożył przedmiotowych środków dowodowych lub złożone przedmiotowe środki dowodowe są niekompletne, Zamawiający jednokrotnie wezwie do ich złożenia lub uzupełnienia w wyznaczonym terminie.
+2) Postanowień pkt 1) nie stosuje się: a) w części w jakiej przedmiotowy środek dowodowy służy potwierdzeniu zgodności z cechami lub kryteriami określonymi w opisie kryteriów oceny ofert lub, b) pomimo złożenia przedmiotowego środka dowodowego, oferta podlega odrzuceniu albo zachodzą przesłanki unieważnienia postępowania.
+3) Zamawiający może żądać od Wykonawców wyjaśnień dotyczących treści przedmiotowych środków dowodowych.
+6. Zamawiający nie przewiduje wnoszenia zabezpieczenia należytego wykonania umowy. 7. Przedmiot zamówienia objęty jest gwarancją Wykonawcy i Producenta, udzieloną na okres nie krótszy niż 24 miesięcy, licząc od dnia podpisania protokołu odbioru końcowego, o którym mowa w § 5a ust. 1 umowy, chyba że Zamawiający wskazał inny okres gwarancji dla poszczególnych pozycji w Załączniku Nr 1 do SWZ (Szczegółowy opis przedmiotu zamówienia). Zamawiającemu przysługują pełne uprawnienia z tytułu rękojmi za wady fizyczne wynikające z przepisów kodeksu cywilnego w terminach tam określonych – niezależnie od uprawnień z tytułu gwarancji. 8. Szczegółowe warunki dotyczące postępowania o udzielenie zamówienia publicznego są określone w SWZ, która zawiera szczegółowe informacje dotyczące przedmiotu zamówienia, warunków postępowania o udzielenie zamówienia (pełny opis procedury), warunków uczestnictwa wykonawców w postępowaniu, kryteriów oceny ofert oraz wszelkie informacje potrzebne do prawidłowego sporządzenia i złożenia oferty przez wykonawców. SWZ dostępna jest na stronie internetowej prowadzonego postępowania, o której mowa w pkt. 1.2 SWZ. 9. Numeracja przywołana w pkt 2.1.4 ogłoszenia o zamówieniu wynika z numeracji przyjętej w SWZ.</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">194727-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">SZZ.251.11.2025.U</cbc:ID>
+      <cbc:Name languageID="POL">Dostawa sprzętu i wyposażenia w ramach projektu „Zwiększenie dostępności i poprawa
+jakości usług zdrowotnych poprzez modernizację i doposażenie poradni specjalistycznych SP
+ZOZ w Tomaszowie Lubelskim"</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest dostawa sprzętu i wyposażenia w ramach projektu
+„Zwiększenie dostępności i poprawa jakości usług zdrowotnych poprzez modernizację i
+doposażenie poradni specjalistycznych SP ZOZ w Tomaszowie Lubelskim”</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">7.1.	Wykluczeniu z postępowania o udzielenie zamówienia podlega Wykonawca, w stosunku, do którego zachodzi którakolwiek z okoliczności, o których mowa w art. 108 ust. 1 ustawy Pzp.
+7.2.	Zamawiający nie przewiduje podstaw wykluczenia wskazanych w art. 109 ust 1 ustawy Pzp.
+7.6.	Wykonawca podlega wykluczeniu także w oparciu o podstawy wykluczenia wskazane art. 7 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t. j. Dz. U. 2024 r., poz. 507).
+7.11. Wykluczenie Wykonawcy następuje również na podstawie art. 5k Rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz.U. L 229 z 31.7.2014), w brzmieniu nadanym Rozporządzeniem Rady (UE) 2022/576 z dnia 8 kwietnia 2022 r. w sprawie zmiany rozporządzenia (UE) nr 833/2014 dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz.U. L 111 z 8.4.2022).
+8.1.	Wykonawca zobowiązany jest złożyć wraz z ofertą oświadczenie stanowiące wstępne potwierdzenie, że Wykonawca na dzień składania ofert:
+a) nie podlega wykluczeniu,
+b) spełnia warunki udziału w postępowaniu.
+8.1.1. Oświadczenie, o którym mowa w pkt 8.1 SWZ Wykonawca zobowiązany jest złożyć w formie jednolitego dokumentu sporządzonego zgodnie z wzorem standardowego formularza określonego w rozporządzeniu wykonawczym Komisji Europejskiej 2016/7 z dnia 5 stycznia 2016 r.  wydanym na podstawie art. 59 ust. 2 dyrektywy 2014/24/UE, zwanego dalej „Jednolitym Dokumentem” lub „JEDZ”. – wg Załącznika Nr 4 do SWZ.
+8.1.2. Jeżeli Wykonawca nie złożył oświadczenia, o którym mowa w pkt 8.1 SWZ lub jest ono niekompletne lub zawiera błędy, Zamawiający wezwie Wykonawcę odpowiednio do jego złożenia, poprawienia lub uzupełnienia w wyznaczonym terminie, chyba że oferta Wykonawcy podlega odrzuceniu bez względu na jego złożenie, uzupełnienie lub poprawienie lub zachodzą przesłanki unieważnienia postępowania.
+8.1.3. Zamawiający może żądać od Wykonawców wyjaśnień dotyczących treści oświadczenia, o których mowa w pkt 8.1 SWZ.
+8.1.4. Jeżeli złożone przez Wykonawcę oświadczenie, o którym mowa w pkt 8.1 SWZ budzi wątpliwości Zamawiającego, może on zwrócić się bezpośrednio do podmiotu, który jest w posiadaniu informacji lub dokumentów istotnych w tym zakresie dla oceny spełniania przez Wykonawcę warunków udziału w postępowaniu lub braku podstaw wykluczenia, o przedstawienie takich informacji lub dokumentów.
+8.2.	Wykonawca zobowiązany jest złożyć wraz z ofertą oświadczenie, że: 
+1) nie podlega wykluczeniu z postępowania na podstawie art. 5k rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie, 
+2) nie zachodzą w stosunku do niego przesłanki wykluczenia z postępowania na podstawie art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego,
+– wg Załącznika Nr 5 do SWZ.
+8.3.	Zamawiający wezwie Wykonawcę, którego oferta została najwyżej oceniona, do złożenia w wyznaczonym terminie (nie krótszym niż 10 dni od dnia wezwania) następujących podmiotowych środków dowodowych (aktualnych na dzień złożenia):
+8.3.1. W celu potwierdzenia spełniania warunków udziału w postępowaniu:
+1) wykazu dostaw wykonanych, a w przypadku świadczeń powtarzających się lub ciągłych również wykonywanych, w okresie ostatnich 3 lat przed terminem składania ofert, a jeżeli okres prowadzenia działalności jest krótszy - w tym okresie, wraz z podaniem ich wartości, przedmiotu, dat wykonania i podmiotów, na rzecz których dostawy zostały wykonane lub są wykonywane, oraz załączeniem dowodów określających, czy te dostawy zostały wykonane lub są wykonywane należycie, przy czym dowodami, o których mowa, są referencje bądź inne dokumenty sporządzone przez podmiot, na rzecz którego dostawy zostały wykonane, a w przypadku świadczeń powtarzających się lub ciągłych są wykonywane, a jeżeli Wykonawca z przyczyn niezależnych od niego nie jest w stanie uzyskać tych dokumentów - oświadczenie Wykonawcy; w przypadku świadczeń powtarzających się lub ciągłych nadal wykonywanych referencje bądź inne dokumenty potwierdzające ich należyte wykonywanie powinny być wystawione w okresie ostatnich 3 miesięcy przed terminem składania ofert zgodnie z wzorem stanowiącym Załącznik Nr 6 do SWZ – w odniesieniu do warunku określonego w pkt. 6.1.4 SWZ,
+8.3.2. W celu potwierdzenia braku podstaw do wykluczenia z udziału w postępowaniu:
+1) 	informacji z Krajowego Rejestru Karnego w zakresie:
+a)	art. 108 ust. 1 pkt 1 i 2 ustawy Pzp; 
+b)	art. 108 ust. 1 pkt 4 ustawy Pzp, dotyczącej orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka karnego,
+- sporządzonej nie wcześniej niż 6 miesięcy przed jej złożeniem;
+2) 	oświadczenia Wykonawcy, w zakresie art. 108 ust. 1 pkt 5 ustawy Pzp, o braku przynależności do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów (t. j. Dz. U. z 2024 r. poz. 1616), z innym Wykonawcą, który złożył odrębną ofertę, ofertę częściową lub wniosek o dopuszczenie 
+do udziału w postępowaniu, albo oświadczenia o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty, oferty częściowej lub wniosku o dopuszczenie do udziału w postępowaniu niezależnie od innego wykonawcy należącego do tej samej grupy kapitałowej 
+– wg Załącznika Nr 7 do SWZ,
+3) oświadczenia Wykonawcy o aktualności informacji zawartych w oświadczeniu, o którym mowa:
+a) w pkt 8.1 SWZ, w zakresie podstaw wykluczenia z postępowania wskazanych przez Zamawiającego, o których mowa w:
+− art. 108 ust. 1 pkt 3 ustawy Pzp,
+− art. 108 ust. 1 pkt 4 ustawy Pzp, dotyczących orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka zapobiegawczego,
+− art. 108 ust. 1 pkt 5 ustawy Pzp, dotyczących zawarcia z innymi Wykonawcami porozumienia mającego na celu zakłócenie konkurencji,
+− art. 108 ust. 1 pkt 6 ustawy Pzp,
+b) w pkt 8.2 SWZ (w przypadku podmiotu udostępniającego zasoby oświadczenia o aktualności informacji zawartych w oświadczeniu, o którym mowa w pkt 9.10 SWZ – jeśli dotyczy),
+- wg załącznika Nr 8 do SWZ.
+8.19. Jeżeli wykonawca ma siedzibę lub miejsce zamieszkania poza granicami Rzeczypospolitej Polskiej, zamiast dokumentu wskazanego w pkt 8.3.2 ppkt 1) SWZ - składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy albo w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument, w zakresie, o którym mowa w pkt 8.3.2 ppkt 1) SWZ  - wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem.
+8.20. Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy, nie wydaje się dokumentów, o których mowa w pkt 8.19 SWZ, lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1, 2 i 4 ustawy Pzp, zastępuje się je odpowiednio w całości lub w części dokumentem (wystawionym w wymaganym w pkt. 8.19 SWZ terminie) zawierającym odpowiednio oświadczenie wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć, nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="PLN">1720740.74</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33100000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Aleje Grunwaldzkie 1</cbc:StreetName>
+            <cbc:CityName>Tomaszów Lubelski</cbc:CityName>
+            <cbc:PostalZone>22-600</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL812</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>90</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Cena</cbc:Name>
+                  <cbc:Description languageID="POL">Zgodnie z rozdziałem 17 SWZ</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Parametry techniczne i wymagania</cbc:Name>
+                  <cbc:Description languageID="POL">Zgodnie z rozdziałem 17 SWZ</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wnosi się w terminie: a) 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej; b) 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w lit. a. 2. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 3. Odwołanie w przypadkach innych niż określone w pkt 1 i 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">część 1 zamówienia</cbc:ID>
+         <cbc:Name languageID="POL">Sprzęt diagnostyczno-obrazowy</cbc:Name>
+         <cbc:Description languageID="POL">1. część 1 zamówienia – „ Sprzęt diagnostyczno-obrazowy” w skład, którego wchodzą:
+1) Stacjonarny aparat RTG z systemem cyfrowym – 1 kpl.
+2) Aparat USG klasy premium z 2 sondami – 1 kpl.
+3) Aparat USG klasy premium z 4 sondami (ginekologia) – 1 kpl.
+2. Zakres rzeczowy przedmiotu zamówienia obejmuje:
+1)	dostawę fabrycznie nowego (rok produkcji:  2024/2025 r.), pochodzącego z bieżącej produkcji i nieużywanego przed dniem dostarczenia, z wyłączeniem używania niezbędnego dla przeprowadzenia testu poprawnej pracy, pochodzącego z oficjalnych kanałów dystrybucyjnych producenta, zapewniających w szczególności realizację uprawnień gwarancyjnych wyposażenia w zakresie określonym w Załączniku nr 1 do SWZ wraz z ich transportem, wniesieniem oraz montażem (jeśli dotyczy) i ustawieniem 
+w miejscu wskazanym przez Zamawiającego,
+2)	dostarczenie wraz z zamówieniem wymaganej do obsługi instrukcji w języku polskim (jeśli dotyczy),
+3)	dostarczenie dokumentacji technicznej, użytkowej związanej z przedmiotem zamówienia,
+4)	dostarczenie wraz z zamówieniem dokumentów gwarancyjnych wystawionych przez producenta, a także wszelkich niezbędnych do prawidłowego działania przewodów, kabli, złącz, itd. (jeżeli są wymagane do prawidłowego działania produktu),
+5)	posprzątanie pomieszczeń po montażu oraz rozmieszczeniu i instalacji wyposażenia,
+6)	przeprowadzenia szkolenia z obsługi wyposażenia dla wskazanych pracowników Zamawiającego (dotyczy elementów dostarczanego, dla których przewidziano taką konieczność w szczegółowym opisie przedmiotu zamówienia),
+7)	koszty transportu oraz ubezpieczenia dostarczanego wyposażenia ponosi Wykonawca,
+8)	wszystkie elementy elektryczne oferowanego wyposażenia muszą odpowiadać polskiemu standardowi zasilania,
+9)	Wykonawca będzie odpowiedzialny względem Zamawiającego za to, że jest uprawniony do wprowadzenia do obrotu oprogramowania zainstalowanego w oferowanym wyposażeniu oraz za to, że Zamawiający wskutek zawarcia umowy będzie upoważniony do korzystania w ramach zwykłego użytku ze wszelkiego oprogramowania dostarczonego wraz z oferowanym sprzętem,
+10)	Wykonawca jest odpowiedzialny za całokształt zamówienia, w tym za jego przebieg oraz terminowe wykonanie, jakość, zgodność z warunkami technicznymi, jakościowymi i obowiązującymi w tym zakresie przepisami prawa. 
+3. Szczegółowy opis przedmiotu zamówienia, wielkość, zakres, rodzaj i wielkość dostaw, warunki gwarancji, serwisu, parametry techniczne określono w Załączniku nr  1 (części 1-14) do SWZ oraz Projekcie umowy Załącznik Nr 2 
+do SWZ.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33100000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33111000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33111800</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33112200</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33112310</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Samodzielny Publiczny Zespół Opieki Zdrowotnej w Tomaszowie Lubelskim, ul. Aleje Grunwaldzkie 1, 22-600 Tomaszów Lubelski.</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL812</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-05-15+02:00</cbc:StartDate>
+            <cbc:EndDate>2025-09-15+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

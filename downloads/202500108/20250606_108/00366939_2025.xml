@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.edf.fr</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://pha2.edf.com</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">EDF SA</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>140 Avenue Viton</cbc:StreetName>
+                           <cbc:AdditionalStreetName>Bâtiment les calanques 3ème étage</cbc:AdditionalStreetName>
+                           <cbc:Department>Direction des Achats Groupe</cbc:Department>
+                           <cbc:CityName>MARSEILLE</cbc:CityName>
+                           <cbc:PostalZone>13009</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>552081317</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>M MARCINKOWSKI Christophe </cbc:Name>
+                           <cbc:Telephone>+33 634844519</cbc:Telephone>
+                           <cbc:ElectronicMail>christophe.marcinkowski@edf.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.tribunal-de-paris.justice.fr</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal Judiciaire de Paris</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Parvis du Tribunal de Paris</cbc:StreetName>
+                           <cbc:CityName>Paris Cedex 17</cbc:CityName>
+                           <cbc:PostalZone>75859</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>17750111101763</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+33 144325151</cbc:Telephone>
+                           <cbc:ElectronicMail>tj-paris@justice.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://mediateur.edf.fr/mediation?id=mediateur</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Médiateur du groupe EDF</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>TSA 50026</cbc:StreetName>
+                           <cbc:CityName>Paris Cedex 08</cbc:CityName>
+                           <cbc:PostalZone>75804</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>552081317T</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+33 144325151</cbc:Telephone>
+                           <cbc:ElectronicMail>tj-paris@justice.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366939-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">a107435c-68ee-4fc6-af01-92165cdb4ae8</cbc:ID>
+   <cbc:ContractFolderID>9588d967-d785-42af-bea4-f0a37677417f</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>10:57:22Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://pha2.edf.fr</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="entity-activity">electricity</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">Conformément aux réglementations relatives au devoir de vigilance et aux législations nationales ou locales relatives à la lutte contre la corruption, le blanchiment et le financement du terrorisme applicables à la relation d’affaires avec le groupe EDF, chaque candidat doit déclarer et signer un engagement au titre des exigences en matière de conformité (déclaration accessible sur le portail Achats au moment de la candidature). 
+Chaque candidat doit fournir une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L. 2141-1 à L. 2141-5 (exclusions de plein droit) et L. 2141-7 à L. 2141-11 du CCP (exclusions à l’appréciation de l’acheteur).  
+Cette déclaration est à produire par les candidats individuels et par chacun des membres d'un groupement candidat et, le cas échéant, par les sous-traitants présentés.
+Chaque candidat doit attester ne pas être dans l’un des cas prévus par le règlement n°2022/576 du 8 avril 2022 du Conseil de l’Union européenne concernant les mesures restrictives eu égard aux actions de la Russie déstabilisant la situation en Ukraine (attestation accessible sur le portail Achats à la remise de la candidature).
+</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="FRA">La présente consultation est une procédure avec négociation passée en application de l'art. L.21243 et des Art. R. 21244 ainsi que des Art. R.216121 et SV du CCP avec limitation du nombre de candidat admis à soumissionner, conformément aux dispositions des art. R.214215, R 214216 et R 214218 du CCP. (Phase de présélection régie par le présent avis de publicité à la rubrique 5.1.9 critère de sélection Autre EDF se réserve la possibilité d'attribuer le marché sur la base des offres initiales sans négociations (Art. R.216123 du CCP)</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">AVIS017279</cbc:ID>
+      <cbc:Name languageID="FRA">Bail Commercial en l'Etat Futur d'Achèvement (BEFA) ENEDIS siège de la Direction Régionale Aquitaine NORD</cbc:Name>
+      <cbc:Description languageID="FRA">Dans le cadre de sa modernisation, Enedis a décidé de transférer le siège sociale de la Direction Régionale Aquitaine NORD vers un nouveau site permettant une meilleure performance opérationnelle répondant aux exigences de la transition énergétique au sein de l’agglomération de Mérignac. Enedis recherche ainsi : ­ un immeuble à usage mixte à prendre à bail dans le cadre d’un BEFA permettant de répondre à ses besoins spécifiques lesquels seront précisées dans les documents de la consultation à venir sur l’agglomération de Mérignac. Des travaux d’aménagement des locaux pour le compte d’Enedis seront à réaliser, conformément aux documents de la consultation à venir, et ce avant la date de livraison des immeubles laquelle constitue la date de prise d’effet des BEFA.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="FRA"> Pour répondre au présent avis de marché, les candidats doivent se manifester sur le portail d'achat d'EDF https://pha2.edf.com AVIS n°016969 tel qu'identifié à l'article 2.1 procédure identifiant interne et rattacher les documents demandés au présent avis de marché. Les candidats intéressés non inscrits s'autoréférenceront depuis la page d’accueil du portail d'achat sur le site https://pha2.edf.comà l'aide du lien placé dans l'encart "Nouveau fournisseurs Se référencer" Aucun envoie par email n'est autorisé Un document intitulé « Identification des membres du groupement et répartition des prestations » est disponible dans l'espace collaboratif dédié aux fournisseurs dans le Portail Achats. Dans le cadre de la dématérialisation de ses procédures, EDF SA informe l'ensemble des soumissionnaires que la signature électronique des marchés est privilégiée, que ceux-ci soient attribués à une seule entreprise ou à un groupement d'entreprises. En cas de groupement, l’un des membres du groupement est désigné comme mandataire Celui ci est solidaire, pour l'exécution du marché, de chacun des membres du groupement pour ses obligations contractuelles à l'égard d'EDF Les candidats ne sont pas autorisés à faire acte de candidature en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements, ou en qualité de membres de plusieurs groupements Sans préjudice de l'article L 2141 13 du code de la commande publique, la composition du groupement ne peut pas être modifiée entre la date de remise des candidatures et la date de signature du marché, sauf en cas de restructuration de société ou si le groupement apporte la preuve qu'un de ses membres se trouve dans l'impossibilité d'accomplir sa tâche pour des raisons qui ne sont pas de son fait Dans le cadre de la dématérialisation de ses procédures, EDF SA informe l'ensemble des soumissionnaires que la signature électronique des marchés est privilégiée, que ceux ci soient attribués à une seule entreprise ou à un groupement d'entreprises</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">21628250</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45210000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">70120000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">70310000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="FRA">Les informations complémentaires sur le lieu d’exécution du marché sont précisées à chaque rubrique 5.1.2 Lieu d’exécution. 
+</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">CAPACITES ECONOMIQUE ET FINANCIERE Liste et description succincte des critères de selection:
+Renseignements et formalités nécessaires pour évaluer si ces exigences sont remplies: 
+Le Candidat indiquera les Chiffres d’Affaires (promotion tertiaire uniquement) en € HT des années 2022, 2023 et 2024.
+Il précisera son Chiffre d’affaires prévisionnel pour l’année 2025. 
+Le Chiffre d’Affaires Annuel moyen des trois derniers exercices exigibles sera au moins de 29 M€. 
+Les Candidats devront obligatoirement fournir (original ou copie certifiée) les bilans et comptes de résultat avec leurs annexes des trois derniers exercices comptables. Les Candidats devront fournir une présentation de leur société, leur organisation, leurs activités et leur savoir ­faire. 
+Les Candidats doivent être en mesure de présenter des interlocuteurs parlant et écrivant le français dans les domaines techniques et commerciaux et connaissant parfaitement la réglementation française dans le domaine concerné.
+Documents complémentaires obligatoires à présenter : 
+• KBIS ; • Le périmètre de consolidation du groupe auquel ils appartiennent (filiales et prises de participation) ; 
+• L'organigramme de l'entité juridique du Candidat. 
+Les Candidats doivent apporter la preuve du respect de ces conditions dans le dossier de demande de participation répondant à cet avis.
+En cas d'absence de preuve, la Candidature pourra être rejetée.
+</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">CAPACITES TECHNIQUES ET PROFESSIONNELLES
+Liste et description succincte des critères de sélection: 
+Le Candidat est tenu de justifier et transmettre tout document permettant d’évaluer si les exigences ci­ dessous sont remplies. 
+Renseignements et formalités nécessaires pour évaluer si ces exigences sont remplies :
+Foncier Le Candidat devra fournir un titre de propriété, une promesse de vente ou un courrier de réservation d’un foncier. 
+La démonstration de la compatibilité du projet immobilier avec les règles d’urbanisme en vigueur sur le foncier devra être remise par le Candidat dans le cadre de la consultation à venir. 
+Equipe 
+Le Candidat devra rassembler les compétences non exhaustives suivantes : 
+• de bailleur/promoteur ; 
+• d’architecte(s) et de maître d’œuvre ; 
+• de bureau d’études tous corps d’état (y compris d’étude thermique, de performance environnementale et d’acoustique) ; 
+• d’économiste de la construction ; • d’ordonnancement, de pilotage et coordination de travaux tous corps d’état ; 
+• d’exploitation/maintenance des bâtiments et de leurs installations. Proposition méthodologique Le Candidat devra justifier de la pertinence de l'organisation à mettre en place pour atteindre le résultat demandé et devra pouvoir réaliser les prestations dans les délais imposés au II.3. Il doit avoir également la capacité de mettre en œuvre des moyens complémentaires, en cas d’aléas. 
+Références réalisées 
+Le Candidat doit fournir à minima 3 références équivalentes à l’objet du présent marché déjà réceptionnées, datant de moins de 3 ans. 
+Chaque référence devra faire l'objet d'une fiche comprenant : 
+• le nom et adresse de réalisation ; 
+• le montant et la durée du marché ; 
+• l'année de réception ; 
+• les caractéristiques techniques de la réalisation. 
+Les références ne faisant pas l’objet d’une fiche comprenant l’ensemble des informations ci ­avant ne seront pas prises en compte. En complément des éléments exigés ci­dessus, la fourniture d’une image des projets (photo ou perspective) sera appréciée.
+</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Habilitation à exercer l'activité professionnelle, y compris exigences relatives à l'inscription au registre du commerce ou de la profession
+Renseignements et formalités nécessaires pour évaluer si ces exigences sont remplies: 
+Peuvent soumissionner : 
+Les Candidats en conformité avec les dispositions suivantes (article 8 de l'ordonnance de transposition du 06 juin 2005 modifiée et article 18 de son décret d’application n°2005-1308 du 20 octobre 2005)
+« Ne peuvent soumissionner : 
+1) Les Candidats qui ont fait l’objet, depuis moins de cinq ans, d’une condamnation définitive pour l’une des infractions prévues aux articles 222-38, 222-40, 225-1, 226-13, 313-1 à 313-3, 314-1 à 314-3, 324-1 à 324-6, 413-9 à 413-12, 421-1 à 421-2-3, au deuxième alinéa de l’article 421-5, à l’article 433-1, au second alinéa de l’article 433-2, au huitième alinéa de l’article 434-9, au second alinéa de l’article 434-9-1, aux articles 435-3, 435-4, 435-9, 435-10,441-1 à 441-7,441-9, 445-1 et 450-1 du code pénal, à l’article 1741 du code général des impôts et aux articles L. 2339-2 à L. 2339-4, L. 2339-11-1 à L. 2339-11-3 du code de la défense et L. 317-8 du code de la sécurité intérieure,
+2) Les Candidats qui ont fait l’objet, depuis moins de cinq ans, d’une condamnation inscrite au bulletin n° 2 du casier judiciaire pour les infractions mentionnées aux articles L. 1146-1, L. 8221-1, L. 8221-3, L. 8221-5, L. 8231-1, L. 8241-1 , L. 8251-1 et L. 8251-2 du code du travail, 
+3) Les Candidats soumis à la procédure de liquidation judiciaire prévue à l’article L. 640-1 du code de commerce, les personnes physiques dont la faillite personnelle a été prononcée en application des articles L. 653-1 à L. 653-8 du même code ainsi que les personnes faisant l’objet d’une procédure équivalente régie par un droit étranger. Les Soumissionnaires admis à la procédure de redressement judiciaire instituée par l’article L. 631-1 du code de commerce ou à une procédure équivalente régie par un droit étranger doivent justifier qu’elles ont été habilitées à poursuivre leurs activités pendant la durée prévisible d’exécution du marché, 
+4) Les Candidats qui, au 31 décembre de l’année précédant celle au cours de laquelle a lieu le lancement de la consultation, n’ont pas souscrit les déclarations leur incombant en matière fiscale et sociale ou n’ont pas acquitté les impôts et cotisations exigibles à cette date. Toutefois, sont considérées comme en situation régulière les Soumissionnaires qui, au 31 décembre de l’année précédant celle au cours de laquelle a eu lieu le lancement de la consultation, n’avaient pas acquitté les divers produits devenus exigibles à cette date, ni constitué de garanties, mais qui, avant la date du lancement de la consultation, ont, en l’absence de toute mesure d’exécution du comptable ou de l’organisme chargé du recouvrement, soit acquitté lesdits produits, soit constitué des garanties jugées suffisantes par le comptable ou l’organisme chargé du recouvrement. Les personnes physiques qui sont dirigeants de droit ou de fait d’une personne morale qui ne satisfait pas aux conditions prévues au présent alinéa ne peuvent être personnellement Soumissionnaires à un marché. 
+5) Les Candidats qui, au 31 décembre de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, n'ont pas mis en œuvre l'obligation de négociation prévue à l'article L. 2242-5 du code du travail et qui, à la date à laquelle ils soumissionnent, n'ont pas réalisé ou engagé la régularisation de leur situation. 
+Pour justifier qu’il n’est pas dans l’une des situations citées aux point 1) à 5) ci-avant, le Candidat doit produire une déclaration sur l’honneur datée et signée. Ces conditions sont applicables aux Candidats et à chacun des membres d’un groupement Candidat. »
+</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">GARANTIE FINANCIERE
+Garantie financière d'achèvement de l’immeuble délivrée par une banque ou un établissement financier, dans les mêmes formes que celles prévues aux dispositions de l’article R 261-21 b du Code de la construction et de l’habitation à fournir telle que précisée dans les documents de la consultation à venir.
+Assurances à justifier à la signature du marché: Assurances de responsabilités, Assurances de dommages, Assurances dommages-ouvrages.
+</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">FORME JURIDIQUE DU GROUPEMENT
+En cas de groupement d'entreprises attributaires du marché, l’un des membres du groupement est désigné comme mandataire. Celui-ci coordonne les prestations de chacun des membres du groupement et représente ceux-ci auprès d’ENEDIS. Chacun des membres du groupement est engagé pour la totalité du marché (groupement « solidaire »).
+Par ailleurs, un Candidat, qui proposera une offre au titre d'un groupement d'entreprises, ne pourra pas remettre d'offre à titre individuel ou au titre d'un autre groupement.
+</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+            <cbc:Description languageID="FRA">Garantie financière d'achèvement de l’immeuble délivrée par une banque ou un établissement financier, dans les mêmes formes que celles prévues aux dispositions de l’article R 261-21 b du Code de la construction et de l’habitation à fournir telle que précisée dans les documents de la consultation à venir.
+Assurances à justifier à la signature du marché: Assurances de responsabilités, Assurances de dommages, Assurances dommages-ouvrages.
+</cbc:Description>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>FRA</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>Document du marché</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://pha2.edf.com</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="FRA">Les offres doivent être exprimées en Euros. Les prix sont révisables. Financement sur ressources propres. Paiement à 60 jours à compter de la date d'émission de facture et versement d'acomptes correspondants aux prestations réalisé es. Paiement par virement selon les modalités prévues par les documents contractuels.</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">Tous les critères sont enoncés dans les documents de consultation</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">Chaque candidat s'engage à ne pas divulguer, sans l’accord écrit et préalable de l’Entreprise, les informations confidentielles qui seront portées à sa connaissance du fait ou à l'occasion du déroulement de la présente affaire sur le Portail Achats EDF et à n’utiliser ces informations que dans le cad re de l’affaire.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://pha2.edf.com</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Les procédures de recours applicables sont : Le référé précontractuel (CPC, art 1441 1 et 1441 2) qui peut être exercé jusqu’à la signature du marché ; Le référé contractuel (CPC, art 1441 3 et 1441 3 1) qui peut être exercé dans un délai de : 31 jours à compter de la publication d’un avis d’attribution au JOUE ou, pour les marchés fondés sur un accord cadre, à compter de la notification de la conclusion du contrat ;ou 6 mois à compter du lendemain du jour de la conclusion du contrat si aucun avis d’attribution n’a été publié.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2025-06-27+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AdditionalInformationRequestPeriod>
+            <cbc:EndDate>2025-06-24+02:00</cbc:EndDate>
+            <cbc:EndTime>17:00:00+02:00</cbc:EndTime>
+         </cac:AdditionalInformationRequestPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Lot unique</cbc:ID>
+         <cbc:Name languageID="FRA">Bail Commercial en l'Etat Futur d'Achèvement (BEFA) ENEDIS siège de la Direction Régionale Aquitaine NORD </cbc:Name>
+         <cbc:Description languageID="FRA">Enedis a décidé de déplacer l’emplacement su siège de la Direction Régionale Aquitaine Nord située actuellement sur la commune de Mérignac ( Département de la Gironde (33) vers un site neuf, optimisé et répondant aux dernières normes environnementales. La zone de recherche pour la future implantation du site devra se situer  sur la commune de Mérignac (33) mais devra strictement être restreinte sur la zone d’implantation demandée et renseignée en annexe.
+Dimensionnement du nouveau site : surfaces bureaux d’environ 6448 m² ­ surfaces Locaux techniques annexes  d’environ 110 m² ­ nombre de places véhicules légers d’environ 288 places, 80 places 2 roues ­ L’immeuble à construire sera conforme aux réglementations en vigueur. 
+Il répondra également à la politique développement durable de l’entreprise ENEDIS en vigueur laquelle sera présentée dans le dossier de consultation. 
+Ces surfaces sont fournies à +/­10% près par rapport aux surfaces qui seront précisées dans le Règlement de Consultation à venir. 
+Les bâtiments devront être obligatoirement neufs. La Livraison de l’immeuble (travaux d’aménagement Preneur achevés) devra intervenir pour le 01/07/2028. 
+La réalisation des travaux d’aménagement du Preneur sera confiée au Bailleur. 
+Le Titulaire sera chargé par ENEDIS de l'ensemble des missions suivantes : 
+• Concevoir, entreprendre et suivre l’ensemble des études qui permettent de construire les bâtiments tels que précisés dans les documents de la consultation à venir ; 
+• Effectuer et suivre toutes les démarches administratives en étroite liaison avec ENEDIS ; 
+• Réaliser les travaux Tout Corps d’Etats y compris les travaux d’aménagement du Preneur jusqu’à leur parfait achèvement tels que précisés dans les documents de la consultation à venir ; 
+• Réaliser et suivre les actions permettant d’assurer la performance énergétique et acoustique du bâtiment et des aménagements ; 
+• Exploiter les équipements techniques de l’immeuble tels que précisés dans les documents de la consultation à venir.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">6600000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45211350</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45213150</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">70112000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45213150</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">70310000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="FRA">BORDEAUX</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">FRI12</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2028-07-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2037-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

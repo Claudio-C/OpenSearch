@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-04+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>13:10:59+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="NOK">850000</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:AppealRequestsStatistics>
+                <efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:AppealRequestsStatistics>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">part-req</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>9</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <efac:FieldsPrivacy>
+                <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                <efbc:PublicationDate>2033-07-02Z</efbc:PublicationDate>
+              </efac:FieldsPrivacy>
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="NOK">-1</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Renholdstjenester i Norads kontorlokaler - Trygg Renhold AS Stor-Oslo</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              <cbc:IssueDate>2025-06-02Z</cbc:IssueDate>
+              <efac:ContractReference>
+                <cbc:ID>Renholdstjenester i Norads kontorlokaler - Trygg Renhold AS Stor-Oslo</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Norad – Direktoratet for utviklingssamarbeid</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Pb 1303 Vika</cbc:StreetName>
+                  <cbc:CityName>Oslo</cbc:CityName>
+                  <cbc:PostalZone>0112</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO081</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">971277882</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Joanna Gozdyra</cbc:Name>
+                  <cbc:Telephone>+47 12345</cbc:Telephone>
+                  <cbc:ElectronicMail>joanna.gozdyra@norad.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.kofa.no/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">KOFA - Klagenemnda for offentlige anskaffelser</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Zander Kaaes gate 7 / Postboks 511 Sentrum</cbc:StreetName>
+                  <cbc:CityName>Bergen</cbc:CityName>
+                  <cbc:PostalZone>5015</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO081</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">918195548</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+47 55193000</cbc:Telephone>
+                  <cbc:ElectronicMail>post@kofa.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Trygg Renhold AS Stor-Oslo</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Stanseveien 4</cbc:StreetName>
+                  <cbc:CityName>Oslo</cbc:CityName>
+                  <cbc:PostalZone>0975</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO081</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">923291629</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+47 22688280</cbc:Telephone>
+                  <cbc:ElectronicMail>hanne.rud@trygg-gruppen.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366606-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">7f3668fc-a9eb-4100-b8d8-80b489424ccb</cbc:ID>
+  <cbc:ContractFolderID>e7534754-869e-483c-ad50-bbd8e1f5c6ad</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-04+00:00</cbc:IssueDate>
+  <cbc:IssueTime>12:57:09+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RequestedPublicationDate>2025-06-05Z</cbc:RequestedPublicationDate>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+  
+  <cac:ContractingParty>
+    <cbc:BuyerProfileURI>https://eu.eu-supply.com/ctm/company/companyinformation/index/336555</cbc:BuyerProfileURI>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+    <cbc:TerminatedIndicator>true</cbc:TerminatedIndicator>
+    <cac:NoticeDocumentReference>
+      <cbc:ID schemeName="notice-id-ref">0f13d349-13bc-4e06-901b-00f4f23b7663-01</cbc:ID>
+    </cac:NoticeDocumentReference>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">2500142</cbc:ID>
+    
+    <cbc:Name languageID="ENG">Cleaning services in Norad's office premises.</cbc:Name>
+    
+    <cbc:Description languageID="ENG">Norad needs cleaning of the office premises in Bygdøy Allé 2 to ensure a clean and hygienic working environment.  
+
+The service will consist of:  
+
+- Fixed regular cleaning of office premises. This includes daily/weekly cleaning. 
+
+In addition to the regular cleaning, Norad also needs less regular cleaning services that include: 
+Carpet Cleaning 
+- Furniture cleaning. 
+- Window cleaning (internal) 
+- Spring cleaning of toilets and kitchenettes. 
+- Extra cleaning in storage areas etc.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <cbc:EstimatedOverallContractAmount currencyID="NOK">4000000</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">90919000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">90911000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:StreetName>Bygdøy Allé 2</cbc:StreetName>
+        <cbc:CityName>Oslo</cbc:CityName>
+        <cbc:PostalZone>0257</cbc:PostalZone>
+        <cbc:CountrySubentityCode listName="nuts">NO081</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="indicator">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            
+            <cbc:Name languageID="ENG">Price</cbc:Name>
+            
+            <cbc:Description languageID="ENG">Fatspris for daily cleaning and additional prices for cleaning to order.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            
+            <cbc:Name languageID="ENG">Relevant competence</cbc:Name>
+            
+            <cbc:Description languageID="ENG">Competence of work manager and cleaning personnel.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            
+            <cbc:Name languageID="ENG">Solution proposal</cbc:Name>
+            
+            <cbc:Description languageID="ENG">The tenderer's approach to the assignment</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:DocumentProviderParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:DocumentProviderParty>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          
+          <cbc:Description languageID="ENG">Three months</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">2500142</cbc:ID>
+      
+      <cbc:Name languageID="ENG">Cleaning services in Norad's office premises.</cbc:Name>
+      
+      <cbc:Description languageID="ENG">Norad needs cleaning of the office premises in Bygdøy Allé 2 to ensure a clean and hygienic working environment.  
+
+The service will consist of:  
+
+- Fixed regular cleaning of office premises. This includes daily/weekly cleaning. 
+
+In addition to the regular cleaning, Norad also needs less regular cleaning services that include: 
+Carpet Cleaning 
+- Furniture cleaning. 
+- Window cleaning (internal) 
+- Spring cleaning of toilets and kitchenettes. 
+- Extra cleaning in storage areas etc.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+        <cbc:EstimatedOverallContractAmount currencyID="NOK">4000000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90919000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90911000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:StreetName>Bygdøy Allé 2</cbc:StreetName>
+          <cbc:CityName>Oslo</cbc:CityName>
+          <cbc:PostalZone>0257</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">NO081</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DescriptionCode listName="Duration">UNLIMITED</cbc:DescriptionCode>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="EUR">2003999.34</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0000</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <cbc:RankCode>1</cbc:RankCode>
+              <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+              <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="EUR">2003999.34</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>01-07-01-25/1-104</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+              <cbc:AwardDate>2025-05-08+02:00</cbc:AwardDate>
+              <cbc:IssueDate>2025-05-29+02:00</cbc:IssueDate>
+              <cbc:Title languageID="HRV">Usluga pohrane gotovog novca</cbc:Title>
+              <efac:ContractReference>
+                <cbc:ID>Klasa:406-01/25-02/142 Ur.broj:118-10-1-25-14</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.fina.hr</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HRV">FINA</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Ulica grada Vukovara 70</cbc:StreetName>
+                  <cbc:CityName>Grad Zagreb</cbc:CityName>
+                  <cbc:PostalZone>10000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HR050</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>85821130368</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Marko Mirt</cbc:Name>
+                  <cbc:Telephone>+385 16128074</cbc:Telephone>
+                  <cbc:ElectronicMail>nabava@fina.hr</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.dkom.hr/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HRV">Državna komisija za kontrolu postupaka javne nabave</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Ulica grada Vukovara 23/V</cbc:StreetName>
+                  <cbc:CityName>Zagreb</cbc:CityName>
+                  <cbc:PostalZone>10000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HR050</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>95857869241</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Kontakt</cbc:Name>
+                  <cbc:Telephone>+385 14559 930</cbc:Telephone>
+                  <cbc:ElectronicMail>dkom@dkom.hr</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.nn.hr/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HRV">Narodne novine d.d.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Savski gaj  XIII. 6</cbc:StreetName>
+                  <cbc:CityName>Zagreb</cbc:CityName>
+                  <cbc:PostalZone>10020</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HR050</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>TED94</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>HR64546066176</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>EOJN Helpdesk</cbc:Name>
+                  <cbc:Telephone>+385 16652889</cbc:Telephone>
+                  <cbc:ElectronicMail>eojn@nn.hr</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.finags.hr/</cbc:WebsiteURI>
+                <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HRV">FINA gotovinski servisi d.o.o.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Radnička cesta 182</cbc:StreetName>
+                  <cbc:CityName>Grad Zagreb</cbc:CityName>
+                  <cbc:PostalZone>10000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HR050</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>27215039100</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Dražena Kostić</cbc:Name>
+                  <cbc:Telephone>01 016419000</cbc:Telephone>
+                  <cbc:ElectronicMail>info@finags.hr</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368936-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">4773a88d-d3f6-494a-8cb4-8167d7554f05</cbc:ID>
+  <cbc:ContractFolderID>b34b29ac-87a5-48eb-b0a5-5e74297db488</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+  <cbc:IssueTime>18:00:00.0000000+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>HRV</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:Description languageID="HRV">Otvoreni postupak</cbc:Description>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">73.2/2025/V/U</cbc:ID>
+    <cbc:Name languageID="HRV">Usluga pohrane gotovog novca</cbc:Name>
+    <cbc:Description languageID="HRV">Usluga pohrane gotovog novca</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <cbc:EstimatedOverallContractAmount currencyID="EUR">2004000</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">63122000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cbc:Description languageID="HRV">Sukladno Prilogu 1. Tehničke specifikacije</cbc:Description>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">HR050</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>80</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="HRV">Cijena ponude</cbc:Name>
+            <cbc:Description languageID="HRV">Cijena ponude</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="HRV">Tehnički uvjeti zaštite </cbc:Name>
+            <cbc:Description languageID="HRV">KRITERIJ K2
+Naručitelj kao drugi kriterij, osim minimalnih tehničkih uvjeta zaštite propisanih Zakonom o zaštiti novčarskih institucija, određuje tehničke zahtjeve zaštite prostora Ponuditelja unutar kojega se obrađuje i pohranjuje gotov novac na način da sustav videonadzora detaljno pokriva kompletan tijek gotovog novca unutar prostora gdje se zaprima, obrađuje i pohranjuje gotov novac, a radi visoko rizičnog posla i sigurnosnih ugroza u radu s gotovim novcem.
+Ponuditelj osigurava detaljnu pokrivenost svih prostora sustavom videonadzora, odnosno pokrivenost kako bi se na snimkama videonadzora mogao bez prekida pratiti gotov novac od trenutka zaprimanja na primopredajnom pultu, obrade pa do pohrane gotovog novca u trezor, odnosno izdavanja gotovog novca iz trezora, pakiranja gotovog novca i izdavanja gotovog novca na primopredajnom pultu. 
+Maksimalan broj bodova koji valjana ponuda može dobiti prema ovom kriteriju je 10 (deset). 
+Ponuditelj kao dokaz ovog kriterija dostavlja Izjavu o tehničkim uvjetima zaštite i sustavu pohrane gotovog novca (Prilog 3). Izjava mora biti potpisana od strane ovlaštene osobe Ponuditelja.
+Ako Ponuditelj ne dostavi Izjavu ili ona ne sadrži tražene podatke, ponuda će po ovom kriteriju biti bodovana s 0,00 bodova. </cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="HRV">Sustav pohrane gotovog novca </cbc:Name>
+            <cbc:Description languageID="HRV">KRITERIJ K3
+Naručitelj kao treći kriterij određuje sustav pohrane gotovog novca na način da se gotov novac pohranjuje u trezor s elektronskim bravama, gdje vratima trezora rukuju uvijek dva radnika Ponuditelja u smjeni odnosno na način da je mogućnost otvaranja vrata trezora isključivo putem istodobne uporabe dvaju ili više elektroničkih šifri, s tim da jedan radnik ne smije biti u mogućnosti samostalno otvoriti vrata. Potrebno je obavezno evidentiranje rukovatelja šiframa.
+Maksimalan broj bodova koji valjana ponuda može dobiti prema ovom kriteriju je 10 (deset). 
+Ponuditelj kao dokaz ovog kriterija dostavlja Izjavu o tehničkim uvjetima zaštite i sustavu pohrane gotovog novca (Prilog 3). Izjava mora biti potpisana od strane ovlaštene osobe Ponuditelja.
+Ako Ponuditelj ne dostavi Izjavu ili ona ne sadrži tražene podatke ponuda će po ovom kriteriju biti bodovana s 0,00 bodova.
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:AppealTerms>
+        <cbc:Description languageID="HRV">Pravo na žalbu ima svaki gospodarski subjekt koji ima ili je imao pravni interes za dobivanje ugovora o javnoj nabavi i koji je pretrpio ili bi mogao pretrpjeti štetu od navodnoga kršenja subjektivnih prava.
+
+Žalba se izjavljuje Državnoj komisiji u pisanom obliku.
+
+Žalba se dostavlja elektroničkim sredstvima komunikacije putem međusobno povezanih informacijskih sustava Državne komisije i EOJN RH (u daljnjem tekstu: sustav e-Žalba).
+
+Žalba koja nije dostavljena sukladno stavku 3. ove točke odbacit će se.
+
+Sustav e-Žalba bez odgode šalje obavijest o zaprimljenoj žalbi strankama žalbenog postupka u njihov siguran elektronički pretinac na poslužitelju EOJN RH te na njihovu adresu elektroničke pošte.
+
+Smatra se da je dostava Državnoj komisiji odnosno stranci žalbenog postupka obavljena na dan kada je žalba zaprimljena na poslužitelju EOJN RH.
+
+Žalba se izjavljuje u roku deset dana od dana:
+	objave poziva na nadmetanje u odnosu na sadržaj poziva ili dokumentacije o nabavi, 
+	objave obavijesti o ispravku, u odnosu na sadržaj ispravka
+	objave izmjene dokumentacije o nabavi u odnosu na sadržaj izmjene dokumentacije
+	otvaranja ponuda u odnosu na propuštanje Naručitelja da valjano odgovori na pravodobno dostavljen zahtjev dodatne informacije, objašnjenja ili izmjene dokumentacije o nabavi te na postupak otvaranja ponuda
+	primitka odluke o odabiru ili poništenju, u odnosu na postupak pregleda, ocjene i odabira ponuda, ili razloge poništenja.
+
+Žalba obvezno sadržava podatke navedene u članku 420., stavku 1. Zakona o javnoj nabavi.</cbc:Description>
+        <cac:AppealInformationParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealInformationParty>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="internalID">73.2/2025/V/U</cbc:ID>
+      <cbc:Name languageID="HRV">Usluga pohrane gotovog novca</cbc:Name>
+      <cbc:Description languageID="HRV">Usluga pohrane gotovog novca 
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">2004000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">63122000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cbc:Description languageID="HRV">Sukladno Prilogu 1. Tehničke specifikacije</cbc:Description>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">HR050</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:ContractExtension>
+        <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

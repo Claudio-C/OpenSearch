@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+<cbc:WebsiteURI>https://licitaciones.rtve.es</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Dirección de Compras de la Corporación de Radio y Televisión Española S.A.</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Pozuelo de Alarcón</cbc:CityName>
+    <cbc:PostalZone>28223</cbc:PostalZone>
+    <cbc:CountrySubentity>Madrid</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="ID_PLATAFORMA">50485810086581</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">A84818558</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Name>Dirección de Compras de la Corporación de Radio y Televisión Española S.A.</cbc:Name>
+    <cbc:Telephone>+34 913464168</cbc:Telephone>
+    <cbc:ElectronicMail>licitaciones@rtve.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+<cbc:WebsiteURI>https://sedeminhap.gob.es/es-ES/Sedes/TACRC/Paginas/Default.aspx</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID>TPO-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Tribunal Administrativo Central de Recursos Contractuales</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28071</cbc:PostalZone>
+    <cbc:CountrySubentity>Madrid</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:Contact>
+    <cbc:ID>Tribunal Administrativo Central de Recursos Contractuales</cbc:ID>
+    <cbc:Name>Tribunal Administrativo Central de Recursos Contractuales</cbc:Name>
+    <cbc:Telephone>913491319</cbc:Telephone>
+    <cbc:ElectronicMail>tribunal_recursos.contratos@hacienda.gob.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367479-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">db83ceee-9694-49d2-85ee-86270209581d</cbc:ID>
+    <cbc:ContractFolderID>bfbbe9cd-d9d5-4f7a-be6f-e5e1c6bb9057</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>13:26:54+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>SPA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=EPANNYb%2BoGQQK2TEfXGy%2BA%3D%3D</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+        <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="SPA">Declara estar al corriente de sus obligaciones fiscales y ante la Seguridad Social. En el caso de ser una empresa no residente en España, declara estar al corriente de estas obligaciones en el país donde tiene su domicilio social y acepta expresamente someterse a la jurisdicción de los Juzgados y Tribunales Españoles de cualquier orden, para todas las controversias que pudieran surgir del contrato, con renuncia expresa al fuero jurisdiccional que pudiera corresponderles.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+        <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+        <cac:LotDistribution>
+            <cbc:MaximumLotsAwardedNumeric>4</cbc:MaximumLotsAwardedNumeric>
+            <cbc:MaximumLotsSubmittedNumeric>4</cbc:MaximumLotsSubmittedNumeric>
+        </cac:LotDistribution>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID>S-02665-2025</cbc:ID>
+        <cbc:Name languageID="SPA">Servicio de vehiculos con conductor- Vuelta a España 2025</cbc:Name>
+        <cbc:Description languageID="SPA">Servicio de diversos vehículos con conductor para la producción de la señal internacional y personalizada de La Vuelta a España 2025 (9 minibuses, 1 turismo, 3 pick ups, 2 vehículos técnicos para enlaces y 1 vehículo técnico para edición)</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">292200</cbc:EstimatedOverallContractAmount>
+        </cac:RequestedTenderTotal>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60183000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+        <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="DAY">30</cbc:DurationMeasure>
+        </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+<cbc:CriterionTypeCode listName="selection-criterion">slc-stand-other</cbc:CriterionTypeCode>
+<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>Detalle_Licitacion</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>SPA</cbc:LanguageID>
+                <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="SPA">Declara estar al corriente de sus obligaciones fiscales y ante la Seguridad Social. En el caso de ser una empresa no residente en España, declara estar al corriente de estas obligaciones en el país donde tiene su domicilio social y acepta expresamente someterse a la jurisdicción de los Juzgados y Tribunales Españoles de cualquier orden, para todas las controversias que pudieran surgir del contrato, con renuncia expresa al fuero jurisdiccional que pudiera corresponderles.</cbc:Description>
+                </cac:SpecificTendererRequirement>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="permission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">21. Precio. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">CG - Criterio técnico objetivo con múltiples documentos. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>35</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">CG - Criterio técnico subjetivo con múltiples documentos. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="SPA">Según lo indicado en la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>SPA</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2025-07-25+02:00</cbc:EndDate>
+                <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:AdditionalDocumentReference>
+                <cbc:ID>Detalle_Licitacion</cbc:ID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:AdditionalDocumentReference>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-25+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>14:10:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-28+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>09:00:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-25+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>14:20:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">1</cbc:ID>
+            <cbc:Name languageID="SPA">Alquiler vehículos con conductor transporte person</cbc:Name>
+            <cbc:Description languageID="SPA">Alquiler vehículos con conductor transporte personal</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">190900</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60183000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DurationMeasure unitCode="DAY">30</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+<cbc:CriterionTypeCode listName="selection-criterion">slc-stand-other</cbc:CriterionTypeCode>
+<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>Detalle_Licitacion</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>SPA</cbc:LanguageID>
+                <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="SPA">Declara estar al corriente de sus obligaciones fiscales y ante la Seguridad Social. En el caso de ser una empresa no residente en España, declara estar al corriente de estas obligaciones en el país donde tiene su domicilio social y acepta expresamente someterse a la jurisdicción de los Juzgados y Tribunales Españoles de cualquier orden, para todas las controversias que pudieran surgir del contrato, con renuncia expresa al fuero jurisdiccional que pudiera corresponderles.</cbc:Description>
+                </cac:SpecificTendererRequirement>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="permission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">21. Precio. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">CG - Criterio técnico objetivo con múltiples documentos. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>35</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">CG - Criterio técnico subjetivo con múltiples documentos. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="SPA">Según lo indicado en la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>SPA</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2025-07-25+02:00</cbc:EndDate>
+                <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:AdditionalDocumentReference>
+                <cbc:ID>Detalle_Licitacion</cbc:ID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:AdditionalDocumentReference>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-25+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>14:10:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-28+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>09:00:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-25+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>14:20:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">2</cbc:ID>
+            <cbc:Name languageID="SPA">Alquiler vehículos con conductor pick-up</cbc:Name>
+            <cbc:Description languageID="SPA">Alquiler vehículos con conductor pick-up</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">50700</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60183000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DurationMeasure unitCode="DAY">30</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+<cbc:CriterionTypeCode listName="selection-criterion">slc-stand-other</cbc:CriterionTypeCode>
+<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>Detalle_Licitacion</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>SPA</cbc:LanguageID>
+                <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="SPA">Declara estar al corriente de sus obligaciones fiscales y ante la Seguridad Social. En el caso de ser una empresa no residente en España, declara estar al corriente de estas obligaciones en el país donde tiene su domicilio social y acepta expresamente someterse a la jurisdicción de los Juzgados y Tribunales Españoles de cualquier orden, para todas las controversias que pudieran surgir del contrato, con renuncia expresa al fuero jurisdiccional que pudiera corresponderles.</cbc:Description>
+                </cac:SpecificTendererRequirement>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="permission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">21. Precio. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">CG - Criterio técnico objetivo con múltiples documentos. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>35</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">CG - Criterio técnico subjetivo con múltiples documentos. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="SPA">Según lo indicado en la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>SPA</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2025-07-25+02:00</cbc:EndDate>
+                <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:AdditionalDocumentReference>
+                <cbc:ID>Detalle_Licitacion</cbc:ID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:AdditionalDocumentReference>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-25+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>14:10:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-28+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>09:00:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-25+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>14:20:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">3</cbc:ID>
+            <cbc:Name languageID="SPA">Alquiler vehículos con conductor para seguimiento</cbc:Name>
+            <cbc:Description languageID="SPA">Alquiler vehículos con conductor para seguimiento</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">35000</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60183000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DurationMeasure unitCode="DAY">30</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+<cbc:CriterionTypeCode listName="selection-criterion">slc-stand-other</cbc:CriterionTypeCode>
+<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>Detalle_Licitacion</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>SPA</cbc:LanguageID>
+                <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="SPA">Declara estar al corriente de sus obligaciones fiscales y ante la Seguridad Social. En el caso de ser una empresa no residente en España, declara estar al corriente de estas obligaciones en el país donde tiene su domicilio social y acepta expresamente someterse a la jurisdicción de los Juzgados y Tribunales Españoles de cualquier orden, para todas las controversias que pudieran surgir del contrato, con renuncia expresa al fuero jurisdiccional que pudiera corresponderles.</cbc:Description>
+                </cac:SpecificTendererRequirement>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="permission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">21. Precio. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">CG - Criterio técnico objetivo con múltiples documentos. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+<ext:ExtensionContent>
+    <efext:EformsExtension>
+        <efac:AwardCriterionParameter>
+            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+            <efbc:ParameterNumeric>35</efbc:ParameterNumeric>
+        </efac:AwardCriterionParameter>
+    </efext:EformsExtension>
+</ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="SPA">CG - Criterio técnico subjetivo con múltiples documentos. </cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="SPA">Según lo indicado en la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>SPA</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2025-07-25+02:00</cbc:EndDate>
+                <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:AdditionalDocumentReference>
+                <cbc:ID>Detalle_Licitacion</cbc:ID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=xRjke1nRIrYeIBJRHQiPkQ%3D%3D</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:AdditionalDocumentReference>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-25+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>14:10:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-28+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>09:00:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-25+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>14:20:00+02:00</cbc:OccurrenceTime>
+                <cac:OccurenceLocation>
+                    <cbc:Description languageID="SPA">RTVE Radiotelevisión Española</cbc:Description>
+                </cac:OccurenceLocation>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">4</cbc:ID>
+            <cbc:Name languageID="SPA">Alquiler vehículo minibús para oficina móvil</cbc:Name>
+            <cbc:Description languageID="SPA">Alquiler vehículo minibús para oficina móvil</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">15600</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60183000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DurationMeasure unitCode="DAY">30</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ContractNotice>

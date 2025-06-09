@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hilma="urn:hanselHilma:NationalNoticeExtension">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-05+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>05:15:55+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="EUR">2820000</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>T-2025-03-FI</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              <efac:ContractReference>
+                <cbc:ID>KJ27/25</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">25</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.varha.fi/fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Varsinais-Suomen hyvinvointialue</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Kiinamyllynkatu 4-8</cbc:StreetName>
+                  <cbc:CityName>Turku</cbc:CityName>
+                  <cbc:PostalZone>20520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3221065-1</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Varsinais-Suomen hyvinvointialue</cbc:Name>
+                  <cbc:Telephone>+358 23130000</cbc:Telephone>
+                  <cbc:ElectronicMail>tavarahankinnat@varha.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.oikeus.fi/markkinaoikeus</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Markkinaoikeus</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Radanrakentajantie 5</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3006157-6</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358 295643300</cbc:Telephone>
+                  <cbc:ElectronicMail>markkinaoikeus@oikeus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Abbott Oy</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00380</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">0803151-4</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358409022425</cbc:Telephone>
+                  <cbc:ElectronicMail>tilaus.add.finland@abbott.com</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://hankintailmoitukset.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Hansel Oy (Hilma)</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Mannerheiminaukio 1a</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">FI09880841</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>eSender</cbc:Name>
+                  <cbc:Telephone>029 55 636 30</cbc:Telephone>
+                  <cbc:ElectronicMail>tekninen@hankintailmoitukset.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00369022-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">a612f7bd-70f9-4afb-b260-5917a1401d5b</cbc:ID>
+  <cbc:ContractFolderID>f7f5e312-92b0-415b-b302-8178b8605f77</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+00:00</cbc:IssueDate>
+  <cbc:IssueTime>05:15:39+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="dir-awa-pre">veat</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>FIN</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="direct-award-justification">technical</cbc:ProcessReasonCode>
+      <cbc:ProcessReason languageID="FIN">Hankinnan kohteena on kaksi monianalyyttistä bakteerien ja virusten nukleiinihappojen monistustesti –laitetta Tyks Diagnostiset palvelut ja lääkehuolto –tulosryhmän Kliinisen mikrobiologian vastuualueelle . Laitetta käytetään bakteerien (esimerkiksi sukupuolitaudit klamydia ja tippuri) sekä virusten (esimerkiksi papilloomavirus HPV) aiheuttamien tautien diagnostiikkaan.
+
+Hankintayksikön ehdottomien vaatimusten mukaan laitteen tulee pystyä tuottamaan vähintään 300 tulosta yhdeksän (9) tunnin aikana, sisältäen näytteen esikäsittelyn. Laitteen ei tule deaktivoida näytteitä tai tuotteita, jotta niitä on tarpeen mukaan mahdollista jatkotutkia, eikä hypokloriitin tule kuulua laitteeseen laitettaviin reagensseihin. Laitteen käyttäjän tulee pystyä tarkastella kaikkien testien monistuskäyriä tuloksen oikeellisuuden ja laadun varmistamiseksi. Laitteen tulee pystyä automaattisesti pipetoimaan näyte putkessa olevan läpäisevän korkin läpi, koska Chlamydia trachomatis ja Neisseria gonorrhoeae sekä HPV näyteputkien korkkeja ei poisteta käsin. Lisäksi keskeytyksettömän tuotannon turvaamiseksi laitteita tulee olla kaksi ja niiden tulee olla keskenään samanlaiset.
+
+Hankintayksikön tekemän markkinakartoituksen perusteella markkinoilla on saatavilla vain yksi laite, Abbot Oy:n maahantuoma Alinity M, joka pystyy vastaamaan hankintayksikön asettamiin ehdottomiin vaatimuksiin.
+
+Julkisista hankinnoista ja käyttöoikeussopimuksista annetun lain (1397/2016) 40 §:n 2 momentin 2 kohdan mukaan hankintayksikkö voi valita suorahankinnan, jos teknisestä tai yksinoikeuden suojaamiseen liittyvästä syystä vain tietty toimittaja voi toteuttaa hankinnan; lisäedellytyksenä on, että järkeviä vaihtoehtoisia tai korvaavia ratkaisuja ei ole eikä kilpailun puuttuminen johdu hankinnan ehtojen keinotekoisesta kaventamisesta.</cbc:ProcessReason>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">565284</cbc:ID>
+    <cbc:Name languageID="FIN">KJ27/25 Täysautomaattinen monianalyyttinen virusten ja bakteerien nukleiinihappojen monistuslaitteet ja tarvikkeet</cbc:Name>
+    <cbc:Description languageID="FIN">Hankinnan kohteena on kaksi monianalyyttistä bakteerien ja virusten nukleiinihappojen monistustesti –laitetta Tyks Diagnostiset palvelut ja lääkehuolto –tulosryhmän Kliinisen mikrobiologian vastuualueelle . Laitetta käytetään bakteerien (esimerkiksi sukupuolitaudit klamydia ja tippuri) sekä virusten (esimerkiksi papilloomavirus HPV) aiheuttamien tautien diagnostiikkaan.
+
+Hankintayksikön ehdottomien vaatimusten mukaan laitteen tulee pystyä tuottamaan vähintään 300 tulosta yhdeksän (9) tunnin aikana, sisältäen näytteen esikäsittelyn. Laitteen ei tule deaktivoida näytteitä tai tuotteita, jotta niitä on tarpeen mukaan mahdollista jatkotutkia, eikä hypokloriitin tule kuulua laitteeseen laitettaviin reagensseihin. Laitteen käyttäjän tulee pystyä tarkastella kaikkien testien monistuskäyriä tuloksen oikeellisuuden ja laadun varmistamiseksi. Laitteen tulee pystyä automaattisesti pipetoimaan näyte putkessa olevan läpäisevän korkin läpi, koska Chlamydia trachomatis ja Neisseria gonorrhoeae sekä HPV näyteputkien korkkeja ei poisteta käsin. Lisäksi keskeytyksettömän tuotannon turvaamiseksi laitteita tulee olla kaksi ja niiden tulee olla keskenään samanlaiset.
+
+Hankintayksikön tekemän markkinakartoituksen perusteella markkinoilla on saatavilla vain yksi laite, Abbot Oy:n maahantuoma Alinity M, joka pystyy vastaamaan hankintayksikön asettamiin ehdottomiin vaatimuksiin.
+
+Julkisista hankinnoista ja käyttöoikeussopimuksista annetun lain (1397/2016) 40 §:n 2 momentin 2 kohdan mukaan hankintayksikkö voi valita suorahankinnan, jos teknisestä tai yksinoikeuden suojaamiseen liittyvästä syystä vain tietty toimittaja voi toteuttaa hankinnan; lisäedellytyksenä on, että järkeviä vaihtoehtoisia tai korvaavia ratkaisuja ei ole eikä kilpailun puuttuminen johdu hankinnan ehtojen keinotekoisesta kaventamisesta.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-fixed">fix-tot</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Hinta 100p</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">565284</cbc:ID>
+      <cbc:Name languageID="FIN">KJ27/25 Täysautomaattinen monianalyyttinen virusten ja bakteerien nukleiinihappojen monistuslaitteet ja tarvikkeet</cbc:Name>
+      <cbc:Description languageID="FIN">Hankinnan kohteena on kaksi monianalyyttistä bakteerien ja virusten nukleiinihappojen monistustesti –laitetta Tyks Diagnostiset palvelut ja lääkehuolto –tulosryhmän Kliinisen mikrobiologian vastuualueelle . Laitetta käytetään bakteerien (esimerkiksi sukupuolitaudit klamydia ja tippuri) sekä virusten (esimerkiksi papilloomavirus HPV) aiheuttamien tautien diagnostiikkaan.
+
+Hankintayksikön ehdottomien vaatimusten mukaan laitteen tulee pystyä tuottamaan vähintään 300 tulosta yhdeksän (9) tunnin aikana, sisältäen näytteen esikäsittelyn. Laitteen ei tule deaktivoida näytteitä tai tuotteita, jotta niitä on tarpeen mukaan mahdollista jatkotutkia, eikä hypokloriitin tule kuulua laitteeseen laitettaviin reagensseihin. Laitteen käyttäjän tulee pystyä tarkastella kaikkien testien monistuskäyriä tuloksen oikeellisuuden ja laadun varmistamiseksi. Laitteen tulee pystyä automaattisesti pipetoimaan näyte putkessa olevan läpäisevän korkin läpi, koska Chlamydia trachomatis ja Neisseria gonorrhoeae sekä HPV näyteputkien korkkeja ei poisteta käsin. Lisäksi keskeytyksettömän tuotannon turvaamiseksi laitteita tulee olla kaksi ja niiden tulee olla keskenään samanlaiset.
+
+Hankintayksikön tekemän markkinakartoituksen perusteella markkinoilla on saatavilla vain yksi laite, Abbot Oy:n maahantuoma Alinity M, joka pystyy vastaamaan hankintayksikön asettamiin ehdottomiin vaatimuksiin.
+
+Julkisista hankinnoista ja käyttöoikeussopimuksista annetun lain (1397/2016) 40 §:n 2 momentin 2 kohdan mukaan hankintayksikkö voi valita suorahankinnan, jos teknisestä tai yksinoikeuden suojaamiseen liittyvästä syystä vain tietty toimittaja voi toteuttaa hankinnan; lisäedellytyksenä on, että järkeviä vaihtoehtoisia tai korvaavia ratkaisuja ei ole eikä kilpailun puuttuminen johdu hankinnan ehtojen keinotekoisesta kaventamisesta.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

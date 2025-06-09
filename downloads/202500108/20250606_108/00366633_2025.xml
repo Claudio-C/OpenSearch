@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <!--BT-02-notice-->
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <!--OPP-070-notice-->
+            <cbc:SubTypeCode listName="notice-subtype_cn-standard.gc">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <!--BT-505-Organization-Company-->
+                <cbc:WebsiteURI>http://www.comune.roma.it</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <!--OPT-200-Organization-Company-->
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <!--BT-500-Organization-Company-->
+                  <cbc:Name languageID="ITA">DIPARTIMENTO TUTELA AMBIENTALE</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <!--BT-510(a)-Organization-Company-->
+                  <cbc:StreetName>P.le di Porta Metronia, 2</cbc:StreetName>
+                  <cbc:CityName>Roma</cbc:CityName>
+                  <cbc:PostalZone>154</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts-lvl3">ITI43</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <!--BT-514-Organization-Company-->
+                    <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <!--BT-501-Organization-Company-->
+                  <cbc:CompanyID>02438750586</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <!--BT-506-Organization-Company-->
+                  <cbc:Telephone>06671072674 - 06671071240</cbc:Telephone>
+                  <cbc:ElectronicMail>protocollo.tutelaambientale@pec.comune.roma.it</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <!--OPT-200-Organization-Company-->
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <!--BT-500-Organization-Company-->
+                  <cbc:Name languageID="ITA">TAR LAZIO</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <!--BT-513-Organization-Company-->
+                  <cbc:CityName>Roma</cbc:CityName>
+                  <cbc:PostalZone>00196</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts-lvl3">ITI43</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <!--BT-514-Organization-Company-->
+                    <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <!--BT-501-Organization-Company-->
+                  <cbc:CompanyID>80195990587</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366633-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">a5a38365-0cea-400c-8f79-e4ab1263508d</cbc:ID>
+  <cbc:ContractFolderID>a5a38365-0cea-400c-8f79-e4ab1263508d</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+  <cbc:IssueTime>13:27:51+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ITA</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <!--BT-11-Procedure-Buyer-->
+      <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <!--BT-10-Procedure-Buyer-->
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <!--OPT-300-Procedure-Buyer-->
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <!--BT-09(b)-Procedure-->
+      <cbc:ID>CrossBorderLaw</cbc:ID>
+      <cbc:DocumentDescription languageID="ITA">Gara europea</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <!--BT-806-Procedure-->
+        <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+    <cac:LotDistribution>
+      <!--BT-31-Procedure-->
+      <cbc:MaximumLotsAwardedNumeric>3</cbc:MaximumLotsAwardedNumeric>
+      <cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+    </cac:LotDistribution>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <!--BT-105-Procedure-->
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <!--BT-106-Procedure-->
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <!--BT-22-Procedure-->
+    <cbc:ID>b103121e-9279-4445-8c1c-06c618c0efba@12-G-6030</cbc:ID>
+    <cbc:Name languageID="ITA">Accordo Quadro della durata di 4 anni con un unico operatore, ai sensi degli artt. 59 comma 3 e 71 del D.lgs. n. 36/2023, suddivisa in tre lotti per gli interventi di restauro e riqualificazione del complesso delle ex scuderie nel Parco di Villa Ada &amp;#8211; Lotto 1 Scuderia di Agenzia &amp;#8211; Lotto 2 Scuderia &amp;#8211; Lotto 3 Casale dei Trenatori</cbc:Name>
+    <cbc:Description languageID="ITA">Lavori di restauro</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <!--BT-27-Procedure-->
+      <cbc:EstimatedOverallContractAmount currencyID="EUR">7681614.33</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <!--BT-262-Procedure-->
+      <cbc:ItemClassificationCode listName="cpv">45454100</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <!--BT-5071-Procedure-->
+        <cbc:CountrySubentityCode listName="nuts-lvl3">ITI43</cbc:CountrySubentityCode>
+        <cac:Country>
+          <!--BT-5141-Procedure-->
+          <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <!--BT-137-Lot-->
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <!--BT-60-Lot-->
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:CallForTendersDocumentReference>
+        <!--BT-14-Lot-->
+        <cbc:ID>https://romacapitale.tuttogare.it/gare/dettaglio.php?codice=6030</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <!--BT-15-Lot-->
+            <cbc:URI>https://romacapitale.tuttogare.it/gare/dettaglio.php?codice=6030</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <!--BT-821-Lot-->
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <!--BT-71-Lot-->
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <!--BT-736-Lot-->
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <!--BT-743-Lot-->
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <!--BT-764-Lot-->
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <!--OPT-301-Lot-AddInfo-->
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <!--BT-18-Lot-->
+        <cbc:EndpointID>https://romacapitale.tuttogare.it/gare/dettaglio.php?codice=6030</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <!--BT-98-Lot-->
+        <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <!--BT-99-Lot-->
+          <cbc:Description languageID="ITA">Dipartimento Tutela Ambientale</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <!--OPT-301-Lot-ReviewOrg-->
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <!--BT-97-Lot-->
+        <cbc:ID>ITA</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <!--BT-92-Lot-->
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <!--BT-115-Lot-->
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <!--BT-131(d)-Lot-->
+        <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+        <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AuctionTerms>
+        <!--BT-767-Lot-->
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <!--BT-113-Lot-->
+        <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <!--BT-765-Lot-->
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <!--BT-766-Lot-->
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <!--BT-22-Lot-->
+      <cbc:ID>b103121e-9279-4445-8c1c-06c618c0efba@12-G-6030/LOT-0001</cbc:ID>
+      <cbc:Name languageID="ITA">Lotto 1 - Scuderia di Agenzia</cbc:Name>
+      <cbc:Description languageID="ITA">Lotto 1 - Scuderia di Agenzia</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <!--BT-06-Lot-->
+        <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <!--BT-27-Lot-->
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">3302801.47</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <!--BT-262-Lot-->
+        <cbc:ItemClassificationCode listName="cpv">45454100</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <!--BT-5071-Lot-->
+          <cbc:CountrySubentityCode listName="nuts-lvl3">ITI43</cbc:CountrySubentityCode>
+          <cac:Country>
+            <!--BT-5141-Lot-->
+            <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <!--BT-36-Lot-->
+        <cbc:DurationMeasure unitCode="YEAR">4</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <!--BT-137-Lot-->
+    <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+    <cac:TenderingTerms>
+      <!--BT-60-Lot-->
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:CallForTendersDocumentReference>
+        <!--BT-14-Lot-->
+        <cbc:ID>https://romacapitale.tuttogare.it/gare/dettaglio.php?codice=6030</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <!--BT-15-Lot-->
+            <cbc:URI>https://romacapitale.tuttogare.it/gare/dettaglio.php?codice=6030</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <!--BT-821-Lot-->
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <!--BT-71-Lot-->
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <!--BT-736-Lot-->
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <!--BT-743-Lot-->
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <!--BT-764-Lot-->
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <!--OPT-301-Lot-AddInfo-->
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <!--BT-18-Lot-->
+        <cbc:EndpointID>https://romacapitale.tuttogare.it/gare/dettaglio.php?codice=6030</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <!--BT-98-Lot-->
+        <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <!--BT-99-Lot-->
+          <cbc:Description languageID="ITA">Dipartimento Tutela Ambientale</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <!--OPT-301-Lot-ReviewOrg-->
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <!--BT-97-Lot-->
+        <cbc:ID>ITA</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <!--BT-92-Lot-->
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <!--BT-115-Lot-->
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <!--BT-131(d)-Lot-->
+        <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+        <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AuctionTerms>
+        <!--BT-767-Lot-->
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <!--BT-113-Lot-->
+        <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <!--BT-765-Lot-->
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <!--BT-766-Lot-->
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <!--BT-22-Lot-->
+      <cbc:ID>b103121e-9279-4445-8c1c-06c618c0efba@12-G-6030/LOT-0002</cbc:ID>
+      <cbc:Name languageID="ITA">Lotto 2 - Scuderia</cbc:Name>
+      <cbc:Description languageID="ITA">Lotto 2 - Scuderia</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <!--BT-06-Lot-->
+        <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <!--BT-27-Lot-->
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">2779822.76</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <!--BT-262-Lot-->
+        <cbc:ItemClassificationCode listName="cpv">45454100</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <!--BT-5071-Lot-->
+          <cbc:CountrySubentityCode listName="nuts-lvl3">ITI43</cbc:CountrySubentityCode>
+          <cac:Country>
+            <!--BT-5141-Lot-->
+            <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <!--BT-36-Lot-->
+        <cbc:DurationMeasure unitCode="YEAR">4</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <!--BT-137-Lot-->
+    <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+    <cac:TenderingTerms>
+      <!--BT-60-Lot-->
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:CallForTendersDocumentReference>
+        <!--BT-14-Lot-->
+        <cbc:ID>https://romacapitale.tuttogare.it/gare/dettaglio.php?codice=6030</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <!--BT-15-Lot-->
+            <cbc:URI>https://romacapitale.tuttogare.it/gare/dettaglio.php?codice=6030</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <!--BT-821-Lot-->
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <!--BT-71-Lot-->
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <!--BT-736-Lot-->
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <!--BT-743-Lot-->
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <!--BT-764-Lot-->
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <!--OPT-301-Lot-AddInfo-->
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <!--BT-18-Lot-->
+        <cbc:EndpointID>https://romacapitale.tuttogare.it/gare/dettaglio.php?codice=6030</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <!--BT-98-Lot-->
+        <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <!--BT-99-Lot-->
+          <cbc:Description languageID="ITA">Dipartimento Tutela Ambientale</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <!--OPT-301-Lot-ReviewOrg-->
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <!--BT-97-Lot-->
+        <cbc:ID>ITA</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <!--BT-92-Lot-->
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <!--BT-115-Lot-->
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <!--BT-131(d)-Lot-->
+        <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+        <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AuctionTerms>
+        <!--BT-767-Lot-->
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <!--BT-113-Lot-->
+        <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <!--BT-765-Lot-->
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <!--BT-766-Lot-->
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <!--BT-22-Lot-->
+      <cbc:ID>b103121e-9279-4445-8c1c-06c618c0efba@12-G-6030/LOT-0003</cbc:ID>
+      <cbc:Name languageID="ITA">Lotto 3 - Casale dei Trenatori</cbc:Name>
+      <cbc:Description languageID="ITA">Lotto 3 - Casale dei Trenatori</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <!--BT-06-Lot-->
+        <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <!--BT-27-Lot-->
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">1598990.10</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <!--BT-262-Lot-->
+        <cbc:ItemClassificationCode listName="cpv">45454100</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <!--BT-5071-Lot-->
+          <cbc:CountrySubentityCode listName="nuts-lvl3">ITI43</cbc:CountrySubentityCode>
+          <cac:Country>
+            <!--BT-5141-Lot-->
+            <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <!--BT-36-Lot-->
+        <cbc:DurationMeasure unitCode="YEAR">4</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

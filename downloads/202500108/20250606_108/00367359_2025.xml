@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">369565</efbc:OverallMaximumFrameworkContractsAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:FrameworkAgreementValues>
+                                <cbc:MaximumValueAmount currencyID="EUR">369565</cbc:MaximumValueAmount>
+                            </efac:FrameworkAgreementValues>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <cbc:RankCode>1</cbc:RankCode>
+                            <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="EUR">369565</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:Origin>
+                                <efbc:AreaCode listName="country">FRA</efbc:AreaCode>
+                            </efac:Origin>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>idvERde</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2025-05-16+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2025-05-26+02:00</cbc:IssueDate>
+                            <cbc:Title languageID="FRA">Contrat - entretien des espaces verts - Technicentre Atlantique</cbc:Title>
+                            <efac:ContractReference>
+                                <cbc:ID>2025CTC0549878</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <cbc:Name>ID VERDE &amp; PRESTAFER</cbc:Name>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                            </efac:Tenderer>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                                <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">30</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.groupe-sncf.com/fr</cbc:WebsiteURI>
+                                <cbc:EndpointID>https://sncf.bravosolution.com/web/login.html</cbc:EndpointID>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">SNCF Voyageurs SA</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>Saint-Denis</cbc:CityName>
+                                    <cbc:PostalZone>93210</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>51903758414786</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Saliou Djire</cbc:Name>
+                                    <cbc:Telephone>0000000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>saliou.djire@sncf.fr</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.tribunal-de-paris.justice.fr/75</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Judiciaire de Paris</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>PARVIS DU TRIBUNAL DE PARIS, 75017 PARIS</cbc:StreetName>
+                                    <cbc:CityName>Paris</cbc:CityName>
+                                    <cbc:PostalZone>75017</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>Tribunal judiciaire de Paris</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>0144325151</cbc:Telephone>
+                                    <cbc:ElectronicMail>tj-paris@justice.fr</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">ID VERDE</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>TAVERNY</cbc:CityName>
+                                    <cbc:PostalZone>95150</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR108</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>33960966101665</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>0000000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>be.soa@idverde.com</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">PRESTAFER</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>MENNECY</cbc:CityName>
+                                    <cbc:PostalZone>91540</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR104</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>85030137500018</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>0000000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>mvanloo@prestafer.fr</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367359-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">2f2eac6b-0b69-4b6e-8c37-26dc96a9698a</cbc:ID>
+    <cbc:ContractFolderID>9c6a045f-7f52-4e60-a226-7873cf773272</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+    <cbc:IssueTime>09:51:29Z</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>https://sncf.bravosolution.com/web/login.html</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="entity-activity">rail</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">2025DOS0164361</cbc:ID>
+        <cbc:Name languageID="FRA">Entretien des espaces verts - Technicentre Atlantique</cbc:Name>
+        <cbc:Description languageID="FRA">La présente consultation a pour objet l’attribution d’un accord-cadre portant le débroussaillage et l’entretien des espaces verts au Technicentre Atlantique. La consultation vise à retenir un (01) titulaire. Elle ne fait pas l’objet d’un allotissement.La tâche essentielle suivante, telle que visées à l’article L. 2193-3 du code de la commande publique, devra être effectuée directement par le titulaire unique, ou, en cas de groupement, par l’un des membres du groupement (cotraitance) détenant impérativement la qualification SNCF adéquate. La sous-traitance de cette tâche essentielle est formellement interdite</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="FRA">La Société Nationale SNCF SA, émet cet avis d'attribution au nom et pour le compte de la Société SNCF Voyageurs SA</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CityName>Châtillon</cbc:CityName>
+                <cbc:PostalZone>92320</cbc:PostalZone>
+                <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:DocumentProviderParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:DocumentProviderParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="FRA">Le référé contractuel (CPC, art 1441-3 et 1441-3-1) qui peut être exercé dans un délai de :31 jours à compter de la publication d’un avis d’attribution au JOUE ;</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:FrameworkAgreement>
+                <cac:SubsequentProcessTenderRequirement>
+                    <cbc:Name>buyer-categories</cbc:Name>
+                    <cbc:Description languageID="FRA">Les autres catégories d’acheteurs participant à l’accord cadre, et non nommément mentionnés, sont précisés dans le projet de contrat</cbc:Description>
+                </cac:SubsequentProcessTenderRequirement>
+            </cac:FrameworkAgreement>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">2025DOS0164361</cbc:ID>
+            <cbc:Name languageID="FRA">Entretien des espaces verts - Technicentre Atlantique -</cbc:Name>
+            <cbc:Description languageID="FRA">Ce projet vise à l’entretien des voies de circulations ferroviaires sur l’ensemble du Technicentre Atlantique (site de Chatillon Bas et de Chatillon haut). Le Prestataire réalisera le désherbage et débroussaillage des abords, des voies, des entrevoies. 
+
+Il réalisera la taille des haies qui pourraient s’avérer envahissantes ainsi que de branchages qui pourraient se rapprocher des caténaires. Les allées piétonnes seront soufflées afin d’évacuer les résidus de coupe.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:RequestedTenderTotal>
+                <ext:UBLExtensions>
+                    <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                            <efext:EformsExtension>
+                                <efbc:FrameworkMaximumAmount currencyID="EUR">369565</efbc:FrameworkMaximumAmount>
+                            </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                    </ext:UBLExtension>
+                </ext:UBLExtensions>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="FRA">Sans objet</cbc:Description>
+                <cac:Address>
+                    <cbc:StreetName>166 Avenue de la République, 92320 Châtillon</cbc:StreetName>
+                    <cbc:CityName>Châtillon</cbc:CityName>
+                    <cbc:PostalZone>92320</cbc:PostalZone>
+                    <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2025-05-26+02:00</cbc:StartDate>
+                <cbc:DurationMeasure unitCode="DAY">1095</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="FRA">Options de durée</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="FRA">Renouvellement de 12 mois</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

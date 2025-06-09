@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:ContractModification>
+                  <efbc:ChangedNoticeIdentifier>727952-2024</efbc:ChangedNoticeIdentifier>
+                  <efbc:ModifiedContractIdentifier schemeName="contract">CON-0001</efbc:ModifiedContractIdentifier>
+                  <efac:Change>
+                     <efbc:ChangeDescription languageID="POL">Zmiana wynagrodzenia z 10 674 963,67 na 10 671 611,00.</efbc:ChangeDescription>
+                  </efac:Change>
+                  <efac:ChangeReason>
+                     <cbc:ReasonCode listName="modification-justification">mod-nons</cbc:ReasonCode>
+                     <efbc:ReasonDescription languageID="POL">Wykonawca złożył wniosek o dokonanie wcześniejszej płatności. Wykonawca sprostał ciężarowi dowodowemu w zakresie uzasadniającym wprowadzenie zmian w postanowieniach umowy. Zamawiający jest zobowiązany pomniejszyć zapłatę wynagrodzenia o kwotę utraconych odsetek, na co Wykonawca wyraził zgodę.</efbc:ReasonDescription>
+                  </efac:ChangeReason>
+               </efac:ContractModification>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">10674963.67</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">10674963.67</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>oferta nr 3</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2024-11-13+01:00</cbc:AwardDate>
+                     <cbc:IssueDate>2024-11-26+01:00</cbc:IssueDate>
+                     <cbc:Title languageID="POL">Kompleksowa modernizacja drogi dojazdowej do Planetarium – Przebudowa parkingu dla autobusów przy Al. Planetarium w rejonie Planetarium Śląskiego na terenie Parku Śląskiego S.A. w Chorzowie wraz z wykonaniem remontu nawierzchni Al. Planetarium</cbc:Title>
+                     <efac:ContractReference>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     </efac:Tenderer>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">38</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.parkslaski.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://parkslaski.logintrade.net/</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Park Śląski S.A.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Aleja Różana 2</cbc:StreetName>
+                           <cbc:CityName>Chorzów</cbc:CityName>
+                           <cbc:PostalZone>41-501</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>6270012163</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Dział Zamówień Publicznych</cbc:Name>
+                           <cbc:Telephone>+48 666031123</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia.publiczne@parkslaski.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.uzp.gov.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Postępu 17a</cbc:StreetName>
+                           <cbc:Department>Departament Odwołań</cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>526-223-93-25</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 22 458 78 40</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolana@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">FHU DAMEKS Damian Turczyński</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Kordeckiego 39</cbc:StreetName>
+                           <cbc:Department>FHU DAMEKS Damian Turczyński</cbc:Department>
+                           <cbc:CityName>Imielin</cbc:CityName>
+                           <cbc:PostalZone>41-407</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL22C</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>646 255 19 96</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>516 157 513</cbc:Telephone>
+                           <cbc:ElectronicMail>dameks.biuro@gmail.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">AMP Anna Proksa</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Azot 8a/2</cbc:StreetName>
+                           <cbc:Department>AMP Anna Proksa</cbc:Department>
+                           <cbc:CityName>Jaworzno</cbc:CityName>
+                           <cbc:PostalZone>43-600</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>632 184 73 29</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>889 674 336</cbc:Telephone>
+                           <cbc:ElectronicMail>amp.slask@gmial.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368750-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">d0c4592a-1e85-4678-b03d-48a6c7f1f17a</cbc:ID>
+   <cbc:ContractFolderID>353b98a8-db49-43f3-a5ea-d685a7616803</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>08:22:56Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="cont-modif">can-modif</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">30/PN/RB/2024/AS</cbc:ID>
+      <cbc:Name languageID="POL">Kompleksowa modernizacja drogi dojazdowej do Planetarium – Przebudowa parkingu dla autobusów przy Al. Planetarium w rejonie Planetarium Śląskiego na terenie Parku Śląskiego S.A. w Chorzowie wraz z wykonaniem remontu nawierzchni Al. Planetarium.</cbc:Name>
+      <cbc:Description languageID="POL">1.	Przedmiotem zamówienia jest zadanie pod nazwą „Kompleksowa modernizacja drogi dojazdowej do Planetarium – Przebudowa parkingu dla autobusów przy Al. Planetarium 
+w rejonie Planetarium Śląskiego na terenie Parku Śląskiego S.A. w Chorzowie wraz z wykonaniem remontu nawierzchni Al. Planetarium.”
+2.	Zamówienie stanowi część zadania nr 1 – „Kompleksowa modernizacja ciągów komunikacyjnych” oraz zadania nr 2 „Uregulowanie gospodarki wodnej” realizowanych w ramach Umowy o dofinansowanie Projektu Miejskiego pn. „Modernizacja Parku Śląskiego” realizowanego w ramach drugiego obrotu środkami wracającymi z inicjatywy JESSICA Regionalnego Programu Operacyjnego Województwa Śląskiego na lata 2007-2013. 
+3.	Zadanie, o którym mowa w ustępie 1 obejmuje wykonanie:
+a)	dokumentacji budowlanych wykonanych zgodnie z OPZ oraz dokumentacją projektową i dokumentacją wprowadzającą dla inwestycji rozwiązania zamienne Zamawiającego,
+b)	dokumentacji powykonawczej.
+4.	Realizacja zadania obejmuje zakres prac opracowany na podstawie dokumentacji projektowej oraz dokumentacji wprowadzającej dla inwestycji rozwiązania zamienne Zamawiającego przedstawionej szczegółowo w OPZ:
+a)	Etap I: przebudowę parkingu wraz z budową chodnika, tj. od 0,0 km do 0,15 km i w pierwszej kolejności oddanie do użytkowania,
+b)	Etap II: wykonanie remontu Al. Planetarium w pełnym zakresie wraz z chodnikiem od 0,15 km do 0,4 km i oddanie do użytkowania,
+c)	Etap III: dla celów rozbudowy stacji Planetarium kolei linowej Elka oraz budowy wiaduktu w ciągu Al. Planetarium, w km 0,4 do 0,6 km wykonanie właściwej podbudowy pod  Al. Planetarium bez warstwy wierzchniej (bruku klinkierowego), a następnie dołożenie tymczasowej warstwy wierzchniej umożliwiającej dojazd do placów budowy stacji Planetarium kolei linowej Elka oraz wiaduktu w ciągu Al. Planetarium. Docelową warstwę wierzchnią jezdni wykonać w okresie kończącym termin przewidziany na realizację umowy, umożliwiającym jej terminowe zakończenie oraz przekazanie do użytkowania, 
+d)	Etap IV: wybudowanie, zgodnie z projektem Zamawiającego, wodociągu DZ200 PE100 SDR 11 PN16 wraz z wymianą i podłączeniem do sieci hydrantów nadziemnych, podłączenie wszystkich odbiorców instalacji wodociągowej jak również kanalizacji deszczowej dla zadania oraz dodatkowo wybudowanie przyłącza wodociągowego DZ200 PE100 SDR 11 PN16 o długości ok. 580-600 mb wzdłuż strony północnej Al. Gwiazd od wpięcia do istniejącego wodociągu ø160 w rejonie obiektu Fundacja Park Śląski (GPS 50.287186, 18.983269) do zbiegu Al. Gwiazd i Al. Planetarium wraz z podłączonymi do przyłącza hydrantami nadziemnymi i podłączeniem wszystkich odbiorców,
+e)	Etap V: wymiana w rejonie budynku Szatni Zieleni (Rosarium) wraz z instalacją zasilającą YAKXS 5x35 mm2 w rurze osłonowej o długości ok. 120 mb 5 szt. lamp oświetlenia parkowego oraz wpięcie do istniejącego złącza kablowego. Wymiana w obu częściach Al. Targowej lamp oświetlenia parkowego (po 6 szt., w sumie 12 szt.) wraz z instalacją zasilającą YAKXS 5x35 mm2 o długości ok. 330 mb w rurze osłonowej oraz wpięcie do instalacji oświetlenia Al. Planetarium,. Kompletne, bez wad i uszkodzeń lampy pozyskać z demontażu na Al. Planetarium. Wymiana na Al. Sportowej wraz z instalacją zasilającą YAKXS 5x35 mm2 o długości ok. 330 mb w rurze osłonowej 9 szt. lamp oświetlenia parkowego oraz wpięcie do istniejącego złącza kablowego. Nowe kompletne lampy, zakupione przez Zamawiającego, dowieźć z magazynu oddalonego o ok. 1 km,
+f)	jednocześnie z realizacją etapu I, II, III: zdjęcie dotychczasowej nawierzchni z bruku klinkierowego dla danego etapu, oczyszczenie i spakowanie na palety, zabezpieczenie folią stretch oraz przewiezienie do magazynu Zamawiającego oddalonego do 1 km od miejsca inwestycji,
+g)	jednocześnie z realizacją etapu I, II, III: wyremontowanie/wybudowanie chodnika, wybudowanie przewidzianą dokumentacją projektową infrastruktury sieci oraz zabudowa elementów małej architektury (ławki 5 szt. oraz kosze na śmieci 8 szt.), wymiana lamp oświetlenia parkowego 18 szt. i podłączenie do instalacji. Nowe kompletne lampy oraz elementy małej architektury, zakupione przez Zamawiającego, dowieźć z magazynu oddalonego o ok. 1 km.
+5.	Zamawiający zastrzega, że w trakcie wykonywania robót określonych w pkt 4c), będą równolegle wykonywane roboty budowlane związane z rozbudową stacji Planetarium kolei linowej ELKA.
+6.	Szczegółowy opis przedmiotu zamówienia został określony w OPZ z załącznikami (Załącznik nr 3 do SWZ).
+7.	Dodatkowe warunki realizacji zamówienia określają projektowane postanowienia umowy (Załącznik nr 2 do SWZ).
+8.	Zamawiający zastrzega sobie możliwość skorzystania z prawa opcji, którego zastosowanie będzie polegać na wykonaniu prac przy budowie infrastruktury kolei linowej Elka. Zamawiający przewiduje wykonanie przez Wykonawcę zabezpieczenia nawierzchni (wycenić jako oddzielną pozycję kosztorysu), z bruku klinkierowego, drogi wraz z chodnikiem w km 0,4 do 0,6 km poprzez ułożenie, dostarczonych przez Wykonawcę, drogowych płyt betonowych na podsypce z piasku na okres max. 24 miesięcy od uruchomienia opcji. Po tym okresie płyty betonowe należy zdemontować, a nawierzchnię oczyścić z piasku użytego do podsypki. Wykonanie robót opcjonalnych nie spowoduje utraty gwarancji wcześniej wykonanego remontu nawierzchni Al. Planetarium.
+9.	Wykorzystanie prawa opcji nie jest obowiązkowe. W przypadku nieskorzystania przez Zamawiającego z prawa opcji Wykonawcy nie przysługują żadne roszczenia z tego tytułu.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45233220</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45111300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45233200</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45233222</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45232130</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45231300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45233251</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45100000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45310000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Aleja Różana 2</cbc:StreetName>
+            <cbc:CityName>Chorzów</cbc:CityName>
+            <cbc:PostalZone>41-501</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Środki ochrony prawnej określone w niniejszej SWZ przysługują Wykonawcy, oraz innemu podmiotowi, jeżeli ma lub miał interes w uzyskaniu zamówienia oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez Zamawiającego przepisów ustawy Pzp. 
+2. Środki ochrony prawnej wobec ogłoszenia wszczynającego postępowanie o udzielenie zamówienia oraz dokumentów zamówienia przysługują również organizacjom wpisanym na listę, o której mowa w art. 469 pkt 15 ustawy Pzp, oraz Rzecznikowi Małych i Średnich Przedsiębiorców. 
+3. Odwołanie przysługuje na: 
+1) niezgodną z przepisami ustawy czynność Zamawiającego, podjętą w postępowaniu o udzielenie zamówienia, w tym na projektowane postanowienie umowy; 
+2) zaniechanie czynności w postępowaniu o udzielenie zamówienia, do której Zamawiający był obowiązany na podstawie ustawy. 
+4. Odwołanie wnosi się do Prezesa Izby. Odwołujący przekazuje Zamawiającemu odwołanie wniesione w formie elektronicznej albo postaci elektronicznej albo kopię tego odwołania, jeżeli zostało ono wniesione w formie pisemnej, przed upływem terminu do wniesienia odwołania w taki sposób, aby mógł on zapoznać się z jego treścią przed
+upływem tego terminu. 
+5. Domniemywa się, że Zamawiający mógł zapoznać się z treścią odwołania przed upływem terminu do jego wniesienia, jeżeli przekazanie odpowiednio
+odwołania albo jego kopii nastąpiło przed upływem terminu do jego wniesienia przy użyciu środków komunikacji elektronicznej. 
+6. Odwołanie wnosi się w terminie: 
+1) 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej; 
+2) 15 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w pkt 1). 
+7. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji
+ogłoszenia w Dzienniku Urzędowym Unii Europejskiej (zwanym dalej Dz. Urz. UE) lub zamieszczenia dokumentów zamówienia na stronie internetowej. 
+8. Odwołanie w przypadkach innych niż określone w pkt 6 i 7 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia. 
+9. Jeżeli Zamawiający nie przesłał Wykonawcy zawiadomienia o wyborze najkorzystniejszej oferty, odwołanie wnosi się nie później niż w terminie: 
+1) 30 dni od dnia publikacji w Dz. Urz. UE ogłoszenia o udzieleniu zamówienia; 
+2) 6 miesięcy od dnia zawarcia umowy, jeżeli Zamawiający nie opublikował w Dz. Urz. UE ogłoszenia o udzieleniu zamówienia. 
+10. Na orzeczenie Izby oraz postanowienie Prezesa Izby, o którym mowa w art. 519 ust. 1 ustawy Pzp, stronom oraz uczestnikom postępowania odwoławczego przysługuje skarga do sądu. 
+11. W postępowaniu toczącym się wskutek wniesienia skargi stosuje się odpowiednio przepisy ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego o apelacji, jeżeli przepisy rozdziału 3 działu IX ustawy Pzp nie stanowią inaczej. 
+12. Skargę wnosi się do Sądu Okręgowego w Warszawie – sądu zamówień publicznych, zwanego dalej „sądem zamówień publicznych”. 
+13. Skargę wnosi się za pośrednictwem Prezesa Izby, w terminie 14 dni od dnia doręczenia orzeczenia Izby lub postanowienia Prezesa Izby, o którym mowa w art. 519 ust. 1 ustawy Pzp, przesyłając jednocześnie jej odpis przeciwnikowi skargi. Złożenie skargi w placówce pocztowej operatora wyznaczonego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe jest równoznaczne z jej wniesieniem. 
+14. Prezes Izby przekazuje skargę wraz z aktami postępowania odwoławczego do sądu zamówień publicznych w terminie 7 dni od dnia jej otrzymania. 
+15. Skargę może wnieść również Prezes Urzędu, w terminie 30 dni od dnia wydania orzeczenia Izby lub postanowienia Prezesa Izby, o którym mowa w art. 519 ust. 1
+ustawy Pzp. Prezes Urzędu może także przystąpić do toczącego się postępowania. Do czynności podejmowanych przez Prezesa Urzędu stosuje się odpowiednio przepisy ustawy z
+dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego o prokuratorze.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">30/PN/RB/2024/AS</cbc:ID>
+         <cbc:Name languageID="POL">Kompleksowa modernizacja drogi dojazdowej do Planetarium – Przebudowa parkingu dla autobusów przy Al. Planetarium w rejonie Planetarium Śląskiego na terenie Parku Śląskiego S.A. w Chorzowie wraz z wykonaniem remontu nawierzchni Al. Planetarium.</cbc:Name>
+         <cbc:Description languageID="POL">1.	Przedmiotem zamówienia jest zadanie pod nazwą „Kompleksowa modernizacja drogi dojazdowej do Planetarium – Przebudowa parkingu dla autobusów przy Al. Planetarium 
+w rejonie Planetarium Śląskiego na terenie Parku Śląskiego S.A. w Chorzowie wraz z wykonaniem remontu nawierzchni Al. Planetarium.”
+2.	Zamówienie stanowi część zadania nr 1 – „Kompleksowa modernizacja ciągów komunikacyjnych” oraz zadania nr 2 „Uregulowanie gospodarki wodnej” realizowanych w ramach Umowy o dofinansowanie Projektu Miejskiego pn. „Modernizacja Parku Śląskiego” realizowanego w ramach drugiego obrotu środkami wracającymi z inicjatywy JESSICA Regionalnego Programu Operacyjnego Województwa Śląskiego na lata 2007-2013. 
+3.	Zadanie, o którym mowa w ustępie 1 obejmuje wykonanie:
+a)	dokumentacji budowlanych wykonanych zgodnie z OPZ oraz dokumentacją projektową i dokumentacją wprowadzającą dla inwestycji rozwiązania zamienne Zamawiającego,
+b)	dokumentacji powykonawczej.
+4.	Realizacja zadania obejmuje zakres prac opracowany na podstawie dokumentacji projektowej oraz dokumentacji wprowadzającej dla inwestycji rozwiązania zamienne Zamawiającego przedstawionej szczegółowo w OPZ:
+a)	Etap I: przebudowę parkingu wraz z budową chodnika, tj. od 0,0 km do 0,15 km i w pierwszej kolejności oddanie do użytkowania,
+b)	Etap II: wykonanie remontu Al. Planetarium w pełnym zakresie wraz z chodnikiem od 0,15 km do 0,4 km i oddanie do użytkowania,
+c)	Etap III: dla celów rozbudowy stacji Planetarium kolei linowej Elka oraz budowy wiaduktu w ciągu Al. Planetarium, w km 0,4 do 0,6 km wykonanie właściwej podbudowy pod 
+Al. Planetarium bez warstwy wierzchniej (bruku klinkierowego), a następnie dołożenie tymczasowej warstwy wierzchniej umożliwiającej dojazd do placów budowy stacji Planetarium kolei linowej Elka oraz wiaduktu w ciągu Al. Planetarium. Docelową warstwę wierzchnią jezdni wykonać w okresie kończącym termin przewidziany na realizację umowy, umożliwiającym jej terminowe zakończenie oraz przekazanie do użytkowania,
+d)	Etap IV: wybudowanie, zgodnie z projektem Zamawiającego, wodociągu DZ200 PE100 SDR 11 PN16 wraz z wymianą i podłączeniem do sieci hydrantów nadziemnych, podłączenie wszystkich odbiorców instalacji wodociągowej jak również kanalizacji deszczowej dla zadania oraz dodatkowo wybudowanie przyłącza wodociągowego DZ200 PE100 SDR 11 PN16 o długości ok. 580-600 mb wzdłuż strony północnej Al. Gwiazd od wpięcia do istniejącego wodociągu ø160 w rejonie obiektu Fundacja Park Śląski (GPS 50.287186, 18.983269) do zbiegu Al. Gwiazd i Al. Planetarium wraz z podłączonymi do przyłącza hydrantami nadziemnymi i podłączeniem wszystkich odbiorców,
+e)	Etap V: wymiana w rejonie budynku Szatni Zieleni (Rosarium) wraz z instalacją zasilającą YAKXS 5x35 mm2 w rurze osłonowej o długości ok. 120 mb 5 szt. lamp oświetlenia parkowego oraz wpięcie do istniejącego złącza kablowego. Wymiana w obu częściach Al. Targowej lamp oświetlenia parkowego (po 6 szt., w sumie 12 szt.) wraz z instalacją zasilającą YAKXS 5x35 mm2 o długości ok. 330 mb w rurze osłonowej oraz wpięcie do instalacji oświetlenia Al. Planetarium,. Kompletne, bez wad i uszkodzeń lampy pozyskać 
+z demontażu na Al. Planetarium. Wymiana na Al. Sportowej wraz z instalacją zasilającą YAKXS 5x35 mm2 o długości ok. 330 mb w rurze osłonowej 9 szt. lamp oświetlenia parkowego oraz wpięcie do istniejącego złącza kablowego. Nowe kompletne lampy, zakupione przez Zamawiającego, dowieźć z magazynu oddalonego o ok. 1 km,
+f)	jednocześnie z realizacją etapu I, II, III: zdjęcie dotychczasowej nawierzchni z bruku klinkierowego dla danego etapu, oczyszczenie i spakowanie na palety, zabezpieczenie folią stretch oraz przewiezienie do magazynu Zamawiającego oddalonego do 1 km od miejsca inwestycji,
+g)	jednocześnie z realizacją etapu I, II, III: wyremontowanie/wybudowanie chodnika, wybudowanie przewidzianą dokumentacją projektową infrastruktury sieci oraz zabudowa elementów małej architektury (ławki 5 szt. oraz kosze na śmieci 8 szt.), wymiana lamp oświetlenia parkowego 18 szt. i podłączenie do instalacji. Nowe kompletne lampy oraz elementy małej architektury, zakupione przez Zamawiającego, dowieźć z magazynu oddalonego o ok. 1 km.
+5.	Zamawiający zastrzega, że w trakcie wykonywania robót określonych w pkt 4c), będą równolegle wykonywane roboty budowlane związane z rozbudową stacji Planetarium kolei linowej ELKA.
+6.	Szczegółowy opis przedmiotu zamówienia został określony w OPZ z załącznikami (Załącznik nr 3 do SWZ).
+7.	Dodatkowe warunki realizacji zamówienia określają projektowane postanowienia umowy (Załącznik nr 2 do SWZ).
+8.	Zamawiający zastrzega sobie możliwość skorzystania z prawa opcji, którego zastosowanie będzie polegać na wykonaniu prac przy budowie infrastruktury kolei linowej Elka. Zamawiający przewiduje wykonanie przez Wykonawcę zabezpieczenia nawierzchni (wycenić jako oddzielną pozycję kosztorysu), z bruku klinkierowego, drogi wraz z chodnikiem w km 0,4 do 0,6 km poprzez ułożenie, dostarczonych przez Wykonawcę, drogowych płyt betonowych na podsypce z piasku na okres max. 24 miesięcy od uruchomienia opcji. Po tym okresie płyty betonowe należy zdemontować, a nawierzchnię oczyścić z piasku użytego do podsypki. Wykonanie robót opcjonalnych nie spowoduje utraty gwarancji wcześniej wykonanego remontu nawierzchni Al. Planetarium.
+9.	Wykorzystanie prawa opcji nie jest obowiązkowe. W przypadku nieskorzystania przez Zamawiającego z prawa opcji Wykonawcy nie przysługują żadne roszczenia z tego tytułu.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">Okres obowiązywania: 33 miesiące - w tym 9 miesięcy dla zamówienia podstawowego i 24 miesiące dla prawa opcji</cbc:Note>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45233220</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45111300</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45233200</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45233222</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45232130</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45231300</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45233251</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45100000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45310000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Park Śląski S.A.</cbc:StreetName>
+               <cbc:AdditionalStreetName>aleja Różana 2</cbc:AdditionalStreetName>
+               <cbc:CityName>Chorzów</cbc:CityName>
+               <cbc:PostalZone>41-501</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">33</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">1.	Zamawiający zastrzega sobie możliwość skorzystania z prawa opcji, którego zastosowanie będzie polegać na wykonaniu prac przy budowie infrastruktury kolei linowej Elka. Zamawiający przewiduje wykonanie przez Wykonawcę zabezpieczenia nawierzchni (wycenić jako oddzielną pozycję kosztorysu), z bruku klinkierowego, drogi wraz z chodnikiem w km 0,4 do 0,6 km poprzez ułożenie, dostarczonych przez Wykonawcę, drogowych płyt betonowych na podsypce z piasku na okres max. 24 miesięcy od uruchomienia opcji. Po tym okresie płyty betonowe należy zdemontować, a nawierzchnię oczyścić z piasku użytego do podsypki. Wykonanie robót opcjonalnych nie spowoduje utraty gwarancji wcześniej wykonanego remontu nawierzchni Al. Planetarium.
+2.	Wykorzystanie prawa opcji nie jest obowiązkowe. W przypadku nieskorzystania przez Zamawiającego z prawa opcji Wykonawcy nie przysługują żadne roszczenia z tego tytułu.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

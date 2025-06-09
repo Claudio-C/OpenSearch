@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://ksp.policja.gov.pl/zam/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Komenda Stołeczna Policji</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Nowolipie 2</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>00-150</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 5251930070</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48477230313</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia@ksp.policja.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17A</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>NIP: 5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48224587801</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368724-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">47285208-dd02-4ad8-94e9-773e54fdf5ae</cbc:ID>
+   <cbc:ContractFolderID>d71f82b9-a5ee-4cbe-85e8-167fcf992244</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>12:58:55Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">pub-os</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">Ustawa z dnia 11 września 2019 r. Prawo zamówień publicznych (t.j. Dz. U. z 2024 r. poz. 1320)</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="POL">1. Postępowanie prowadzone jest w trybie przetargu nieograniczonego na podstawie art. 132 ustawy, oraz aktów wykonawczych do niej, o wartości zamówienia równej progowi unijnemu lub większej.
+2. Zamawiający, zgodnie z art. 139 ustawy, przewiduje odwróconą kolejność czynności, tj. najpierw dokona badania i oceny ofert, a następnie dokona kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia z postępowania. 
+</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">WZP-1535/25/98/T</cbc:ID>
+      <cbc:Name languageID="POL">Dostawa sześciu samochodów osobowych w policyjnej wersji nieoznakowanej z napędem elektrycznym oraz montaż dwóch stacji ładowania </cbc:Name>
+      <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa sześciu samochodów osobowych w policyjnej wersji nieoznakowanej z napędem elektrycznym (zwanych dalej pojazdem lub pojazdami) oraz montaż dwóch stacji ładowania.
+2. Szczegółowy opis przedmiotu zamówienia stanowi Rozdz. XIX SWZ oraz załącznik nr 5 do SWZ.
+3. Zamawiający żąda złożenia wraz z ofertą następujących przedmiotowych środków dowodowych na potwierdzenie zgodności oferowanych pojazdów z określonymi w opisie przedmiotu wymaganiami:
+1) Kopii świadectwa zgodności WE pojazdu bazowego,
+2) Oficjalnego katalogu producenta/importera pojazdu z zaznaczonymi danymi określonymi w pkt 1.4.1.5 - 1.4.1.7, 1.4.2.1, 1.4.2.2, 1.4.5.1 Opisu przedmiotu zamówienia (załącznik nr 5 do SWZ). Katalog musi zawierać dane techniczne oraz wyposażenie pojazdu bazowego.
+4. Zamawiający przyzna punkty w kryteriach oceny ofert (współczynnik masy pojazdu bazowego do maksymalnej mocy netto silnika i zasięg przy zasilaniu energią elektryczną w mieście) na podstawie danych z kopii świadectwa zgodności WE pojazdu bazowego. Zamawiający, mimo dopuszczenia uzupełnienia kopii świadectwa zgodności WE pojazdu bazowego, nie przyzna punktów w niniejszych kryteriach, jeśli przedmiotowy dokument nie zostanie złożony wraz z ofertą.
+5. Zamawiający akceptuje równoważne przedmiotowe środki dowodowe, jeżeli potwierdzają, że oferowane pojazdy spełniają określone przez Zamawiającego wymagania. 
+6. Zamawiający nie dopuszcza składania ofert częściowych ani wariantowych.
+7. Zamawiający dopuszcza powierzenie wykonania części zamówienia Podwykonawcy.
+8. Zamawiający żąda wskazania przez Wykonawcę w ofercie części zamówienia, których wykonanie powierzy Podwykonawcom, oraz podania nazw ewentualnych Podwykonawców, jeżeli są już znani.
+9. Zgodnie z art. 13 ust. 1 i 2 rozporządzenia Parlamentu Europejskiego i Rady (EU) 2016/679 z dnia 23 kwietnia 2016 r. Zmawiający informuje, że: 1) administratorem Pani/Pana danych osobowych jest Komendant Stołeczny Policji; 2) nadzór nad prawidłowym przetwarzaniem danych osobowych sprawuje inspektor ochrony danych osobowych: adres: ul. Nowolipie 2, 00-150 Warszawa; adres e-mail: iod@ksp.policja.gov.pl.  
+10. Zamawiający przewiduje unieważnienie postępowania, jeśli środki publiczne, które zamierzał przeznaczyć na sfinansowanie całości lub części zamówienia nie zostaną przyznane. 
+11. Rodzaj i zakres zmian umowy wskazane zostały w Rozdz. XIX SWZ.
+12. Wykonawca jest związany ofertą 90 dni od upływu terminu składania ofert, przy czym pierwszym dniem związania ofertą jest dzień, w którym upływa termin składania ofert, tj. do dnia 04.10.2025 r.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">1. O udzielenie przedmiotowego zamówienia mogą ubiegać się Wykonawcy, którzy nie podlegają wykluczeniu na podstawie art. 108 ust. 1 i 2 ustawy oraz art. 109 ust. 1 pkt 1, 4, 7, 8 i 10 ustawy oraz art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t.j. Dz. U. z 2025 r. poz. 514) oraz art. 5k rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczące środków ograniczających  w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L 229 z 31.7.2014, str. 1), dalej: rozporządzenie 833/2014, w brzmieniu nadanym rozporządzeniem Rady (UE) 2022/576 w sprawie zmiany rozporządzenia (UE) nr 833/2014 dotyczące środków ograniczających w związku z działaniami Rosji destabilizującymi sytuacje na Ukrainie (Dz. Urz. UE nr L111 z 8.4.2022 str. 1).
+2. W przypadku wspólnego ubiegania się Wykonawców o udzielenie zamówienia Zamawiający bada, czy nie zachodzą podstawy wykluczenia wobec każdego z tych Wykonawców.
+3. Jeżeli Wykonawcy zamierza powierzyć wykonanie części zamówienia Podwykonawcy, Zamawiający zbada, czy nie zachodzą wobec tego Podwykonawcy podstawy wykluczenia, które zostały przewidziane względem Wykonawcy. 
+</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="PLN">145609756.1</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">34114200</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45311200</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>ul. Nowolipie 2</cbc:StreetName>
+            <cbc:CityName>Warszawa</cbc:CityName>
+            <cbc:PostalZone>00-150</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>WZP-1535/25/98/T</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://platformazakupowa.pl/transakcja/1119261</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="POL">1. Zamawiający będzie żądał od Wykonawcy, którego oferta zostanie wybrana jako najkorzystniejsza, wniesienia najpóźniej w dniu podpisania umowy zabezpieczenia należytego wykonania umowy w wysokości 5 % wartości umowy.
+2. Zamawiający opłaci należną do zapłaty kwotę przelewem na rachunek Wykonawcy wskazany na fakturze VAT w terminie do 30 dni, licząc od daty otrzymania prawidłowo wystawionej faktury
+3. Zamawiający nie przewiduje udzielania zaliczek.</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Cena oferty</cbc:Name>
+                  <cbc:Description languageID="POL">Zgodnie z Rozdz. XIV SWZ.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Współczynnik masy pojazdu bazowego do maksymalnej mocy netto silnika </cbc:Name>
+                  <cbc:Description languageID="POL">Zgodnie z Rozdz. XIV SWZ.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Zasięg przy zasilaniu energią elektryczną w mieście </cbc:Name>
+                  <cbc:Description languageID="POL">Zgodnie z Rozdz. XIV SWZ.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://platformazakupowa.pl/transakcja/1119261</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Odwołanie wnosi się w przypadku zamówień, których wartość jest równa albo przekracza progi unijne, w terminie 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej.
+2. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej.
+3. Odwołanie w przypadkach innych niż określone w pkt. 1 i 2 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.
+4. Jeżeli zamawiający mimo takiego obowiązku nie przesłał wykonawcy zawiadomienia o wyborze najkorzystniejszej oferty lub nie zaprosił wykonawcy do złożenia oferty w ramach umowy ramowej, odwołanie wnosi się nie później niż w terminie:
+1) 30 dni od dnia publikacji w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia, 
+2) 6 miesięcy od dnia zawarcia umowy, jeżeli zamawiający nie opublikował w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia.
+</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+         <cac:SecurityClearanceTerm>
+            <cbc:Code listName="required">false</cbc:Code>
+         </cac:SecurityClearanceTerm>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://platformazakupowa.pl/transakcja/1119261</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:15:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Zamawiający nie przewiduje publicznego otwarcia ofert.</cbc:Description>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">WZP-1535/25/98/T</cbc:ID>
+         <cbc:Name languageID="POL">Dostawa sześciu samochodów osobowych w policyjnej wersji nieoznakowanej z napędem elektrycznym oraz montaż dwóch stacji ładowania </cbc:Name>
+         <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa sześciu samochodów osobowych w policyjnej wersji nieoznakowanej z napędem elektrycznym (zwanych dalej pojazdem lub pojazdami) oraz montaż dwóch stacji ładowania.
+2. Szczegółowy opis przedmiotu zamówienia stanowi Rozdz. XIX SWZ oraz załącznik nr 5 do SWZ.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">1. Zamawiający wezwie Wykonawcę, którego oferta została najwyżej oceniona, do złożenia w wyznaczonym terminie, nie krótszym niż 10 dni od dnia wezwania, aktualnych na dzień złożenia następujących podmiotowych środków dowodowych potwierdzających brak podstaw wykluczenia:
+1) informacji z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt 1 i 2 ustawy oraz art. 108 ust. 1 pkt 4 ustawy, dotyczącej orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka karnego – sporządzonej nie wcześniej niż 6 miesięcy przed jej złożeniem;
+2) oświadczenia Wykonawcy, w zakresie art. 108 ust. 1 pkt 5 ustawy, o braku przynależności do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów (t.j. Dz. U. z 2024 r. poz. 1616), z innym Wykonawcą, który złożył odrębną ofertę albo oświadczenia o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty niezależnie od innego Wykonawcy należącego do tej samej grupy kapitałowej (Wzór – Załącznik nr 2 do SWZ);
+3) oświadczenia Wykonawcy o aktualności informacji zawartych w oświadczeniu, o którym mowa w art. 125 ust. 1 ustawy – formularzu JEDZ i załączniku nr 4 do SWZ, 
+w zakresie podstaw wykluczenia z postępowania wskazanych przez Zamawiającego, o których mowa w:
+- art. 108 ust. 1 pkt 3 ustawy,
+- art. 108 ust. 1 pkt 4 ustawy, dotyczących orzeczenia zakazu ubiegania się 
+o zamówienie publiczne tytułem środka zapobiegawczego,
+- art. 108 ust. 1 pkt 5 ustawy, dotyczących zawarcia z innymi wykonawcami porozumienia mającego na celu zakłócenie konkurencji,
+- art. 108 ust. 1 pkt 6 ustawy,
+- art. 109 ust. 1 pkt 1 ustawy, odnośnie do naruszenia obowiązków dotyczących płatności podatków i opłat lokalnych, o których mowa w ustawie z dnia 12 stycznia 1991 r. o podatkach i opłatach lokalnych (t.j. Dz. U. z 2023 r. poz. 70 ze zm.),
+- art. 109 ust. 1 pkt  7, 8, 10 ustawy,
+- art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t.j. Dz. U. z 2025 r. poz. 514),
+- art. 5k rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczące środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L 229 z 31.7.2014, str. 1), dalej: rozporządzenie 833/2014, 
+w brzmieniu nadanym rozporządzeniem Rady (UE) 2022/576 w sprawie zmiany rozporządzenia (UE) nr 833/2014 dotyczące środków ograniczających w związku
+z działaniami Rosji destabilizującymi sytuacje na Ukrainie (Dz. Urz. UE nr L111 z 8.4.2022 str. 1)- (Wzór – Załącznik nr 3 do SWZ);
+4) zaświadczenia właściwego naczelnika urzędu skarbowego potwierdzającego, że Wykonawca nie zalega z opłacaniem podatków i opłat, w zakresie art. 109 ust. 1 pkt 1 ustawy, wystawionego nie wcześniej niż 3 miesiące przed jego złożeniem, a w przypadku zalegania z opłacaniem podatków lub opłat wraz z zaświadczeniem Zamawiający żąda złożenia dokumentów potwierdzających, że przed upływem terminu składania ofert Wykonawca dokonał płatności należnych podatków lub opłat wraz z odsetkami lub grzywnami lub zawarł wiążące porozumienie w sprawie spłat tych należności;
+5) zaświadczenia albo innego dokumentu właściwej terenowej jednostki organizacyjnej Zakładu Ubezpieczeń Społecznych lub właściwego oddziału regionalnego lub właściwej placówki terenowej Kasy Rolniczego Ubezpieczenia Społecznego potwierdzającego, że Wykonawca nie zalega z opłacaniem składek na ubezpieczenia społeczne i zdrowotne, w zakresie art. 109 ust. 1 pkt 1 ustawy, wystawionego nie wcześniej niż 3 miesiące przed jego złożeniem, a w przypadku zalegania z opłacaniem składek na ubezpieczenia społeczne lub zdrowotne wraz z zaświadczeniem albo innym dokumentem Zamawiający żąda złożenia dokumentów potwierdzających, że przed upływem terminu składania ofert Wykonawca dokonał płatności należnych składek na ubezpieczenia społeczne lub zdrowotne wraz odsetkami lub grzywnami lub zawarł wiążące porozumienie w sprawie spłat tych należności;
+6) odpisu lub informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 ustawy, sporządzonych nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji.
+7) informacji z Centralnego Rejestru Beneficjentów Rzeczywistych w zakresie art. 108 ust. 2 ustawy, dotyczącej możliwości ustalenia beneficjenta rzeczywistego, w rozumieniu art. 2 ust. 2 pkt 1 ustawy z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu (t.j. Dz. U. z 2023 r. poz. 1124 ze zm.) - sporządzonej nie wcześniej niż 3 miesiące przed jej złożeniem.
+2. W przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia podmiotowe środki dowodowe, wymienione w ust. 1  (tj. na potwierdzenie braku podstaw wykluczenia), składa każdy z Wykonawców występujących wspólnie. 
+3. W przypadku korzystania  przez  Wykonawcę z podwykonawców, Wykonawca składa podmiotowe środki dowodowe, wymienione w ust. 1 pkt 1 i 3-7 (tj. na potwierdzenie braku podstaw wykluczenia), w odniesieniu do każdego z tych podmiotów.  
+4. Zamawiający nie wezwie Wykonawcy do złożenia podmiotowych środków dowodowych, jeżeli:
+1) może je uzyskać za pomocą bezpłatnych i ogólnodostępnych baz danych, w szczególności rejestrów publicznych w rozumieniu ustawy z 17 lutego 2005 r. 
+o informatyzacji działalności podmiotów realizujących zadania publiczne, o ile Wykonawca wskazał w oświadczeniu, o którym mowa w art. 125 ust. 1 ustawy – formularzu JEDZ, dane umożliwiające dostęp do tych środków;
+2) podmiotowym środkiem dowodowym jest oświadczenie, którego treść odpowiada zakresowi oświadczenia, o którym mowa w art. 125 ust. 1 ustawy – formularza JEDZ.
+5. Wykonawca nie jest zobowiązany do złożenia podmiotowych środków dowodowych, które Zamawiający posiada, jeżeli Wykonawca wskaże te środki oraz potwierdzi ich prawidłowość i aktualność.
+6. Jeżeli zachodzą uzasadnione podstawy do uznania, że złożone uprzednio podmiotowe środki dowodowe nie są już aktualne, Zamawiający może w każdym czasie wezwać Wykonawcę lub Wykonawców do złożenia wszystkich lub niektórych podmiotowych środków dowodowych, aktualnych na dzień ich złożenia.
+7. Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania  lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument poza terytorium Rzeczypospolitej Polskiej, zamiast dokumentów, o których mowa w ust. 1:
+1) pkt 1 – składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo 
+w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania, lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument w zakresie, o którym mowa w ust. 1 pkt 1 SWZ;
+2) pkt 4-7 – składa dokument lub dokumenty wystawione w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania, lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument potwierdzające odpowiednio, że:
+a) nie naruszył obowiązków dotyczących płatności podatków, opłat lub składek na ubezpieczenie społeczne lub zdrowotne,
+b) nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej 
+z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury.
+8. Dokument, o którym mowa w ust. 7 pkt 1, powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. Dokumenty, o których mowa w ust. 7 pkt 2, powinny być wystawione nie wcześniej niż 3 miesiące przed ich złożeniem.
+9. Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy, nie wydaje się dokumentów, o których mowa w ust. 7, lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1, 2 i 4, art. 109 ust. 1 pkt 1 ustawy, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie Wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć, nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania Wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć.  Przepis ust. 8 stosuje się.
+10. Podmiotowe środki dowodowe, przedmiotowe środki dowodowe oraz inne dokumenty lub oświadczenia należy przekazać Zamawiającemu przy użyciu środków komunikacji elektronicznej dopuszczonych w SWZ, w zakresie i sposób określony w przepisach rozporządzenia wydanego na podstawie art. 70 ustawy. Podmiotowe środki dowodowe sporządzone w języku obcym muszą być złożone wraz z tłumaczeniem na język polski.
+</cbc:Note>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="gpp-criteria">eu</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">1136991.85</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">34114200</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45311200</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Dostawa pojazdów odbędzie się w siedzibie Wydziału Transportu KSP Warszawa ul. Jagiellońska 49, a stacji ładujących w miejscu montażu na terenie podległym KRP Warszawa I oraz KRP Warszawa II. </cbc:Description>
+            <cac:Address>
+               <cbc:StreetName>ul. Jagiellońska 49</cbc:StreetName>
+               <cbc:CityName>Warszawa</cbc:CityName>
+               <cbc:PostalZone>03-301</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

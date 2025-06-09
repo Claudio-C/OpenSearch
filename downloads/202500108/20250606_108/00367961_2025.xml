@@ -1,0 +1,3447 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+	
+	
+	<efac:Company>
+		
+		<cac:PartyIdentification>
+			<!-- OPT-200 - ID Org-->
+			<cbc:ID>ORG-0001</cbc:ID>
+		</cac:PartyIdentification>
+		<cac:PartyName>
+			<!-- BT-500 - Nome ufficiale -->
+			<cbc:Name languageID="ITA">ESTAR - Ente di Supporto Tecnico Amministrativo Regionale</cbc:Name>
+		</cac:PartyName>
+		<cac:PostalAddress>
+			<!-- BT-513 - Località -->
+			<cbc:CityName>Firenze</cbc:CityName>
+			
+					<!-- BT-512 - Codice Postale -->
+					<cbc:PostalZone>50135</cbc:PostalZone>
+					<!-- BT-507 - NUTS -->
+				    <cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+			<cac:Country>
+				<!-- BT-514 - Paese - default ITA-->
+				<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+			</cac:Country>
+		</cac:PostalAddress>
+		<!-- BT-501 - Numero di registrazione -->
+		<cac:PartyLegalEntity>
+			<cbc:CompanyID>06485540485</cbc:CompanyID>
+		</cac:PartyLegalEntity>
+		<cac:Contact>
+			<cbc:Name>Cinzia Malesci</cbc:Name>
+			<!-- BT-503 - Telefono -->
+			<cbc:Telephone>0553799069</cbc:Telephone>
+			
+			<!-- BT-506 - E-mail -->
+			<cbc:ElectronicMail>francesco.santucci@estar.toscana.it</cbc:ElectronicMail>
+		</cac:Contact>
+	</efac:Company>
+</efac:Organization><efac:Organization>
+	
+	
+	<efac:Company>
+		
+		<cac:PartyIdentification>
+			<!-- OPT-200 - ID Org-->
+			<cbc:ID>ORG-0002</cbc:ID>
+		</cac:PartyIdentification>
+		<cac:PartyName>
+			<!-- BT-500 - Nome ufficiale -->
+			<cbc:Name languageID="ITA">TAR Toscana</cbc:Name>
+		</cac:PartyName>
+		<cac:PostalAddress>
+			<!-- BT-513 - Località -->
+			<cbc:CityName>Firenze</cbc:CityName>
+			
+					<!-- BT-512 - Codice Postale -->
+					<cbc:PostalZone>50122</cbc:PostalZone>
+					<!-- BT-507 - NUTS -->
+				    <cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+			<cac:Country>
+				<!-- BT-514 - Paese - default ITA-->
+				<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+			</cac:Country>
+		</cac:PostalAddress>
+		<!-- BT-501 - Numero di registrazione -->
+		<cac:PartyLegalEntity>
+			<cbc:CompanyID>80045610484</cbc:CompanyID>
+		</cac:PartyLegalEntity>
+		<cac:Contact>
+			<cbc:Name>TAR Toscana</cbc:Name>
+			<!-- BT-503 - Telefono -->
+			<cbc:Telephone>055267301</cbc:Telephone>
+			
+			<!-- BT-506 - E-mail -->
+			<cbc:ElectronicMail>taraq-sez1@ga-cert.it</cbc:ElectronicMail>
+		</cac:Contact>
+	</efac:Company>
+</efac:Organization><efac:Organization>
+	
+	
+	<efac:Company>
+		
+		<cac:PartyIdentification>
+			<!-- OPT-200 - ID Org-->
+			<cbc:ID>ORG-0003</cbc:ID>
+		</cac:PartyIdentification>
+		<cac:PartyName>
+			<!-- BT-500 - Nome ufficiale -->
+			<cbc:Name languageID="ITA">ANAC AUTORITA NAZIONALE ANTICORRUZIONE</cbc:Name>
+		</cac:PartyName>
+		<cac:PostalAddress>
+			<!-- BT-513 - Località -->
+			<cbc:CityName>Roma</cbc:CityName>
+			
+					<!-- BT-512 - Codice Postale -->
+					<cbc:PostalZone>00187</cbc:PostalZone>
+					<!-- BT-507 - NUTS -->
+				    <cbc:CountrySubentityCode listName="nuts">ITI43</cbc:CountrySubentityCode>
+			<cac:Country>
+				<!-- BT-514 - Paese - default ITA-->
+				<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+			</cac:Country>
+		</cac:PostalAddress>
+		<!-- BT-501 - Numero di registrazione -->
+		<cac:PartyLegalEntity>
+			<cbc:CompanyID>97584460584</cbc:CompanyID>
+		</cac:PartyLegalEntity>
+		<cac:Contact>
+			<cbc:Name>ANAC AUTORITA NAZIONALE ANTICORRUZIONE</cbc:Name>
+			<!-- BT-503 - Telefono -->
+			<cbc:Telephone>06367231</cbc:Telephone>
+			
+			<!-- BT-506 - E-mail -->
+			<cbc:ElectronicMail>protocollo@pec.anticorruzione.it</cbc:ElectronicMail>
+		</cac:Contact>
+	</efac:Company>
+</efac:Organization>
+					</efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367961-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID> <!-- costante -->
+	<!-- Versione SDK -->
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">2c1a9f1b-8a46-473a-95a1-781b4ca158fb</cbc:ID>
+	<!-- BT-04 - Procedure Identifier - Codice Appalto -->
+	<cbc:ContractFolderID>2c1a9f1b-8a46-473a-95a1-781b4ca158fb</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05Z</cbc:IssueDate> <!-- Notice Dispatch Date - generato a runtime -->
+	<cbc:IssueTime>10:22:07Z</cbc:IssueTime>   <!-- Notice Dispatch Date - generato a runtime -->
+	<cbc:VersionID>01</cbc:VersionID> <!-- Progressivo Contract Notice -->
+	<!-- BT-738 - Notice Preferred Publication Date - generato a runtime -->
+	<cbc:RequestedPublicationDate>2025-06-05Z</cbc:RequestedPublicationDate>
+	<!-- BT-01-notice - Base giuridica della procedura -->
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+
+	<!-- BT-02- Notice Type -->
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listName="language">ITA</cbc:NoticeLanguageCode> <!-- costante -->
+	<cac:ContractingParty>
+		<!-- BT-508 - Buyer Profile URL -->
+<cbc:BuyerProfileURI>http://www.estar.toscana.it </cbc:BuyerProfileURI>
+		<cac:ContractingPartyType>
+			<!-- Forma giuridica del committente (BT-11-Procedure-Buyer) -->
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		
+		<cac:ContractingActivity>
+			<!-- BT-10 - Activity Authority - Attività dell'amministrazione aggiudicatrice --> <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<!-- ID — Acquirente -->
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:ServiceProviderParty>
+				<!-- OPT-030-Procedure-SProvider -->
+				<cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+				<cac:Party>
+					<cac:PartyIdentification>
+						<!-- ID - ANAC -->
+						<cbc:ID>ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:Party>
+			</cac:ServiceProviderParty>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+
+			<!-- 1..N -->
+			<cac:SpecificTendererRequirement>
+						<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+				  </cac:SpecificTendererRequirement>
+
+		</cac:TendererQualificationRequest>
+
+		
+					  <cac:LotDistribution>
+						 <!--  BT-33 (Lots Max Awarded)  -->
+						 <cbc:MaximumLotsAwardedNumeric>15</cbc:MaximumLotsAwardedNumeric>
+						 <!--  BT-31 (Lots Max Allowed) -->
+						 <cbc:MaximumLotsSubmittedNumeric>15</cbc:MaximumLotsSubmittedNumeric>
+					  </cac:LotDistribution>
+					
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<ext:UBLExtensions>
+			<ext:UBLExtension>
+				<ext:ExtensionContent>
+					<efext:EformsExtension>
+						<!-- BT-634 - costante -->
+						<efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+					</efext:EformsExtension>
+				</ext:ExtensionContent>
+			</ext:UBLExtension>
+		</ext:UBLExtensions>
+
+		
+
+		<!-- BT-105 - Tipo di procedura -->
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		
+		<cac:ProcessJustification>
+												 <!-- BT-106 - La procedura è accelerata -->
+												 <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode></cac:ProcessJustification>
+	</cac:TenderingProcess>
+
+	<cac:ProcurementProject>
+		
+		<!-- BT-21 - Titolo procedura -->
+		<cbc:Name languageID="ITA">Procedura Aperta SISTEMI TOTALMENTE IMPIANTABILI (PORT) E AGHI DI HUBER</cbc:Name>
+		<!-- BT-24 - Descrizione procedura -->
+		<cbc:Description languageID="ITA">PROCEDURA APERTA PER LA FORNITURA DI SISTEMI TOTALMENTE IMPIANTABILI (PORT) E AGHI DI HUBER OCCORRENTI ALLE AZIENDE SANITARIE E OSPEDALIERO- UNIVERSITARIE DELLA REGIONE TOSCANA</cbc:Description>
+		<!-- BT-23 - Natura dell'appalto / Tipo di appalto -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+
+		
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">12855189.60</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">12855189.60</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- BT-26 + BT-262 - Tipo di Classificatore/ Classificazione principale -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+
+		<cac:RealizedLocation>
+						<!-- BT-728-Procedure - Description (LanguageID fisso a ITA, valore fisso "Informazioni Supplementari") -->
+						<cbc:Description languageID="ITA">Informazioni supplementari</cbc:Description><cac:Address>
+							<!-- BT-5071-Procedure - CountrySubentityCode (Codice NUTS Luogo ISTAT) -->
+							<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+							<cac:Country>
+								<!-- BT-5141-Procedure - IdentificationCode (Fisso ITA) -->
+								<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+							</cac:Country>
+						</cac:Address>
+				</cac:RealizedLocation>
+	</cac:ProcurementProject>
+
+	<!-- lista lotti - 1..N -->
+	<cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>1</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>1</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito a basso profilo, catetere in poliuretano, calibro 5 F circa</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito a basso profilo, catetere in poliuretano, calibro 5 F circa</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">609000.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">609000.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>2</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>2</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito a basso profilo, catetere in poliuretano, calibro da 6 F a 7 F circa</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito a basso profilo, catetere in poliuretano, calibro da 6 F a 7 F circa</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">36018.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">36018.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>3</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>3</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Port ad alto flusso con camera in materiale plastico di ultima generazione a basso profilo, catetere in silicone e/o poliuretano, calibro da 6 F a 7 F circa, nichel free</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Port ad alto flusso con camera in materiale plastico di ultima generazione a basso profilo, catetere in silicone e/o poliuretano, calibro da 6 F a 7 F circa, nichel free</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">128934.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">128934.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>4</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>4</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito a basso profilo, catetere in silicone, calibro da 6 F a 7 F circa</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito a basso profilo, catetere in silicone, calibro da 6 F a 7 F circa</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">920460.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">920460.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0005</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>5</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>5</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito con profilo standard, catetere in silicone a punta chiusa, calibr+C9:C10o da 6 F a 8 F circa</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito con profilo standard, catetere in silicone a punta chiusa, calibr+C9:C10o da 6 F a 8 F circa</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">144652.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">144652.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0006</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>6</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>6</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito a profilo standard, catetere in silicone, calibro da 6 F a 7 F circa</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito a profilo standard, catetere in silicone, calibro da 6 F a 7 F circa</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">82708.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">82708.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0007</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>7</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>7</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Port  con camera in titanio o titanio rivestito con profilo standard, catetere in poliuretano di ultima generazione, calibro da 6 F a 7 F circa</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Port  con camera in titanio o titanio rivestito con profilo standard, catetere in poliuretano di ultima generazione, calibro da 6 F a 7 F circa</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">458896.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">458896.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0008</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>8</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>8</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">PICC Port - catetere venoso centrale in poliuretano power injectable, collegato con camera impiantabile in titanio o titanio rivestito di piccole dimensioni                                                                                                                                                                                        </cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">PICC Port - catetere venoso centrale in poliuretano power injectable, collegato con camera impiantabile in titanio o titanio rivestito di piccole dimensioni                                                                                                                                                                                        </cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">1734780.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">1734780.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0009</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>9</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>9</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito, di basso profilo e catetere in silicone o poliuretano di ultima generazione con possibilità simultanea di determinazione ECG, calibro da 6F a 7F circa. </cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito, di basso profilo e catetere in silicone o poliuretano di ultima generazione con possibilità simultanea di determinazione ECG, calibro da 6F a 7F circa. </cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">2253648.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">2253648.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0010</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>10</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>10</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito e catetere in silicone o poliuretano di ultima generazione, dotato di sistema per la visualizzazione della corretta posizione, calibro da 6F a 7F circa</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Port ad alto flusso con camera in titanio o titanio rivestito e catetere in silicone o poliuretano di ultima generazione, dotato di sistema per la visualizzazione della corretta posizione, calibro da 6F a 7F circa</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">601344.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">601344.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0011</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>11</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>11</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Ago di Huber ad alto flusso angolato a 90° con connettore a Y</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Ago di Huber ad alto flusso angolato a 90° con connettore a Y</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">183715.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">183715.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0012</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>12</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>12</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Ago di Huber angolato a 90° con connettore a Y</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Ago di Huber angolato a 90° con connettore a Y</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">4745287.40</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">4745287.40</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0013</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>13</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>13</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Ago di Huber angolato a 90° a pressione positiva</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Ago di Huber angolato a 90° a pressione positiva</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">168136.20</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">168136.20</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0014</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>14</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>14</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Ago di Huber angolato a 90° con sistema di sicurezza </cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Ago di Huber angolato a 90° con sistema di sicurezza </cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">722071.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">722071.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot><cac:ProcurementProjectLot>
+	<cbc:ID schemeName="Lot">LOT-0015</cbc:ID>
+	<cac:TenderingTerms>
+
+		
+			
+		<!-- (BT-60-Lot) - L'appalto è finanziato almeno in parte da fondi dell'Unione europea -->
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		
+		
+		<cac:CallForTendersDocumentReference>
+			<!-- BT-22-Lot - Identificativo interno lotto -->
+			<cbc:ID>15</cbc:ID>
+			<!-- (BT-14-Lot) - L'accesso a determinati documenti di gara è limitato -->
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<!-- (BT-15) - Indirizzo dei documenti di gara -->
+					<cbc:URI>https://www.sanita.start.toscana.it/Application/CustomDoc/DettaglioProcedura.asp?ID=283779</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:CallForTendersDocumentReference>
+		
+		
+					<cac:TendererQualificationRequest>
+						<cac:SpecificTendererRequirement>
+							<!-- (BT-71-Lot) - Partecipazione riservata -->
+							<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+						</cac:SpecificTendererRequirement>
+					</cac:TendererQualificationRequest>
+
+		<!-- BT-821-Lot - TendererRequirementTypeCode (Fisso su "epo-sub-espd" che indica il DGUE) -->
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+
+		
+				<cac:ContractExecutionRequirement>
+					<!--BT-736 - L esecuzione dell appalto deve avvenire nel contesto di programmi di lavoro protetti -->
+					<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+				</cac:ContractExecutionRequirement>
+		
+					<cac:ContractExecutionRequirement>
+						<!--BT-743 costante -->
+						<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+					</cac:ContractExecutionRequirement>
+		
+			 		<!-- BT-70 -->
+					<cac:ContractExecutionRequirement>
+						<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+						<cbc:Description languageID="ITA">Prestazioni</cbc:Description>
+					</cac:ContractExecutionRequirement>
+		
+			<cac:ContractExecutionRequirement>
+				<!-- BT-764 - costante -->
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<!-- BT-744 - Submission Electronic Signature - costante a true -->
+			<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+
+		<!-- BT-539 ( Tipo criterio di aggiudicazione ) -->
+		<cac:AwardingTerms>
+			
+			
+			
+			<cac:AwardingCriterion>
+				<cac:SubordinateAwardingCriterion>
+					<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					<cbc:Description languageID="ITA">Offerta economicamente più vantaggiosa</cbc:Description>
+				</cac:SubordinateAwardingCriterion>
+			</cac:AwardingCriterion>
+			
+		</cac:AwardingTerms>
+
+		
+
+		<!-- BT-18-Lot ( Indirizzo per la presentazione ) -->
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.sanita.start.toscana.it</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+
+		<!-- BT-98-Lot TenderValidityPeriod -->
+					 <cac:TenderValidityPeriod>
+						<cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+					 </cac:TenderValidityPeriod>
+
+		<!-- Dato obbligatorio per il TED web, senza non fa importare l'xml -->
+		<cac:AppealTerms>
+			<!-- BT-99-Lot PresentationPeriod -->
+					 <cac:PresentationPeriod>
+						<cbc:Description languageID="ITA">Vedi capitolato</cbc:Description>
+					 </cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+
+		<!-- BT-97-Lot -->
+					<cac:Language>
+						<cbc:ID>ITA</cbc:ID>
+					 </cac:Language>
+		
+					<cac:PostAwardProcess>
+						<!-- BT-92-Lot - costante -->
+						<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+						<!-- BT-93-Lot - costante -->
+						<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+					</cac:PostAwardProcess>
+
+	</cac:TenderingTerms>
+
+	<cac:TenderingProcess>
+		<!-- BT-17 - costante -->
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+
+		
+					<!-- BT-115 -->
+					<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+
+		
+		<!-- BT-131 - Termine per il ricevimento delle offerte -->
+		<cac:TenderSubmissionDeadlinePeriod>
+		    <cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+
+		<!-- BT-13 Additional Information Deadline - termine richiesta quesiti -->
+		<cac:AdditionalInformationRequestPeriod>
+			<cbc:EndDate>2025-06-23+02:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+		</cac:AdditionalInformationRequestPeriod>
+
+		
+					<cac:AuctionTerms>
+						<!-- BT-767 - Viene utilizzata un’asta elettronica -->
+						<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+					</cac:AuctionTerms>
+				
+
+		<!-- BT-113-Lot MaximumOperatorQuantity -->
+					  <cac:FrameworkAgreement>
+						<cbc:MaximumOperatorQuantity>9999</cbc:MaximumOperatorQuantity>
+					  </cac:FrameworkAgreement>
+
+		<cac:ContractingSystem>
+							<!-- (BT-765-Lot) - è una procedura negoziata all'interno di un accordo quadro -->
+							<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+						<cac:ContractingSystem>
+							<!-- BT-766-Lot - è coinvolto un sistema dinamico di acquisizione -->
+							<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+						</cac:ContractingSystem>
+
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<!--(BT-22-Lot) - numero lotto-->
+		<cbc:ID>15</cbc:ID>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Name languageID="ITA">Ago di Huber retto</cbc:Name>
+		<!-- Descrizione (BT-24-Lot) - descrizione lotto -->
+		<cbc:Description languageID="ITA">Ago di Huber retto</cbc:Description>
+		<!-- BT-23 - lo stesso usato per la gara -->
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<!-- BT-805-Lot - Appalti verdi: criteri -->
+		<cac:ProcurementAdditionalType>
+			<cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+		</cac:ProcurementAdditionalType>
+		
+
+			
+				<cac:RequestedTenderTotal>
+							<ext:UBLExtensions>
+								<ext:UBLExtension>
+									<ext:ExtensionContent>
+										<efext:EformsExtension>
+											<!-- BT-271 - Framework Maximum Value -->
+											<efbc:FrameworkMaximumAmount currencyID="EUR">65540.00</efbc:FrameworkMaximumAmount>
+										</efext:EformsExtension>
+									</ext:ExtensionContent>
+								</ext:UBLExtension>
+							</ext:UBLExtensions><!-- BT-27 - Valore stimato lotto -->
+					<cbc:EstimatedOverallContractAmount currencyID="EUR">65540.00</cbc:EstimatedOverallContractAmount>
+				</cac:RequestedTenderTotal>
+
+		<cac:MainCommodityClassification>
+			<!-- CPV del lotto in caso di alcuni modelli in cui è richiesto o verrà utilizzata la CPV di procedura -->
+			<cbc:ItemClassificationCode listName="cpv">33190000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		
+		<cac:RealizedLocation>
+			<cac:Address>
+				<!-- BT-5071 - Place Performance Country Subdivision -->
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+				    <!-- BT-5141 - Place Performance Country Code -->
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+			</cac:RealizedLocation>
+		
+		<cac:PlannedPeriod>
+						<!-- BT-36-Lot -->
+						<cbc:DurationMeasure unitCode="DAY">1460</cbc:DurationMeasure>
+					 </cac:PlannedPeriod>
+		
+	</cac:ProcurementProject>
+</cac:ProcurementProjectLot>
+
+</ContractNotice>

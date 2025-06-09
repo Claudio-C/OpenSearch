@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">2000000</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>PI186650-25</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-06-04+02:00</cbc:AwardDate>
+                     <efac:ContractReference>
+                        <cbc:ID>Provvedimento di aggiudicazione Prot. 2392/2025 del 04/06/2025</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>LIFE TECHNOLOGIES ITALIA FIL. LIFE TECHNOLOGIES EUROPE BV C.F./P.IVA 12792100153</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">25</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.irst.emr.it</cbc:WebsiteURI>
+                        <cbc:EndpointID>www.irst.emr.it</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">IRCCS ISTITUTO ROMAGNOLO PER LO STUDIO DEI TUMORI "DINO AMADORI" - IRST SRL</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Via P. Maroncelli, 40</cbc:StreetName>
+                           <cbc:Department>Servizio Acquisti </cbc:Department>
+                           <cbc:CityName>Meldola </cbc:CityName>
+                           <cbc:PostalZone>47014</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">ITH58</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>03154520401</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Stefania Venturi</cbc:Name>
+                           <cbc:Telephone>0543-739413-9952-9127</cbc:Telephone>
+                           <cbc:ElectronicMail>servizio.acquisti@irst.legalmail.it</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                     <efac:TouchPoint>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">Tribunale Amministrativo dell'Emilia Romagna</cbc:Name>
+                        </cac:PartyName>
+                     </efac:TouchPoint>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">LIFE TECHNOLOGIES ITALIA FIL. LIFE TECHNOLOGIES EUROPE BV </cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kwartsweg, 2</cbc:StreetName>
+                           <cbc:CityName>Bleiswijk </cbc:CityName>
+                           <cbc:PostalZone>2665</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">NL365</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>12792100153</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="ITA">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368226-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">6b5b57db-700c-45bc-8a48-fc0e69b0830b</cbc:ID>
+   <cbc:ContractFolderID>68748421-4c78-465a-9f59-5fd4341c3e76</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04Z</cbc:IssueDate>
+   <cbc:IssueTime>15:09:12Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="dir-awa-pre">veat</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">ITA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>www.irst.emr.it</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="ITA">D. Lgs. 36/2023 e s.m.i.</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="direct-award-justification">exclusive</cbc:ProcessReasonCode>
+         <cbc:ProcessReason languageID="ITA">1) Con apposite Relazioni a supporto della richiesta di acquisto (allegate al sopra citato provvedimento a contrarre), è stato dichiarato che trattasi di:
+    a) Reagenti e/o plastiche e/o kit da utilizzare:
+        • “per analisi con metodiche Western Bolt”;
+        • “per l’estrazione ed analisi di acidi nuclici”;
+        • “per la caratterizzazione di linee cellulari commerciali e primarie che prevedono l’utilizzo di rilevazioni anticorpali e supporti specifici”;
+        • “per analisi immiuinofenotipica FACS”;
+        • “all’Interno del work flow di produzione di librerie per Next Generation Sequencing (NGS)”;
+     e che “diversi prodotti e/o diverse caratteristiche degli stessi invaliderebbero le informazioni fino ad ora registrare rendendo i risultati futuri non equiparabili ai pre 
+     esistenti”;
+    b) “reattivi e consumabili indispensabili per l’utilizzo della strumentazione ATTUNE” “insostituibili con altri prodotti simili”.
+2) come de relazioni di cui al punto precedente i prodotti in contesto, con le caratteristiche sopra indicate:
+        ◦ sono “gli unici in grado di soddisfare i biosgni […] descritti […] e non esistono soluzioni alternative ragionevoli sul mercato” oppure sono necessari per “l’utilizzo dell’attrezzatura citofluorimetro ATTUNE NxT, […] in dotazione/di proprietà dello scrivente istituto e pertanto insostituibili con altri prodotti simili”;  
+        ◦ sono fabbricati dalla ditta TERMOFISHER SCIENTIFICS e/o dalla ditta INVOTROGEN e commercializzati dalla ditta LIFE TECHNOLOGIES ITALIA FIL. LIFE TECHNOLOGIES EUROPE BV in via esclusiva; 
+3) Apposite dichiarazioni presentate dalla ditta LIFE TECHNOLOGIES ITALIA FIL. LIFE TECHNOLOGIES EUROPE BV C.F./P.IVA 12792100153 con le quali attesta di essere rivenditrice esclusiva per l’Italia dei prodotti oggetto della presente fornitura;</cbc:ProcessReason>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:Name languageID="ITA">fornitura di reagenti e materiale di consumo in esclusiva</cbc:Name>
+      <cbc:Description languageID="ITA">Procedura negoziata senza previa pubblicazione del bando ai sensi dell’art. 76 comma 2 lettera b) del D.Lgs. n. 36/2023 e s.m.i. per la "fornitura di reagenti e materiale di consumo in esclusiva" per l’IRCCS Istituto Romagnolo per lo Studio dei Tumori “Dino Amadori” s.r.l. per una durata di 24 mesi con possibilità di rinnovo di 12 mesi con possibilità di proroga di ulteriori 6 mesi
+Importo complessivo dell’appalto: € 2.000.000,00 oltre IVA 
+CUI: F03154520401202400011
+CIG: B68827C162
+Registro di sistema: PI186650-25
+Responsabile Unico del Progetto (RUP): Dott.ssa Stefania Venturi</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33696500</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Via P. Maroncelli 40</cbc:StreetName>
+            <cbc:CityName>Meldola</cbc:CityName>
+            <cbc:PostalZone>47014</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">ITH58</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="ITA">Minor prezzo ai sensi dell'art. 108 del D.Lgs. 36/2023  e s.m.i.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>TPO-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="ITA">fornitura di reagenti e materiale di consumo in esclusiva</cbc:Name>
+         <cbc:Description languageID="ITA">Fornitura di diverse referenze impiegabili nei laboratori dell'IRCCS IRST S.r.l. dettagliatamente elencate nella documentazione di gara disponibile sul sito 
+dell'istituto, necessarie per garantire:
+- il proseguimento dei progetti in corso;
+- il proseguimento dei protocolli utilizzati nei processi finalizzati alla Diagnostica, mantenendo le condizioni standardizzate/messe a punto che rispondono ai requisiti di qualità richiesti/previsti;
+- l’utilizzo del citofluorimentro ATTUNE NxT</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33696500</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Via P. Marincelli 40</cbc:StreetName>
+               <cbc:CityName>Meldola</cbc:CityName>
+               <cbc:PostalZone>47014</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">ITH58</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="YEAR">3.5</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

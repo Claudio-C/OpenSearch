@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:Changes>
+                  <efbc:ChangedNoticeIdentifier>3732ec80-7a2b-474c-bb6f-2dad74ef368d-01</efbc:ChangedNoticeIdentifier>
+                  <efac:ChangeReason>
+                     <cbc:ReasonCode listName="change-corrig-justification">update-add</cbc:ReasonCode>
+                     <efbc:ReasonDescription languageID="DEU">Unter 5.1.10 Zuschlagskriterien wurde bei LOT-0001 die Gewichtung (Prozentanteil, genau) bei Preis und Qualität ergänzt.  
+Unter 6.1.4 Statistische Informationen wurden bei LOT-0001 die Angaben zur CVD korrigiert.</efbc:ReasonDescription>
+                  </efac:ChangeReason>
+               </efac:Changes>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">0.00</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:StrategicProcurement>
+                        <efac:StrategicProcurementInformation>
+                           <efbc:ProcurementCategoryCode listName="cvd-contract-type">pass-tran-serv</efbc:ProcurementCategoryCode>
+                           <efac:ProcurementDetails>
+                              <efbc:AssetCategoryCode listName="vehicle-category">m1</efbc:AssetCategoryCode>
+                              <efac:StrategicProcurementStatistics>
+                                 <efbc:StatisticsCode listName="vehicles">vehicles</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+                              </efac:StrategicProcurementStatistics>
+                              <efac:StrategicProcurementStatistics>
+                                 <efbc:StatisticsCode listName="vehicles">vehicles-clean</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+                              </efac:StrategicProcurementStatistics>
+                              <efac:StrategicProcurementStatistics>
+                                 <efbc:StatisticsCode listName="vehicles">vehicles-zero-emission</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                              </efac:StrategicProcurementStatistics>
+                           </efac:ProcurementDetails>
+                           <efac:ProcurementDetails>
+                              <efbc:AssetCategoryCode listName="vehicle-category">m3</efbc:AssetCategoryCode>
+                              <efac:StrategicProcurementStatistics>
+                                 <efbc:StatisticsCode listName="vehicles">vehicles</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>25</efbc:StatisticsNumeric>
+                              </efac:StrategicProcurementStatistics>
+                              <efac:StrategicProcurementStatistics>
+                                 <efbc:StatisticsCode listName="vehicles">vehicles-clean</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                              </efac:StrategicProcurementStatistics>
+                              <efac:StrategicProcurementStatistics>
+                                 <efbc:StatisticsCode listName="vehicles">vehicles-zero-emission</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                              </efac:StrategicProcurementStatistics>
+                           </efac:ProcurementDetails>
+                        </efac:StrategicProcurementInformation>
+                     </efac:StrategicProcurement>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0002</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:StrategicProcurement>
+                        <efac:StrategicProcurementInformation>
+                           <efbc:ProcurementCategoryCode listName="cvd-contract-type">pass-tran-serv</efbc:ProcurementCategoryCode>
+                           <efac:ProcurementDetails>
+                              <efbc:AssetCategoryCode listName="vehicle-category">m3</efbc:AssetCategoryCode>
+                              <efac:StrategicProcurementStatistics>
+                                 <efbc:StatisticsCode listName="vehicles">vehicles</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>27</efbc:StatisticsNumeric>
+                              </efac:StrategicProcurementStatistics>
+                              <efac:StrategicProcurementStatistics>
+                                 <efbc:StatisticsCode listName="vehicles">vehicles-zero-emission</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>6</efbc:StatisticsNumeric>
+                              </efac:StrategicProcurementStatistics>
+                              <efac:StrategicProcurementStatistics>
+                                 <efbc:StatisticsCode listName="vehicles">vehicles-clean</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>12</efbc:StatisticsNumeric>
+                              </efac:StrategicProcurementStatistics>
+                           </efac:ProcurementDetails>
+                        </efac:StrategicProcurementInformation>
+                     </efac:StrategicProcurement>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">0.00</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Angebot 3</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">0.00</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0002</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Angebot 3</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-05-13+02:00</cbc:IssueDate>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>Konzessionsvertrag Linienbündel Leimen</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+                     <cbc:IssueDate>2025-05-13+02:00</cbc:IssueDate>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>Konzessionsvertrag Linienbündel St. Leon-Rot/Sandhausen</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Busverkehr Rhein-Neckar GmbH</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                     <cbc:Name>Busverkehr Rhein-Neckar GmbH</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.vrn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Verkehrsverbund Rhein-Neckar GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>B 1, 3-5</cbc:StreetName>
+                           <cbc:CityName>Mannheim</cbc:CityName>
+                           <cbc:PostalZone>68159</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE126</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>Berichtseinheit-ID 00011998</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0621107700</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@vrn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer Baden-Württemberg beim Regierungspräsidium Karlsruhe</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Durlacher Allee 100</cbc:StreetName>
+                           <cbc:CityName>Karlsruhe</cbc:CityName>
+                           <cbc:PostalZone>76137</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE122</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt-IdNr:DE811469974</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0721 926-8730</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer@rpk.bwl.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Rhein-Neckar-Kreis</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kurfürsten-Anlage 38 - 40</cbc:StreetName>
+                           <cbc:CityName>Heidelberg</cbc:CityName>
+                           <cbc:PostalZone>69115</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE128</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt-IdNr:DE143296677</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0621107700</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@vrn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Stadt Heidelberg</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Marktplatz 10</cbc:StreetName>
+                           <cbc:CityName>Heidelberg</cbc:CityName>
+                           <cbc:PostalZone>69117</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE125</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt-IdNr:DE143296597</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0621107700</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@vrn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Busverkehr Rhein-Neckar GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Gutschstraße 4</cbc:StreetName>
+                           <cbc:Department>BRN Busverkehr Rhein-Neckar GmbH</cbc:Department>
+                           <cbc:CityName>Karlsruhe</cbc:CityName>
+                           <cbc:PostalZone>76137</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE122</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt-IdNr:DE149137974</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>busbw@deutschebahn.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     <cbc:FamilyName>Busverkehr Rhein-Neckar GmbH</cbc:FamilyName>
+                     <cac:Contact>
+                        <cbc:ElectronicMail>busbw@deutschebahn.com</cbc:ElectronicMail>
+                     </cac:Contact>
+                     <cac:ResidenceAddress>
+                        <cbc:StreetName>Gutschstraße 4</cbc:StreetName>
+                        <cbc:CityName>Karlsruhe</cbc:CityName>
+                        <cbc:PostalZone>76137</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">DE122</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:ResidenceAddress>
+                     <efac:Nationality>
+                        <cbc:NationalityID>DEU</cbc:NationalityID>
+                     </efac:Nationality>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368011-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">de808f09-ff4e-420b-83e9-65eeff5d448d</cbc:ID>
+   <cbc:ContractFolderID>1b7d12db-7241-49c8-8aa1-d887620c249a</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>14:16:12+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+         <cbc:DocumentDescription languageID="DEU">Öffentlicher Dienstleistungsauftrag im Buspersonennahverkehr gem. Art. 5 Abs. 1 Verordnung (EG) 1370/2007 i. V. m § 119 Absatz 3 des GWB für das Linienbündel Leimen und St. Leon-Rot/Sandhausen</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <ext:UBLExtensions>
+         <ext:UBLExtension>
+            <ext:ExtensionContent>
+               <efext:EformsExtension>
+                  <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+               </efext:EformsExtension>
+            </ext:ExtensionContent>
+         </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:Description languageID="DEU">Zur Sicherstellung der ausreichenden Verkehrsbedienung beabsichtigen der Rhein-Neckar-Kreis und die Stadt Heidelberg für das in den beiliegenden Vertragsunterlagen in Qualität und Quantität beschriebenen Linienbündel im Buspersonennahverkehr (BPNV) Ausgleichsleistungen
+und ein ausschließliches Recht im Rahmen eines öffentlichen Dienstleistungsauftrages im Sinne der VO 1370/2007 (Konzessionsvertrag) im Wege eines wettbewerblichen Verfahrens zu vergeben.</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">609214-2023</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:Name languageID="DEU">Gemeinwirtschaftliche Busverkehrsleistungen - Vergabe Linienbündel Leimen und St. Leon-Rot/Sandhausen</cbc:Name>
+      <cbc:Description languageID="DEU">Der Rhein-Neckar-Kreis sowie die Stadt Heidelberg beabsichtigen als ÖPNV Aufgabenträger und zuständige Behörden im Sinne der Verordnung 1370/2007 gem. Art. 5 Abs. 1 VO 1370/07 i. V. m. dem 4. Teil des GWB zum 13.12.2025 für die VRN-Linienbündel St. Leon-Rot/Sandhausen und Leimen einen öffentlichen Dienstleistungsauftrag im Sinne der Verordnung 1370/2007 mit einer voraussichtlichen Laufzeit bis zum Fahrplanwechsel im Dezember 2035 zu vergeben. Sie bedienen sich des Zweckverband Verkehrsverbund Rhein-Neckar KöR, vertreten durch die Verkehrsverbund Rhein-Neckar GmbH- beide B1 3-5, 68159 Mannheim - als gemeinsamer Vergabestelle.
+
+Folgende Regelungen zur Tariftreue und Sozialstandards sind zur Sicherung der Betriebsqualität Teil der ausreichenden Verkehrsbedienung: Aufgrund der Arbeitsmarktsituation in der Metropolregion Rhein-Neckar wird der künftige Betreiber verpflichtet, seinen Beschäftigten zur Sicherung einer ausreichenden Qualifikation des Fahrpersonals bei der Ausführung der Leistung mindestens gemäß LTMG entsprechend der repräsentativ erklärten Tarifverträgen festgelegte Entgelt zu zahlen sowie die in diesen Tarifverträgen festgelegten Arbeitsbedingungen zu garantieren. Weitere Vorgaben finden Sie unter https://www.landesrecht-bw.de/jportal/portal/page/bsbawueprod.psml/action/portlets.jw.MainAction?
+eventSubmit_doNavigate=searchInSubtreeTOC&amp;showdoccase=1&amp;doc.id=jlr-Tarift_MindLohnGBWpP8. 
+Diese Verpflichtung gilt für die gesamte Laufzeit des neuen Vertragszeitraumes dynamisch, also stets mit Bezug auf die jeweils noch erfolgenden Anpassungen der Tarifverträge in der Zukunft. Erfolgt der Einsatz von Subunternehmern, haben diese ebenfalls die Einhaltung dieser Verpflichtungen zu garantieren. Zusätzlich zu den tarifvertraglich zu garantierenden Sozialstandards gelten für alle eingesetzten Fahrerinnen und Fahrer folgende Bedingungen zu Lenkzeitunterbrechungen und Pausen: Tarifvertraglich nicht als Arbeitszeit geltende Lenkzeitunterbrechungen und Pausen dürfen je Schicht maximal 60 Minuten betragen. Überschreiten die Lenkzeitunterbrechungen und Pausen diese Grenze, sind die 60-Minuten-Grenze überschreitenden Zeiten der Arbeitsunterbrechungen der Arbeitszeit zuzurechnen. Als echte, nicht zu vergütende Freizeit im Sinne eines geteilten Dienstes zählt eine einmalige Arbeitsunterbrechung je Schicht von mind. 2 Std, die am Wohnort (Stadtteil) des Mitarbeiters oder an einem Betriebsstandort mit adäquaten Sozialräumen beginnen und enden. 
+Die Vorhaltung von Sozialräumen ist in diesem Zusammenhang nicht relevant, sofern die Arbeitsunterbrechung länger als 4 Std dauert.
+
+Folgende Regelungen zur Personalübernahme sind ebenfalls zur Sicherung der Betriebsqualität Teil der ausreichenden Verkehrsbedienung: Die Bieter verpflichten sich im Rahmen ihres Angebotes, denjenigen Fahrer/innen einen Arbeitsvertrag anzubieten, die während der Vergabe im Betrieb des Altbetreibers des Linienbündels mindestens mit 70 % der regulären Arbeitszeit eingesetzt sind und die zum Zeitpunkt der 
+Inbetriebnahme einen gültigen Arbeitsvertrag mit dem Altbetreiber vorweisen können. Der neue Arbeitsvertrag ist unbefristet und ohne Probezeit abzuschließen. Grundlage des Einstellungsangebotes müssen die im Unternehmen des Konzessionsnehmers für die übrige Belegschaft geltenden tarifvertraglichen und in Betriebsvereinbarungen geregelten Konditionen sein. Sofern der im übernehmenden Unternehmen 
+praktizierte Tarifvertrag die Höhe des Entgeltes sowie die Zahl der Urlaubstage von der Dauer der Betriebszugehörigkeit abhängig gestaltet, muss der neue Anstellungsvertrag vorsehen, dass die Betriebszugehörigkeit beim Altbetreiber im Rahmen der entgeltlichen Eingruppierung und Urlaubsgewährung wie eine Betriebszugehörigkeit im übernehmenden Unternehmen gewertet wird.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">60112000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="DEU">Durchführung von ÖPNV im Rahmen des Linienbündels Leimen und St. Leon-Rot/Sandhausen.</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE128</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="DEU">Durchführung von ÖPNV im Rahmen des Linienbündels Leimen und St. Leon-Rot/Sandhausen.</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE125</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">true</efbc:ApplicableLegalBasis>
+                        <efac:StrategicProcurementInformation>
+                           <efbc:ProcurementCategoryCode listName="cvd-contract-type">pass-tran-serv</efbc:ProcurementCategoryCode>
+                        </efac:StrategicProcurementInformation>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>71</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis- und Qualitätswertung</cbc:Name>
+                  <cbc:Description languageID="DEU">Den Zuschlag erhält das wirtschaftlichste Angebot aufgrund der in Ziff. 23 der Angebotsbedingungen genannten Kriterien. Die Wertung erfolgt anhand eines Punktesystems.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>29</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis- und Qualitätswertung</cbc:Name>
+                  <cbc:Description languageID="DEU">Den Bietern steht es frei, Mehrqualitäten anzubieten, die über die Anforderungen der Leistungsbeschreibung hinausgehen. Beispiel
+für solche vom Bieter über die Anforderungen der Leistungsbeschreibung hinausgehende Mehrqualitäten können z.B. bessere Qualitätsmaßstäbe bei Fahrzeugen oder qualitativ bessere Vertriebsstrukturen sein (s. Angebotsbedingungen Ziff. 23.3). Zu den Punkten aus der Preiswertung
+werden die Punkte aus der Qualitätswertung hinzuaddiert.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">§ 160 GWB (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit 1.der Antragsteller den geltend gemachten Verstoß
+gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2.Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3.Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4.mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt. § 161 GWB (1) Der Antrag ist schriftlich bei der Vergabekammer einzureichen und unverzüglich zu begründen. Er soll ein
+bestimmtes Begehren enthalten. Ein Antragsteller ohne Wohnsitz oder gewöhnlichen Aufenthalt, Sitz oder Geschäftsleitung im Geltungsbereich dieses Gesetzes hat einen Empfangsbevollmächtigten im Geltungsbereich dieses Gesetzes zu benennen. (2) Die Begründung muss die Bezeichnung des Antragsgegners, eine Beschreibung der behaupteten Rechtsverletzung mit Sachverhaltsdarstellung und die Bezeichnung der verfügbaren Beweismittel enthalten sowie darlegen, dass die Rüge gegenüber dem Auftraggeber erfolgt ist; sie soll, soweit bekannt, die sonstigen Beteiligten benennen.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:NoticeDocumentReference>
+            <cbc:ID>609214-2023</cbc:ID>
+         </cac:NoticeDocumentReference>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">E93976648 - Los 1</cbc:ID>
+         <cbc:Name languageID="DEU">Linienverkehr gemäß § 42 PBefG Los 1 Leimen</cbc:Name>
+         <cbc:Description languageID="DEU">Linie 723	Leimen-Nußloch-Wiesloch
+Linie 724	Schnellbus: Wiesloch-Nußloch-Heidelberg
+Linie 726	Schulverkehr: Leimen-St.Ilgen-Sandhausen
+Linie 749	Leimen-Nußloch-Walldorf-Wiesloch-Walldorf Bhf
+Linie 751	Citybus Leimen: Leimen-St.Ilgen Bf-Fasanerie-Leimen
+Linie 757	Heidelberg-Leimen-Gaiberg-Schatthausen
+Linie 758	Citybus Leimen: Leimen-Gewerbegebiet Nord-Fasanerie-Sandhausen
+Linie 759	St. Ilgen-Nußloch-Sandhausen-St. Ilgen</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:EstimatedOverallContractQuantity unitCode="KTM">908000</cbc:EstimatedOverallContractQuantity>
+         <cbc:Note languageID="DEU">Die Satzung über einen einheitlichen Verbundtarif im Verkehrsverbund Rhein-Neckar (Allgemeine Vorschrift) finden Sie unter:https://www.vrn.de/mam/verbund/dokumente/satzungen/2023-satzung_verbundtarif_konsolidierte_fassung_gueltig_ab_1.5.2023.pdf
+Der Konzessionsnehmer ist verpflichtet, die Bestimmungen des Tariftreuegesetzes Baden-Württemberg sowohl im Hinblick auf die Einhaltung des ortsüblichen Tarifes als auch im  Hinblick auf die Einhaltung des Mindestlohnes zu erfüllen und dies durch Einreichen der Anlage D separat zu bestätigen. Dies umfasst auch das Personal von Unterauftragnehmern. Weitere Informationen finden Sie auf der Internetseite des Landes Baden-Württemberg unter https://www.landesrecht-bw.de/bsbw/document/jlr-Tarift_MindLohnGBWrahmen. 
+
+Diese Verpflichtung gilt für die gesamte Laufzeit des  neuen Konzessionszeitraumes dynamisch, also stets mit Bezug auf die jeweils noch erfolgenden Anpassungen der Tarifverträge in der Zukunft. Die Einhaltung der Bestimmungen des Tariftreuegesetzes Baden-Württemberg (LTMG) umfasst auch das Personal von Subunternehmern. Detaillierte Vorgaben sind dem Kapitel 7.2 und 7.3 der Leistungsbeschreibung zu entnehmen.
+Kommunikation: Die Auftragsunterlagen stehen für einen uneingeschränkten und vollständigen direkten Zugang gebührenfrei zur Verfügung unter: www.vrn.de/vergabestelle. Die Vergabestelle stellt die (ggf. fortgeschriebenen) Vergabeunterlagen sowie die Bieterinformationen über ihre Vergabeplattform im Internet (vgl. Internetadresse in der Auftragsbekanntmachung) gemäß § 41 Absatz 1 VgV unentgeltlich, uneingeschränkt, vollständig und direkt zum Abruf zur Verfügung, ohne dass eine vorherige Registrierung erforderlich ist. Aus der Möglichkeit des registrierungsfreien Unterlagenabrufs resultiert daher die Pflicht zur selbständigen, eigenverantwortlichen Information über etwaige Änderungen der Vergabeunterlagen oder die Bereitstellung zusätzlicher Informationen. Eine automatische Benachrichtigung über Änderungen erfolgt nur an registrierte Bieter. Fragen, Hinweise und Rügen zu den Vergabeunterlagen können nur von Bietern gestellt werden, die gemäß den Rechtsvorschriften ihres Mitgliedstaats, in dem sie niedergelassen sind, zur Erbringung der ausgeschriebenen Leistung berechtigt sind. (vgl. § 9 Absatz 3 VgV i. V. m. Artikel 19 Absatz 1 der Richtlinie 2014/24/EU vom 26.2.2014). Der Bieter hat sich deshalb auf der Vergabeplattform unter der Internetadresse https://vergaben.vrn.de/anmeldung.html mit einer eindeutigen Unternehmensbezeichnung, Anschrift und aktiver E-Mail-Adresse zu registrieren. Im Anschluss informiert die Vergabestelle den registrierten Bieter automatisch über Änderungen an den Vergabeunterlagen und Veröffentlichung von Bieterinformationen über das interne Bieterkommunikationssystem der
+Vergabeplattform, das eine Benachrichtigungsfunktion per E-Mail beinhaltet. 
+Nicht registrierte Bieter können Fragen zu den Vergabeunterlagen ausschließlich per E-Mail unter Benennung des Linienbündels an folgende Adresse zu richten: vergabestelle@vrn.de.</cbc:Note>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60112000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60140000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="DEU">Durchführung von ÖPNV im Rahmen des Linienbündels Leimen</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE128</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="DEU">Durchführung von ÖPNV im Rahmen des Linienbündels Leimen</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE125</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-12-14+01:00</cbc:StartDate>
+            <cbc:EndDate>2035-12-08+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">true</efbc:ApplicableLegalBasis>
+                        <efac:StrategicProcurementInformation>
+                           <efbc:ProcurementCategoryCode listName="cvd-contract-type">pass-tran-serv</efbc:ProcurementCategoryCode>
+                        </efac:StrategicProcurementInformation>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>71</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis- und Qualitätswertung</cbc:Name>
+                  <cbc:Description languageID="DEU">Den Zuschlag erhält das wirtschaftlichste Angebot aufgrund der in Ziff. 23 der Angebotsbedingungen genannten Kriterien. Die Wertung erfolgt anhand eines Punktesystems.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>29</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis- und Qualitätswertung</cbc:Name>
+                  <cbc:Description languageID="DEU">Den Bietern steht es frei, Mehrqualitäten anzubieten, die über die Anforderungen der Leistungsbeschreibung hinausgehen. Beispiel
+für solche vom Bieter über die Anforderungen der Leistungsbeschreibung hinausgehende Mehrqualitäten können z.B. bessere Qualitätsmaßstäbe bei Fahrzeugen oder qualitativ bessere Vertriebsstrukturen sein (s. Angebotsbedingungen Ziff. 23.3). Zu den Punkten aus der Preiswertung
+werden die Punkte aus der Qualitätswertung hinzuaddiert.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">§ 160 GWB (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit 1.der Antragsteller den geltend gemachten Verstoß
+gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2.Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3.Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4.mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt. § 161 GWB (1) Der Antrag ist schriftlich bei der Vergabekammer einzureichen und unverzüglich zu begründen. Er soll ein
+bestimmtes Begehren enthalten. Ein Antragsteller ohne Wohnsitz oder gewöhnlichen Aufenthalt, Sitz oder Geschäftsleitung im Geltungsbereich dieses Gesetzes hat einen Empfangsbevollmächtigten im Geltungsbereich dieses Gesetzes zu benennen. (2) Die Begründung muss die Bezeichnung des Antragsgegners, eine Beschreibung der behaupteten Rechtsverletzung mit Sachverhaltsdarstellung und die Bezeichnung der verfügbaren Beweismittel enthalten sowie darlegen, dass die Rüge gegenüber dem Auftraggeber erfolgt ist; sie soll, soweit bekannt, die sonstigen Beteiligten benennen.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:NoticeDocumentReference>
+            <cbc:ID>609214-2023</cbc:ID>
+         </cac:NoticeDocumentReference>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">E93976648 - Los 2</cbc:ID>
+         <cbc:Name languageID="DEU">Linienverkehr gemäß § 42 PBefG Los 2 St. Leon-Rot-Sandhausen</cbc:Name>
+         <cbc:Description languageID="DEU">Linie 719	Neulußheim-St.Leon-Rot-Rot-Malsch Bf
+Linie 720	Heidelberg-Sandhausen-Walldorf-St.Leon-Rot
+Linie 721	HD-Neuenheim-Sandhausen-Walldorf-Wiesloch-Walldorf Bf
+Linie 722	HD-Kirchheim-Sandhausen-HD Kirchheim
+Linie 725	Ortsbus Sandhausen: St.Ilgen-Bf-Rathaus-Schillerstraße-Lebenshilfe-Rathaus-St.Ilgen-Bf</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:EstimatedOverallContractQuantity unitCode="KTM">1322000</cbc:EstimatedOverallContractQuantity>
+         <cbc:Note languageID="DEU">Die Satzung über einen einheitlichen Verbundtarif im Verkehrsverbund Rhein-Neckar (Allgemeine Vorschrift) finden Sie unter:https://www.vrn.de/mam/verbund/dokumente/satzungen/2023-satzung_verbundtarif_konsolidierte_fassung_gueltig_ab_1.5.2023.pdf
+Der Konzessionsnehmer ist verpflichtet, die Bestimmungen des Tariftreuegesetzes Baden-Württemberg sowohl im Hinblick auf die Einhaltung des ortsüblichen Tarifes als auch im  Hinblick auf die Einhaltung des Mindestlohnes zu erfüllen und dies durch Einreichen der Anlage D separat zu bestätigen. Dies umfasst auch das Personal von Unterauftragnehmern. Weitere Informationen finden Sie auf der Internetseite des Landes Baden-Württemberg unter https://www.landesrecht-bw.de/bsbw/document/jlr-Tarift_MindLohnGBWrahmen. 
+
+Diese Verpflichtung gilt für die gesamte Laufzeit des  neuen Konzessionszeitraumes dynamisch, also stets mit Bezug auf die jeweils noch erfolgenden Anpassungen der Tarifverträge in der Zukunft. Die Einhaltung der Bestimmungen des Tariftreuegesetzes Baden-Württemberg (LTMG) umfasst auch das Personal von Subunternehmern. Detaillierte Vorgaben sind dem Kapitel 7.2 und 7.3 der Leistungsbeschreibung zu entnehmen.
+Kommunikation: Die Auftragsunterlagen stehen für einen uneingeschränkten und vollständigen direkten Zugang gebührenfrei zur Verfügung unter: www.vrn.de/vergabestelle. Die Vergabestelle stellt die (ggf. fortgeschriebenen) Vergabeunterlagen sowie die Bieterinformationen über ihre Vergabeplattform im Internet (vgl. Internetadresse in der Auftragsbekanntmachung) gemäß § 41 Absatz 1 VgV unentgeltlich, uneingeschränkt, vollständig und direkt zum Abruf zur Verfügung, ohne dass eine vorherige Registrierung erforderlich ist. Aus der Möglichkeit des registrierungsfreien Unterlagenabrufs resultiert daher die Pflicht zur selbständigen, eigenverantwortlichen Information über etwaige Änderungen der Vergabeunterlagen oder die Bereitstellung zusätzlicher Informationen. Eine automatische Benachrichtigung über Änderungen erfolgt nur an registrierte Bieter. Fragen, Hinweise und Rügen zu den Vergabeunterlagen können nur von Bietern gestellt werden, die gemäß den Rechtsvorschriften ihres Mitgliedstaats, in dem sie niedergelassen sind, zur Erbringung der ausgeschriebenen Leistung berechtigt sind. (vgl. § 9 Absatz 3 VgV i. V. m. Artikel 19 Absatz 1 der Richtlinie 2014/24/EU vom 26.2.2014). Der Bieter hat sich deshalb auf der Vergabeplattform unter der Internetadresse https://vergaben.vrn.de/anmeldung.html mit einer eindeutigen Unternehmensbezeichnung, Anschrift und aktiver E-Mail-Adresse zu registrieren. Im Anschluss informiert die Vergabestelle den registrierten Bieter automatisch über Änderungen an den Vergabeunterlagen und Veröffentlichung von Bieterinformationen über das interne Bieterkommunikationssystem der
+Vergabeplattform, das eine Benachrichtigungsfunktion per E-Mail beinhaltet. 
+Nicht registrierte Bieter können Fragen zu den Vergabeunterlagen ausschließlich per E-Mail unter Benennung des Linienbündels an folgende Adresse zu richten: vergabestelle@vrn.de.</cbc:Note>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60112000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="DEU">Durchführung von ÖPNV im Rahmen des Linienbündels Leimen und St. Leon-Rot/Sandhausen</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE128</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="DEU">Durchführung von ÖPNV im Rahmen des Linienbündels Leimen und St. Leon-Rot/Sandhausen</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE125</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-12-14+01:00</cbc:StartDate>
+            <cbc:EndDate>2035-12-08+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-02-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

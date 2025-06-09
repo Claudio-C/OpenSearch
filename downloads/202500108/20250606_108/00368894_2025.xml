@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">862876.84</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">862876.84</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>23/24-01-02</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-02-26+01:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>23/24-01</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>BERDI Planung GmbH</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.bitburgerland.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Verbandsgemeindeverwaltung Bitburger Land</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Hubert-Prim-Str. 7</cbc:StreetName>
+                           <cbc:CityName>Bitburg</cbc:CityName>
+                           <cbc:PostalZone>54634</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEB23</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 297 514 952</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6561 66-0</cbc:Telephone>
+                           <cbc:ElectronicMail>info@bitburgerland.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.webeler-rechtsanwaelte.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Webeler Rechtsanwälte</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Löhrstraße 99</cbc:StreetName>
+                           <cbc:CityName>Koblenz</cbc:CityName>
+                           <cbc:PostalZone>56068</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEB11</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE203132968</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 261 98866220</cbc:Telephone>
+                           <cbc:ElectronicMail>t.frank@webeler-rechtsanwaelte.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer Rheinland-Pfalz Ministerium für Wirtschaft, Verkehr, Landwirtschaft und Weinbau</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Stiftstraße 9</cbc:StreetName>
+                           <cbc:CityName>Mainz</cbc:CityName>
+                           <cbc:PostalZone>55116</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEB35</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE355604198</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6131 16-2234</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer.rlp@mwvlw.rlp.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">BERDI Planung GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Bernkastel-Kues</cbc:CityName>
+                           <cbc:PostalZone>54470</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEB22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 359824339</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>j.berdi@berdi-architekten.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368894-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">d8844a9b-d9c5-4d1c-83ab-bd58a9b7871c</cbc:ID>
+   <cbc:ContractFolderID>bfee02b0-4e2d-440c-bebf-6a12e7d34463</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>13:57:23+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:Name languageID="DEU">Neubau einer Kindertagesstätte mit 10 Gruppen in Wolsfeld</cbc:Name>
+      <cbc:Description languageID="DEU">Die Ortsgemeinde Wolsfeld beabsichtigt eine 10-gruppige Kindertagesstätte zu errichten. Gegenstand des Vergabeverfahrens ist die Erbringung der dafür erforderlichen Planungs- und Bauüberwachungsleistungen. Vorgesehen für das Vorhaben sind die in beigefügtem Bebauungsplan markierten Grundstücke für den Parkplatz- und das Gebäude.
+Die Grundstücke liegen auf der Gemarkung Wolsfeld am Ortsausgang von Wolsfeld an der Europastraße.
+
+Das Gebäude der Kindertagesstätte soll eine Gesamtnutzfläche von ca. 2.000 qm inkl. Verkehrsflächen und Flächen für technische Ausrüstung haben. Das Raumprogramm ist vorhanden und ist Bestandteil der Vergabeunterlagen. Die Empfehlungen zum Raumprogramm in Kindertageseinrichtungen des Eifelkreises Bitburg-Prüm vom   Oktober 2021 sind umzusetzen und die Orientierungshilfe „Raumkonzepte für Kindertagesstätten“ des Landesjugendamtes RLP ist bei der Planungshilfe zu beachten. Die Planung muss fortlaufend mit dem Landesjugendamt abgestimmt werden.
+
+Die Kita die barrierefrei und eingeschossig zu gestalten.
+
+Im Rahmen der Objektplanung umfasst die ausgeschriebene Leistung die Planung der Erweiterungsmöglichkeiten. Als verbindlich ist die Holzständerbauweise festgelegt. Bestandteil der Leistungsphase 2 auch die 3D-Visualisierung.
+
+Im Rahmen der Freianlagenplanung soll auf dem Grundstück ein Kindergarten-spielplatz/Erlebnisspielplatz entstehen. Dieser soll eine kindgerechte Nutzung sowie eine wenig personalintensive Aufsicht erlauben. Es sind zudem ausreichend Langzeitparkplätze für Personal sowie für Kurzzeitparker (Eltern) einzuplanen. Eine entsprechende Fläche ist im B- Plan bereits vorgesehen. 
+
+Im Rahmen der Planung der technischen Ausrüstung erfolgt die Ausschreibung einer Eigenstromanlage
+(PV-Anlage) bzw. eines Wärmeerzeugers, Wärmepumpen im Zusammenhang mit einer FB-Heizung.
+
+Im Rahmen der Planung der technischen Ausrüstung Elektro sind Anschlüsse in ausreichender Anzahl für E-Mobilität zu planen. Zudem ist in allen Gruppenräumen die Installation eines Telefonanschlusses und eines Türöffners samt Bildschirmübertragung zu planen.
+
+Die Vergabe umfasst (über die übliche Kita-Ausgabeküche hinaus) die Planung einer Frischkochküche. Zudem sollen neutrale Küchenzeilen für Kinder geplant werden, welche sowohl die Nutzung durch alle Kita-Gruppen gestatten als auch zum Kuchenverkauf genutzt werden können (pädagogische Küche).
+
+Die Baukosten (netto)für die Sanierung werden erwartet: 
+
+KG 200 - Vorbreitende Maßnahme - 280.000	€ 
+KG 300 - Bauwerk - Baukonstruktion - 7.250.000 €	 
+KG 400 - Bauwerk – Technische Anlagen - 2.620 000 €	 
+KG 410 - Abwasser-, Wasser-, Gasanlagen - 510.000 €
+KG 420 - Wärmeversorgungsanlagen - 500.000 €
+KG 430 - Raumlufttechnische Anlagen - 250.000 €
+KG 440 - Elektrische Anlagen, u.a. Blitzschutz - 775.000 €
+KG 450 - Kommunikationsanlagen - 100.000 €
+KG 460 - Förderanlagen - 30.000 €
+KG 470 - Nutzungsspezifische Anlage (Küche) - 250.000 €
+KG 480 - Gebäude - und Anlageautomation - 45.000 €
+KG 490 - Sonstige Maßnahmen -160.000 €
+KG 500 - Außenanlagen und Freiflächen - 1.110.000 €	
+KG 600 - Einrichtungen - 500.000 €	
+				
+
+Eine stufenweise Beauftragung ist vorgesehen. Es sollen zunächst die Leistungsphasen 1-4, also bis zur Genehmigungsplanung beauftragt werden und anschließend die Leistungsphasen 5-9 bzw. hinsichtlich der Tragwerksplanung der Leistungsphasen 5 und 6. Auf eine Weiterbeauftragung besteht kein Rechtsanspruch.
+  
+Die Leistungen werden losweise ausgeschrieben wie folgt: 
+
+Los 1 – Objektplanungsleistungen für Gebäude nach § 34 HOAI, LP 1-9 
+Los 2 – Planungsleistungen für Freianlagen nach § 39 HOAI, LP 1-9 
+Los 3 – Planungsleistungen der Technischen Ausrüstung HLS und Elektro nach § 55 HOAI
+Los 4 – Planungsleistungen der Tragwerksplanung, LP 1-6 nach § 51 HOAI
+
+Leistungszeit: 
+
+Die förderfähigen Planungsunterlagen müssen bis spätestens zum 30.06.2025 fertiggestellt sein. Das bedeutet, dass auch die hierfür erforderlichen Abstimmungen mit dem Auftraggeber bis zum 30.06.2025 abgeschlossen sein müssen. Der Förderantrag muss bis zum 15.07.2025 gestellt werden.
+Geplanter Baubeginn spätestens 1. Quartal 2026
+Geplante Inbetriebnahme 2027
+
+Das Vorhaben wird aus öffentlichen Mitteln gefördert. Die Einhaltung der Fördervoraussetzungen ist zu jeder Zeit zu gewährleisten. 
+
+Bezüglich der Beschreibung der Leistung orientiert sich die Auftraggeberin an den Leistungsbildern der HOAI 2021. Näheres regelt der Vertrag.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DEB23</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis der Leistung</cbc:Name>
+                  <cbc:Description languageID="DEU">Das Angebot mit dem wirtschaftlich günstigsten Preis erhält 10 Punkte. Ein Angebot mit einem doppelt so hohen Preis erhält 0 Punkte. Dazwischen wird interpoliert. In die Wertung der Angebote fließen die Zeithonorare für den Bereich der Objektplanung mit folgenden, geschätzten Zeitansätzen ein:
+
+•	20 Stunden Geschäftsführer
+•	40 Stunden Architekt/Ingenieur
+•	20 Stunden Zeichner/Schreibkraft</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>15</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Herangehensweise an die Aufgabenstellung - Gestaltungsidee unter Beachtung der Festsetzung des Geltenden Bebauungsplans in der aktuellen Fassung</cbc:Name>
+                  <cbc:Description languageID="DEU">Hinsichtlich des Wertungskriteriums „Gestaltungsidee unter Beachtung der Festsetzung des Geltenden Bebauungsplans in der aktuellen Fassung“ bekommt ein Angebot 0-3 Punkte, bei dem der Neubau die Festsetzungen des Bebauungsplans nicht berücksichtigt; 4-6 Punkte bekommt ein Angebot, bei dem der Neubau die Festsetzungen des Bebauungsplans berücksichtigt; 7-10 Punkte bekommt ein Angebot, bei dem im Rahmen der Gestaltung darüber hinaus ein architektonischer Akzent gesetzt wird.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>15</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Herangehensweise an die Aufgabenstellung - Gestaltungsidee für die optimale Platzierung des Gebäudes auf dem Grundstück</cbc:Name>
+                  <cbc:Description languageID="DEU">Hinsichtlich des Wertungskriteriums „Gestaltungsidee für die optimale Platzierung des Gebäudes auf dem Grundstück“ bekommt ein Angebot 0-3 Punkte, bei dem die Platzierung des Gebäudes hinsichtlich des Verhältnisses zwischen dem Gebäude und der Freianlage den funktionalen Anforderungen an eine Kita nicht entspricht. 4-6 Punkte bekommt ein Angebot, die Platzierung des Gebäudes hinsichtlich des Verhältnisses zwischen dem Gebäude und der Freianlage den funktionalen Anforderungen an eine Kita entspricht. 7-10 Punkte erhält ein Angebot, bei dem die Andienung der Kita, die verkehrstechnische Erschließung konfliktfrei zu den Spiel- und Freiflächen, die den Kindern zugänglich sind, untergebracht sind.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>15</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualitäts-, Termin- und Kostensicherung im Rahmen der Planung und während der Bauphase</cbc:Name>
+                  <cbc:Description languageID="DEU">Hinsichtlich des Wertungskriteriums „Qualitäts-, Termin- und Kostensicherung sowie Herangehensweise an die Projektorganisation“ erhält ein Angebot 0-3 Punkte, bei dem auf ein Qualitätsmanagement kein oder nur wenig Wert gelegt wird und nicht zu erwarten ist, dass die Planung termingerecht, kostengerecht und Qualität gesichert erfolgt, und zwar nicht nur die eigene des Bieters, sondern auch diejenige der Fachplaner. Eine Beurteilung von 4-6 Punkten erhält ein Angebot, bei dem ein Qualitätsmanagement durch eine systematische Abarbeitung des Grundleistungskataloges der Leistungsphasen der HOAI erfolgt und das erwarten lässt, dass die Leistung termingerecht, kostengerecht und Qualität gesichert erbracht wird.  7-10 Punkte erhält ein Angebot, bei dem der Abstimmungs- und Koordinationsprozess mit den übrigen, an der Planung fachlich Beteiligten so organisiert wird, dass die Projektziele sichergestellt werden und eine spürbare Entlastung für den Bauherrn zu erwarten ist, weil die Leistungen so erbracht werden, als würden sie sowohl im Rahmen der Planung, als auch im Rahmen der Bauausführung sowie auch im Rahmen der Projektdokumentation „aus einer Hand“ erbracht.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Intensität der Bauüberwachung und Baubetreuung</cbc:Name>
+                  <cbc:Description languageID="DEU">Hinsichtlich des Wertungskriterium “ Intensität der Bauüberwachung und Baubetreuung“ erhält ein Angebot 0-3 Punkte, das nur eine sporadische Präsenz der Bauleitung vorsieht oder erwarten lässt. 4-6 Punkte erhält ein Angebot, das eine regelmäßige deutliche Anwesenheit der Bauleitung erwarten lässt, die eine mindestens mehr als stichpunktartige Kontrolle vorsieht. 7-10 Punkte erhält ein Angebot, das eine durchgehende Anwesenheit der Bauleitung verspricht.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Akzeptanz des Vertrages hinsichtlich nicht preislicher Bedingungen</cbc:Name>
+                  <cbc:Description languageID="DEU">Hinsichtlich des Wertungskriteriums „Akzeptanz des Vertrages hinsichtlich der nicht preislichen Bedingungen“ erhält ein Angebot 0-3 Punkte, das zu einer sehr ungünstigen Risikoverteilung zulasten des Auftraggebers führt, zum Beispiel durch die Vereinbarung von haftungsbeschränkenden Vereinbarungen, der Verkürzung der Verjährungsfristen für Mängelansprüche oder eine Reduzierung der Leistungspflichten. 4-6 Punkte erhält ein Angebot, das zu einer ungünstigen Risikoverteilung zulasten des Auftraggebers führt, beispielsweise durch die Verkürzung der Verjährungsfristen für Mängelansprüche. 7 Punkte enthält ein Angebot, das keine wesentlichen oder gar keine Abweichungen vom vorgeschlagenen Vertragsmuster regelt. 8-10 Punkte erhält ein Angebot, das Verbesserungsvorschläge zu Gunsten des Auftraggebers beinhaltet, u.a. eine für den Auftraggeber günstigere Risikoverteilung vorsieht, als der vorgeschlagene Vertragsentwurf.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Von Bietern erkannte Verstöße der vergebenden Stelle gegen das geltende Vergaberecht hat der Bieter bei der vergebenden Stelle spätestens innerhalb von 10 Kalendertagen zu rügen. Erklärt die vergebende Stelle, dass sie einer Rüge nicht abhelfen will, hat der Bieter binnen einer Frist von 15 Tagen einen Nachprüfungsantrag bei der Vergabekammer Rheinland-Pfalz Ministerium für Wirtschaft, Verkehr, Landwirtschaft und Weinbau, Stiftstraße 9, 55116 Mainz zu stellen.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">LOT-0001 23/24</cbc:ID>
+         <cbc:Name languageID="DEU">Neubau einer Kindertagesstätte mit 10 Gruppen in Wolsfeld</cbc:Name>
+         <cbc:Description languageID="DEU">Die Ortsgemeinde Wolsfeld beabsichtigt eine 10-gruppige Kindertagesstätte zu errichten. Gegenstand des Vergabeverfahrens ist die Erbringung der dafür erforderlichen Planungs- und Bauüberwachungsleistungen. Vorgesehen für das Vorhaben sind die in beigefügtem Bebauungsplan markierten Grundstücke für den Parkplatz- und das Gebäude.
+Die Grundstücke liegen auf der Gemarkung Wolsfeld am Ortsausgang von Wolsfeld an der Europastraße.
+
+Das Gebäude der Kindertagesstätte soll eine Gesamtnutzfläche von ca. 2.000 qm inkl. Verkehrsflächen und Flächen für technische Ausrüstung haben. Das Raumprogramm ist vorhanden und ist Bestandteil der Vergabeunterlagen. Die Empfehlungen zum Raumprogramm in Kindertageseinrichtungen des Eifelkreises Bitburg-Prüm vom   Oktober 2021 sind umzusetzen und die Orientierungshilfe „Raumkonzepte für Kindertagesstätten“ des Landesjugendamtes RLP ist bei der Planungshilfe zu beachten. Die Planung muss fortlaufend mit dem Landesjugendamt abgestimmt werden.
+
+Die Kita die barrierefrei und eingeschossig zu gestalten.
+
+Im Rahmen der Objektplanung umfasst die ausgeschriebene Leistung die Planung der Erweiterungsmöglichkeiten. Als verbindlich ist die Holzständerbauweise festgelegt. Bestandteil der Leistungsphase 2 auch die 3D-Visualisierung.
+
+Die Vergabe umfasst (über die übliche Kita-Ausgabeküche hinaus) die Planung einer Frischkochküche. Zudem sollen neutrale Küchenzeilen für Kinder geplant werden, welche sowohl die Nutzung durch alle Kita-Gruppen gestatten als auch zum Kuchenverkauf genutzt werden können (pädagogische Küche).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEB23</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-03-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2031-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-02-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

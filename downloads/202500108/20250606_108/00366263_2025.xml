@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.prorail.nl/leveranciers/aanbesteden-en-inkoop</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">ProRail B.V.</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Moreelsepark 3</cbc:StreetName>
+                                    <cbc:CityName>Utrecht</cbc:CityName>
+                                    <cbc:PostalZone>3511 EP</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL350</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>381962604</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Kimberley van der Lit</cbc:Name>
+                                    <cbc:Telephone>+31 643274830</cbc:Telephone>
+                                    <cbc:ElectronicMail>aanbestedingen@prorail.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>http://www.rechtspraak.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Midden-Nederland</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postbus 16005 </cbc:StreetName>
+                                    <cbc:CityName>Utrecht</cbc:CityName>
+                                    <cbc:PostalZone>3500 DA</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL350</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:Name>Rechtbank Midden-Nederland</cbc:Name>
+                                    <cbc:Telephone>+31 883620000</cbc:Telephone>
+                                    <cbc:ElectronicMail>Civiel.RB-MNL.utrecht@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366263-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">fee84504-d3ef-4c5e-a292-9a7ce602af29</cbc:ID>
+    <cbc:ContractFolderID>fec2c615-c88f-4173-b7fc-dac268f56868</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>09:05:45.661448115+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">spec-rights-entity</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="entity-activity">rail</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode languageID="NLD" listName="exclusion-grounds-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="NLD">Landelijk - Monitoring Baanstabiliteit 14 locaties op 3 PHS corridors (C-MLT002)</cbc:Name>
+        <cbc:Description languageID="NLD">Het doel van dit project (C-MLT002) is het zo spoedig mogelijk realiseren van een succesvolle monitoring van de baanstabiliteit in drie PHS-corridors, namelijk Schiphol-Amsterdam-Almere-Lelystad (SAAL), (2) Tilburg-Meteren-Boxtel, en (3) Alkmaar-Amsterdam (AA) ten behoeve van het project C-MLT002. Op basis van de monitoringsresultaten bepaalt AM Geotechniek in hoeverre het verhogen van de frequentie en/of snelheid van treinpassages invloed heeft op de stabiliteit van het baanlichaam . De klantvraag van dit project kan gedefinieerd worden als: “Bepalen in hoeverre het verhogen van de frequentie van as-passages of kritische treinsnelheid’ invloed heeft op de waterspanning in het baanlichaam”. 
+
+Dit vertaalt zich vervolgens in een onderzoeksmethode waarbij het verloop van de waterspanning als gevolg van belastingwisselingen door langspassages gedurende een periode dient te worden gemeten. 
+
+Zie de aanbestedingsstukken voor een uitgebreidere omschrijving. Zie aanbestedingsdossier</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">51200000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71700000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:Region>anyw-cou</cbc:Region>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+            <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+            <cac:RequiredFinancialGuarantee>
+                <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+            </cac:RequiredFinancialGuarantee>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>documentsId</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.tenderned.nl/aankondigingen/overzicht/381505</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:PaymentTerms>
+                <cbc:Note languageID="NLD">-</cbc:Note>
+            </cac:PaymentTerms>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode languageID="NLD" listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                <cbc:Description languageID="NLD">Geen</cbc:Description>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode languageID="NLD" listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Prijs</cbc:Name>
+                        <cbc:Description languageID="NLD">Het gunningscriterium is de beste prijs-kwaliteitverhouding. De inschrijving met de beste prijs-kwaliteitverhouding betreft de aanbieding met de laagste evaluatieprijs. De evaluatieprijs wordt als volgt berekend:
+
+Inschrijfsom : Euro …………………
+Duurzaamheid: CO2-prestatieladder: Euro …………………-
+-----------------------------------------------------------------------------
+Evaluatieprijs: : Euro …………………
+
+
+De korting op basis van de CO2-Prestatieladder wordt berekend op basis van de inschrijfsom.
+
+De inschrijfsom wordt ingediend op het inschrijvingsformulier en dient te worden onderbouwd in de begroting.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Duurzaamheid: CO2-prestatieladder</cbc:Name>
+                        <cbc:Description languageID="NLD">De voor een inschrijver vast te stellen kwaliteitswaarde voor het criterium CO2-Prestatieladder wordt berekend aan de hand van het door inschrijver op het inschrijvingsformulier aangegeven CO2-ambitieniveau. In onderstaande tabel staat per ambitieniveau (trede) het bijbehorende fictieve kortingspercentage aangegeven. De kwaliteitswaarde is het bedrag dat fictief in mindering wordt gebracht op de inschrijfsom en wordt berekend door het fictieve kortingspercentage te vermenigvuldigen met de inschrijfsom.
+
+Hoe hoger het aangeboden CO2-ambitieniveau van de inschrijver is, hoe hoger de kwaliteitswaarde (fictieve vermindering van de inschrijfsom).
+
+
+CO2-Prestatieladder
+ambitieniveau Fictieve kortingspecentage
+5 10%
+4 7%
+3 4%
+2 2%
+1 1%</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Kwaliteit: Risicomanagementplan</cbc:Name>
+                        <cbc:Description languageID="NLD">ProRail wenst dat het project zo beheerst mogelijk wordt uitgevoerd en dat risico’s die het bereiken van de ProRail- en projectdoelstellingen in gevaar brengen worden geminimaliseerd. Hiertoe wenst ProRail dat de inschrijver een bijdrage levert aan de beheersing van deze risico’s en de werkzaamheden beheerst uitvoert in de vorm van een
+Risicomanagementplan.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.tenderned.nl/aankondigingen/overzicht/381505</cbc:EndpointID>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:TenderRecipientParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>NLD</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+            <cac:SecurityClearanceTerm>
+                <cbc:Code listName="required">false</cbc:Code>
+            </cac:SecurityClearanceTerm>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:InvitationSubmissionPeriod>
+                <cbc:StartDate>2025-09-03+02:00</cbc:StartDate>
+            </cac:InvitationSubmissionPeriod>
+            <cac:ParticipationRequestReceptionPeriod>
+                <cbc:EndDate>2025-07-10+02:00</cbc:EndDate>
+                <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+            </cac:ParticipationRequestReceptionPeriod>
+            <cac:AdditionalInformationRequestPeriod>
+                <cbc:EndDate>2025-06-19+02:00</cbc:EndDate>
+                <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+            </cac:AdditionalInformationRequestPeriod>
+            <cac:EconomicOperatorShortList>
+                <cbc:LimitationDescription>false</cbc:LimitationDescription>
+                <cbc:MinimumQuantity>0</cbc:MinimumQuantity>
+            </cac:EconomicOperatorShortList>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Perceel 1 Monitoring Baanstabiliteit 14 locaties op 3 PHS corridors</cbc:Name>
+            <cbc:Description languageID="NLD">Zie aanbestedingsstukken Zie aanbestedingsstukken</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">51200000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">71700000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:Region>anyw-cou</cbc:Region>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">66</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:MaximumNumberNumeric>0.0</cbc:MaximumNumberNumeric>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ContractNotice>

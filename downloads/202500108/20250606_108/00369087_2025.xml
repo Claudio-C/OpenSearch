@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">1495900</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:HigherTenderAmount currencyID="PLN">1495900</cbc:HigherTenderAmount>
+                     <cbc:LowerTenderAmount currencyID="PLN">1495900</cbc:LowerTenderAmount>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">1495900</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>1</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-05-28+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="POL">Zakup ciężkiego samochodu pożarniczego z zabudową pożarniczą dla OSP w Rudnikach</cbc:Title>
+                     <efac:ContractReference>
+                        <cbc:ID>PRG.272.5.2025</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:Funding>
+                        <efbc:FinancingIdentifier>FEOP.02.03-IZ.00-0003/24</efbc:FinancingIdentifier>
+                     </efac:Funding>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>SZCZĘŚNIAK Pojazdy Specjalne Sp. z o. o.</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.rudniki.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://platformazakupowa.pl/pn/rudniki</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">GMINA RUDNIKI</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wojska Polskiego 12A</cbc:StreetName>
+                           <cbc:CityName>Rudniki</cbc:CityName>
+                           <cbc:PostalZone>46-325</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL524</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5761495213</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>34 399 94 13</cbc:Telephone>
+                           <cbc:ElectronicMail>przetargi@rudniki.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>22 458 78 01</cbc:Telephone>
+                           <cbc:Telefax>22 458 78 00</cbc:Telefax>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">SZCZĘŚNIAK Pojazdy Specjalne Sp. z o. o.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Bestwińska 105A</cbc:StreetName>
+                           <cbc:CityName>Bielsko-Biała</cbc:CityName>
+                           <cbc:PostalZone>43-346</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL225</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5472099801</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00369087-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">f8225b75-59fa-45bb-816a-86c6cd12ce6a</cbc:ID>
+   <cbc:ContractFolderID>44ff28cb-4b44-4731-9717-ed41d955ff8c</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>06:18:17Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://platformazakupowa.pl/pn/rudniki</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">253284-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">PRG.271.5.2025</cbc:ID>
+      <cbc:Name languageID="POL">Zakup ciężkiego samochodu pożarniczego z zabudową pożarniczą dla OSP w Rudnikach</cbc:Name>
+      <cbc:Description languageID="POL">1Niniejsze postępowanie prowadzone jest w trybie przetargu nieograniczonego na podstawie art. 132 ustawy Pzp, przy zastosowaniu procedury, o której mowa w art. 139 ustawy Pzp tzw. procedura odwrócona (tzn. Zamawiający najpierw dokona badania i oceny ofert, a następnie dokona kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełnienia warunków udziału w postępowaniu) oraz niniejszej Specyfikacji Warunków Zamówienia, zwaną dalej SWZ.
+Zamawiający nie zastrzega możliwości ubiegania się o udzielenie zamówienia wyłącznie przez Wykonawców, o których mowa w art. 94 Pzp.
+Zamawiający nie dopuszcza składania ofert wariantowych, o których mowa w art. 92 ustawy Pzp, tzn. oferty przewidującej odmienny sposób wykonania zamówienia niż określony w niniejszej SWZ.
+Zamawiający nie przewiduje udzielenia zamówień o których mowa w art. 214 ust. 1 pkt 8 ustawy Pzp.
+Zamawiający nie przewiduje opcji.
+Zamawiający nie przewiduje zwrotu kosztów udziału w postępowaniu.
+Zamawiający nie udzieli zaliczki na poczet wykonania zamówienia, o których mowa w art. 442 ust.1 ustawy Pzp.
+Zamawiający nie dopuszcza składania ofert częściowych.
+UZASADNIENIE: Nie planuje się dzielenia zamówienia na części. Zakup samochodu pożarniczego mógłby zostać zrealizowany na dwa sposoby:
+1.	Zakup podwozia i nadwozia od różnych wykonawców,
+2.	Zakup samego pojazdu i oddzielnie jego doposażenie w sprzęt ratowniczy.
+Jednak taki podział nie jest zasadny, ponieważ:
+1.	Ryzyko niekompatybilności – sprzęt ratowniczy musi być odpowiednio zintegrowany z pojazdem, a podział zamówienia mógłby prowadzić do problemów technicznych i eksploatacyjnych,
+2.	Zwiększone koszty i czas realizacji – zakup od różnych dostawców mógłby prowadzić do dodatkowych kosztów montażu, certyfikacji i koordynacji dostaw,
+3.	Niecelowość podziału – na rynku funkcjonują dostawcy oferujący gotowe, zintegrowane pojazdy, więc zamówienie całościowe jest bardziej efektywne,
+W przypadku zakupu samochodu pożarniczego dzielenie zamówienia na części nie jest zasadne. Zamówienie powinno być realizowane jako jedno kompleksowe postępowanie, ponieważ zapewnia to lepszą jakość, integrację systemów oraz zgodność z wymaganiami Pzp. Zamawiający dokonał rozeznania rynku i tego typu zamówieniami zajmują się wyspecjalizowane w tym kierunku firmy. Brak podziału zamówienia na części nie wpływa negatywnie na konkurencyjność, nie ogranicza możliwości ubiegania się o zamówienie mniejszym podmiotom, w tym małym i średnim przedsiębiorcom.
+Zamawiający nie przewiduje rozliczenia w walutach obcych.
+Zgodnie z art. 8 pkt 3 ustawy z o ochotniczych strażach pożarnych - "Do udziału w działaniach ratowniczych i akcjach ratowniczych jest uprawniony strażak OSP, który (...) posiada aktualne orzeczenie lekarskie stwierdzające brak przeciwwskazań do udziału w działaniach ratowniczych". W związku z powyższym, względem zamówienia na dostawę samochodów dla OSP nie znajdzie zastosowania art. 100 ustawy Pzp gdyż z tych pojazdów nie będą korzystały osoby niepełnosprawne.
+Zamawiający stosuje dostępność cyfrową poprzez dostosowanie dokumentów zamówienia (tj. krój czcionki bezszeryfrowej, rozmiar czcionki 12 pkt, interlinia 1,15, itp.) do potrzeb osób ze szczególnymi potrzebami, w tym osób z niepełnosprawnością.
+Przedmiotem zamówienia jest dostawa ciężkiego samochodu pożarniczego z zabudową pożarniczą dla OSP w Rudnikach, realizowanej w ramach projektu: „Zakup sprzętu do prowadzenia akcji ratowniczych i usuwania skutków zjawisk katastrofalnych, awarii chemiczno-ekologicznych oraz sanitarno-epidemiologicznych w powiecie oleskim, Nr umowy o dofinansowanie: FEOP.02.03-IZ.00-0003/24, Działanie: 02.03 - Zapobieganie zagrożeniom związanym ze zmianą klimatu, Fundusze Europejskie dla Opolskiego 2021-2027. Pojazd musi spełniać wymagania polskich przepisów o ruchu drogowym, z uwzględnieniem wymagań dotyczących pojazdów uprzywilejowanych, zgodnie z ustawą z dnia 20 czerwca 1997r. Prawo o ruchu drogowym (t.j. Dz. U. z 2024 r. poz. 1251) wraz z przepisami wykonawczymi. Samochód musi spełniać wszystkie wymagania określone przez polskie przepisy i normy oraz być bezwarunkowo dopuszczony do ruchu na polskich drogach publicznych. Musi posiadać również aktualne świadectwo homologacji podwozia. Dostarczony przedmiot zamówienia będzie fabrycznie nowy, sprawny technicznie, nie będzie posiadał wad fizycznych i prawnych, musi spełniać wymagania dla klasy ciężkiej S (wg PN-EN 1846-2) i być pojazdem kategorii 2 – uterenowionej (wg PN-EN 1846-1).
+Szczegółowy opis przedmiotu zamówienia ujęty jest w Specyfikacji technicznej pojazdu, która stanowi załącznik nr 6 do SWZ.
+Wszystkie wymagania określone w załączniku nr 6 do SWZ stanowią wymagania minimalne, a ich spełnienie jest obligatoryjne. Niespełnienie ww. wymagań minimalnych będzie skutkować odrzuceniem oferty jako niezgodnej z warunkami zamówienia na podstawie art. 226 ust. 1 pkt 5 ustawy Pzp.
+Wynagrodzenie wykonawcy za realizację przedmiotu zamówienia będzie wynagrodzeniem ryczałtowym, nie podlegającym weryfikacji, w konsekwencji czego konieczność wykonania prac, bez których przedmiot zamówienia nie mógłby być zrealizowany, a których Wykonawca wcześniej nie przewidział nie będzie miała wpływu na wysokość wynagrodzenia – nie będzie stanowiła podstaw do podwyższenia ceny określonej w ofercie.
+Wymagany przez Zamawiającego minimalny okres gwarancji na przedmiot zamówienia wynosi 24 miesiące, licząc od daty podpisania protokołu odbioru pojazdu. Okres rękojmi za wady zrównany jest z okresem udzielonej gwarancji, z zastrzeżeniem jednak, iż nie może być on krótszy niż wynikający z przepisów kodeksu cywilnego. Oferta Wykonawcy, który zaproponuje okres gwarancji i rękojmi krótszy niż minimalny wymagany zostanie odrzucona jako niezgodna z SWZ.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">34144210</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL524</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Cena oferty</cbc:Name>
+                  <cbc:Description languageID="POL">Kryterium Cena (C) – waga 60 %
+C=(Cena najniższa brutto*/Cena ocenianej oferty brutto)x100x60 %
+*spośród wszystkich złożonych ofert niepodlegających odrzuceniu
+a)	Podstawą przyznania punktów w kryterium Cena będzie cena oferty brutto podana przez Wykonawcę w Formularzu Ofertowym.
+b)	Cena ofertowa brutto musi uwzględniać wszelkie koszty jakie Wykonawca poniesie w związku z realizacją przedmiotu zamówienia.
+c)	W kryterium Cena można uzyskać maksymalnie 60 punktów od jednego członka komisji przetargowej. Przyznane punkty zostaną zaokrąglone do dwóch miejsc po przecinku.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Pojemność zbiornika na wodę</cbc:Name>
+                  <cbc:Description languageID="POL">Kryterium Pojemność zbiornika na wodę (Z) – waga 30 %
+Pojemność od 4200 litrów do 6000 litrów – 15 punktów
+Pojemność powyżej 6001 litrów – 30 punktów
+a)	Podstawą przyznania punktów w kryterium będzie pojemność zbiornika na wodę podana przez Wykonawcę w Formularzu Ofertowym.
+b)	Zamawiający ustala minimalną pojemność zbiornika na wodę na 4200 l. Zaoferowanie przez Wykonawcę pojemności zbiornika na wodę poniżej 4200 l spowoduje odrzucenie oferty, jako treść niezgodna z warunkami zamówienia – art. 226 ust. 1 pkt 5 ustawy Pzp.
+c)	W przypadku braku zaoferowania przez Wykonawcę pojemności zbiornika  na wodę Zamawiający do oceny przyjmie minimalną przewidzianą w postępowaniu pojemność, czyli 4200 l.
+d)	W kryterium Pojemność zbiornika na wodę można uzyskać maksymalnie 30 punktów od jednego członka komisji przetargowej.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Okres gwarancji na zabudowę pojazdu</cbc:Name>
+                  <cbc:Description languageID="POL">Kryterium Okres gwarancji na zabudowę pojazdu (G) – waga 10 %
+Okres gwarancji 24 miesiące – 0 punktów;
+Okres gwarancji 36 miesięcy – 10 punktów
+a)	Zamawiający ustala minimalny okres gwarancji nana zabudowę pojazdu na 24 miesiące, maksymalny na 36 miesięcy. Wykonawca zaznacza w formularzu ofertowym pole wyboru.
+b)	W przypadku braku zaoferowania przez Wykonawcę okresu gwarancji na zabudowę pojazdu Zamawiający do oceny przyjmie minimalny przewidziany okres gwarancji, czyli 24 miesiące.
+c)	Zaznaczenie obu pól spowoduje odrzucenie oferty, jako treść niezgodna z warunkami zamówienia - art. 226 ust l pkt 5 ustawy Pzp.
+d)	W kryterium Okres gwarancji na zabudowę pojazdu można uzyskać maksymalnie 10 punktów od jednego członka komisji przetargowej.
+</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Środki ochrony prawnej przysługują Wykonawcy, uczestnikowi konkursu oraz innemu podmiotowi, jeżeli ma lub miał interes w uzyskaniu zamówienia lub nagrody w konkursie oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez zamawiającego przepisów ustawy Pzp.
+Środki ochrony prawnej wobec ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub ogłoszenia o konkursie oraz dokumentów zamówienia przysługują również organizacjom wpisanym na listę, o której mowa w art. 469 pkt 15 PZP oraz Rzecznikowi Małych i Średnich Przedsiębiorców.
+Odwołanie przysługuje na:
+1)	niezgodną z przepisami ustawy czynność Zamawiającego, podjętą w postępowaniu o udzielenie zamówienia, w tym na projektowane postanowienie umowy;
+2)	zaniechanie czynności w postępowaniu o udzielenie zamówienia do której zamawiający był obowiązany na podstawie ustawy;
+Odwołanie wnosi się do Prezesa Izby. Odwołujący przekazuje kopię odwołania Zamawiającemu przed upływem terminu do wniesienia odwołania w taki sposób, aby mógł on zapoznać się  z jego treścią przed upływem tego terminu.
+Odwołanie wobec treści ogłoszenia lub treści dokumentów zamówienia wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej.
+Odwołanie wnosi się w terminie:
+1)	10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej,
+2)	15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w sposób inny niż określony w pkt 1).
+Odwołanie w przypadkach innych niż określone w pkt 5 i 6 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia.
+Jeżeli Zamawiający nie przesłał Wykonawcy zawiadomienia o wyborze najkorzystniejszej oferty, odwołanie wnosi się nie później niż w terminie:
+1)	30 dni od dnia publikacji w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia,
+2)	6 miesięcy od dnia zawarcia umowy, jeżeli Zamawiający nie opublikował w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia.
+Na orzeczenie Izby oraz postanowienie Prezesa Izby, o którym mowa w art. 519 ust. 1 ustawy Pzp, stronom oraz uczestnikom postępowania odwoławczego przysługuje skarga do sądu.
+W postępowaniu toczącym się wskutek wniesienia skargi stosuje się odpowiednio przepisy ustawy z dnia 17 listopada 1964 r. - Kodeks postępowania cywilnego o apelacji, jeżeli przepisy niniejszego rozdziału nie stanowią inaczej.
+Skargę wnosi się do Sądu Okręgowego w Warszawie - sądu zamówień publicznych, zwanego dalej "sądem zamówień publicznych".
+Skargę wnosi się za pośrednictwem Prezesa Izby, w terminie 14 dni od dnia doręczenia orzeczenia Izby lub postanowienia Prezesa Izby, o którym mowa w art. 519 ust. 1 ustawy Pzp, przesyłając jednocześnie jej odpis przeciwnikowi skargi. Złożenie skargi w placówce pocztowej operatora wyznaczonego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe jest równoznaczne z jej wniesieniem.
+Prezes Izby przekazuje skargę wraz z aktami postępowania odwoławczego do sądu zamówień publicznych w terminie 7 dni od dnia jej otrzymania.
+Od wyroku Sądu lub postanowienia kończącego postępowanie w sprawie przysługuje skarga kasacyjna do Sądu Najwyższego.
+Szczegółowe informacje dotyczące środków ochrony prawnej określone są w Dziale IX „Środki ochrony prawnej” ustawy Pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="POL">Zakup ciężkiego samochodu pożarniczego z zabudową pożarniczą dla OSP w Rudnikach</cbc:Name>
+         <cbc:Description languageID="POL">Przedmiotem zamówienia jest dostawa ciężkiego samochodu pożarniczego z zabudową pożarniczą dla OSP w Rudnikach, realizowanej w ramach projektu: „Zakup sprzętu do prowadzenia akcji ratowniczych i usuwania skutków zjawisk katastrofalnych, awarii chemiczno-ekologicznych oraz sanitarno-epidemiologicznych w powiecie oleskim, Nr umowy o dofinansowanie: FEOP.02.03-IZ.00-0003/24, Działanie: 02.03 - Zapobieganie zagrożeniom związanym ze zmianą klimatu, Fundusze Europejskie dla Opolskiego 2021-2027. Pojazd musi spełniać wymagania polskich przepisów o ruchu drogowym, z uwzględnieniem wymagań dotyczących pojazdów uprzywilejowanych, zgodnie z ustawą z dnia 20 czerwca 1997r. Prawo o ruchu drogowym (t.j. Dz. U. z 2024 r. poz. 1251) wraz z przepisami wykonawczymi. Samochód musi spełniać wszystkie wymagania określone przez polskie przepisy i normy oraz być bezwarunkowo dopuszczony do ruchu na polskich drogach publicznych. Musi posiadać również aktualne świadectwo homologacji podwozia. Dostarczony przedmiot zamówienia będzie fabrycznie nowy, sprawny technicznie, nie będzie posiadał wad fizycznych i prawnych, musi spełniać wymagania dla klasy ciężkiej S (wg PN-EN 1846-2) i być pojazdem kategorii 2 – uterenowionej (wg PN-EN 1846-1).
+Szczegółowy opis przedmiotu zamówienia ujęty jest w Specyfikacji technicznej pojazdu, która stanowi załącznik nr 6 do SWZ.
+Wszystkie wymagania określone w załączniku nr 6 do SWZ stanowią wymagania minimalne, a ich spełnienie jest obligatoryjne. Niespełnienie ww. wymagań minimalnych będzie skutkować odrzuceniem oferty jako niezgodnej z warunkami zamówienia na podstawie art. 226 ust. 1 pkt 5 ustawy Pzp.
+Wynagrodzenie wykonawcy za realizację przedmiotu zamówienia będzie wynagrodzeniem ryczałtowym, nie podlegającym weryfikacji, w konsekwencji czego konieczność wykonania prac, bez których przedmiot zamówienia nie mógłby być zrealizowany, a których Wykonawca wcześniej nie przewidział nie będzie miała wpływu na wysokość wynagrodzenia – nie będzie stanowiła podstaw do podwyższenia ceny określonej w ofercie.
+Wymagany przez Zamawiającego minimalny okres gwarancji na przedmiot zamówienia wynosi 24 miesiące, licząc od daty podpisania protokołu odbioru pojazdu. Okres rękojmi za wady zrównany jest z okresem udzielonej gwarancji, z zastrzeżeniem jednak, iż nie może być on krótszy niż wynikający z przepisów kodeksu cywilnego. Oferta Wykonawcy, który zaproponuje okres gwarancji i rękojmi krótszy niż minimalny wymagany zostanie odrzucona jako niezgodna z SWZ.
+Termin wykonania zamówienia: 5 miesięcy.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">34144210</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL524</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

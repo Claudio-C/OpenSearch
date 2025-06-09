@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <!--BT-02-notice-->
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeResult>
+            <!--BT-161-NoticeResult-->
+            <cbc:TotalAmount currencyID="EUR">1478442.00</cbc:TotalAmount>
+            <efac:LotResult>
+              <!--OPT-322-LotResult-->
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:AppealRequestsStatistics>
+                <!--BT-635-LotResult-->
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:AppealRequestsStatistics>
+              <efac:AppealRequestsStatistics>
+                <!--BT-712(b)-LotResult-->
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:AppealRequestsStatistics>
+              <efac:LotTender>
+                <!--OPT-320-LotResult-->
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <!--BT-760-LotResult-->
+                <efbc:StatisticsCode listName="received-submission-type">part-req</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <!--OPT-315-LotResult-->
+                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <!--BT-13713-LotResult-->
+                <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <!--OPT-321-Tender-->
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <cac:LegalMonetaryTotal>
+                <!--BT-720-Tender-->
+                <cbc:PayableAmount currencyID="EUR">1478442.00</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <!--BT-773-Tender-->
+                <efbc:TermDescription languageID="ITA">TRASPORTO DISTRIBUZIONE MANUTENZIONI ANALISI DI LABORATORIO PULIZIE SERVIZI AUSILIARI E ACCESSORI SISTEMA INFORMATIZZATO DERATTIZZAZIONI E DISINFESTAZIONI</efbc:TermDescription>
+                <efbc:TermPercent>49</efbc:TermPercent>
+                <efbc:TermCode listName="applicability">yes</efbc:TermCode>
+                <efbc:PercentageKnownIndicator>true</efbc:PercentageKnownIndicator>
+                <efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <!--OPT-310-Tender-->
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <!--BT-13714-Tender-->
+                <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <!--BT-3201-Tender-->
+                <cbc:ID>ID 370</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <!--OPT-316-Contract-->
+              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              <cbc:AwardDate>2025-05-05+02:00</cbc:AwardDate>
+              <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+              <efac:ContractReference>
+                <!--BT-150-Contract-->
+                <cbc:ID>ID 370</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <!--BT-3202-Contract-->
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <!--OPT-210-Tenderer-->
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <cbc:Name languageID="ITA">CAMST SOC. COOP. A R.L.</cbc:Name>
+              <efac:Tenderer>
+                <!--OPT-300-Tenderer-->
+                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <!--OPP-070-notice-->
+            <cbc:SubTypeCode listName="notice-subtype_can-standard.gc">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <!--BT-505-Organization-Company-->
+                <cbc:WebsiteURI>http://www.provincia.ancona.it</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <!--OPT-200-Organization-Company-->
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <!--BT-500-Organization-Company-->
+                  <cbc:Name languageID="ITA">Sua Provincia di Ancona</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <!--BT-510(a)-Organization-Company-->
+                  <cbc:StreetName>Strada di Passo Varano, 19/A</cbc:StreetName>
+                  <cbc:CityName>Ancona</cbc:CityName>
+                  <cbc:PostalZone>60131</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts-lvl3">ITI32</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <!--BT-514-Organization-Company-->
+                    <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <!--BT-501-Organization-Company-->
+                  <cbc:CompanyID>00369930425</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <!--BT-506-Organization-Company-->
+                  <cbc:Telephone>0715894362</cbc:Telephone>
+                  <cbc:ElectronicMail>gare@cert.provincia.ancona.it</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <!--OPT-200-Organization-Company-->
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <!--BT-500-Organization-Company-->
+                  <cbc:Name languageID="ITA">CAMST SOC. COOP. A R.L.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <!--BT-513-Organization-Company-->
+                  <cbc:CityName>CASTENASO</cbc:CityName>
+                  <cbc:PostalZone>40055</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts-lvl3">ITH55</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <!--BT-514-Organization-Company-->
+                    <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <!--BT-501-Organization-Company-->
+                  <cbc:CompanyID>00501611206</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <!--BT-506-Organization-Company-->
+                  <cbc:ElectronicMail>camst_ufficiogare@legalmail.it</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367387-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">44aadc7a-17ea-4ce8-8171-db77847074b3</cbc:ID>
+  <cbc:ContractFolderID>44aadc7a-17ea-4ce8-8171-db77847074b3</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+  <cbc:IssueTime>10:19:31+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ITA</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <!--BT-11-Procedure-Buyer-->
+      <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <!--BT-10-Procedure-Buyer-->
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <!--OPT-300-Procedure-Buyer-->
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <!--BT-09(b)-Procedure-->
+      <cbc:ID>CrossBorderLaw</cbc:ID>
+      <cbc:DocumentDescription languageID="ITA">servizio di refezione scolastica per gli alunni delle scuole dell’infanzia primarie e secondaria di primo grado</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <!--BT-105-Procedure-->
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <!--BT-22-Procedure-->
+    <cbc:ID>f64437f8-202f-4bcc-bbf3-318882fffcb8@389-G-372</cbc:ID>
+    <cbc:Name languageID="ITA">Procedura aperta servizio refezione scolastica per gli alunni delle scuole dell&amp;#8217;infanzia primarie e secondaria e servizio fornitura pasti per la scuola primaria Cialdini e per il Centro diurno per disabili Arcobaleno site in Comune di Castelfidardo, per il periodo 01/09/2025-31/08/2028. BAN 75S SUA</cbc:Name>
+    <cbc:Description languageID="ITA">ID 370</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <!--BT-27-Procedure-->
+      <cbc:EstimatedOverallContractAmount currencyID="EUR">1783828.80</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <!--BT-262-Procedure-->
+      <cbc:ItemClassificationCode listName="cpv">55512000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <!--BT-5071-Procedure-->
+        <cbc:CountrySubentityCode listName="nuts-lvl3">ITI32</cbc:CountrySubentityCode>
+        <cac:Country>
+          <!--BT-5141-Procedure-->
+          <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <!--BT-137-Lot-->
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <!--BT-60-Lot-->
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <!--BT-543-Lot-->
+          <cbc:CalculationExpression languageID="ITA">prezzo più basso</cbc:CalculationExpression>
+          <cac:SubordinateAwardingCriterion>
+            <!--BT-539-Lot-->
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="ITA">servizio di refezione scolastica per gli alunni delle scuole dell’infanzia, primarie e secondaria di primo grado</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <!--OPT-301-Lot-AddInfo-->
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <!--BT-99-Lot-->
+          <cbc:Description languageID="ITA">sua provincia di Ancona</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <!--OPT-301-Lot-ReviewOrg-->
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <!--BT-115-Lot-->
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <!--BT-767-Lot-->
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <!--BT-765-Lot-->
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <!--BT-766-Lot-->
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <!--BT-22-Lot-->
+      <cbc:ID>f64437f8-202f-4bcc-bbf3-318882fffcb8@389-G-372/LOT-0001</cbc:ID>
+      <cbc:Name languageID="ITA">Procedura aperta servizio refezione scolastica per gli alunni delle scuole dell&amp;#8217;infanzia primarie e secondaria e servizio fornitura pasti per la scuola primaria Cialdini e per il Centro diurno per disabili Arcobaleno site in Comune di Castelfidardo, per il periodo 01/09/2025-31/08/2028. BAN 75S SUA</cbc:Name>
+      <cbc:Description languageID="ITA">Procedura aperta servizio refezione scolastica per gli alunni delle scuole dell&amp;#8217;infanzia primarie e secondaria e servizio fornitura pasti per la scuola primaria Cialdini e per il Centro diurno per disabili Arcobaleno site in Comune di Castelfidardo, per il periodo 01/09/2025-31/08/2028. BAN 75S SUA</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <!--BT-777-Lot-->
+        <cbc:ProcurementType languageID="ITA">servizio di refezione scolastica per gli alunni delle scuole dell’infanzia, primarie e secondaria di primo grado</cbc:ProcurementType>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <!--BT-27-Lot-->
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">1783828.80</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <!--BT-262-Lot-->
+        <cbc:ItemClassificationCode listName="cpv">55512000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <!--BT-728-Lot-->
+        <cbc:Description languageID="ITA">castelfidardo</cbc:Description>
+        <cac:Address>
+          <!--BT-5071-Lot-->
+          <cbc:CountrySubentityCode listName="nuts-lvl3">ITI32</cbc:CountrySubentityCode>
+          <cac:Country>
+            <!--BT-5141-Lot-->
+            <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <!--OPT-999-->
+    <cbc:AwardDate>2025-06-05+02:00</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

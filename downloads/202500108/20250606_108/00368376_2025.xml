@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeResult>
+						<cbc:TotalAmount currencyID="EUR">1235220.00</cbc:TotalAmount>
+						<efac:LotResult>
+							<cbc:ID>RES-0001</cbc:ID>
+							<cbc:HigherTenderAmount currencyID="EUR">807891.00</cbc:HigherTenderAmount>
+							<cbc:LowerTenderAmount currencyID="EUR">651525.00</cbc:LowerTenderAmount>
+							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-esubm</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-no-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-verif-inad</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>7</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-verif-inad-low</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							</efac:SettledContract>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotResult>
+							<cbc:ID>RES-0002</cbc:ID>
+							<cbc:HigherTenderAmount currencyID="EUR">1076593.00</cbc:HigherTenderAmount>
+							<cbc:LowerTenderAmount currencyID="EUR">583695.00</cbc:LowerTenderAmount>
+							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>11</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-esubm</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>11</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-no-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-verif-inad</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>8</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-verif-inad-low</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<cbc:ID schemeName="contract">CON-0002</cbc:ID>
+							</efac:SettledContract>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotTender>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="EUR">547500.00</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
+							<efac:SubcontractingTerm>
+								<efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID schemeName="tenderingparty">TPA-0001</cbc:ID>
+							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>03</cbc:ID>
+							</efac:TenderReference>
+						</efac:LotTender>
+						<efac:LotTender>
+							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="EUR">490500.00</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
+							<efac:SubcontractingTerm>
+								<efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID schemeName="tenderingparty">TPA-0002</cbc:ID>
+							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>02</cbc:ID>
+							</efac:TenderReference>
+						</efac:LotTender>
+						<efac:SettledContract>
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							<cbc:IssueDate>2025-05-30+02:00</cbc:IssueDate>
+							<cbc:Title languageID="DEU">Quambusch Protect GmbH, 37235 Hessisch Lichtenau</cbc:Title>
+							<efac:ContractReference>
+								<cbc:ID>1</cbc:ID>
+							</efac:ContractReference>
+							<efac:LotTender>
+								<cbc:ID>TEN-0001</cbc:ID>
+							</efac:LotTender>
+						</efac:SettledContract>
+						<efac:SettledContract>
+							<cbc:ID schemeName="contract">CON-0002</cbc:ID>
+							<cbc:IssueDate>2025-05-30+02:00</cbc:IssueDate>
+							<cbc:Title languageID="DEU">ASATEX AG, 50126 Bergheim</cbc:Title>
+							<efac:ContractReference>
+								<cbc:ID>2</cbc:ID>
+							</efac:ContractReference>
+							<efac:LotTender>
+								<cbc:ID>TEN-0002</cbc:ID>
+							</efac:LotTender>
+						</efac:SettledContract>
+						<efac:TenderingParty>
+							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							<efac:Tenderer>
+								<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+							</efac:Tenderer>
+						</efac:TenderingParty>
+						<efac:TenderingParty>
+							<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+							<efac:Tenderer>
+								<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+							</efac:Tenderer>
+						</efac:TenderingParty>
+					</efac:NoticeResult>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+							<efac:Company>
+								<cbc:WebsiteURI>https://zbl.rlp.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Zentrale Beschaffungsstelle des Landes Rheinland-Pfalz (ZBL) im Landesbetrieb Mobilität Rheinland-Pfalz</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Friedrich-Ebert-Ring 14 - 20</cbc:StreetName>
+									<cbc:CityName>Koblenz</cbc:CityName>
+									<cbc:PostalZone>56068</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEB11</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:026130291777</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 26130291777</cbc:Telephone>
+									<cbc:Telefax>+49 261291411500</cbc:Telefax>
+									<cbc:ElectronicMail>zbl@lbm.rlp.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Ministerium für Wissenschaft und Gesundheit des Landes Rheinland-Pfalz</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Mittlere Bleiche 61</cbc:StreetName>
+									<cbc:CityName>Mainz</cbc:CityName>
+									<cbc:PostalZone>55116</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEB35</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:06131160</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>-</cbc:Name>
+									<cbc:Telephone>+496131160</cbc:Telephone>
+									<cbc:Telefax>+496131162997</cbc:Telefax>
+									<cbc:ElectronicMail>poststelle@mwg.rlp.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://mwvlw.rlp.de/ministerium/zugeordnete-institutionen-1/vergabekammer</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer Rheinland-Pfalz beim Ministerium für Wirtschaft, Verkehr, Landwirtschaft und Weinbau</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Stiftsstraße 9</cbc:StreetName>
+									<cbc:CityName>Mainz</cbc:CityName>
+									<cbc:PostalZone>55116</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEB35</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:06131162234</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>-</cbc:Name>
+									<cbc:Telephone>+49 6131162234</cbc:Telephone>
+									<cbc:Telefax>+49 6131162113</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer.rlp@mwvlw.rlp.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID>UBO-0001</cbc:ID>
+							</efac:UltimateBeneficialOwner>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.quambusch.net</cbc:WebsiteURI>
+								<efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Quambusch Protect GmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Hanröder Straße 15b</cbc:StreetName>
+									<cbc:CityName>Hessisch Lichtenau</cbc:CityName>
+									<cbc:PostalZone>37235</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE737</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>HRB 2783 Eschwege</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+495602937260</cbc:Telephone>
+									<cbc:Telefax>+495602937266</cbc:Telefax>
+									<cbc:ElectronicMail>olaf.sparbier@quambusch.net</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID>UBO-0002</cbc:ID>
+							</efac:UltimateBeneficialOwner>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.asatex.eu/</cbc:WebsiteURI>
+								<efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">ASATEX AG</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>August-Borsig-Str. 2</cbc:StreetName>
+									<cbc:CityName>Berhgeim</cbc:CityName>
+									<cbc:PostalZone>50126</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA27</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>HRB40637 Köln</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>02271-47770</cbc:Telephone>
+									<cbc:ElectronicMail>kb@asatex.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+							<cbc:ID>UBO-0001</cbc:ID>
+							<efac:Nationality>
+								<cbc:NationalityID>DEU</cbc:NationalityID>
+							</efac:Nationality>
+						</efac:UltimateBeneficialOwner>
+						<efac:UltimateBeneficialOwner>
+							<cbc:ID>UBO-0002</cbc:ID>
+							<efac:Nationality>
+								<cbc:NationalityID>DEU</cbc:NationalityID>
+							</efac:Nationality>
+						</efac:UltimateBeneficialOwner>
+					</efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368376-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">9a310884-fa5e-4b6a-9d1c-019d446fb67d</cbc:ID>
+	<cbc:ContractFolderID>4fb5ca5c-3502-4490-aa08-7f14eb575fd2</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+	<cbc:IssueTime>13:36:23+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Die Vergabestelle weist ausdrücklich auf die Rügeobliegenheiten der Unternehmen/Bewerber/Bieter sowie auf die Präklusionsregelungen gemäß § 160 Abs. 3 S. 1 Nr. 1 bis Nr. 4 GWB (siehe z.B.: https://www.gesetze-im-internet.de/gwb/__160.html) hinsichtlich der Behauptung von Verstößen gegen die Bestimmungen über das Vergabeverfahren hin.
+
+§ 160 GWB lautet:
+(1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein.
+(2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht.
+(3) Der Antrag ist unzulässig, soweit
+1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt,
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.
+Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.
+
+Die Vergabestelle wird gemäß § 134 GWB (siehe z.B.: https://www.gesetze-im-internet.de/gwb/__134.html) die Bieter, deren Angebote nicht berücksichtigt werden sollen, hiervon vor Zuschlagserteilung nach Maßgabe des § 134 Abs. 1 GWB informieren. Bei schriftlicher Information darf der Vertrag erst 15 Kalendertage, bei Information auf elektronischem Weg oder per Fax erst 10 Kalendertage nach Absendung der Information geschlossen werden (§ 134 Abs. 2 S. 1 und S. 2 GWB). Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber, auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an (§ 134 Abs. 2 S. 3 GWB).</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cac:NoticeDocumentReference>
+			<cbc:ID>236037-2025</cbc:ID>
+		</cac:NoticeDocumentReference>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">Z.25-0148</cbc:ID>
+		<cbc:Name languageID="DEU">Lieferung von Schutzanzügen</cbc:Name>
+		<cbc:Description languageID="DEU">Das Land Rheinland-Pfalz, vertreten durch den Leiter der Zentralen Beschaffungsstelle des Landes Rheinland-Pfalz im Landesbetrieb Mobilität Rheinland-Pfalz, plant mit diesem Vergabeverfahren die Beschaffung von Schutzanzügen im Wege eines Offenen Verfahrens gemäß §§ 15, 14 VgV, § 119 GWB durchzuführen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXS2YY5YTC4RUQTU
+
+
+Das Vergabeverfahren wurde vollständig elektronisch im webbasierten "Vergabemarktplatz Rheinland-Pfalz" durchgeführt.
+Die Vergabeunterlagen wurden ausschließlich in elektronischer Form auf dem Vergabemarktplatz Rheinland-Pfalz bereitgestellt. Sie konnten dort u.a. über die Suchfunktion ("Bekanntmachungen finden") und Eingabe der unten stehenden Bekanntmachungs-ID aufgefunden und - ohne vorherige Registrierung - unentgeltlich, uneingeschränkt, vollständig und direkt abgerufen werden. Ein anderweitiger Versand der Vergabeunterlagen (z.B. per E-Mail) erfolgte nicht. 
+
+Für die Abgabe von Angeboten war zwingend eine Registrierung und Freischaltung für den entsprechenden Projektraum des Vergabemarktplatzes Rheinland-Pfalz erforderlich (§ 9 Abs. 3 VgV).
+
+Zugelassen waren ausschließlich elektronische Angebote. 
+
+Diese mussten über das sog. Bietertool auf dem Vergabemarktplatz Rheinland-Pfalz abgegeben werden (vgl. § 53 Abs. 1 VgV).
+
+Es waren folgende Möglichkeiten der Abgabe von elektronischen Angeboten zugelassen:
+- Textform ("einfache" elektronische Signatur)
+- Fortgeschrittene elektronische Signatur
+- Qualifizierte elektronische Signatur
+
+Die Abgabe von Angeboten in Papierform war unzulässig!
+
+Fragen zu den Vergabeunterlagen (Bieterfragen) waren im Hinblick auf § 20 Abs. 3 Nr. 1 VgV spätestens bis zum 9. Kalendertag vor Ablauf der Angebotsfrist in Textform über den entsprechenden Projektraum des Vergabemarktplatzes Rheinland-Pfalz zu stellen.
+
+Die weiteren mit dem elektronischen Angebot vorzulegenden Unterlagen haben sich aus der Anlage "Teil A - Liste beizufügender Unterlagen" ergeben.
+
+Weitere Einzelheiten waren den elektronisch bereitgestellten Vergabeunterlagen zu entnehmen.</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">35113400</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">33140000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Lieferung an des landesweite Materiallager für Schutzausrüstung beim Landeskrankenhauses in Andernach.</cbc:Description>
+			<cac:Address>
+				<cbc:StreetName>Landeskrankenhaus (AöR)</cbc:StreetName>
+				<cbc:CityName>Andernach</cbc:CityName>
+				<cbc:PostalZone>56626</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEB17</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>60.00000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+						<cbc:Description languageID="DEU">Das zu wertende Angebot mit der niedrigsten Wertungsgesamtsumme (bestehend aus Preisen für Erstlieferung bis 13.06.2025 + Folgelieferung bis 30.11.2025) erhält die volle Punktzahl i. H. v. 600 Preispunkten. Die preislich nachfolgenden Angebote erhalten unter Anwendung eines inversen Dreisatzes im Verhältnis des preislichen Abstandes zu dem vorgenannten Angebot entsprechend weniger Preispunkte.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>35.00000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Liefermenge bis 13.06.25</cbc:Name>
+						<cbc:Description languageID="DEU">Die Berechnung der Leistungspunkte in diesem Bewertungskriterium richtet sich danach wie hoch die Menge je Größe ist, die der Bieter im Verhältnis zur geforderten Gesamtmenge bis zum 13.06.2025 liefern kann.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.00000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Haltbarkeit</cbc:Name>
+						<cbc:Description languageID="DEU">Der Bieter hat in Teil B - Preisblatt Angabe zur Haltbarkeit des von ihm im jeweiligen Los angebotenen Schutzanzugs zu machen. Der Bieter, der im Bewerberumfeld, die höchste Haltbarkeit in Jahren angibt, erhält die volle Punktzahl von 50 Leistungspunkten. Die nachfolgenden Angebote erhalten unter Anwendung eines inversen Dreisatzes im Verhältnis des Abstandes zu dem vorgenannten Angebot entsprechend weniger Leistungspunkte.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Die Vergabestelle weist ausdrücklich auf die Rügeobliegenheiten der Unternehmen/Bewerber/Bieter sowie auf die Präklusionsregelungen gemäß § 160 Abs. 3 S. 1 Nr. 1 bis Nr. 4 GWB (siehe z.B.: https://www.gesetze-im-internet.de/gwb/__160.html) hinsichtlich der Behauptung von Verstößen gegen die Bestimmungen über das Vergabeverfahren hin.
+
+§ 160 GWB lautet:
+(1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein.
+(2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht.
+(3) Der Antrag ist unzulässig, soweit
+1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt,
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.
+Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.
+
+Die Vergabestelle wird gemäß § 134 GWB (siehe z.B.: https://www.gesetze-im-internet.de/gwb/__134.html) die Bieter, deren Angebote nicht berücksichtigt werden sollen, hiervon vor Zuschlagserteilung nach Maßgabe des § 134 Abs. 1 GWB informieren. Bei schriftlicher Information darf der Vertrag erst 15 Kalendertage, bei Information auf elektronischem Weg oder per Fax erst 10 Kalendertage nach Absendung der Information geschlossen werden (§ 134 Abs. 2 S. 1 und S. 2 GWB). Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber, auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an (§ 134 Abs. 2 S. 3 GWB).</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:NoticeDocumentReference>
+				<cbc:ID>236037-2025</cbc:ID>
+			</cac:NoticeDocumentReference>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">01</cbc:ID>
+			<cbc:Name languageID="DEU">Schutzanzüge, Kat. III, Typ 5B und 6B</cbc:Name>
+			<cbc:Description languageID="DEU">Lieferung von 438.000 Schutzanzügen der Kategorie III, 5B/6B. Losspezifische Anforderungen ergeben sich aus Teil B Leistungsbeschreibungen Ziffer 2.1</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">siehe Teil B Leistungsbeschreibung</cbc:Note>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:RequestedTenderTotal>
+				<cbc:EstimatedOverallContractAmount currencyID="EUR">911040.00</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">35113400</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">33140000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Lieferung an des landesweite Materiallager für Schutzausrüstung beim Landeskrankenhauses in Andernach.</cbc:Description>
+				<cac:Address>
+					<cbc:StreetName>Landeskrankenhaus (AöR)</cbc:StreetName>
+					<cbc:CityName>Andernach</cbc:CityName>
+					<cbc:PostalZone>56626</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEB17</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-05-30+02:00</cbc:StartDate>
+				<cbc:EndDate>2025-11-30+01:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>60.00000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+						<cbc:Description languageID="DEU">Das zu wertende Angebot mit der niedrigsten Wertungsgesamtsumme (bestehend aus Preisen für Erstlieferung bis 13.06.2025 + Folgelieferung bis 30.11.2025) erhält die volle Punktzahl i. H. v. 600 Preispunkten. Die preislich nachfolgenden Angebote erhalten unter Anwendung eines inversen Dreisatzes im Verhältnis des preislichen Abstandes zu dem vorgenannten Angebot entsprechend weniger Preispunkte.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>35.00000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Liefermenge bis 13.06.25</cbc:Name>
+						<cbc:Description languageID="DEU">Die Berechnung der Leistungspunkte in diesem Bewertungskriterium richtet sich danach wie hoch die Menge je Größe ist, die der Bieter im Verhältnis zur geforderten Gesamtmenge bis zum 13.06.2025 liefern kann.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.00000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Haltbarkeit</cbc:Name>
+						<cbc:Description languageID="DEU">Der Bieter hat in Teil B - Preisblatt Angabe zur Haltbarkeit des von ihm im jeweiligen Los angebotenen Schutzanzugs zu machen. Der Bieter, der im Bewerberumfeld, die höchste Haltbarkeit in Jahren angibt, erhält die volle Punktzahl von 50 Leistungspunkten. Die nachfolgenden Angebote erhalten unter Anwendung eines inversen Dreisatzes im Verhältnis des Abstandes zu dem vorgenannten Angebot entsprechend weniger Leistungspunkte.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Die Vergabestelle weist ausdrücklich auf die Rügeobliegenheiten der Unternehmen/Bewerber/Bieter sowie auf die Präklusionsregelungen gemäß § 160 Abs. 3 S. 1 Nr. 1 bis Nr. 4 GWB (siehe z.B.: https://www.gesetze-im-internet.de/gwb/__160.html) hinsichtlich der Behauptung von Verstößen gegen die Bestimmungen über das Vergabeverfahren hin.
+
+§ 160 GWB lautet:
+(1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein.
+(2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht.
+(3) Der Antrag ist unzulässig, soweit
+1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt,
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.
+Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.
+
+Die Vergabestelle wird gemäß § 134 GWB (siehe z.B.: https://www.gesetze-im-internet.de/gwb/__134.html) die Bieter, deren Angebote nicht berücksichtigt werden sollen, hiervon vor Zuschlagserteilung nach Maßgabe des § 134 Abs. 1 GWB informieren. Bei schriftlicher Information darf der Vertrag erst 15 Kalendertage, bei Information auf elektronischem Weg oder per Fax erst 10 Kalendertage nach Absendung der Information geschlossen werden (§ 134 Abs. 2 S. 1 und S. 2 GWB). Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber, auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an (§ 134 Abs. 2 S. 3 GWB).</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:NoticeDocumentReference>
+				<cbc:ID>236037-2025</cbc:ID>
+			</cac:NoticeDocumentReference>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">02</cbc:ID>
+			<cbc:Name languageID="DEU">Schutzanzüge Kat. III, Typ 4B</cbc:Name>
+			<cbc:Description languageID="DEU">Lieferung von 218.000 Schutzanzügen, Kat. III, Typ 4B. Losspezifische Anforderungen ergeben sich aus Teil B Leistungsbeschreibungen Ziffer 2.2</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">siehe Teil B Leistungsbeschreibung</cbc:Note>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:RequestedTenderTotal>
+				<cbc:EstimatedOverallContractAmount currencyID="EUR">893800.00</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">35113400</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">33140000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Lieferung an des landesweite Materiallager für Schutzausrüstung beim Landeskrankenhauses in Andernach.</cbc:Description>
+				<cac:Address>
+					<cbc:StreetName>Landeskrankenhaus (AöR)</cbc:StreetName>
+					<cbc:CityName>Andernach</cbc:CityName>
+					<cbc:PostalZone>56626</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEB17</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-05-30+02:00</cbc:StartDate>
+				<cbc:EndDate>2025-11-30+01:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:TenderResult>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+	</cac:TenderResult>
+</ContractAwardNotice>

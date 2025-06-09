@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:ContractModification>
+                        <efbc:ChangedNoticeIdentifier schemeName="notice-id-ref">bde31275-1195-48f3-8a74-1cbdd05de231-01</efbc:ChangedNoticeIdentifier>
+                        <efbc:ModifiedContractIdentifier schemeName="contract">CON-0001</efbc:ModifiedContractIdentifier>
+                        <efac:Change>
+                            <efbc:ChangeDescription languageID="SPA">Ambas partes acuerdan expresamente en este acto la modificación del contrato, debido a la&#13;
+necesidad de incrementar alguna de las partidas inicialmente contratadas, en los términos señalados en el&#13;
+Cuadro de Unidades y Precios del presente documento que, firmado por ambas partes, se incorpora al mismo&#13;
+formando parte inseparable y sustituye al Cuadro de Unidades y Precios del contrato de 24 de enero de 2025.&#13;
+El importe de la ampliación supone un incremento del importe del contrato de CIENTO SESENTA Y OCHO MIL&#13;
+EUROS (168.000,00€) IVA no incluido, por lo que el importe total del contrato, tras la citada modificación, podría&#13;
+ascender a la cantidad de QUINIENTOS SEIS MIL CUATROCIENTOS EUROS (506.400,00€) IVA no incluido.</efbc:ChangeDescription>
+                            <efac:ChangedSection>
+<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
+                            </efac:ChangedSection>
+                        </efac:Change>
+                        <efac:ChangeReason>
+                            <cbc:ReasonCode listName="modification-justification">add-wss</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="SPA">Ambas partes acuerdan expresamente en este acto la modificación del contrato, debido a la&#13;
+necesidad de incrementar alguna de las partidas inicialmente contratadas, en los términos señalados en el&#13;
+Cuadro de Unidades y Precios del presente documento que, firmado por ambas partes, se incorpora al mismo&#13;
+formando parte inseparable y sustituye al Cuadro de Unidades y Precios del contrato de 24 de enero de 2025.&#13;
+El importe de la ampliación supone un incremento del importe del contrato de CIENTO SESENTA Y OCHO MIL&#13;
+EUROS (168.000,00€) IVA no incluido, por lo que el importe total del contrato, tras la citada modificación, podría&#13;
+ascender a la cantidad de QUINIENTOS SEIS MIL CUATROCIENTOS EUROS (506.400,00€) IVA no incluido.</efbc:ReasonDescription>
+                        </efac:ChangeReason>
+                    </efac:ContractModification>
+                    <efac:NoticeResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:SettledContract>
+<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <cac:LegalMonetaryTotal>
+<cbc:PayableAmount currencyID="EUR">338400</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+<efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+<cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+<cbc:ID>REF TEN-0001/LOT-0000</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2024-12-20+01:00</cbc:AwardDate>
+                            <cbc:IssueDate>2025-01-24+01:00</cbc:IssueDate>
+                            <efac:ContractReference>
+<cbc:ID>721.439</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">38</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+<cbc:WebsiteURI>http://www.tragsa.es</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28006</cbc:PostalZone>
+    <cbc:CountrySubentity>Madrid</cbc:CountrySubentity>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="ID_PLATAFORMA">50011840002187</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">A28476208</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Name>Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)</cbc:Name>
+    <cbc:Telephone>+34 913963667</cbc:Telephone>
+    <cbc:Telefax>+34 913969172</cbc:Telefax>
+    <cbc:ElectronicMail>contratacion@tragsa.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+<cbc:WebsiteURI>https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/TACRC/Paginas/Directorio.aspx</cbc:WebsiteURI>
+<cac:PartyIdentification>
+    <cbc:ID>TPO-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Tribunal Administrativo Central de Recursos Contractuales</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:AddressFormatCode>1</cbc:AddressFormatCode>
+    <cbc:CityName>Madrid</cbc:CityName>
+    <cbc:PostalZone>28071</cbc:PostalZone>
+    <cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:Contact>
+    <cbc:Telephone>+34 913491319</cbc:Telephone>
+    <cbc:Telefax>+34 913491441</cbc:Telefax>
+    <cbc:ElectronicMail>tribunal_recursos.contratos@hacienda.gob.es</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+<cac:PartyIdentification>
+    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+    <cbc:Name languageID="SPA">Excavacions Malé i Hurtós, s.l.</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+    <cbc:CityName>Garrigàs</cbc:CityName>
+    <cbc:PostalZone>17476</cbc:PostalZone>
+    <cbc:CountrySubentityCode listName="nuts">ES512</cbc:CountrySubentityCode>
+    <cac:Country>
+        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+        <cbc:Name>España</cbc:Name>
+    </cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+    <cbc:CompanyID schemeName="NIF">****4736*</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+    <cbc:Telephone>+34 972527378</cbc:Telephone>
+    <cbc:ElectronicMail>info@maleihurtos.com</cbc:ElectronicMail>
+</cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365817-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">46cddf4b-e70c-4ca2-bce3-d5b0e6cd4787</cbc:ID>
+    <cbc:ContractFolderID>75daa931-961f-494d-9739-25260d9c823d</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>11:04:48+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="cont-modif">can-modif</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode>SPA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:ProcurementProject>
+        <cbc:ID>TSA0078579</cbc:ID>
+        <cbc:Name languageID="SPA">Contratación del suministro de zahorra ZA 0/20, ZA 0/32 y áridos para cama de apoyo y relleno de tuberías a pie de obra para las obras de modernización del regadío de la Comunidad de regantes Presa de Colomers. Torroella de Montgrí (Nª EXP: 23.P21/ND-170304-EO-C24), en el marco del Plan de recuperación, transformación y resiliencia financiado por la Unión Europea - NEXTGENERATION</cbc:Name>
+        <cbc:Description languageID="SPA">Contratación del suministro de zahorra ZA 0/20, ZA 0/32 y áridos para cama de apoyo y relleno de tuberías a pie de obra para las obras de modernización del regadío de la Comunidad de regantes Presa de Colomers. Torroella de Montgrí (Nª EXP: 23.P21/ND-170304-EO-C24), en el marco del Plan de recuperación, transformación y resiliencia financiado por la Unión Europea - NEXTGENERATION EU (PRTR)</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">14210000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:PlannedPeriod>
+            <cbc:StartDate>2024-11-28+01:00</cbc:StartDate>
+            <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+        </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="ID_LOTE">TSA0078579</cbc:ID>
+            <cbc:Name languageID="SPA">Contratación del suministro de zahorra ZA 0/20, ZA 0/32 y áridos para cama de apoyo y relleno de tuberías a pie de obra para las obras de modernización del regadío de la Comunidad de regantes Presa de Colomers. Torroella de Montgrí (Nª EXP: 23.P21/ND-170304-EO-C24), en el marco del Plan de recuperación, transformación y resiliencia financiado por la Unión Europea - NEXTGENERATION</cbc:Name>
+            <cbc:Description languageID="SPA">Contratación del suministro de zahorra ZA 0/20, ZA 0/32 y áridos para cama de apoyo y relleno de tuberías a pie de obra para las obras de modernización del regadío de la Comunidad de regantes Presa de Colomers. Torroella de Montgrí (Nª EXP: 23.P21/ND-170304-EO-C24), en el marco del Plan de recuperación, transformación y resiliencia financiado por la Unión Europea - NEXTGENERATION EU (PRTR)</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">14210000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">ES512</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2024-12-20+01:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

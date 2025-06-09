@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><PriorInformationNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">5</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.sncf.com/</cbc:WebsiteURI>
+                                <cbc:EndpointID>https://sncf.bravosolution.com/web/login.html</cbc:EndpointID>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">SNCF Réseau SA</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>15/17 Rue Jean­Philippe Rameau</cbc:StreetName>
+                                    <cbc:CityName>Saint­-Denis</cbc:CityName>
+                                    <cbc:PostalZone>93418</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">ATZZZ</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>412 280 737 20375</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Sabrina FARAH</cbc:Name>
+                                    <cbc:Telephone>+336 6052 8687</cbc:Telephone>
+                                    <cbc:ElectronicMail>ext.s.farah@reseau.sncf.fr</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>https://montreuil.tribunal-administratif.fr/</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Montreuil</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:Department>Seine Saint Denis</cbc:Department>
+                                </cac:PostalAddress>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366271-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">d2ce43ef-692d-4719-b091-ad8749637adc</cbc:ID>
+    <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+    <cbc:IssueTime>12:27:15Z</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="planning">pin-only</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>https://sncf.bravosolution.com/web/login.html</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="entity-activity">rail</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">2024DOS0760978</cbc:ID>
+        <cbc:Name languageID="FRA">Avis Périodique Indicatif</cbc:Name>
+        <cbc:Description languageID="FRA">La présente consultation préalable s’inscrit dans le cadre des dispositions du code de la commande publique et plus spécifiquement de l’articles R2131-1 et suivants.
+Concerne un potentiel marché de Systèmes déportés entrée/sortie. 
+Le développement du SDES NG répond au besoin pour SNCF RESEAU de disposer d’un système de télétransmission d’information de signalisation robuste, fiable à l’encombrement faible et de moindre coût.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="FRA">La société SNCF Réseau SA émet cet API, AVIS PERIODIQUE INFORMATIF 
+Article R2131­1 L’acheteur peut faire connaître son intention de passer un marché par la publication, pour l’entité adjudicatrice, d’un API avis périodique indicatif. Ces avis sont établis conformément aux modèles fixés par le règlement de la Commission européenne établissant les formulaires standard pour la publication d’avis dans le cadre de la passation de marchés
+ * Article R2131­2 Les avis mentionnés à l’article R. 2131­1 peuvent être : 1 ­ Soit adressés pour publication à l’Office des publications de l’Union européenne ; 2 ­ Soit publiés par l’acheteur sur son profil d’acheteur mentionné à l’article R. 2132­3. Dans ce cas, l’acheteur envoie à l’Office des publications de l’Union européenne un avis annonçantcette publication. L’avis n’est pas publié sur le profil d’acheteur avant l’envoi à l’Office des publications de l’Union  européenne. La date de cet envoi est mentionnée dans l’avis publié sur le profil d’acheteur 
+* Article R2131­3. Lorsqu’une entité adjudicatrice publie un avis périodique indicatif, elle communique aux candidats qui le demandent les spécifications techniques qu’elle fait habituellement figurer ou qu’elle entend faire figurer dans les marchés 
+ayant le même objet que celui mentionné dans l’avis. Ces spécifications techniques sont mises à disposition sur un profil d’acheteur dans les conditions fixées aux articles R. 2131­2, R. 2131­4, R. 2131­5 et R. 2131­6. Toutefois,
+elles sont transmises par d’autres moyens dans les cas suivants : 1 ­ Lorsqu’il n’est pas possible d’offrir un accès gratuit, sans restriction, complet et direct par voie électronique à certains documents de la consultation pour une des 
+raisons mentionnées aux R. 2132­12 et R. 2131­14 ; 2 ­ Lorsque l’entité adjudicatrice entend imposer aux opérateurs économiques des exigences visant à protéger la confidentialité des informations qu’elle met à disposition tout au long de la procédure de passation.</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">34632200</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">30236200</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">30237130</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">30237131</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">30237200</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31224000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31644000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31700000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31710000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31711000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31711100</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31712100</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31712110</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31712113</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31712114</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31712116</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">31731100</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">32415000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">32420000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">32421000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">32441100</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">32441200</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">34632000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">34632300</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:Region>anyw-cou</cbc:Region>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Part">PAR-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <cac:CallForTendersDocumentReference>
+                <ext:UBLExtensions>
+                    <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                            <efext:EformsExtension>
+                                <efac:OfficialLanguages>
+                                    <cac:Language>
+                                        <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                </efac:OfficialLanguages>
+                            </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                    </ext:UBLExtension>
+                </ext:UBLExtensions>
+                <cbc:ID>2024DOS0760978</cbc:ID>
+                <cbc:DocumentTypeCode listName="communication-justification">ipr-iss</cbc:DocumentTypeCode>
+                <cbc:DocumentType>restricted-document</cbc:DocumentType>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://sncf.bravosolution.com/web/login.html</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:DocumentProviderParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:DocumentProviderParty>
+            <cac:TenderRecipientParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:TenderRecipientParty>
+            <cac:TenderEvaluationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:TenderEvaluationParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+                <cac:MediationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:MediationParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efbc:AccessToolName>PORTAIL ACHATS DU GROUPE SNCF via l’URL suivante :</efbc:AccessToolName>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AccessToolsURI>https://sncf.bravosolution.com/web/login.html</cbc:AccessToolsURI>
+            <cac:AdditionalInformationRequestPeriod>
+                <cbc:EndDate>2025-09-19+02:00</cbc:EndDate>
+                <cbc:EndTime>17:00:00+02:00</cbc:EndTime>
+            </cac:AdditionalInformationRequestPeriod>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">2024DOS0760978</cbc:ID>
+            <cbc:Name languageID="FRA">Systèmes de Déport des Entrées/Sorties ­ Nouvelle Génération [SDES­NG]</cbc:Name>
+            <cbc:Description languageID="FRA">Avant projet d'une éventuelle future acquisition d'un système de télétransmission d’information de signalisation.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">34632200</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">30236200</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">30237130</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">30237131</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">30237200</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31224000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31644000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31700000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31710000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31711000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31711100</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31712100</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31712110</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31712113</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31712114</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31712116</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">31731100</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">32415000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">32420000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">32421000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">32441100</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">32441200</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">34632000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">34632300</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:Region>anyw-cou</cbc:Region>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DescriptionCode listName="timeperiod">UNKNOWN</cbc:DescriptionCode>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</PriorInformationNotice>

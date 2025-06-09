@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="EUR">1506678.0000</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0000</cbc:ID>
+              <cbc:HigherTenderAmount currencyID="EUR">1506678.0000</cbc:HigherTenderAmount>
+              <cbc:LowerTenderAmount currencyID="EUR">1506678.0000</cbc:LowerTenderAmount>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+                <cac:LegalMonetaryTotal>
+                  <cbc:PayableAmount currencyID="EUR">1506678.0000</cbc:PayableAmount>
+                </cac:LegalMonetaryTotal>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="tenders">tenders</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-esubm">t-esubm</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-sme">t-sme</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-no-verif">t-no-verif</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-verif-inad">t-verif-inad</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-verif-inad-low">t-verif-inad-low</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-oth-eea">t-oth-eea</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="t-no-eea">t-no-eea</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+              <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+              <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="EUR">1506678.0000</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0000</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+              <cbc:IssueDate>2025-05-23+02:00</cbc:IssueDate>
+              <cbc:Title languageID="SLV">Pogodba št. 401-17/2025 SJN - Najem multifunkcijskih naprav za članice in rektorat Univerze v Ljubljani II</cbc:Title>
+              <efac:ContractReference>
+                <cbc:ID>401-17/2025-13</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0000</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+              </efac:Tenderer>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.uni-lj.si/o_univerzi_v_ljubljani/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">UNIVERZA V LJUBLJANI</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Kongresni trg  12</cbc:StreetName>
+                  <cbc:CityName>Ljubljana</cbc:CityName>
+                  <cbc:PostalZone>1000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>5085063000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+386 12418548</cbc:Telephone>
+                  <cbc:ElectronicMail>javna.narocila@uni-lj.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.dkom.si/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">DRŽAVNA REVIZIJSKA KOMISIJA ZA REVIZIJO POSTOPKOV ODDDAJE JAVNIH NAROČIL</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Slovenska cesta 54</cbc:StreetName>
+                  <cbc:CityName>Ljubljana</cbc:CityName>
+                  <cbc:PostalZone>1000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>1332716000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+38612342800</cbc:Telephone>
+                  <cbc:ElectronicMail>dkom@dkom.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">IT BIRO informacijske tehnologije in servis d.o.o.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Ulica Koroškega bataljona  12</cbc:StreetName>
+                  <cbc:CityName>Ljubljana - Črnuče</cbc:CityName>
+                  <cbc:PostalZone>1231</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>1980980000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">FITEH, servis in trgovina biro opreme, d.o.o.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Selo pri Ihanu  49</cbc:StreetName>
+                  <cbc:CityName>Domžale</cbc:CityName>
+                  <cbc:PostalZone>1230</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>3381641000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368444-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">365be2cd-d6d2-4c0d-9a13-c2f87cd9b193</cbc:ID>
+  <cbc:ContractFolderID>2534334d-30bf-499f-b4a5-1b11da08c8f8</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+  <cbc:IssueTime>10:11:53.0853475+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>SLV</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>JN-54754</cbc:ID>
+    <cbc:Name languageID="SLV">SJN - Najem multifunkcijskih naprav za članice in rektorat Univerze v Ljubljani II</cbc:Name>
+    <cbc:Description languageID="SLV">SJN - Najem multifunkcijskih naprav za članice in rektorat Univerze v Ljubljani II</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <cbc:EstimatedOverallContractAmount currencyID="EUR">2270000.0000</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>70.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Ponudbena cena</cbc:Name>
+            <cbc:Description languageID="SLV">Ponudbena cena (PC) je povprečna cena vseh ponudb v EUR brez DDV, ki zadostujejo vsem pogojem. Ocena je za odstopanje od P. P je povprečna cena vseh ponudb, ki zadostujejo vsem pogojem. Število točk se pridobi na osnovi odstopanja od P. Ponujena cena bo ocenjevana kot razmerje med povprečno ceno vseh ponudb in ceno ponudnika na podlagi  ocenjevalne tabele.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>3.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Sistem pravočasnih sporočil o napakah (SASN)</cbc:Name>
+            <cbc:Description languageID="SLV">Ponudnik mora zagotavljati sistem pravočasnih sporočil o napakah, združljiv s standardnimi senzorji v PRTG, na primer SNMP, zato ponudnik, ki v okviru ponudbene cene naročniku zagotovi tudi sistem pravočasnih sporočil o napakah, združljiv s standardnimi senzorji v PRTG, na primer SNMP, prejme 3 točke.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>5.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Menjava gonilnikov (MG)</cbc:Name>
+            <cbc:Description languageID="SLV">Naročnik ocenjuje, da delo, povezano z menjavo obstoječega gonilnika, na primer nastavitve namenskega programa za upravljanje gonilnikov, npr. Uniflow; namestitev gonilnikov na skupnem tiskalniškem strežniku; testiranje uporabe gonilnikov pri uporabnikih v aplikacijah (pisarniški programi, poslovni programi, drugi pogosti programi) in odprava napak; menjava gonilnikov pri vseh osebah, ki so uporabniki sistema; seznanitev z navodili za končne uporabnike in usposabljanje končnih uporabnikov za uporabo MF, obsega 1000 ur dodatnega dela zaposlenih UL – del tega tudi izven delavnega časa naročnika – kar predstavlja časovno in finančno breme za naročnika, zato ponudnik, ki v okviru ponudbene cene prevzame te stroške in tako razbremeni naročnika teh stroškov, prejme 5 točk.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>5.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Sprememba sistema identitet (SSI)</cbc:Name>
+            <cbc:Description languageID="SLV">Naročnik ocenjuje, da sprememba sistema identitet (prebiranje in vnos RFID kartic v namenski program za upravljanje identitet na strežniku za upravljanje multifunkcijskih naprav; pomoč pri prebiranju in vnosu kartic v namenski program za upravljanje identitet na strežniku za upravljanje multifunkcijskih naprav; priprava novih navodil za upravljanje identitet uporabnikov in pomoč pri pripravi novih navodil za upravljanje identitet uporabnikov in pregled) obsega 150 ur dela zaposlenih na UL in izbranega ponudnika, kar predstavlja časovno in finančno breme za naročnika, zato ponudnik, ki v okviru ponudbene cene prevzame te stroške in tako razbremeni naročnika teh stroškov, prejme 5 točk.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>8.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Menjava multifunkcijskih naprav (MMFN)</cbc:Name>
+            <cbc:Description languageID="SLV">Naročnik ocenjuje, da menjava multifunkcijskih naprav (pomoč pri odvozu starih naprav; pomoč pri transportu v stavbi, namestitev novih naprav, priklop na električno omrežje; reševanje zapletov pri uporabi identitet za vse uporabnike za uporabo naprav; stroški odklopa starih naprav iz PRTG in priklop novih naprav v PRTG in stroški prehoda na nov sistem mesečnih poročil) predstavlja 700 ur dela zaposlenih UL, izbranega ponudnika in izvajalca, ki za UL vzdržuje sistem PRTG, kar predstavlja časovno in finančno breme za naročnika, zato ponudnik, ki v okviru ponudbene cene prevzame te stroške in tako razbremeni naročnika teh stroškov, prejme 8 točk.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>7.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Ostali stroški (OS)</cbc:Name>
+            <cbc:Description languageID="SLV">Naročnik ocenjuje, da ostali stroški (priklopi MF na mrežo; nastavitve IP-jev na MF; pomoč pri nastavitvah IP-jev na MF in priprava navodil za uporabo MF za uporabnike) obsega 900 ur dela zaposlenega UL in izvajalca, ki za UL vzdržuje sistem PRTG, kar predstavlja časovno in finančno breme za naročnika, zato ponudnik, ki v okviru ponudbene cene prevzame te stroške in tako razbremeni naročnika teh stroškov, prejme 7 točk.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>1.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Standard ISO/IEC 27001 (CE)</cbc:Name>
+            <cbc:Description languageID="SLV">Ponudnik, ki izkaže, da ima na dan roka za oddajo ponudbe za predmetno naročilo veljavni certifikat ISO/IEC 27001 ali drugi vsaj enakovreden certifikat, prejme 1 točko. Sistem zagotavljanja varovanja informacij mora biti potrjen s strani neodvisne institucije, ki ima vpeljan certifikacijski proces in je akreditirana s strani mednarodno priznane organizacije. V primeru, da ponudnik predloži kopijo veljavnega certifikata, mora med trajanjem pogodbenega razmerja za to predmetno naročilo redno vzdrževati veljavnost tega certifikata.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>1.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Standard kakovosti ISO 9001 (SO)</cbc:Name>
+            <cbc:Description languageID="SLV">Ponudnik, ki izkaže, da ima na dan roka za oddajo ponudbe za predmetno naročilo veljaven certifikat ISO 9001 ali drugi vsaj enakovreden certifikat, prejme 1 točko. Sistem zagotavljanja kakovosti mora biti potrjen s strani neodvisne institucije, ki ima vpeljan certifikacijski proces in je akreditirana s strani mednarodno priznane organizacije. V primeru, da ponudnik predloži kopijo veljavnega certifikata, mora med trajanjem pogodbenega razmerja za to predmetno naročilo redno vzdrževati veljavnost tega certifikata.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="SLV">Zakon o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 43/11 s spremembami)</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:NoticeDocumentReference>
+        <cbc:ID>9ea2d6ef-f4e0-4c5c-97e8-d5397d3946f7-01</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>294789</cbc:ID>
+      <cbc:Name languageID="SLV">SJN - Najem multifunkcijskih naprav za članice in rektorat Univerze v Ljubljani II</cbc:Name>
+      <cbc:Description languageID="SLV">SJN - Najem multifunkcijskih naprav za članice in rektorat Univerze v Ljubljani II</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">2270000.0000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">60</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

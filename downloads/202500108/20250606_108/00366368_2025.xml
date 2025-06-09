@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">68880</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <cac:FinancingParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:FinancingParty>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">68880</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>C.ROZ.2710.48.2025.MPS</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-06-02+02:00</cbc:IssueDate>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>C.ROZ.2710.48.2025.MPS</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Biuro Inżynieryjno – Projektowe MPG Monika Grzeszczuk </cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.wody.gov.pl/</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://przetargi.wody.gov.pl/</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Państwowe Gospodarstwo Wodne Wody Polskie</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Żelazna 59a</cbc:StreetName>
+                           <cbc:Department>Regionalny Zarząd Gospodarki Wodnej w Gliwicach</cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>00-848</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>368302575</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 327774950</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia.rzgwgliwice@wody.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul.Postępu 17A</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 224587801</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Biuro Inżynieryjno - Projektowe MPG Monika Grzeszczuk</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul.Postępu 17A</cbc:StreetName>
+                           <cbc:CityName>Bujaków</cbc:CityName>
+                           <cbc:PostalZone>43-356</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL225</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5472056387</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366368-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">f7e5aff0-e280-4120-9ec5-1a1aac07965a</cbc:ID>
+   <cbc:ContractFolderID>1886d81f-d794-4fa2-b1b3-a0e63f61bc8d</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04Z</cbc:IssueDate>
+   <cbc:IssueTime>11:59:15Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06Z</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://przetargi.wody.gov.pl/</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">224928-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">C.ROZ.2710.48.2025.MPS</cbc:ID>
+      <cbc:Name languageID="POL">Opracowanie dokumentacji do zgłoszenia wodnoprawnego dla realizacji zadania pn.: Wykonanie konserwacji (utrzymanie): c. Baba w km 0+000-10+007 w m. Bukowno Miasto, Starczynów gm. Bukowno, m. Bolesław gm. Bolesław, m. Olkusz gm. Olkusz</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest: 
+ •	zakup map zasadniczych
+•	wykonanie wizji terenowej określającej potrzeby w zakresie wykonania robót utrzymaniowych
+•	przygotowanie przedmiaru robót i kosztorysu inwestorskiego
+•	przygotowanie dokumentacji pozwalającej na uzyskanie pozytywnej zgody wodnoprawnej
+•	wykonanie badań próbek materiału przewidzianego do usunięcia
+•	wykonanie poprawek i uzupełnień do wniosku, jeśli zajdzie taka potrzeba
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="PLN">65040.65</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71322000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71311100</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">1. Zgodnie z art. 61 ust. 1 ustawy Pzp, komunikacja między
+Zamawiającym a Wykonawcami odbywa się w formie elektronicznej, za pośrednictwem
+Platformy Zakupowej – zwanej dalej „Platformą” –pod adresem: https://przetargi.wody.gov.pl/.
+2. Korzystanie z Platformy jest nieodpłatne. Instrukcja korzystania z Platformy znajduje się pod
+adresem przetargi.wody.gov.pl w zakładce: Instrukcja dla Wykonawców. 3. Korzystanie z
+Platformy nie wymaga zarejestrowania konta na Platformie. 4. Dokumenty związane z
+postępowaniem Zamawiający zamieszcza na Platformie w zakładce z przedmiotowym
+postępowaniem. 5. Celem skomunikowania się z Zamawiającym (z wyłączeniem złożenia
+oferty oraz dokumentów lub oświadczeń składanych razem z ofertą, których sposób złożenia
+został opisany w pkt 14.1 – 14.6 specyfikacji warunków zamówienia, zwanej dalej „SWZ”),
+Wykonawca korzysta z zakładki „Zapytaj”. Zakładka ta służy również Zamawiającemu do
+komunikacji z Wykonawcami. 6. Za datę wpływu wszelkiej korespondencji do Zamawiającego,
+w tym złożenia oferty oraz dokumentów lub oświadczeń składanych razem z ofertą, uważa się
+datę wczytania korespondencji na Platformie. 7. Zamawiający zaleca sporządzeniekorespondencji w następujących formatach: .doc.,. docx, .rtf, .pdf, .xls. 8. Zamawiający informuje, że adres e-mail: gliwice@wody.gov.pl oraz zamowienia.rzgwgliwice@wody.gov. pl
+wskazany w ogłoszeniu o zamówieniu, służy jedynie do przesyłania ogłoszeń i otrzymywania
+informacji zwrotnej z Dziennika Urzędowego Unii Europejskiej. Nie jest to adres do
+komunikacji z Wykonawcami. 9. Maksymalny rozmiar plików przesyłanych za pośrednictwem
+Platformy wynosi 150 MB. 10. Dokumenty elektroniczne, oświadczenia lub cyfrowe
+odwzorowania dokumentów lub oświadczeń składane są przez Wykonawcę za pośrednictwem
+Platformy jako załączniki. Sposób sporządzenia dokumentów elektronicznych, oświadczeń lub
+cyfrowych odwzorowań dokumentów lub oświadczeń musi być zgody z wymaganiami
+określonymi w rozporządzeniu Prezesa Rady Ministrów dnia 30 grudnia 2020 r. w sprawie
+sposobu sporządzania i przekazywania informacji oraz wymagań technicznych dla
+dokumentów elektronicznych oraz środków komunikacji elektronicznej w postępowaniu o
+udzielenie zamówienia publicznego lub konkursie oraz rozporządzeniu Ministra Rozwoju,
+Pracy i Technologii z dnia 23 grudnia 2020 r. w sprawie podmiotowych środków dowodowych
+oraz innych dokumentów lub oświadczeń, jakich może żądać zamawiający od wykonawcy. 11.
+Zamawiający nie wymaga wniesienia wadium przez Wykonawcę.</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="POL">C+T=100%</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">cena brutto - 60%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">termin realizacji - 40%</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Wykonawcy, a także innemu podmiotowi, jeżeli ma lub
+miał interes w uzyskaniu zamówienia oraz poniósł lub może ponieść szkodę w wyniku
+naruszenia przez Zamawiającego przepisów ustawy Pzp, przysługują środki ochrony prawnej
+przewidziane w Dziale IX ustawy Pzp, na zasadach i w terminach określonych dla wartości zamówienia równej lub przekraczającej kwoty określone w przepisach określonych w art. 3ust.
+1 pkt 1ustawy Pzp. 2. Kwestie dotyczące odwołania uregulowane są w art. 513 – 578 ustawy
+Pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="POL">Opracowanie dokumentacji do zgłoszenia wodnoprawnego dla realizacji zadania pn.: Wykonanie konserwacji (utrzymanie): c. Baba w km 0+000-10+007 w m. Bukowno Miasto, Starczynów gm. Bukowno, m. Bolesław gm. Bolesław, m. Olkusz gm. Olkusz</cbc:Name>
+         <cbc:Description languageID="POL">Przedmiotem zamówienia jest: 
+ •	zakup map zasadniczych
+•	wykonanie wizji terenowej określającej potrzeby w zakresie wykonania robót utrzymaniowych
+•	przygotowanie przedmiaru robót i kosztorysu inwestorskiego
+•	przygotowanie dokumentacji pozwalającej na uzyskanie pozytywnej zgody wodnoprawnej
+•	wykonanie badań próbek materiału przewidzianego do usunięcia
+•	wykonanie poprawek i uzupełnień do wniosku, jeśli zajdzie taka potrzeba
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">Zamawiający zastrzega sobie prawo unieważnienia przedmiotowego postępowania, jeżeli środki, które Zamawiający zamierzał przeznaczyć na sfinansowanie całości lub części przedmiotowego zamówienia, nie zostaną mu przyznane. W przypadku unieważnienia na podstawie ww. przesłanki, Wykonawcom nie przysługuje zwrot kosztów uczestnictwa w postępowaniu.</cbc:Note>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">65040.65</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71322000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71311100</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Szczegółowy opis przedmiotu zamówienia zawiera Załącznik Nr 1 do SWZ </cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="DAY">150</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

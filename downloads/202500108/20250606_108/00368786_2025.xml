@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.schermbeck.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Gemeinde Schermbeck, Der Bürgermeister</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Weseler Straße 2</cbc:StreetName>
+									<cbc:CityName>Schermbeck</cbc:CityName>
+									<cbc:PostalZone>46514</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA1F</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>051700036036-31001-95</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 28539100</cbc:Telephone>
+									<cbc:Telefax>+49 2853910119</cbc:Telefax>
+									<cbc:ElectronicMail>info@schermbeck.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Kreis Wesel, Der Landrat</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Reeser Landstraße 31</cbc:StreetName>
+									<cbc:CityName>Wesel</cbc:CityName>
+									<cbc:PostalZone>46483</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA1F</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>051700048048-31002-47</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:ElectronicMail>post@kreis-wesel.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368786-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">a9080a22-8727-413e-90b2-76387d758f6c</cbc:ID>
+	<cbc:ContractFolderID>3370b9ef-76a9-4491-97f5-e183ea7c6408</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+	<cbc:IssueTime>16:04:54+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:Description languageID="DEU">Es handelt sich um ein offenes Verfahren. Anschließende Verhandlungen erfolgen nicht. Die Bedingungen des beigefügten Vertragswerkes sind zwingende Auftragsbestandteile. Das Angebot ist als pauschales Gesamthonorar zu übermitteln.</cbc:Description>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.vergabe.metropoleruhr.de/VMPSatellite/notice/CXPSYRBDXML</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">true</cbc:ProcessReasonCode>
+			<cbc:ProcessReason languageID="DEU">Die Frist ist um 5 Tage verkürzt, da wir die elektronische Übermittlung der Angebote akzeptieren (§ 15 Abs. 4 VgV).</cbc:ProcessReason>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">SMB-2025-002</cbc:ID>
+		<cbc:Name languageID="DEU">Generalplanung energetische Kernsanierung Dreifachsporthalle</cbc:Name>
+		<cbc:Description languageID="DEU">Die Dreifachsporthalle ist eine zentrale Einrichtung für den Sportbetrieb und die Freizeitgestaltung in der Gemeinde Schermbeck und bedarf einer umfassenden Modernisierung, um den Anforderungen an Energieeffizienz gerecht zu werden. Die Dreifachsporthalle in Schermbeck wurde in den 70er-Jahren erbaut und ist seitdem eine wichtige Sportstätte für Schulen, Vereine und die Bevölkerung. Im Laufe der Jahre haben sich jedoch verschiedene Mängel und Probleme angesammelt, die eine Sanierung dringend erforderlich machen. Die wichtigste Maßnahme, die im Rahmen dieses Projekts durchgeführt werden sollen, ist die strukturelle, energetische Sanierung. Hierzu wurde ein Rahmenplan zur Überprüfung und Instandsetzung der tragenden Elemente erarbeitet, um die strukturelle Integrität der Sporthalle zu gewährleisten. Die Planungen der Gebäudetechnik beinhaltet den Austausch veralteter Heizungs-, Lüftungs- und Elektrosysteme durch energieeffiziente und umweltfreundliche Lösungen, um den Energieverbrauch der Halle zu reduzieren und die Energieeffizienz zu verbessern. Durch den Austausch oder die Verbesserung von Wärmedämmung, Fenstern, Türen, Heizungs- und Belüftungssystemen kann der Energieverbrauch deutlich gesenkt werden; dies wird durch das Energiekonzept bestätigt.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXPSYRBDXML</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Schloßstraße 20</cbc:StreetName>
+				<cbc:CityName>Schermbeck</cbc:CityName>
+				<cbc:PostalZone>46514</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEA1F</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Der Bewerber / die Bewerbergemeinschaft hat im Hinblick auf die technische und berufliche Leistungsfähigkeit dem Angebot vorzulegen: Angaben zur beruflichen Leistungsfähigkeit durch Nachweis der Anzahl der Beschäftigten inkl. Führungskräfte/ Büroinhaber in den letzten 3  Jahren (2022, 2023, 2024) sowie aktuell, unterteilt in Architekten/ Ingenieure und sonstige Mitarbeiter. Mindestanforderung: Der Bewerber/ die Mitglieder der Bewerbergemeinschaft gemeinsam muss/müssen aktuell über mind. 2 festangestellte Architekten/Ingenieure (inkl. Führungskräfte/ Büroinhaber) verfügen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Der Bewerber / die Bewerbergemeinschaft hat im Hinblick auf die technische und berufliche Leistungsfähigkeit mit dem Angebot vorzulegen: Angaben zum Netto-Umsatz mit Generalplanungsleistungen in den letzten 3 Kalenderjahren (2022, 2023, 2024), getrennt nach  Jahren. Mindeststanforderung: Der Netto-Umsatz mit  Generalplanungsleistungen, des Bewerbers/ sämtlicher Mitglieder einer Bewerbergemeinschaft in der Summe muss im Zeitraum der letzten drei Jahre (2022-2024) jeweils mindestens 250.000,00 EUR pro Jahr betragen haben.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis einer Berufshaftpflichtversicherung mit Deckungssummen i. H. v. mindestens 2 000 000 EUR für Sach- und Personenschäden sowie Vermögensschäden, zweifach maximiert pro Jahr (Fremdbescheinigung des Versicherungsgebers, nicht älter als 3 Monate, Kopie ausreichend)  oder Bereitschaftserklärung eines Versicherungsgebers, im Auftragsfall eine entsprechende Versicherung abzuschließen (Kopie ausreichend).</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.vergabe.metropoleruhr.de/VMPSatellite/notice/CXPSYRBDXML/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Unterlagen zur Aufklärung über das Angebot oder die Bietereignung können nachgefordert werden jedoch keine Referenzen oder Angebotsangaben, die Einfluss auf die Zuschlagskriterien haben.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Die Erbringung der Dienstleistung ist einem besonderen Berufsstand vorbehalten. Zugelassen sind alle Bewerber, die nach § 75 VgV berechtigt sind, die Berufsbezeichnung "Architekt" oder "Ingenieur" zu tragen und über die erforderlichen Nachweise verfügen. Auswärtige Bewerber mit der Staatsangehörigkeit eines Mitgliedstaates der EU oder eines Vertragsstaates des Abkommens  über den EWR erfüllen die fachliche Voraussetzung für ihre Bewerbung, wenn ihre Berechtigung zur Führung der oben genannten Berufsbezeichnung nach der Richtlinie 2005/36/EG des Europäischen Parlaments und des Rates über die Anerkennung von Berufsqualifikationen gewährleistet ist.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>70.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Honorarangebot</cbc:Name>
+						<cbc:Description languageID="DEU">Das Kriterium des Preises wird anhand des Honorarangebotes ermittelt. Dieses soll, angelehnt an die HOAI, als Pauschalhonorarangebot angegeben werden. Die Vergleichbarkeit ist somit sichergestellt. Das Angebot mit der niedrigsten Endsumme für den Angebotspreis erhält die max. Punktzahl (70 von 100). Die nachfolgenden Angebote erhalten im prozentualen Verhältnis entsprechend weniger. Es wird kaufmännisch gerundet.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>30.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Qualität der vergleichbaren Aufgabenausführung</cbc:Name>
+						<cbc:Description languageID="DEU">Die Bieter reichen zusammen mit dem Angebot max. drei Referenzen über einer Generalplanung im Bereich Schul- und Sporthallenbau, Schul- und Sporthallensanierung aus den letzten 10 Jahren (max. je 1 DIN A4-Blatt) in vergleichbarer Größenordnung ein. Keine eingereichte Referenz führt zum Ausschluss. Die Darstellung der Referenz muss mindestens beinhalten: - Aufgabenstellung - Ausgeführte Leistungsphasen nach HOAI - Baukosten  - Bestätigung der auftragsgemäßen Durchführung, insbesondere die Einhaltung von Budget und Bauzeiten, durch den Auftraggeber (Referenzgeber). Die Bewertung erfolgt ausschließlich für die eingereichten max. drei Referenzen. Je bewerteter Referenz können max. 10 Punkte erreicht werden. Insgesamt also max. 30 von 100 Punkten für das Angebot. Mehr als drei Referenzen werden nicht gewertet. Bei der Einreichung von mehr als drei Referenzen, sind die zu wertenden Referenzen zu kennzeichnen. Bei mehr als drei Referenzen und fehlender Kennzeichnung erfolgt keine Bewertung. Die Punktevergabe erfolgt anhand der folgenden Paramater: 0 Punkte Die Erläuterungen der Referenz fehlt oder ist unvollständig oder ist nach Prüfung nicht mit der Aufgabenstellung vergleichbar oder der Auftrag wurde lt. Referenzgeber nicht auftragsgemäß durchgeführt. 2 Punkte Die dargestellten Referenzen wurden mit Überschreitung von Baubudget (mind. 10 %) und/oder Bauzeit (mind. 10%) durchgeführt. 4 Punkte Die dargestellten Referenzen wurden im Rahmen einer öffentlich geförderten Maßnahme, unter Einhaltung der zur Referenzzeit gültigen EnEV / GEG mit Überschreitung des Baubudgets (mind. 10 %) und unter Einhaltung der Bauzeit durchgeführt. 6 Punkte Die dargestellten Referenzen wurden im Rahmen einer öffentlich geförderten Maßnahme unter Einhaltung der zur Referenzzeit gültigen EnEV / GEG und unter Einhaltung von Baubudget und Bauzeit durchgeführt. 8 Punkte Die dargestellten Referenzen wurden im Rahmen einer öffentlich geförderten Maßnahme unter Einhaltung der zur Referenzzeit gültigen EnEV / GEG mit Unterschreitung von Baubudget (mind. 10 %) und/oder Bauzeit (mind. 10 %) durchgeführt 10 Punkte Die dargestellten Referenzen wurden im Rahmen einer öffentlich geförderten Maßnahme mit Unterschreitung der Mindestwerte der zur Referenzzeit gültigen EnEV / GEG und mit Unterschreitung von Baubudget (mind. 10 %) und/oder Bauzeit (mind. 10 %) durchgeführt.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.vergabe.metropoleruhr.de/VMPSatellite/notice/CXPSYRBDXML</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">1</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.vergabe.metropoleruhr.de/VMPSatellite/notice/CXPSYRBDXML</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+				<cbc:EndTime>07:59:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-26+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2025-07-07+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>08:00:00+02:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">SMB-2025-002</cbc:ID>
+			<cbc:Name languageID="DEU">Generalplanung energetische Kernsanierung Dreifachsporthalle</cbc:Name>
+			<cbc:Description languageID="DEU">Gegenstand dieses zu vergebenden Auftrages ist die Gesamtplanung für die energetische Kernsanierung der Dreifachsporthalle inkl. Nebenräumen auf dem Grundstück Schloßstraße 20, 46514 Schermbeck. Das Gebäude ist 1975 errichtet worden, mit einer Nutzfläche von 2.825 m² und soll vollumfänglich energetisch saniert werden. Da mit der 2023 erarbeiteten Sanierungskonzeption und dem darauf aufbauenden 2025 abgeschlossenen Energiekonzept die Grundlagen bereits erarbeitet sind, soll direkt mit der Vorplanung (LP 2 in Anlehnung an die HOAI 2021) begonnen werden.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Schloßstraße 20</cbc:StreetName>
+					<cbc:CityName>Schermbeck</cbc:CityName>
+					<cbc:PostalZone>46514</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEA1F</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DescriptionCode listName="duration">UNKNOWN</cbc:DescriptionCode>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

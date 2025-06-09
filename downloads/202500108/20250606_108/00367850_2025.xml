@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.nfz.gov.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://nfz.ezamawiajacy.pl</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Narodowy Fundusz Zdrowia Centrala</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Rakowiecka 26/30</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-528</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>1070001057</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>https://nfz.ezamawiajacy.pl</cbc:Name>
+                           <cbc:Telephone>225726260</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia@nfz.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.uzp.gov.pl</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Postępu 17A</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367850-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">992c9f1a-0d4c-4461-848b-79e3e136e298</cbc:ID>
+   <cbc:ContractFolderID>113e7dfa-287e-4958-b012-5aea91e1d8dd</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>12:27:45Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://nfz.ezamawiajacy.pl</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>4</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>4</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">NFZ-BAG-SZP.251.5.2025</cbc:ID>
+      <cbc:Name languageID="POL">Dostawa energii elektrycznej dla Oddziałów Wojewódzkich Narodowego Funduszu Zdrowia </cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest „Dostawa energii elektrycznej dla Oddziałów Wojewódzkich Narodowego Funduszu Zdrowia”. 
+Zamawiający dopuszcza składanie ofert częściowych. Zamówienie podzielone jest na cztery odrębne części. Podział zamówienia na części dokonany jest według przynależności terytorialnej danego Oddziału Narodowego Funduszu Zdrowia do Operatora Systemu Dystrybucyjnego:
+Część A obejmuje: dostawę energii elektrycznej w planowanej ilości zużycia 5 144 500 kWh
+(5 144,50 MWh) do następujących Oddziałów Narodowego Funduszu Zdrowia: Kujawsko-Pomorski, Lubuski, Wielkopolski, Zachodniopomorski;
+Część B obejmuje: dostawę energii elektrycznej w planowanej ilości zużycia 1 536 500 kWh
+(1 536,50 MWh) do następujących Oddziałów Narodowego Funduszu Zdrowia: Mazowiecki (delegatura w Płocku), Pomorski, Warmińsko-Mazurski (Delegatura w Elblągu);
+Część C obejmuje: dostawę energii elektrycznej w planowanej ilości zużycia 6 115 000 kWh (6 115,00 MWh) do następujących Oddziałów Narodowego Funduszu Zdrowia: Dolnośląski, Małopolski, Śląski;
+Część D obejmuje: dostawę energii elektrycznej w planowanej ilości zużycia 5 672 500 kWh 
+(5 672,50 MWh) do następujących Oddziałów Narodowego Funduszu Zdrowia: Lubelski, Łódzki, Mazowiecki (delegatura w Ostrołęce i Radomiu), Podkarpacki, Podlaski, Świętokrzyski, Warmińsko-Mazurski (Delegatura w Ełku).
+Szczegółowy wykaz Punktów Poboru Energii elektrycznej ze wskazaniem szacowanego zużycia i grupy taryfowej stanowi Załącznik nr 1a do Opisu Przedmiotu Zamówienia.
+Opis Przedmiotu Zamówienia stanowi Załącznik nr 1, 1a, 1b do Specyfikacji.
+Szczegółowy sposób realizacji zamówienia określa projekt Umowy stanowiący Załącznik nr 2 do Specyfikacji.
+Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">Zamawiający informuje, że podstawy wykluczenia i warunki udziału w postępowaniu znajdują się w dokumentach zamówienia, tj. w Specyfikacji warunków zamówienia.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="PLN">12004525</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">09300000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+            <cbc:Description languageID="POL">1.	Wykonawca składający ofertę   jest zobowiązany wnieść wadium w zależności na jaką część składa ofertę w wysokości:
+‒	w części A – 40.000,00 złotych (czterdzieści tysięcy złotych);
+2.	Wadium wnosi się przed upływem terminu składania ofert i utrzymuje nieprzerwanie do dnia upływu terminu związania ofertą, z wyjątkiem przypadków, o których mowa w art. 98 ust. 1 pkt 2 i 3 oraz ust. 2 ustawy PZP.
+3.	Wadium może być wnoszone według wyboru Wykonawcy w jednej lub kilku następujących formach:
+1)	pieniądzu;
+2)	gwarancjach bankowych;
+3)	gwarancjach ubezpieczeniowych;
+4)	poręczeniach udzielanych przez podmioty, o których mowa w art. 6b ust. 5 pkt 2 ustawy z dnia 9 listopada 2000 r. o utworzeniu Polskiej Agencji Rozwoju Przedsiębiorczości (Dz.U. z 2025 r. poz. 98).
+4.	Wadium w formie pieniądza należy wnieść przelewem na rachunek bankowy o numerze: 77 1130 1017 0020 0734 8625 7421 z dopiskiem: „Wadium Część (A lub B lub C lub D) – NFZ-BAG-SZP.251.5.2025 / Dostawa energii elektrycznej dla Oddziałów Wojewódzkich Narodowego Funduszu Zdrowia” UWAGA: Za termin wniesienia wadium w formie pieniężnej zostanie przyjęty termin uznania rachunku bankowego Zamawiającego.
+5.	Wadium wnoszone w formie poręczeń lub gwarancji musi spełniać co najmniej poniższe wymagania:
+1)	musi obejmować odpowiedzialność za wszystkie przypadki powodujące utratę wadium przez Wykonawcę określone w ustawie PZP, bez potwierdzania tych okoliczności;
+2)	z treści powinno jednoznacznie wynikać zobowiązanie gwaranta do zapłaty całej kwoty wadium;
+3)	powinno być nieodwołalne i bezwarunkowe oraz płatne na pierwsze żądanie;
+4)	termin obowiązywania poręczenia lub gwarancji nie może być krótszy niż termin związania ofertą (z zastrzeżeniem, iż pierwszym dniem związania ofertą jest dzień składania ofert);
+5)	w treści poręczenia lub gwarancji powinna znaleźć się nazwa oraz numer przedmiotowego postępowania;
+6)	musi zawierać wskazanie beneficjenta poręczenia lub gwarancji;
+7)	w przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia (art. 58 ustawy PZP), Zamawiający wymaga, aby poręczenie lub gwarancja obejmowała swą treścią (tj. zobowiązanych z tytułu poręczenia lub gwarancji) wszystkich Wykonawców wspólnie ubiegających się o udzielenie zamówienia lub aby z jej treści wynikało, że zabezpiecza ofertę Wykonawców wspólnie ubiegających się o udzielenie zamówienia (konsorcjum);
+8)	musi zostać złożone w oryginale w postaci elektronicznej.
+6.	W przypadku wniesienia wadium w formie:
+1)	pieniężnej – zaleca się, by dowód dokonania przelewu został dołączony do oferty;
+2)	poręczeń lub gwarancji – wymaga się, by oryginał dokumentu został złożony wraz z ofertą.
+7.	Oferta Wykonawcy, który nie wniesie wadium lub wniesie wadium w sposób nieprawidłowy lub nie utrzyma wadium nieprzerwanie do upływu terminu związania ofertą lub złoży wniosek o zwrot wadium w przypadku, o którym mowa w art. 98 ust. 2 pkt 3 ustawy PZP zostanie odrzucona.
+8.	Zasady zwrotu oraz okoliczności zatrzymania wadium określa ustawa PZP.</cbc:Description>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>NFZ-BAG-SZP.251.5.2025</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://nfz.ezamawiajacy.pl</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="POL">14 dni</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">Sposób realizacji zamówienia określa projekt umowy stanowiący załącznik nr 2 do Specyfikacji</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">umowa o poufności stanowi załącznik do projektu umowy</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="POL">.</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Najniższa cena</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://nfz.ezamawiajacy.pl</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Odwołanie wnosi się w terminie 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej. Środki ochrony prawnej przysługują Wykonawcy, jeżeli ma lub miał interes w uzyskaniu zamówienia oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez Zamawiającego przepisów ustawy Pzp. W niniejszym postępowaniu przysługują środki ochrony prawnej określone w Dziale IX ustawy Pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:30:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">1.W postępowaniu o udzielenie zamówienia publicznego komunikacja między Zamawiającym a Wykonawcami odbywa się przy użyciu Platformy Zakupowej https://nfz.ezamawiajacy.pl (dalej jako: "Platforma Zakupowa" lub System). 2.Wejście na platformę poprzez link: https://nfz.ezamawiajacy.pl. 3.Wykonawca przystępując do postępowania o udzielenie zamówienia publicznego, tj. bezpłatnie rejestrując się lub logując, w przypadku posiadania konta w Platformie Zakupowej, akceptuje warunki korzystania z Platformy, określone w Regulaminie zamieszczonym na stronie internetowej https://oneplace.marketplanet.pl/regulamin oraz uznaje go za wiążący. 4.Instrukcja korzystania z Platformy Zakupowej w niniejszym postępowaniu znajduje się na Platformie Zakupowej Zamawiającego w zakładce „Regulacje i procedury procesu zakupowego".
+5. Wykonawca będzie związany ofertą od dnia upływu terminu składania ofert, przy czym pierwszym dniem terminu związania ofertą jest dzień, w którym upływa termin składania ofert, przez okres 90 dni, tj. do dnia 05.10.2025 r.</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://nfz.ezamawiajacy.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Część A</cbc:ID>
+         <cbc:Name languageID="POL">Część A</cbc:Name>
+         <cbc:Description languageID="POL">Część A obejmuje: dostawę energii elektrycznej w planowanej ilości zużycia 5 144 500 kWh (5 144,50 MWh) do następujących Oddziałów Narodowego Funduszu Zdrowia: Kujawsko-Pomorski, Lubuski, Wielkopolski, Zachodniopomorski. 
+Opis Przedmiotu Zamówienia stanowi Załącznik nr 1, 1a, 1b do Specyfikacji.
+Szczegółowy sposób realizacji zamówienia określa projekt Umowy stanowiący Załącznik nr 2 do Specyfikacji.
+Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">1.	Wykonawca może złożyć tylko jedną ofertę. Złożenie większej liczby ofert spowoduje odrzucenie wszystkich ofert złożonych przez danego Wykonawcę.
+2.	Treść oferty musi odpowiadać treści dokumentów zamówienia.
+3.	Wykonawca składa ofertę za pośrednictwem Platformy Zakupowej.
+4.	Ofertę sporządza się w języku polskim na Formularzu Ofertowym – zgodnie z Załącznikiem nr 3 do Specyfikacji wraz z Formularzem cenowym w zależności od części na jaką składa ofertę.
+5.	Elektroniczna oferta musi zawierać następujące dokumenty: 
+1)	oświadczenie w formie Jednolitego Europejskiego Dokumentu Zamówienia (JEDZ/ESPD), o którym mowa w Rozdziale VII pkt 1 Specyfikacji;
+2)	oświadczenie z art. 117 ust. 4 ustawy PZP Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia – zgodnie z Załącznikiem nr 4 do Specyfikacji (dotyczy Wykonawców wspólnie ubiegających się o udzielenie zamówienia);
+3)	zobowiązanie innego podmiotu oraz oświadczenie w formie Jednolitego Europejskiego Dokumentu Zamówienia (JEDZ/ESPD), o których mowa w Rozdziale V pkt 5 Specyfikacji (jeżeli dotyczy);
+4)	oryginał dokumentu potwierdzający wniesienie wadium (w przypadku wadium złożonego w formie poręczeń lub gwarancji);
+5)	odpis lub informację z Krajowego Rejestru Sądowego, Centralnej Ewidencji i Informacji o Działalności Gospodarczej lub innego właściwego rejestru – składaną w celu potwierdzenia, że osoba działająca w imieniu Wykonawcy (lub Wykonawców wspólnie ubiegających się o udzielnie zamówienia lub podmiotu udostępniającego zasoby) jest umocowana do jego reprezentowania, przy czym Wykonawca nie jest zobowiązany do złożenia tych dokumentów, jeżeli Zamawiający może je uzyskać za pomocą bezpłatnych ogólnodostępnych baz danych, o ile Wykonawca wskazał dane umożliwiające dostęp do tych dokumentów. Jeżeli w imieniu Wykonawcy działa osoba, której umocowanie do jego reprezentowania nie wynika z ww. dokumentów, Wykonawca obowiązany jest złożyć pełnomocnictwo lub inny dokument potwierdzający umocowanie do reprezentowania Wykonawcy lub Wykonawców wspólnie ubiegających się o udzielenie zamówienia lub podmiotu udostępniającego zasoby;
+6)	uzasadnienie, że zastrzeżone informacje stanowią tajemnicę przedsiębiorstwa w rozumieniu art. 11 ust. 4 ustawy o zwalczaniu nieuczciwej konkurencji (o ile dotyczy);
+7)	oświadczenie Wykonawcy/Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego zgodnie z Załącznikiem nr 5 do Specyfikacji;
+8)	oświadczenie podmiotu udostępniającego zasoby dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego zgodnie z Załącznikiem nr 6 do Specyfikacji.
+9)	Wypełniony Załącznik nr 3 do Specyfikacji – TABELE od nr A do nr D (FORMULARZ CENOWY) – w zależności na jaką część składa.
+6. Wykonawca musi posiadać ważną koncesję na prowadzenie działalności gospodarczej w zakresie obrotu energią elektryczną, wydaną przez Prezesa Urzędu Regulacji Energetyki, zgodnie ustawą z dnia 10 kwietnia 1997 r. Prawo Energetyczne (Dz. U z 2024 r. poz. 266 z późn. zm.). Zgodnie z treścią art. 117 ust. 2 ustawy PZP warunek dotyczący uprawnień do prowadzenia określonej działalności gospodarczej lub zawodowej jest spełniony, jeżeli Wykonawca posiada uprawnienia do prowadzenia określonej działalności gospodarczej lub zawodowej i to on zrealizuje dostawę energii elektrycznej. W takim przypadku Wykonawcy wspólnie ubiegający się o udzielenie zamówienia dołączają do oferty oświadczenie, z którego wynika, który z Wykonawców realizować będzie przedmiot zamówienia.
+Zamawiający przewiduje zastosowanie tzw. procedury odwróconej, o której mowa w art. 139 ust. 1 ustawy PZP, tj. Zamawiający najpierw dokona badania i oceny ofert, a następnie dokona kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełniania warunków udziału w postępowaniu. </cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">3343925</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">09300000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">30</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+            <cbc:Description languageID="POL">1.	Wykonawca składający ofertę   jest zobowiązany wnieść wadium w zależności na jaką część składa ofertę w wysokości:
+‒	w części B – 10.000,00 złotych (dziesięć tysięcy złotych);
+2.	Wadium wnosi się przed upływem terminu składania ofert i utrzymuje nieprzerwanie do dnia upływu terminu związania ofertą, z wyjątkiem przypadków, o których mowa w art. 98 ust. 1 pkt 2 i 3 oraz ust. 2 ustawy PZP.
+3.	Wadium może być wnoszone według wyboru Wykonawcy w jednej lub kilku następujących formach:
+1)	pieniądzu;
+2)	gwarancjach bankowych;
+3)	gwarancjach ubezpieczeniowych;
+4)	poręczeniach udzielanych przez podmioty, o których mowa w art. 6b ust. 5 pkt 2 ustawy z dnia 9 listopada 2000 r. o utworzeniu Polskiej Agencji Rozwoju Przedsiębiorczości (Dz.U. z 2025 r. poz. 98).
+4.	Wadium w formie pieniądza należy wnieść przelewem na rachunek bankowy o numerze: 77 1130 1017 0020 0734 8625 7421 z dopiskiem: „Wadium Część (A lub B lub C lub D) – NFZ-BAG-SZP.251.5.2025 / Dostawa energii elektrycznej dla Oddziałów Wojewódzkich Narodowego Funduszu Zdrowia” UWAGA: Za termin wniesienia wadium w formie pieniężnej zostanie przyjęty termin uznania rachunku bankowego Zamawiającego.
+5.	Wadium wnoszone w formie poręczeń lub gwarancji musi spełniać co najmniej poniższe wymagania:
+1)	musi obejmować odpowiedzialność za wszystkie przypadki powodujące utratę wadium przez Wykonawcę określone w ustawie PZP, bez potwierdzania tych okoliczności;
+2)	z treści powinno jednoznacznie wynikać zobowiązanie gwaranta do zapłaty całej kwoty wadium;
+3)	powinno być nieodwołalne i bezwarunkowe oraz płatne na pierwsze żądanie;
+4)	termin obowiązywania poręczenia lub gwarancji nie może być krótszy niż termin związania ofertą (z zastrzeżeniem, iż pierwszym dniem związania ofertą jest dzień składania ofert);
+5)	w treści poręczenia lub gwarancji powinna znaleźć się nazwa oraz numer przedmiotowego postępowania;
+6)	musi zawierać wskazanie beneficjenta poręczenia lub gwarancji;
+7)	w przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia (art. 58 ustawy PZP), Zamawiający wymaga, aby poręczenie lub gwarancja obejmowała swą treścią (tj. zobowiązanych z tytułu poręczenia lub gwarancji) wszystkich Wykonawców wspólnie ubiegających się o udzielenie zamówienia lub aby z jej treści wynikało, że zabezpiecza ofertę Wykonawców wspólnie ubiegających się o udzielenie zamówienia (konsorcjum);
+8)	musi zostać złożone w oryginale w postaci elektronicznej.
+6.	W przypadku wniesienia wadium w formie:
+1)	pieniężnej – zaleca się, by dowód dokonania przelewu został dołączony do oferty;
+2)	poręczeń lub gwarancji – wymaga się, by oryginał dokumentu został złożony wraz z ofertą.
+7.	Oferta Wykonawcy, który nie wniesie wadium lub wniesie wadium w sposób nieprawidłowy lub nie utrzyma wadium nieprzerwanie do upływu terminu związania ofertą lub złoży wniosek o zwrot wadium w przypadku, o którym mowa w art. 98 ust. 2 pkt 3 ustawy PZP zostanie odrzucona.
+8.	Zasady zwrotu oraz okoliczności zatrzymania wadium określa ustawa PZP.</cbc:Description>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>NFZ-BAG-SZP.251.5.2025</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://nfz.ezamawiajacy.pl</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="POL">14 dni</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">Sposób realizacji zamówienia określa projekt umowy stanowiący załącznik nr 2 do Specyfikacji</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">umowa o poufności stanowi załącznik do projektu umowy</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="POL">.</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL"> Najniższa cena</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://nfz.ezamawiajacy.pl</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Odwołanie wnosi się w terminie 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej. Środki ochrony prawnej przysługują Wykonawcy, jeżeli ma lub miał interes w uzyskaniu zamówienia oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez Zamawiającego przepisów ustawy Pzp. W niniejszym postępowaniu przysługują środki ochrony prawnej określone w Dziale IX ustawy Pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:30:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">1.W postępowaniu o udzielenie zamówienia publicznego komunikacja między Zamawiającym a Wykonawcami odbywa się przy użyciu Platformy Zakupowej https://nfz.ezamawiajacy.pl (dalej jako: "Platforma Zakupowa" lub System). 2.Wejście na platformę poprzez link: https://nfz.ezamawiajacy.pl. 3.Wykonawca przystępując do postępowania o udzielenie zamówienia publicznego, tj. bezpłatnie rejestrując się lub logując, w przypadku posiadania konta w Platformie Zakupowej, akceptuje warunki korzystania z Platformy, określone w Regulaminie zamieszczonym na stronie internetowej https://oneplace.marketplanet.pl/regulamin oraz uznaje go za wiążący. 4.Instrukcja korzystania z Platformy Zakupowej w niniejszym postępowaniu znajduje się na Platformie Zakupowej Zamawiającego w zakładce „Regulacje i procedury procesu zakupowego".
+5. Wykonawca będzie związany ofertą od dnia upływu terminu składania ofert, przy czym pierwszym dniem terminu związania ofertą jest dzień, w którym upływa termin składania ofert, przez okres 90 dni, tj. do dnia 05.10.2025 r.</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://nfz.ezamawiajacy.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Część B</cbc:ID>
+         <cbc:Name languageID="POL">Część B </cbc:Name>
+         <cbc:Description languageID="POL">Część B obejmuje: dostawę energii elektrycznej w planowanej ilości zużycia 1 536 500 kWh (1 536,50 MWh) do następujących Oddziałów Narodowego Funduszu Zdrowia: Mazowiecki (delegatura w Płocku), Pomorski, Warmińsko-Mazurski (Delegatura w Elblągu);
+Opis Przedmiotu Zamówienia stanowi Załącznik nr 1, 1a, 1b do Specyfikacji.
+Szczegółowy sposób realizacji zamówienia określa projekt Umowy stanowiący Załącznik nr 2 do Specyfikacji.
+Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">1.	Wykonawca może złożyć tylko jedną ofertę. Złożenie większej liczby ofert spowoduje odrzucenie wszystkich ofert złożonych przez danego Wykonawcę.
+2.	Treść oferty musi odpowiadać treści dokumentów zamówienia.
+3.	Wykonawca składa ofertę za pośrednictwem Platformy Zakupowej.
+4.	Ofertę sporządza się w języku polskim na Formularzu Ofertowym – zgodnie z Załącznikiem nr 3 do Specyfikacji wraz z Formularzem cenowym w zależności od części na jaką składa ofertę.
+5.	Elektroniczna oferta musi zawierać następujące dokumenty: 
+1)	oświadczenie w formie Jednolitego Europejskiego Dokumentu Zamówienia (JEDZ/ESPD), o którym mowa w Rozdziale VII pkt 1 Specyfikacji;
+2)	oświadczenie z art. 117 ust. 4 ustawy PZP Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia – zgodnie z Załącznikiem nr 4 do Specyfikacji (dotyczy Wykonawców wspólnie ubiegających się o udzielenie zamówienia);
+3)	zobowiązanie innego podmiotu oraz oświadczenie w formie Jednolitego Europejskiego Dokumentu Zamówienia (JEDZ/ESPD), o których mowa w Rozdziale V pkt 5 Specyfikacji (jeżeli dotyczy);
+4)	oryginał dokumentu potwierdzający wniesienie wadium (w przypadku wadium złożonego w formie poręczeń lub gwarancji);
+5)	odpis lub informację z Krajowego Rejestru Sądowego, Centralnej Ewidencji i Informacji o Działalności Gospodarczej lub innego właściwego rejestru – składaną w celu potwierdzenia, że osoba działająca w imieniu Wykonawcy (lub Wykonawców wspólnie ubiegających się o udzielnie zamówienia lub podmiotu udostępniającego zasoby) jest umocowana do jego reprezentowania, przy czym Wykonawca nie jest zobowiązany do złożenia tych dokumentów, jeżeli Zamawiający może je uzyskać za pomocą bezpłatnych ogólnodostępnych baz danych, o ile Wykonawca wskazał dane umożliwiające dostęp do tych dokumentów. Jeżeli w imieniu Wykonawcy działa osoba, której umocowanie do jego reprezentowania nie wynika z ww. dokumentów, Wykonawca obowiązany jest złożyć pełnomocnictwo lub inny dokument potwierdzający umocowanie do reprezentowania Wykonawcy lub Wykonawców wspólnie ubiegających się o udzielenie zamówienia lub podmiotu udostępniającego zasoby;
+6)	uzasadnienie, że zastrzeżone informacje stanowią tajemnicę przedsiębiorstwa w rozumieniu art. 11 ust. 4 ustawy o zwalczaniu nieuczciwej konkurencji (o ile dotyczy);
+7)	oświadczenie Wykonawcy/Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego zgodnie z Załącznikiem nr 5 do Specyfikacji;
+8)	oświadczenie podmiotu udostępniającego zasoby dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego zgodnie z Załącznikiem nr 6 do Specyfikacji.
+9)	Wypełniony Załącznik nr 3 do Specyfikacji – TABELE od nr A do nr D (FORMULARZ CENOWY) – w zależności na jaką część składa.
+6. Wykonawca musi posiadać ważną koncesję na prowadzenie działalności gospodarczej w zakresie obrotu energią elektryczną, wydaną przez Prezesa Urzędu Regulacji Energetyki, zgodnie ustawą z dnia 10 kwietnia 1997 r. Prawo Energetyczne (Dz. U z 2024 r. poz. 266 z późn. zm.). Zgodnie z treścią art. 117 ust. 2 ustawy PZP warunek dotyczący uprawnień do prowadzenia określonej działalności gospodarczej lub zawodowej jest spełniony, jeżeli Wykonawca posiada uprawnienia do prowadzenia określonej działalności gospodarczej lub zawodowej i to on zrealizuje dostawę energii elektrycznej. W takim przypadku Wykonawcy wspólnie ubiegający się o udzielenie zamówienia dołączają do oferty oświadczenie, z którego wynika, który z Wykonawców realizować będzie przedmiot zamówienia.
+Zamawiający przewiduje zastosowanie tzw. procedury odwróconej, o której mowa w art. 139 ust. 1 ustawy PZP, tj. Zamawiający najpierw dokona badania i oceny ofert, a następnie dokona kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełniania warunków udziału w postępowaniu. </cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">998725</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">09300000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">30</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+            <cbc:Description languageID="POL">1.	Wykonawca składający ofertę   jest zobowiązany wnieść wadium w zależności na jaką część składa ofertę w wysokości:
+‒	w części C – 40.000,00 złotych (czterdzieści tysięcy złotych);
+2.	Wadium wnosi się przed upływem terminu składania ofert i utrzymuje nieprzerwanie do dnia upływu terminu związania ofertą, z wyjątkiem przypadków, o których mowa w art. 98 ust. 1 pkt 2 i 3 oraz ust. 2 ustawy PZP.
+3.	Wadium może być wnoszone według wyboru Wykonawcy w jednej lub kilku następujących formach:
+1)	pieniądzu;
+2)	gwarancjach bankowych;
+3)	gwarancjach ubezpieczeniowych;
+4)	poręczeniach udzielanych przez podmioty, o których mowa w art. 6b ust. 5 pkt 2 ustawy z dnia 9 listopada 2000 r. o utworzeniu Polskiej Agencji Rozwoju Przedsiębiorczości (Dz.U. z 2025 r. poz. 98).
+4.	Wadium w formie pieniądza należy wnieść przelewem na rachunek bankowy o numerze: 77 1130 1017 0020 0734 8625 7421 z dopiskiem: „Wadium Część (A lub B lub C lub D) – NFZ-BAG-SZP.251.5.2025 / Dostawa energii elektrycznej dla Oddziałów Wojewódzkich Narodowego Funduszu Zdrowia” UWAGA: Za termin wniesienia wadium w formie pieniężnej zostanie przyjęty termin uznania rachunku bankowego Zamawiającego.
+5.	Wadium wnoszone w formie poręczeń lub gwarancji musi spełniać co najmniej poniższe wymagania:
+1)	musi obejmować odpowiedzialność za wszystkie przypadki powodujące utratę wadium przez Wykonawcę określone w ustawie PZP, bez potwierdzania tych okoliczności;
+2)	z treści powinno jednoznacznie wynikać zobowiązanie gwaranta do zapłaty całej kwoty wadium;
+3)	powinno być nieodwołalne i bezwarunkowe oraz płatne na pierwsze żądanie;
+4)	termin obowiązywania poręczenia lub gwarancji nie może być krótszy niż termin związania ofertą (z zastrzeżeniem, iż pierwszym dniem związania ofertą jest dzień składania ofert);
+5)	w treści poręczenia lub gwarancji powinna znaleźć się nazwa oraz numer przedmiotowego postępowania;
+6)	musi zawierać wskazanie beneficjenta poręczenia lub gwarancji;
+7)	w przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia (art. 58 ustawy PZP), Zamawiający wymaga, aby poręczenie lub gwarancja obejmowała swą treścią (tj. zobowiązanych z tytułu poręczenia lub gwarancji) wszystkich Wykonawców wspólnie ubiegających się o udzielenie zamówienia lub aby z jej treści wynikało, że zabezpiecza ofertę Wykonawców wspólnie ubiegających się o udzielenie zamówienia (konsorcjum);
+8)	musi zostać złożone w oryginale w postaci elektronicznej.
+6.	W przypadku wniesienia wadium w formie:
+1)	pieniężnej – zaleca się, by dowód dokonania przelewu został dołączony do oferty;
+2)	poręczeń lub gwarancji – wymaga się, by oryginał dokumentu został złożony wraz z ofertą.
+7.	Oferta Wykonawcy, który nie wniesie wadium lub wniesie wadium w sposób nieprawidłowy lub nie utrzyma wadium nieprzerwanie do upływu terminu związania ofertą lub złoży wniosek o zwrot wadium w przypadku, o którym mowa w art. 98 ust. 2 pkt 3 ustawy PZP zostanie odrzucona.
+8.	Zasady zwrotu oraz okoliczności zatrzymania wadium określa ustawa PZP.</cbc:Description>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>NFZ-BAG-SZP.251.5.2025</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://nfz.ezamawiajacy.pl</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="POL">14 dni</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">Sposób realizacji zamówienia określa projekt umowy stanowiący załącznik nr 2 do Specyfikacji</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">umowa o poufności stanowi załącznik do projektu umowy</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="POL">.</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL"> Najniższa cena</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://nfz.ezamawiajacy.pl</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Odwołanie wnosi się w terminie 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej. Środki ochrony prawnej przysługują Wykonawcy, jeżeli ma lub miał interes w uzyskaniu zamówienia oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez Zamawiającego przepisów ustawy Pzp. W niniejszym postępowaniu przysługują środki ochrony prawnej określone w Dziale IX ustawy Pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:30:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">1.W postępowaniu o udzielenie zamówienia publicznego komunikacja między Zamawiającym a Wykonawcami odbywa się przy użyciu Platformy Zakupowej https://nfz.ezamawiajacy.pl (dalej jako: "Platforma Zakupowa" lub System). 2.Wejście na platformę poprzez link: https://nfz.ezamawiajacy.pl. 3.Wykonawca przystępując do postępowania o udzielenie zamówienia publicznego, tj. bezpłatnie rejestrując się lub logując, w przypadku posiadania konta w Platformie Zakupowej, akceptuje warunki korzystania z Platformy, określone w Regulaminie zamieszczonym na stronie internetowej https://oneplace.marketplanet.pl/regulamin oraz uznaje go za wiążący. 4.Instrukcja korzystania z Platformy Zakupowej w niniejszym postępowaniu znajduje się na Platformie Zakupowej Zamawiającego w zakładce „Regulacje i procedury procesu zakupowego".
+5. Wykonawca będzie związany ofertą od dnia upływu terminu składania ofert, przy czym pierwszym dniem terminu związania ofertą jest dzień, w którym upływa termin składania ofert, przez okres 90 dni, tj. do dnia 05.10.2025 r.</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://nfz.ezamawiajacy.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Część C</cbc:ID>
+         <cbc:Name languageID="POL">Część C</cbc:Name>
+         <cbc:Description languageID="POL">Część C obejmuje: dostawę energii elektrycznej w planowanej ilości zużycia 6 115 000 kWh (6 115,00 MWh) do następujących Oddziałów Narodowego Funduszu Zdrowia: Dolnośląski, Małopolski, Śląski;
+Opis Przedmiotu Zamówienia stanowi Załącznik nr 1, 1a, 1b do Specyfikacji.
+Szczegółowy sposób realizacji zamówienia określa projekt Umowy stanowiący Załącznik nr 2 do Specyfikacji.
+Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">1.	Wykonawca może złożyć tylko jedną ofertę. Złożenie większej liczby ofert spowoduje odrzucenie wszystkich ofert złożonych przez danego Wykonawcę.
+2.	Treść oferty musi odpowiadać treści dokumentów zamówienia.
+3.	Wykonawca składa ofertę za pośrednictwem Platformy Zakupowej.
+4.	Ofertę sporządza się w języku polskim na Formularzu Ofertowym – zgodnie z Załącznikiem nr 3 do Specyfikacji wraz z Formularzem cenowym w zależności od części na jaką składa ofertę.
+5.	Elektroniczna oferta musi zawierać następujące dokumenty: 
+1)	oświadczenie w formie Jednolitego Europejskiego Dokumentu Zamówienia (JEDZ/ESPD), o którym mowa w Rozdziale VII pkt 1 Specyfikacji;
+2)	oświadczenie z art. 117 ust. 4 ustawy PZP Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia – zgodnie z Załącznikiem nr 4 do Specyfikacji (dotyczy Wykonawców wspólnie ubiegających się o udzielenie zamówienia);
+3)	zobowiązanie innego podmiotu oraz oświadczenie w formie Jednolitego Europejskiego Dokumentu Zamówienia (JEDZ/ESPD), o których mowa w Rozdziale V pkt 5 Specyfikacji (jeżeli dotyczy);
+4)	oryginał dokumentu potwierdzający wniesienie wadium (w przypadku wadium złożonego w formie poręczeń lub gwarancji);
+5)	odpis lub informację z Krajowego Rejestru Sądowego, Centralnej Ewidencji i Informacji o Działalności Gospodarczej lub innego właściwego rejestru – składaną w celu potwierdzenia, że osoba działająca w imieniu Wykonawcy (lub Wykonawców wspólnie ubiegających się o udzielnie zamówienia lub podmiotu udostępniającego zasoby) jest umocowana do jego reprezentowania, przy czym Wykonawca nie jest zobowiązany do złożenia tych dokumentów, jeżeli Zamawiający może je uzyskać za pomocą bezpłatnych ogólnodostępnych baz danych, o ile Wykonawca wskazał dane umożliwiające dostęp do tych dokumentów. Jeżeli w imieniu Wykonawcy działa osoba, której umocowanie do jego reprezentowania nie wynika z ww. dokumentów, Wykonawca obowiązany jest złożyć pełnomocnictwo lub inny dokument potwierdzający umocowanie do reprezentowania Wykonawcy lub Wykonawców wspólnie ubiegających się o udzielenie zamówienia lub podmiotu udostępniającego zasoby;
+6)	uzasadnienie, że zastrzeżone informacje stanowią tajemnicę przedsiębiorstwa w rozumieniu art. 11 ust. 4 ustawy o zwalczaniu nieuczciwej konkurencji (o ile dotyczy);
+7)	oświadczenie Wykonawcy/Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego zgodnie z Załącznikiem nr 5 do Specyfikacji;
+8)	oświadczenie podmiotu udostępniającego zasoby dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego zgodnie z Załącznikiem nr 6 do Specyfikacji.
+9)	Wypełniony Załącznik nr 3 do Specyfikacji – TABELE od nr A do nr D (FORMULARZ CENOWY) – w zależności na jaką część składa.
+6. Wykonawca musi posiadać ważną koncesję na prowadzenie działalności gospodarczej w zakresie obrotu energią elektryczną, wydaną przez Prezesa Urzędu Regulacji Energetyki, zgodnie ustawą z dnia 10 kwietnia 1997 r. Prawo Energetyczne (Dz. U z 2024 r. poz. 266 z późn. zm.). Zgodnie z treścią art. 117 ust. 2 ustawy PZP warunek dotyczący uprawnień do prowadzenia określonej działalności gospodarczej lub zawodowej jest spełniony, jeżeli Wykonawca posiada uprawnienia do prowadzenia określonej działalności gospodarczej lub zawodowej i to on zrealizuje dostawę energii elektrycznej. W takim przypadku Wykonawcy wspólnie ubiegający się o udzielenie zamówienia dołączają do oferty oświadczenie, z którego wynika, który z Wykonawców realizować będzie przedmiot zamówienia.
+Zamawiający przewiduje zastosowanie tzw. procedury odwróconej, o której mowa w art. 139 ust. 1 ustawy PZP, tj. Zamawiający najpierw dokona badania i oceny ofert, a następnie dokona kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełniania warunków udziału w postępowaniu. </cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">3974750</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">09300000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">30</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+            <cbc:Description languageID="POL">1.	Wykonawca składający ofertę   jest zobowiązany wnieść wadium w zależności na jaką część składa ofertę w wysokości:
+‒	w części D – 40.000,00 złotych (czterdzieści tysięcy złotych).
+2.	Wadium wnosi się przed upływem terminu składania ofert i utrzymuje nieprzerwanie do dnia upływu terminu związania ofertą, z wyjątkiem przypadków, o których mowa w art. 98 ust. 1 pkt 2 i 3 oraz ust. 2 ustawy PZP.
+3.	Wadium może być wnoszone według wyboru Wykonawcy w jednej lub kilku następujących formach:
+1)	pieniądzu;
+2)	gwarancjach bankowych;
+3)	gwarancjach ubezpieczeniowych;
+4)	poręczeniach udzielanych przez podmioty, o których mowa w art. 6b ust. 5 pkt 2 ustawy z dnia 9 listopada 2000 r. o utworzeniu Polskiej Agencji Rozwoju Przedsiębiorczości (Dz.U. z 2025 r. poz. 98).
+4.	Wadium w formie pieniądza należy wnieść przelewem na rachunek bankowy o numerze: 77 1130 1017 0020 0734 8625 7421 z dopiskiem: „Wadium Część (A lub B lub C lub D) – NFZ-BAG-SZP.251.5.2025 / Dostawa energii elektrycznej dla Oddziałów Wojewódzkich Narodowego Funduszu Zdrowia” UWAGA: Za termin wniesienia wadium w formie pieniężnej zostanie przyjęty termin uznania rachunku bankowego Zamawiającego.
+5.	Wadium wnoszone w formie poręczeń lub gwarancji musi spełniać co najmniej poniższe wymagania:
+1)	musi obejmować odpowiedzialność za wszystkie przypadki powodujące utratę wadium przez Wykonawcę określone w ustawie PZP, bez potwierdzania tych okoliczności;
+2)	z treści powinno jednoznacznie wynikać zobowiązanie gwaranta do zapłaty całej kwoty wadium;
+3)	powinno być nieodwołalne i bezwarunkowe oraz płatne na pierwsze żądanie;
+4)	termin obowiązywania poręczenia lub gwarancji nie może być krótszy niż termin związania ofertą (z zastrzeżeniem, iż pierwszym dniem związania ofertą jest dzień składania ofert);
+5)	w treści poręczenia lub gwarancji powinna znaleźć się nazwa oraz numer przedmiotowego postępowania;
+6)	musi zawierać wskazanie beneficjenta poręczenia lub gwarancji;
+7)	w przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia (art. 58 ustawy PZP), Zamawiający wymaga, aby poręczenie lub gwarancja obejmowała swą treścią (tj. zobowiązanych z tytułu poręczenia lub gwarancji) wszystkich Wykonawców wspólnie ubiegających się o udzielenie zamówienia lub aby z jej treści wynikało, że zabezpiecza ofertę Wykonawców wspólnie ubiegających się o udzielenie zamówienia (konsorcjum);
+8)	musi zostać złożone w oryginale w postaci elektronicznej.
+6.	W przypadku wniesienia wadium w formie:
+1)	pieniężnej – zaleca się, by dowód dokonania przelewu został dołączony do oferty;
+2)	poręczeń lub gwarancji – wymaga się, by oryginał dokumentu został złożony wraz z ofertą.
+7.	Oferta Wykonawcy, który nie wniesie wadium lub wniesie wadium w sposób nieprawidłowy lub nie utrzyma wadium nieprzerwanie do upływu terminu związania ofertą lub złoży wniosek o zwrot wadium w przypadku, o którym mowa w art. 98 ust. 2 pkt 3 ustawy PZP zostanie odrzucona.
+8.	Zasady zwrotu oraz okoliczności zatrzymania wadium określa ustawa PZP.</cbc:Description>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>NFZ-BAG-SZP.251.5.2025</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://nfz.ezamawiajacy.pl</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="POL">14 dni</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">Sposób realizacji zamówienia określa projekt umowy stanowiący załącznik nr 2 do Specyfikacji</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="POL">umowa o poufności stanowi załącznik do projektu umowy</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:CalculationExpression languageID="POL">.</cbc:CalculationExpression>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL"> Najniższa cena</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://nfz.ezamawiajacy.pl</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Odwołanie wnosi się w terminie 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej. Środki ochrony prawnej przysługują Wykonawcy, jeżeli ma lub miał interes w uzyskaniu zamówienia oraz poniósł lub może ponieść szkodę w wyniku naruszenia przez Zamawiającego przepisów ustawy Pzp. W niniejszym postępowaniu przysługują środki ochrony prawnej określone w Dziale IX ustawy Pzp.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:30:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">1.W postępowaniu o udzielenie zamówienia publicznego komunikacja między Zamawiającym a Wykonawcami odbywa się przy użyciu Platformy Zakupowej https://nfz.ezamawiajacy.pl (dalej jako: "Platforma Zakupowa" lub System). 2.Wejście na platformę poprzez link: https://nfz.ezamawiajacy.pl. 3.Wykonawca przystępując do postępowania o udzielenie zamówienia publicznego, tj. bezpłatnie rejestrując się lub logując, w przypadku posiadania konta w Platformie Zakupowej, akceptuje warunki korzystania z Platformy, określone w Regulaminie zamieszczonym na stronie internetowej https://oneplace.marketplanet.pl/regulamin oraz uznaje go za wiążący. 4.Instrukcja korzystania z Platformy Zakupowej w niniejszym postępowaniu znajduje się na Platformie Zakupowej Zamawiającego w zakładce „Regulacje i procedury procesu zakupowego".
+5. Wykonawca będzie związany ofertą od dnia upływu terminu składania ofert, przy czym pierwszym dniem terminu związania ofertą jest dzień, w którym upływa termin składania ofert, przez okres 90 dni, tj. do dnia 05.10.2025 r.</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">https://nfz.ezamawiajacy.pl</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Część D</cbc:ID>
+         <cbc:Name languageID="POL">Część D</cbc:Name>
+         <cbc:Description languageID="POL">Część D obejmuje: dostawę energii elektrycznej w planowanej ilości zużycia 5 672 500 kWh (5 672,50 MWh) do następujących Oddziałów Narodowego Funduszu Zdrowia: Lubelski, Łódzki, Mazowiecki (delegatura w Ostrołęce i Radomiu), Podkarpacki, Podlaski, Świętokrzyski, Warmińsko-Mazurski (Delegatura w Ełku).
+Opis Przedmiotu Zamówienia stanowi Załącznik nr 1, 1a, 1b do Specyfikacji.
+Szczegółowy sposób realizacji zamówienia określa projekt Umowy stanowiący Załącznik nr 2 do Specyfikacji.
+Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">1.	Wykonawca może złożyć tylko jedną ofertę. Złożenie większej liczby ofert spowoduje odrzucenie wszystkich ofert złożonych przez danego Wykonawcę.
+2.	Treść oferty musi odpowiadać treści dokumentów zamówienia.
+3.	Wykonawca składa ofertę za pośrednictwem Platformy Zakupowej.
+4.	Ofertę sporządza się w języku polskim na Formularzu Ofertowym – zgodnie z Załącznikiem nr 3 do Specyfikacji wraz z Formularzem cenowym w zależności od części na jaką składa ofertę.
+5.	Elektroniczna oferta musi zawierać następujące dokumenty: 
+1)	oświadczenie w formie Jednolitego Europejskiego Dokumentu Zamówienia (JEDZ/ESPD), o którym mowa w Rozdziale VII pkt 1 Specyfikacji;
+2)	oświadczenie z art. 117 ust. 4 ustawy PZP Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia – zgodnie z Załącznikiem nr 4 do Specyfikacji (dotyczy Wykonawców wspólnie ubiegających się o udzielenie zamówienia);
+3)	zobowiązanie innego podmiotu oraz oświadczenie w formie Jednolitego Europejskiego Dokumentu Zamówienia (JEDZ/ESPD), o których mowa w Rozdziale V pkt 5 Specyfikacji (jeżeli dotyczy);
+4)	oryginał dokumentu potwierdzający wniesienie wadium (w przypadku wadium złożonego w formie poręczeń lub gwarancji);
+5)	odpis lub informację z Krajowego Rejestru Sądowego, Centralnej Ewidencji i Informacji o Działalności Gospodarczej lub innego właściwego rejestru – składaną w celu potwierdzenia, że osoba działająca w imieniu Wykonawcy (lub Wykonawców wspólnie ubiegających się o udzielnie zamówienia lub podmiotu udostępniającego zasoby) jest umocowana do jego reprezentowania, przy czym Wykonawca nie jest zobowiązany do złożenia tych dokumentów, jeżeli Zamawiający może je uzyskać za pomocą bezpłatnych ogólnodostępnych baz danych, o ile Wykonawca wskazał dane umożliwiające dostęp do tych dokumentów. Jeżeli w imieniu Wykonawcy działa osoba, której umocowanie do jego reprezentowania nie wynika z ww. dokumentów, Wykonawca obowiązany jest złożyć pełnomocnictwo lub inny dokument potwierdzający umocowanie do reprezentowania Wykonawcy lub Wykonawców wspólnie ubiegających się o udzielenie zamówienia lub podmiotu udostępniającego zasoby;
+6)	uzasadnienie, że zastrzeżone informacje stanowią tajemnicę przedsiębiorstwa w rozumieniu art. 11 ust. 4 ustawy o zwalczaniu nieuczciwej konkurencji (o ile dotyczy);
+7)	oświadczenie Wykonawcy/Wykonawcy wspólnie ubiegającego się o udzielenie zamówienia dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego zgodnie z Załącznikiem nr 5 do Specyfikacji;
+8)	oświadczenie podmiotu udostępniającego zasoby dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego zgodnie z Załącznikiem nr 6 do Specyfikacji.
+9)	Wypełniony Załącznik nr 3 do Specyfikacji – TABELE od nr A do nr D (FORMULARZ CENOWY) – w zależności na jaką część składa.
+6. Wykonawca musi posiadać ważną koncesję na prowadzenie działalności gospodarczej w zakresie obrotu energią elektryczną, wydaną przez Prezesa Urzędu Regulacji Energetyki, zgodnie ustawą z dnia 10 kwietnia 1997 r. Prawo Energetyczne (Dz. U z 2024 r. poz. 266 z późn. zm.). Zgodnie z treścią art. 117 ust. 2 ustawy PZP warunek dotyczący uprawnień do prowadzenia określonej działalności gospodarczej lub zawodowej jest spełniony, jeżeli Wykonawca posiada uprawnienia do prowadzenia określonej działalności gospodarczej lub zawodowej i to on zrealizuje dostawę energii elektrycznej. W takim przypadku Wykonawcy wspólnie ubiegający się o udzielenie zamówienia dołączają do oferty oświadczenie, z którego wynika, który z Wykonawców realizować będzie przedmiot zamówienia.
+Zamawiający przewiduje zastosowanie tzw. procedury odwróconej, o której mowa w art. 139 ust. 1 ustawy PZP, tj. Zamawiający najpierw dokona badania i oceny ofert, a następnie dokona kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia oraz spełniania warunków udziału w postępowaniu.</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="PLN">3687125</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">09300000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="POL">Miejscem realizacji zamówienia są Oddziały Wojewódzkie Narodowego Funduszu Zdrowia oraz ich Delegatury zgodnie z wykazem Punktów Poboru Energii elektrycznej stanowiącym Załącznik nr 1a do Opisu Przedmiotu Zamówienia.</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">30</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

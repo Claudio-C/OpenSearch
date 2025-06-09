@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">100174.33</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <cac:FinancingParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:FinancingParty>
+                     <cac:PayerParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:PayerParty>
+                     <efac:LotTender>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID>CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">100174</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID>TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Société YVELIN</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2024-12-18+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-01-13+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="FRA">Souscription et gestion d'un marché d'assurance risques statutaires sur 4 ans</cbc:Title>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>51-2024</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Société YVELIN</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID>ORG-0004</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Commune de Brignoles</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>MAIRIE 9 Place Carami - 83177 Brignoles Cedex</cbc:StreetName>
+                           <cbc:CityName>Brignoles</cbc:CityName>
+                           <cbc:PostalZone>83177</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRL05</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>21830023400018</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0494862212</cbc:Telephone>
+                           <cbc:ElectronicMail>dcp@brignoles.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal administratif de Toulon </cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Toulon</cbc:CityName>
+                           <cbc:PostalZone>83041</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRL05</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>13000525900010</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID>UBO-0001</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Société YVELIN</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Immeuble Le Belem</cbc:StreetName>
+                           <cbc:AdditionalStreetName>355 rue Vendemiaire</cbc:AdditionalStreetName>
+                           <cbc:CityName>Montpellier</cbc:CityName>
+                           <cbc:PostalZone>34000</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRJ13</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>34949955800089</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     <cbc:FamilyName>YVELIN</cbc:FamilyName>
+                     <cac:ResidenceAddress>
+                        <cbc:StreetName>Immeuble le Belem</cbc:StreetName>
+                        <cbc:AdditionalStreetName>355 rue Vendémiaire</cbc:AdditionalStreetName>
+                        <cbc:CityName>Montpellier</cbc:CityName>
+                        <cbc:PostalZone>34000</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FRJ13</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:ResidenceAddress>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366872-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">3dd7860f-3ec3-4136-a640-63b733561803</cbc:ID>
+   <cbc:ContractFolderID>107c9d3b-9f71-407e-bc24-5901546fc6f8</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>18:15:57+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://www.marches-securises.fr</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID>ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID>6063109b-9f48-4ff0-92c5-f782a8431880-01</cbc:ID>
+      </cac:NoticeDocumentReference>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:Name languageID="FRA">Souscription et gestion d'un marché d'assurance « Risques Statutaires » sur 4 ans </cbc:Name>
+      <cbc:Description languageID="FRA">Le marché concerne la souscription et la gestion d'un contrat d'assurance couvrant les risques spécifiés ci-après, par la voie d'une procédure d'appel d'offres en application des articles R2161-1 à R2161-5 du code de la commande publique :
+« RISQUES STATUTAIRES ». 
+Il intervient pour faire suite à demande de résiliation, par le titulaire, du marché actuellement en cours et portant le numéro 62/2021. Cette résiliation sera effective à compter du 31 décembre 2024.
+Ce marché est lancé en complément du marché d'assurance en 4 lots sur 4 ans (Dommages aux biens, Parc automobile, Responsabilité civile et Cyber risques) qui se terminera au 31 décembre 2025.
+Le marché est réservé aux entreprises d'assurances et personnes habilitées à présenter des opérations d'assurances en vertu des articles L 310-1 et suivants et L.511-1 et suivants du Code des Assurances.
+Le marché est passé pour une durée de 4 ans maximum à compter du 1er janvier 2025 avec, pour chacune des parties, une faculté de résiliation à l'échéance du 1er janvier de chaque année notifiée par la partie en prenant l'initiative à l'autre partie par lettre recommandée avec accusé de réception en respectant un préavis de 4 mois.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">66512000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Brignoles</cbc:CityName>
+            <cbc:PostalZone>83177</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">FRL05</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Conditions techniques basées sur le respect optimal des conditions définies sur les cahiers des clauses particulières et l'annexe technique de gestion des assurances (coefficient 0.6) </cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Conditions financières (coefficient 0,4). </cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">- Référé précontractuel (jusqu'à la signature du marché) : Article L551-1 à L551-4 du code de justice administrative.
+- Recours pour excès de pouvoir (2 mois à compter des décisions de rejet).
+- Recours en appréciation de la validité d'un contrat (à compter de la signature du contrat).
+- Recours contractuel : Article L551-13 à L551-16 du code de justice administrative.
+- Référé suspension introduit avant la signature du marché contre les actes détachables du contrat : Art L 521-1 à L521-4 du code de justice administrative.
+- Le tribunal administratif peut être saisi par l'application informatique « Télérecours citoyens » accessible par le site internet www.telerecours.fr
+</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cac:SubsequentProcessTenderRequirement>
+               <cbc:Name>buyer-categories</cbc:Name>
+            </cac:SubsequentProcessTenderRequirement>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:Name languageID="FRA">Souscription et gestion d'un marché d'assurance « Risques Statutaires </cbc:Name>
+         <cbc:Description languageID="FRA">Le marché concerne la souscription et la gestion d'un contrat d'assurance couvrant les risques spécifiés ci-après, par la voie d'une procédure d'appel d'offres en application des articles R2161-1 à R2161-5 du code de la commande publique :
+« RISQUES STATUTAIRES ». 
+Il intervient pour faire suite à demande de résiliation, par le titulaire, du marché actuellement en cours et portant le numéro 62/2021. Cette résiliation sera effective à compter du 31 décembre 2024.
+Ce marché est lancé en complément du marché d'assurance en 4 lots sur 4 ans (Dommages aux biens, Parc automobile, Responsabilité civile et Cyber risques) qui se terminera au 31 décembre 2025.
+Le marché est réservé aux entreprises d'assurances et personnes habilitées à présenter des opérations d'assurances en vertu des articles L 310-1 et suivants et L.511-1 et suivants du Code des Assurances.
+Le marché est passé pour une durée de 4 ans maximum à compter du 1er janvier 2025 avec, pour chacune des parties, une faculté de résiliation à l'échéance du 1er janvier de chaque année notifiée par la partie en prenant l'initiative à l'autre partie par lettre recommandée avec accusé de réception en respectant un préavis de 4 mois.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">66512000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Immeuble Le Belem 355 rue Vendémiaire</cbc:StreetName>
+               <cbc:CityName>Montpellier</cbc:CityName>
+               <cbc:PostalZone>34000</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRJ13</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-01-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-12-31+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Markt Gößweinstein</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Burgstraße 8</cbc:StreetName>
+									<cbc:CityName>Gößweinstein</cbc:CityName>
+									<cbc:PostalZone>91327</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE248</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>91327</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>091191933511</cbc:Telephone>
+									<cbc:ElectronicMail>nuremberg.vergabe.ps@roedl.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Rödl GmbH Rechtsanwaltsgesellschaft Steuerberatungsgesellschaft</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Äußere Sulzbacher Straße 100</cbc:StreetName>
+									<cbc:CityName>Nürnberg</cbc:CityName>
+									<cbc:PostalZone>90491</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE254</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>90491</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>091191933511</cbc:Telephone>
+									<cbc:ElectronicMail>nuremberg.vergabe.ps@roedl.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer Nordbayern Regierung von Mittelfranken</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Promenade 27</cbc:StreetName>
+									<cbc:CityName>Ansbach</cbc:CityName>
+									<cbc:PostalZone>91522</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE251</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>91522</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 981 53-0</cbc:Telephone>
+									<cbc:ElectronicMail>vergabekammer.nordbayern@reg-mfr.bayern.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365831-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">bb6ef534-ac7d-42dd-9845-a584a4c07606</cbc:ID>
+	<cbc:ContractFolderID>09a5eb60-b367-4668-b7b4-dc1e52b4da84</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+	<cbc:IssueTime>19:30:24+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:ServiceProviderParty>
+				<cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+				<cac:Party>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:Party>
+			</cac:ServiceProviderParty>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. Der Antrag ist schriftlich bei der Vergabekammer einzureichen und unverzüglich zu begründen. Er soll ein bestimmtes Begehren enthalten. Ein Antragsteller ohne Wohnsitz oder gewöhnlichen Auf-enthalt, Sitz oder Geschäftsleitung in der Bundesrepublik Deutsch-land hat einen Empfangsbevollmächtigten in der Bundesrepublik Deutschland zu benennen. Die Begründung muss die Bezeichnung des Antragsgegners, eine Beschreibung der behaupteten Rechtsver-letzung mit Sachverhaltsdarstellung und die Bezeichnung der verfüg-baren Beweismittel enthalten sowie darlegen, dass die Rüge gegen-über dem Auftraggeber erfolgt ist; sie soll, soweit bekannt, die sons-tigen Beteiligten nennen. Der Antrag ist u.a. dann unzulässig, soweit: (1.) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht inner-halb einer Frist von 10 Kalendertagen gerügt hat, (2.) Verstöße gegen Vergabevorschriften, die aufgrund der Be-kanntmachung erkennbar sind, nicht spätestens bis zum Ab-lauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, (3.) Verstöße gegen Vergabevorschriften, die erst in den Verga-beunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, (4.) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:Description languageID="DEU">Ziel des Teilnahmewettbewerbs ist es, höchstens drei Bewerber auszuwählen. Die objektiven Kriterien für die Auswahl dieser höchstens drei geeigneten Bewerber sind in den Abschnitten III bis V aufgeführt. Die unter Abschnitt III und IV aufgeführten Teilnahmekriterien sind als zwingende und fakultative Ausschlusskriterien formuliert. Die im Abschnitt V aufgeführten Eignungskriterien werden - soweit die in Abschnitt V genannten Mindestanforderungen erfüllt sind und kein Ausschluss erfolgt - hinsichtlich der ihnen zuerkannten Bedeutung für die zu verge-benden Leistungen gewichtet und mit einem Punktesystem bewertet.  Der Bewerber/Die Bewerbergemeinschaft hat seinen/ihren Teilnahmeantrag unter zwingender Nutzung dieses Teilnahmeformulars "Eignungskriterien und Ausschlussgründe" beim Auftraggeber einzureichen. Als vorläufigen Beleg der Eignung und des Nichtvorliegens von Ausschlussgründen akzeptiert der Auftraggeber die Vorlage einer Einheitlichen Europäischen Ei-generklärung.</cbc:Description>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4D5G5JHM</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">250604_FW</cbc:ID>
+		<cbc:Name languageID="DEU">Markt Gößweinstein - Vergabe Breitband</cbc:Name>
+		<cbc:Description languageID="DEU">Ein Branchendialog und eine Markterkundung hat / haben ergeben, dass für den Teilbereich der Gebietskörperschaft derzeit keine leistungsfähige Gigabitinfrastruktur mit einem Angebot entsprechender Telekommunikationsdienste flächendeckend gemäß den Zielen der Gigabit-Rahmenregelung 2.0 verfügbar ist und in den nächsten Jahren verfügbar sein wird. Die Gebietskörperschaft hat daher Fördermittel für einen flächendeckenden Gigabitausbau - bezogen auf den unterversorgten Teilbereich im Wirtschaftlichkeitslückenmodell im Rahmen der Richtlinie "Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)" vom 31. März 2023 in der Fassung der 1. Änderung vom 30.04.2024 ("Gigabit-Richtlinie 2.0") beantragt und bewilligt erhalten. Die in diesem Förderprogramm im Wirtschaftlichkeitslückenmodell bereitgestellten Fördermittel (im Folgenden: Mittel) sollen durch Gebietskörperschaften an Telekommunikationsunternehmen im EU-beihilfenrechtlichen Sinne als Investitionskostenbeihilfe für den Bau und Betrieb von Gigabitnetzen weitergeleitet werden.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4D5G5JHM</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72400000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CityName>Gößweinstein</cbc:CityName>
+				<cbc:PostalZone>91327</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE248</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung darüber, dass der Bewerber in das Berufsregister (z.B. Handelsregister) seines Sitzes oder Wohnsitzes eingetragen ist.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-auth-mbrshp</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Vorlage des Nachweises über die Registrierung als Betreiber öffentlicher Telekommunikationsnetze im Sinne des § 3 Nr. 65 Telekommunikationsgesetz (TKG) bei der BNetzA.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Vorlage des aktuellsten testierten Jahresabschlusses des Unternehmens.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec-avg</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung über den Gesamtumsatz und über den Umsatz in dem Tätigkeitsbereich des Auftrags, bezogen auf die letzten drei Geschäftsjahre.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-work</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung durch Nennung von Referenzen über Leistungen im Breitband-ausbau gegliedert nach a) Name des Auftraggebers, b) Erbringungszeitraum innerhalb der letzten drei Geschäftsjahre vor Ablauf der Teilnahmefrist, sowie c) Wert in Euro und d) die Anzahl der ausgebauten Adressen. Die Referenz 1 (Mindestreferenz) ist erbracht, wenn die geforderten Mindestanforderungen erfüllt sind; andernfalls erfolgt der Ausschluss. Die Mindestanforderungen sind erfüllt, wenn der Bewerber a) den Namen des Auftraggebers, b) Erbringungszeitraum innerhalb der letzten drei Geschäftsjahre vor Ablauf der Teilnahmefrist, sowie c) Wert in Euro und d) die Anzahl der ausgebauten Adressen benannt hat. Die Referenz 1 (Mindestreferenz) wird - soweit kein Ausschluss erfolgt - hinsichtlich der ihr zuerkannten Bedeutung für die zu vergebenden Leistungen gewichtet und mit einem Punktesystem bewertet. Die Referenzen 2 bis 5 werden - soweit die geforderten Mindestanforderungen erfüllt sind; andernfalls erfolgt die Nichtwertung der Referenz - hinsichtlich der ihnen zuerkannten Bedeutung für die zu vergebenden Leistungen gewichtet und mit einem Punktesystem bewertet. Es dürfen insgesamt höchstens fünf Referenzen benannt werden.</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>100.0</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4D5G5JHM/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">vgl. gesetzliche Bestimmungen und Angaben in den Vergabeunterlagen</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Der Bieter erklärt, alle für ihn geltenden rechtlichen Verpflichtungen bei der Auftragsausführung einzuhalten, insbesondere Steuern, Abgaben und Beiträge zur Sozialversicherung zu entrichten, die arbeitsschutzrechtlichen Regelungen einzuhalten und den Arbeitnehmerinnen und Arbeitnehmern wenigstens diejenigen Mindestarbeitsbedingungen einschließlich des Mindestentgelts zu gewähren, die nach dem Mindestlohngesetz, einem nach dem Tarifvertragsgesetz mit den Wirkungen des Arbeitnehmer-Entsendegesetzes für allgemein verbindlich erklärten Tarifvertrag oder einer nach § 7, § 7a oder § 11 des Arbeitnehmer-Entsendegesetzes oder einer nach § 3a des Arbeitnehmerüberlassungsgesetzes erlassenen Rechtsverordnung für die betreffende Leistung verbindlich vorgegeben werden.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4D5G5JHM</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. Der Antrag ist schriftlich bei der Vergabekammer einzureichen und unverzüglich zu begründen. Er soll ein bestimmtes Begehren enthalten. Ein Antragsteller ohne Wohnsitz oder gewöhnlichen Auf-enthalt, Sitz oder Geschäftsleitung in der Bundesrepublik Deutsch-land hat einen Empfangsbevollmächtigten in der Bundesrepublik Deutschland zu benennen. Die Begründung muss die Bezeichnung des Antragsgegners, eine Beschreibung der behaupteten Rechtsver-letzung mit Sachverhaltsdarstellung und die Bezeichnung der verfüg-baren Beweismittel enthalten sowie darlegen, dass die Rüge gegen-über dem Auftraggeber erfolgt ist; sie soll, soweit bekannt, die sons-tigen Beteiligten nennen. Der Antrag ist u.a. dann unzulässig, soweit: (1.) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht inner-halb einer Frist von 10 Kalendertagen gerügt hat, (2.) Verstöße gegen Vergabevorschriften, die aufgrund der Be-kanntmachung erkennbar sind, nicht spätestens bis zum Ab-lauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, (3.) Verstöße gegen Vergabevorschriften, die erst in den Verga-beunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, (4.) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4D5G5JHM</cbc:AccessToolsURI>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-07-07+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-20+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>3</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">250604_FW</cbc:ID>
+			<cbc:Name languageID="DEU">Markt Gößweinstein - Vergabe Breitband</cbc:Name>
+			<cbc:Description languageID="DEU">Der Markt Gößweinstein (im Folgenden: Konzessionsgeber) führt zur Auswahl eines Netzbetreibers, der mit einem öffentlichen Zuschuss den Aufbau und Betrieb eines Gigabitnetzes realisieren kann, ein offenes, transparentes, wirtschaftliches und diskriminierungsfreies Auswahlverfahren aufgrund förderrechtlicher Vorgaben gemäß Rahmenregelung der Bundesrepublik Deutschland zur Unterstützung des flächendeckenden Aufbaus von Gigabitnetzen in "grauen Flecken", § 5 in der Fassung vom 01.08.2024 durch.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72400000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:CityName>Gößweinstein</cbc:CityName>
+					<cbc:PostalZone>91327</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE248</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="YEAR">7</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

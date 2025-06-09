@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">5066662.8</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">5066662.8</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0001</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Astellas Pharma Sp. z o .o.</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-06-04+02:00</cbc:AwardDate>
+                     <cbc:Title languageID="POL">Dostawa leków cytostatycznych, w tym leków cytostatycznych niezbędnych do realizacji świadczeń z zakresu chemioterapii i programów lekowych dla potrzeb Beskidzkiego Centrum Onkologii – Szpitala Miejskiego im. Jana Pawła II w  Bielsku – Białej</cbc:Title>
+                     <efac:ContractReference>
+                        <cbc:ID>DZP.271.101.2025</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>Astellas Pharma Sp. z o. o.</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">25</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.onkologia.bielsko.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://platformazakupowa.pl/pn/onkologia_bielsko/proceedings</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Beskidzkie Centrum Onkologii- Szpital Miejski im. Jana Pawła II w Bielsku-Białej.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Wyzwolenia 18</cbc:StreetName>
+                           <cbc:CityName>Bielsko-Biała</cbc:CityName>
+                           <cbc:PostalZone>43-300</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL225</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>9372662340</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 33 816 81 34</cbc:Telephone>
+                           <cbc:Telefax>+48 33 498 40 44</cbc:Telefax>
+                           <cbc:ElectronicMail>zam.publiczne@onkologia.bielsko.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.uzp.gov.pl/kio</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://www.uzp.gov.pl/kio</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ulica Postępu 17</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>KIO</cbc:Name>
+                           <cbc:Telephone>+48 22 4587702</cbc:Telephone>
+                           <cbc:ElectronicMail>uzp@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.astellas.com</cbc:WebsiteURI>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Astellas Pharma Sp. z o.o. </cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Żwirki i Wigury 16 C</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-092</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>1131828467</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 695 100 991</cbc:Telephone>
+                           <cbc:ElectronicMail>recepcja@astellas.com</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366422-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">146d37d7-3947-4100-995e-275abdc8cb28</cbc:ID>
+   <cbc:ContractFolderID>12f16a54-e06a-43a9-acf9-811c0e929e68</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>05:42:28Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-06Z</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="dir-awa-pre">veat</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">art. 214 pkt 1 ppkt 6 Prawo zamówień publicznych</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="direct-award-justification">irregular</cbc:ProcessReasonCode>
+         <cbc:ProcessReason languageID="POL">W postępowaniu znak: DZP.271.8.2025 prowadzonym uprzednio w trybie przetargu nieograniczonego na pakiet o numerze 7 jedyna złożona oferta została odrzucona na podstawie art. 226 ust. 1 pkt 2c) ustawy Prawo zamówień publicznych.</cbc:ProcessReason>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">DZP.271.27.2025</cbc:ID>
+      <cbc:Name languageID="POL">Dostawa leków cytostatycznych, w tym leków cytostatycznych niezbędnych do realizacji świadczeń z zakresu chemioterapii i programów lekowych dla potrzeb Beskidzkiego Centrum Onkologii – Szpitala Miejskiego im. Jana Pawła II w  Bielsku – Białej</cbc:Name>
+      <cbc:Description languageID="POL">Przedmiotem zamówienia jest dostawa leków cytostatycznych, w tym leków cytostatycznych spełniających wymagania określone w katalogach leków refundowanych stosowanych w chemioterapii i programach lekowych określonych:
+•	ZARZĄDZENIE NR 10/2024/DGL PREZESA NARODOWEGO FUNDUSZU ZDROWIA z dnia 26 stycznia 2024 r. w sprawie określenia warunków zawierania i realizacji umów w rodzaju leczenie szpitalne w zakresie chemioterapia z późn. zm.
+•	ZARZĄDZENIE NR 9/2025/DGL PREZESA NARODOWEGO FUNDUSZU ZDROWIA z dnia 30 stycznia 2025 r. w sprawie określenia warunków zawierania i realizacji umów w rodzaju leczenie szpitalne w zakresie programy lekowe,
+w asortymencie i ilościach określonych szczegółowo w załączniku nr 5 do Zaproszenia (Kod CPV: 33600000; 33652100)
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33600000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33652100</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="POL">Apteka Szpitalna mieszcząca się w Bielsku – Białej przy ul. Wyzwolenia 18.</cbc:Description>
+         <cac:Address>
+            <cbc:StreetName>ul. Wyzwolenia 18</cbc:StreetName>
+            <cbc:CityName>Bielsko-Biała</cbc:CityName>
+            <cbc:PostalZone>43-300</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL225</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Celem negocjacji będzie osiągnięcie najniższej ceny</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Pakiet nr 1</cbc:ID>
+         <cbc:Name languageID="POL">Pakiet nr 1</cbc:Name>
+         <cbc:Description languageID="POL">Dostawa leków cytostatycznych, w tym leków cytostatycznych niezbędnych do realizacji świadczeń z zakresu chemioterapii i programów lekowych dla potrzeb Beskidzkiego Centrum Onkologii – Szpitala Miejskiego im. Jana Pawła II w  Bielsku – Białej
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33600000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33652100</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>ulica Wyzwolenia 18</cbc:StreetName>
+               <cbc:CityName>Bielsko-Biała</cbc:CityName>
+               <cbc:PostalZone>43-300</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL225</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:EndDate>2026-06-02+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="POL">Zamawiający stosownie do treści art. 441 ust. 1 ustawy Pzp wskazuje, że może
+skorzystać z prawa opcji po wyczerpaniu ilości przedmiotu zamówienia określonego dla
+zakresu podstawowego zamówienia. W zakresie prawa opcji Zamawiający będzie miał
+możliwość realizacji dodatkowego zamówienia w zakresie każdego pakietu i każdej pozycji z
+osobna zwiększonego do wysokości 30% ilości wskazanej w zamówieniu podstawowym z
+jednoczesnym przeliczeniem (zaokrągleniem) każdej pozycji w ramach pakietu do pełnego
+opakowania w górę. Aby nie modyfikować ogólnego charakteru umowy podstawę określenia
+wartości wynagrodzenia Wykonawcy w ramach opcji stanowić będą ceny jednostkowe,
+wskazane w ofercie Wykonawcy dla zakresu podstawowego. Oznacza to, iż ewentualne
+zastosowanie prawa opcji nie skutkuje zmianą cen jednostkowych przedmiotu zamówienia,
+która jest wartością stałą, niezależną od wielkości przedmiotu zamówienia. Ceny jednostkowe
+wskazane przez Wykonawcę w formularzach w zakresie zamówienia podstawowego, muszą
+być takie same zarówno dla produktu leczniczego w zamówieniu podstawowym, jak i dla
+kupowanego produktu leczniczego w zamówieniu opcjonalnym. Prawo opcji szczegółowo
+określa rozdział III Zaproszenia oraz paragraf 3 projektu umowy.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

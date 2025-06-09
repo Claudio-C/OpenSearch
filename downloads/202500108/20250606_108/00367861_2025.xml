@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.ssb-ag.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Stuttgarter Straßenbahnen AG</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Schockenriedstr. 50</cbc:StreetName>
+                           <cbc:CityName>Stuttgart</cbc:CityName>
+                           <cbc:PostalZone>70565</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE111</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE812884131</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Zentraler kaufmännischer Bereich</cbc:Name>
+                           <cbc:Telephone>+49 71178850</cbc:Telephone>
+                           <cbc:ElectronicMail>einkauf@ssb-ag.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer Baden Württemberg im Regierungspräsidium Karlsruhe</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Durlacher Allee 100</cbc:StreetName>
+                           <cbc:CityName>Karlsruhe</cbc:CityName>
+                           <cbc:PostalZone>76137</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE122</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>08-A9866-40</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>vergabekammer@rpk.bwl.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367861-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">d95f3c23-8e3c-444e-8714-e6d16f4b835f</cbc:ID>
+   <cbc:ContractFolderID>f446a8df-263b-4a5a-b8fc-f73ff4054ac6</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>11:16:33+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="entity-activity">urttb</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>sektvo</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-other</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Ausschlussgründe nach § 123 und 124 GWB</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-distortion</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-env-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-lab-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-liq-admin</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misrepresent</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-partic-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-prep-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misconduct</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-sanction</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-soc-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-ssc</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-as-susp</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>039-2025-0005 RV Stellenanzeigen</cbc:ID>
+      <cbc:Name languageID="DEU">Rahmenvertrag für Veröffentlichung Stellenanzeigen</cbc:Name>
+      <cbc:Description languageID="DEU">Die Stuttgarter Straßenbahnen AG beabsichtigt den Abschluss einer Rahmenvereinbarung zur Schaltung von Stellenanzeigen für zwei Jahre ab den 01.01.2026 für die Suche nach Fach- und Führungspersonal. 
+Die Vergabe beinhaltet eine zweimalige Verlängerungsoption um jeweils ein Jahr.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">1) 
+Der Auftraggeber führt als Sektorenauftraggeber ein Verhandlungsverfahren mit Bekanntmachung i.S.d. 4. Teils des GWB und der SektVO durch. Mit dieser Bekanntmachung wird der Teilnahmewettbewerb begonnen, in dem sich die interessierten Unternehmen mit den in dieser Bekanntmachung angegebenen Angaben, Erklärungen und nachweisen um die Aufforderung zur Angebotsabgabe bewerben. Erst eine erfolgreiche Bewerbung mit positiver Eignungsprüfung und -bewertung durch den Auftraggeber führt zur Aufforderung, ein Angebot abzugeben. Dazu werden dann weitere Unterlagen bereitgestellt.
+
+2)
+Die Übermittlung von Bewerberfragen hat ausschließlich über die Vergabeplattform https://www.tender24.de zu erfolgen. Auskünfte werden nur auf solche Fragen erteilt, die bis zum 11.07.2025, 11:00 Uhr, auf der Vergabeplattform eingegangen sind. Der AG wird etwaige Informationen (auch die Formulare) und Beantwortung von Fragen von Bewerbern zum Verfahren sowie sonstige Klarstellungen des AG, die das Vergabeverfahren betreffen, auf der Internetseite veröffentlichen: https://www.tender24.de. Der AG empfiehlt daher allen Bewerbern, täglich den vorbenannten Link zum Abruf von aktuellen Informationen und Klarstellungen des AG sowie Antworten von Bewerberfragen zum Vergabeverfahren zu nutzen. Die Bewerber müssen die vom AG zur Verfügung gestellten Formulare verwenden, ausfüllen und durch die geforderten Angaben, Erklärungen und Nachweise ergänzen. Ein Verweis auf frühere Bewerbungen/Angebote ist nicht ausreichend.
+
+3)
+Der Teilnahmeantrag und dessen Anlagen sind digital über die Vergabeplattform https://www.tender24.de in deutscher Sprache einzureichen. Die Übersendung in Papierform (per Post oder Kurier), per Telefax oder in elektronischer Form, z. B. mittels E-Mail, ist nicht zulässig.
+
+4)
+Der Auftraggeber ist berechtigt, bei Bedenken hinsichtlich der Eignung der Bewerber die Vorlage von Originalen oder weiteren Unterlagen zu verlangen. 
+
+5)
+Mit der Benennung der Referenzen stimmt der Bewerber/Bewerbergemeinschaft der Kontaktaufnahme durch den Auftraggeber zu den jeweiligen Referenzgebern zu.
+
+6)
+Datenschutzhinweise für unsere Geschäftspartner:
+Siehe unter https://www.ssb-ag.de/index.php?eID=dumpFile&amp;t=f&amp;download=1&amp;f=2495&amp;token=b6af142be3d259a29dac02125b47ea40db5efb9a</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:FrameworkMaximumAmount currencyID="EUR">3100000.00</efbc:FrameworkMaximumAmount>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">2400000.00</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">79610000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">79600000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Stuttgart</cbc:CityName>
+            <cbc:PostalZone>70565</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE111</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-mgmt-qual</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Die nachstehenden Angaben/Erklärungen/Nachweise sind von Bewerbern (der Begriff Bewerber wird als Synonym auch für Bewerbergemeinschaften verwendet) bzw. von jedem Mitglied der Bewerbergemeinschaft (BewG) sowie von allen für die Leistungserbringung vorgesehen Nachunternehmern/Unterauftragnehmer vorzulegen. Ein Verweis auf frühere Bewerbungen/Angebote ist nicht ausreichend. Ausländischen Bewerbern wird die Vorlage vergleichbarer Nachweise gestattet. Soweit Eigenerklärungen verlangt werden, sagt der Bewerber zu, Nachweise auf Verlangen, spätestens jedoch vor Zuschlagserteilung vorzulegen.
+
+1)
+Bezeichnung des Bewerberunternehmens mit Firma und Anschrift sowie Angabe eines für das Verfahren zuständigen Ansprechpartners, idealerweise mit E-Mail, Telefon- und Faxnummer. 
+
+Der AG stellt hierzu das Formblatt 1.1 Teilnahmeantrag zur Verfügung.
+
+2)
+Aktueller Handelsregister-Auszug oder eine Kopie desselben 
+
+3)
+Unterschriebene Eigenerklärung gem. §§ 123, 124 GWB Abs. 1 sowie - soweit anwendbar - § 21 SchwarzArbG, § 21 AentG und 
+§  98 c AufenthG.
+Unterschriebene Eigenerklärung gemäß dem Tariftreue- und Mindestlohngesetz für öffentliche Aufträge in Baden-Württemberg (Landestariftreue- und Mindestlohngesetzt - LTMG).
+
+Vorlage einer Eigenerklärung, dass über das Vermögen des Unternehmens weder ein Insolvenzverfahren noch ein vergleichbares gesetzliches Verfahren eröffnet, die Eröffnung beantragt oder dieser Antrag mangels Masse abgelehnt wurde und dass sich das Unternehmen nicht in Liquidation befindet.
+
+Vorlage einer Eigenerklärung, dass keine in Bezug auf die Vergabe unzulässige, wettbewerbsbeschränkende Abreden getroffen wurden.
+
+Der AG stellt hierzu das Formblatt 1.1 Teilnahmeantrag zur Verfügung.
+
+4)
+Sofern eine BewG ein Angebot einreicht, ist mit dem Teilnahmeantrag von allen Mitgliedern der BewG eine unterzeichnete Erklärung einzureichen, aus der sich auch die gesamtschuldnerische Haftung (vgl. Nr.5.1.12) dieser Bekanntmachung im Zuschlagsfall, die Namen sämtlicher Mitglieder der BewG, ein bevollmächtigter Vertreter und die Absicht, sich im Zuschlagsfall zu einer Arbeitsgemeinschaft zusammenschließen, ergibt.
+
+Die BewG haben in obiger Bewerbergemeinschafts-Erklärung oder als Anlage zur Bewerbergemeinschafts-Erklärung eine schriftliche Erklärung folgenden Inhaltes vorzulegen: 
+Sämtliche Mitglieder BewG bzw. der Vertreter der BewG haben/hat zu erklären, dass die Bildung keinen Verstoß gegen § 1 GWB darstellt. Darüber hinaus ist von Mitgliedern der BewG bzw. dem Vertreter dieser zu erklären, inwiefern für das jeweilige beteiligte Unternehmen wirtschaftlich zweckmäßige und kaufmännische Gründe vorliegen, sich nicht alleine am Verfahren zu beteiligen.
+
+Der AG stellt hierzu eine das Formblatt 1.1 Teilnahmeantrag und 1.2 Formblatt Bieter - Bewerbergemeinschaftserklärung zur Verfügung.
+
+5)
+Der Bewerber kann sich zum Nachweis seiner wirtschaftlichen und finanziellen sowie technischen und beruflichen Leistungsfähigkeit (Eignung) der Fähigkeiten anderer Unternehmen (Dritter/Nachunternehmer/konzernverbundener Unternehmen) bedienen, ungeachtet des rechtlichen Charakters zwischen ihm und diesen Unternehmen bestehenden Verbindungen.
+
+Zum Nachweis der Eignung hat der Bewerber diese Dritten in seinem Teilnahmeantrag zu benennen und die in Pkt. 5.1.9 dieser Bekanntmachung genannten Angaben/Erklärungen/Nachweise auch für diesen Dritten in dem Umfang vorzulegen, indem er sich auf dessen Fähigkeiten beruft (Eignungsleihe). Mit dem Teilnahmeantrag ist bereits der Nachweis zu erbringen, dass ihm dieser Dritte mit den erforderlichen Mitteln für das Erbringen der Leistungen zur Verfügung steht (z.B. Nachunternehmer-Verpflichtungserklärung).
+
+Der AG stellt hierzu das Formblatt 1.1 Teilnahmeantrag sowie das 1.4 Formblatt Nachunternehmer-Eignungsleihe-Verpflichtungserklärung zur Verfügung. Diese Verpflichtungserklärung ist dem Auftraggeber spätestens mit der Abgabe des Teilnahmeantrages zur Verfügung zu stellen.
+
+Sofern der Bewerber Nachunternehmer einzusetzen beabsichtigt, ohne dass eine Eignungsleihe stattfindet, müssen diese Erklärungen erst unmittelbar vor Zuschlagserteilung eingereicht werden.
+
+Der AG stellt hierzu das Formblatt 1.1 Teilnahmeantrag sowie das Formblatt 1.3 Nachunternehmer-Verpflichtungserklärung zur Verfügung. Diese Verpflichtungserklärung ist dem Auftraggeber im Teilnahmewettbewerb zur Verfügung zu stellen.
+
+5)
+Erklärung zur Einhaltung der erlassenen Russland Sanktionen
+
+Der AG stellt hierzu das Formblatt 1.5 Eigenerklärung zum BMWK_Rundschreiben_vom_14.04.2022 zur Verfügung.
+
+Der AG behält sich vor, weitere Unterlagen beizuziehen bzw. zu verlangen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Für die Eignungsprüfung der technischen und beruflichen Leistungsfähigkeit muss der Bewerber, resp. die Bewerbergemeinschaft, drei Referenzkunden (abgeschlossene oder laufende), nicht älter als 2 Jahre, für Kunden innerhalb der EU, der Schweiz oder dem vereinigten Königreich Großbritannien vorlegen, welche darstellen, dass die jeweiligen Referenzprojekte 
+Dass der Bewerber für drei Kunden mindestens 100 Stellen innerhalb eines Jahres auf Jobbörsen und bei Social Media Adds veröffentlicht hat.
+
+Für jedes benannte Referenzprojekt sind zusätzlich folgende Informationen aufzuführen:
+•  Bezeichnung des Referenzkunden mit Adresse des AG
+•  Anzahl Stellenanzeigen/Jahr
+•  Erläuterung Auftragsinhalte
+• Zeitraum der erbrachten Leistungen
+• Nennung der Ansprechpartner beim jeweiligen Referenzgeber, idealerweise mit Angabe von Tel.Nr. und E-Mailadresse.
+• Nennung der Jobbörsen, bei denen der Hauptteil veröffentlicht wurde
+• Nennung der Social Media Adds, bei denen der Hauptteil veröffentlicht wurde
+
+Für die Nennung der zusätzlichen Informationen stellt der Auftraggeber die Anlage 1.6 Nachweis technische und berufliche Leistungsfähigkeit zur Verfügung und die zusätzlichen Belege sind mit der jeweiligen Referenznummer dem Teilnahmeantrag beizulegen.
+
+Der AG stellt hierzu das Formblatt 1.1 Teilnahmeantrag zur Verfügung.
+
+Der AG behält sich vor, weitere Unterlagen beizuziehen bzw. zu verlangen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Die nachstehenden Angaben/Erklärungen/Nachweise sind von den Bewerbern (bzw. jedem Mitglied der Bewerbergemeinschaft) sowie von allen für die Leistungserbringung vorgesehenen Nachunternehmern vorzulegen. Ein Verweis auf frühere Bewerbungen/Angebote ist nicht ausreichend.
+
+1)
+Der Bewerber hat das Vorhandensein einer nach Deckungsumfang und -höhe branchenüblichen Haftpflichtversicherung (spätestens nach Zuschlagserteilung) nachzuweisen und dazu eine aktuelle Versicherungsbestätigung (nicht älter als 3 Monate) vorzulegen. Die Bestätigung hat die wesentlichen Daten des Versicherungsvertrages (Deckungssumme, Sublimits, Selbstbehalte) zu nennen. Die Versicherungssumme je Schadenereignis muss mindestens betragen:
+-	Für Personen- und Sachschäden                3.000.000,00 EUR
+-	Für Vermögens- und sonstigen Schäden       500.000,00 EUR
+Ferner ist zu bestätigen, dass die Versicherungsprämie gezahlt bzw. der Versicherungsvertrag in Kraft ist.
+
+2)
+Vorlage eines Bonitätsnachweises (z.B. Creditreform, SCHUFA, Arvato Infoscore, Bürgel), zum Schlusstermin, vgl. Pkt. 5.1.12) nicht älter als 6 Monate, welcher belegt, dass eine ausreichende Bonität vorliegt (Ausfallrisiko durchschnittlich oder besser).
+
+3)
+Vorlage von zwei Bescheinigungen, dass das Unternehmen seine Verpflichtung zur Zahlung von Steuern und Abgaben, sowie Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt hat (zum Schlusstermin, vgl. Pkt. 5.1.12) und eine entsprechende Bescheinigung nicht älter als 6 Monate beigefügt ist.
+
+Der AG behält sich vor, weitere Unterlagen beizuziehen bzw. zu verlangen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.tender24.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-196b489cdcd-392cbb2bb4756912</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="DEU">Zahlungsbedingung: 30 Tage</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Der Auftraggeber prüft bei den fristgerecht eingegangenen Teilnahmeanträgen die Eignung der Bewerber in einem dreistufigen Verfahren. 
+Stufe 1: Prüfung auf Vollständigkeit der abgeforderten Angaben, Erklärungen und Nachweise Punkt 5.1.9 zu rechtlichen, wirtschaftlichen, finanzielle und technische Anlagen
+Stufe 2: Vorliegen von Ausschlussgründen inkl. Erfüllung der Mindestanforderungen
+Stufe 3: Prüfung der wirtschaftlichen und finanziellen sowie der technischen und beruflichen Leistungsfähigkeit gemessen an der zu vergebenden Leistung.
+Insbesondere auf Stufe 3, deren Prüfung anhand der vom Bewerber / Bewerbergemeinschaft eingereichten Angaben, Erklärungen und Nachweise erfolgt, übt der Auftraggeber seinen Beurteilungsspielraum aus. Nur die geeigneten Bewerber werden im weiteren Verfahren berücksichtigt.
+Der Auftraggeber behält sich vor, fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen, insb. Erklärungen, Angaben, Bescheinigungen oder sonstige Nachweise, nachzufordern oder ggf. korrigieren zu lassen.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die dem Auftraggeber als Ansprechpartner zur Verfügung stehenden Fachkräfte müssen Deutsch in Wort und Schrift beherrschen.
+
+Es ist eine Rechtsform zu wählen, die eine gesamtschuldnerische Haftung erfordert.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität</cbc:Name>
+                  <cbc:Description languageID="DEU">Siehe Anlage 4.3</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.tender24.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen:
+1)
+Gemäß § 160 Abs. 3 Nr. 1 GWB müssen erkannte Verstöße gegen Vergabevorschriften innerhalb einer Frist von 10 Kalendertagen gegenüber dem Auftraggeber gerügt werden. 
+
+2)
+Gemäß § 160 Abs. 3 Nr. 2 GWB müssen Verstöße gegen Vergabevorschriften, die aus diesem Bekanntmachungstext erkennbar sind, innerhalb der in der Bekanntmachung benannten Angebots- bzw. Bewerbungsfrist gegenüber dem Auftraggeber gerügt werden.
+
+3)
+Gemäß § 160 Abs. 3 Nr. 3 GWB müssen Verstöße gegen Vergabevorschriften, die aus erst in den Vergabeunterlagen erkennbar sind, innerhalb der Angebots- bzw. Bewerbungsfrist gegenüber dem Auftraggeber gerügt werden.
+
+4)
+Hilft der Auftraggeber der Rüge nicht ab, kann ein Antrag auf Nachprüfung bei der Vergabekammer des Landes Baden-Württemberg unter der o.g. Anschrift innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des AG, der Rüge nicht abhelfen zu wollen, gestellt werden. Der Nachprüfungsantrag ist unzulässig, soweit die Voraussetzungen des § 160 Abs. 3 GWB vorliegen. 
+
+5)
+Der Auftraggeber weist zugleich auf die Vorschriften der §§ 134, 135 GWB hin. Insbesondere sind die Fristenregelungen in § 135 Abs. 2 GWB zur Geltendmachung der in § 134 Abs. 1 GWB genannten Verstöße zu beachten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2025-08-26+02:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2025-07-18+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-mix</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Rahmenvertrag für Veröffentlichung Stellenanzeigen</cbc:Name>
+         <cbc:Description languageID="DEU">Gegenstand der Rahmenvereinbarung ist die Überprüfung sowie die Veröffentlichung von Stellenanzeigen in digitalen Jobbörsen und auf Social-Media-Plattformen wie Instagram oder Spotify. Der zukünftige Dienstleister übernimmt dabei die komplette Abwicklung - von der Prüfung der gestalteten Anzeige über die Buchung geeigneter Kanäle, das Monitoring bis hin zur Abrechnung. Hauptziel ist eine hohe Passgenauigkeit zwischen Vakanz und Bewerbenden, um Positionen schnell und gezielt zu besetzen. Zudem soll der Dienstleister die SSB als Medienberater unterstützen.
+Vor Start der Leistung muss ein Onboarding gemäß der Leistungsbeschreibung stattfinden.
+
+Die SSB geht von 250 Stellen pro Jahr aus.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Die Auftragsvergabe steht unter einem Gesamtfinanzierungsvorbehalt. Der Auftraggeber behält sich vor, den Zuschlag nicht zu erteilen, wenn die Angebote der Bieter das vorgesehene Gesamt-Budget überschreiten.
+
+Nach dem Teilnahmewettbewerb werden alle geeigneten Bewerber, die die geforderten Voraussetzungen erfüllen, zu einem Angebot aufgefordert. Nach Erhalt der Angebote prüft die Vergabestelle diese. Es werden nur die fünf geeignetsten Bieter zu Verhandlungsgesprächen eingeladen. Die Grundlage der Entscheidung ist die Bewertungsmatrix und die erreichten Punkte. Sollte es bei dem Platz 5 zu Punktgleichheit kommen, Sollte es bei dem Platz 5 zu Punktgleichheit kommen, erhält der Bieter, der die höhere Punktzahl bei dem Qualitätskriterium "3. Auffindbarkeit" hat, die Angebotsaufforderung. Bei Punktgleichheit entscheidet das Los.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">2400000.00</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79610000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79600000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2026-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2027-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">2x Verlängerung um ein Jahr</cbc:OptionsDescription>
+            <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hilma="urn:hanselHilma:NationalNoticeExtension">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-05+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>10:50:17+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="EUR">48000</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+              </efac:LotTender>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              </efac:SettledContract>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+              </efac:SettledContract>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0003</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Tarjous Ambu AS</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Tarjous Cephalon Finland</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Tarjous Clinilab</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              <cbc:AwardDate>2025-02-28Z</cbc:AwardDate>
+              <cbc:IssueDate>2025-04-28Z</cbc:IssueDate>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <efac:ContractReference>
+                <cbc:ID>Sopimus Ambu AS</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+              <cbc:AwardDate>2025-02-28Z</cbc:AwardDate>
+              <cbc:IssueDate>2025-04-30Z</cbc:IssueDate>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <efac:ContractReference>
+                <cbc:ID>Sopimus Cephalon Finland</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0003</cbc:ID>
+              <cbc:AwardDate>2025-02-28Z</cbc:AwardDate>
+              <cbc:IssueDate>2025-04-29Z</cbc:IssueDate>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <efac:ContractReference>
+                <cbc:ID>Sopimus Clinilab</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.hus.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">HUS-yhtymä</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>PL 441 (Uutistie 5, 01770 Vantaa)</cbc:StreetName>
+                  <cbc:CityName>HUS</cbc:CityName>
+                  <cbc:PostalZone>00029</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">1567535-0</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>HUS Yhtymä Hankinnat</cbc:Name>
+                  <cbc:Telephone>+358 94711</cbc:Telephone>
+                  <cbc:ElectronicMail>kilpailutus.tiimi@hus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.oikeus.fi/markkinaoikeus</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Markkinaoikeus</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Radanrakentajantie 5</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3006157-6</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358 295643300</cbc:Telephone>
+                  <cbc:ElectronicMail>markkinaoikeus@oikeus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Ambu AS filial i Finland</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Espoo</cbc:CityName>
+                  <cbc:PostalZone>02211</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">1628345-5</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>0449730353</cbc:Telephone>
+                  <cbc:ElectronicMail>sales.fin@ambu.com</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Cephalon Finland</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Tuusula</cbc:CityName>
+                  <cbc:PostalZone>04300</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">2297008-3</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>0503138900</cbc:Telephone>
+                  <cbc:ElectronicMail>jukka.laaksonen@cephalon.eu</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Clinilab Oy</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Tampere</cbc:CityName>
+                  <cbc:PostalZone>33100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI197</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">2384392-4</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>0505880278</cbc:Telephone>
+                  <cbc:ElectronicMail>info@clinilab.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://hankintailmoitukset.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Hansel Oy (Hilma)</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Mannerheiminaukio 1a</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">FI09880841</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>eSender</cbc:Name>
+                  <cbc:Telephone>029 55 636 30</cbc:Telephone>
+                  <cbc:ElectronicMail>tekninen@hankintailmoitukset.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367624-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">9b19b53d-e452-42da-bc06-7d0466264540</cbc:ID>
+  <cbc:ContractFolderID>ea825475-6808-4c30-9728-00c753dec0a4</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+00:00</cbc:IssueDate>
+  <cbc:IssueTime>10:50:02+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>FIN</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">565545</cbc:ID>
+    <cbc:Name languageID="FIN">HUS 307-2024  IC-mittauksen ja IOM-tarvikkeet</cbc:Name>
+    <cbc:Description languageID="FIN">HUS-yhtymä pyysi tarjouksia IC-mittaustarvikkeista ja IOM-tarvikkeista.
+
+Hankinta oli jaettu osiin. Tässä tarjouskilpailussa pyydetään tarjouksia seuraavista tuotteista ja tuoteryhmistä:
+
+1. IOM SUORA NEULA JOHDOLLA LYHYT 
+2. IOM NEULA JOHDOLLA TWISTED 
+3. IOM TAIVUTETTU NEULA JOHDOLLA
+4. IOM NEULA JOHDOLLA KORKKIRUUVI
+5. IOM ELEKTRODI LANKA 
+6. IOM ELEKTRODI LARYNGEAALI
+7. IOM ELEKTRODI KK SEP/MEP
+8. IOM BAEP KK KORVATULPAT SILIKONIPUTKILLA
+9. IOM D-AALTO ELEKTRODI
+10. LTM-grid-elektrodi.
+
+Hankinnan kohde ja sitä koskevat vaatimukset ovat kuvattu yksityiskohtaisesti koreittain tarjouspyynnön Liitteessä 1. Tuoteliite 
+HUS 307-2024 sekä tässä tarjouspyynnössä ja sen liitteissä.
+
+Tarjouksen voi jättää yhteen tai useampaan koriin. Rinnakkaisia tarjouksia voi jättää yhden (1) kappaleen päätarjouksen rinnalle.
+Sopimus on voimassa määräaikaisena 3 vuotta, minkä jälkeen se on voimassa toistaiseksi.
+
+Hankinnan ennakoitu kokonaisarvo (alv 0 %) on yhteensä noin 80000 euroa (48 kk ajanjaksolle laskettuna). Kyse on arviosta, 
+eikä hankintayksikkö sitoudu ilmoitettuihin euromääriin ja tarjouspyynnössä ilmoitettuihin, toteutuneisiin kulutusmääriin. Lopulliset 
+tilausmäärät voivat olla ilmoitettua suurempia tai pienempiä.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cbc:Note languageID="FIN">Hankintaa ei teknisistä syistä ole jaettu tässä osiin.
+
+Osat on mainittu ja kuvattu hankinnan kuvauksessa.</cbc:Note>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:Region>anyw-cou</cbc:Region>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cbc:CalculationExpression languageID="FIN">Valintaperusteena on kokonaistaloudellinen edullisuus, hinnaltaan halvin tarjous tai joka on hinta-laatu-suhteeltaan paras.
+Hankinta on jaettu 10 tuotekoriin.
+Hankinta toteutetaan tuotekoreittain.
+Seuraavissa tuotekoreissa valintaperusteena on halvin hinta:
+3, 4 ja 6-10.
+Seuraavissa tuotekoreissa valintaperusteena on hinnan lisäksi vertailtavia laatuominaisuuksia ja valintaperusteena on paras hinta laatusuhde:
+1, 2 ja 5.
+Korin vertailuhinnan muodostuminen on esitetty tuotekoreittain liitteessä 1.</cbc:CalculationExpression>
+          <cac:SubordinateAwardingCriterion>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Valintaperusteena on kokonaistaloudellinen edullisuus, hinnaltaan halvin tarjous tai joka on hinta-laatu-suhteeltaan paras.
+Hankinta on jaettu 10 tuotekoriin.
+Hankinta toteutetaan tuotekoreittain.
+Seuraavissa tuotekoreissa valintaperusteena on halvin hinta:
+3, 4 ja 6-10.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Valintaperusteena on kokonaistaloudellinen edullisuus, hinnaltaan halvin tarjous tai joka on hinta-laatu-suhteeltaan paras.
+Hankinta on jaettu 10 tuotekoriin.
+Hankinta toteutetaan tuotekoreittain.
+Seuraavissa tuotekoreissa valintaperusteena on hinnan lisäksi vertailtavia laatuominaisuuksia ja valintaperusteena on paras hinta laatusuhde:
+1, 2 ja 5.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">565545</cbc:ID>
+      <cbc:Name languageID="FIN">HUS 307-2024  IC-mittauksen ja IOM-tarvikkeet</cbc:Name>
+      <cbc:Description languageID="FIN">HUS-yhtymä pyysi tarjouksia IC-mittaustarvikkeista ja IOM-tarvikkeista.
+
+Hankinta oli jaettu osiin. Tässä tarjouskilpailussa pyydetään tarjouksia seuraavista tuotteista ja tuoteryhmistä:
+
+1. IOM SUORA NEULA JOHDOLLA LYHYT 
+2. IOM NEULA JOHDOLLA TWISTED 
+3. IOM TAIVUTETTU NEULA JOHDOLLA
+4. IOM NEULA JOHDOLLA KORKKIRUUVI
+5. IOM ELEKTRODI LANKA 
+6. IOM ELEKTRODI LARYNGEAALI
+7. IOM ELEKTRODI KK SEP/MEP
+8. IOM BAEP KK KORVATULPAT SILIKONIPUTKILLA
+9. IOM D-AALTO ELEKTRODI
+10. LTM-grid-elektrodi.
+
+Hankinnan kohde ja sitä koskevat vaatimukset ovat kuvattu yksityiskohtaisesti koreittain tarjouspyynnön Liitteessä 1. Tuoteliite 
+HUS 307-2024 sekä tässä tarjouspyynnössä ja sen liitteissä.
+
+Tarjouksen voi jättää yhteen tai useampaan koriin. Rinnakkaisia tarjouksia voi jättää yhden (1) kappaleen päätarjouksen rinnalle.
+Sopimus on voimassa määräaikaisena 3 vuotta, minkä jälkeen se on voimassa toistaiseksi.
+
+Hankinnan ennakoitu kokonaisarvo (alv 0 %) on yhteensä noin 80000 euroa (48 kk ajanjaksolle laskettuna). Kyse on arviosta, 
+eikä hankintayksikkö sitoudu ilmoitettuihin euromääriin ja tarjouspyynnössä ilmoitettuihin, toteutuneisiin kulutusmääriin. Lopulliset 
+tilausmäärät voivat olla ilmoitettua suurempia tai pienempiä.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="FIN">Hankintaa ei teknisistä syistä ole jaettu tässä osiin.
+
+Osat on mainittu ja kuvattu hankinnan kuvauksessa.</cbc:Note>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="environmental-impact">circ-econ</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="environmental-impact">biodiv-eco</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="social-objective">work-cond</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:Region>anyw-cou</cbc:Region>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

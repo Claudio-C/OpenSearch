@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-03+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>07:11:09+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="NOK">12000000</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:AppealRequestsStatistics>
+                <efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+              </efac:AppealRequestsStatistics>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+              </efac:LotTender>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+              </efac:LotTender>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0004</cbc:ID>
+              </efac:LotTender>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0005</cbc:ID>
+              </efac:LotTender>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0006</cbc:ID>
+              </efac:LotTender>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0007</cbc:ID>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>7</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              </efac:SettledContract>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+              </efac:SettledContract>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0003</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <efac:FieldsPrivacy>
+                <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                
+                <efbc:ReasonDescription languageID="ENG">Vi gjør oppmerksom på at tilbudspris ikke kan oppgis i denne kunngjøringen. Bakgrunnen for dette er at prisopplysningene er basert på en påslagsmodell, og dersom tilbudsprisene offentliggjøres, vil det være mulig for konkurrenter å regne seg frem til de enkelte tilbydernes påslagsprosent. Dette anses som forretningshemmeligheter og er dermed unntatt offentlighet i henhold til anskaffelsesregelverket.</efbc:ReasonDescription>
+                <efbc:PublicationDate>2032-06-01Z</efbc:PublicationDate>
+              </efac:FieldsPrivacy>
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="NOK">-1</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Acapedia_Randaberg</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:LotTender>
+              <efac:FieldsPrivacy>
+                <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                
+                <efbc:ReasonDescription languageID="ENG">Tilbudspris kan ikke oppgis, da dette vil gjøre det mulig for konkurrenter å beregne påslagsprosentene. Opplysningene regnes som forretningshemmelighet.
+-
+The offer price cannot be disclosed, as this would enable competitors to calculate markup percentages. This information is considered a trade secret.</efbc:ReasonDescription>
+                <efbc:PublicationDate>2032-06-01Z</efbc:PublicationDate>
+              </efac:FieldsPrivacy>
+              <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="NOK">-1</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Mostafa Abdul Jabar</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:LotTender>
+              <efac:FieldsPrivacy>
+                <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                
+                <efbc:ReasonDescription languageID="ENG">Tilbudspris kan ikke oppgis, da dette vil gjøre det mulig for konkurrenter å beregne påslagsprosentene. Opplysningene regnes som forretningshemmelighet.
+-
+The offer price cannot be disclosed, as this would enable competitors to calculate markup percentages. This information is considered a trade secret.</efbc:ReasonDescription>
+                <efbc:PublicationDate>2032-06-01Z</efbc:PublicationDate>
+              </efac:FieldsPrivacy>
+              <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+              <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="NOK">-1</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Tilbud på vikartjenester Randaberg kommune</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:LotTender>
+              <efac:FieldsPrivacy>
+                <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                
+                <efbc:ReasonDescription languageID="ENG">Tilbudspris kan ikke oppgis, da dette vil gjøre det mulig for konkurrenter å beregne påslagsprosentene. Opplysningene regnes som forretningshemmelighet.
+-
+The offer price cannot be disclosed, as this would enable competitors to calculate markup percentages. This information is considered a trade secret.</efbc:ReasonDescription>
+                <efbc:PublicationDate>2032-06-01Z</efbc:PublicationDate>
+              </efac:FieldsPrivacy>
+              <cbc:ID schemeName="tender">TEN-0004</cbc:ID>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="NOK">-1</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0004</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Randaberg - Oppvekst</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:LotTender>
+              <efac:FieldsPrivacy>
+                <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                <efbc:ReasonDescription languageID="ENG">Tilbudspris kan ikke oppgis, da dette vil gjøre det mulig for konkurrenter å beregne påslagsprosentene. Opplysningene regnes som forretningshemmelighet.
+-
+The offer price cannot be disclosed, as this would enable competitors to calculate markup percentages. This information is considered a trade secret.</efbc:ReasonDescription>
+                
+                <efbc:PublicationDate>2032-06-01Z</efbc:PublicationDate>
+              </efac:FieldsPrivacy>
+              <cbc:ID schemeName="tender">TEN-0005</cbc:ID>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="NOK">-1</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0005</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Randaberg vikarer til barnehage mm</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:LotTender>
+              <efac:FieldsPrivacy>
+                <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                
+                <efbc:ReasonDescription languageID="ENG">Tilbudspris kan ikke oppgis, da dette vil gjøre det mulig for konkurrenter å beregne påslagsprosentene. Opplysningene regnes som forretningshemmelighet.
+-
+The offer price cannot be disclosed, as this would enable competitors to calculate markup percentages. This information is considered a trade secret.</efbc:ReasonDescription>
+                <efbc:PublicationDate>2032-06-01Z</efbc:PublicationDate>
+              </efac:FieldsPrivacy>
+              <cbc:ID schemeName="tender">TEN-0006</cbc:ID>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="NOK">-1</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0006</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Tilbud Manpower AS</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:LotTender>
+              <efac:FieldsPrivacy>
+                <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                
+                <efbc:ReasonDescription languageID="ENG">Tilbudspris kan ikke oppgis, da dette vil gjøre det mulig for konkurrenter å beregne påslagsprosentene. Opplysningene regnes som forretningshemmelighet.
+-
+The offer price cannot be disclosed, as this would enable competitors to calculate markup percentages. This information is considered a trade secret.</efbc:ReasonDescription>
+                <efbc:PublicationDate>2032-06-01Z</efbc:PublicationDate>
+              </efac:FieldsPrivacy>
+              <cbc:ID schemeName="tender">TEN-0007</cbc:ID>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="NOK">-1</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0007</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>Randaberg Ped 24/63</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              <cbc:AwardDate>2025-04-15Z</cbc:AwardDate>
+              <cbc:IssueDate>2025-05-21Z</cbc:IssueDate>
+              
+              <cbc:Title languageID="ENG">Part III Tender Documentation - Pedagogical VikarSentral AS</cbc:Title>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <efac:ContractReference>
+                <cbc:ID>Rammeavtale – for innleie av vikarer til barnehage, SFO og grunnskole Avtale nr. 2</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+              <cbc:AwardDate>2025-04-15Z</cbc:AwardDate>
+              <cbc:IssueDate>2025-05-21Z</cbc:IssueDate>
+              
+              <cbc:Title languageID="ENG">Part III Tender Documentation- Manpower AS</cbc:Title>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <efac:ContractReference>
+                <cbc:ID>Rammeavtale – for innleie av vikarer til barnehage, SFO og grunnskole Avtale nr. 1</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0006</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0003</cbc:ID>
+              <cbc:AwardDate>2025-04-15Z</cbc:AwardDate>
+              <cbc:IssueDate>2025-05-21Z</cbc:IssueDate>
+              
+              <cbc:Title languageID="ENG">Part III Tender documentation- Adecco Norway AS</cbc:Title>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <efac:ContractReference>
+                <cbc:ID>Rammeavtale – for innleie av vikarer til barnehage, SFO og grunnskole Avtale nr. 3</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0007</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0004</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0005</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0006</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0007</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.randaberg.kommune.no/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Randaberg kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Postboks 40</cbc:StreetName>
+                  <cbc:Department>Økonomi</cbc:Department>
+                  <cbc:CityName>Randaberg</cbc:CityName>
+                  <cbc:PostalZone>4096</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">934 945 514</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Kjetil Langeland</cbc:Name>
+                  <cbc:Telephone>+47</cbc:Telephone>
+                  <cbc:ElectronicMail>kjetil.langeland@randaberg.kommune.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.domstol.no/no/domstoler/tingrett/sor-rogaland-tingrett/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Sør-Rogaland tingrett</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Postboks 159</cbc:StreetName>
+                  <cbc:CityName>Stavanger</cbc:CityName>
+                  <cbc:PostalZone>4001</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">926 723 448</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>52 00 46 00</cbc:Telephone>
+                  <cbc:ElectronicMail>sor-rogaland.tingrett@domstol.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Dedicare AS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Pb 41</cbc:StreetName>
+                  <cbc:Department>Dedicare AS</cbc:Department>
+                  <cbc:CityName>Stjørdal</cbc:CityName>
+                  <cbc:PostalZone>7501</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO060</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">982529786</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Ellen Kristine Kongshaug</cbc:Name>
+                  <cbc:Telephone>+47 74 80 40 70</cbc:Telephone>
+                  <cbc:ElectronicMail>ellen.kristine.kongshaug@dedicare.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Brobyggere bemannings- og rekrutteringstjeneste</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Strandgaten 87</cbc:StreetName>
+                  <cbc:Department>Salg</cbc:Department>
+                  <cbc:CityName>Bergen</cbc:CityName>
+                  <cbc:PostalZone>5004</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A2</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">830818162</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Mostafa Abdul Jabar</cbc:Name>
+                  <cbc:Telephone>96202108</cbc:Telephone>
+                  <cbc:ElectronicMail>a.jabar@brobyggere.com</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Pedagogisk VikarSentral AS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Holmedalsgården 3</cbc:StreetName>
+                  <cbc:Department>Salg</cbc:Department>
+                  <cbc:CityName>Bergen</cbc:CityName>
+                  <cbc:PostalZone>5003</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A2</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">986550909</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Ørjan Dypaune</cbc:Name>
+                  <cbc:Telephone>55961117</cbc:Telephone>
+                  <cbc:ElectronicMail>orjan@pvs.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Bonliva AS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Sjøgata 6</cbc:StreetName>
+                  <cbc:Department>Salg</cbc:Department>
+                  <cbc:CityName>Hammerfest</cbc:CityName>
+                  <cbc:PostalZone>9600</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO073</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">925570877</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Nicole Kuba</cbc:Name>
+                  <cbc:Telephone>+46763953509</cbc:Telephone>
+                  <cbc:ElectronicMail>anbud@bonliva.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">People of Norway AS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Ekebergveien 233</cbc:StreetName>
+                  <cbc:Department>People of Norway</cbc:Department>
+                  <cbc:CityName>Oslo</cbc:CityName>
+                  <cbc:PostalZone>1166</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO081</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">994638041</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Arild Salomon</cbc:Name>
+                  <cbc:Telephone>22919900</cbc:Telephone>
+                  <cbc:ElectronicMail>as@people.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Manpower AS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Lakkegata 53</cbc:StreetName>
+                  <cbc:Department>BID team</cbc:Department>
+                  <cbc:CityName>Oslo</cbc:CityName>
+                  <cbc:PostalZone>0187</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO081</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">920968201</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Magnus Jørgensen</cbc:Name>
+                  <cbc:Telephone>+4722018000</cbc:Telephone>
+                  <cbc:ElectronicMail>magnus.jorgensen@manpowergroup.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Adecco Norge AS</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Postboks 2013, Vika</cbc:StreetName>
+                  <cbc:Department>Salg</cbc:Department>
+                  <cbc:CityName>OSLO</cbc:CityName>
+                  <cbc:PostalZone>0125</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO081</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">935333156</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Lars Magne Beheim</cbc:Name>
+                  <cbc:Telephone>23 29 00 00</cbc:Telephone>
+                  <cbc:ElectronicMail>lars.beheim@adecco.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368126-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">33f9dae9-1d4c-4b30-9964-30978f75aea8</cbc:ID>
+  <cbc:ContractFolderID>dc363464-dcad-433f-a654-19c212e1da2d</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-03+00:00</cbc:IssueDate>
+  <cbc:IssueTime>07:10:59+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RequestedPublicationDate>2025-06-06Z</cbc:RequestedPublicationDate>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+  
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    
+    <cbc:Description languageID="ENG">The procurement is covered by the Public Procurement Act dated 17 June 2016 no. 73 (the Procurement Act), and the Public Procurement Regulations dated 12 August 2016 no. 974 (procurement regulations). Parts I and part III of the regulations apply for this procurement. The chosen procurement procedure is an open tender contest, cf. the procurement regulations § 13-1.</cbc:Description>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:NoticeDocumentReference>
+      <cbc:ID schemeName="notice-id-ref">0a2e7e01-3565-4218-9626-19bc490bf3a7-01</cbc:ID>
+    </cac:NoticeDocumentReference>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">24/63</cbc:ID>
+    
+    <cbc:Name languageID="ENG">Framework agreement for the hire of temporary staff for nurseries, before-and-after-school care and the primary and secondary schools.</cbc:Name>
+    
+    <cbc:Description languageID="ENG">Randaberg municipality would like, via this competition, to enter into parallel framework agreements for the hire of temporary staff for nurseries, before-and-after-school care and primary and secondary schools. 
+
+The delivery is for the provision of temporary staff services in the following job categories: 
+-Educators
+- Nursery teacher
+- Child and youth workers.
+- Assistants (unskilled)
+- Primary and secondary school teachers
+
+The schools are included in the agreement, but the schools' practice will to a small degree be affected. The schools have "separate" temporary staff, e.g. teacher students that they use for absenteeism.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    
+    <cbc:Note languageID="ENG">Exception from the public procurement regulations § 7-9. Climate and environmental considerations in public procurements.
+The nature of the procurement is temporary staff services, i.e. the delivery of labour to replace permanent employees in the event of illness and/or staff holidays. In order to map the climate footprint and other forms of environmental impact from the nature of temporary staff services, the municipality anticipates that a temporary staff ́s climate footprint and environmental impact will be equal to the load from an average permanent employee. The municipality considers that the procurement of temporary staff services, where the core of the delivery is labour, will only have marginal climate footprint and environmental impact. How the temporary staff gets to and from work is assessed to be outside the nature of the procurement and is therefore not assessed further. The municipality will, based on its assessment, use the exclusion provisions in the procurement regulations § 7-9 fifth section, as the procurement is justified by nature to have a climate footprint and an environmental impact that is immaterial. The municipality is therefore exempt from the obligations to weight the environment 30% or to prioritise the environment among the three highest prioritised award criteria.</cbc:Note>
+    <cac:RequestedTenderTotal>
+      <cbc:EstimatedOverallContractAmount currencyID="NOK">12000000</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">79600000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      
+      <cbc:Description languageID="ENG">Anywhere in Randaberg municipality.</cbc:Description>
+      <cac:Address>
+        <cbc:Region>anyw</cbc:Region>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="indicator">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            
+            <cbc:Name languageID="ENG">Price - 60%</cbc:Name>
+            
+            <cbc:Description languageID="ENG">The evaluation sum from the submitted response to Annex 1 - Price Form. The sum from Cell E12 is used and the lowest price achieves 10 points on this criteria.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            
+            <cbc:Name languageID="ENG">Quality 40%</cbc:Name>
+            
+            <cbc:Description languageID="ENG">The contracting authority will evaluate this award criteria in relation to sub-allocation criteria points 1.1, 1.2, 1.3 and 1.4. 
+
+The contracting authority would like temporary staff who are well suited for the assignments and who have received good and appropriate training. Furthermore, the contracting authority would like a tenderer who follows up the temporary staff in a good way and who has good routines for handling deviations. Tenderers shall also have an ordering portal and routines for selection/allocating temporary staff for an assignment after the order has been received.
+
+1.1 Recruiting 
+Tenderers are requested to describe how they recruit temporary staff.
+The contracting authority will emphasise good systems that will make the recruited temporary staff suitable for the assignment, and emphasis will be put on how the tenderer works to recruit as many relevant candidates as possible.
+
+1.2 Training and follow-up. 
+Tenderers are requested to describe the training offer to both new and more experienced temporary staff. Furthermore, tenderers are requested to describe how they follow up the temporary staff.
+Good routines, professional content, training and follow-up when temporary staff are to be commissioned, which ensures that the quality and knowledge of hired temporary staff will be emphasised.
+
+1.3 Handling deviations 
+Tenderers are requested to describe how deviations are handled, including if the temporary staff commits offences, is not suitable for the task, as well as other deviations.
+Emphasis will be put on good routines for handling deviations.
+
+1.4 Ordering 
+Tenderers are asked to describe their booking system and the possibility to place orders for assignments during the nursery ́s ordinary opening hours, at weekends and outside ordinary opening hours. Also describe the tenderer ́s routines for the selection and allocation of temporary staff for an assignment after the order has been received. State how far forward a temporary staff can be ordered, as well as any consequences if cancelled prior to the assignment.
+
+An ordering portal with history and a picture of temporary staff is seen as positive.
+
+Tenderers shall respond to all sub-criteria in the same annex. The responses shall have a maximum of 10 pages (A4), Arial, 10 points, single spaced lines and general margins.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          
+          <cbc:Description languageID="ENG">The notification letter was sent 15.04.2025 and the waiting period is set to expire 29.04.2025, 12.00.</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">24/63</cbc:ID>
+      
+      <cbc:Name languageID="ENG">Framework agreement for the hire of temporary staff for nurseries, before-and-after-school care and the primary and secondary schools.</cbc:Name>
+      
+      <cbc:Description languageID="ENG">Randaberg municipality would like, via this competition, to enter into parallel framework agreements for the hire of temporary staff for nurseries, before-and-after-school care and primary and secondary schools. 
+
+The delivery is for the provision of temporary staff services in the following job categories: 
+-Educators
+- Nursery teacher
+- Child and youth workers.
+- Assistants (unskilled)
+- Primary and secondary school teachers
+
+The schools are included in the agreement, but the schools' practice will to a small degree be affected. The schools have "separate" temporary staff, e.g. teacher students that they use for absenteeism.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      
+      <cbc:Note languageID="ENG">Exception from the public procurement regulations § 7-9. Climate and environmental considerations in public procurements.
+The nature of the procurement is temporary staff services, i.e. the delivery of labour to replace permanent employees in the event of illness and/or staff holidays. In order to map the climate footprint and other forms of environmental impact from the nature of temporary staff services, the municipality anticipates that a temporary staff ́s climate footprint and environmental impact will be equal to the load from an average permanent employee. The municipality considers that the procurement of temporary staff services, where the core of the delivery is labour, will only have marginal climate footprint and environmental impact. How the temporary staff gets to and from work is assessed to be outside the nature of the procurement and is therefore not assessed further. The municipality will, based on its assessment, use the exclusion provisions in the procurement regulations § 7-9 fifth section, as the procurement is justified by nature to have a climate footprint and an environmental impact that is immaterial. The municipality is therefore exempt from the obligations to weight the environment 30% or to prioritise the environment among the three highest prioritised award criteria.</cbc:Note>
+      <cac:RequestedTenderTotal>
+        <cbc:EstimatedOverallContractAmount currencyID="NOK">12000000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">79600000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        
+        <cbc:Description languageID="ENG">Anywhere in Randaberg municipality.</cbc:Description>
+        <cac:Address>
+          <cbc:Region>anyw</cbc:Region>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2025-06-01Z</cbc:StartDate>
+        <cbc:EndDate>2027-05-31Z</cbc:EndDate>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+        <cac:Renewal>
+          <cac:Period>
+            
+            <cbc:Description languageID="ENG">The contracting authority intends to enter into parallel framework agreements with up to three (3) tenderers. The contract will be valid for 2 years, with subsequent options for 1+1 year on verbatim terms.</cbc:Description>
+          </cac:Period>
+        </cac:Renewal>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

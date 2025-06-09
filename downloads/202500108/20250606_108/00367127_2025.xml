@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.amstelveen.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Gemeente Amstelveen</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Laan Nieuwer-Amstel 1</cbc:StreetName>
+                                    <cbc:CityName>Amstelveen</cbc:CityName>
+                                    <cbc:PostalZone>1182 JR</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL32B</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>30505231</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Marco Koopal</cbc:Name>
+                                    <cbc:Telephone>+31 618555541</cbc:Telephone>
+                                    <cbc:ElectronicMail>inkoop.aanbesteding@amstelveen.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/contact/</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Amsterdam</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postbus 84500 </cbc:StreetName>
+                                    <cbc:CityName>Amsterdam</cbc:CityName>
+                                    <cbc:PostalZone>1080BN</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL32B</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 883617000</cbc:Telephone>
+                                    <cbc:Telefax>+31 205412111</cbc:Telefax>
+                                    <cbc:ElectronicMail>info@rechtbankamsterdam.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>http://www.amstelveen.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Gemeente Amstelveen</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postbus 4 </cbc:StreetName>
+                                    <cbc:CityName>Amstelveen</cbc:CityName>
+                                    <cbc:PostalZone>1180 BA</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL32B</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:Name>Team I&amp;A</cbc:Name>
+                                    <cbc:ElectronicMail>inkoop.aanbesteding@amstelveen.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367127-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">a7d5ec38-3982-49ec-8399-f15c25acb22e</cbc:ID>
+    <cbc:ContractFolderID>7d11c0ac-de84-44f1-9544-8704ebf3aeb3</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+    <cbc:IssueTime>16:01:46.341981705+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode languageID="NLD" listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode languageID="NLD" listName="exclusion-grounds-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:Description languageID="NLD">De af te sluiten overeenkomst heeft betrekking op het onderhoud aan de elektrotechnische 
+installaties van het gebouwbestand dat onder het beheer valt van de afdeling Projecten &amp; Advies, Team Vastgoed van de gemeente Amstelveen en Aalsmeer. Onder elektrotechnische installaties wordt verstaan: Alle licht- en krachtinstallaties welke vallen onder de noemer laagspanningsinstallaties. Daarnaast zwakstroominstallaties en generieke bekabelingsystemen allen inclusief bijbehorende onderdelen en componenten welke zorgen voor de goede werking van een installatie of een systeem. Het betreft het curatief, preventief en correctief onderhoud alsmede de uitvoering van kleinschalige installatiewerkzaamheden. 
+
+Voor nadere toelichting wordt verwezen naar de offerteaanvraag, welke als bijlage bij de documenten is gevoegd.</cbc:Description>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">I&amp;A_2025_0041</cbc:ID>
+        <cbc:Name languageID="NLD">Onderhoud elektrotechnische installaties</cbc:Name>
+        <cbc:Description languageID="NLD">De af te sluiten overeenkomst heeft betrekking op het onderhoud aan de elektrotechnische 
+installaties van het gebouwbestand dat onder het beheer valt van de afdeling Projecten &amp; Advies, Team Vastgoed van de gemeente Amstelveen en Aalsmeer. De gezamenlijke geraamde waarde van de opdrachten gedurende de gehele looptijd inclusief de verlengingsopties bedraagt  € 1.850.000,- exclusief btw. Op basis van een onzekerheidsfactor van 20% is de maximale waarde van de overeenkomst € 2.200.000,- exclusief btw. Indien gedurende de looptijd van de overeenkomst de uitgaven de maximale waarde overstijgt, verlies de overeenkomst haar werking.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">1850000.0</cbc:EstimatedOverallContractAmount>
+        </cac:RequestedTenderTotal>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">50710000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="NLD">Gemeente Aalsmeer en Amstelveen</cbc:Description>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">NL32B</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+            <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+            <cac:RequiredFinancialGuarantee>
+                <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+                <cbc:Description languageID="NLD">Waarborgen continuïteit</cbc:Description>
+            </cac:RequiredFinancialGuarantee>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>documentsId</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.tenderned.nl/aankondigingen/overzicht/381445</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode languageID="NLD" listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode languageID="NLD" listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode languageID="NLD" listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Kwaliteitsonderdeel 1: Dienstverlening en vakmanschap</cbc:Name>
+                        <cbc:Description languageID="NLD">Kwaliteitsonderdeel 1: Dienstverlening en vakmanschap</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>16</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Kwaliteitsonderdeel 2: Richten en inrichten preventieve werkzaamheden</cbc:Name>
+                        <cbc:Description languageID="NLD">Kwaliteitsonderdeel 2: Richten en inrichten preventieve werkzaamheden</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>4</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Kwaliteitsonderdeel 3:  Uitvoering storingswerkzaamheden</cbc:Name>
+                        <cbc:Description languageID="NLD">Kwaliteitsonderdeel 3:  Uitvoering storingswerkzaamheden</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Kwaliteitsonderdeel 4:  Duurzaamheid</cbc:Name>
+                        <cbc:Description languageID="NLD">Kwaliteitsonderdeel 4:  Duurzaamheid</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>50</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Beoordelingsprijs</cbc:Name>
+                        <cbc:Description languageID="NLD">Beoordelingsprijs</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.tenderned.nl/aankondigingen/overzicht/381445</cbc:EndpointID>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="NLD">20 werkdagen</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+                <cac:MediationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:MediationParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>NLD</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+            <cac:SecurityClearanceTerm>
+                <cbc:Code listName="required">false</cbc:Code>
+            </cac:SecurityClearanceTerm>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2025-09-23+02:00</cbc:EndDate>
+                <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:AdditionalInformationRequestPeriod>
+                <cbc:EndDate>2025-08-28+02:00</cbc:EndDate>
+                <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+            </cac:AdditionalInformationRequestPeriod>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-09-23+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>10:05:00+02:00</cbc:OccurrenceTime>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:FrameworkAgreement>
+                <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+            </cac:FrameworkAgreement>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Onderhoud elektrotechnische installaties</cbc:Name>
+            <cbc:Description languageID="NLD">Naar oordeel van de aanbestedende dienst is bij deze opdracht geen sprake van het samenvoegen van opdrachten.  De aanbesteding is niet onderverdeeld in percelen. De opdracht is economisch en technisch samenhangend en marktpartijen, ook het MKB, worden gelet op de markt-omstandigheden in staat geacht de opdracht als geheel uit te voeren.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">1850000.0</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">50710000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="NLD">Gemeente Aalsmeer en Amstelveen</cbc:Description>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">NL32B</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DurationMeasure unitCode="YEAR">2</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="NLD">De opdracht betreft de volgende soorten van onderhoud:
+- Curatief Onderhoud (verhelpen van storingen) 
+- Preventief Onderhoud 
+- Correctief Onderhoud 
+- Kleinschalige werkzaamheden en kort lopende projecten (KLP) 
+
+Voor nadere toelichting wordt verwezen naar de offerteaanvraag, welke als bijlage bij de documenten is gevoegd.</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="NLD">De voorgenomen ingangsdatum van de beoogde raamovereenkomst is 1 januari 2026.  De raamovereenkomst kent een initiële looptijd van 2 jaar. Na deze periode kan de aanbestedende dienst de raamovereenkomst 2 keer eenzijdig verlengen, telkens voor 1 jaar en onder dezelfde voorwaarden.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ContractNotice>

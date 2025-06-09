@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:Changes>
+						<efbc:ChangedNoticeIdentifier>9b5cd6c8-cffc-4eed-af79-c36fe7f5a711-01</efbc:ChangedNoticeIdentifier>
+						<efac:Change>
+							<efbc:ChangeDescription languageID="DEU">Das bereits im Teilnahmeantragsformular genannte Eignungskriterium der durchschnittlichen jährlichen Beschäftigtenanzahl (mindestens 150 FTE) wurde eingefügt.</efbc:ChangeDescription>
+							<efac:ChangedSection>
+								<efbc:ChangedSectionIdentifier>PROCEDURE</efbc:ChangedSectionIdentifier>
+							</efac:ChangedSection>
+						</efac:Change>
+						<efac:ChangeReason>
+							<cbc:ReasonCode listName="change-corrig-justification">update-add</cbc:ReasonCode>
+							<efbc:ReasonDescription languageID="DEU">Das bereits im Teilnahmeantragsformular genannte Eignungskriterium der durchschnittlichen jährlichen Beschäftigtenanzahl (mindestens 150 FTE) wurde eingefügt.</efbc:ReasonDescription>
+						</efac:ChangeReason>
+					</efac:Changes>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.gematik.de/</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">gematik GmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Friedrichstr. 136</cbc:StreetName>
+									<cbc:CityName>Berlin</cbc:CityName>
+									<cbc:PostalZone>10117</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE300</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>HRB 96351</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Vergabestelle</cbc:Name>
+									<cbc:Telephone>+49 3040041-0</cbc:Telephone>
+									<cbc:Telefax>+49 30-40041111</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@gematik.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.bundeskartellamt.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Bundeskartellamt Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Kaiser-Friedrich-Straße 16</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53113</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:022894990</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Vergabekammer</cbc:Name>
+									<cbc:Telephone>+49 22894990</cbc:Telephone>
+									<cbc:Telefax>+49 2289499163</cbc:Telefax>
+									<cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.bundeskartellamt.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Bundeskartellamt Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Kaiser-Friedrich-Straße 16</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53113</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>991-02380-92</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 22894990</cbc:Telephone>
+									<cbc:Telefax>+49 2289499163</cbc:Telefax>
+									<cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367436-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">30dbc39d-e7d3-4362-a69c-fd48ea00bfd2</cbc:ID>
+	<cbc:ContractFolderID>724a09bf-08bc-4af2-8f74-32088b6689bc</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+	<cbc:IssueTime>18:18:50+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-cga</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. § 21 iVm. § 23 AEntG, § 98c AufenthG,  § 19 iVm. § 21 MiLoG und § 21 SchwarzArbG </cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">gem. §§123, 124 GWB (Eigenerklärung gem. Dokument "02) - Digitale Patientenrechnung - Teilnahmeantragsformular")</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Das Nachprüfungsverfahren ist in Kapitel 2 des 4. Teils des Gesetzes gegen Wettbewerbsbeschränkungen (GWB) geregelt.
+Ein Nachprüfungsverfahren wird nach § 160 GWB nur auf Antrag bei der Vergabekammer eingeleitet. Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 GWB durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschrift ein Schaden entstanden ist oder zu entstehen droht.
+Dieser Antrag ist unzulässig, soweit:
+1) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrages erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 GWB bleibt unberührt;
+2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden;
+3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden;
+4) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Dies gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrages nach § 135 Absatz 1 Nummer 2 GWB. § 134 Absatz 1 Satz 1 Satz 2 GWB bleibt unberührt.
+Nach § 134 GWB (Informations- und Wartepflicht) wird der Auftraggeber Bieter über den vorgesehenen Zuschlag informieren. Der Vertrag wird erst 15 Kalendertage (bei elektronischer Übermittlung oder per Fax: 10 Kalendertage) nach Absendung dieser Information geschlossen.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXS0Y53YTBM592HY</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">2025-0039</cbc:ID>
+		<cbc:Name languageID="DEU">Entwicklung und Betrieb TI-Fachdienst Digitale Patientenrechnung</cbc:Name>
+		<cbc:Description languageID="DEU">Beschaffung eines IT Projektvertrags über die Entwicklung und Pflege einer Individualsoftware "Digitale Patientenrechnung", Projektmanagement, Dienstleistungen, (initiale) Leistungen innerhalb der Projektphase zur Herstellung der Betriebsbereitschaft sowie die Bereitstellung eines Plattform-as-a-Service Dienstes "Digitale Patientenrechnung".</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXS0Y53YTBM592HY
+
+
+1) Die gematik führt dieses Vergabeverfahren nach den Vorschriften des Gesetzes gegen Wettbewerbsbeschränkungen (GWB) und der Verordnung über die Vergabe öffentlicher Aufträge (VgV) durch; 2) Mit dem Angebot sind sämtliche der aufgelisteten Nachweise, Erklärungen und Angaben (Unterlagen) beizubringen. Für die Erstellung und Einreichung des Teilnahmeantrages (und später des Angebotes) sind die von der Vergabestelle zum Download zur Verfügung gestellten Vordrucke und Formblätter zu verwenden. Die Vergabestelle behält sich vor, fehlende, formell fehlerhafte oder unvollständige Unterlagen bis zum Ablauf einer von der Vergabestelle zu bestimmenden Nachfrist nachzufordern oder aufzuklären. Die Bewerber/Bieter haben keinen Anspruch auf Nachforderung / Nachreichung oder Aufklärung / Erläuterung von Unterlagen. Sämtliche Unterlagen sind in elektronischer Form sowie in Textform nach § 126b BGB über die genannte Vergabeplattform einzureichen; 3) Soweit Auskünfte erforderlich werden, sind Fragen ausschließlich über die genannte Vergabeplattform einzureichen; 4) Eine Erstattung von Kosten/Aufwendungen für die Erstellung des Teilnahmeantrages (und später des Angebots) und die Teilnahme am Vergabeverfahren findet nicht statt; 5) Die Verfahrens- und Vertragssprache ist deutsch; 6) Es wird darauf hingewiesen, dass die benannten Fristen für die Angebotsphase noch nicht verbindlich feststehen; 7) Der Auftraggeber wird für das weitere Vergabeverfahren max. 4 Bewerber/Bewerbergemeinschaften mit positiver Eignungsprognose auswählen. Er behält sich vor, das Vergabeverfahren aufzuheben, sofern die Mindestzahl von 3 zulassungsfähigen Bewerbungen unterschritten werden. Sollte die Prüfung der eingegangenen Teilnahmeanträge ergeben, dass mehr als die vorgegebene maximale Bewerberanzahl die Eignungsanforderungen erfüllen, wird der Auftraggeber die zur Abgabe eines Angebotes aufzufordernden Bewerber nach den Vorgaben der Bewertungsmatrix Teilnahmewettbewerb auswählen. Dabei wird der Auftraggeber die Erklärungen und Nachweise der Bewerber zur technischen und beruflichen Leistungsfähigkeit (Referenzen) bewerten und gewichten. Bei Punktgleichstand der viertplatzierten Bewerber, werden alle gleichplatzierten Bewerber und damit mehr als 4 Bewerber zur Angebotsabgabe aufgefordert. 8) Nur die ausgewählten Bieter, die zur Angebotsabgabe aufgefordert werden (zweite Phase des Vergabeverfahrens), können anschließend ein Erstangebot abgeben und am weiteren Verhandlungsverfahren teilnehmen. Der Auftraggeber wird mit allen ausgewählten Bietern, die form- und fristgerecht ein Erstangebot eingereicht haben, Verhandlungsgespräche mit dem Ziel führen, die Angebote zu optimieren. Dafür wird der Auftraggeber diese Bieter unter Beachtung der Grundsätze der Transparenz und Gleichbehandlung zu Verhandlungen und hiernach zur Abgabe endgültiger Angebote (best and final offer - "BAFO") auffordern. 9) Im Nachgang zu den Verhandlungsterminen erhalten die Bieter, ggf. nach einheitlicher Fortschreibung der Vergabeunterlagen durch den Auftraggeber, die Möglichkeit zur Angebotsoptimierung
+
+Zuschlagskriterien:
+Der Zuschlag wird gemäß § 127 Abs. 1 GWB auf das wirtschaftlichste Angebot erteilt. 
+ 
+Das wirtschaftlichste Angebot wird anhand folgender Zuschlagskriterien nach § 58 Abs. 2 VgV ermittelt: 
+ 
+- Preis (50%), 
+- Qualität (50%). 
+Für Details wird auf den Verfahrensbrief verwiesen.  
+ 
+Die Bewertung zur Ermittlung des wirtschaftlichsten Angebots erfolgt nach der Einfachen Richtwertmethode gemäß der Unterlage für Ausschreibung und Bewertung von IT-Leistungen (UfAB 2018).</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72260000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72200000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72263000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72265000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72267000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72268000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Der Auftragnehmer kann seine Leistungen grundsätzlich remote erbringen, außer in den im Vertrag und seinen Anlagen geregelten Fällen.</cbc:Description>
+			<cac:Address>
+				<cbc:Region>anyw</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">1. Umsatz Umsatzangaben (netto) über die letzten drei abgeschlossenen Geschäftsjahre des Unternehmens: Der erwirtschaftete Umsatz mit Leistungen, die mit den ausgeschriebenen Leistungen vergleichbar sind, muss durchschnittlich mindestens 5 Millionen EUR (netto) in den letzten drei Jahren betragen (Mindestanforderung). Ein Bestand des Unternehmens seit drei Jahren ist nicht Voraussetzung. Für Unternehmen, die weniger als drei Jahre bestehen, sind die Erklärungen jeweils nur bezogen auf die bislang abgeschlossenen Geschäftsjahre abzugeben. 2. Industriehaftpflicht oder vergleichbare Versicherung Es ist eine in Rahmen und Umfang marktübliche Industriehaftpflichtversicherung/Betriebshaftpflichtversicherung oder eine vergleichbare Versicherung aus einem Mitgliedsstaat der EU mit Deckungssummen in marktüblicher und für den Auftrag ausreichender Höhe durch Vorlage einer unbeglaubigten Kopie nachzuweisen oder sofern eine entsprechende Industriehafttpflichtversicherung (oder eine vergleichbare marktübliche Versicherung) noch nicht besteht, ist zu erklären, dass eine solche Versicherung im Falle der Auftragserteilung abgeschlossen wird. In dem Zuge ist eine Erklärung eines Versicherers, aus der hervorgeht, dass er zum Abschluss einer entsprechenden Versicherung bereit ist, als Anlage beizufügen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+								<cbc:Description languageID="DEU">Sofern eine Pflicht zur Eintragung ins Handelsregister (oder in ein vergleichbares Register) besteht, ist ein aktueller Handelsregisterauszug (oder vergleichbarer Auszug), der nicht älter als 3 Monate ist, gerechnet ab Ablauf der Teilnahmefrist, einzureichen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">1. Es sind 2 unternehmensbezogene Referenzprojekte mit den untenstehenden jeweiligen Anforderungen nachzuweisen, die nach ihrer Art und ihrem Umfang mit den ausgeschriebenen Leistungen vergleichbar sind.  
+
+Es darf nicht derselbe Auftrag bzw. dieselbe Anwendung/IT-Infrastruktur für beide Referenzprojekte angegeben werden.  
+
+ 
+
+Referenzprojekt Nr. 1 (fachliches Referenzprojekt) ist vergleichbar, wenn es die folgenden Anforderungen (a) bis (d) kumulativ erfüllt: 
+
+(a)  Auftragsgegenstand umfasste die Planung, Programmierung, Testung, Dokumentation, Umsetzung und den Betrieb von hochverfügbaren Anwendungen (entweder Anwendung der TI oder Anwendung im Internet) mit hohen Sicherheitsanforderungen, 
+
+(b)  umgesetzt im Gesundheits- oder Versicherungs- oder Finanzwesen oder im BOS (Behörden und Organisationen mit Sicherheitsaufgaben) oder im Verteidigungsbereich, 
+
+(c)  umgesetzt in den letzten 10 Jahren  
+
+und 
+
+(d) Auftragsvolumen umfasste mindestens zwei Millionen Euro. 
+
+ 
+
+Eine Referenz gilt als in den letzten 10 Jahren erbracht, wenn die Produktivsetzung der implementierten Lösung in den letzten 10 Jahren (Stichtag: Ablauf der Teilnahmeantragsfrist) stattgefunden hat. 
+
+ 
+
+Mit der ausgeschriebenen Leistung vergleichbar sind auch Referenzprojekte, bei denen der Bewerber eigenständig bzw. freiverantwortlich eine hochverfügbare Anwendung i.S.v lit. a) entwickelt hat und als kommerzielles Angebot externen Nutzern zur Verfügung stellt. 
+
+ 
+
+Referenzprojekt Nr. 2 (betriebliches Referenzprojekt) ist vergleichbar, wenn es die folgenden Anforderungen (a) bis (d) kumulativ erfüllt:  
+
+(a)  Auftragsgegenstand umfasste die Planung, Programmierung, Testung, Dokumentation, Umsetzung und den Betrieb von hochverfügbaren IT-Infrastrukturen mit hohen Sicherheitsanforderungen,  
+
+(b)  umgesetzt im Gesundheits- oder Versicherungs- oder Finanzwesen oder im BOS (Behörden und Organisationen mit Sicherheitsaufgaben) oder im Verteidigungsbereich,  
+
+(c) umgesetzt in den letzten 5 Jahren  
+
+und 
+
+(d) Auftragsvolumen umfasste mindestens zwei Millionen Euro.  
+
+  
+
+Eine Referenz gilt als in den letzten 5 Jahren erbracht, wenn die Produktivsetzung der implementierten Lösung in den letzten 5 Jahren (Stichtag: Ablauf der  Teilnahmeantragsfrist) stattgefunden hat. 
+
+Mit der ausgeschriebenen Leistung vergleichbar sind auch Referenzprojekte, bei denen der Bewerber eigenständig bzw. freiverantwortlich eine hochverfügbare IT-Infrastruktur mit hohen Sicherheitsanforderungen i.S.v lit. a) entwickelt hat und als kommerzielles Angebot externen Nutzern zur Verfügung stellt. 
+
+ 
+
+Für die Angabe der Referenzprojekte ist der Vordruck "05) - Digitale Patientenrechnung - Referenzprojekte.xlsx" auszufüllen. 
+
+Auswahlkriterium: 
+Der Auftraggeber wird im Rahmen der geplanten Reduzierung der Bewerberanzahl gem. § 51 VgV max. 2 Referenzprojekte, welche die vorgenannten Anforderungen an die Vergleichbarkeit erfüllen müssen, auf Grundlage der in Dokument "05) - Digitale Patientenrechnung - Referenzprojekte.xlsx" dargestellten Kriterien und der vom Bieter dort gemachten Angaben in die Wertung für die Auswahlentscheidung aufnehmen. Sollte der Bewerber mehr als zwei Referenzen einreichen, so werden die Referenzen mit der besten (Gesamt-)Punktzahl in die Bewertung aufgenommen. Kann ein Referenzprojekt, z.B. aufgrund zwingender Vorgaben oder fehlender Angaben, nicht gewertet werden, geht das zu Lasten des Bewerbers. Kann ein Referenzprojekt, z.B. aufgrund zwingender Vorgaben oder fehlender Angaben, nicht gewertet werden, geht das zu Lasten des Bewerbers. Es sind maximal 1000 Wertungspunkte erreichbar (je 500 Wertungspunkte pro Referenzprojekt). Für weitere Details wird auf das Teinahmeantragsformular verwiesen.
+2.Erklärung über den Bestand an Mitarbeitern: Die durchschnittliche jährliche Beschäftigtenanzahl muss jeweils mindestens 150 Mitarbeitende (FTE Fulltime Equivalent) in vergleichbaren Tätigkeiten zu der ausgeschriebenen Leistung betragen. (Mindestanforderung)</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Auswahlkriterium: Referenzen</cbc:Name>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>1000.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">par-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXS0Y53YTBM592HY/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Sofern Teilnahmeanträge oder Angebote unvollständig eingegangen sind, behält sich der Auftraggeber vor, fehlende, unvollständige oder fehlerhafte Unterlagen - soweit zulässig - nachzufordern. Ein Anspruch des Bewerbers/Bieters hierauf besteht nicht. Fehlende, unvollständige oder fehlerhafte Unterlagen führen gleichwohl zum Ausschluss des Teilnahmeantrags oder Angebots, wenn nach pflichtgemäßer Ausübung des Ermessens von einer Nachforderung abgesehen wird.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Eigenerklärung zur Umsetzung von Art. 5k Verordnung (EU) 2022/576 (Auszug der VO unter Ziff. IX. Anhang)</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXS0Y53YTBM592HY</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Das Nachprüfungsverfahren ist in Kapitel 2 des 4. Teils des Gesetzes gegen Wettbewerbsbeschränkungen (GWB) geregelt.
+Ein Nachprüfungsverfahren wird nach § 160 GWB nur auf Antrag bei der Vergabekammer eingeleitet. Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 GWB durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschrift ein Schaden entstanden ist oder zu entstehen droht.
+Dieser Antrag ist unzulässig, soweit:
+1) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrages erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 GWB bleibt unberührt;
+2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden;
+3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden;
+4) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Dies gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrages nach § 135 Absatz 1 Nummer 2 GWB. § 134 Absatz 1 Satz 1 Satz 2 GWB bleibt unberührt.
+Nach § 134 GWB (Informations- und Wartepflicht) wird der Auftraggeber Bieter über den vorgesehenen Zuschlag informieren. Der Vertrag wird erst 15 Kalendertage (bei elektronischer Übermittlung oder per Fax: 10 Kalendertage) nach Absendung dieser Information geschlossen.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXS0Y53YTBM592HY</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-07-14+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-16+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>4</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>4</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">2025-0039</cbc:ID>
+			<cbc:Name languageID="DEU">Entwicklung und Betrieb TI-Fachdienst Digitale Patientenrechnung</cbc:Name>
+			<cbc:Description languageID="DEU">Mit dem TI-Fachdienst "Digitale Patientenrechnung" soll für den Abrechnungsprozess von medizinischen oder sonstigen Leistungen, die nicht dem Sachleistungsprinzip unterliegen, eine TI-Anwendung Digitale Patientenrechnung (DiPag) geschaffen werden (s. SGB V § 359a Elektronische Rechnung). Ziel ist es, in mehreren Ausbaustufen eine Lösung für die digitale Abrechnung zu schaffen, die Medienbrüche sowie Postversand vermeidet und auch für den Versicherten komfortabel in der Nutzung ist.
+ 
+Im Rahmen der Projektphase ist u.a. die Erstellung der Individualsoftware, Projektmanagement, Dienstleistungen, (initiale) Leistungen zur Herbeiführung der Betriebsbereitschaft des cloudbasierten DiPag-Systems geschuldet.
+ 
+Die Betriebsphase (umfasst Softwarepflege, Plattform-as-a-Service Cloudleistungen und Dienstleistungen) beginnt nach der Beginn des Betriebs/Go Live (Meilenstein 6).</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">Der Zuschlag wird gemäß § 127 Abs. 1 GWB auf das wirtschaftlichste Angebot erteilt. 
+ 
+Das wirtschaftlichste Angebot wird anhand folgender Zuschlagskriterien nach § 58 Abs. 2 VgV ermittelt: 
+ 
+- Preis (50%), 
+- Qualität (50%). 
+ 
+Die Bewertung zur Ermittlung des wirtschaftlichsten Angebots erfolgt nach der Einfachen Richtwertmethode gemäß der Unterlage für Ausschreibung und Bewertung von IT-Leistungen (UfAB 2018). Weitere Details sind dem Verfahrensbrief zu entnehmen.</cbc:Note>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72260000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72200000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72263000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72265000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72267000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72268000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Der Auftragnehmer kann seine Leistungen grundsätzlich remote erbringen, außer in den im Vertrag und seinen Anlagen geregelten Fällen.</cbc:Description>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DescriptionCode listName="duration">UNKNOWN</cbc:DescriptionCode>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Verlängerungsoption (siehe Vertragsverlängerung)</cbc:OptionsDescription>
+				<cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Der IT-Projektvertrag hat eine Laufzeit von 48 Monaten ab Betriebsbeginn/Go Live (Meilenstein 6) und endet, ohne dass es einer Kündigung bedarf. Der Auftraggeber ist berechtigt, die Laufzeit dieses Vertrages nach Ablauf der Mindestvertragslaufzeit durch einseitige
+schriftliche Erklärung, auf die der Auftragnehmer keinen Anspruch hat, um jeweils 2 (zwei) Jahre zu verlängern. Diese
+Verlängerungsoption kann 2 (zwei) mal ausgeübt werden, somit ist eine maximale Gesamtvertragslaufzeit von 8 (acht)
+Jahren ab Beginn der Betriebsphase, d.h. mit Erreichung des Meilensteins 6 möglich. Die entsprechenden Erklärungen
+des Auftraggebers müssen spätestens drei (3) Kalendermonate vor dem jeweiligen Vertragsende bei dem Auftragnehmer eingegangen sein.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

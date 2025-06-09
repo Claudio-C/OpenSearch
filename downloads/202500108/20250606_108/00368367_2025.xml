@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadtverwaltung Cottbus</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Neumarkt 5</cbc:StreetName>
+									<cbc:CityName>Cottbus</cbc:CityName>
+									<cbc:PostalZone>03046</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE402</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE138780132</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Zentrales Vergabemanagement</cbc:Name>
+									<cbc:Telephone>+49 355612-2922</cbc:Telephone>
+									<cbc:Telefax>+49 35561213-2922</cbc:Telefax>
+									<cbc:ElectronicMail>Judith.Steiniger@cottbus.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadtverwaltung Cottbus</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Neumarkt 5</cbc:StreetName>
+									<cbc:CityName>Cottbus</cbc:CityName>
+									<cbc:PostalZone>03046</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE402</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE138780132</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Zentrales Vergabemanagement</cbc:Name>
+									<cbc:Telephone>+49 355612-2922</cbc:Telephone>
+									<cbc:Telefax>+49 35561213-2922</cbc:Telefax>
+									<cbc:ElectronicMail>Judith.Steiniger@cottbus.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.mwae.brandenburg.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer des Landes Brandenburg beim Ministerium für Wirtschaft, Arbeit und Energie</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Heinrich-Mann-Allee 107</cbc:StreetName>
+									<cbc:CityName>Potsdam</cbc:CityName>
+									<cbc:PostalZone>14473</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE40E</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:03318661719</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 3318661719</cbc:Telephone>
+									<cbc:Telefax>+49 3318661652</cbc:Telefax>
+									<cbc:ElectronicMail>Vergabekammer@MWAE.Brandenburg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.cottbus.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabemarktplatz Brandenburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>http://vergabemarktplatz.brandenburg.de</cbc:StreetName>
+									<cbc:CityName>00000</cbc:CityName>
+									<cbc:PostalZone>00000</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE402</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE138408386</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 0000</cbc:Telephone>
+									<cbc:ElectronicMail>ZVM@cottbus.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368367-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">aa2362ab-ce04-483a-8565-00ab43a3891b</cbc:ID>
+	<cbc:ContractFolderID>a7c5f4a5-d250-470e-9a56-7f4af9dfba76</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+	<cbc:IssueTime>14:06:34+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vob-a-eu</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">entsprechend §123 GWB und § 6e EU VOB/A</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0004</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Auf das Vergabeverfahren findet das Gesetz gegen Wettbewerbsbeschränkungen (GWB) in der Fassung der Bekanntmachung vom 26.06.2013 (BGBl. I, Seite 1750, berichtigt Seite 3245) Anwendung.
+
+§160 GWB lautet auszugsweise:
+(1) Die Vergabekammer leitet ein Nachprüfverfahren nur auf Antrag ein.
+(3) Der Antrag ist unzulässig, soweit
+
+1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat.
+
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung genannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. 
+
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder Angebotsabgabe gegenüber dem Auftraggeber gerügt werden.
+
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.
+
+Außerdem wird auf § 180 GWB ("Schadensersatzanspruch bei Rechtsmissbrauch") in Verbindung mit §§ 160 und 171 GWB verwiesen (besonders § 180 (2) Nr. 2 GWB).</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXSGYYDYTCBV8JQ8</cbc:AccessToolsURI>
+		<cac:NoticeDocumentReference>
+			<cbc:ID>182720-2025</cbc:ID>
+		</cac:NoticeDocumentReference>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">OV 107-2025</cbc:ID>
+		<cbc:Name languageID="DEU">Stadt Cottbus - OV 107-2025 - KPK Kita Pfiffikus Energetische Sanierung und barrierefreie Nutzbarmachung mit Freianlagen - Los G06: Fassade Wärmedämmverbundsystem</cbc:Name>
+		<cbc:Description languageID="DEU">G06 Fassade - Wärmedämmverbundsystem</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXSGYYDYTCBV8JQ8
+
+
+Sämtliche Kommunikation erfolgt über den Vergabemarktplatz Brandenburg. Rückfragen sind bis zum 25.06.2025 möglich. Bitte nutzen Sie für Bieteranfragen ausschließlich die Rubrik "Kommunikation" auf der elektronischen Plattform des Vergabemarktplatzes Brandenburg. Telefonische Anfragen bzw. Anfragen, die per E-Mail oder Fax eingehen, werden nicht bearbeitet. Antworten werden mit den Anfragen allen Wettbewerbsteilnehmern zur Kenntnis gegeben. Fragestellungen mit Hinweisen auf Ihr Unternehmen sind daher zu vermeiden. Eine Nachricht gilt als zugegangen, wenn sie in den Projektraum eingestellt wurde. Schauen Sie bitte regelmäßig selbst in den Projektraum, um mögliche Nachrichten der Vergabestelle nicht zu übersehen. Des Weiteren besteht die Möglichkeit zur Abgabe der Einheitlichen Europäischen Eigenerklärung (EEE). Die EEE muss in deutscher Sprache eingereicht werden. Bei nichtdeutschen Unterlagen ist eine Übersetzung beizufügen bzw. die Gleichwertigkeit nachzuweisen.</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45321000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45443000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Willy-Jannasch-Straße 5/6</cbc:StreetName>
+				<cbc:CityName>Cottbus</cbc:CityName>
+				<cbc:PostalZone>03042</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE402</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">- aktuelle Bescheinigung Eintragung in das Unternehmer- und Lieferantenverzeichnis (ULV) der zuständigen Auftragsberatungsstelle (Abst), gleichwertiges Zertifikat oder Präqualifikation (wenn vorhanden, bitte beifügen)
+
+- Auszug aus dem Handelsregister 
+
+- aktuelle Bescheinigung Berufsgenossenschaft 
+
+- Finanzamt aktuelle Bescheinigung in Steuersachen (Die Bescheinigung darf nicht älter als 12 Monate sein.)
+
+- Gewerbeanmeldung
+
+- Bescheinigung Mitgliedschaft bei der IHK / Handwerkskammer oder Handwerkerkarte
+
+- aktuelle Bescheinigung Sozialversicherung 
+
+- aktuelle Bescheinigung Haftpflichtversicherung
+
+- Sozialkassen-Bescheinigung (SOKA-Bau)
+
+- aktuelle Vereinbarungen Einhaltung Mindestanforderung Brandenburgisches Vergabegesetz
+
+- Formblatt "Eigenerklärung zur Eignung"
+
+- VHB Formblatt 221_222 Preisermittlung bei Zuschlagskalkulation
+
+- Erklärung Sanktionspaket zur Umsetzung von Artikel 5ki Absatz 3 der Verordnung (EU) 2022/576
+
+weitere Erklärungen, Angaben, Nachweise siehe Formblatt "Verzeichnis der im Vergabeverfahren vorzulegende Unterlagen"
+
+
+Hinweis:
+Im Formblatt 216 - Vorzulegende Unterlagen ist unter dem Punkt 2.4 (auf Anforderung nachzureichende Unterlagen) u. a. folgendes vermerkt:
+
+- Urkalkulation (die Urkalkulation wird für die Prüfung der Preise geöffnet, im Anschluss wieder verschlossen).
+
+weitere Erklärungen, Angaben, Nachweise siehe Formblatt "Verzeichnis der im Vergabeverfahren vorzulegende Unterlagen"</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Sonstiges</cbc:Name>
+								<cbc:Description languageID="DEU">- aktuelle Bescheinigung Berufsgenossenschaft 
+
+- Finanzamt aktuelle Bescheinigung in Steuersachen (Die Bescheinigung darf nicht älter als 12 Monate sein.)
+
+- Gewerbeanmeldung
+
+- Bescheinigung Mitgliedschaft bei der IHK / Handwerkskammer oder Handwerkerkarte
+
+- aktuelle Bescheinigung Sozialversicherung 
+
+- aktuelle Bescheinigung Haftpflichtversicherung
+
+- Sozialkassen-Bescheinigung (SOKA-Bau)
+
+- aktuelle Vereinbarungen Einhaltung Mindestanforderung Brandenburgisches Vergabegesetz
+
+- Formblatt "Eigenerklärung zur Eignung"
+
+- VHB Formblatt 221_222 Preisermittlung bei Zuschlagskalkulation
+
+- Erklärung Sanktionspaket zur Umsetzung von Artikel 5ki Absatz 3 der Verordnung (EU) 2022/576
+
+
+weitere Erklärungen, Angaben, Nachweise siehe Formblatt "Verzeichnis der im Vergabeverfahren vorzulegende Unterlagen"</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+								<cbc:Description languageID="DEU">Bedingung an die Auftragsausführung
+mit dem Angebot vorzulegende Unterlagen:
+
+- aktuelle Bescheinigung Eintragung in das Unternehmer- und Lieferantenverzeichnis (ULV) der zuständigen Auftragsberatungsstelle (Abst), gleichwertiges Zertifikat oder Präqualifikation (wenn vorhanden, bitte beifügen)
+
+- Auszug aus dem Handelsregister 
+
+- aktuelle Bescheinigung Berufsgenossenschaft
+ 
+- Finanzamt aktuelle Bescheinigung in Steuersachen (Die Bescheinigung darf nicht älter als 12 Monate sein.)
+
+- Gewerbeanmeldung
+
+- Bescheinigung Mitgliedschaft bei der IHK / Handwerkskammer oder Handwerkerkarte
+
+- aktuelle Bescheinigung Sozialversicherung
+ 
+- aktuelle Bescheinigung Haftpflichtversicherung
+
+- Sozialkassen-Bescheinigung (SOKA-Bau)
+
+- aktuelle Vereinbarungen Einhaltung Mindestanforderung Brandenburgisches Vergabegesetz
+
+- Formblatt "Eigenerklärung zur Eignung"
+
+- VHB Formblatt 221_222 Preisermittlung bei Zuschlagskalkulation
+
+- Erklärung Sanktionspaket zur Umsetzung von Artikel 5ki Absatz 3 der Verordnung (EU) 2022/576
+
+weitere Erklärungen, Angaben, Nachweise siehe Formblatt "Verzeichnis der im Vergabeverfahren vorzulegende Unterlagen"</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">- aktuelle Bescheinigung Eintragung in das Unternehmer- und Lieferantenverzeichnis (ULV) der zuständigen Auftragsberatungsstelle (Abst), gleichwertiges Zertifikat oder Präqualifikation (wenn vorhanden, bitte beifügen)
+
+- Auszug aus dem Handelsregister 
+
+- aktuelle Bescheinigung Berufsgenossenschaft 
+
+- Finanzamt aktuelle Bescheinigung in Steuersachen (Die Bescheinigung darf nicht älter als 12 Monate sein.)
+
+- Gewerbeanmeldung
+
+- Bescheinigung Mitgliedschaft bei der IHK / Handwerkskammer oder Handwerkerkarte
+
+- aktuelle Bescheinigung Sozialversicherung 
+
+- aktuelle Bescheinigung Haftpflichtversicherung
+
+- Sozialkassen-Bescheinigung (SOKA-Bau)
+
+- aktuelle Vereinbarungen Einhaltung Mindestanforderung Brandenburgisches Vergabegesetz
+
+- Formblatt "Eigenerklärung zur Eignung"
+
+- VHB Formblatt 221_222 Preisermittlung bei Zuschlagskalkulation
+
+- Erklärung Sanktionspaket zur Umsetzung von Artikel 5ki Absatz 3 der Verordnung (EU) 2022/576
+
+weitere Erklärungen, Angaben, Nachweise siehe Formblatt "Verzeichnis der im Vergabeverfahren vorzulegende Unterlagen"</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">nyk</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXSGYYDYTCBV8JQ8/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalForm languageID="DEU">Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">siehe § 16a EU VOB/A - Nachforderung von Unterlagen</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">nein</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+						<cbc:Description languageID="DEU">Preiskriterium für "Niedrigster Preis (ohne Kriterien)"</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXSGYYDYTCBV8JQ8</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0004</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAY">60</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Auf das Vergabeverfahren findet das Gesetz gegen Wettbewerbsbeschränkungen (GWB) in der Fassung der Bekanntmachung vom 26.06.2013 (BGBl. I, Seite 1750, berichtigt Seite 3245) Anwendung.
+
+§160 GWB lautet auszugsweise:
+(1) Die Vergabekammer leitet ein Nachprüfverfahren nur auf Antrag ein.
+(3) Der Antrag ist unzulässig, soweit
+
+1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat.
+
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung genannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. 
+
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder Angebotsabgabe gegenüber dem Auftraggeber gerügt werden.
+
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.
+
+Außerdem wird auf § 180 GWB ("Schadensersatzanspruch bei Rechtsmissbrauch") in Verbindung mit §§ 160 und 171 GWB verwiesen (besonders § 180 (2) Nr. 2 GWB).</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://vergabemarktplatz.brandenburg.de/VMPSatellite/notice/CXSGYYDYTCBV8JQ8</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2025-07-03+02:00</cbc:EndDate>
+				<cbc:EndTime>09:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-25+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:NoticeDocumentReference>
+				<cbc:ID>182720-2025</cbc:ID>
+			</cac:NoticeDocumentReference>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2025-07-03+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>09:00:00+02:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">OV 107-2025</cbc:ID>
+			<cbc:Name languageID="DEU">Stadt Cottbus - OV 107-2025 - KPK Kita Pfiffikus Energetische Sanierung und barrierefreie Nutzbarmachung mit Freianlagen - Los G06: Fassade Wärmedämmverbundsystem</cbc:Name>
+			<cbc:Description languageID="DEU">- WDVS mit mineralischer Wärmedämmung d= 180 mm, WLG 035 ca. 650 m2 inkl. Anstrich
+- WDVS mit mineralischer Wärmedämmung d= 120 mm, WLG 035 ca. 130 m2 inkl. Anstrich
+- Leibungsausbildung in verschieden Tiefen von ca. 3 .. 28 cm , insg. ca, 420 m
+- Aussenfensterbänke, Verblechungen aus TiZn-Blech insg. ca. 255 m
+- Einbau von Nisthilfen für verschieden Vogel- und Fledermausarten insg. ca. 23 St
+
+Folgende als Vertragsfrist vereinbarte Einzelfristen aus dem beigefügten Bauzeitenplan: Bauzeitenplan Stand 11.03.2025: 12.12.2025 - Dämmung Kellergeschoss In Bauberatungen festgelegte und / oder in fortlaufend geführtem Bauablaufplan festgeschriebene Termine sind bindend.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45321000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45443000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Willy-Jannasch-Straße 5/6</cbc:StreetName>
+					<cbc:CityName>Cottbus</cbc:CityName>
+					<cbc:PostalZone>03042</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE402</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-10-06+02:00</cbc:StartDate>
+				<cbc:EndDate>2026-12-23+01:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hilma="urn:hanselHilma:NationalNoticeExtension">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-05+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>08:44:51+00:00</efbc:TransmissionTime>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.turku.fi/hankinnat</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Turun kaupunki</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>PL 355</cbc:StreetName>
+                  <cbc:CityName>Turku</cbc:CityName>
+                  <cbc:PostalZone>20101</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">0204819-8</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Turun kaupungin hankintapalvelut</cbc:Name>
+                  <cbc:Telephone>+358 406350534</cbc:Telephone>
+                  <cbc:ElectronicMail>pekka.lang@turku.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.oikeus.fi/markkinaoikeus</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Markkinaoikeus</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Radanrakentajantie 5</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3006157-6</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358 295643300</cbc:Telephone>
+                  <cbc:ElectronicMail>markkinaoikeus@oikeus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://hankintailmoitukset.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Hansel Oy (Hilma)</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Mannerheiminaukio 1a</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">FI09880841</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>eSender</cbc:Name>
+                  <cbc:Telephone>029 55 636 30</cbc:Telephone>
+                  <cbc:ElectronicMail>tekninen@hankintailmoitukset.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366054-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">954b81b1-a01b-42db-8b2b-d991a2d78968</cbc:ID>
+  <cbc:ContractFolderID>f6aa3049-44a2-4255-93d3-d1a52edf489e</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+00:00</cbc:IssueDate>
+  <cbc:IssueTime>08:44:24+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>FIN</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja on kansalliseen lainsäädäntöön ja kansallisiin määräyksiin perustuen yllämainittuja tilanteita vastaavassa samankaltaisessa menettelyssä.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja on konkurssissa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajalle tai mille tahansa henkilölle, joka on sen hallinto-, johto- tai valvontaelimen jäsen tai jolla on siinä päätös-, edustus- tai valvontavaltaa, annettu lahjonnasta lainvoimainen tuomio, joka on annettu enintään viisi vuotta sitten tai jolla suoraan vahvistettu poissulkeminen on edelleen voimassa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajalla on järjestelyjä velkojien kanssa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajalle tai henkilölle, joka on sen hallinto-, johto- tai valvontaelimen jäsen tai jolla on siinä päätös-, edustus- tai valvontavaltaa, on annettu rikollisjärjestön toimintaan osallistumisesta lainvoimainen tuomio, joka on annettu enintään viisi vuotta sitten tai jolla suoraan vahvistettu poissulkeminen on edelleen voimassa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja on tehnyt muiden kanssa sopimuksia, joilla pyritään vääristämään kilpailua.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja on rikkonut ympäristölainsäädännön mukaisia velvoitteitaan.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajalle itselleen tai mille tahansa henkilölle, joka on sen hallinto-, johto- tai valvontaelimen jäsen tai jolla on siinä päätös-, edustus- tai valvontavaltaa, on annettu rahanpesusta tai terrorismin rahoituksesta lainvoimainen tuomio, joka on annettu enintään viisi vuotta sitten tai jolla suoraan vahvistettu poissulkeminen on edelleen voimassa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajalle tai mille tahansa henkilölle, joka on sen hallinto-, johto- tai valvontaelimen jäsen, on annettu petoksesta lainvoimainen tuomio, joka on annettu enintään viisi vuotta sitten tai jolla suoraan vahvistettu poissulkeminen on edelleen voimassa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajalle itselleen tai mille tahansa henkilölle, joka on sen hallinto-, johto- tai valvontaelimen jäsen tai jolla on siinä päätös-, edustus- tai valvontavaltaa, on annettu lapsityövoiman käytöstä tai muista ihmiskaupan muodoista lainvoimainen tuomio, joka on annettu enintään viisi vuotta sitten tai jolla suoraan vahvistettu poissulkeminen on edelleen voimassa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajan osalta on käynnistetty maksukyvyttömyys- tai likvidaatiomenettely.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja on rikkonut työlainsäädännön mukaisia velvoitteitaan.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajan varat ovat selvitysmiehen tai tuomioistuimen hallinnassa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajaa koskee jokin seuraavista tilanteista.
+        a) on syyllistynyt väärän tiedon antamiseen poissulkemis- tai valintaperusteiden osalta, 
+        b) on jättänyt antamatta tällaisia tietoja,
+        c) on toimittanut viiveellä tai ei lainkaan ostajan vaatimia tietoja, tai
+        d) on yrittänyt vaikuttaa ostajan päätöksentekoprosessiin asiattomalla tavalla tai hankkinut luottamuksellista tietoa, joista voisi olla sille hankintamenettelyssä asiaankuulumatonta etua, taikka on toimittanut harhaanjohtavia tietoja, joilla voi olla merkittävä vaikutus poissulkemista, tarjoajan valintaa tai hankintaa koskeviin päätöksiin.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajan hallinto-, johto- tai valvontaelimen jäsen tai edustus-,päätös- tai valvontavaltaa käyttävä henkilö on rikosrekisteristä ilmenevällä lainvoimaisella tuomiolla tuomittu työturvallisuusrikoksesta, työaikasuojelurikoksesta, työsyrjinnästä, kiskonnantapaisesta työsyrjinnästä, työntekijöiden järjestäytymisvapauden loukkaamisesta tai luvattoman ulkomaisen työvoiman käytöstä.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajan osallistumisesta hankintamenettelyyn aiheutuu eturistiriitoja.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja tai tarjoajaan liittyvä yritys on antanut ostajalle neuvoja tai muulla tavoin osallistunut hankintamenettelyn valmisteluun.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja on syyllistynyt ammatin harjoittamiseen liittyvään vakavaan virheeseen.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajan aikaisempia hankintasopimuksia tai käyttöoikeussopimuksia on irtisanottu ennenaikaisesti tai kyseisen aikaisemman sopimuksen yhteydessä on vaadittu vahingonkorvauksia tai määrätty muita vastaavia seuraamuksia.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja on rikkonut sosiaalilainsäädännön mukaisia velvoitteitaan.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja on rikkonut sosiaaliturvamaksujen maksamiseen liittyviä velvoitteitaan sijoittumismaassaan tai ostajan maassa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajan liiketoiminta on keskeytetty.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoaja on rikkonut verojen maksamiseen liittyviä velvoitteitaan sijoittumismaassaan tai ostajan maassa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="FIN">Tarjoajalle itselleen tai mille tahansa henkilölle, joka on sen hallinto-, johto- tai valvontaelimen jäsen tai jolla on siinä päätös-, edustus- tai valvontavaltaa, annettu terrorismirikoksesta tai terroritoimintaan liittyvästä rikoksesta lainvoimainen tuomio, joka on annettu enintään viisi vuotta sitten tai jolla suoraan vahvistettu poissulkeminen on edelleen voimassa.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:Description languageID="FIN">Hankintamuotona käytetään avointa menettelyä.
+
+Kyseessä on EU-kynnysarvon ylittävä hankinta. Hankinnasta on lähetetty ilmoitus www.hankintailmoitukset.fi julkaistavaksi EU:n viralliseen lehden (EUVL) täydennysosassa (S-osa) sekä Tenders Electronic Daily (TED)-tietokannassa EU:n laajuisesti.
+
+Tarjouspyyntö on julkaistu internetissä Tarjouspalvelu.fi -toimittajaportaalissa.</cbc:Description>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">4821-2024</cbc:ID>
+    <cbc:Name languageID="FIN">Tilintarkastuspalvelujen hankinta, tilikausien 2025 – 2028 tilintarkastuksesta (+ optiona tilikaudet 2029 ja 2030)</cbc:Name>
+    <cbc:Description languageID="FIN">Turun kaupunki pyytää tarjoustanne kuntalain (410/2015) 14 luvun mukaisen Turun kaupungin  hallinnon ja talouden tarkastuksen  suorittamisesta tilikausien  2025 – 2028 tilintarkastuksesta (+ optiona tilikaudet 2029 ja 2030) kaupungin hallintosäännön edellyttämällä tavalla siten että, tarkastuksessa noudatetaan julkishallinnon hyvää tilintarkastustapaa. 
+
+Hankinta koskee myös Turun kaupungin tytäryhteisöjen ja kaupungin määräysvallassa olevien säätiöiden (liite 6) tilintarkastuspalveluita, kestävyysraportointiyritysten kestävyysraportoinnin varmennuspalveluita ja Turun kaupungin hallinnoimien EU-hankkeiden tarkastuksia ja tarkastuslausuntoja. 
+
+Turun kaupungin hallinnon ja talouden tarkastus
+
+Kuntalain 122 §:n mukaisen Turun kaupungin hallinnon ja talouden tilintarkastuksen 
+laajuus, josta tarjous pyydetään ja jonka perusteella tarjoukset vertaillaan, on 140 tarkastuspäivää (á 7,5 h) vuodessa eli yhteensä 840 tarkastuspäivää (yhteensä 560 tarkastuspäivää tilikausina 2025-2028 + 280 päivää mahdollisella optiokaudella 2029–2030).
+
+Turun kaupungin tytäryhteisöjen ja säätiöiden tilintarkastukset, kestävyysraportointiyritysten kestävyysraportoinnin varmennus
+
+Tarjouspyynnön liitteessä 6 on tiedot tytäryhteisöistä ja säätiöistä. Arvio tytäryhteisöjen ja säätiöiden lakisääteisistä tilintarkastuspäivistä on 140 tarkastuspäivää vuodessa eli yhteensä 840 tarkastuspäivää, mitä määrää käytetään myös tarjousten vertailuhinnan laskentaperusteena. Esitetty arvio tarkastuspäivien määrästä ei ole sitova.
+
+Tytäryhteisöjen ja säätiöiden tilintarkastukset sekä kestävyysraportoinnin varmennus suoritetaan asianomaisen yhteisölainsäädännön, tilintarkastuslain, muun lainsäädännön, standardien ja yhtiöjärjestysten ja säädeasiakirjojen määräysten mukaisesti sekä hyvää tilintarkastustapaa noudattaen.
+
+Tytäryhteisöjen ja säätiöiden osalta valintapäätöksen tekee ao. toimielin (esim. tytäryhtiössä yhtiökokous tai säätiössä hallintoneuvosto) ao. yhteisölaissa tai yhtiöjärjestyksessä taikka säännössä määrätyksi toimikaudeksi.
+
+Turun kaupungin hallinnoimien ulkopuolisella osarahoituksella toteutettavien hankkeiden tarkastus ja tarkastuslausunnot.
+
+Tilintarkastajan tehtäviin tulevat kuulumaan myös Turun kaupungin hallinnoimien ulkopuolisella osarahoituksella toteutettavien hankkeiden rahoittajien rahoituspäätöksissään edellyttämät ja rahoittajille annettavat tarkastuslausunnot, siinä laajuudessa kuin hankkeen rahoittaja rahoituspäätöksessään edellyttää. EU-hankkeiden lukumäärä ja tarvittavien tarkastuspäivien määrä vaihtelee vuosittain.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cbc:Note languageID="FIN">LIsätoimeksiannot
+
+Hankinta käsittää myös mahdollisten lakisääteiseen tilintarkastukseen tai kestävyysraportointivarmennukseen sisältymättömien, tarjoajan toimialaan 
+luettavien tarkastus- ja asiantuntijapalveluiden lisätoimeksiantojen suorittamisen sopimuskauden aikana. Tällaisista toimeksiannoista sovitaan erikseen.</cbc:Note>
+    <cac:RequestedTenderTotal>
+      <cbc:EstimatedOverallContractAmount currencyID="EUR">700000</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">79212100</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:StreetName>PL 355</cbc:StreetName>
+        <cbc:CityName>Turku</cbc:CityName>
+        <cbc:PostalZone>20101</cbc:PostalZone>
+        <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                <cbc:Name languageID="FIN">VASTUUVAKUUTUS</cbc:Name>
+                <cbc:Description languageID="FIN">Tarjoajalla tulee olla koko sopimuskauden ajan voimassa oleva hankinnan kohteena olevaa toimintaa koskeva vastuuvakuutus, joka on riittävä suhteessa hankinnan laajuuteen ja riskeihin nähden, ja joka kattaa tässä työssä Tilaajalle, kolmannelle osapuolelle tai tämän omaisuudelle aiheutuneet vahingot. Mikäli vastuuvakuutus ei kata täysimääräisesti aiheutuneita välittömiä vahinkoja, vastaa Tarjoaja vahingoista täyteen määrään asti.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                <cbc:Name languageID="FIN">LUOTTOLUOKITUS</cbc:Name>
+                <cbc:Description languageID="FIN">Tarjoajan Suomen Asiakastieto Oy:n Rating Alfa  
+suosituksen mukaisen tai vastaavan luottotietolaitoksen (ei 
+pankin) luottokelpoisuusluokitus tulee olla vähintään 
+tyydyttävä (A) tai vastaava, taikka tarjoajan taloudellinen ja 
+rahoituksellinen tilanne muutoin vastaa em. vaatimusta. 
+
+Mikäli tarjous tehdään ryhmittymänä, tulee kaikkien 
+ryhmittymän jäsenten täyttää luottoluokitusvaatimus.
+
+Tarjoaja toimittaa pyydettäessä selvityksenä Suomen 
+Asiakastieto Oy:n Rating Alfa yritysraportin tai muun 
+luottotietolaitoksen (ei pankin) lausunnon sekä tiedon 
+tarjoajan viimeisestä vahvistetusta liikevaihdosta, jos se ei 
+ilmene luottotietolaitoksen lausunnosta.
+
+Hyväksyttävästä syystä voi selvityksenä pyydettäessä 
+toimittaa muun vaihtoehtoisen selvityksen, jonka perusteella 
+tarjoaja osoittaa täyttävänsä soveltavuusvaatimusta 
+vastaavan taloudellisen ja rahoituksellisen tilanteen. 
+Hyväksyttävä syynä voi olla esimerkiksi se, että tarjoaja on 
+vasta aloittanut toimintansa, eikä sillä ole vielä vaadittua 
+luottoluokitusta.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                <cbc:Name languageID="FIN">LIIKEVAIHTO</cbc:Name>
+                <cbc:Description languageID="FIN">Tarjoajan edellisen kahden (2) viimeksi vahvistetun 
+tilikauden (12 kuukautta) liikevaihdon tulee kumpanakin 
+tilikautena olla ollut vähintään 2000 000 euroa.
+
+Mikäli tarjoajan tilikausi on pidempi tai lyhyempi toimintaa 
+aloitettaessa tai lopetettaessa taikka tilinpäätöksen 
+ajankohtaa muutettaessa, tarjoajan on esitettävä erillinen 
+selvitys siitä, miten asetettu vaatimus täyttyy.
+
+Mikäli tarjoaja on sellainen uusi yritys, ettei sillä ole saatavilla 
+vielä viimeksi vahvistettua tilinpäätöstä, voi tarjoaja osoittaa, 
+että se muulla tavoin täyttää asetetun vaatimuksen 
+esimerkiksi siten, että tarjoajan keskimääräinen liikevaihto 
+tarjoajan toiminta-ajalta täyttää asetetun vaatimuksen. 
+Tarjoajan on esitettävä erillinen selvitys siitä, miten asetettu 
+vaatimus täyttyy.
+
+Mikäli tarjous tehdään ryhmittymänä, ryhmittymän jäsenet 
+voivat täyttää liikevaihtovaatimuksen yhdessä.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                <cbc:Name languageID="FIN">PALVELUN TARJOAJAA KOSKEVAT VAATIMUKSET</cbc:Name>
+                <cbc:Description languageID="FIN">Tarkempi kuvaus hankinta-asiakirjoissa.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="FIN">Tilintarkastajien vaatimukset</cbc:Name>
+                <cbc:Description languageID="FIN">Tarkemmat vaatimukset hankinta-asiakirjoissa.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+      <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+      <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+      <cac:RequiredFinancialGuarantee>
+        <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+      </cac:RequiredFinancialGuarantee>
+      <cac:FiscalLegislationDocumentReference>
+        <cbc:ID>FiscalDocID1</cbc:ID>
+        <cac:IssuerParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:IssuerParty>
+      </cac:FiscalLegislationDocumentReference>
+      <cac:EnvironmentalLegislationDocumentReference>
+        <cbc:ID>EnvDocID1</cbc:ID>
+        <cac:IssuerParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:IssuerParty>
+      </cac:EnvironmentalLegislationDocumentReference>
+      <cac:EmploymentLegislationDocumentReference>
+        <cbc:ID>EmplDocID1</cbc:ID>
+        <cac:IssuerParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:IssuerParty>
+      </cac:EmploymentLegislationDocumentReference>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>FIN</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>Linkki hankinta-asiakirjoihin</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://tarjouspalvelu.fi/turku?id=517608&amp;tpk=8a106be6-7498-4c7a-a4e6-1b25a3b564fd</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="nda">false</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-fixed">fix-tot</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="FIN">Kokonaishinta</cbc:Name>
+            <cbc:Description languageID="FIN">Kokonaishinta muodostuu emokaupungin ja tytäryhteisöjen ja säätiöiden kokonaishinnoista. Tarkempi kuvaus hintaliitteellä.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:DocumentProviderParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:DocumentProviderParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://tarjouspalvelu.fi/turku?id=517608&amp;tpk=8a106be6-7498-4c7a-a4e6-1b25a3b564fd</cbc:EndpointID>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:TenderRecipientParty>
+      <cac:TenderEvaluationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:TenderEvaluationParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>FIN</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+      <cac:SecurityClearanceTerm>
+        <cbc:Code listName="required">false</cbc:Code>
+      </cac:SecurityClearanceTerm>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-07-07+00:00</cbc:EndDate>
+        <cbc:EndTime>06:00:00+00:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-16+00:00</cbc:EndDate>
+        <cbc:EndTime>08:00:00+00:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2025-07-07+00:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>06:05:00+00:00</cbc:OccurrenceTime>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">4821-2024</cbc:ID>
+      <cbc:Name languageID="FIN">Tilintarkastuspalvelujen hankinta, tilikausien 2025 – 2028 tilintarkastuksesta (+ optiona tilikaudet 2029 ja 2030)</cbc:Name>
+      <cbc:Description languageID="FIN">Turun kaupunki pyytää tarjoustanne kuntalain (410/2015) 14 luvun mukaisen Turun kaupungin  hallinnon ja talouden tarkastuksen  suorittamisesta tilikausien  2025 – 2028 tilintarkastuksesta (+ optiona tilikaudet 2029 ja 2030) kaupungin hallintosäännön edellyttämällä tavalla siten että, tarkastuksessa noudatetaan julkishallinnon hyvää tilintarkastustapaa. 
+
+Hankinta koskee myös Turun kaupungin tytäryhteisöjen ja kaupungin määräysvallassa olevien säätiöiden (liite 6) tilintarkastuspalveluita, kestävyysraportointiyritysten kestävyysraportoinnin varmennuspalveluita ja Turun kaupungin hallinnoimien EU-hankkeiden tarkastuksia ja tarkastuslausuntoja. 
+
+Turun kaupungin hallinnon ja talouden tarkastus
+
+Kuntalain 122 §:n mukaisen Turun kaupungin hallinnon ja talouden tilintarkastuksen 
+laajuus, josta tarjous pyydetään ja jonka perusteella tarjoukset vertaillaan, on 140 tarkastuspäivää (á 7,5 h) vuodessa eli yhteensä 840 tarkastuspäivää (yhteensä 560 tarkastuspäivää tilikausina 2025-2028 + 280 päivää mahdollisella optiokaudella 2029–2030).
+
+Turun kaupungin tytäryhteisöjen ja säätiöiden tilintarkastukset, kestävyysraportointiyritysten kestävyysraportoinnin varmennus
+
+Tarjouspyynnön liitteessä 6 on tiedot tytäryhteisöistä ja säätiöistä. Arvio tytäryhteisöjen ja säätiöiden lakisääteisistä tilintarkastuspäivistä on 140 tarkastuspäivää vuodessa eli yhteensä 840 tarkastuspäivää, mitä määrää käytetään myös tarjousten vertailuhinnan laskentaperusteena. Esitetty arvio tarkastuspäivien määrästä ei ole sitova.
+
+Tytäryhteisöjen ja säätiöiden tilintarkastukset sekä kestävyysraportoinnin varmennus suoritetaan asianomaisen yhteisölainsäädännön, tilintarkastuslain, muun lainsäädännön, standardien ja yhtiöjärjestysten ja säädeasiakirjojen määräysten mukaisesti sekä hyvää tilintarkastustapaa noudattaen.
+
+Tytäryhteisöjen ja säätiöiden osalta valintapäätöksen tekee ao. toimielin (esim. tytäryhtiössä yhtiökokous tai säätiössä hallintoneuvosto) ao. yhteisölaissa tai yhtiöjärjestyksessä taikka säännössä määrätyksi toimikaudeksi.
+
+Turun kaupungin hallinnoimien ulkopuolisella osarahoituksella toteutettavien hankkeiden tarkastus ja tarkastuslausunnot.
+
+Tilintarkastajan tehtäviin tulevat kuulumaan myös Turun kaupungin hallinnoimien ulkopuolisella osarahoituksella toteutettavien hankkeiden rahoittajien rahoituspäätöksissään edellyttämät ja rahoittajille annettavat tarkastuslausunnot, siinä laajuudessa kuin hankkeen rahoittaja rahoituspäätöksessään edellyttää. EU-hankkeiden lukumäärä ja tarvittavien tarkastuspäivien määrä vaihtelee vuosittain.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="FIN">LIsätoimeksiannot
+
+Hankinta käsittää myös mahdollisten lakisääteiseen tilintarkastukseen tai kestävyysraportointivarmennukseen sisältymättömien, tarjoajan toimialaan 
+luettavien tarkastus- ja asiantuntijapalveluiden lisätoimeksiantojen suorittamisen sopimuskauden aikana. Tällaisista toimeksiannoista sovitaan erikseen.</cbc:Note>
+      <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="social-objective">work-cond</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">700000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">79212100</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:StreetName>PL 355</cbc:StreetName>
+          <cbc:CityName>Turku</cbc:CityName>
+          <cbc:PostalZone>20101</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">FI1C1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:OptionsDescription languageID="FIN">Tilintarkastuspalvelujen hankinta, tilikausien 2025 – 2028 tilintarkastuksesta (+ optiona tilikaudet 2029 ja 2030)</cbc:OptionsDescription>
+        <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+        <cac:Renewal>
+          <cac:Period>
+            <cbc:Description languageID="FIN">optiona tilikaudet 2029 ja 2030</cbc:Description>
+          </cac:Period>
+        </cac:Renewal>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

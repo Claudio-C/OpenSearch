@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.wahnbach.de/</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Wahnbachtalsperrenverband</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Siegelsknippen 1</cbc:StreetName>
+									<cbc:CityName>Siegburg</cbc:CityName>
+									<cbc:PostalZone>53721</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA2C</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>05382006006-34001-42</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 2241-128-0</cbc:Telephone>
+									<cbc:ElectronicMail>vergabe@wahnbach.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.bezreg-koeln.nrw.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer Rheinland c/o</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Zeughausstraße 2-10</cbc:StreetName>
+									<cbc:CityName>Köln</cbc:CityName>
+									<cbc:PostalZone>50667</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA23</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 812110859</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49221147-3045</cbc:Telephone>
+									<cbc:ElectronicMail>VKRheinland@bezreg-koeln.nrw.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368443-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">95172c18-409e-4a7c-b7aa-b4b7f8510eb5</cbc:ID>
+	<cbc:ContractFolderID>387368f1-1241-4e70-a068-f4e61733581d</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+	<cbc:IssueTime>16:31:38+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="entity-activity">water</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+			<cbc:Description languageID="DEU">Vorauszahlungsbürgschaften</cbc:Description>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>sektvo</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Es wird auf § 160 GWB mit folgendem Wortlaut verwiesen:  (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein.  (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.vmp-rheinland.de/VMPSatellite/notice/CXPTY6DDS85</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">WTV 25 L 0072</cbc:ID>
+		<cbc:Name languageID="DEU">Beschaffung von Rohwasserpumpen</cbc:Name>
+		<cbc:Description languageID="DEU">Beschaffung von 5 vertikalen Rohwasserpumpenggregaten</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXPTY6DDS85</cbc:Note>
+		<cac:RequestedTenderTotal>
+			<cbc:EstimatedOverallContractAmount currencyID="EUR">1900000.00</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">42122130</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Wahnbachtalsperrenverband Phosphoreliminierungsanlage Neunkirchen Wahnbachtalstraße 50 53857 Neunkirchen-Seelscheid</cbc:Description>
+			<cac:Address>
+				<cbc:StreetName>Wahnbachtalstraße 50</cbc:StreetName>
+				<cbc:CityName>Neunkirchen-Seelscheid</cbc:CityName>
+				<cbc:PostalZone>53819</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEA2C</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Zum Nachweis der Befähigung und Erlaubnis zur Berufsausübung ist vom Bewerber/Bieter ein Berufs- oder Handelsregisterauszug (oder sonstiger Nachweis) einzureichen, wenn die Eintragung gemäß den Vorschriften des jeweiligen Mitgliedstaats des Bewerbers/Bieters Voraussetzung für die Berufsausübung ist. Der Nachweis darf nicht älter als 12 Monate vor Veröffentlichung der EU-Bekanntmachung sein. Bitte benennen Sie den Nachweis entsprechend als "Anlage Befähigung Berufsausübung" und reichen Sie diesen im PDF-Format mit dem Angebot ein.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Zum Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit des Bewerbers/Bieters wird ein Mindestumsatzes (netto, exklusive USt) für das letzte abgelaufene Geschäftsjahr von mindestens 1 Mio. EUR verlangt.  Im Freifeld ist der Nettoumsatz entsprechend einzutragen. Bei Bewerbergemeinschaften und beim Einsatz von Eignungsleihegebern sind die Werte getrennt anzugeben, werden aber für die Wertung addiert.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Zum Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit des Bewerbers/Bieters wird der Nachweis (Versicherungsbestätigung) einer bestehenden Betriebshaftpflichtversicherung bzw. Berufshaftpflichtversicherung mit einer Mindestdeckungssumme:      - für Sach- und Personenschäden von 5 Mio. EUR  je Schadensereignis gefordert. Bitte benennen Sie den Nachweis entsprechend als ""Anlage Versicherungsnachweis"" und reichen Sie diesen im PDF-Format mit dem Angebot ein.  Hinweis: Soweit die aktuelle Deckungssumme niedriger ist, genügt die Erklärung des Bewerbers/Bieters, dass eine Erhöhung auf die geforderte Deckungssumme vor Erteilung des Zuschlags erfolgt und gegenüber dem Auftraggeber nachgewiesen wird (siehe Auswahlfeld). Zur Bestätigung genügt eine formlose Erklärung, welche Sie bitte als ""Anlage Deckungssumme""  im PDF-Format mit dem Angebot einreichen.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-sche-qu-cert-indep</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Zum Nachweis der technischen und beruflichen Leistungsfähigkeit ist ein Nachweis über eine aktuell bestehendendes Qualitätsmanagementsystem einzureichen. Als Nachweis ist ein aktuell gültiges Zertifikat der Qualitätsmanagement-Norm ISO 9001 einzureichen. Bitte benennen Sie den Nachweis entsprechend als ""Anlage DIN ISO 9001"" und reichen Sie diesen im PDF-Format mit dem Angebot ein.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-supply</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Zum Nachweis der technischen und beruflichen Leistungsfähigkeit sind mindestens drei (3) vergleichbare Referenzen für die Lieferung von Rohwasserpumpen nachzuweisen. Der Auftraggeber bewertet die Vergleichbarkeit anhand von folgenden Mindestkriterien je Referenz:  - Die Referenz muss in den letzten 5 Jahren (zurückgerechnet vom Zeitpunkt der Versendung der EU-weiten Bekanntmachung des gegenständigen Verfahrens) erbracht worden sein. - Die Referenz muss abgeschlossen sein (Lieferung muss erfolgt sein). - Die Referenz muss einen (Netto)Umsatz von mindestens 250.000 EUR erreicht haben. - Die Referenz muss jeweils einen vertikales Pumpenaggregat mit tauchenden Pumpenteil beinhaltet haben. - Die Referenz muss jeweils eine Pumpe mit Druckstutzen von mindestens DN 500 beinhaltet haben.  Als eine (1) Referenz zählt eine eigenständige Pumpe. Die Lieferung von bspw. drei (3) Pumpen innerhalb eines Auftrages, wird somit als 3 Referenzprojekte gewertet, wenn jede Pumpe die geforderten Mindestanforderungen erreicht hat.                                    Angaben zu den Referenzprojeketen machen Sie bitte im Tabellenblatt "Referenzen".</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-sec-inf</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Als besondere Ausführungsbedingung des Auftrages gemäß § 128 GWB, werden Sprachkenntnisse für das mit der Leistungserbringung betraute Personal gefordert und im Rahmen der Eignungsprüfung abgefragt. Der Auftraggeber hat sicherzustellen, dass ggf. eingeplante Unterauftragnehmer diese besonderen Ausführungsbedingungen ebenfalls erfüllen.  Der Bewerber/Bieter muss bestätigen, dass er über Personal verfügt, welches die deutsche Sprache in Wort und Schrift in einem Umfang beherrscht, um die Erbringung der Leistung sicherzustellen. Dies betrifft ausschließlich das Personal, welches im Zuge der Leistungserbringung mit dem AG mündlich oder schriftlich kommuniziert.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+				<cbc:Description languageID="DEU">Vorauszahlungsbürgschaften</cbc:Description>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.vmp-rheinland.de/VMPSatellite/notice/CXPTY6DDS85/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Die Rechnungsstellung erfolgt zur Fälligkeit und mit dem Zahlungsziel von 30 Tagen ohne Abzug. Die Rechnungen werden jeweils leistungsspezifisch wie folgt gestellt:  - 30% nach Auftragsbestätigung (Vorauszahlung) - 20% nach Verfügbarkeit der Rohgussteile (Vorauszahlung) - 40% nach Lieferung - 10% nach Erhalt der vollständigen Dokumentation  Hinweise: Für die jeweiligen Vorauszahlungen werden entsprechende Vorauszahlungsbürgschaften benötigt. Einhundert Prozent beziehen sich auf den Auftragswert minus der Kosten für Inbetriebnahme und Schwingungsprüfung.</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Nachforderung gemäß § 51 SektVO</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">not-known</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Die Erfüllung der Eignungskriterien</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>60.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preiswertung</cbc:Name>
+						<cbc:Description languageID="DEU">Es erfolgt eine Preiswertung in Höhe von 60 %</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Qualitätswertung</cbc:Name>
+						<cbc:Description languageID="DEU">Es erfolgt eine Qualitätswertung in Höhe von 40 %</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.vmp-rheinland.de/VMPSatellite/notice/CXPTY6DDS85</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Es wird auf § 160 GWB mit folgendem Wortlaut verwiesen:  (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein.  (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.vmp-rheinland.de/VMPSatellite/notice/CXPTY6DDS85</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-07-28+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-07-09+02:00</cbc:EndDate>
+				<cbc:EndTime>15:00:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-07-03+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>false</cbc:LimitationDescription>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">WTV 25 L 0072</cbc:ID>
+			<cbc:Name languageID="DEU">Beschaffung von Rohwasserpumpen</cbc:Name>
+			<cbc:Description languageID="DEU">Beschaffung von 5 vertikalen Rohwasserpumpenggregaten (mit Motor) und Beschichtung bei Mediumkontakt inklusive Werksabnahme, Dokumentation, Inbetriebnahme und Schwingungsprüfung und weitere optionale Positionen (siehe Vergabeunterlagen)</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">42122130</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Wahnbachtalsperrenverband Phosphoreliminierungsanlage Neunkirchen Wahnbachtalstraße 50 53857 Neunkirchen-Seelscheid</cbc:Description>
+				<cac:Address>
+					<cbc:StreetName>Wahnbachtalstraße 50</cbc:StreetName>
+					<cbc:CityName>Neunkirchen-Seelscheid</cbc:CityName>
+					<cbc:PostalZone>53819</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEA2C</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DescriptionCode listName="duration">UNKNOWN</cbc:DescriptionCode>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

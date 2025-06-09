@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hilma="urn:hanselHilma:NationalNoticeExtension">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-05+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>05:31:22+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="EUR">25876750</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>tenderReference-4188606-828753</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              <cbc:AwardDate>2025-04-30Z</cbc:AwardDate>
+              <cbc:IssueDate>2025-05-28Z</cbc:IssueDate>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <efac:ContractReference>
+                <cbc:ID>TIE-108444- Vuosaaren maantietunnelin korvausinvestointi, pääurakka</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+              </efac:Tenderer>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.oikeus.fi/markkinaoikeus</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Markkinaoikeus</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Radanrakentajantie 5</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3006157-6</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358 295643300</cbc:Telephone>
+                  <cbc:ElectronicMail>markkinaoikeus@oikeus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.fintraffic.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Fintraffic Tie Oy</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00241</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">2945247-3</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Hankinta</cbc:Name>
+                  <cbc:Telephone>+358 294507000</cbc:Telephone>
+                  <cbc:ElectronicMail>hankinnat@fintraffic.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Uudenmaan ELY-keskus</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00521</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">2296962-1</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Kirjaamo</cbc:Name>
+                  <cbc:Telephone>+358 0295021000</cbc:Telephone>
+                  <cbc:ElectronicMail>kirjaamo.uusimaa@ely-keskus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Destia Oy, Keskitetty tarjouslaskenta</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Firdonkatu 2 T 151</cbc:StreetName>
+                  <cbc:CityName>HELSINKI</cbc:CityName>
+                  <cbc:PostalZone>00520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">2163026-3</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+35802044411</cbc:Telephone>
+                  <cbc:ElectronicMail>sari.toivonen@destia.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Normivalaistus Oy</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Vesimyllynkatu 2</cbc:StreetName>
+                  <cbc:CityName>Tampere</cbc:CityName>
+                  <cbc:PostalZone>33310</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI197</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">1961465-1</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358405053548</cbc:Telephone>
+                  <cbc:ElectronicMail>juha.pykalinen@normi.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://hankintailmoitukset.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Hansel Oy (Hilma)</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Mannerheiminaukio 1a</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">FI09880841</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>eSender</cbc:Name>
+                  <cbc:Telephone>029 55 636 30</cbc:Telephone>
+                  <cbc:ElectronicMail>tekninen@hankintailmoitukset.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365865-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">ee8ce30a-a2f0-476b-b155-39693f3dafda</cbc:ID>
+  <cbc:ContractFolderID>240bec91-9aab-4f85-afc0-33bee94f78e2</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+00:00</cbc:IssueDate>
+  <cbc:IssueTime>05:30:53+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>FIN</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:Description languageID="FIN">Hankintamenettelynä käytetään hankintalain 32 §:ssä määriteltyä avointa menettelyä. 
+
+Tarjoukset käsitellään kolmessa vaiheessa. Ensin käsitellään tarjoajien soveltuvuus ja tarjoajien sekä palvelun pakollisten vähimmäisvaatimusten täyttyminen ja sitten tarjousten tarjouspyynnön mukaisuus. Tämän jälkeen suoritetaan tarjousten vertailu. 
+
+Ennen hankintasopimuksen allekirjoittamista voidaan pitää selonteko. Tämä on vaihe, jolla varmistetaan, että tarjoaja on  ymmärtänyt oikein hankinnan kohteen kuvauksen ja tulevat tehtävät.</cbc:Description>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:NoticeDocumentReference>
+      <cbc:ID schemeName="notice-id-ref">52a56cec-f653-4296-a8c5-02b19d5f33ef-01</cbc:ID>
+    </cac:NoticeDocumentReference>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">TIE-001003</cbc:ID>
+    <cbc:Name languageID="FIN">Vuosaaren maantietunnelin korvausinvestointi - pääurakka (uusi hankintailmoitus)</cbc:Name>
+    <cbc:Description languageID="FIN">Fintraffic Tie Oy järjestää tarjouskilpailun Vuosaaren maantietunnelin korvausinvestoinnin pääurakasta hankinta-asiakirjoissa tarkemmin osoitetussa laajuudessa.
+
+Hankinnan kohteena ovat rakentamispalvelut, josta käytetään nimitystä urakka. Vuosaaren maantietunnelin korvausinvestointiurakassa toteutetaan tunnelitekniikkaan ja -rakenteiden elinkaarihallintaan liittyvä saneeraustyö, jossa uusitaan muun muassa tunnelin paloilmoitin-, savunpoisto-, ilmanvaihto-, sammutusvesi- sekä häiriönhavaintojärjestelmät, tunnelivalaistus sekä kamera- ja liikenteenhallintajärjestelmä.
+
+Urakassa korjataan lisäksi tunnelirakenteita sekä saneerataan tunnelin alla kulkevat kuivatus- ja sammutusvesijärjestelmät. 
+
+
+HUOM! Urakan tekninen- ja informatiivinen asiakirja-aineisto ei ole tämän tarjouspyynnön liitteenä. Tarjoajat saavat em. aineiston itselleen tekemällä aineistopyynnön osoitteisiin niko.vaatainen@ramboll.fi sekä hankinnat@fintraffic.fi. 
+
+
+Valittu urakoitsija sitoutuu suorittamaan sopimusasiakirjoissa määritellyn rakennusurakan ja toimimaan rakennuskohteessa 
+Pääurakoitsijana sekä työmaan turvallisuuden johdosta vastaavana urakoitsijana (päätoteuttajana).
+
+Urakkaan sisältyvät Tilaajan rakennussuunnitelma-asiakirjojen ja urakkaohjelman sisältämät rakennustyöt ja materiaalihankinnat 
+kaikkien urakka-asiakirjojen mukaisesti siten, että työn lopputulos, rakenteet, niiden osat ja käytetyt rakennusaineet täyttävät niille 
+asetetut vaatimukset. Tämä koskee myös rakenteiden tai niiden osien toimivuutta.
+
+Urakan tarkka maantieteellinen sijainti käy ilmi hankinta-asiakirjoista.
+
+
+Urakoitsijan nimeämät asiantuntijat muodostavat tiimin, jota käytetään tässä urakassa.
+Tilaaja ei sitoudu ostamaan mitään vähimmäismäärää eikä sopimus anna urakoitsijalle yksinoikeutta palvelun tuottamiseen.
+
+
+Vuosaaren maantietunnelin pääurakan hankinnan arvioitu aikataulu on seuraava:
+
+1. Hankintailmoituksen julkaisu maaliskuu 2025
+2. Tarjousaika päättyy huhti 2025
+3. Hankintapäätös huhtikuu 2025
+4. Urakkasopimuksen allekirjoittaminen toukokuu 2025.
+
+Hankintayksikkö varaa oikeuden muutoksiin edellä kuvatun aikataulun osalta.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>75</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="FIN">Kokonaisvertailuhinta</cbc:Name>
+            <cbc:Description languageID="FIN">Vertailuhinta koostuu tarjouspyynnön liitteen 5a (Tarjouslomake hinnat) hintaosien 1 (kokonaishinta), 2 (yksikköhintaiset työt) ja 3 
+(10 % lisä- ja muutostöiden summasta) summasta.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">TIE-001003</cbc:ID>
+      <cbc:Name languageID="FIN">Vuosaaren maantietunnelin korvausinvestointi - pääurakka (uusi hankintailmoitus)</cbc:Name>
+      <cbc:Description languageID="FIN">Fintraffic Tie Oy järjestää tarjouskilpailun Vuosaaren maantietunnelin korvausinvestoinnin pääurakasta hankinta-asiakirjoissa tarkemmin osoitetussa laajuudessa.
+
+Hankinnan kohteena ovat rakentamispalvelut, josta käytetään nimitystä urakka. Vuosaaren maantietunnelin korvausinvestointiurakassa toteutetaan tunnelitekniikkaan ja -rakenteiden elinkaarihallintaan liittyvä saneeraustyö, jossa uusitaan muun muassa tunnelin paloilmoitin-, savunpoisto-, ilmanvaihto-, sammutusvesi- sekä häiriönhavaintojärjestelmät, tunnelivalaistus sekä kamera- ja liikenteenhallintajärjestelmä.
+
+Urakassa korjataan lisäksi tunnelirakenteita sekä saneerataan tunnelin alla kulkevat kuivatus- ja sammutusvesijärjestelmät. 
+
+
+HUOM! Urakan tekninen- ja informatiivinen asiakirja-aineisto ei ole tämän tarjouspyynnön liitteenä. Tarjoajat saavat em. aineiston itselleen tekemällä aineistopyynnön osoitteisiin niko.vaatainen@ramboll.fi sekä hankinnat@fintraffic.fi. 
+
+
+Valittu urakoitsija sitoutuu suorittamaan sopimusasiakirjoissa määritellyn rakennusurakan ja toimimaan rakennuskohteessa 
+Pääurakoitsijana sekä työmaan turvallisuuden johdosta vastaavana urakoitsijana (päätoteuttajana).
+
+Urakkaan sisältyvät Tilaajan rakennussuunnitelma-asiakirjojen ja urakkaohjelman sisältämät rakennustyöt ja materiaalihankinnat 
+kaikkien urakka-asiakirjojen mukaisesti siten, että työn lopputulos, rakenteet, niiden osat ja käytetyt rakennusaineet täyttävät niille 
+asetetut vaatimukset. Tämä koskee myös rakenteiden tai niiden osien toimivuutta.
+
+Urakan tarkka maantieteellinen sijainti käy ilmi hankinta-asiakirjoista.
+
+
+Urakoitsijan nimeämät asiantuntijat muodostavat tiimin, jota käytetään tässä urakassa.
+Tilaaja ei sitoudu ostamaan mitään vähimmäismäärää eikä sopimus anna urakoitsijalle yksinoikeutta palvelun tuottamiseen.
+
+
+Vuosaaren maantietunnelin pääurakan hankinnan arvioitu aikataulu on seuraava:
+
+1. Hankintailmoituksen julkaisu maaliskuu 2025
+2. Tarjousaika päättyy huhti 2025
+3. Hankintapäätös huhtikuu 2025
+4. Urakkasopimuksen allekirjoittaminen toukokuu 2025.
+
+Hankintayksikkö varaa oikeuden muutoksiin edellä kuvatun aikataulun osalta.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="environmental-impact">circ-econ</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="social-objective">work-cond</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

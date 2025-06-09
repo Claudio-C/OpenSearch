@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.gdf.gov.it/it</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="ITA">GUARDIA DI FINANZA</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:Department>CENTRO NAVALE</cbc:Department>
+                  <cbc:CityName>FORMIA</cbc:CityName>
+                  <cbc:PostalZone>04023</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">ITI44</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>90011020592</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Ten.Col. Alfredo Serafini</cbc:Name>
+                  <cbc:Telephone>07711903626</cbc:Telephone>
+                  <cbc:ElectronicMail>lt0550038@gdf.it</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+          
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368135-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">18b6a8da-fa32-46f6-a2a0-3d1339a9e680</cbc:ID>
+  <cbc:ContractFolderID>7c3c603b-2f47-4f40-8d8f-c03ae5427506</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+  <cbc:IssueTime>13:09:31Z</cbc:IssueTime>
+  <cbc:VersionID>02</cbc:VersionID>
+  <cbc:RequestedPublicationDate>2025-06-05Z</cbc:RequestedPublicationDate>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ITA</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cbc:BuyerProfileURI>https://www.gdf.gov.it/it</cbc:BuyerProfileURI>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">pub-os</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>LocalLegalBasis</cbc:ID>
+      <cbc:DocumentDescription languageID="ITA">D.lgs. n. 36/2023</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <ext:UBLExtensions>
+      <ext:UBLExtension>
+        <ext:ExtensionContent>
+          <efext:EformsExtension>
+            <efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
+          </efext:EformsExtension>
+        </ext:ExtensionContent>
+      </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">Contratto/Fascicolo 5</cbc:ID>
+    <cbc:Name languageID="ITA">procedura aperta ex art. 71 co. 1 del D.lgs. n. 36/2023</cbc:Name>
+    <cbc:Description languageID="ITA">accordo quadro, per il triennio 2025-2027, finalizzato all’affidamento in appalto del servizio di manutenzione evolutiva e assistenza tecnica dei compressori a marchio Bauer, fornitura di materiali compresa, per le esigenze del personale del Corpo della Guardia di Finanza</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efbc:FrameworkMaximumAmount currencyID="EUR">3000000.00</efbc:FrameworkMaximumAmount>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:EstimatedOverallContractAmount currencyID="EUR">3000000.00</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">50640000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:FiscalLegislationDocumentReference>
+        <cbc:ID>DEFAULT_VALUE_CHANGE_ME</cbc:ID>
+      </cac:FiscalLegislationDocumentReference>
+      <cac:EnvironmentalLegislationDocumentReference>
+        <cbc:ID>DEFAULT_VALUE_CHANGE_ME</cbc:ID>
+      </cac:EnvironmentalLegislationDocumentReference>
+      <cac:EmploymentLegislationDocumentReference>
+        <cbc:ID>DEFAULT_VALUE_CHANGE_ME</cbc:ID>
+      </cac:EmploymentLegislationDocumentReference>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>DEFAULT_VALUE_CHANGE_ME</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://www.acquistinretepa.it/</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://www.acquistinretepa.it/</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="ITA">30</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>ITA</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-07-08Z</cbc:EndDate>
+        <cbc:EndTime>18:00:00Z</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <cbc:MaximumOperatorQuantity>1000</cbc:MaximumOperatorQuantity>
+        <cac:SubsequentProcessTenderRequirement>
+          <cbc:Name>buyer-categories</cbc:Name>
+        </cac:SubsequentProcessTenderRequirement>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">Facicolo 5</cbc:ID>
+      <cbc:Name languageID="ITA">procedura aperta ex art. 71 co. 1 del D.lgs. n. 36/2023</cbc:Name>
+      <cbc:Description languageID="ITA">accordo quadro, per il triennio 2025-2027, finalizzato all’affidamento in appalto del servizio di manutenzione evolutiva e assistenza tecnica dei compressori a marchio Bauer, fornitura di materiali compresa, per le esigenze del personale del Corpo della Guardia di Finanza</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+      <cac:RequestedTenderTotal>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efbc:FrameworkMaximumAmount currencyID="EUR">3000000.00</efbc:FrameworkMaximumAmount>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">3000000.00</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">50640000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="YEAR">3</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

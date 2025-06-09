@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-04+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>13:24:09+00:00</efbc:TransmissionTime>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.karmoy.kommune.no</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Karmøy Kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Statsråd Vinjes gate 25</cbc:StreetName>
+                  <cbc:CityName>KOPERVIK</cbc:CityName>
+                  <cbc:PostalZone>4250</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">940791901</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Kristian Wikre</cbc:Name>
+                  <cbc:Telephone>+47 52857500</cbc:Telephone>
+                  <cbc:ElectronicMail>krwi@karmoy.kommune.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Haugaland og Sunnhordland tingrett</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Haugesund</cbc:CityName>
+                  <cbc:PostalZone>5528</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">926723405</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>52701400</cbc:Telephone>
+                  <cbc:ElectronicMail>haugaland.og.sunnhordland.tingrett@domstol.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368925-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">4b4655df-ccea-4010-a2b9-c251027c8852</cbc:ID>
+  <cbc:ContractFolderID>05faf84a-bcd7-4784-b917-4959679e7715</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-04+00:00</cbc:IssueDate>
+  <cbc:IssueTime>11:36:40+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+  
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>Anskaffelsesforskriften</cbc:ID>
+      
+      <cbc:DocumentDescription languageID="ENG">See the tender documentation.</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
+        
+        <cbc:Description languageID="ENG">Is the tenderer himself or a person, who is a member of the tenderer's administration, management or supervisory body or has the competence to represent or control or make decisions in such bodies, in the event a enforceable verdict has been convicted of corruption by a verdict handed down not more than five years ago, or a rejection period determined directly in the judgement that still applies? Corruption as defined in Article 3 of the Convention on Combating Corruption, Involving European Communities or European Union Member States (EUT C 195 of 25.6.1997, s. 1), and in Article 2, point 1, in the Council ́s framework decision 2003/568/RIA of 22 July 2003 on combating corruption in the private sector (EUT L 192 of 31.7.2003,  p. 54). This rejection reason also includes corruption as defined in national law for the contracting authority or supplier.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
+        
+        <cbc:Description languageID="ENG">Is the tenderer himself or a person, who is a member of the tenderer's administration, management or supervisory body or has the competence to represent or control or make decisions in such bodies, at the time a legally convicted of fraud has been convicted of fraud by a verdict handed down not more than five years ago, or a rejection period determined directly in the judgement that still applies? Fraud included in Article 1 of the Convention on protection of the Financial Interests of the European Communities (EFT C 316 of 27.11.1995, p. 48).</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
+        
+        <cbc:Description languageID="ENG">Is the tenderer himself or a person, who is a member of the tenderer's administration, management or supervisory body or has the competence to represent or control or make decisions in such bodies, in the event a legal verdict has been convicted of money laundering or financing terrorism by a verdict handed down no more than five years ago, or a rejection period set out directly in the judgement that still applies? Money laundering or financing terrorism As defined in Article 1 of the European Parliament and Council Directive 2005/60/EF of 26 October 2005 on preventive measures against the use of the financial system for money laundering and financing terrorism (EUT L 309 of 25.11.2005, p. 15).</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
+        
+        <cbc:Description languageID="ENG">Is the tenderer himself or a person, who is a member of the tenderer's administration, management or supervisory body or has the competence to represent or control or make decisions in such bodies, at the time a legally convicted verdict of participation in a criminal organisation by a verdict handed down no more than five years ago, or a rejection period set out directly in the judgement that still applies? Participation in a criminal organisation as defined in Article 2 of the Council ́s framework decision 2008/841/RIA of 24 October 2008 on control of organised crime (EUT L 300 of 11.11.2008, p. 42)</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
+        
+        <cbc:Description languageID="ENG">Is the tenderer himself or a person, who is a member of the tenderer's administration, management or supervisory body, or has the competence to represent or control or make decisions in such bodies, in the event a legal verdict has been convicted of acts of terrorism or criminal acts connected to terrorist activities by a verdict handed down no more than five years ago, or a rejection period set out directly in the judgement that still applies? Acts of terrorism or criminal acts relating to terrorist activity as defined in Article 1 and 3 of the Council ́s framework decision 2002/475/RIA of 13 June 2002 on combating terrorism (EFT L 164, af 22.6.2002, p. 3). This rejection reason also includes incitement to, participation or attempts to commit such actions as included in Article 4 in the mentioned framework decision.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
+        
+        <cbc:Description languageID="ENG">Is the tenderer himself or a person, who is a member of the tenderer's administration, management or supervisory body or has the competence to represent or control or make decisions in such bodies, in the event a legal verdict has been convicted of child labour and other forms of human trafficking by a verdict handed down no more than five years ago, or a rejection period determined directly in the judgement that still applies? Child labour and other forms of human trafficking as defined in Article 2 of the European Parliament and council directive 2011/36/EU of 5. 1 April 2011 on the prevention and control of human trafficking and the protection of its victims and for compensation of the Council ́s framework decision 2002/629/RIA (EUT L 101 of 15.4.2011, p. 1).</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-ssc</cbc:TendererRequirementTypeCode>
+        
+        <cbc:Description languageID="ENG">Have tenderers failed to fulfil all their social security obligations in the country where they are established and in their member state, if this is a different country than what he is established in?</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+        
+        <cbc:Description languageID="ENG">Has the tenderer not fulfilled his tax and duty obligations in the country in which he is established, and in the contracting authority's member state, if this is a different country than what he is established in?</cbc:Description>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+    <cac:LotDistribution>
+      <cbc:MaximumLotsAwardedNumeric>4</cbc:MaximumLotsAwardedNumeric>
+      <cbc:MaximumLotsSubmittedNumeric>4</cbc:MaximumLotsSubmittedNumeric>
+    </cac:LotDistribution>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">25/4676</cbc:ID>
+    
+    <cbc:Name languageID="ENG">Treatment contracts - Karmøy municipality</cbc:Name>
+    
+    <cbc:Description languageID="ENG">Karmøy municipality invites tenderers to an open tender contest for the procurement of the following contracts: Collected mixed cardboard/paper and plastic packaging. Plastic from the recycling facility Treated wood chip/corrugated paper from the recycling facility.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <cbc:EstimatedOverallContractAmount currencyID="NOK">15000000.00</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">42417200</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">90500000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">90510000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+                
+                <cbc:Description languageID="ENG">Tenderers are registered in a company register or a trade register in the member state in which the tenderer is established. As described in annex XI of directive 2014/24/EU; suppliers from certain member states may have to fulfil other requirements in the mentioned annex.</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-sche-env-cert-indep</cbc:TendererRequirementTypeCode>
+                
+                <cbc:Description languageID="ENG">Is the tenderer able to submit certificates issued by independent bodies as documentation that the tenderer fulfils the stated environmental management systems or standards?
+Minimum qualification requirements</cbc:Description>
+              </efac:SelectionCriteria>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>NOR</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>258738477</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://permalink.mercell.com/258738462.aspx</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://permalink.mercell.com/258738462.aspx</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          
+          <cbc:Description languageID="ENG">See the tender documentation</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>NOR</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-07-07+00:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+00:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-30+00:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+00:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2025-07-07+00:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>10:30:00+00:00</cbc:OccurrenceTime>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <cbc:MaximumOperatorQuantity>50</cbc:MaximumOperatorQuantity>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">1</cbc:ID>
+      
+      <cbc:Name languageID="ENG">Collected mixed paper waste and household plastic packaging</cbc:Name>
+      
+      <cbc:Description languageID="ENG">Collected mixed paper waste and plastic packaging from householdSe attached requirement specifications for further details. Duration: 2 years + options for 1+1+1 year.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">30197600</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">19600000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">22200000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90510000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90511200</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90512000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90514000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2025-08-31Z</cbc:StartDate>
+        <cbc:EndDate>2027-08-31Z</cbc:EndDate>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+                
+                <cbc:Description languageID="ENG">Tenderers are registered in a company register or a trade register in the member state in which the tenderer is established. As described in annex XI of directive 2014/24/EU; suppliers from certain member states may have to fulfil other requirements in the mentioned annex.</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-sche-env-cert-indep</cbc:TendererRequirementTypeCode>
+                
+                <cbc:Description languageID="ENG">Is the tenderer able to submit certificates issued by independent bodies as documentation that the tenderer fulfils the stated environmental management systems or standards?
+Minimum qualification requirements</cbc:Description>
+              </efac:SelectionCriteria>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>NOR</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>258738500</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://permalink.mercell.com/258738462.aspx</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://permalink.mercell.com/258738462.aspx</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          
+          <cbc:Description languageID="ENG">See the tender documentation</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>NOR</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-07-07+00:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+00:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-30+00:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+00:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2025-07-07+00:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>10:30:00+00:00</cbc:OccurrenceTime>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <cbc:MaximumOperatorQuantity>50</cbc:MaximumOperatorQuantity>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">2</cbc:ID>
+      
+      <cbc:Name languageID="ENG">Plastic from the recycling station</cbc:Name>
+      
+      <cbc:Description languageID="ENG">Plastic from the recycling facilitySe attached requirement specifications for further details. Duration: 2 years + options for 1+1+1 year.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">19520000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90000000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90500000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90510000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90512000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90513000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90514000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90700000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2025-08-31Z</cbc:StartDate>
+        <cbc:EndDate>2027-08-31Z</cbc:EndDate>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+                
+                <cbc:Description languageID="ENG">Tenderers are registered in a company register or a trade register in the member state in which the tenderer is established. As described in annex XI of directive 2014/24/EU; suppliers from certain member states may have to fulfil other requirements in the mentioned annex.</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-sche-env-cert-indep</cbc:TendererRequirementTypeCode>
+                
+                <cbc:Description languageID="ENG">Is the tenderer able to submit certificates issued by independent bodies as documentation that the tenderer fulfils the stated environmental management systems or standards?
+Minimum qualification requirements</cbc:Description>
+              </efac:SelectionCriteria>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>NOR</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>258738530</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://permalink.mercell.com/258738462.aspx</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://permalink.mercell.com/258738462.aspx</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          
+          <cbc:Description languageID="ENG">See the tender documentation</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>NOR</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-07-07+00:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+00:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-30+00:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+00:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2025-07-07+00:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>10:30:00+00:00</cbc:OccurrenceTime>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <cbc:MaximumOperatorQuantity>50</cbc:MaximumOperatorQuantity>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">3</cbc:ID>
+      
+      <cbc:Name languageID="ENG">Treated wood and MDF from the recycling facility.</cbc:Name>
+      
+      <cbc:Description languageID="ENG">Treated wood and MDF from the recycling centreSee the attached requirement specifications for further details. Duration: 1 year + option for 1 year extension.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">03417000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">03410000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">03414000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90512000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90513000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90514000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2025-08-31Z</cbc:StartDate>
+        <cbc:EndDate>2026-08-31Z</cbc:EndDate>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+                
+                <cbc:Description languageID="ENG">Tenderers are registered in a company register or a trade register in the member state in which the tenderer is established. As described in annex XI of directive 2014/24/EU; suppliers from certain member states may have to fulfil other requirements in the mentioned annex.</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-sche-env-cert-indep</cbc:TendererRequirementTypeCode>
+                
+                <cbc:Description languageID="ENG">Is the tenderer able to submit certificates issued by independent bodies as documentation that the tenderer fulfils the stated environmental management systems or standards?
+Minimum qualification requirements</cbc:Description>
+              </efac:SelectionCriteria>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="cvd-scope">true</efbc:ApplicableLegalBasis>
+                <efac:StrategicProcurementInformation>
+                  <efbc:ProcurementCategoryCode listName="cvd-contract-type">oth-serv-contr</efbc:ProcurementCategoryCode>
+                </efac:StrategicProcurementInformation>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>NOR</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>258738553</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://permalink.mercell.com/258738462.aspx</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://permalink.mercell.com/258738462.aspx</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          
+          <cbc:Description languageID="ENG">See the tender documentation</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>NOR</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-07-07+00:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+00:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2025-06-30+00:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+00:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2025-07-07+00:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>10:30:00+00:00</cbc:OccurrenceTime>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <cbc:MaximumOperatorQuantity>50</cbc:MaximumOperatorQuantity>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">4</cbc:ID>
+      
+      <cbc:Name languageID="ENG">Cardboard/corrugated paper from the recycling facility</cbc:Name>
+      
+      <cbc:Description languageID="ENG">Cardboard/corrugated paper from the recycling stationSee the attached requirement specifications for further details. Duration: 2 years + options for 1+1+1 year.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">30197600</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90511000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90512000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">90514000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">NO0A1</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2025-08-31Z</cbc:StartDate>
+        <cbc:EndDate>2027-08-31Z</cbc:EndDate>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeResult>
+            <efbc:OverallApproximateFrameworkContractsAmount currencyID="EUR">385000.0000</efbc:OverallApproximateFrameworkContractsAmount>
+            <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">385000.0000</efbc:OverallMaximumFrameworkContractsAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0000</cbc:ID>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+                <cac:LegalMonetaryTotal>
+                  <cbc:PayableAmount currencyID="EUR">385000.0000</cbc:PayableAmount>
+                </cac:LegalMonetaryTotal>
+              </efac:LotTender>
+              <efac:FrameworkAgreementValues>
+                <cbc:MaximumValueAmount currencyID="EUR">385000.0000</cbc:MaximumValueAmount>
+                <efbc:ReestimatedValueAmount currencyID="EUR">385000.0000</efbc:ReestimatedValueAmount>
+              </efac:FrameworkAgreementValues>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+              <cbc:RankCode>1</cbc:RankCode>
+              <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="EUR">385000.0000</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0000</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0000</cbc:ID>
+              <cbc:AwardDate>2025-06-04+02:00</cbc:AwardDate>
+              <efac:ContractReference>
+                <cbc:ID>ŽALE-12/25</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0000</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0000</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">25</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.zale.si/sl/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">ŽALE Javno podjetje, d.o.o.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Med hmeljniki   2</cbc:StreetName>
+                  <cbc:CityName>Ljubljana</cbc:CityName>
+                  <cbc:PostalZone>1000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>5015669000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>014201700</cbc:Telephone>
+                  <cbc:ElectronicMail>info@zale.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.dkom.si/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">DRŽAVNA REVIZIJSKA KOMISIJA ZA REVIZIJO POSTOPKOV ODDDAJE JAVNIH NAROČIL</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Slovenska cesta 54</cbc:StreetName>
+                  <cbc:CityName>Ljubljana</cbc:CityName>
+                  <cbc:PostalZone>1000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>1332716000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+38612342800</cbc:Telephone>
+                  <cbc:ElectronicMail>dkom@dkom.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.cmc-group.si/</cbc:WebsiteURI>
+                <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">CMC GROUP inženiring, svetovanje in zastopanje d.o.o.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>IOC Zapolje I  10</cbc:StreetName>
+                  <cbc:CityName>Logatec</cbc:CityName>
+                  <cbc:PostalZone>1370</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI038</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>5393396000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+386 (1) 759 08 00</cbc:Telephone>
+                  <cbc:ElectronicMail>info@cmc-group.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367873-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">9a8588a8-4443-4a4e-80da-7ed61717b6d7</cbc:ID>
+  <cbc:ContractFolderID>2fb308f4-445b-45cf-9573-dd41ec997eae</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+  <cbc:IssueTime>13:09:22.4324781+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="dir-awa-pre">veat</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>SLV</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode languageID="SLV" listName="direct-award-justification">exclusive</cbc:ProcessReasonCode>
+      <cbc:ProcessReason languageID="SLV">Predmet javnega naročila je izbira izvajalca servisiranje upepeljevalnih peči.
+
+Družba ŽALE Javno podjetje, d.o.o. ima za izvajanje svoje dejavnosti upepeljevalne peči TABO-CS proizvajalca TABO – CS spol. s.r.o., Tylova 4, - CZ 779 00 Olomouc, Češka republika. 
+
+Gospodarski subjekt CMC Group d.o.o., IOC Zapolje I/10, 1370 Logatec, ima na podlagi pogodbe o poslovnem sodelovanju s proizvajalcem upepeljevalnih peči, ekskluzivno zastopstvo za prodajo in servis upepeljevalnih peči TABO-CS in je edini seviser za TABO-CS peči na območju Republike Slovenije, Republike Hrvaške, Bosna in Hercegovina, Makedonija, Srbija, črna Gora in Kosova.
+
+Zaradi navedenih razlogov je CMC Group d.o.o., IOC Zapolje I/10, 1370 Logatec, kot edini ponudnik, sposoben izvesti predmet javnega naročila. Zaradi navedenih razlogov, konkurence za predmet javnega naročanja ni. 
+
+Naročnik k sodelovanju v postopku oddaje javnega naročila, katerega predmet je »servisiranje upepeljevalnih peči«, vabi gospodarski subjekt CMC Group d.o.o., IOC Zapolje I/10, 1370 Logatec, in sicer po postopku s pogajanji brez predhodne objave v skladu s tretjo alinejo c. točke prvega odstavka 46. člena ZJN-3.</cbc:ProcessReason>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>ŽALE-12/25</cbc:ID>
+    <cbc:Name languageID="SLV">ŽALE-12/25 Servisiranje upepeljevalnih peči</cbc:Name>
+    <cbc:Description languageID="SLV">Predmet javnega naročila je »servisiranje upepeljevalnih peči« proizvajalca TABO za obdobje 36 mesecev</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">50800000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">dec-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>1.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="SLV">Ponudbena cena brez DDV</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="SLV">Zakon o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 43/11 s spremembami)</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>295296</cbc:ID>
+      <cbc:Name languageID="SLV">ŽALE-12/25 Servisiranje upepeljevalnih peči</cbc:Name>
+      <cbc:Description languageID="SLV">Predmet javnega naročila je »servisiranje upepeljevalnih peči« proizvajalca TABO za obdobje 36 mesecev</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="social-objective">other</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">50800000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

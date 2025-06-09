@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><PriorInformationNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">4</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Grand Port Maritime de Dunkerque</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>GRAND PORT MARITIME DE DUNKERQUE Port 2505</cbc:StreetName>
+                           <cbc:CityName>Dunkerque cedex 01</cbc:CityName>
+                           <cbc:PostalZone>59386</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRE11</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>78359503600014</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Monsieur Nicolas FORAIN</cbc:Name>
+                           <cbc:Telephone>0328287442</cbc:Telephone>
+                           <cbc:ElectronicMail>nforain@PortdeDunkerque.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://lille.tribunal-administratif.fr</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal Administratif de Lille</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>5 rue Geoffroy Saint Hilaire CS 62039</cbc:StreetName>
+                           <cbc:CityName>LILLE</cbc:CityName>
+                           <cbc:PostalZone>59014</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FRE11</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>17590003400026</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0359542342</cbc:Telephone>
+                           <cbc:ElectronicMail>greffe.ta-lille@juradm.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00368839-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">99bbaa38-e055-4354-a099-5c67f584f9ed</cbc:ID>
+   <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+   <cbc:IssueTime>11:46:46+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:PlannedDate>2025-12-31+02:00</cbc:PlannedDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="planning">pin-only</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID>ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ProcurementProject>
+      <cbc:ID>MIS_TTS</cbc:ID>
+      <cbc:Name languageID="FRA">MANIFESTATION D'INTERET SPONTANEE - TTS</cbc:Name>
+      <cbc:Description languageID="FRA">MANIFESTATION D'INTERET SPONTANEE - TTS</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="FRA">Conformément à l'article L 2122-1-4 du Code Général de la Propriété des Personnes Publiques (CGPPP), il est porté à la connaissance des tiers, le fait que le Grand Port Maritime de Dunkerque (GPMD) a reçu une manifestation d'intérêt spontanée, en vue de l'occupation d'un ensemble de terrains d'une contenance globale d'environ 36 400 m2 sur le domaine de la Zone industrialo-portuaire situé sur la commune de Dunkerque et encombré par un bâtiment dont le GPMD est propriétaire et un bâtiment construit par l'occupant en place. L'intérêt est porté sur une éventuelle occupation pouvant être de longue durée. L'ensemble des parcelles susmentionnées est repris aux plans ci-annexés. A l'expiration des contrats d'occupation, au 31 décembre 2025, et éventuellement après remise en état des terrains (ICPE), le GPMD projette de délivrer un titre d'occupation notamment dans le respect des prescriptions des articles L 2122-1 et suivants du CGPPP, s'agissant d'une demande d'occupation du domaine public en vue d'une exploitation économique. Le GPMD publie le présent appel à manifestation d'intérêt, visant à s'assurer, préalablement à la délivrance du ou des titres sollicités, de « l'absence de toute autre manifestation d'intérêt concurrente». La présente Manifestation d'intérêt est consultable sur le site internet du Grand Port Maritime de Dunkerque à l'adresse suivante : https://www.dunkerque-port.fr/ami-mis/</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">63721200</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Port Est de Dunkerque </cbc:StreetName>
+            <cbc:CityName>DUNKERQUE</cbc:CityName>
+            <cbc:PostalZone>59140</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">FRE11</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Part">PAR-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <cac:AppealTerms>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:ProcurementProject>
+         <cbc:ID>MIS_TTS</cbc:ID>
+         <cbc:Name languageID="FRA">MANIFESTATION D'INTERET SPONTANEE - TTS</cbc:Name>
+         <cbc:Description languageID="FRA">Les terrains, situés sur le domaine public du GPMD, pourraient être mis à disposition du Bénéficiaire sous la forme d'une autorisation d'occupation du domaine public, dont les caractéristiques principales sont reprises ci-dessous : - Le Bénéficiaire pourrait disposer d'un droit réel sur les ouvrages, constructions et installations qu'il réalisera, dans le respect des articles L. 2122-6 et suivants du Code Général de la Propriété des Personnes Publique. - Le bénéficiaire aura la faculté de proposer l'achat du bâtiment propriété du GPMD - La convention pourrait être consentie et accordée pour une longue durée, en fonction des caractéristiques du titre et des investissements projetés - La convention pourrait prévoir sa cessibilité à première demande du bénéficiaire dans les conditions à définir entre les parties. - La convention pourrait octroyer la possibilité de mettre en place une sous-occupation. En contrepartie de l'occupation des emprises du domaine public du GPMD, le Bénéficiaire versera une redevance qui tiendra compte des avantages de toute nature procurés du fait de l'occupation et de l'utilisation de ce domaine.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="FRA">Toute manifestation d'intérêt doit obligatoirement porter sur l'intégralité de cet ensemble immobilier et comporter les éléments suivants : 1) Un courrier de présentation de l'opérateur économique mentionnant notamment les principales caractéristiques de son projet. 2) Un extrait K-bis de l'opérateur économique ou tout autre document équivalent. La date limite de manifestation d'intérêt est fixée au 30 juin 2025 à 12h00 Les opérateurs intéressés sont invités à manifester leur intérêt par lettre remise contre récépissé ou envoyée par pli recommandé avec avis de réception à l'adresse suivante : GRAND PORT MARITIME DE DUNKERQUE Direction commerciale - Monsieur Daniel DESCHODT 2505 Route de l'Ecluse Trystram - BP 46 534 59386 DUNKERQUE CEDEX 1 Dans l'hypothèse où aucune manifestation d'intérêt concurrente ne serait reçue dans les délais impartis, le GPMD pourra autoriser l'opérateur ayant manifesté spontanément son intérêt à occuper cet ensemble foncier. Dans l'hypothèse où un ou plusieurs autres opérateurs manifesteraient leur intérêt pour occuper les dépendances visées par le présent avis, le GPMD lancera une procédure de publicité et de sélection préalable, conformément à l'article L 2122-1-1 du CGPPP. Il est précisé que le présent avis n'a ni pour objet, ni pour effet de soumettre la conclusion du ou des titres aux règles prévues par le code de la commande publique, l'occupation sollicitée ne s'inscrivant pas dans le cadre de la réponse à un besoin du GPMD.</cbc:Note>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">63721200</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Port Est de Dunkerque </cbc:StreetName>
+               <cbc:CityName>DUNKERQUE</cbc:CityName>
+               <cbc:PostalZone>59140</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">FRE11</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</PriorInformationNotice>

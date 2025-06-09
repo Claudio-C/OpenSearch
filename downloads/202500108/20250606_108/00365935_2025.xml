@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="PLN">1960000</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:HigherTenderAmount currencyID="PLN">2336854</cbc:HigherTenderAmount>
+                     <cbc:LowerTenderAmount currencyID="PLN">1960000</cbc:LowerTenderAmount>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>6</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cbc:RankCode>1</cbc:RankCode>
+                     <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                     <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="PLN">1960000</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:Origin>
+                        <efbc:AreaCode listName="country">POL</efbc:AreaCode>
+                     </efac:Origin>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID>LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>Oferta nr 4</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:AwardDate>2025-05-21+02:00</cbc:AwardDate>
+                     <cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+                     <cbc:Title languageID="POL">Renowacja kanalizacji sanitarnej i deszczowej w ramach zadania inwestycyjnego: „Modernizacja systemu kanalizacji ogólnospławnej w rejonie ul. Obroki i ul. Wiśniowej w Katowicach” </cbc:Title>
+                     <cac:SignatoryParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:SignatoryParty>
+                     <efac:ContractReference>
+                        <cbc:ID>88/2025</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <cbc:Name>„AKWA” W. Biskup, G. Owczarek Spółka jawna</cbc:Name>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">30</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://katowickieinwestycje.pl</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://kisakatowice.ezamawiajacy.pl</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Katowickie Inwestycje S.A.</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Porcelanowa 21</cbc:StreetName>
+                           <cbc:CityName>Katowice</cbc:CityName>
+                           <cbc:PostalZone>40-246</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>9542588939</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Dział zamówień publicznych I</cbc:Name>
+                           <cbc:Telephone>+48323500075</cbc:Telephone>
+                           <cbc:ElectronicMail>zamowienia@kisa.katowice.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.uzp.gov.pl/kio</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Sekretariat Biura Odwołań</cbc:Name>
+                           <cbc:Telephone>+48 (22) 458 78 01</cbc:Telephone>
+                           <cbc:Telefax>+48 (22) 458 78 00</cbc:Telefax>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Sąd Polubowny przy Prokuratorii Generalnej Rzeczypospolitej Polskiej</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>00-682</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262883664</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+48 22 695 85 04</cbc:Telephone>
+                           <cbc:ElectronicMail>sp@prokuratoria.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">small</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">„AKWA” W. Biskup, G. Owczarek Spółka jawna</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Ignacego Paderewskiego 21 </cbc:StreetName>
+                           <cbc:CityName>Zabrze</cbc:CityName>
+                           <cbc:PostalZone>41-810</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL229</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>6480003733</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365935-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">1c53e3b2-f47d-4588-be30-762e158d0e3c</cbc:ID>
+   <cbc:ContractFolderID>4e3aed2a-bc34-4b16-9c9a-4db114f91aeb</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-05Z</cbc:IssueDate>
+   <cbc:IssueTime>08:19:08Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://kisakatowice.ezamawiajacy.pl/</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="entity-activity">water</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">ustawa z dnia 11 września 2019 r. Prawo zamówień publicznych (Dz. U. z 2024 r. poz. 1320 z poźn. zm.)</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="POL">1.W niniejszym postępowaniu komunikacja między Zamawiającym a Wykonawcami odbywa się za pośrednictwem platformy e-Zamawiający (zwanej dalej „Platformą”) dostępnej pod adresem https://kisakatowice.ezamawiajacy.pl/ oraz poczty elektronicznej pod adresem zamowienia@kisa.katowice.pl 
+We wszelkiej korespondencji związanej z niniejszym postępowaniem Zamawiający i Wykonawcy posługują się numerem ogłoszenia w Dzienniku Urzędowym Unii Europejskiej (TED) lub numerem referencyjnym postępowania.
+2.Komunikacja między Zamawiającym a Wykonawcami, w szczególności wymiana informacji oraz przekazywanie dokumentów lub oświadczeń między nimi, odbywa się za pośrednictwem Platformy.
+3.Wykonawca składa ofertę za pośrednictwem Platformy.
+4. Zmiany i wyjaśnienia treści SWZ oraz inne dokumenty zamówienia bezpośrednio związane z postępowaniem o udzielenie zamówienia będą udostępniane na stronie internetowej: https://kisakatowice.ezamawiajacy.pl/
+5.Każdy Wykonawca może złożyć tylko jedną ofertę.</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:NoticeDocumentReference>
+         <cbc:ID schemeName="ojs-notice-id">211800-2025</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">KISA/PN/02/I/2025/RENOWACJA_OBROKI</cbc:ID>
+      <cbc:Name languageID="POL">Renowacja kanalizacji sanitarnej i deszczowej w ramach zadania inwestycyjnego: „Modernizacja systemu kanalizacji ogólnospławnej w rejonie ul. Obroki i ul. Wiśniowej w Katowicach</cbc:Name>
+      <cbc:Description languageID="POL">
+1.	Przedmiotem zamówienia jest bezwykopowa modernizacja istniejących, czynnych technologicznie kolektorów o przekroju kołowym: DN800mm (deszczowego) o długości 663,00mb i  DN400/DN500mm (sanitarnego) o długości 658,00mb, zlokalizowanych na byłych terenach kopalni Kleofas wzdłuż ul. Obroki w Katowicach.
+2.	Określenie zamówienia według Wspólnego Słownika Zamówień (CPV): 
+Główny przedmiot:
+45232400-6 Roboty budowlane w zakresie kanałów ściekowych
+Dodatkowe kody CPV: 
+45453000-7 Roboty remontowe i renowacyjne
+71320000-7 Usługi inżynieryjne w zakresie projektowania
+45111300–1 Roboty rozbiórkowe
+3.	Szczegółowy opis przedmiotu zamówienia znajduje się w załącznikach nr 8a-8c do SWZ. 
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45232400</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45453000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45111300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Katowice</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>90</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Cena</cbc:Name>
+                  <cbc:Description languageID="POL">Oferta otrzyma, w kryterium „cena”,  liczbę punktów, podaną z dokładnością do dwóch miejsc po przecinku wynikającą z wzoru: liczba punktów = cena brutto niepodlegającej odrzuceniu oferty z najniższą  ceną/cena brutto oferty badanej x 90.  
+Maksymalna liczba punktów, jaką może uzyskać oferta wg kryterium „cena”, wynosi 90 pkt.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="POL">Okres udzielonej gwarancji jakości</cbc:Name>
+                  <cbc:Description languageID="POL">Kryterium „okres udzielonej gwarancji jakości”: 
+1)Minimalny okres gwarancji wynosi 36 miesięcy, licząc od dnia dokonania odbioru końcowego przedmiotu zamówienia.
+2)Za każde 12 miesięcy zaoferowanej gwarancji powyżej 36 miesięcy, Wykonawca otrzyma 5 punktów.
+3)Maksymalna liczba punktów, jaką może uzyskać wykonawca, wynosi 10,00 pkt. 
+w przypadku zaoferowania  gwarancji na okres 60 miesięcy lub więcej. 
+4)W przypadku zaoferowania minimalnego okresu gwarancji, tj. 36 miesięcy, wykonawca otrzyma 0 pkt.  
+5)W przypadku zaoferowania okresu gwarancji krótszego niż wymagany, oferta Wykonawcy zostanie odrzucona na podstawie art. 226 ust. 1. pkt. 5) uPzp.
+6)Jeżeli Wykonawca nie wskaże w złożonej ofercie okresu gwarancji, otrzyma w tym kryterium 0 pkt., natomiast w przypadku wyboru jego oferty zostanie przyjęty wymagany minimalny okres gwarancji jakości tj. 36 miesięcy. </cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0005</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0005</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">Odwołanie wnosi się w terminie:
+1) 10 dni od dnia przekazania informacji o czynności Zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informację przekazano przy użyciu środków komunikacji elektronicznej,
+2) 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej, jeżeli chodzi o odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia,
+3) 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia, w przypadku odwołania w innych okolicznościach niż wymienione w pkt.1) i pkt.2).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0007</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">KISA/PN/02/I/2025/RENOWACJA_OBROKI</cbc:ID>
+         <cbc:Name languageID="POL">Renowacja kanalizacji sanitarnej i deszczowej w ramach zadania inwestycyjnego: „Modernizacja systemu kanalizacji ogólnospławnej w rejonie ul. Obroki i ul. Wiśniowej w Katowicach</cbc:Name>
+         <cbc:Description languageID="POL">
+1.Przedmiotem zamówienia jest bezwykopowa modernizacja istniejących, czynnych technologicznie kolektorów o przekroju kołowym: DN800mm (deszczowego) o długości 663,00mb i  DN400/DN500mm (sanitarnego) o długości 658,00mb, zlokalizowanych na byłych terenach kopalni Kleofas wzdłuż ul. Obroki w Katowicach. 
+2.Szczegółowy opis przedmiotu zamówienia znajduje się w załącznikach nr 8a-8c do SWZ. 
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">1.Wraz z ofertą Wykonawca składa następujące oświadczenia lub dokumenty:
+1)	Oświadczenia wymienione w pkt. X. 1-3 SWZ (JEDZ);
+2)	Zobowiązanie, o którym mowa w pkt. X.4 SWZ – jeżeli dotyczy;
+3)	Odpis lub informację z Krajowego Rejestru Sądowego, Centralnej Ewidencji i Informacji o Działalności Gospodarczej lub innego właściwego rejestru, w celu potwierdzenia, że osoba działająca w imieniu wykonawcy lub podmiotu udostępniającego zasoby, jest umocowana do jego reprezentowania. 
+Wykonawca nie jest zobowiązany do złożenia w/w dokumentów, jeżeli zamawiający może je uzyskać za pomocą bezpłatnych i ogólnodostępnych baz danych, o ile wykonawca wskazał dane umożliwiające dostęp do tych dokumentów. Zamawiający może żądać od wykonawcy przedstawienia tłumaczenia na język polski pobranych samodzielnie przez zamawiającego dokumentów.
+4)	Pełnomocnictwo lub inny dokument w formie elektronicznej, do składania oświadczeń w imieniu Wykonawcy - w przypadku, gdy upoważnienie do podpisania oferty nie wynika bezpośrednio z właściwego rejestru lub ewidencji. W przypadku gdy pełnomocnictwo lub inny dokument zostało wystawione jako dokument w postaci papierowej, przekazuje się cyfrowe odwzorowanie tego dokumentu opatrzone kwalifikowanym podpisem elektronicznym. Poświadczenia zgodności cyfrowego odwzorowania z dokumentem w postaci papierowej dokonuje mocodawca lub notariusz.
+5)	Pełnomocnictwo lub inny dokument w formie elektronicznej, do reprezentowania Wykonawców w postępowaniu o udzielenie zamówienia albo reprezentowania w postępowaniu i zawarcia umowy w sprawie niniejszego zamówienia publicznego – w przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia.
+6)	Wypełniony przedmiar robót ze wskazaniem cen jednostkowych pozycji przedmiaru robót oraz wartości tych pozycji w układzie zgodnym z zawartym w SWZ przedmiarem robót (załącznik nr 8c do SWZ). Konieczna jest wycena wszystkich pozycji przedmiaru robót;
+2. Zamawiający wykluczy z postępowania Wykonawcę w przypadkach, o których mowa w:
+1) art. 108 ust. 1 pkt 1) lit. a)÷g), pkt 2) - jeżeli osoba, o której mowa w tym punkcie została skazana za przestępstwo, o którym mowa w art. 108 ust.1 pkt 1 lit. a)÷g), pkt 3), pkt 4), pkt 5) i pkt 6) uPzp
+2) art. 109 ust.1 pkt. 4) uPzp;
+3) art. 7 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego;
+4) art. 5k Rozporządzenia Rady (UE) nr 833/2014 dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie.
+3. Wykaz podmiotowych środków dowodowych wymaganych w celu potwierdzenie braku podstaw wykluczenia Wykonawców z przedmiotowego postępowania oraz spełniania warunków udziału w postępowaniu, zawarty jest w pkt. X SWZ.
+4.Zamawiający przed wyborem najkorzystniejszej oferty wezwie wykonawcę, którego oferta została najwyżej oceniona, do złożenia w wyznaczonym terminie, nie krótszym niż 10 dni, aktualnych na dzień złożenia następujących podmiotowych środków dowodowych: 
+1) informacji z Krajowego Rejestru Karnego w zakresie art. 108 ust. 1 pkt. 1) lit. a-g, pkt. 2) i pkt.4) uPzp, sporządzonej nie wcześniej niż 6 miesięcy przed jej złożeniem (w przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia dokument składa każdy z podmiotów), Jeżeli wykonawca ma siedzibę lub miejsce zamieszkania poza granicami Rzeczypospolitej Polskiej, zamiast informacji z Krajowego Rejestru Karnego – składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument, w zakresie art. 108 ust. 1 pkt. 1) lit. a-g, pkt. 2) i pkt. 4) uPzp, wystawione nie wcześniej niż 6 miesięcy przed jej złożeniem. 
+2) oświadczenia wykonawcy, w zakresie art. 108 ust. 1 pkt. 5 uPzp, o braku przynależności do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów (tekst jednolity - Dz. U. z 2024 r. poz. 1616), z innym wykonawcą, który złożył odrębną ofertę albo oświadczenia o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty niezależnie od innego wykonawcy należącego do tej samej grupy kapitałowej (w przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia oświadczenie składa każdy z podmiotów), 
+3) odpisu lub informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt. 4 uPzp, sporządzonych nie wcześniej niż 3 miesiące przed ich złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji (w przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia dokument składa każdy z podmiotów). 
+Jeżeli wykonawca ma siedzibę lub miejsce zamieszkania poza granicami Rzeczypospolitej Polskiej, zamiast odpisu albo informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej – składa dokument lub dokumenty wystawione w kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające odpowiednio, że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury, wystawione nie wcześniej niż 3 miesiące przed ich złożeniem. 
+4) oświadczenia wykonawcy o aktualności informacji zawartych w oświadczeniu, o którym mowa w art. 125 ust. 1 ustawy, w zakresie podstaw wykluczenia z postępowania wskazanych przez zamawiającego, o których mowa w art. 108 ust. 1 pkt. 3, 4, 5 i 6 uPzp oraz art. 5k Rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie, dodanym Rozporządzeniem Rady (UE) 2022/576 z dnia 8 kwietnia 2022 r. w sprawie zmiany rozporządzenia (UE) nr 833/2014 dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L 111 z 8.04.2022 r. str. 1) i art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego - zgodnie ze wzorem stanowiącym załącznik nr 2A do SWZ (w przypadku Wykonawców wspólnie ubiegających się o udzielenie zamówienia oświadczenie składa każdy z podmiotów), 
+5) wykazu robót budowlanych wykonanych nie wcześniej niż w okresie ostatnich 5 lat, a jeżeli okres prowadzenia działalności jest krótszy – w tym okresie, wraz z podaniem ich rodzaju, wartości, daty i miejsca wykonania oraz podmiotów, na rzecz których roboty te zostały wykonane, oraz załączenie dowodów określających, czy te roboty budowlane zostały wykonane należycie, przy czym dowodami, o których mowa, są referencje bądź inne dokumenty sporządzone przez podmiot, na rzecz którego roboty budowlane zostały wykonane, a jeżeli wykonawca z przyczyn niezależnych od niego nie jest w stanie uzyskać tych dokumentów – inne odpowiednie dokumenty – zgodnie ze wzorem stanowiącym załącznik nr 5 do SWZ. 
+6) wykazu osób, skierowanych przez wykonawcę do realizacji zamówienia publicznego, w szczególności odpowiedzialnych za świadczenie usług, kontrolę jakości lub kierowanie robotami budowlanymi, wraz z informacjami na temat ich kwalifikacji zawodowych, uprawnień, doświadczenia i wykształcenia niezbędnych do wykonania zamówienia publicznego, a także zakresu wykonywanych przez nie czynności oraz informacją o podstawie do dysponowania tymi osobami – zgodnie ze wzorem stanowiącym załącznik nr 6 do SWZ.
+Jeżeli w kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument dotyczy, nie wydaje się dokumentów, o których mowa w ppkt. 1) i 3), lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1), pkt 2) i pkt 4) uPzp, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dokument miał dotyczyć nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania wykonawcy lub miejsce zamieszkania osoby, której dokument miał dotyczyć. Dokument dotyczący okoliczności, o których mowa w ppkt. 1), powinien być wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem, natomiast dokumenty dotyczące okoliczności, o których mowa w ppkt. 3), powinny być wystawione nie wcześniej niż 3 miesiące przed ich złożeniem. Jeżeli wykonawca polega na zdolnościach lub sytuacji podmiotów udostępniających zasoby na zasadach określonych w art. 118 uPzp, przedstawia w odniesieniu do tych podmiotów dokumenty wymienione w ppkt. 1), 3) i 4) potwierdzające brak podstaw wykluczenia z postępowania.</cbc:Note>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45232400</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45453000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45111300</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>ul. Obroki i ul. Wiśniowa</cbc:StreetName>
+               <cbc:CityName>Katowice</cbc:CityName>
+               <cbc:PostalZone>40-833</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL22A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">10</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

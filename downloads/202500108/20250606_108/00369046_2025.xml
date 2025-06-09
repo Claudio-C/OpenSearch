@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.blb.nrw.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Bau- und Liegenschaftsbetrieb NRW Köln</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Domstr. 55-73</cbc:StreetName>
+									<cbc:CityName>Köln</cbc:CityName>
+									<cbc:PostalZone>50668</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA23</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>05111-32003-71</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Einkauf und Vertragsmanagement</cbc:Name>
+									<cbc:Telephone>+49 0</cbc:Telephone>
+									<cbc:Telefax>+49 0</cbc:Telefax>
+									<cbc:ElectronicMail>BLBVergabe@blb.nrw.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.ofd.nrw.de/</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Oberfinanzdirektion Nordrhein-Westfalen (Bauabteilung)</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Albersloher Weg 250</cbc:StreetName>
+									<cbc:CityName>Münster</cbc:CityName>
+									<cbc:PostalZone>48155</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA33</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>05515-12005-67</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Poststelle@ofd-bau.nrw.de</cbc:Name>
+									<cbc:Telephone>+49 2519340</cbc:Telephone>
+									<cbc:Telefax>+49 80010092675300</cbc:Telefax>
+									<cbc:ElectronicMail>Poststelle@ofd-bau.nrw.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.bundeskartellamt.de/DE/Vergaberecht/vergaberecht_node.html</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes beim Bundeskartellamt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:022894990</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>vk@bundeskartellamt.bund.de</cbc:Name>
+									<cbc:Telephone>+49 22894990</cbc:Telephone>
+									<cbc:Telefax>+49 2289499-163</cbc:Telefax>
+									<cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.evergabe.nrw.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabesatellit BLB NRW</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>-</cbc:StreetName>
+									<cbc:CityName>-</cbc:CityName>
+									<cbc:PostalZone>40470</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA12</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:490</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>blbvergabe@blb.nrw.de</cbc:Name>
+									<cbc:Telephone>+49 0</cbc:Telephone>
+									<cbc:Telefax>+49 0</cbc:Telefax>
+									<cbc:ElectronicMail>blbvergabe@blb.nrw.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00369046-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">76c8ea0a-8c66-4ae5-bbf7-0737b1d1827c</cbc:ID>
+	<cbc:ContractFolderID>16ab03a3-4062-4d7f-aa7a-e132c1c41348</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+	<cbc:IssueTime>12:33:57+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">§ 124 GWB - § 21 Arbeitnehmer-Entsendegesetz, § 98c Aufenthaltsgesetz, § 19 Mindestlohngesetz, § 21 Schwarzarbeitsbekämpfungsgesetz sowie sämtliche Ausschlussgründe nach § 123 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0004</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Der Antrag auf Einleitung eines Nachprüfungsverfahrens vor der Vergabekammer ist unzulässig, soweit: 1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber dem Auftraggeber nicht innerhalb von zehn Kalendertagen nach Absendung der Information per Fax oder auf elektronischem Wege bzw. 15 Kalendertagen nach einer Versendung mit anderen Kommunikationsmitteln gerügt hat, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Dies gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrages nach § 135 Abs. 1 Nr. 2 GWB. § 134 Abs. 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://evergabe.blb.nrw.de/Vergabe/notice/CXS7YYXYTCM38ER3</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">025-25-00333</cbc:ID>
+		<cbc:Name languageID="DEU">BLB NRW Köln / Bund / Bundespolizei Sankt Augustin-Hangelar / Neubau Poststelle und Wache / Projektsteuerungsleistungen</cbc:Name>
+		<cbc:Description languageID="DEU">Projektsteuerungsleistungen für den Neubau Poststelle und Wache der Bundespolizei Sankt Augustin</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXS7YYXYTCM38ER3
+
+
+1. Das Vergabeverfahren wird über den Vergabemarktplatz NRW (VMP NRW) abgewickelt. Unternehmen erhalten bei der Registrierung auf dem VMP NRW einen individuellen Unternehmensaccount. Der Austausch zwischen der Vergabestelle und dem Unternehmen erfolgt elektronisch über diesen Account und den für dieses Vergabeverfahren angelegten Projektraum im Modul "Kommunikation". Nur das Unternehmen hat Zugriff auf die über den Unternehmensaccount im Modul "Kommunikation" des Projektraums eingegangenen und ausgehenden Nachrichten. Dem Unternehmen werden hierüber auch rechtserhebliche Erklärungen im Vergabeverfahren zugestellt. Informationen und Hilfestellungen zum VMP NRW sowie Anleitungen zum Bietertool für die Angebotsabgabe finden Sie auf der Internetseite des Betreibers cosinex GmbH unter folgendem Link: https://support.cosinex.de/unternehmen/pages/viewpage.action?pageId=28115008
+----- 
+2. Die geforderten Erklärungen sind mit den geforderten Nachweisen gemäß § 53 VgV ausschließlich elektronisch in Textform über die Angebotsfunktion der Vergabeplattform zu übersenden. Das Angebot muss dort bis zum Schlusstermin für den Eingang der Angebote eingegangen sein. Die Verfahrenssprache ist Deutsch. Sämtliche Unterlagen sind in deutscher Sprache vorzulegen. Bei fremdsprachigen Unterlagen sind beglaubigte Übersetzungen in die deutsche Sprache beizufügen. 
+-----
+3. Die Kommunikation in diesem Verfahren ist ausschließlich über den Kommunikationsbereich der Vergabeplattform zulässig. Kommunikation über andere Medien ist nicht zulässig und wird - aus Gründen der Verfahrensfairness - nicht beantwortet. Bieterfragen bis zum angegebenen Termin vor der Abgabefrist zu stellen. Spätere Fragen sind zwar nicht ausgeschlossen, Bieter haben jedoch keinen Anspruch darauf, dass solche Fragen noch vor Ablauf der Frist zur Einreichung des Teilnahmeantrags beantwortet werden. 
+----- 
+4. Wird der Auftrag einer Bieter- bzw. Bewerbergemeinschaft erteilt, so ist diese in eine gesamtschuldnerisch haftende Arbeitsgemeinschaft mit bevollmächtigtem Vertreter zu überführen. 
+----- 
+5. Der Bieter muss ein Unterauftragnehmen, das ein entsprechendes Eignungskriterium nicht erfüllt oder bei dem zwingende Ausschlussgründe nach § 123 oder fakultative Ausschlussgründe nach § 124 des Gesetzes gegen Wettbewerbsbeschränkungen vorliegen, nach schriftlicher Anforderung ersetzen. 
+----- 
+6. Der Auftraggeber behält sich vor, - sofern gesetzlich zulässig - fehlende Erklärungen oder Nachweise nachzufordern und/oder die Eigenerklärungen durch die Vorlage von geeigneten Nachweisen zu überprüfen. Hierzu sind nach Anforderung der Vergabestelle die angeforderten Unterlagen innerhalb einer von der Vergabestelle vorzugebenden Frist vorzulegen. Der Auftraggeber ist nicht verpflichtet, Nachforderungen zu stellen. 
+----- 
+7. Bei der Auftragsbearbeitung sind für die Verarbeitung personenbezogener Daten die Bestimmungen zum Datenschutz, insbesondere der EU-Datenschutzgrundverordnung (DSGVO) einzuhalten. 
+-----
+ 8. Die Vorgaben des TVgG NRW zu den Bereichen Mindestlohn und Tariftreue, sind zwingend zu berücksichtigende Ausführungsbedingungen i. S. v. §§ 128 Abs. 2 i. V. m. 129 GWB. Die besonderen Vertragsbedingungen werden Bestandteil des Vertrages. 
+-----
+9. Hingewiesen wird auf die Korruptionspräventionen, denen sich der BLB NRW unterworfen hat; diese finden sich unter: http://www.blb.nrw.de/BLB_Hauptauftritt/Compliance/. Einem rechtskonformen Handeln unterwirft sich auch der Bieter/ Auftragnehmer. 
+----- 
+10. Hinweis - Auszug aus dem Wettbewerbsregister Der BLB NRW ist als öffentlicher Auftraggeber gesetzlich verpflichtet, ab einer Auftragssumme von 30.000 EUR netto über den Bieter, auf dessen Angebot der Zuschlag erfolgen soll, eine Auskunft aus dem Wettbewerbsregister nach § 6 Abs. 1 Satz 1 des Wettbewerbsregistergesetzes einzuholen. Für die Abfrage beim Bundesamt für Justiz werden bestimmte Daten benötigt, die dem BLB NRW teilweise nicht vorliegen und daher abgefragt werden müssen. Die Einholung einer Auskunft aus dem Wettbewerbsregister erfolgt nur im Hinblick auf den Bieter, auf dessen Angebot der Zuschlag erfolgen soll oder sofern im Hinblick auf die Eigenerklärungen zu den Ausschlussgründen nach §§ 123, 124 GWB Zweifel an deren Richtigkeit bestehen und diese Zweifel mit der entsprechenden Abfrage ausgeräumt werden können. Im Sinne des Datenschutzes ist die Angabe der Daten entsprechend dem Formblatt auf der nächsten Seite mit dem Angebot nicht erforderlich. Die Angaben können jedoch freiwillig erfolgen. Ob die Angabe mitsamt dem Angebot erfolgt, hat keinen Einfluss auf die Bewertung des Angebots. Wenn Sie die Angabe bereits mit dem Angebot machen wollen, bitten wir zur Gewährleistung der Vollständigkeit der Daten, das Formblatt auf der nächsten Seite zu verwenden.</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71541000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Bundespolizei Sankt Augustin, Bundesgrenzschutzstraße 100</cbc:StreetName>
+				<cbc:CityName>Sankt Augustin</cbc:CityName>
+				<cbc:PostalZone>53757</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEA2C</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Nachweis einer Berufshaftpflichtversicherung. Die Versicherung ist während der gesamten Vertragszeit zu unterhalten und nachzuweisen.
+Die Deckungssummen dieser Versicherung müssen je Schadensfall mindestens zweifach maximiert sein und betragen:
+Für Personenschäden mind. 3 Mio. Euro, für sonstige Schäden mind. 3 Mio. Euro.
+Der Nachweis ist durch Vorlage der Erklärung zur Deckungszusage der Versicherung zu erbringen.
+
+Mindestanforderung für die Bewerbung ist die Erklärung der Versicherungsgesellschaft, dass im Auftragsfall eine Versicherung über die Deckungssummen abgeschlossen wird. Die Erklärung des Versicherers muss dem Teilnahmeantrag beigelegt werden.
+***************
+Angaben zum Umsatz des Unternehmens:
+Durchschnittlicher Netto-Umsatz des Unternehmens im Tätigkeitsbereich Projektsteuerung und Tätigkeitsbereich Planung Bzw. Qualitätskontrolle der ausgeschriebenen Leistung in den letzten 3 abgeschlossenen Geschäftsjahren.
+***************
+Angaben zu wirtschaftlichen Verknüpfungen:
+Erklärung zur Unabhängigkeit von Ausführungs- und Lieferinteressen</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+								<cbc:Description languageID="DEU">Zugelassen ist, wer nach den Architektengesetzen oder Ingenieurgesetzen der Länder berechtigt ist, die Berufsbezeichnung Architekt oder Beratender Ingenieur/Ingenieur zu tragen oder nach den EG-Richtlinien, insbesondere der Richtlinien für die gegenseitige Anerkennung der Diplome berechtigt ist, in der Bundesrepublik Deutschland als Architekt oder als Beratender Ingenieur/ Ingenieur tätig zu werden.
+
+Die verantwortlichen Planer müssen über eine Berufspraxis von mindestens fünf Jahren verfügen.
+
+Juristische Personen sind als Auftragnehmer zugelassen, wenn sie für die Durchführung der Aufgabe einen entsprechenden Ingenieur/Ingenieurin benennen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Angaben zu vorhandenen Arbeitskräften / berufliche Leistungsfähigkeit:
+Angabe der durchschnittlichen Anzahl der in den letzten 3 abgeschlossenen Geschäftsjahren qualifizierten Mitarbeiter, d.h. Ingenieure in der Projektsteuerung und Ingenieure in der Planung bzw. Qualitätskontrolle (als Einzelbewerber bzw. Summe der Bewerbergemeinschaft/Bewerber und jeweils ggf. der Nachunternehmer), welche im bewerbungsspezifischen Bereich tätig sind.
+***************
+Unternehmensreferenzen
+1. Drei Referenzen für die Projektsteuerung, davon mindestens eine Referenz für die Steuerung über mehr als 3 Projektstufen und mindestens eine Referenz mit Baukosten KG 300 bis 500 über 10 Mio. Euro brutto.
+2. Drei Referenzen für die Qualitätskontrolle, davon mindestens eine Referenz für die Qualitätskontrolle der Anlagengruppen 4 und 5 mit Baukosten über 500.000 Euro brutto.
+
+Die Referenzaufgabe muss eine vergleichbare Leistung sein und im Zeitraum 02.06.2017 bis 01.06.2025 erbracht worden sind. Es werden nur abgeschlossene Projektstufen gewertet.
+
+Die Referenzen müssen zur Erfüllung der Mindestanforderung für die Eignung wertungsfähig sein.
+
+Referenznachweise mittels Bewerberbogen
+***************
+Eigenerklärung zur technischen Ausstattung (mittels Bewerberbogen)</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">siehe Bewerberbogen und Matrix Eignungskriterien in den Teilnahmeunterlagen</cbc:Name>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://evergabe.blb.nrw.de/Vergabe/notice/CXS7YYXYTCM38ER3/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalForm languageID="DEU">Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Die Teilnahmeanträge und Angebote müssen vollständig sein. Unvollständige Teilnahmeanträge oder Angebote können ausgeschlossen werden. Der Auftraggeber behält sich vor, - sofern gesetzlich zulässig - unter Beachtung der Grundsätze der Transparenz und der Gleichbehandlung fehlende, unvollständige oder fehlende Unterlagen nachzufordern bzw. vervollständigen oder korrigieren zu lassen und/oder die Eigenerklärungen durch die Vorlage von geeigneten Nachweisen zu überprüfen. Hierzu sind nach Anforderung der Vergabestelle die angeforderten Unterlagen innerhalb einer von der Vergabestelle vorzugebenden Frist vorzulegen.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Wird der Auftrag einer Bieter- bzw. Bewerbergemeinschaft erteilt, so ist diese in eine gesamtschuldnerisch haftende Arbeitsgemeinschaft mit bevollmächtigtem Vertreter zu überführen.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://evergabe.blb.nrw.de/Vergabe/notice/CXS7YYXYTCM38ER3</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0004</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAY">139</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Der Antrag auf Einleitung eines Nachprüfungsverfahrens vor der Vergabekammer ist unzulässig, soweit: 1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber dem Auftraggeber nicht innerhalb von zehn Kalendertagen nach Absendung der Information per Fax oder auf elektronischem Wege bzw. 15 Kalendertagen nach einer Versendung mit anderen Kommunikationsmitteln gerügt hat, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Dies gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrages nach § 135 Abs. 1 Nr. 2 GWB. § 134 Abs. 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://evergabe.blb.nrw.de/Vergabe/notice/CXS7YYXYTCM38ER3</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-07-22+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+				<cbc:EndTime>11:30:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-27+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>4</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">025-25-00333</cbc:ID>
+			<cbc:Name languageID="DEU">BLB NRW Köln / Bund / Bundespolizei Sankt Augustin-Hangelar / Neubau Poststelle und Wache / Projektsteuerungsleistungen</cbc:Name>
+			<cbc:Description languageID="DEU">Die Liegenschaft Bundespolizei Sankt Augustin soll den strukturellen Anforderungen ihrer Nutzer angepasst werden.
+Im Wesentlichen sollen die baupolitischen Ziele, wie u. a. Funktionsgerechtigkeit, Sicherheit, Wirtschaftlichkeit, nachhaltiges und energieeffizientes Bauen, Einsatz innovativer Baustoffe, Techniken und Verfahren sowie die städtebauliche Integration am Standort berücksichtigt werden.
+Auf dem Gelände der Liegenschaft sind auf einer Fläche von ca. 73 Hektar seit den 1930"er Jahren
+insgesamt 82 Gebäude entstanden. Der Gebäudebestand bietet rd. 134.000 m2 NRF und rd.
+81.000 m2 NUF 1-6.
+Der Zustand der Gebäude wurde im Zuge der Aufstellung eines Masterplans im Jahre 2013 festgestellt. Im Masterplan sind Empfehlungen ausgesprochen, ob angesichts der vorgefundenen Zustände und unter Berücksichtigung des aktuellen und zu erwartenden funktionalen sowie räumlichen Bedarfs der Nutzer eine Sanierung, der Abriss oder eine Gebäudeerweiterung sinnvoll ist.
+Die Um- bzw. Neubauten im Bereich der Liegenschaftseinfahrt gemäß der genehmigten Entscheidungsunterlage-Bau (ES-Bau) und weiteren Planungen LPH3 und damit der Bauunterlage sind Gegenstand der Ausschreibung der Leistungen Projektsteuerung.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">Der Auftrag wird vergeben in Namen und für Rechnung der Bundesanstalt für Immobilienaufgaben (BImA), diese vertreten durch die Oberfinanzdirektion Nordrhein-Westfalen, diese vertreten durch den Bau- und Liegenschaftsbetrieb NRW, Niederlassung Köln.</cbc:Note>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71541000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Bundespolizei Sankt Augustin, Bundesgrenzschutzstraße 100</cbc:StreetName>
+					<cbc:CityName>Sankt Augustin</cbc:CityName>
+					<cbc:PostalZone>53757</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEA2C</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="eforms-country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">73</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Leistungen des Auftragnehmers sind die Grund- und Besonderen Leistungen der Projektstufen 1, 3, 4 und 5.
+Die Beauftragung erfolgt stufenweise.
+Mit Vertragsschluss werden die Projektstufen 1 und 3 abgerufen. Die weiteren Projektstufen können zu einem späteren Zeitpunkt abgerufen werden. Ein Rechtsanspruch auf Beauftragung weiterer Projektstufen besteht nicht.</cbc:OptionsDescription>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

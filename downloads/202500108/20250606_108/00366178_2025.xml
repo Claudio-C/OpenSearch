@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeResult>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0000</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+              <efac:DecisionReason>
+                <efbc:DecisionReasonCode listName="non-award-justification">ins-fund</efbc:DecisionReasonCode>
+              </efac:DecisionReason>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="tenders">tenders</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.velenje.si/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">MESTNA OBČINA VELENJE</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Titov trg   1</cbc:StreetName>
+                  <cbc:CityName>Velenje</cbc:CityName>
+                  <cbc:PostalZone>3320</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI034</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>5884268000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+386038961873</cbc:Telephone>
+                  <cbc:ElectronicMail>info@velenje.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.ki.si/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">Kemijski inštitut</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Hajdrihova ulica  19</cbc:StreetName>
+                  <cbc:CityName>Ljubljana</cbc:CityName>
+                  <cbc:PostalZone>1000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>5051592000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>01 476 02 00</cbc:Telephone>
+                  <cbc:ElectronicMail>glavna.pisarna@ki.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.dkom.si/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="SLV">DRŽAVNA REVIZIJSKA KOMISIJA ZA REVIZIJO POSTOPKOV ODDDAJE JAVNIH NAROČIL</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Slovenska cesta 54</cbc:StreetName>
+                  <cbc:CityName>Ljubljana</cbc:CityName>
+                  <cbc:PostalZone>1000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">SI041</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>1332716000</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+38612342800</cbc:Telephone>
+                  <cbc:ElectronicMail>dkom@dkom.si</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00366178-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">f06b7266-26a7-41e3-9bf2-b8271ee70c4b</cbc:ID>
+  <cbc:ContractFolderID>e99673e3-c38a-4541-9f57-fc91a6c2ac23</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+  <cbc:IssueTime>09:56:40.4193977+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>SLV</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>JN-50833</cbc:ID>
+    <cbc:Name languageID="SLV">Izgradnja »Tehnološkega parka Velenje – TecHub«</cbc:Name>
+    <cbc:Description languageID="SLV">Predmet naročila je izvedba gradbenih, obrtniških in instalacijskih del ter zunanja ureditev (v nadaljevanju GOI dela) novogradnje Tehnološkega parka Velenje – TecHUB v obsegu, kot izhaja iz projektne dokumentacije, ki je sestavni del teh navodil. 
+
+V sklopu javnega naročila je, potrebno izvesti GOI dela skladno s strani projektanta ADESCO d.o.o. izdelano in s strani naročnika potrjeno projektno dokumentacijo. 
+
+Naročnik Mestna občina Velenje izvaja javno naročilo v svojem imenu in na podlagi 33. člena ter  3. odstavka 66. člena ZJN-3 v imenu  Kemijskega inštituta, Hajdrihova ulica 19, Ljubljana, 1000 Ljubljana.
+
+Predmetna operacija se sofinancira iz Sklada za pravični prehod. Sredstva so zagotovljena v proračunu Republike Slovenije, na proračunskih postavkah ministrstva št. 230131 EU 21-27 Sklad za pravičen prehod (SPP)-SAŠA-EU in št. 230132 Sklad za pravičen prehod (SPP)-SAŠA-slovenska udeležba.
+
+Sredstva Kemijskega inštituta bodo predvidoma zagotovljena v okviru neposredne potrditve operacije sofinanciranja vzpostavitve raziskovalne infrastrukture »Laboratorija za raziskave biorafinacije biomase v Sloveniji«, skladno s pozivom ministrstva za visoko šolstvo, znanost in inovacije št. 303-13/2024-3360-8 z dne 30.8. 2024.
+
+Rok za dokončanje vseh pogodbenih obveznosti je 520 koledarskih dni od dne, ko je izvajalec s strani naročnika zapisniško uveden v delo, oziroma do 15.12.2026, odvisno kateri rok nastopi prej, pod predpostavko, da je bil odpravljen odložni pogoj . Izvajalec mora v roku za izvedbo del izvesti vsa pogodbena dela, v tem času pa mora biti pridobljeno tudi pravnomočno uporabno dovoljenja. Izvajalec mora naročniku pravočasno predati vso potrebno dokumentacijo za izvedbo tehničnega pregleda in pridobitev uporabnega dovoljenja, tako da lahko naročnik sproži postopek za pridobitev uporabnega dovoljenja, oziroma, da bo le-to pridobljeno v navedenem roku.
+
+Naročnik izvaja javno naročilo ob upoštevanju odložnega pogoja. Odložni pogoj bo izpolnjen in pogodba bo začela učinkovati, ko bo naročnik Mestna občina Velenje uspešno kandidiral in pridobil sredstva za sofinanciranje naročila iz Sklada za pravični prehod in ko bo naročnik Kemijski inštitut imel zagotovljena sredstva v okviru neposredne potrditve operacije sofinanciranja, skladno s pozivom ministrstva za visoko šolstvo, znanost in inovacije. 
+
+6.	Dela  se bodo izvajala po pogojih gradbenih pogodb po določilih FIDIC RDEČA KNJIGA, Pogoji gradbenih pogodb za gradbena in inženirska dela, ki jih načrtuje naročnik, 1.izdaja 1999, FIDIC, GZS ZSI,1. prevod v slovenski jezik l.2002.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+    <cbc:Note languageID="SLV">Veljavnost ponudbe v razdelku B.6 Roki je navedena okvirno. Finančno zavarovanje za resnost ponudbe mora in ponudba morata biti veljavno najmanj do 30.6.2025.
+
+Rok za dokončanje vseh pogodbenih obveznosti je 520 koledarskih dni od dne, ko je izvajalec s strani naročnika zapisniško uveden v delo, oziroma do 15.12.2026, odvisno kateri rok nastopi prej, pod predpostavko, da je bil odpravljen odložni pogoj . Izvajalec mora v roku za izvedbo del izvesti vsa pogodbena dela, v tem času pa mora biti pridobljeno tudi pravnomočno uporabno dovoljenja. Izvajalec mora naročniku pravočasno predati vso potrebno dokumentacijo za izvedbo tehničnega pregleda in pridobitev uporabnega dovoljenja, tako da lahko naročnik sproži postopek za pridobitev uporabnega dovoljenja, oziroma, da bo le-to pridobljeno v navedenem roku.
+
+Operacijo delno financira Evropska unija, in sicer iz Sklada za pravični prehod. Sredstva so zagotovljena v proračunu Republike Slovenije, na proračunskih postavkah ministrstva št. 230131 EU 21-27 Sklad za pravičen prehod (SPP)-SAŠA-EU in št. 230132 Sklad za pravičen prehod (SPP)-SAŠA-slovenska udeležba. Sredstva Kemijskega inštituta so zagotovljena v okviru neposredne potrditve operacije sofinanciranja vzpostavitve raziskovalne infrastrukture »Laboratorija za raziskave biorafinacije biomase v Sloveniji«, skladno s pozivom ministrstva za visoko šolstvo, znanost in inovacije št. 303-13/2024-3360-8 z dne 30.8. 2024.
+
+Tehnična dokumentacija (DGD, PZI in GRADBENO DOVOLJENJE) so zaradi velikosti datotek objavljeni na spletni strani naročnika https://www.velenje.si/za-obcane/javne-objave-in-razpisi/</cbc:Note>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">45200000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">SI034</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>1.0000</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="SLV">Cena</cbc:Name>
+            <cbc:Description languageID="SLV">Merilo za izbiro najugodnejše ponudbe je ekonomsko najugodnejša ponudba za predmet javnega naročila, ki se določi na podlagi cene oziroma ponudbenega zneska v EUR brez davka na dodano vrednost.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="SLV">Zakon o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 43/11 s spremembami)</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:NoticeDocumentReference>
+        <cbc:ID>d483f9f7-6be6-44b9-ab2b-bb58ec69c4f9-01</cbc:ID>
+      </cac:NoticeDocumentReference>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>296026</cbc:ID>
+      <cbc:Name languageID="SLV">Izgradnja »Tehnološkega parka Velenje – TecHub«</cbc:Name>
+      <cbc:Description languageID="SLV">Predmet naročila je izvedba gradbenih, obrtniških in instalacijskih del ter zunanja ureditev (v nadaljevanju GOI dela) novogradnje Tehnološkega parka Velenje – TecHUB v obsegu, kot izhaja iz projektne dokumentacije, ki je sestavni del teh navodil. 
+
+V sklopu javnega naročila je, potrebno izvesti GOI dela skladno s strani projektanta ADESCO d.o.o. izdelano in s strani naročnika potrjeno projektno dokumentacijo. 
+
+Naročnik Mestna občina Velenje izvaja javno naročilo v svojem imenu in na podlagi 33. člena ter  3. odstavka 66. člena ZJN-3 v imenu  Kemijskega inštituta, Hajdrihova ulica 19, Ljubljana, 1000 Ljubljana.
+
+Predmetna operacija se sofinancira iz Sklada za pravični prehod. Sredstva so zagotovljena v proračunu Republike Slovenije, na proračunskih postavkah ministrstva št. 230131 EU 21-27 Sklad za pravičen prehod (SPP)-SAŠA-EU in št. 230132 Sklad za pravičen prehod (SPP)-SAŠA-slovenska udeležba.
+
+Sredstva Kemijskega inštituta bodo predvidoma zagotovljena v okviru neposredne potrditve operacije sofinanciranja vzpostavitve raziskovalne infrastrukture »Laboratorija za raziskave biorafinacije biomase v Sloveniji«, skladno s pozivom ministrstva za visoko šolstvo, znanost in inovacije št. 303-13/2024-3360-8 z dne 30.8. 2024.
+
+Rok za dokončanje vseh pogodbenih obveznosti je 520 koledarskih dni od dne, ko je izvajalec s strani naročnika zapisniško uveden v delo, oziroma do 15.12.2026, odvisno kateri rok nastopi prej, pod predpostavko, da je bil odpravljen odložni pogoj . Izvajalec mora v roku za izvedbo del izvesti vsa pogodbena dela, v tem času pa mora biti pridobljeno tudi pravnomočno uporabno dovoljenja. Izvajalec mora naročniku pravočasno predati vso potrebno dokumentacijo za izvedbo tehničnega pregleda in pridobitev uporabnega dovoljenja, tako da lahko naročnik sproži postopek za pridobitev uporabnega dovoljenja, oziroma, da bo le-to pridobljeno v navedenem roku.
+
+Naročnik izvaja javno naročilo ob upoštevanju odložnega pogoja. Odložni pogoj bo izpolnjen in pogodba bo začela učinkovati, ko bo naročnik Mestna občina Velenje uspešno kandidiral in pridobil sredstva za sofinanciranje naročila iz Sklada za pravični prehod in ko bo naročnik Kemijski inštitut imel zagotovljena sredstva v okviru neposredne potrditve operacije sofinanciranja, skladno s pozivom ministrstva za visoko šolstvo, znanost in inovacije.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">45200000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">SI034</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">SVN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="DAY">520</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

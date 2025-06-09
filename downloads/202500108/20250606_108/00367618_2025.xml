@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">AOK Baden-Württemberg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Presselstraße 19</cbc:StreetName>
+									<cbc:CityName>Stuttgart</cbc:CityName>
+									<cbc:PostalZone>70191</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE111</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE168368778</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>HLP. Dr. Alexandra Losch</cbc:Name>
+									<cbc:Telephone>+495112629368-0</cbc:Telephone>
+									<cbc:ElectronicMail>alexandra.losch@hlp-rae.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">AOK Rheinland-Pfalz/Saarland</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Virchowstraße 30</cbc:StreetName>
+									<cbc:CityName>Eisenberg</cbc:CityName>
+									<cbc:PostalZone>67304</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEB3D</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE271900642</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>HLP. Heiermann Losch Rechtsanwälte</cbc:Name>
+									<cbc:Telephone>+495112629368-0</cbc:Telephone>
+									<cbc:ElectronicMail>alexandra.losch@hlp-rae.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer Baden-Württemberg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Durlacher Allee 100</cbc:StreetName>
+									<cbc:CityName>Karlsruhe</cbc:CityName>
+									<cbc:PostalZone>76137</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE122</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>08-A9866-40</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 7219268730</cbc:Telephone>
+									<cbc:Telefax>+49 7219263985</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@rpk.bwl.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367618-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">d65615a8-ef63-4f4c-8440-2fe2e116687f</cbc:ID>
+	<cbc:ContractFolderID>757e1048-936d-4b94-908c-e7839f829a7b</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+	<cbc:IssueTime>14:27:51+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-05+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0002</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>CrossBorderLaw</cbc:ID>
+			<cbc:DocumentDescription languageID="DEU">Vereinbart ist die Geltung des Landesvergaberechts in Baden-Württemberg und die sich daraus ergebenden Zuständigkeiten der Vergabekammer und des OLG.  Die AOK Rheinland-Pfalz/Saarland ist berechtigt, dem ausgeschriebenen Rahmenvertrag beizutreten.</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Ein Nachprüfungsverfahren ist nur auf Antrag zulässig. Antragsbefugt ist gemäß § 160 Abs. 2 GWB jedesUnternehmen, das ein Interesse an dem öffentlichen Auftrag hat und eine Verletzung in seinen Rechten nach § 97 Abs. 6 GWB durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist  darzulegen,dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden  entstanden ist oder zu entstehen droht. Der Antrag ist gemäß § 160 Abs. 2 GWB unzulässig, soweit: 1) Der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Abs. 2 bleibt unberührt, 2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung gegenüber dem Auftraggeber gerügt werden, 3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4) Mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Satz 1 Nr. 2. § 134 Abs. 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:Description languageID="DEU">Der Auftrag wird im Wege eines Verhandlungsverfahrens mit vorgeschaltetem Teilnahmewettbewerb gern.§ 17 VgV  vergeben, da es sich um konzeptionelle Lösungen gern.§ 14 Abs. 3 Nr. 2 VgV handelt. Im ersten Verfahrensabschnitt  werden die Interessenten zur Abgabe eines Teilnahmeantrages nebst Beifügung der geforderten Unterlagen, Erklärungen  und/oder Nachweise nach Maßgabe dieser Bewerberinformation aufgefordert. Im Anschluss daran prüft die Vergabestelle  die Eignung der Bewerber anhand der eingereichten Nachweise. Sodann werden die Bewerber ausgewählt, die  eingeladen werden, indikative Erstangebote einzureichen, über die dann verhandelt werden. Im Rahmen der  Angebotsaufforderung werden die Vertragsunterlagen übersandt und die Vergabestelle teilt im Rahmen der  Angebotsaufforderung die Zuschlagskriterien mit, nach denen die verbindlichen Angebote bewertet werden.   Die Zahl der Bieter/Bietergemeinschaften, die im Verhandlungsverfahren teilnehmen werden, wird auf maximal drei Bieter begrenzt. Die Auswahl erfolgt im Anschluss an die Eignungsprüfung nach den bekannt gegebenen Auswahlkriterien.   Nach Abschluss der Verhandlungsphase fordert die Vergabestelle die Bieter zur Abgabe verbindlicher  Angebote auf. Die Vergabestelle behält sich vor, im Rahmen der Verhandlungen Konkretisierungen und/oder  Modifikationen an den Vergabeunterlagen vorzunehmen. Diese werden den Bietern mitgeteilt, ehe eine Aufforderung zur  Abgabe eines verbindlichen Angebots erfolgt.</cbc:Description>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YHS5B2R</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">AOK BW_Beratung und Unterstützung ESM auf Basis ITSM_2025 Teilnahmewettbewerb</cbc:ID>
+		<cbc:Name languageID="DEU">AOK BW_AS_ESM auf Basis ITSM 2025 TNW</cbc:Name>
+		<cbc:Description languageID="DEU">Gegenstand der Ausschreibung ist der Abschluss einer Rahmenvereinbarung mit einem Wirtschaftsteilnehmer über Beratungs- und Unterstützungsleistungen zur Einführung eines Enterprise Services Managements (ESM) auf Basis eines IT_Service-Managementsystems in der AOK BW bzw. im Fall des Beitritts in der jeweils beitretenden Körperschaft.   Details ergeben sich aus der Leistungsbeschreibung.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4YHS5B2R</cbc:Note>
+		<cac:RequestedTenderTotal>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efbc:FrameworkMaximumAmount currencyID="EUR">7500000.00</efbc:FrameworkMaximumAmount>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:EstimatedOverallContractAmount currencyID="EUR">7500000.00</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72221000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">siehe Leistungsbeschreibung</cbc:Description>
+			<cac:Address>
+				<cbc:StreetName>Pesselstraße 19</cbc:StreetName>
+				<cbc:CityName>Stuttgart</cbc:CityName>
+				<cbc:PostalZone>70191</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE111</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Im Fall des Beitritts die Standorte der Beitrittsberechtigten</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DEB3D</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Die Abgabe einer Einheitlichen Europäischen Eigenerklärung (EEE) wird akzeptiert. Die Vergabestelle behält sich dann die jederzeitige Abforderung der geforderten Nachweise vor.   a)  Kurzvorstellung des Unternehmens mit Gründungsjahr, Angabe zu Geschäftsfeldern und Standorten gem. Formblatt "Antrag auf Teilnahme";  b) Eigenerklärung über das Nichtvorliegen von Ausschlussgründen gemäß §§ 123 f. GWB sowie zum LkSG;  c)  Nachweis einer Betriebshaftpflichtversicherung für Personenschäden sowie für sonstige Schäden je Schadensfall, welche bei einem in der EU zugelassenen Versicherer abgeschlossen ist. Die Mindestdeckungssummen für Personen-, Sach- und Vermögensschäden muss 500.000,-. EUR betragen. Es genügt eine verbindliche Erklärung, dass eine entsprechende Versicherung für den Bewerber/die Bewerbergemeinschaft im Auftragsfall abgeschlossen wird und ein in der EU zugelassenes Versicherungsunternehmen die Bereitschaft zum Abschluss des Versicherungsvertrages schriftlich bestätigt.  d)  Aktueller Handelsregisterauszug, oder soweit dieser nicht existiert, eine Gewerbeanmeldung. Sollte der Bewerber in einem EU-Mitgliedsland ansässig sein, sind die vergleichbaren Bescheinigungen des EU-Mitgliedslandes vorzulegen.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">a) Umsätze des Unternehmens bezogen auf die letzten drei (3) abgeschlossenen Geschäftsjahre, aufgegliedert nach Gesamtumsätzen und Umsätzen zu vergleichbaren Leistungen in Bezug auf die ausgeschriebenen Leistungen, soweit verfügbar.  b)  Bilanzen oder Jahresabschlüsse der letzten 3 Geschäftsjahre soweit vorhanden.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">a) Referenzliste über vergleichbare und abgeschlossene Leistungen der letzten fünf (5) Jahre über Leistungen zur Beratung und Umsetzungsbegleitung zur Einführung eines ITSM und/oder ESM; nachzuweisen ist die Integration der entwickelten Lösung/Konzeption in die Linienorganisation, davon mindestens eine vergleichbare und abgeschlossene Referenz innerhalb einer IT-retained Organisation mit über 3000 Beschäftigten. Abgeschlossen ist eine Referenz, wenn das Ziel der Beratungsleistung erreicht und umgesetzt ist. Anzugeben sind: - Projektinhalt mit Angaben zu Zeitdauer und Charakteristik, Projektziel, - Auftraggeber inkl. Ansprechpartner und Telefonnummer, - Leistungszeitraum, - Kurzbeschreibung der durchgeführten Dienstleistungen.  b) Folgende Mindestanforderungen sind zu erfüllen: aa) Nachzuweisen ist mindestens eine vergleichbare und abgeschlossene Referenz über die Beratung und Umsetzungsbegleitung zur Einführung eines ITSM und/oder ESM;   bb) nachzuweisen ist die Integration der entwickelten Lösung/Konzeption in die Linienorganisation innerhalb einer IT-retained Organisation mit über 3000 Beschäftigten.   Abgeschlossen ist eine Referenz, wenn das Ziel der Beratungsleistung erreicht und umgesetzt ist.  c) Eigenerklärung und Angabe des jährlichen Mittelwertes der in den letzten drei Jahren im Unternehmen angestellten Personen, jeweils aufgegliedert in die Bereiche Beratung, Projektmanagement und Kundenbetreuung.  d) Mindestanforderung in Bezug auf Personalressourcen  Einzureichen sind zwei anonymisierte Profile zu jeder Rolle gem. den jeweils losbezogenen Anforderungen der Leistungsbeschreibung (das vorgegebene Template der Vergabestelle ist auszufüllen).</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Los 1:  Entscheidend ist zu 50% die anhand der eingereichten Referenzen nachgewiesene Kompetenz und Erfahrung anhand des Grades der Vergleichbarkeit und der Anzahl der eingereichten Referenzen über die mit der ausgeschriebenen Leistung vergleichbaren Leistungen.  Die Zahl der Referenzen, die eingereicht werden dürfen, werden auf fünf Referenzen beschränkt. Voraussetzung der Wertbarkeit ist eine vergleichbare und abgeschlossene Referenz. Vergleichbar sind Leistungen zur Beratung und Umsetzungsbegleitung zur Einführung eines ITSM und/oder ESM; nachzuweisen ist die Integration der entwickelten Lösung/Konzeption in die Linienorganisation, davon mindestens eine vergleichbare und abgeschlossene Referenz innerhalb einer IT-retained Organisation mit über 3000 Beschäftigten. Abgeschlossen ist eine Referenz, wenn das Ziel der Beratungsleistung erreicht und umgesetzt ist. Jede Referenz wird nach nachfolgendem System bewertet: Anforderung Erläuterung Punkte Referenzumfang Analyse und Beratung bei der Implementierung eines ITSM/ESM  Analyse und Beratung bei der Implementierung eines ITSM: 5 Punkte  Analyse und Beratung bei der Implementierung eines ITSM mit Blick auf ein angestrebtes ESM: 10 Punkte  Referenzumgebung Auftraggeber des Referenzprojekt gehört zur öffentlichen Verwaltung bzw. öffentlicher Auftraggeber gem. § 99 ff. GWB und ist eingestuft als Kritische Infrastruktur im Sinn des § 2 Abs. 10 BSIG in Verbindung mit der BSI-KritisVerordnung. 10 Punkte  Auftraggeber des Referenzprojekt ist eingestuft als Kritische Infrastruktur im Sinn des § 2 Abs. 10 BSIG in Verbindung mit der BSI-KritisVerordnung. 5 Punkte Leistungszeitraum Das Referenzprojekt wurde in den letzten 5 Jahren begonnen.  5 Punkte Leistungszeitraum Das Referenzprojekt wurde in den letzten 3 Jahren begonnen.  3 Punkte Die pro Referenz erreichten Punktzahlen werden addiert.  Die Details sind in Abshnitt IV. der Bewerberinformation definiert.</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>50.0</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Bestandteil der Vergabeunterlagen ist das Formblatt "Erklärung zur Kundenzufriedenheit" (Anlage 5), das von dem jeweiligen Auftraggeber einer eingereichten Referenz auszufüllen ist. Es dürfen nur ausgefüllte Formblätter von Auftraggebern zu in Ziffer 1.1 eingereichten Referenzprojekten eingereicht werden. Gewertet wird jeweils nur der Grad der nachgewiesenen Zufriedenheit über vergleichbare Referenzprojekte gem. Ziffer 1.1.  Die durch einen Auftraggeber abgegebene ausgefüllte Erklärung zur Kundenzufriedenheit wird wie folgt bewertet:   Ein Bewerber erhält für jeden sehr zufriedenen Referenzkunden über vergleichbare Referenzleistungen pro ausgefülltem Formblatt 10 Punkte.   Ein Bewerber erhält für jeden zufriedenen Referenzkunden über vergleichbare Referenzleistungen pro ausgefülltem Formblatt 5 Punkte.  Ein Bewerber erhält für jeden teilweise zufriedenen Referenzkunden über vergleichbare Referenzleistungen pro ausgefülltem Formblatt 2 Punkte.  Die erreichten Punkte werden mit dem o.g. Gewichtungsfaktor (50 %) multipliziert.</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>50.0</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4YHS5B2R/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">gem. Vergabeunterlagen</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalForm languageID="DEU">gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Die Auftraggeberin kann nach ihrem pflichtgemäßen Ermessen  Unterlagen nachfordern, sofern dies gem. § 56 VgV rechtlich zulässig ist. Ein Anspruch auf die Nachreichung von Unterlagen nach Ablauf der jeweiligen Frist besteht für die Bewerber*innen  oder Bieter*innen nicht.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Ferner sind die Erklärung zur Einhaltung des gesetzlichen Mindestlohns und die Eigenerklärung i.S.d. Art 5k Absatz 1 der Verordnung (EU) Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren (siehe Erklärungsmuster in Anlage 2 - Antrag auf Teilnahme) einzureichen.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>50.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Angebotspreis</cbc:Name>
+						<cbc:Description languageID="DEU">Das der Angebotsaufforderung beigefügte Preisblatt ist ausgefüllt mit dem Angebot einzureichen. Der niedrigste Gesamtpreis gem. Preisblatt bildet den Referenzpreis, der die volle Bewertungspunktzahl von 50 Punkten erhält. Die Punktzahl der weiteren Angebote ergibt sich nach folgender Formel: Bewertungspunkte = 50 X (Referenzpreis dividiert durch Angebotspreis). Der Bieter hat seine Preisangaben auf einer gesonderten Anlage zu erläutern.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>50.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Qualität der angebotenen Leistung</cbc:Name>
+						<cbc:Description languageID="DEU">Die Qualität wird im Schulnotenprinzip von "sehr gut" bis "ungenügend" bewertet. Es werden die entsprechenden Zwischennoten von maximal 15 Punkte (=sehr gut +) bis 0 Punkte (=ungenügend) gebildet. Ein Angebot muss als Grundlage der Wertbarkeit in allen Unterkriterien mindestens die Note "Ausreichend" erreichen.   Das eingereichte Konzept wird auf Plausibilität und Schlüssigkeit geprüft. Vergeben werden maximal 15 Punkte. Die Vergabe der Punkte erfolgt im Schulnotenprinzip gem. nachstehendem Schema: Die Qualität wird im Schulnotenprinzip von "sehr gut" bis "ungenügend" bewertet. Es werden die entsprechenden Zwischennoten von maximal 15 Punkte (=sehr gut +) bis 0 Punkte (=ungenügend) gebildet. Ein Angebot muss als Grundlage der Wertbarkeit in allen Unterkriterien mindestens die Note "Ausreichend" erreichen.  Details zur Bewertung werden mit der Angebotsaufforderung mitgeteilt.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4YHS5B2R</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Ein Nachprüfungsverfahren ist nur auf Antrag zulässig. Antragsbefugt ist gemäß § 160 Abs. 2 GWB jedesUnternehmen, das ein Interesse an dem öffentlichen Auftrag hat und eine Verletzung in seinen Rechten nach § 97 Abs. 6 GWB durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist  darzulegen,dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden  entstanden ist oder zu entstehen droht. Der Antrag ist gemäß § 160 Abs. 2 GWB unzulässig, soweit: 1) Der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Abs. 2 bleibt unberührt, 2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung gegenüber dem Auftraggeber gerügt werden, 3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4) Mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Satz 1 Nr. 2. § 134 Abs. 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YHS5B2R</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-07-29+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-07-01+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>3</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">AOK BW_Beratung und Unterstützung ESM auf Basis ITSM_2025 Teilnahmewettbewerb</cbc:ID>
+			<cbc:Name languageID="DEU">AOK BW_AS_ESM auf Basis ITSM 2025 TNW</cbc:Name>
+			<cbc:Description languageID="DEU">Die AOK BW ist gemeinsam mit der AOK Hessen und der AOK Rheinland-Pfalz/Saarland Gesellschafterin der ITSCare - IT-Services für den Gesundheitsmarkt GbR (ITSCare). Die ITSCare ist Full-Service-IT-Dienstleisterin ihrer Gesellschafter und erbringt weiterhin mehrere zentrale Services für andere AOK´s.  Die ITSCare ist Auftragsverarbeiter der AOK-Gemeinschaft und unterliegt damit, neben der EU-DSGVO und dem BDSG (neu), den Regelungen des Sozialdatenschutzes gemäß SGB I und X.   Die AOK Baden-Württemberg ist aufgrund ihrer Versichertenzahl als Betreiberin einer kritischen Infrastruktur klassifiziert und unterliegt damit der Verordnung zur Bestimmung Kritischer Infrastrukturen nach dem BSI-Gesetz (BSI-Kritisverordnung - BSI-KritisV) für den Sektor Finanz- und Versicherungswesen. Entsprechend betreibt die ITSCare ein Informationssicherheits-Managementsystem ("ISMS"), zertifiziert nach DIN/ISO 27001:2013. Weiterhin unterstützt sie die AOK BW bei der Implementierung der notwendigen kritisrelevanten Prozesse, auch innerhalb der ITSCare.  Die AOK BW nutzt die Branchenlösung SAP oscare(R) und diverse Umsysteme (eGK, ePA, DMS, Omnikanalmanagement (OKM)) sowie Add-Ons der AOK Systems GmbH.   Ziel der eingeleiteten Ausschreibung ist es, einen Rahmenvertrag ohne Abnahmeverpflichtung abzuschließen. Der künftige Vertragspartner wird den Stabsbereich sowie die Geschäftsbereiche des Unternehmensbereichs 6 "Organisation &amp; IT" bei der Bewältigung der zukünftigen Herausforderungen an das IT-und interne Service-Management der AOK BW sowohl operativ wie auch konzeptionell wie auch strategisch unterstützen.  Ziel des Auftragnehmers ist die Verankerung eines ESM auf Basis eines IT-Service-Management (ITSM). ESM im Sinn dieser Ausschreibung ist die Erweiterung der Prozesse und Tools des ITSM auf den gesamten Unternehmensbereich 6 der AOK BW, der für Einkauf, Immobilienmanagement, interne Services und IT verantwortlich ist. Grundlage eines ESM ist ein funktionsfähiges ITSM.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">inn-pur</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="DEU">vgl. Leistungsbeschreibung</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="innovative-acquisition">proc-innov</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72221000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">siehe Leistungsbeschreibung</cbc:Description>
+				<cac:Address>
+					<cbc:StreetName>Pesselstraße 19</cbc:StreetName>
+					<cbc:CityName>Stuttgart</cbc:CityName>
+					<cbc:PostalZone>70191</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE111</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Im Fall des Beitritts die Standorte der Beitrittsberechtigten</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DEB3D</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="YEAR">4</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Abnahmegarantien sind ausgeschlossen.</cbc:OptionsDescription>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

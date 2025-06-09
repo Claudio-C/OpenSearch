@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>www.enedis.fr</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://pha2.enedis.fr/</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Enedis SA</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>4 place de la Pyramide - TSA 25001</cbc:StreetName>
+                           <cbc:Department>Direction des Achats </cbc:Department>
+                           <cbc:CityName>Paris La Défense cedex </cbc:CityName>
+                           <cbc:PostalZone>92 030 </cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>444 608 442 </cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Enedis – Direction des Achats – Pôle Achats Travaux – 4 place de la Pyramide – 92800 Puteaux – Anne LECLERCQ</cbc:Name>
+                           <cbc:Telephone>0670015723</cbc:Telephone>
+                           <cbc:ElectronicMail>anne.leclercq@enedis.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.cours-appel.justice.fr/versailles/tribunal-judiciaire-de-nanterre</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Tribunal Judiciaire de Nanterre </cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>179-191 avenue Joliot Curie  </cbc:StreetName>
+                           <cbc:CityName>Nanterre</cbc:CityName>
+                           <cbc:PostalZone>92020</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>17780111500151</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Tribunal Judiciaire de Nanterre </cbc:Name>
+                           <cbc:Telephone>+33140971010</cbc:Telephone>
+                           <cbc:ElectronicMail>accueil.tj-nanterre@justice.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Médiateur des Achats d'Enedis</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>4 place de la Pyramide - TSA 25001</cbc:StreetName>
+                           <cbc:CityName>Paris la Défense Cedex</cbc:CityName>
+                           <cbc:PostalZone>92030</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>444608442</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Médiateur Relation Fournisseur d'Enedis</cbc:Name>
+                           <cbc:ElectronicMail>mediation-achats@enedis.fr</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="FRA">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00369057-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">f9d6af37-c7fd-45d8-b0e3-f5727516d55e</cbc:ID>
+   <cbc:ContractFolderID>79fa3b90-1919-481b-846e-99b6d6a02314</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-04Z</cbc:IssueDate>
+   <cbc:IssueTime>13:09:46Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://pha2.enedis.fr/</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="entity-activity">electricity</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="FRA">Conformément aux réglementations relatives au devoir de vigilance et aux législations nationales ou locales relatives à la lutte contre la corruption, le blanchiment et le financement du terrorisme applicables à la relation d’affaires avec le groupe EDF, chaque candidat doit déclarer et signer un engagement au titre des exigences en matière de conformité (déclaration accessible sur le portail Achats au moment de la consultation). 
+Chaque candidat doit fournir une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L. 2141-1 à L. 2141-5 (exclusions de plein droit) et L. 2141-7 à L. 2141-11 du CCP (exclusions à l’appréciation de l’acheteur).  
+Cette déclaration est à produire par les candidats individuels et par chacun des membres d'un groupement candidat et, le cas échéant, par les sous-traitants présentés.
+Chaque soumissionnaire doit attester ne pas être dans l’un des cas prévus par le règlement n°2022/576 du 8 avril 2022 du Conseil de l’Union européenne concernant les mesures restrictives eu égard aux actions de la Russie déstabilisant la situation en Ukraine (attestation accessible sur le portail Achats à la remise de la consultation).
+</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">Avis016508</cbc:ID>
+      <cbc:Name languageID="FRA">Marché de Petites Interventions Techniques Clientèle DR IDFO</cbc:Name>
+      <cbc:Description languageID="FRA">La présente affaire a pour objet l'achat de petites interventions techniques clientèle sur les installations de comptage ≤ 36 KVA, sur le territoire de la Direction Régionale Ile de France Ouest. L'achat intègre également la programmation et l'optimisation des activités. Le marché est alloti en trois lots géographiques distincts. 
+Les prestations incluent : 
+-Mise en service et hors services : mise(s) sous tension et programmation(s) du compteur - MES ou Rétablissement de l'alimentation d'un PDL existant - Mise hors service d'un PDL -Fin de Maintien de l'alimentation
+-Intervention sur compteur : remplacement d'un compteur - passage de tri en mono ou mono en tri - programmation d'un compteur - opportunité de remplacement d'un compteur historique par un LINKY
+-Intervention sur Matériel hors compteur : changement de tableau ou de CCPI - remplacement ou réglage du disjoncteur - pose ou dépose de limiteur - opportunité de remplacement d'un disjoncteur de séries en défaut potentiel
+-Collecte d'informations ou contrôle de bon fonctionnement : contrôle appareillage de comptage - détection d'un situation électrique urgente - suspicion de pertes non techniques avérées - contrôle de la donnée de consommation de compteur
+-Déshérence ≤ 36 KVA : visite préalable sur un branchement supposé en déshérence - déconnexion d'un branchement souterrain - dépose de compteur en cas de déshérence
+-Dépose de branchement provisoire ≤ 36 KVA : gestion/préparation de la dépose de branchement provisoire - pose ou dépose d'un branchement provisoire pris sur une émergence existante ≤ 36 KVA
+-Autres prestations : prévenance, coupure/rétablissement pour impayé - collecte de données dans un poste - coupure pour sécurité -Interventions de courte durée (pose d'affichette, porte de coffret etc...) 
+-Autres activités simples à un(e) salarié(e).
+Les activités relevant de la réglementation des travaux en hauteur et nécessitant la présence de plus d'un technicien ne sont pas concernées par ce marché.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="FRA">Pour répondre au présent avis de marché, les candidats doivent se manifester sur le Portail Achats d'Enedis - Demande d'information n° AVIS016508 - et rattacher les documents demandés au présent avis de marché. Les candidats intéressés, non encore inscrits, s'auto-référenceront depuis la page d'accueil du Portail Achats sur le site https://pha2.enedis.fr/ à l'aide du lien placé dans l'encart : « Nouveau Fournisseur ? Se référencer ».
+Le cas échéant, un document intitulé « ENEDIS - Identification des membres d'un Groupement Momentané d'Entreprises» est disponible dans l'espace collaboratif dédié aux fournisseurs dans le Portail Achats. 
+La consultation sera effectuée via le Portail Achats électronique d’Enedis « &lt;https://pha2.enedis.fr/ »
+Enedis se réserve la possibilité d’attribuer le marché sur la base des offres initiales sans négociation.
+Dans le cadre de la dématérialisation de ses procédures, Enedis informe l'ensemble des soumissionnaires que la signature électronique des marchés est privilégiée, que ceux-ci soient attribués à une seule entreprise ou à un groupement d'entreprises. 
+En cas de groupement momentané d’entreprises, l’un des membres du groupement est désigné comme mandataire. Celui-ci coordonne les prestations de chacun des membres du groupement, représente ceux-ci auprès d’Enedis, et est solidaire des obligations contractuelles de chacun d’entre eux. Enedis accepte des groupements conjoints.
+Sans préjudice de l'article L. 2141-13 du code de la commande publique, la composition du groupement ne peut pas être modifiée entre la date de remise des candidatures et la date de signature du marché, sauf exceptions, notamment dans les 2 cas suivants (et après avoir obtenu l’accord de l’Entreprise) :
+Restructuration d'un membre du GME
+Impossibilité pour un des membres de réaliser les prestations pour des raisons qui ne sont pas de son fait.
+Par ailleurs, un soumissionnaire, qui proposera une offre au titre d'un groupement d'entreprises, ne pourra pas remettre d'offre à titre individuel ou au titre d'un autre groupement. 
+</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:FrameworkMaximumAmount currencyID="EUR">10885000</efbc:FrameworkMaximumAmount>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">8708000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45310000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cbc:Description languageID="FRA">Les informations complémentaires sur le lieu d'exécution du marché seront précisées le cas échéant, dans la(es) rubriques(s) 5.1.2 Lieu d'exécution</cbc:Description>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">FRZZZ</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Aptitude à exercer l'activité professionnelle : Le candidat doit fournir une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L. 2141-1 à L 2141-5 et L. 2141-7 à L. 2141-11 du CCP . 
+Cette déclaration est à produire par les candidats individuels et par chacun des membres d'un groupement candidat et, le cas échéant, par les sous-traitants présentés.  Le candidat ne doit pas avoir fait l'objet d'un manquement grave ou persistant aux obligations contractuelles lors de l'exécution d'un contrat antérieur, sanctionné par une résiliation ou une condamnation. Une résiliation de contrat cadre intervenue dans les 24 mois concernant les travaux et les territoires géographiques objet de cet avis de marché constitue un motif de non sélection.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité économique et financière : Le candidat doit fournir les états financiers (bilans et comptes de résultats) des trois derniers exercices disponibles attestant de sa pérennité financière. Si, compte tenu de la date de création de son entreprise, le candidat ne dispose pas de l'ensemble des informations, remettre des justificatifs équivalents. Le candidat doit disposer d'un chiffre d'affaires annuel moyen sur les trois derniers exercices disponibles qui ne doit pas être supérieur à 1 200 000 euros en cas de candidature sur un lot, 2 400 000 euros en cas de candidature sur deux lots et 3 600 000 en cas de candidature sur trois lots.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité technique et professionnelle : Le candidat se voit confier par l'entreprise la réalisation d'interventions techniques clientèle sur les ouvrages électriques ≤ 36 KVA en soutirage et en injection. Ces interventions peuvent être notamment des poses ou remplacements de matériels sur les installations de comptage, des mises en service ou suspensions d'alimentation sur installation définitive ou provisoire, des collectes d'informations ou contrôles de bon fonctionnement d'appareils. Les opérations concernées sont à réaliser par des technicien(ne)s formé(e)s et habilité(e)s au sens de l'UTE C 185101. Le candidat développe, dans le cadre des prestations qui lui sont confiées, un accompagnement visant la montée et le maintien en compétences de ces salariés. Tous les intervenants devront être à minima habilités H0V, B2T et BC, Terminal et Emergence (au sens de la norme UTE C18510). Le candidat devra justifier de 3 salarié(e)s habilités au démarrage du marché. Ils devront pour cela être équipés du matériel nécessaire au raccordement électrique : UTE C11001 Arrêté technique du 17/05/2011 - Norme C11201. 
+Le candidat devra démontrer ses capacités de gestion de rendez-vous et de planification d'activités auprès de clients particuliers et professionnels (prise de rendez-vous, traitement appels client, modification de rendez-vous, planification...). 
+Le candidat devra fournir une liste des travaux exécutés au cours des trois dernières années relevant de ces habilitations et normes, assortie d'attestations de bonne exécution. Tout élément de preuve indiquant le montant, la date et le lieu d'exécution des travaux et précisant s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin peuvent être fournies.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité technique et professionnelle : Le candidat devra être en capacité de lire, parler, écrire et comprendre le français pour la prise de rendez-vous et l'intervention chez les clients.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité technique et professionnelle : Le traitement des appels et des données clients est exclusivement opéré au sein de l'Union Européenne. Dans le cas contraire, cela constitue un motif de non sélection.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>FRA</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>Spécificités techniques</cbc:ID>
+            <cbc:DocumentTypeCode listName="communication-justification">ipr-iss</cbc:DocumentTypeCode>
+            <cbc:DocumentType>restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://pha2.enedis.fr/</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="FRA">Financement sur ressources propres. Paiement à 60 jours à compter de la date d'émission de la facture.</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">Néant</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">Chaque candidat s'engage à ne pas divulguer, sans l’accord écrit et préalable de l’Entreprise, les informations confidentielles qui seront portées à sa connaissance du fait ou à l'occasion du déroulement de la présente affaire sur le Portail Achats Enedis et à n’utiliser ces informations que dans le cadre de l’affaire. Le candidat sera invité à signer un accord de confidentialité sur le portail achat Enedis.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:Description languageID="FRA">Tous les critères sont énoncés uniquement dans les documents de la consultation.</cbc:Description>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Le prix n'est pas le seul critère d'attribution.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://pha2.enedis.fr/</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Ces procédures de recours applicables sont : - Le référé précontractuel (CPC, art 1441-1 et 1441-2) qui peut être exercé jusqu’à la signature du marché ; - Le référé contractuel (CPC, art 1441-3 et 1441-3-1) qui peut être exercé dans un délai de : 31 jours à compter de la publication d’un avis d’attribution au JOUE ou, pour les marchés fondés sur un accord cadre, à compter de la notification de la conclusion du contrat ;ou 6 mois à compter du lendemain du jour de la conclusion du contrat si aucun avis d’attribution n’a été publié.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0001</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:EconomicOperatorShortList>
+            <cbc:LimitationDescription>false</cbc:LimitationDescription>
+         </cac:EconomicOperatorShortList>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Avis 016508 Lot AI Boucle Nord de Seine et BO Maurepas</cbc:ID>
+         <cbc:Name languageID="FRA">Lot 1 AI Boucle Nord de Seine et BO Maurepas</cbc:Name>
+         <cbc:Description languageID="FRA">La présente affaire a pour objet l'achat de travaux de petites interventions techniques clientèle sur les installations de comptage ≤ à 36 kVA, sur le périmètre de l'Agence d'intervention Boucle Nord de Seine et de la Base Opérationnelle de Maurepas. L'achat intègre également la programmation et l'optimisation des activités. Les prestations incluent : 
+-Mise en service et hors services : mise(s) sous tension et programmation(s) du compteur - MES ou Rétablissement de l'alimentation d'un PDL existant - Mise hors service d'un PDL -Fin de Maintien de l'alimentation
+-Intervention sur compteur : remplacement d'un compteur - passage de tri en mono ou mono en tri - programmation d'un compteur - opportunité de remplacement d'un compteur historique par un LINKY
+-Intervention sur Matériel hors compteur : changement de tableau ou de CCPI - remplacement ou réglage du disjoncteur - pose ou dépose de limiteur - opportunité de remplacement d'un disjoncteur de séries en défaut potentiel
+-Collecte d'informations ou contrôle de bon fonctionnement : contrôle appareillage de comptage - détection d'un situation électrique urgente - suspicion de pertes non techniques avérées - contrôle de la donnée de consommation de compteur
+-Déshérence ≤ 36 KVA : visite préalable sur un branchement supposé en déshérence - déconnexion d'un branchement souterrain - dépose de compteur en cas de déshérence
+-Dépose de branchement provisoire ≤ 36 KVA : gestion/préparation de la dépose de branchement provisoire - pose ou dépose d'un branchement provisoire pris sur une émergence existante ≤ 36 KVA
+-Autres prestations : prévenance, coupure/rétablissement pour impayé - collecte de données dans un poste - coupure pour sécurité -Interventions de courte durée (pose d'affichette, porte de coffret etc...) 
+-Autres activités simples à un(e) salarié(e).
+Les activités relevant de la réglementation des travaux en hauteur et nécessitant la présence de plus d'un technicien ne sont pas concernées par ce marché.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">3808750</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">3047000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45310000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="FRA">AI Boucle Nord de Seine et BO Maurepas</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">FRZZZ</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2026-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2030-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="FRA">La durée du marché est de 60 mois et comprend deux options de durée de 12 mois.</cbc:OptionsDescription>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Aptitude à exercer l'activité professionnelle : Le candidat doit fournir une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L. 2141-1 à L 2141-5 et L. 2141-7 à L. 2141-11 du CCP . 
+Cette déclaration est à produire par les candidats individuels et par chacun des membres d'un groupement candidat et, le cas échéant, par les sous-traitants présentés.  Le candidat ne doit pas avoir fait l'objet d'un manquement grave ou persistant aux obligations contractuelles lors de l'exécution d'un contrat antérieur, sanctionné par une résiliation ou une condamnation. Une résiliation de contrat cadre intervenue dans les 24 mois concernant les travaux et les territoires géographiques objet de cet avis de marché constitue un motif de non sélection.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité économique et financière : Le candidat doit fournir les états financiers (bilans et comptes de résultats) des trois derniers exercices disponibles attestant de sa pérennité financière. Si, compte tenu de la date de création de son entreprise, le candidat ne dispose pas de l'ensemble des informations, remettre des justificatifs équivalents. Le candidat doit disposer d'un chiffre d'affaires annuel moyen sur les trois derniers exercices disponibles qui ne doit pas être supérieur à 1 200 000 euros en cas de candidature sur un lot, 2 400 000 euros en cas de candidature sur deux lots et 3 600 000 en cas de candidature sur trois lots.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité technique et professionnelle : Le candidat se voit confier par l'entreprise la réalisation d'interventions techniques clientèle sur les ouvrages électriques ≤ 36 KVA en soutirage et en injection. Ces interventions peuvent être notamment des poses ou remplacements de matériels sur les installations de comptage, des mises en service ou suspensions d'alimentation sur installation définitive ou provisoire, des collectes d'informations ou contrôles de bon fonctionnement d'appareils. Les opérations concernées sont à réaliser par des technicien(ne)s formé(e)s et habilité(e)s au sens de l'UTE C 185101. Le candidat développe, dans le cadre des prestations qui lui sont confiées, un accompagnement visant la montée et le maintien en compétences de ces salariés. Tous les intervenants devront être à minima habilités H0V, B2T et BC, Terminal et Emergence (au sens de la norme UTE C18510). Le candidat devra justifier de 3 salarié(e)s habilités au démarrage du marché. Ils devront pour cela être équipés du matériel nécessaire au raccordement électrique : UTE C11001 Arrêté technique du 17/05/2011 - Norme C11201. 
+Le candidat devra démontrer ses capacités de gestion de rendez-vous et de planification d'activités auprès de clients particuliers et professionnels (prise de rendez-vous, traitement appels client, modification de rendez-vous, planification...). 
+Le candidat devra fournir une liste des travaux exécutés au cours des trois dernières années relevant de ces habilitations et normes, assortie d'attestations de bonne exécution. Tout élément de preuve indiquant le montant, la date et le lieu d'exécution des travaux et précisant s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin peuvent être fournies.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité technique et professionnelle : Le candidat devra être en capacité de lire, parler, écrire et comprendre le français pour la prise de rendez-vous et l'intervention chez les clients.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité technique et professionnelle : Le traitement des appels et des données clients est exclusivement opéré au sein de l'Union Européenne. Dans le cas contraire, cela constitue un motif de non sélection.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>FRA</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>Spécificités techniques</cbc:ID>
+            <cbc:DocumentTypeCode listName="communication-justification">ipr-iss</cbc:DocumentTypeCode>
+            <cbc:DocumentType>restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://pha2.enedis.fr/</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="FRA">Financement sur ressources propres. Paiement à 60 jours à compter de la date d'émission de la facture.</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">Néant</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">Chaque candidat s'engage à ne pas divulguer, sans l’accord écrit et préalable de l’Entreprise, les informations confidentielles qui seront portées à sa connaissance du fait ou à l'occasion du déroulement de la présente affaire sur le Portail Achats Enedis et à n’utiliser ces informations que dans le cadre de l’affaire. Le candidat sera invité à signer un accord de confidentialité sur le portail achat Enedis.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:Description languageID="FRA">Tous les critères sont énoncés uniquement dans les documents de la consultation.</cbc:Description>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Le prix n'est pas le seul critère d'attribution.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://pha2.enedis.fr/</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Ces procédures de recours applicables sont : - Le référé précontractuel (CPC, art 1441-1 et 1441-2) qui peut être exercé jusqu’à la signature du marché ; - Le référé contractuel (CPC, art 1441-3 et 1441-3-1) qui peut être exercé dans un délai de : 31 jours à compter de la publication d’un avis d’attribution au JOUE ou, pour les marchés fondés sur un accord cadre, à compter de la notification de la conclusion du contrat ;ou 6 mois à compter du lendemain du jour de la conclusion du contrat si aucun avis d’attribution n’a été publié.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:EconomicOperatorShortList>
+            <cbc:LimitationDescription>false</cbc:LimitationDescription>
+         </cac:EconomicOperatorShortList>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Avis 016508 Lot AI Seine Défense</cbc:ID>
+         <cbc:Name languageID="FRA">Lot 2 AI Seine Défense </cbc:Name>
+         <cbc:Description languageID="FRA">La présente affaire a pour objet l'achat de travaux de petites interventions techniques clientèle sur les installations de comptage ≤ à 36 kVA, sur le périmètre de l'Agence d'intervention Seine Défense. L'achat intègre également la programmation et l'optimisation des activités. Les prestations incluent : 
+-Mise en service et hors services : mise(s) sous tension et programmation(s) du compteur - MES ou Rétablissement de l'alimentation d'un PDL existant - Mise hors service d'un PDL -Fin de Maintien de l'alimentation
+-Intervention sur compteur : remplacement d'un compteur - passage de tri en mono ou mono en tri - programmation d'un compteur - opportunité de remplacement d'un compteur historique par un LINKY
+-Intervention sur Matériel hors compteur : changement de tableau ou de CCPI - remplacement ou réglage du disjoncteur - pose ou dépose de limiteur - opportunité de remplacement d'un disjoncteur de séries en défaut potentiel
+-Collecte d'informations ou contrôle de bon fonctionnement : contrôle appareillage de comptage - détection d'un situation électrique urgente - suspicion de pertes non techniques avérées - contrôle de la donnée de consommation de compteur
+-Déshérence ≤ 36 KVA : visite préalable sur un branchement supposé en déshérence - déconnexion d'un branchement souterrain - dépose de compteur en cas de déshérence
+-Dépose de branchement provisoire ≤ 36 KVA : gestion/préparation de la dépose de branchement provisoire - pose ou dépose d'un branchement provisoire pris sur une émergence existante ≤ 36 KVA
+-Autres prestations : prévenance, coupure/rétablissement pour impayé - collecte de données dans un poste - coupure pour sécurité -Interventions de courte durée (pose d'affichette, porte de coffret etc...) 
+-Autres activités simples à un(e) salarié(e).
+Les activités relevant de la réglementation des travaux en hauteur et nécessitant la présence de plus d'un technicien ne sont pas concernées par ce marché.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">3483750</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">2787000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45310000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="FRA">AI Seine Défense</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">FRZZZ</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2026-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2030-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="FRA">La durée du marché est de 60 mois et comprend deux options de durée de 12 mois.</cbc:OptionsDescription>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Aptitude à exercer l'activité professionnelle : Le candidat doit fournir une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L. 2141-1 à L 2141-5 et L. 2141-7 à L. 2141-11 du CCP . 
+Cette déclaration est à produire par les candidats individuels et par chacun des membres d'un groupement candidat et, le cas échéant, par les sous-traitants présentés.  Le candidat ne doit pas avoir fait l'objet d'un manquement grave ou persistant aux obligations contractuelles lors de l'exécution d'un contrat antérieur, sanctionné par une résiliation ou une condamnation. Une résiliation de contrat cadre intervenue dans les 24 mois concernant les travaux et les territoires géographiques objet de cet avis de marché constitue un motif de non sélection.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité économique et financière : Le candidat doit fournir les états financiers (bilans et comptes de résultats) des trois derniers exercices disponibles attestant de sa pérennité financière. Si, compte tenu de la date de création de son entreprise, le candidat ne dispose pas de l'ensemble des informations, remettre des justificatifs équivalents. Le candidat doit disposer d'un chiffre d'affaires annuel moyen sur les trois derniers exercices disponibles qui ne doit pas être supérieur à 1 200 000 euros en cas de candidature sur un lot, 2 400 000 euros en cas de candidature sur deux lots et 3 600 000 en cas de candidature sur trois lots.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité technique et professionnelle : Le candidat se voit confier par l'entreprise la réalisation d'interventions techniques clientèle sur les ouvrages électriques ≤ 36 KVA en soutirage et en injection. Ces interventions peuvent être notamment des poses ou remplacements de matériels sur les installations de comptage, des mises en service ou suspensions d'alimentation sur installation définitive ou provisoire, des collectes d'informations ou contrôles de bon fonctionnement d'appareils. Les opérations concernées sont à réaliser par des technicien(ne)s formé(e)s et habilité(e)s au sens de l'UTE C 185101. Le candidat développe, dans le cadre des prestations qui lui sont confiées, un accompagnement visant la montée et le maintien en compétences de ces salariés. Tous les intervenants devront être à minima habilités H0V, B2T et BC, Terminal et Emergence (au sens de la norme UTE C18510). Le candidat devra justifier de 3 salarié(e)s habilités au démarrage du marché. Ils devront pour cela être équipés du matériel nécessaire au raccordement électrique : UTE C11001 Arrêté technique du 17/05/2011 - Norme C11201. 
+Le candidat devra démontrer ses capacités de gestion de rendez-vous et de planification d'activités auprès de clients particuliers et professionnels (prise de rendez-vous, traitement appels client, modification de rendez-vous, planification...). 
+Le candidat devra fournir une liste des travaux exécutés au cours des trois dernières années relevant de ces habilitations et normes, assortie d'attestations de bonne exécution. Tout élément de preuve indiquant le montant, la date et le lieu d'exécution des travaux et précisant s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin peuvent être fournies.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité technique et professionnelle : Le candidat devra être en capacité de lire, parler, écrire et comprendre le français pour la prise de rendez-vous et l'intervention chez les clients.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="FRA">Capacité technique et professionnelle : Le traitement des appels et des données clients est exclusivement opéré au sein de l'Union Européenne. Dans le cas contraire, cela constitue un motif de non sélection.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>FRA</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>Spécificités techniques</cbc:ID>
+            <cbc:DocumentTypeCode listName="communication-justification">ipr-iss</cbc:DocumentTypeCode>
+            <cbc:DocumentType>restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://pha2.enedis.fr/</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="FRA">Financement sur ressources propres. Paiement à 60 jours à compter de la date d'émission de la facture.</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">Néant</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="FRA">Chaque candidat s'engage à ne pas divulguer, sans l’accord écrit et préalable de l’Entreprise, les informations confidentielles qui seront portées à sa connaissance du fait ou à l'occasion du déroulement de la présente affaire sur le Portail Achats Enedis et à n’utiliser ces informations que dans le cadre de l’affaire. Le candidat sera invité à signer un accord de confidentialité sur le portail achat Enedis.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cbc:Description languageID="FRA">Tous les critères sont énoncés uniquement dans les documents de la consultation.</cbc:Description>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="FRA">Le prix n'est pas le seul critère d'attribution.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:DocumentProviderParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:DocumentProviderParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://pha2.enedis.fr/</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="FRA">Ces procédures de recours applicables sont : - Le référé précontractuel (CPC, art 1441-1 et 1441-2) qui peut être exercé jusqu’à la signature du marché ; - Le référé contractuel (CPC, art 1441-3 et 1441-3-1) qui peut être exercé dans un délai de : 31 jours à compter de la publication d’un avis d’attribution au JOUE ou, pour les marchés fondés sur un accord cadre, à compter de la notification de la conclusion du contrat ;ou 6 mois à compter du lendemain du jour de la conclusion du contrat si aucun avis d’attribution n’a été publié.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0003</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>FRA</cbc:ID>
+         </cac:Language>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:EconomicOperatorShortList>
+            <cbc:LimitationDescription>false</cbc:LimitationDescription>
+         </cac:EconomicOperatorShortList>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">Avis 016508 Lot AI Sud de Seine et BO Carrières</cbc:ID>
+         <cbc:Name languageID="FRA">Lot 3 AI Sud de Seine et BO Carrières</cbc:Name>
+         <cbc:Description languageID="FRA">La présente affaire a pour objet l'achat de travaux de petites interventions techniques clientèle sur les installations de comptage ≤ à 36 kVA, sur le périmètre de l'Agence d'intervention Sud de Seine et la Base Opérationnelle de Carrières. L'achat intègre également la programmation et l'optimisation des activités. Les prestations incluent : 
+-Mise en service et hors services : mise(s) sous tension et programmation(s) du compteur - MES ou Rétablissement de l'alimentation d'un PDL existant - Mise hors service d'un PDL -Fin de Maintien de l'alimentation
+-Intervention sur compteur : remplacement d'un compteur - passage de tri en mono ou mono en tri - programmation d'un compteur - opportunité de remplacement d'un compteur historique par un LINKY
+-Intervention sur Matériel hors compteur : changement de tableau ou de CCPI - remplacement ou réglage du disjoncteur - pose ou dépose de limiteur - opportunité de remplacement d'un disjoncteur de séries en défaut potentiel
+-Collecte d'informations ou contrôle de bon fonctionnement : contrôle appareillage de comptage - détection d'un situation électrique urgente - suspicion de pertes non techniques avérées - contrôle de la donnée de consommation de compteur
+-Déshérence ≤ 36 KVA : visite préalable sur un branchement supposé en déshérence - déconnexion d'un branchement souterrain - dépose de compteur en cas de déshérence
+-Dépose de branchement provisoire ≤ 36 KVA : gestion/préparation de la dépose de branchement provisoire - pose ou dépose d'un branchement provisoire pris sur une émergence existante ≤ 36 KVA
+-Autres prestations : prévenance, coupure/rétablissement pour impayé - collecte de données dans un poste - coupure pour sécurité -Interventions de courte durée (pose d'affichette, porte de coffret etc...) 
+-Autres activités simples à un(e) salarié(e).
+Les activités relevant de la réglementation des travaux en hauteur et nécessitant la présence de plus d'un technicien ne sont pas concernées par ce marché.
+</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">3592500</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">2874000</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45310000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cbc:Description languageID="FRA">AI Sud de Seine et BO Carrières</cbc:Description>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">FRZZZ</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2026-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2030-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="FRA">La durée du marché est de 60 mois et comprend deux options de durée de 12 mois.</cbc:OptionsDescription>
+            <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

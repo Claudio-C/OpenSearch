@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadibau GmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Schwere-Reiter-Straße 1</cbc:StreetName>
+									<cbc:CityName>München</cbc:CityName>
+									<cbc:PostalZone>80637</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE212</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE129465401</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Herr Georg Ellenrieder</cbc:Name>
+									<cbc:Telephone>089 36 00 02-947</cbc:Telephone>
+									<cbc:ElectronicMail>269kst@stadibau.bayern</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">LMR Bau- und Projektmanagement GmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Josef-Frankl-Straße 62</cbc:StreetName>
+									<cbc:CityName>München</cbc:CityName>
+									<cbc:PostalZone>80995</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE212</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 281 616 643</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>49 89 890525601</cbc:Telephone>
+									<cbc:ElectronicMail>vergabe@lmr-bpm.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Regierung von Oberbayern Vergabekammer Südbayern</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>München</cbc:CityName>
+									<cbc:PostalZone>80534</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE212</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>09-0318006-60</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 892176-2411</cbc:Telephone>
+									<cbc:Telefax>+49 892176-2847</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer.suedbayern@reg-ob.bayern.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00369095-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">edd21b91-6c87-4a64-8db4-d53304909f44</cbc:ID>
+	<cbc:ContractFolderID>7d00daab-68ff-4195-aabd-6b2ba1701a09</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-04+02:00</cbc:IssueDate>
+	<cbc:IssueTime>16:13:18+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-04+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:ServiceProviderParty>
+				<cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+				<cac:Party>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:Party>
+			</cac:ServiceProviderParty>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vob-a-eu</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-ssc</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-soc-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-liq-admin</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-as-susp</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misconduct</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-distortion</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-prep-confl</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misrepresent</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Ein Nachprüfungsantrag ist unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4Y4F5JYL</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">04_06_25</cbc:ID>
+		<cbc:Name languageID="DEU">KST 269 - Karlstraße - Instandsetzung Einzeldenkmal</cbc:Name>
+		<cbc:Description languageID="DEU">Gegenstand der Ausschreibung sind die im Rahmen des geplanten Umbaus einer Flüchtlingsunterkunft in Wohnungen erforderlichen Zimmererarbeiten. Die Leistungen umfassen u. a. die Instandsetzung und Verstärkung historischer Dach- und Deckenkonstruktionen, den teilweisen Austausch geschädigter Holzelemente sowie den Neubau statisch erforderlicher Holzbauteile.  Im Detail werden geschädigte oder unzureichend dimensionierte Hölzer (z. B. Sparren, Pfetten, Kehl- und Zerrbalken) zurückgebaut, ertüchtigt oder ersetzt. Die Arbeiten erfolgen unter Verwendung traditioneller Holzverbindungen unter Berücksichtigung der Vorgaben aus der Tragwerksplanung und des Denkmalschutzes. Ergänzend sind neue Dachgauben, Aufdopplungen und weitere tragende Holzbauteile gemäß Planung zu errichten.  Die Maßnahme erfolgt im Bestand eines Einzeldenkmals mit entsprechenden Anforderungen an Substanzsicherung, Dokumentation und denkmalgerechte Ausführung. Die Arbeiten sind unter beengten innerstädtischen Verhältnissen mit eingeschränkter Andienung und begrenzten Lagermöglichkeiten durchzuführen. Die Ausführung erfordert daher eine besonders sorgfältige Baustellenlogistik und Koordination.  Darüber hinaus ist eine enge Abstimmung mit den weiteren Gewerken sowie der Bauleitung und den beauftragten Fachplanern erforderlich, die die Vorgaben der Unteren Denkmalschutzbehörde koordinierend umsetzen.  Die Beauftragung ist für Ende Juli 2025 vorgesehen. Die Ausführung soll voraussichtlich im Zeitraum von KW 32/2025 bis KW 10/2026 erfolgen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4Y4F5JYL</cbc:Note>
+		<cac:RequestedTenderTotal>
+			<cbc:EstimatedOverallContractAmount currencyID="EUR">1260000.00</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45210000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Karlstraße 20-22</cbc:StreetName>
+				<cbc:CityName>München</cbc:CityName>
+				<cbc:PostalZone>80333</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">A) Vorlage mit dem Angebot: (a) Erklärung zu bestehenden Eintragungen im Handelsregister, in die Handwerksrolle oder bei der Industrie- und Handelskammer (b) Erklärung zum Nichtvorliegen von Ausschlussgründen im Sinne von § 6e EU VOB/A und zu ggf. ergriffenen Selbstreinigungsmaßnahmen im Sinne von § 6f EU Abs. 1 VOB/A. --  B) Vorlage auf gesondertes Verlangen der Vergabestelle innerhalb der gesetzten Frist: Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer (soweit zutreffend) Allgemeine Hinweise: Die Erklärungen gem. A) sind entweder mittels Angabe der Registriernummer beim Verein für die Präqualifikation von Bauunternehmen e.V. (präqualifizierte Unternehmen) oder mittels Eigenerklärung zur Eignung nach Formblatt 124 (liegt den Ausschreibungsunterlagen bei) oder mittels einer Einheitlichen Europäischen Eigenerklärung (EEE) abzugeben. Die Pflicht zur Vorlage der Unterlagen gem. B) entfällt für präqualifizierte Unternehmen. Unternehmen, die ihren Sitz nicht in der Bundesrepublik Deutschland haben, müssen gleichwertige Unterlagen vorlegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen. Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er die Erklärungen gem. A) und die Unterlagen gem. B) auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">A) Vorlage mit dem Angebot: (a) Angabe des Umsatzes, jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind (b) Erklärung zu Insolvenzverfahren und Liquidation (c) Erklärung zur ordnungsgemäßen Erfüllung der Pflicht zur Zahlung von Steuern und Abgaben sowie der Beiträge zur Sozialversicherung (d) Erklärung zur Mitgliedschaft bei der zuständigen Berufsgenossenschaft --  B) Vorlage auf gesondertes Verlangen der Vergabestelle innerhalb der gesetzten Frist: (a) Rechtskräftig bestätigter Insolvenzplan (sofern zutreffend) (b) Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse (soweit das Unternehmen beitragspflichtig ist) (c) Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen (soweit das Finanzamt derartige Bescheinigungen ausstellt) (d) Freistellungsbescheinigung nach § 48b EStG (e) Qualifizierte Unbedenklichkeitsbescheinigung der zuständigen Berufsgenossenschaft mit Angabe der Lohnsummen -- Allgemeine Hinweise: Die Erklärungen gem. A) sind entweder mittels Angabe der Registriernummer beim Verein für die Präqualifikation von Bauunternehmen e.V. (präqualifizierte Unternehmen) oder mittels Eigenerklärung zur Eignung nach Formblatt 124 (liegt den Ausschreibungsunterlagen bei) oder mittels einer Einheitlichen Europäischen Eigenerklärung (EEE) abzugeben. Die Pflicht zur Vorlage der Unterlagen gem. B) entfällt für präqualifizierte Unternehmen. Unternehmen, die ihren Sitz nicht in der Bundesrepublik Deutschland haben, müssen gleichwertige Unterlagen vorlegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen. Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er die Erklärungen gem. A) und die Unterlagen gem. B) auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-work</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">A) Vorlage mit dem Angebot: (a) Erklärung, in den letzten fünf Kalenderjahren vergleichbare Leistungen ausgeführt zu haben (b) Erklärung, dass die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen (c) Angabe, welche Teile des Auftrags der Unternehmer als Unteraufträge zu vergeben beabsichtigt -- B) Vorlage auf gesondertes Verlangen der Vergabestelle innerhalb der gesetzten Frist: (a) Drei Referenznachweise zu A) (a) mit Angaben zu Ansprechpartner, Auftragssumme, Ausführungszeitraum, eingesetzten Arbeitnehmern, Art/Umfang/Besonderheiten der Leistung, Art der Baumaßnahme, vertragliche Bindung sowie Bestätigung der vertragsgemäßen Ausführung durch den Referenzgeber (Auftraggeber) (b) Angabe der Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit extra ausgewiesenem technischen Leitungspersonal (c) Stützt sich der Bieter zum Nachweis seiner Eignung auf andere Unternehmen, hat er ihre verpflichtende Zusage, ihm die erforderlichen Kapazitäten zur Verfügung zu stellen, vorzulegen -- Allgemeine Hinweise: Die Erklärungen gem. A) (a) und (b) sind entweder mittels Angabe der Registriernummer beim Verein für die Präqualifikation von Bauunternehmen e.V. (präqualifizierte Unternehmen) oder mittels Eigenerklärung zur Eignung nach Formblatt 124 (liegt den Ausschreibungsunterlagen bei) oder mittels einer Einheitlichen Europäischen Eigenerklärung (EEE) abzugeben. Die Pflicht zur Vorlage der Unterlagen gem. B) (a) und (b) entfällt für präqualifizierte Unternehmen, mit Ausnahme von Referenznachweisen, soweit die im PQ-Verzeichnis abrufbaren Referenznachweise nicht ausreichend sind. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen. Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er die Erklärungen gem. A) und die Unterlagen gem. B) auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4Y4F5JYL/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Unterlagen werden gem. § 16a EU VOB/A nachgefordert.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Sicherheit für die Vertragserfüllung in Höhe von 5% der Auftragssumme, sofern die Auftragssumme mindestens 250 000 EUR netto übersteigt. Die für Mängelansprüche zu leistende Sicherheit beträgt 3 % der Auftragssumme einschließlich erteilter Nachträge. Wesentliche Finanzierungs- und Zahlungsbedingungen und /oder Verweis auf die maßgeblichen Vorschriften: gem. aktueller Fassung der VOB; Die Frist für die Schlusszahlung gemäß §16 Abs. 3 Nr. 1 VOB/B und für die Abschlagszahlungen gemäß § 16 Abs.1 Nr. 3 und den Eintritt des Verzuges gemäß § 16 Abs. 5 Nr. 3 VOB/B wird verlängert auf 60 Kalendertage.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">dec-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>1.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+						<cbc:Description languageID="DEU">-</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4Y4F5JYL</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="WEEK">8</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Ein Nachprüfungsantrag ist unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4Y4F5JYL</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2025-07-10+02:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-04+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">04_06_25</cbc:ID>
+			<cbc:Name languageID="DEU">KST 269 - Karlstraße - Instandsetzung Einzeldenkmal</cbc:Name>
+			<cbc:Description languageID="DEU">Baustelleneinrichtung: Baustellenkran (Untendreher), 48 m Ausladung  Gerüstbauarbeiten: Fassadengerüst ca. 1.250 m² Wetterschutzdach als Kassettendeck ca. 750 m² Stützgerüst für Wetterschutzdach ca. 3.750 m³  Abbrucharbeiten Rückbau Biberschwanzziegel mit Lattung ca. 750 m² Rückbau Dachgauben Bestand 17 Stück Rückbau Stehfalzverblechung ca. 300 m²  Zimmererarbeiten: Instandsetzung der denkmalgeschützten Dachstuhlkonstruktion ca. 50 m³ Bauholz Instandsetzung historischer Holzverbindungen ca. 150 Stück Neubau von Dachgauben 18 Stück Neuer Dachaufbau (Holzweichfaserplatte, Schalungsbahn, Konterlattung) ca. 750 m² Einbau Stahlträger aus Profilstahl ca. 5 t  Dacheindeckung: Dacheindeckung mit Biberschwanzziegeln mit Lattung ca. 750 m² Anarbeiten an Einbauten ca. 600 lfm  Spenglerarbeiten in Kupfer: Verkleidung neuer Dachgauben mit Stehfalzblech ca. 300 m² Einbau RWA-Dachfenster 2 Stück Herstellung der Dachtraufe mit Dachrinne, Scharblech, Schneefang ca. 92 lfm</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">Das Angebot - einschließlich aller Anlagen - ist ausschließlich in elektronischer Form über die dafür vorgesehene Funktion des Vergabeportals einzureichen. Angebote, die in Papierform oder auf anderem elektronischen Wege, wie z.B. per Mail oder Fax, eingereicht werden, werden bei der Wertung nicht berücksichtigt. Tutorials für die Anwendung und Nutzung der Vergabeplattform, einschließlich des Bietertools finden Sie unter https://support.cosinex.de/unternehmen/. Maßgeblich für den rechtzeitigen Eingang der Angebote ist der Zeitstempel des Vergabeportals. Angebote, die nicht rechtzeitig eingegangen sind, werden vom weiteren Verfahren ausgeschlossen, es sei denn, der verspätete Eingang ist auf Umstände zurückzuführen, die nicht vom Bieter zu vertreten sind. Bieter sind gehalten, die Angebote mit einem ausreichenden zeitlichen Vorlauf über die Vergabeplattform einzureichen, um einen fristgerechten Eingang der Teilnahmeanträge zu gewährleisten. Zwar nicht Bedingung, aber zu empfehlen ist dabei ein zeitlicher Vorlauf von einem Tag. Sollte die Vergabeplattfom nicht funktionsfähig sein, ist die Vergabestelle unverzüglich darüber zu informieren. Der Plattformanbieter stellt zudem eine kostenpflichtige Hotline unter der Service-Telefonnummer: 0900-1-267463 (1,49 EUR pro Minute aus dem deutschen Festnetz, Mobilfunkkosten können abweichen). Die Servicezeiten der Hotline sind Montag bis Freitag jeweils von 7.00 bis 17.00 Uhr. Oder E-Mail-support an: support@cosinex.de oder https://support.cosinex.de/unternehmen/display/company/ Supportanfrage/</cbc:Note>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45210000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Karlstraße 20-22</cbc:StreetName>
+					<cbc:CityName>München</cbc:CityName>
+					<cbc:PostalZone>80333</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-08-04+02:00</cbc:StartDate>
+				<cbc:EndDate>2026-03-06+01:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

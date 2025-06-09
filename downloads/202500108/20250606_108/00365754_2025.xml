@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hilma="urn:hanselHilma:NationalNoticeExtension">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2025-06-05+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>08:56:04+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+              <efac:DecisionReason>
+                <efbc:DecisionReasonCode listName="non-award-justification">one-admis</efbc:DecisionReasonCode>
+              </efac:DecisionReason>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.oikeus.fi/markkinaoikeus</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Markkinaoikeus</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Radanrakentajantie 5</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3006157-6</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358 295643300</cbc:Telephone>
+                  <cbc:ElectronicMail>markkinaoikeus@oikeus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.veikkaus.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Veikkaus Oy</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>PL 1</cbc:StreetName>
+                  <cbc:CityName>Veikkaus</cbc:CityName>
+                  <cbc:PostalZone>01009</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">2765220-1</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Procurement</cbc:Name>
+                  <cbc:Telephone>+358 943701</cbc:Telephone>
+                  <cbc:ElectronicMail>hankinnat@veikkaus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://hankintailmoitukset.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Hansel Oy (Hilma)</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Mannerheiminaukio 1a</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">FI09880841</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>eSender</cbc:Name>
+                  <cbc:Telephone>029 55 636 30</cbc:Telephone>
+                  <cbc:ElectronicMail>tekninen@hankintailmoitukset.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00365754-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">d3b42dcc-f257-4c3a-8935-7a3127f1a25e</cbc:ID>
+  <cbc:ContractFolderID>77223a24-ecf5-40fe-950f-13d4d07c3119</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-06-05+00:00</cbc:IssueDate>
+  <cbc:IssueTime>08:55:38+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">spec-rights-entity</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">rcr</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:Description languageID="ENG">1. GENERAL
+
+The legislation concerning the public procurement is applied to the procurement. Type of procedure is open procedure with accelerated procedure in accordance with Article 57 of the Public Procurement Act, as the deadline needs to be shortened due to the urgency caused by the suspension of previous invitation to tender.
+
+2. CONTRACT NOTICE
+
+A contract notice has been published on the website www.hankintailmoitukset.fi and
+http://ted.europa.eu. The contract award notice shall be published after the award decision.
+
+3. SUBMITTING THE TENDER AS A GROUP OF ECONOMIC OPERATORS AND
+SUBCONTRACTING
+
+The tenderer may submit the tender as a group of economic operators. In this case,
+however, it is required that the enterprises that belong to the group undertake with joint
+liability to fulfill the obligations and responsibilities of the contract. If the group is awarded
+with the contract, all group members shall sign the contract. The members of the group
+may not be changed during the procurement procedure or contract period.
+
+The group and the supplier with subcontractors is required to have the technical, economic
+and financial and other capacities to provide the goods and services in accordance with the
+contract for the whole contract period. During the tender competition and during the
+contract period, the supplier may be requested to provide proof on commitments and
+contracts that they have made with the notified subcontractors and which may affect the
+supplier’s capacity to meet the obligations of the contract. The group may be requested to
+provide corresponding proof on how the relationships between the members of the group
+have been arranged.
+
+If the tenderer uses subcontractors, it shall be responsible for the work of its subcontractors
+as of their own work. If the tenderer participates in the procurement process independently,
+using the services of its subcontractors as a part of its tender and being responsible for
+their work, the tenderer must state in the Subcontractors form how the subcontractor
+participates in producing the service.
+
+During the contract period, replacing subcontractors is possible only if it does not result to
+significant or material changes of the contract, and only with the consent of the contracting
+authority.
+
+4. USING RESOURCES OF OTHER ENTITIES
+
+The tenderer or a group of economic operators may use the resources of other entities to
+fulfill the requirements of the invitation to tender without taking into account the legal nature
+of their relationship. The resources of other entities must be de facto at the disposal of the
+tenderer or the group of economic operators during the procurement process and the
+contract period.
+
+Such resources may include, for example:
+1) Relying professional experience of other economic entity, which for example belong to
+the same group of companies, provided that this entity is named in the tender as a
+subcontractor for the tenderer or the group of economic operators, and it de facto
+participates in supplying the service;
+2) the use of other company's personnel to fulfill the requirements concerning professional
+qualifications, provided that these persons de facto participate in supplying the service;
+3) resources concerning economic and financial standing;
+4) resources concerning technical capabilities, provided that such resources are de facto
+utilized to fulfill the requirements of the procurement.
+
+5. PROCESSING OF TENDERS
+
+5.1 SUITABILITY OF TENDERS
+
+Before the tenders are processed it shall be assessed whether the tenderers meet the
+technical, professional and economic and financial requirements presented in clause/form
+"Exclusion and suitability (ESPD)". The tenderer’s suitability shall be examined using the
+information provided in the tender, other financial statements (if separately requested) and
+the information available from risk rating reports.
+
+Tenderers who do not meet the minimum requirements set in the Call for Tenders shall be
+excluded from the tender competition.
+
+A tenderer who has been convicted of or in which any person with powers of
+representation, decision making or control has been convicted of an offence as referred in
+EU Public Procurement Directive 57 article, section 1 or to extortionate work discrimination
+as stated in the Criminal Code of Finland, chapter 47 section 3(a) shall also be excluded
+from the tender competition. A tenderer to whom a criterion for exclusion as referred to in
+Public Procurement Act may also be excluded from the tender competition.
+
+5.2 COMPLIANCE OF TENDERS WITH THE CALL FOR TENDERS
+
+The solution and services tendered shall comply with the content of the Call for Tenders
+and its annexes. All the requested information and required annexes must be annexed to
+the tender. In examining the compliance of the tender the tender is assessed based on the
+entire content of the tender.
+
+Tenders that are not in compliance with the Call for Tenders or in accordance with the
+conditions of the tendering procedure shall be excluded from the tender competition.
+
+5.3 EVALUATION OF TENDERS
+
+The evaluation of the tenders shall be made according to chapter "Grounds for decision".
+
+5.4 AWARD DECISION AND ITS NOTIFICATION
+
+The award decision shall be sent for the information of all the tenderers via email. The
+contract does not come into force as a result of the notification of the decision, but requires
+a separate written contract.</cbc:Description>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:NoticeDocumentReference>
+      <cbc:ID schemeName="notice-id-ref">1ae6b43a-42ac-414d-bf44-869306423fb2-01</cbc:ID>
+    </cac:NoticeDocumentReference>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">true</cbc:ProcessReasonCode>
+      <cbc:ProcessReason languageID="ENG">Type of procedure is open procedure with accelerated procedure in accordance with Article 57 of the Public Procurement Act, as the deadline needs to be shortened due to the urgency caused by the suspension of previous invitation to tender.</cbc:ProcessReason>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">553841</cbc:ID>
+    <cbc:Name languageID="ENG">Interactive video marketing tool</cbc:Name>
+    <cbc:Description languageID="ENG">Veikkaus aims to boost its marketing capabilities by having access to a proven, professional-grade, interactive video marketing tool that enables Veikkaus content creators to produce, manage and publish engaging video-driven web user journeys.  
+
+The tool is required to be offered as a fully productized web SaaS product with out-of-box deployment. In other words, no product integrations are to be needed apart from connecting to Veikkaus SSO (Single Sign-on) and adding publishing scripts or web links to Veikkaus properties. 
+
+Feature-wise and functionally, Veikkaus expects the product be technically modern and meet its requirements as described in Annex: Requirements. 
+
+The term of Procurement Agreement is initial term of one (1) year with auto-renewal each signing date anniversary, unless otherwise explicitly non-renewed, per the notice requirements as described in the Service Agreement.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:Region>anyw-eea</cbc:Region>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="ENG">The comparison basis for the offers is the overall economic affordability, so that the weight of the price is 100%. The quality
+factors of the service have been taken into account in the minimum requirements.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">553841</cbc:ID>
+      <cbc:Name languageID="ENG">Interactive video marketing tool</cbc:Name>
+      <cbc:Description languageID="ENG">Veikkaus aims to boost its marketing capabilities by having access to a proven, professional-grade, interactive video marketing tool that enables Veikkaus content creators to produce, manage and publish engaging video-driven web user journeys.  
+
+The tool is required to be offered as a fully productized web SaaS product with out-of-box deployment. In other words, no product integrations are to be needed apart from connecting to Veikkaus SSO (Single Sign-on) and adding publishing scripts or web links to Veikkaus properties. 
+
+Feature-wise and functionally, Veikkaus expects the product be technically modern and meet its requirements as described in Annex: Requirements. 
+
+The term of Procurement Agreement is initial term of one (1) year with auto-renewal each signing date anniversary, unless otherwise explicitly non-renewed, per the notice requirements as described in the Service Agreement.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:Region>anyw-eea</cbc:Region>
+        </cac:Address>
+      </cac:RealizedLocation>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

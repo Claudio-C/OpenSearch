@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                            <efac:DecisionReason>
+                                <efbc:DecisionReasonCode listName="non-award-justification">rev-body</efbc:DecisionReasonCode>
+                            </efac:DecisionReason>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>6</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">33</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.provincie-utrecht.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Provincie Utrecht</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Archimedeslaan 6</cbc:StreetName>
+                                    <cbc:CityName>Utrecht</cbc:CityName>
+                                    <cbc:PostalZone>3584 BA</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL350</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>59402109</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Max de Vries</cbc:Name>
+                                    <cbc:Telephone>+31 302589111</cbc:Telephone>
+                                    <cbc:ElectronicMail>inkoop@provincie-utrecht.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>https://www.provincie-utrecht.nl/sites/default/files/2021-01/Klachtenregeling%20aanbesteden%20Flevoland%2C%20Noord-Holland%2C%20Zuid-Holland%2C%20Utrecht.pdf</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Klachtenmeldpunt provincie Utrecht</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>Utrecht</cbc:CityName>
+                                    <cbc:PostalZone>3508 TH</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL350</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:ElectronicMail>klachtenmeldpunt@provincie-utrecht.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00367426-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-06+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">058ecf46-b18a-48de-81e9-7fd301983b6a</cbc:ID>
+    <cbc:ContractFolderID>db5aa788-3fef-49dd-a762-e61140476645</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-06-05+02:00</cbc:IssueDate>
+    <cbc:IssueTime>13:55:03.094374275+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-social</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:Description languageID="NLD">Deze procedure begint met een aankondiging van de opdracht (via TenderNed) in het EU-publicatieblad. De procedure kent één ronde, waarin alle inschrijvers (aanbieders die inschrijven met een offerte) direct een offerte kunnen indienen. De inschrijvers en de inschrijvingen (offertes) beoordeelt u tegelijkertijd. Een inschrijver moet voldoen aan eventueel gestelde geschiktheidseisen. Er mogen op hen geen uitsluitingsgronden van toepassing zijn. U gunt de opdracht op basis de beste prijs-kwaliteitsverhouding, de laagste prijs, of op laagste kosten op basis van kosteneffectiviteit. Indien u niet kiest voor de beste prijs-kwaliteitsverhouding maar één van de andere twee criteria dient u die keuze te motiveren in de aanbestedingsstukken. Onderhandelen is niet toegestaan. Beste prijs-kwaliteit verhouding</cbc:Description>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">21851</cbc:ID>
+        <cbc:Name languageID="NLD">Cateringvoorzieningen Huis voor de provincie</cbc:Name>
+        <cbc:Description languageID="NLD">De voorzieningen, die onder deze aanbesteding vallen hebben betrekking op de locaties van de provincie Utrecht zoals ge-noemd in het Programma van eisen, en zijn:
+a)	de exploitatie van het bedrijfsrestaurant voor de provincie Utrecht; 
+b)	de exploitatie van de all day bar (uitgebreide koffiebar) voor de provincie Utrecht;
+c)	de verzorging van de vergader- en lunchservice;
+d)	de verzorging van banqueting, maatwerk en evenementen;
+e)	het verzorgen van werkfruit voor de provincie Utrecht;
+f)	het verzorgen van de mokkenlogistiek (ophalen en schoonmaken kopjes). 
+
+Expliciet buiten de scope van de Opdracht vallen de volgende elementen:
+
+a)	de verzorging van de warme drankenvoorzieningen;
+b)	de horecavoorzieningen ten behoeve van de locatie Paushuize;
+c)	de aanbestedingen voor de verbouwing van de begane grond. 
+
+Zie verder par. 2.5 van de leidraad. Onderstaand zijn de kengetallen van de koffiebar en het restaurant weergegeven. Deze kengetallen zijn tot stand gekomen met behulp van de managementinformatie 2023. Aan deze gegevens zijn geen rechten te ontlenen. De gemiddelde besteding is exclusief btw. 
+
+	                                                                        koffiebar    restaurant
+Gemiddeld aantal dagelijkse be-zoekers 	122	             291
+Gemiddelde besteding 	                                € 2,67	     € 4,23
+
+Het restaurant en de koffiebar zijn gemiddeld 255 dagen per jaar geopend. 
+De banqueting omzet bedroeg in 2023 € 652.717,93 exclusief btw. Hier zijn geen rechten aan te ontlenen.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="NLD">Naar aanleiding van het vonnis in kort geding van de voorzieningenrechter rechtbank Midden-Nederland (zaaknummer C/16/588543 / KG ZA 25-50) d.d. 28 mei 2025 is de provincie gesommeerd de onderhavige Europese aanbestedingsprocedure in te trekken en ingetrokken te houden. Volgens de voorzieningenrechter hadden alle zes inschrijvingen moeten worden uitgesloten van de aanbestedingsprocedure wegens het niet volledig invullen van het prijzenblad.
+
+Als gevolg van dit vonnis is de provincie genoodzaakt om een nieuwe Europese aanbestedingsprocedure te organiseren. De voorbereidingen hiervoor zijn inmiddels gestart. Zodra de aanbestedingsstukken gereed zijn volgt een publicatie op TenderNed/TED.</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55520000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="NLD">Utrecht</cbc:Description>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">NL350</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>25</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Concept en gasttevredenheid</cbc:Name>
+                        <cbc:Description languageID="NLD">De provincie Utrecht wenst dat de gasten van de cateringvoorzieningen tevreden zijn. De voorzieningen bewegen mee met de trends en ontwikkelingen in de markt en de steeds veranderende behoeften in vraag en aanbod. Van de dienstverlener wordt een ondernemende, creatieve en actiegerichte samenwerking gevraagd. 
+
+Inschrijver beschrijft op welke wijze er invulling wordt gegeven aan minimaal de volgende onderwerpen: 
+-	De conceptinvulling voor het restaurant, waarbij in ieder geval wordt ingegaan op een voorstel voor het assorti-ment, de prijsstelling en de beleving;
+-	De wijze waarop Inschrijver gezondheid en vitaliteit implementeert en uitdraagt in het concept;
+-	Hoe Inschrijver borgt dat er dagelijks verrassende smaakcombinaties worden geserveerd. Hierbij gaat u minimaal in op vegetarisch koken en koken met groente;
+-	Een voorstel voor het banqueting assortiment (met vastgestelde VVP’s) en het werkfruit (met prijs en beelden);
+-	Op welke wijze de medewerkers van de provincie zo tevreden mogelijk worden gehouden en hoe er continu wordt ingespeeld op de behoefte en wensen; 
+-	Welke KPI’s er worden voorgesteld om het concept en gasttevredenheid te meten, inclusief beheersmaatregelen. 
+
+Bij deze beoordelingsaspecten wordt gekeken naar de mate waarin het antwoord SMART (Specifiek, Meetbaar, Acceptabel, Realistisch, Tijdgebonden) is geformuleerd. Een meer SMART omschreven beantwoording scoort beter. Bijvoorbeeld aan-toonbaarheid, waarbij een betere aantoonbaarheid – bijvoorbeeld door verwijzing naar eerdere succesvolle toepas-sing/projecten – beter scoort. Er wordt ook gekeken naar de mate waarin het antwoord aansluit bij de gehele visie en alle doelstellingen (1 tot en met 7) van de provincie. 
+
+Voor dit Onderdeel kan Inschrijver maximaal 4 A4 tekst, plus maximaal 2 pagina's A4 aan beelden (foto’s en schetsen die de beschrijving kunnen staven) indienen. Het titelblad en inhoudsopgave tellen niet mee in het maximaal aantal pagina.
+
+Het aantal punten dat maximaal aan de Inschrijving kan worden toegekend voor dit onderdeel is weergegeven in de tabel hierboven onder 5.2.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Duurzaamheid</cbc:Name>
+                        <cbc:Description languageID="NLD">De provincie Utrecht wenst koploper te zijn op het gebied van duurzaam ondernemen, waarbij van de Inschrijver wordt ver-wacht dat er wordt bijgedragen aan de ambities en de 5 criteria zoals deze zijn genoemd in paragraaf 3.1.1 van het Programma van Eisen. 
+
+Inschrijver beschrijft op welke wijze er wordt bijgedragen aan de visie en duurzame doelstellingen van de provincie Utrecht. Daarbij wordt minimaal ingegaan op de volgende onderwerpen: 
+-	Op welke wijze Inschrijver bijdraagt aan het Convenant Lokale &amp; Duurzame Voedselketens provincie Utrecht; en daarmee de 5 criteria en ambities voor de provincie Utrecht; 
+-	Op welke wijze Inschrijver bijdraagt aan de korte keten;
+-	De wijze waarop Inschrijver bijdraagt aan CO2 reductie;
+-	De wijze waarop Inschrijver bijdraagt aan een circulaire samenleving, bijvoorbeeld door het minimaliseren van ver-pakkingen, reststromen en voedselverspilling;
+-	Op welke wijze Inschrijver bewustwording met betrekking tot duurzaamheid creëert onder de pandbewoners van het Huis voor de provincie. 
+
+Bij deze beoordelingsaspecten wordt gekeken naar de mate waarin het antwoord SMART (Specifiek, Meetbaar, Acceptabel, Realistisch, Tijdgebonden) is geformuleerd. Een meer SMART omschreven beantwoording scoort beter. Bijvoorbeeld aan-toonbaarheid, waarbij een betere aantoonbaarheid – bijvoorbeeld door verwijzing naar eerdere succesvolle toepas-sing/projecten – beter scoort. Er wordt ook gekeken naar de mate waarin het antwoord aansluit bij de visie en doelstellingen van de provincie.
+
+Voor dit Onderdeel kan Inschrijver maximaal 4 A4, inclusief beelden indienen. Het titelblad en inhoudsopgave tellen niet mee in het maximaal aantal pagina.
+
+Het aantal punten dat maximaal aan de Inschrijving kan worden toegekend voor dit onderdeel is weergegeven in de tabel hierboven onder 5.2.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>15</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Partnerschap</cbc:Name>
+                        <cbc:Description languageID="NLD">Inschrijver beschrijft op welke wijze er invulling wordt gegeven aan de volgende onderwerpen:
+-	De wijze waarop Inschrijver als partner en expert de provincie Utrecht blijft inspireren op het gebied van innovaties, trends en ontwikkelingen in de wereld van eten &amp; drinken;
+-	Op welke wijze Inschrijver invulling geeft aan diversiteit en inclusie;
+-	Op welke wijze Inschrijver invulling geeft aan een groeimodel en ontwikkelplan gedurende de contractperiode. 
+-	Hoe Inschrijver invulling geeft aan zijn rol in de samenwerking met andere facilitaire partners van de provincie Utrecht;
+-	Op welke wijze Inschrijver invulling geeft aan extra social return bovenop de minimumeis zoals deze in het pro-gramma van eisen is weergegeven.
+
+Bij deze beoordelingsaspecten wordt gekeken naar de mate waarin het antwoord SMART (Specifiek, Meetbaar, Acceptabel, Realistisch, Tijdgebonden) is geformuleerd. Een meer SMART omschreven beantwoording scoort beter. Bijvoorbeeld aan-toonbaarheid, waarbij een betere aantoonbaarheid – bijvoorbeeld door verwijzing naar eerdere succesvolle toepas-sing/projecten – beter scoort. Er wordt ook gekeken naar de mate waarin het antwoord aansluit bij de visie en doelstellingen van de provincie.
+
+Voor dit Onderdeel kan Inschrijver maximaal 2 A4, inclusief beelden indienen. Het titelblad en inhoudsopgave tellen niet mee in het maximaal aantal pagina.
+
+Het aantal punten dat maximaal aan de Inschrijving kan worden toegekend voor dit onderdeel is weergegeven in de tabel hierboven onder 5.2.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Presentatie concept all-day bar</cbc:Name>
+                        <cbc:Description languageID="NLD">Inschrijvers worden verzocht met maximaal 3 personen een presentatie te verzorgen met betrekking tot onderstaande vra-gen. De accountmanager van Inschrijver voor de aanbestedende dienst, is aanwezig en maakt actief deel uit van de presenta-tie. De presentatie bestaat uit 3 onderdelen en duurt maximaal 1 uur. De volgende onderdelen maken onderdeel uit van de presentatie: 
+
+-	Een korte algemene presentatie van de organisatie (maximaal 5 minuten, wordt niet beoordeeld) 
+-	De presentatie van onderstaande vragen (maximaal 30 minuten) 
+-	Stellen van verduidelijkingsvragen over de presentatie (maximaal 25 minuten) 
+
+De schriftelijk uitwerking van dit gunningscriterium, en eventueel de PowerPointpresentatie, wordt uiterlijk 16 oktober via de berichtenmodule in TenderNed verstuurd aan de Aanbestedende dienst. De schriftelijke uitwerking van deze wens mag maximaal 3 leesbare pagina’s A4 (minimale lettergrootte 10) en maximaal 2 pagina's A4 aan beelden (foto’s en schetsen die de beschrijving kunnen staven) bevatten.
+
+Inschrijver behandeld in de presentatie op welke wijze er invulling wordt gegeven aan de volgende onderwerpen:
+-	De conceptinvulling voor de All Day Bar waarbij in ieder geval wordt ingegaan op een voorstel voor het assortiment, de prijsstelling, look &amp; feel en de beleving;
+-	Op welke wijze Inschrijver “to go” en “to stay” toepast;
+-	De koffie en thee in de bar en de mate van duurzaamheid van deze ingrediënten;
+-	De competenties die de medewerkers van Inschrijver moeten hebben om de all day bar en het concept tot een suc-ces te maken;
+-	De wijze waarop het onderwerp “Gezellig” uit de visie op eten en drinken tot uiting komt in de All Day Bar.
+
+Bij deze beoordelingsaspecten wordt gekeken naar de mate waarin het antwoord SMART (Specifiek, Meetbaar, Acceptabel, Realistisch, Tijdgebonden) is geformuleerd. Een meer SMART omschreven beantwoording scoort beter. Bijvoorbeeld aan-toonbaarheid, waarbij een betere aantoonbaarheid – bijvoorbeeld door verwijzing naar eerdere succesvolle toepas-sing/projecten – beter scoort. Er wordt ook gekeken naar de mate waarin het antwoord aansluit bij de visie en doelstellingen van de provincie.
+
+Het aantal punten dat maximaal aan de Inschrijving kan worden toegekend voor dit onderdeel is weergegeven in de tabel hierboven onder 5.2.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Totale inschrijfprijs</cbc:Name>
+                        <cbc:Description languageID="NLD">Inschrijvers dienen het bijgevoegde Bijlage 11 Format Prijzenblad volledig in te vullen en in TenderNed te uploaden als .xls(x)- en .pdf-bestand. Het niet volledig invullen of wijzigen van het Format Prijzenblad leidt tot uitsluiting van de Inschrij-ving. Het is enkel toegestaan positieve bedragen in te vullen. De prijsopgave dient in Euro’s (€) (op 2 decimalen) en exclusief BTW te geschieden. Meer specifieke voorschriften staan in de invulinstructie van het Format Prijzenblad.
+
+Tenzij uitdrukkelijk anders bepaald in de Aanbestedingsstukken zijn prijzen all-in en exclusief BTW. Indexering van aangebo-den prijzen is wel mogelijk conform het bepaalde in de Overeenkomst.
+
+De punten op het subgunningscriterium Prijs worden als volgt toegekend:
+
+Laagste totale inschrijfprijs
+--------------------------------    		x 30 (afgerond op 2 decimalen)
+Ingediende totale inschrijfprijs
+
+In het Prijzenblad is een invulinstructie opgenomen.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:MediationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:MediationParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Cateringvoorzieningen Huis voor de provincie</cbc:Name>
+            <cbc:Description languageID="NLD">De voorzieningen, die onder deze aanbesteding vallen hebben betrekking op de locaties van de provincie Utrecht zoals ge-noemd in het Programma van eisen, en zijn:
+a)	de exploitatie van het bedrijfsrestaurant voor de provincie Utrecht; 
+b)	de exploitatie van de all day bar (uitgebreide koffiebar) voor de provincie Utrecht;
+c)	de verzorging van de vergader- en lunchservice;
+d)	de verzorging van banqueting, maatwerk en evenementen;
+e)	het verzorgen van werkfruit voor de provincie Utrecht;
+f)	het verzorgen van de mokkenlogistiek (ophalen en schoonmaken kopjes). 
+
+Expliciet buiten de scope van de Opdracht vallen de volgende elementen:
+
+a)	de verzorging van de warme drankenvoorzieningen;
+b)	de horecavoorzieningen ten behoeve van de locatie Paushuize;
+c)	de aanbestedingen voor de verbouwing van de begane grond. 
+
+Het Huis voor de provincie is een multi-tenant gebouw. Het gebouw bestaat feitelijk uit twee delen. Een twee verdiepingen tellende laagbouw waarin onder andere de ontvangstruimte, restaurant en vergaderruimtes zijn gesitueerd en een 18 verdie-pingen tellende hoogbouw, bestaande uit de kantoorruimtes en een technische ruimte. De provincie verhuurt een aantal werkverdiepingen en vergaderzalen aan regionale diensten (externe huurders), die ook gebruik maken van de algemene ruimtes en gedeelde faciliteiten zoals het vergadercentrum en het restaurant. Ook kunnen er in het vergadercentrum externe evenementen plaatsvinden. Daarnaast zijn op dit moment drie verdiepingen ingezet voor de tijdelijke opvang van vluchtelin-gen; zij bewonen deze verdiepingen. 
+
+Gedurende de overeenkomst is de provincie Utrecht voornemens om de begane grond en de all day bar te verbouwen. Dit kan een effect hebben op de uitvoering van de dienstverlening en daarmee de omzet, de kosten en de aanneemsom voor deze voorzieningen. Indien de omzetdaling méér dan 10% bedraagt, zullen Opdrachtgever en Opdrachtnemer, het gesprek aan-gaan om de aanneemsom aan te passen, na goedkeuring Opdrachtgever. Na het afronden van de verbouwingen zal de oor-spronkelijke aanneemsom weer gelden.
+
+De minimumeisen waaraan Opdrachtnemer gehouden is bij de uitvoering van de Opdracht, zijn opgenomen in de Aanbeste-dingsstukken. Inschrijvers dienen zich hier, op straffe van uitsluiting, onvoorwaardelijk aan te conformeren hetgeen zij doen door het indienen van een Inschrijving. Onderstaand zijn de kengetallen van de koffiebar en het restaurant weergegeven. Deze kengetallen zijn tot stand gekomen met behulp van de managementinformatie 2023. Aan deze gegevens zijn geen rechten te ontlenen. De gemiddelde besteding is exclusief btw. 
+
+	                                                                        koffiebar	restaurant
+Gemiddeld aantal dagelijkse be-zoekers 	122	                291
+Gemiddelde besteding 	                                € 2,67	       € 4,23
+
+Het restaurant en de koffiebar zijn gemiddeld 255 dagen per jaar geopend. 
+De banqueting omzet bedroeg in 2023 € 652.717,93 exclusief btw. Hier zijn geen rechten aan te ontlenen.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">55520000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="NLD">Utrecht</cbc:Description>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">NL350</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2025-04-01+02:00</cbc:StartDate>
+                <cbc:EndDate>2032-03-31+02:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="NLD">Gedurende de looptijd van de overeenkomst behoudt provincie Utrecht zich het recht voor om de opdracht op basis van artikel 2.163c Aw als volgt te wijzigen:
+
+-	Indien het aantal pandgebruikers (exclusief Oekraïense bewoners) gedurende een aaneengesloten periode van 3 maan-den of langer structureel verandert dan mag Opdrachtnemer de aanneemsom aanpassen. Hierbij wordt een bandbreed-te van +/- 15% meer of minder dagelijks aanwezige pandgebruikers gehanteerd.</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="NLD">Er is sprake van een dienstverleningsovereenkomst met een initiële looptijd van 84 maanden. Na het verstrijken van deze periode heeft de Aanbestedende dienst de mogelijkheid de Opdracht driemaal tegen dezelfde voorwaarden te verlengen voor een periode van telkens 12 maanden.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>
