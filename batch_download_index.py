@@ -10,6 +10,7 @@ import argparse
 import subprocess
 import logging
 import time
+import concurrent.futures
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -80,6 +81,10 @@ def get_available_ojs_for_year(year):
     logger.info(f"Found {len(sorted_publications)} available publications for year {year}")
     return sorted_publications
 
+def download_and_index_ojs_wrapper(args):
+    """Wrapper function to handle unpacking of arguments for concurrent execution."""
+    return download_and_index_ojs(*args)
+
 def download_and_index_ojs(year, ojs, date):
     """Download and index a specific OJS package."""
     # Format the OJS part as a 5-digit number with leading zeros (00XXX)
@@ -109,12 +114,24 @@ def download_and_index_ojs(year, ojs, date):
         logger.info(f"Download successful: {output_path}")
         
         # Index the downloaded package
-        index_package(output_path)
+        result = index_package(output_path)
         
-        return True
+        return {
+            "year": year,
+            "ojs": ojs,
+            "date": date,
+            "path": output_path,
+            "success": result
+        }
     except requests.exceptions.RequestException as e:
         logger.error(f"Failed to download package: {e}")
-        return False
+        return {
+            "year": year,
+            "ojs": ojs,
+            "date": date,
+            "path": None,
+            "success": False
+        }
 
 def index_package(package_path):
     """Index a downloaded package using the index_ted_packages.py script."""
@@ -150,7 +167,7 @@ def index_package(package_path):
         logger.error(f"Error indexing package {package_path}: {e}")
         return False
 
-def process_year_range(start_year, end_year, skip_existing=False):
+def process_year_range(start_year, end_year, skip_existing=False, max_concurrent_downloads=3, max_concurrent_years=2):
     """Process a range of years, downloading and indexing all available publications."""
     download_dir = os.getenv("TED_DOWNLOAD_DIR", "/home/ia/TenderSync/OpenSearch/downloads")
     stats = {
@@ -170,37 +187,26 @@ def process_year_range(start_year, end_year, skip_existing=False):
         with open(tracking_file, "r") as f:
             processed = set(line.strip() for line in f)
     
-    # Process each year
-    for year in range(start_year, end_year + 1):
-        logger.info(f"Processing year {year}")
-        publications = get_available_ojs_for_year(str(year))
+    # Process multiple years concurrently
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_concurrent_years) as year_executor:
+        year_futures = {}
         
-        for ojs, date in publications:
-            package_id = f"{year}-{ojs}"
-            stats["total"] += 1
-            
-            # Skip if already processed
-            if skip_existing and package_id in processed:
-                logger.info(f"Skipping already processed publication: {package_id}")
-                stats["skipped"] += 1
-                continue
-            
-            # Download and index
-            success = download_and_index_ojs(str(year), ojs, date)
-            
-            if success:
-                stats["downloaded"] += 1
-                stats["indexed"] += 1
-                
-                # Mark as processed
-                with open(tracking_file, "a") as f:
-                    f.write(f"{package_id}\n")
-                processed.add(package_id)
-            else:
-                stats["failed"] += 1
-            
-            # Add a small delay between requests to be nice to the server
-            time.sleep(2)
+        # Submit all years to the executor
+        for year in range(start_year, end_year + 1):
+            future = year_executor.submit(process_single_year, year, processed, tracking_file, skip_existing, max_concurrent_downloads)
+            year_futures[future] = year
+        
+        # Process the results as they complete
+        for future in concurrent.futures.as_completed(year_futures):
+            year = year_futures[future]
+            try:
+                year_stats = future.result()
+                # Combine stats
+                for key in stats:
+                    stats[key] += year_stats[key]
+                logger.info(f"Completed processing year {year}")
+            except Exception as e:
+                logger.error(f"Error processing year {year}: {e}")
     
     # Print statistics
     logger.info("Batch processing completed")
@@ -210,6 +216,60 @@ def process_year_range(start_year, end_year, skip_existing=False):
     logger.info(f"Skipped (already processed): {stats['skipped']}")
     
     return stats
+
+def process_single_year(year, processed, tracking_file, skip_existing, max_concurrent_downloads):
+    """Process a single year, downloading and indexing all available publications."""
+    year_stats = {
+        "total": 0,
+        "downloaded": 0,
+        "indexed": 0,
+        "failed": 0,
+        "skipped": 0
+    }
+    
+    logger.info(f"Processing year {year}")
+    publications = get_available_ojs_for_year(str(year))
+    
+    if not publications:
+        logger.warning(f"No publications found for year {year}")
+        return year_stats
+    
+    # Group the publications into batches for parallel processing
+    download_tasks = []
+    for ojs, date in publications:
+        package_id = f"{year}-{ojs}"
+        year_stats["total"] += 1
+        
+        # Skip if already processed
+        if skip_existing and package_id in processed:
+            logger.info(f"Skipping already processed publication: {package_id}")
+            year_stats["skipped"] += 1
+            continue
+        
+        download_tasks.append((str(year), ojs, date))
+    
+    # Process downloads in parallel
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_concurrent_downloads) as executor:
+        results = list(executor.map(download_and_index_ojs_wrapper, download_tasks))
+        
+        for result in results:
+            package_id = f"{result['year']}-{result['ojs']}"
+            
+            if result['success']:
+                year_stats["downloaded"] += 1
+                year_stats["indexed"] += 1
+                
+                # Mark as processed
+                with open(tracking_file, "a") as f:
+                    f.write(f"{package_id}\n")
+                processed.add(package_id)
+            else:
+                year_stats["failed"] += 1
+            
+            # Add a small delay between batches to be nice to the server
+            time.sleep(0.5)
+    
+    return year_stats
 
 def main():
     current_year = datetime.now().year
@@ -221,6 +281,12 @@ def main():
                         help=f"Ending year (default: current year {current_year})")
     parser.add_argument("--skip-existing", action="store_true", 
                         help="Skip already processed publications")
+    parser.add_argument("--max-concurrent-downloads", type=int, 
+                        default=int(os.getenv("MAX_CONCURRENT_DOWNLOADS", "3")),
+                        help="Maximum number of concurrent downloads per year")
+    parser.add_argument("--max-concurrent-years", type=int, 
+                        default=int(os.getenv("MAX_CONCURRENT_YEARS", "2")),
+                        help="Maximum number of years to process in parallel")
     
     args = parser.parse_args()
     
@@ -233,9 +299,17 @@ def main():
         args.end_year = current_year
     
     logger.info(f"Starting batch download and indexing from {args.start_year} to {args.end_year}")
+    logger.info(f"Using up to {args.max_concurrent_downloads} concurrent downloads per year")
+    logger.info(f"Processing up to {args.max_concurrent_years} years in parallel")
     
     # Process the year range
-    stats = process_year_range(args.start_year, args.end_year, args.skip_existing)
+    stats = process_year_range(
+        args.start_year, 
+        args.end_year, 
+        args.skip_existing,
+        args.max_concurrent_downloads,
+        args.max_concurrent_years
+    )
     
     if stats["failed"] > 0:
         sys.exit(1)

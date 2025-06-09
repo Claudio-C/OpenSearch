@@ -41,13 +41,14 @@ def extract_package(package_path, output_dir):
         elif package_path.endswith('.tar.gz') or package_path.endswith('.tgz'):
             # Handle tar.gz files
             with tarfile.open(package_path, 'r:gz') as tar_ref:
-                tar_ref.extractall(output_dir)
+                # Add filter='data' to address Python 3.14 deprecation warning
+                tar_ref.extractall(output_dir, filter='data')
         else:
             # Try to guess the format
             try:
                 # Try as tar.gz first
                 with tarfile.open(package_path, 'r:gz') as tar_ref:
-                    tar_ref.extractall(output_dir)
+                    tar_ref.extractall(output_dir, filter='data')
             except tarfile.ReadError:
                 # Try as zip
                 with zipfile.ZipFile(package_path, 'r') as zip_ref:
@@ -138,7 +139,7 @@ def chunk_list(lst, chunk_size):
         yield lst[i:i + chunk_size]
 
 def bulk_index(opensearch_url, index_name, docs, username=None, password=None):
-    """Index multiple documents in bulk."""
+    """Index multiple documents in bulk with retry mechanism."""
     if not docs:
         return {"errors": False, "items": []}
     
@@ -146,35 +147,74 @@ def bulk_index(opensearch_url, index_name, docs, username=None, password=None):
     if username and password:
         auth = (username, password)
     
+    # Prepare the bulk data
     bulk_data = []
     for doc in docs:
         bulk_data.append(json.dumps({"index": {"_index": index_name, "_id": doc["_id"]}}))
         bulk_data.append(json.dumps(doc["_source"]))
     
     bulk_body = "\n".join(bulk_data) + "\n"
-    
     headers = {"Content-Type": "application/x-ndjson"}
     
-    try:
-        response = requests.post(
-            f"{opensearch_url}/_bulk",
-            headers=headers,
-            data=bulk_body,
-            auth=auth
-        )
-        
-        if response.status_code >= 200 and response.status_code < 300:
-            result = response.json()
-            if result.get("errors", False):
-                errors = [item for item in result.get("items", []) if item.get("index", {}).get("error")]
-                logger.error(f"Bulk indexing had errors: {errors[:3]}...")
-            return result
-        else:
-            logger.error(f"Failed to bulk index documents: {response.text}")
-            return {"errors": True, "items": []}
-    except Exception as e:
-        logger.error(f"Error during bulk indexing: {e}")
-        return {"errors": True, "items": []}
+    # Retry settings
+    max_retries = 5
+    retry_count = 0
+    backoff_time = 2  # Initial backoff in seconds
+    
+    while retry_count <= max_retries:
+        try:
+            response = requests.post(
+                f"{opensearch_url}/_bulk",
+                headers=headers,
+                data=bulk_body,
+                auth=auth
+            )
+            
+            # Handle successful response
+            if response.status_code >= 200 and response.status_code < 300:
+                result = response.json()
+                if result.get("errors", False):
+                    errors = [item for item in result.get("items", []) if item.get("index", {}).get("error")]
+                    logger.error(f"Bulk indexing had errors: {errors[:3]}...")
+                return result
+                
+            # Handle rate limiting/rejection (429) responses
+            elif response.status_code == 429:
+                retry_count += 1
+                wait_time = backoff_time ** retry_count
+                logger.warning(f"OpenSearch overwhelmed (429). Retrying in {wait_time}s (attempt {retry_count}/{max_retries})")
+                logger.warning(f"Response: {response.text}")
+                time.sleep(wait_time)
+                continue
+                
+            # Handle other errors
+            else:
+                logger.error(f"Failed to bulk index documents: {response.text}")
+                
+                # If we've exhausted our retries, return error
+                if retry_count >= max_retries:
+                    return {"errors": True, "items": []}
+                    
+                # Otherwise retry with backoff
+                retry_count += 1
+                wait_time = backoff_time ** retry_count
+                logger.warning(f"Retrying in {wait_time}s (attempt {retry_count}/{max_retries})")
+                time.sleep(wait_time)
+                
+        except Exception as e:
+            logger.error(f"Error during bulk indexing: {e}")
+            
+            # If we've exhausted our retries, return error
+            if retry_count >= max_retries:
+                return {"errors": True, "items": []}
+                
+            # Otherwise retry with backoff
+            retry_count += 1
+            wait_time = backoff_time ** retry_count
+            logger.warning(f"Retrying in {wait_time}s (attempt {retry_count}/{max_retries})")
+            time.sleep(wait_time)
+    
+    return {"errors": True, "items": []}
 
 def create_index_if_not_exists(opensearch_url, index_name, username=None, password=None):
     """Create the index if it doesn't exist."""
@@ -310,8 +350,10 @@ def index_xml_files(xml_files, opensearch_url, index_name, bulk_size=100, num_wo
                 
                 # If we have enough documents, index them in bulk
                 if len(processed_docs) >= bulk_size:
-                    bulk_index(opensearch_url, index_name, processed_docs, username, password)
+                    bulk_result = bulk_index(opensearch_url, index_name, processed_docs, username, password)
                     processed_docs = []
+                    # Add a small delay between bulk requests to reduce load on the server
+                    time.sleep(0.5)
     
     # Index any remaining documents
     if processed_docs:
